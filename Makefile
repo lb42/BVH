@@ -60,7 +60,7 @@ checkLinks:
 	$(SAXON) -xi $(CLEANCORPUS)/driver.xml checkSharps.xsl | grep ERROR | sort | uniq > failedLinks.txt
 
 driver:
-	cd $(CORPUS); cp $(CORPUSHDR) driver.xml;\
+	cd $(CLEANCORPUS); cp $(CORPHDR) driver.xml;\
  		for f in $(FILES) ; do \
 		echo "<include xmlns='http://www.w3.org/2001/XInclude' href='$$f'/>" >> driver.xml; \
 	done; echo "</teiCorpus>" >> driver.xml; cd $(CURRENT);
