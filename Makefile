@@ -10,6 +10,7 @@ CLEANUP=$(ROOT)/cleanup.xsl
 IDENTITY=$(ROOT)/identity.xsl
 SCHEMA=/home/lou/Public/TEI/P5/Exemplars/tei_all.rng
 OBE=/home/lou/Public/Stylesheets.git/trunk/tools/oddbyexample.xsl
+CORPHDR=/home/lou/Public/BVH/corphdr.txt
 
 include theFiles
 
@@ -41,8 +42,7 @@ checkSpec:
 		$$f ; done; cd $(CURRENT);
 
 cleanup:
-	echo Do cleanup ; mkdir $(CLEANCORPUS) ;
-	
+	echo Do cleanup ; 
 
 	cd $(NEWCORPUS); 	for f in $(FILES) ; do \
 		echo $$f; \
@@ -58,3 +58,9 @@ checkClean:
 		$$f ; done; cd $(CURRENT);
 checkLinks:
 	$(SAXON) -xi $(CLEANCORPUS)/driver.xml checkSharps.xsl | grep ERROR | sort | uniq > failedLinks.txt
+
+driver:
+	cd $(CORPUS); cp $(CORPUSHDR) driver.xml;\
+ 		for f in $(FILES) ; do \
+		echo "<include xmlns='http://www.w3.org/2001/XInclude' href='$$f'/>" >> driver.xml; \
+	done; echo "</teiCorpus>" >> driver.xml; cd $(CURRENT);
