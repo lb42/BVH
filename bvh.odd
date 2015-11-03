@@ -193,6 +193,7 @@
                         <valItem ident="honorifique"/>
                         <valItem ident="nobiliaire"/>
                         <valItem ident="religieux"/>
+                        <valItem ident="militaire"/>
                      </valList>
                   </attDef>
                   <attDef ident="subtype" mode="delete"/>
@@ -1018,20 +1019,13 @@
                         <valItem ident="titre_court"/>
                         <valItem ident="titre_long"/>
                         <valItem ident="titre_variante"/>
+                        <valItem ident="titre_conventionnel"/>
                      </valList>
                   </attDef>
                   <attDef ident="corresp" mode="delete"/>
                   <attDef ident="facs" mode="delete"/>
                   <attDef ident="key" mode="delete"/>
-                  <attDef ident="type" mode="change">
-                     <valList mode="add" type="closed">
-                        <valItem ident="contribution"/>
-                        <valItem ident="legende"/>
-                        <valItem ident="titre_court"/>
-                        <valItem ident="titre_long"/>
-                        <valItem ident="titre_variante"/>
-                     </valList>
-                  </attDef>
+                 
                   <attDef ident="subtype" mode="delete"/>
                </attList>
             </elementSpec>
@@ -1967,8 +1961,9 @@
                         <valItem ident="ajout_ms"/>
                         <valItem ident="alphabet"/>
                         <valItem ident="anterotique"/>
-                        <valItem ident="argument"/>
-                        <valItem ident="au_lecteur"/>
+                       <valItem ident="argument"/>
+                        <valItem ident="Arret"/>
+                         <valItem ident="au_lecteur"/>
                         <valItem ident="avertissement"/>
                         <valItem ident="ballade"/>
                         <valItem ident="blason"/>
