@@ -150,19 +150,19 @@
                      <author>Desgraves, Louis</author>,
                      <title><hi rend="it">Elie Vinet, humaniste de Bordeaux (1509-1587). Vie, Bibliographie, Correspondance, Bibliothèque</hi></title>,
                      <pubPlace>Genève</pubPlace>,<publisher>Librairie Droz</publisher>,
-                     <date>1977</date>, <biblScope type="page">p. 148-149</biblScope>
+                     <date>1977</date>, <biblScope unit="page">p. 148-149</biblScope>
                     </bibl>
                     <bibl>
                     <author>Barrère, Joseph</author>,
                      <title><hi rend="it">Elie Vinet</hi></title>,
                     <publisher>Archives historiques de la Gironde</publisher>, <date>1895</date>,
-                    <biblScope type="tome">tome XXX</biblScope>, <biblScope type="page">p. 72-73</biblScope>,
+                    <biblScope unit="tome">tome XXX</biblScope>, <biblScope unit="page">p. 72-73</biblScope>,
                       <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k34129j.image.r=archives+historiques+gironde.langFR.f109.tableDesMatieres">Gallica - Bibliothèque Nationale de France</ref>
                    </bibl>
                    <bibl>
                     <author>Dezeimeris (R.)</author>, <author>Courteault (P.)</author>,
                     <title>A la mémoire du saintongeais Elie Vinet...</title>, <title type="contribution">Lettres d&#x2019;Elie Vinet</title>,
-                    <pubPlace>Bordeaux</pubPlace>, <date>1910</date>, <biblScope type="page">p. 153-173</biblScope>
+                    <pubPlace>Bordeaux</pubPlace>, <date>1910</date>, <biblScope unit="page">p. 153-173</biblScope>
                    </bibl>
                   </listBibl>
                 </source>
