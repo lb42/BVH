@@ -118,7 +118,7 @@
   
   <!-- make name/@key into name/@ref in the header -->
   
-  <!--<xsl:template match="tei:teiHeader//tei:name/@key">
+  <!--<xsl:template match="tei:teiHeader//name/@key">
     <xsl:attribute name="ref">
       <xsl:choose>
         <xsl:when test="starts-with(.,'#')"><xsl:value-of select="."/>
@@ -264,6 +264,13 @@
   </xsl:if>
   </xsl:template>  
   
+  <!-- change @corresp to @resp on ab -->
+  <xsl:template match="tei:ab/@corresp">
+    <xsl:attribute name="resp">
+      <xsl:value-of select="."/>       
+    </xsl:attribute>
+  </xsl:template>  
+  
   <xsl:template match="tei:resp/@corresp"/> <!-- redundant with sibling <resp> -->
   <xsl:template match="tei:edition/@corresp"/> <!-- or make them both into child <ref>s -->
   
@@ -365,7 +372,7 @@
           <xsl:apply-templates select="."/>
         </xsl:for-each>
       </xsl:element>
-      <xsl:if test="tei:surrogates/tei:bibl">
+      <xsl:if test="//tei:source/tei:listBibl">
       <xsl:element name="listBibl" namespace="http://www.tei-c.org/ns/1.0" >
         <xsl:for-each select="tei:adminInfo/tei:recordHist/tei:source/tei:listBibl/tei:bibl">
           <xsl:apply-templates select="."/>
@@ -440,8 +447,8 @@
     <xsl:template match="tei:pb">
         <xsl:choose>
             <xsl:when test="following-sibling::tei:fw[@type='pageNum']">
-                <xsl:element name="pb" namespace="http://www.tei-c.org/ns/1.0" >
-                    <!-- xsl:copy-of select="@*[not(@n)]"/-->
+              <xsl:element name="pb" namespace="http://www.tei-c.org/ns/1.0" >
+                <!-- xsl:copy-of select="@*[not(@n)]"/-->
                     <!-- The attribute axis starting at an attribute node will never select anything-->
                     <xsl:copy-of select="@*[not(local-name(.)='n')]"/>
                    
@@ -455,12 +462,11 @@
                             </xsl:otherwise>
                         </xsl:choose>
                     </xsl:attribute>
-                </xsl:element>
-            </xsl:when>
+            </xsl:element></xsl:when>
             <xsl:otherwise>
-                <pb>
-                    <xsl:copy-of select="@*"/>
-                </pb>
+              <xsl:element name="pb" namespace="http://www.tei-c.org/ns/1.0" >
+                <xsl:copy-of select="@*"/>
+              </xsl:element>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
