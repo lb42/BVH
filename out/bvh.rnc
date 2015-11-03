@@ -6,7 +6,7 @@ namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2015-05-07T11:36:52Z. .
+# Schema generated from ODD source 2015-11-03T16:15:13Z. .
 # TEI Edition: Version 2.8.0. Last updated on
 #	6th April 2015, revision 13197
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -2155,6 +2155,9 @@ title =
       | 
         ##
         "titre_variante"
+      | 
+        ##
+        "titre_conventionnel"
     }?,
     empty
   }
@@ -2270,9 +2273,6 @@ pubPlace =
         (
          ##
          "impression"
-         | 
-           ##
-           "pubPlace"
          | 
            ##
            "vente")+
@@ -2854,6 +2854,7 @@ orgName =
     att.ranging.attribute.max,
     att.ranging.attribute.confidence,
     att.canonical.attribute.key,
+    att.canonical.attribute.ref,
     
     ## characterizes the element in some sense, using any convenient classification scheme or typology.
     attribute type {
@@ -2900,6 +2901,7 @@ persName =
     att.ranging.attribute.max,
     att.ranging.attribute.confidence,
     att.canonical.attribute.key,
+    att.canonical.attribute.ref,
     
     ## indicates whether the name component is given in full, as an abbreviation or simply as an initial.
     [ a:defaultValue = "yes" ]
@@ -2907,6 +2909,16 @@ persName =
       
       ##
       "yes"
+    }?,
+    
+    ## characterizes the element in some sense, using any convenient classification scheme or typology.
+    attribute type {
+      
+      ##
+      "allegorie"
+      | 
+        ##
+        "nationality"
     }?,
     empty
   }
@@ -3044,6 +3056,9 @@ roleName =
       | 
         ##
         "religieux"
+      | 
+        ##
+        "militaire"
     }?,
     empty
   }
@@ -3080,6 +3095,7 @@ placeName =
     att.global.analytic.attribute.ana,
     att.global.change.attribute.change,
     att.canonical.attribute.key,
+    att.canonical.attribute.ref,
     
     ## characterizes the element in some sense, using any convenient classification scheme or typology.
     attribute type {
@@ -3164,6 +3180,7 @@ settlement =
     att.global.change.attribute.change,
     att.global.responsibility.attribute.cert,
     att.global.responsibility.attribute.resp,
+    att.canonical.attribute.ref,
     att.datable.iso.attribute.when-iso,
     att.datable.iso.attribute.notBefore-iso,
     att.datable.iso.attribute.notAfter-iso,
@@ -5588,6 +5605,9 @@ body =
       | 
         ##
         "argument"
+      | 
+        ##
+        "Arret"
       | 
         ##
         "au_lecteur"

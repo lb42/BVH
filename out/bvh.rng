@@ -3,10 +3,10 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2015-06-25T13:16:41Z. .
-TEI Edition: Version 2.8.1a. Last updated on
-	11th May 2015, revision 13212
-TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.1a./
+Schema generated from ODD source 2015-11-03T16:14:55Z. .
+TEI Edition: Version 2.8.0. Last updated on
+	6th April 2015, revision 13197
+TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
   
 --><!---->
    <define name="macro.paraContent">
@@ -3754,6 +3754,8 @@ Elements]</a:documentation>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>titre_variante</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>titre_conventionnel</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                </choice>
             </attribute>
          </optional>
@@ -3887,8 +3889,6 @@ Licensing, etc.]</a:documentation>
                   <oneOrMore>
                      <choice>
                         <value>impression</value>
-                        <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                        <value>pubPlace</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                         <value>vente</value>
                         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
@@ -4808,6 +4808,8 @@ relatedItem element must be empty</sch:report>
                   <value>nobiliaire</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>religieux</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>militaire</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                </choice>
             </attribute>
@@ -7907,6 +7909,8 @@ The element <name/> may appear once only
                   <value>anterotique</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>argument</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value>Arret</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                   <value>au_lecteur</value>
                   <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
