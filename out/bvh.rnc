@@ -6,7 +6,7 @@ namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2015-11-03T16:15:13Z. .
+# Schema generated from ODD source 2015-11-05T16:35:43Z. .
 # TEI Edition: Version 2.8.0. Last updated on
 #	6th April 2015, revision 13197
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -5315,6 +5315,9 @@ ab =
       
       ##
       "note"
+      | 
+        ##
+        "signature"
     }?,
     empty
   }
@@ -5419,7 +5422,10 @@ TEI =
     attribute type {
       
       ##
-      "Art_poetique"
+      "Arret"
+      | 
+        ##
+        "Art_poetique"
       | 
         ##
         "Discours"

@@ -3,7 +3,7 @@
   <xs:import namespace="http://www.isocat.org/ns/dcr" schemaLocation="dcr.xsd"/>
   <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
   <!--
-    Schema generated from ODD source 2015-11-03T16:15:02Z. .
+    Schema generated from ODD source 2015-11-05T16:35:32Z. .
     TEI Edition: Version 2.8.0. Last updated on
     	6th April 2015, revision 13197
     TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -8079,6 +8079,11 @@ Licensing, etc.]</xs:documentation>
                     <xs:documentation/>
                   </xs:annotation>
                 </xs:enumeration>
+                <xs:enumeration value="signature">
+                  <xs:annotation>
+                    <xs:documentation/>
+                  </xs:annotation>
+                </xs:enumeration>
               </xs:restriction>
             </xs:simpleType>
           </xs:attribute>
@@ -8221,6 +8226,11 @@ Licensing, etc.]</xs:documentation>
         </xs:annotation>
         <xs:simpleType>
           <xs:restriction base="xs:token">
+            <xs:enumeration value="Arret">
+              <xs:annotation>
+                <xs:documentation/>
+              </xs:annotation>
+            </xs:enumeration>
             <xs:enumeration value="Art_poetique">
               <xs:annotation>
                 <xs:documentation/>

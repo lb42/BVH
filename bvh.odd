@@ -1845,6 +1845,8 @@
                   <attDef ident="type" mode="change">
                      <valList mode="add" type="closed">
                         <valItem ident="note"/>
+                        <valItem ident="signature"/>
+                        
                      </valList>
                   </attDef>
                   <attDef ident="subtype" mode="delete"/>
@@ -1900,6 +1902,7 @@
                   <attDef ident="facs" mode="delete"/>
                   <attDef ident="type" mode="change">
                      <valList mode="add" type="closed">
+                        <valItem ident="Arret"/>
                         <valItem ident="Art_poetique"/>
                         <valItem ident="Discours"/>
                         <valItem ident="Eglogue"/>

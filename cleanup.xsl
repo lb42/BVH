@@ -121,7 +121,7 @@
   <xsl:template match="tei:teiHeader//tei:persName/@key" priority="2">
     <xsl:choose>
       <xsl:when test="starts-with(., 'resp')"/>
-      <xsl:when test="starts-with(., 'xx')"/>
+      <xsl:when test="starts-with(., 'xx')"/>      
       <xsl:otherwise>
         <xsl:attribute name="ref">
           <xsl:value-of select="concat('#', .)"/>
@@ -302,13 +302,19 @@
     </xsl:if>
   </xsl:template>
 
-  <!-- change @corresp to @resp on ab -->
+  <!-- change @corresp to @resp on ab and note-->
   <xsl:template match="tei:ab/@corresp">
     <xsl:attribute name="resp">
       <xsl:value-of select="."/>
     </xsl:attribute>
   </xsl:template>
 
+  <xsl:template match="tei:note/@corresp">
+    <xsl:attribute name="resp">
+      <xsl:value-of select="."/>
+    </xsl:attribute>
+  </xsl:template>
+  
   <xsl:template match="tei:resp/@corresp"/>
   <!-- redundant with sibling <resp> -->
   <xsl:template match="tei:edition/@corresp"/>
@@ -450,6 +456,8 @@
 
 
   <!-- misc oddities/errors -->
+
+<xsl:template match="tei:text/@subtype"/>
 
   <xsl:template match="@rendition"/>
   <xsl:template match="tei:tagsDecl"/>
