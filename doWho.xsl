@@ -12,9 +12,8 @@
     <xsl:key name="IDS" match="*[@xml:id]" use="@xml:id"/>
 
 
-    <xsl:template match="tei:profileDesc">
-        <xsl:copy>
-            <xsl:apply-templates/>
+    <xsl:template match="/">
+      
             <xsl:element name="particDesc" xmlns="http://www.tei-c.org/ns/1.0">
                 <xsl:for-each-group select="key('Peeps1', 1)" group-by=".">
                     <xsl:sort select="current-grouping-key()"/>
@@ -49,25 +48,8 @@
                     </xsl:element>
                 </xsl:for-each-group>
             </xsl:element>
-        </xsl:copy>
     </xsl:template>
 
-    <!-- copy everything else -->
-
-    <xsl:template match="*">
-        <xsl:copy>
-            <xsl:apply-templates select="@*"/>
-            <xsl:apply-templates select="* | comment() | processing-instruction() | text()"/>
-        </xsl:copy>
-    </xsl:template>
-
-    <xsl:template match="@* | processing-instruction() | text()">
-        <xsl:copy/>
-    </xsl:template>
-
-    <xsl:template match="comment()">
-        <xsl:copy/>
-    </xsl:template>
-
+   
 
 </xsl:stylesheet>

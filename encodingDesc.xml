@@ -4,6 +4,8 @@
             <listPerson>
                 <person xml:id="AA"/>
                 <person xml:id="AD"/>
+                <person xml:id="AL"/>
+                
                 <person xml:id="BP"/>
                 <person xml:id="CdB">
                     <persName>Christine de Buzon</persName>
@@ -11,6 +13,8 @@
                 <person xml:id="Capnodia"/>
                 <person xml:id="Corte"/>
                 <person xml:id="DA"/>
+                <person xml:id="DL"/>
+                <person xml:id="EF"/>
                 
                 <person xml:id="EG"/>
                 <person xml:id="JF"/>
@@ -31,6 +35,8 @@
                 <person xml:id="Telosie"/>
                 <person xml:id="VLR"/>
                 <person xml:id="clement_marot"/>
+                
+               
             </listPerson>
         </p>
     </projectDesc>

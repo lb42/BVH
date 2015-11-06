@@ -61,10 +61,13 @@
 
   <!-- remove xml:id, used haphazardly on various elements -->
   <xsl:template match="tei:milestone/@xml:id"/>
-  <!-- Lauranne to check if used -->
-  <!--xsl:template match="tei:handNote/@xml:id"/-->
+  <xsl:template match="tei:respStmt/@xml:id"/>
   <xsl:template match="tei:zone/@xml:id"/>
   <xsl:template match="tei:abbr/@xml:id"/>
+  <xsl:template match="tei:bibl/@xml:id"/>
+  <xsl:template match="tei:role/@xml:id"/>
+  <xsl:template match="tei:castItem/@xml:id"/>
+  
   <!--xsl:template match="tei:add/@xml:id"/-->
 
 
@@ -186,7 +189,7 @@
   <!-- @who: 1363 out of 2397 have a # -->
 
 
-  <!-- <xsl:template match="tei:sourceDesc">
+<!--<xsl:template match="tei:sourceDesc">
     <xsl:copy>
       <xsl:apply-templates/>
       <xsl:element name="listPerson" xmlns="http://www.tei-c.org/ns/1.0">
@@ -360,11 +363,7 @@
   <xsl:template match="tei:bibl">
     <!-- this template needed to avoid error in the following one -->
     <xsl:element name="bibl" namespace="http://www.tei-c.org/ns/1.0">
-      <xsl:if test="@xml:id">
-        <xsl:attribute name="xml:id">
-          <xsl:value-of select="@xml:id"/>
-        </xsl:attribute>
-      </xsl:if>
+    
       <xsl:apply-templates/>
     </xsl:element>
   </xsl:template>
