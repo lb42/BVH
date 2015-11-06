@@ -57,7 +57,7 @@ checkClean:
 		jing $(BVHRNG) \
 		$$f ; done; cd $(CURRENT);
 checkLinks:
-	$(SAXON) -xi $(CLEANCORPUS)/driver.xml checkSharps.xsl | grep ERROR | sort | uniq > failedLinks.txt
+	java -Xmx2G -jar $(SAXON) -xi $(CLEANCORPUS)/driver.xml checkSharps.xsl | grep ERROR | sort | uniq > failedLinks.txt
 
 driver:
 	cd $(CLEANCORPUS); cp $(CORPHDR) driver.xml;\
