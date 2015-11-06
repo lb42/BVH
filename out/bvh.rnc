@@ -6,7 +6,7 @@ namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2015-11-05T16:35:43Z. .
+# Schema generated from ODD source 2015-11-06T11:28:31Z. .
 # TEI Edition: Version 2.8.0. Last updated on
 #	6th April 2015, revision 13197
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -941,7 +941,7 @@ model.encodingDescPart =
   projectDesc | editorialDecl | tagsDecl | classDecl | charDecl
 model.editorialDeclPart =
   correction | normalization | hyphenation | interpretation
-model.profileDescPart = langUsage | textClass | handNotes
+model.profileDescPart = langUsage | textClass | handNotes | particDesc
 att.source.attributes = att.source.attribute.source
 att.source.attribute.source =
   
@@ -6595,6 +6595,15 @@ figDesc =
     att.global.change.attribute.change,
     att.global.responsibility.attribute.cert,
     att.global.responsibility.attribute.resp,
+    empty
+  }
+particDesc =
+  
+  ## (participation description) describes the identifiable speakers, voices, or other participants in any kind of text or other persons named or otherwise referred to in a text, edition, or metadata. [15.2. Contextual Information]
+  element ns2:particDesc {
+    (model.pLike+ | (model.personLike | listPerson)+),
+    att.global.attributes,
+    att.declarable.attributes,
     empty
   }
 att.witnessed.attributes = att.witnessed.attribute.wit

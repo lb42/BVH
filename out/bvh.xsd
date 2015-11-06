@@ -3,7 +3,7 @@
   <xs:import namespace="http://www.isocat.org/ns/dcr" schemaLocation="dcr.xsd"/>
   <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
   <!--
-    Schema generated from ODD source 2015-11-05T16:35:32Z. .
+    Schema generated from ODD source 2015-11-06T11:28:19Z. .
     TEI Edition: Version 2.8.0. Last updated on
     	6th April 2015, revision 13197
     TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -9300,6 +9300,22 @@ Licensing, etc.]</xs:documentation>
           <xs:attributeGroup ref="ns1:att.global.responsibility.attribute.resp"/>
         </xs:extension>
       </xs:complexContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="particDesc" substitutionGroup="ns1:model.profileDescPart">
+    <xs:annotation>
+      <xs:documentation>(participation description) describes the identifiable speakers, voices, or other participants in any kind of text or other persons named or otherwise referred to in a text, edition, or metadata. [15.2. Contextual Information]</xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:choice>
+        <xs:group maxOccurs="unbounded" ref="ns1:model.pLike"/>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element ref="ns1:model.personLike"/>
+          <xs:element ref="ns1:listPerson"/>
+        </xs:choice>
+      </xs:choice>
+      <xs:attributeGroup ref="ns1:att.global.attributes"/>
+      <xs:attributeGroup ref="ns1:att.declarable.attributes"/>
     </xs:complexType>
   </xs:element>
   <xs:attributeGroup name="att.witnessed.attributes">

@@ -2286,7 +2286,7 @@
                   <attDef ident="facs" mode="delete"/>
                </attList>
             </elementSpec>
-            <moduleRef key="corpora" include="particDesc"/>
+            <moduleRef key="corpus" include="particDesc"/>
          </schemaSpec>
       </body>
    </text>
