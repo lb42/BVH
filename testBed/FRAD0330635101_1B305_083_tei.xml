@@ -304,7 +304,7 @@
             </adminInfo>
             <surrogates>
               <bibl>
-                <ref target="http://www.bvh.univ-tours.fr/Consult/index.asp?numfiche=1220">BVH - Archives départementales de la Gironde Bordeaux (1B 305 83)</ref>
+                <ref target="http://www.bvh.univ-tours.fr/Consult/index.asp?numfiche=1220">Bibliothèques Virtuelles Humanistes</ref>
               </bibl>
             </surrogates>
           </additional>
@@ -386,7 +386,7 @@
           <fw type="pageNum">[f. 83r]</fw>
           
           <ab><handShift new="#MainX1"/>
-            <lb/>Entre <persName><forename>marguerite</forename> <surname>bourciere</surname></persName> <add place="bottom"><metamark>&#8257;</metamark></add> <add place="top"><metamark>&#8257;</metamark> <expan>damoyselle</expan></add> <choice><orig>vefue</orig><reg>vefve</reg></choice> de feu <expan>maitre</expan> <persName><forename>guy</forename>
+            <lb/>Entre <persName><forename>marguerite</forename> <surname>bour<del>r</del>ciere</surname></persName> <add place="bottom"><metamark>&#8257;</metamark></add> <add place="top"><metamark>&#8257;</metamark> <expan>damoyselle</expan></add> <choice><orig>vefue</orig><reg>vefve</reg></choice> de feu <expan>maitre</expan> <persName><forename>guy</forename>
             <lb/><surname>peyrault</surname></persName> quant <choice><orig>viuoict</orig><reg>vivoict</reg></choice> <expan>procureur</expan> en la court tant en son
             <lb/>nom que comme mere legitime administreresse des
             <lb/>enfans dudict feu et <choice><orig>delle</orig><reg>d&#x2019;elle</reg></choice> demanderesse en execution
@@ -421,8 +421,8 @@
             <lb/>question Letres Royaulx du penultiesme decembre
             <lb/>mil cinq cens soixante <supplied>trois obtenues</supplied> par ledict
             <lb/>feu peyrault et <supplied>marguerite</supplied> bourciere sa femme
-            <lb/>aulx f<supplied>ins de fere <choice><orig>releues</orig><reg>releves</reg></choice> de la surannec</supplied>tion
-            <lb/>mentionn<supplied>ee</supplied> ausdites lettres <del>Requeste du sixiesme
+            <lb/>aulx f<supplied>ins <choice><orig>destre</orig><reg>d'estre</reg></choice> <choice><orig>releues</orig><reg>releves</reg></choice> de la suranna</supplied>tion
+            <lb/>mentionn<supplied>ee</supplied> ausdites letres <del>Requeste du sixiesme
             <lb/>juing <supplied>mil</supplied> cinq cens cinquante quatre presentee</del>
           
           
@@ -437,9 +437,9 @@
             <lb/><surname>gerault</surname></persName> tendant aulx fins <del><choice><orig>quil</orig><reg>qu&#x2019;il</reg></choice> pleust a la court</del> de
             <lb/>compenser certaines sommes dues par <expan>ladite</expan> <expan>damoiselle</expan>
             <lb/>a <persName>lancelote</persName> sa seur ou en tout <choice><orig>euenement</orig><reg>evenement</reg></choice> le
-            <lb/><choice><orig>recepuoir</orig><reg>recepvoir</reg></choice> a parfournir <unclear/> quel <unclear/> <choice><orig>trouueront</orig><reg>trouveront</reg></choice>
+            <lb/><choice><orig>recepuoir</orig><reg>recepvoir</reg></choice> a parfournir <del><unclear>se</unclear></del> quil <unclear>se</unclear> <choice><orig>trouueront</orig><reg>trouveront</reg></choice>
             <lb/>de surplus prorata de ce <choice><orig>quil</orig><reg>qu&#x2019;il</reg></choice> tient de la
-            <lb/>seigneurye de <supplied>romefort</supplied> Actes du douziesme
+            <lb/>seigneurye de <supplied><placeName>romefort</placeName></supplied> Actes du douziesme
             <lb/>juing second quatorziesme vingtroysiesme aoust
             <lb/>vingt quatriesme et <supplied>vingt</supplied> sixiesme septembre
             <lb/>dix <choice><orig>neufuiesme</orig><reg>neufviesme</reg></choice> <choice><orig>nouembre</orig><reg>novembre</reg></choice> quatorziesme quinziesme
@@ -465,12 +465,12 @@
           <ab>
             <lb/>I<supplied>l sera dict</supplied> que ledict arrest sera reaulment et
             <lb/><supplied>de faict</supplied> execute selon sa forme et teneur Et
-            <lb/><supplied>en cet presant</supplied> la<supplied>dicte</supplied> court ordonne que ledict <persName>amiot</persName>
-            <lb/>opte <gap/> contentieulx dans quinzaine
-            <lb/><supplied>prochenement venant</supplied> pour toutes perfections et
+            <lb/><supplied>en ce faisant</supplied> la court ordonne que ledict <persName>amiot</persName>
+            <lb/>opte<supplied>ra <unclear><expan>ladite</expan> <expan>lettre</expan></unclear></supplied> contentieulx dans quinzaine
+            <lb/><supplied>prochainement venant</supplied> pour toutes perfections et
             <lb/>delays <supplied>ou a faulte de <del>s</del>ce</supplied> faire le deboute de
-            <lb/>ses causes <supplied><choice><orig><expan>dopposition</expan></orig><reg><expan>d&#x2019;opposition</expan></reg></choice> et <choice><orig>adiuge</orig><reg>adjuge</reg></choice> lesdicts biens a </supplied><sic><supplied>la</supplied>dict</sic>
-            <lb/><supplied>marguerite bourciere <choice><orig>suiuant</orig><reg>suivant</reg></choice> ledict ar</supplied>est
+            <lb/>ses causes <supplied><choice><orig><expan>dopposition</expan></orig><reg><expan>d&#x2019;opposition</expan></reg></choice> et <choice><orig>adiuge</orig><reg>adjuge</reg></choice> lesdictz biens a</supplied> <sic><supplied>la</supplied>dict</sic>
+            <lb/><supplied>marguerite bourciere <choice><orig>suiuant</orig><reg>suivant</reg></choice> ledict arr</supplied>est
           
           
           <pb facs="http://www.bvh.univ-tours.fr/FRAD0330635101_1B305_083/ecran/FRAD0330635101_1B305_083_0002b.jpg" xml:id="FRAD0330635101_1B305_083_0002b" n="0003"/>

@@ -1,23 +1,23 @@
 ECHO=
 CURRENT=`pwd`
-ROOT=/home/lou/Public/BVH
-SAXON=/usr/share/saxon/saxon9he.jar
+ROOT=/Users/Travail/Documents/workspace/Git/BVH
+SAXON=/Applications/saxon/saxon9he.jar
 CORPUS=$(ROOT)/testBed
 NEWCORPUS=$(ROOT)/Corpus
 CLEANCORPUS=$(ROOT)/finalCorpus
 BVHRNG=$(ROOT)/out/bvh.rng
 CLEANUP=$(ROOT)/cleanup.xsl
 IDENTITY=$(ROOT)/identity.xsl
-SCHEMA=/home/lou/Public/TEI/P5/Exemplars/tei_all.rng
-OBE=/home/lou/Public/Stylesheets.git/trunk/tools/oddbyexample.xsl
-CORPHDR=/home/lou/Public/BVH/corphdr.txt
+SCHEMA=http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng
+OBE=(ROOT)/oddbyexample.xsl
+CORPHDR=/Users/Travail/Documents/workspace/Git/BVH/corphdr.txt
 
 include theFiles
 
 check:
 	cd $(CORPUS); for f in $(FILES) ; do \
 		echo $$f; \
-		jing  $(SCHEMA) \
+		java -jar /Users/Travail/Downloads/jing-20091111/bin/jing.jar  $(SCHEMA) \
 		$$f ; done; cd $(CURRENT);
 generate:
 		java -Xmx2G -jar $(SAXON) -it:main -o:generated.odd \
@@ -38,7 +38,7 @@ checkSpec:
 	echo Validate  against BVH schema
 	cd $(NEWCORPUS); 	for f in $(FILES) ; do \
 		echo $$f; \
-		jing $(BVHRNG) \
+		java -jar /Users/Travail/Downloads/jing-20091111/bin/jing.jar $(BVHRNG) \
 		$$f ; done; cd $(CURRENT);
 
 cleanup:
@@ -54,7 +54,7 @@ checkClean:
 	echo Validate cleaned corpus  against BVH schema
 	cd $(CLEANCORPUS); 	for f in $(FILES) ; do \
 		echo $$f; \
-		jing $(BVHRNG) \
+		java -jar /Users/Travail/Downloads/jing-20091111/bin/jing.jar $(BVHRNG) \
 		$$f ; done; cd $(CURRENT);
 checkLinks:
 	java -Xmx2G -jar $(SAXON) -xi $(CLEANCORPUS)/driver.xml checkSharps.xsl | grep ERROR | sort | uniq > failedLinks.txt

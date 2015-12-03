@@ -91,7 +91,7 @@
               <biblStruct>
                 <monogr><!-- @key = n° dans l'index des personnes, pour associer les variantes de nom pour la recherche -->
                   <author role="auteur">
-                    <persName key="#pers1">
+                    <persName>
                       <surname>Rabelais</surname><forename>François</forename>
                     </persName>
                   </author>
@@ -101,13 +101,13 @@
                     <pubPlace>s. l.</pubPlace>
                     <respStmt>
                       <resp>imprimeur</resp>
-                      <persName key="#pers12">
+                      <persName>
                        s. n.
                       </persName>
                     </respStmt>
                     <respStmt>
                       <resp>libraire</resp>
-                    <persName key="#pers14">
+                    <persName>
                       s. n.
                     </persName>
                     </respStmt>

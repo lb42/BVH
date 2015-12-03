@@ -413,7 +413,7 @@
           </ab>
           
           <ab rend="right"><handShift new="#MainX1"/>
-            <lb/><expan>Messieurs</expan> les <expan>presidens</expan> <handShift new="#MainMDM"/><list corresp="#MainMDM"><item><del>d&#x2019;Alem</del></item>
+            <lb/><expan>Messieurs</expan> les <expan>presidens</expan> <handShift new="#MainMDM"/><list resp="#MainMDM"><item><del>d&#x2019;Alem</del></item>
             <item><persName><expan>Alesme</expan></persName> <choice><orig>presidāt</orig><reg>presidant</reg></choice></item>
             <item><persName>La boëtie</persName></item>
             <item><persName>du duc</persName></item>

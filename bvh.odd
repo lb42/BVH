@@ -893,6 +893,7 @@
                   <attDef ident="type" mode="change">
                      <valList mode="add" type="closed">
                         <valItem ident="adresse_typographique"/>
+                        <valItem ident="didascalie"/>
                      </valList>
                   </attDef>
                   <attDef ident="subtype" mode="delete"/>
