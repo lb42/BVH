@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div>
+            <head>A big claim</head>
+            <p>Dès sa conception initiale il y a 3 décennies, la TEI s'est proposée comme outil pour
+               la construction, la déscription, la structuration, et l'annotation des corpus
+               langagières et littéraires. </p>
+            <p rend="box">De tous types, de toutes periodes, dans toutes les langues</p>
+         </div>
+         <div>
+            <head>Communautés scientifiques</head>
+            <p>Du point de vue historique, la TEI est un produit d'une rarissime conjonction
+               d'interets parmi des <list>
+                  <item>littéraires, stylometriciens, critiques de l'école "close reading" </item>
+                  <item>historiens, archivistes, éditeurs</item>
+                  <item>bibliographeurs, bibliothecaires</item>
+                  <item>linguistes, notamment de corpus, mais pas exclusivement</item>
+                  <item>informaticiens ...</item>
+
+               </list></p>
+            <p rend="box">Tous confrontés par le passage au numérique des textes écrits ou orales à
+               la grande échelle</p>
+         </div>
+         <div>
+            <head>Oppositions</head>
+            <p>En meme temps, la TEI prétend fournir une réponse pratique aux oppositions typiques
+               des <soCalled>humanités numériques</soCalled> : <list>
+                  <item>entre les besoins des débutants et ceux des
+                     experts<!--, qui souhaient des solutions simples, et ceux
+                  des personnes souhaitant pousser au délà des frontières
+                  établies.--></item>
+                  <item>entre les besoins et les interets des scientifiques et ceux des
+                     ingénieurs</item>
+               </list>
+            </p>
+         </div>
+         <div>
+            <head>Imperialisme</head>
+            <p>
+               <!-- Dans cet intervention je propose de sommariser ces propositions
+               en mettant l'accent sur leur adaptabilité et sur leur extensibilité. Car,-->
+               En dépit du nom, la TEI ne s'adresse pas uniquement au texte proprement dit. Dans sa
+               version initiale on trouve déjà des propositions assez complètes pour les metadonnées
+               bibliographiques; pour l'encodage des transcriptions orales; et pour les analyses
+               linguistiques abstraites en terme de structures des traits.</p>
+         </div>
+         <div>
+            <head>Interdisciplinarité</head>
+            <p> La TEI peut ainsi être considérée comme un des plus grands efforts
+               d'interdisciplinarité de son époque: d'où deux principes de son architecture –
+               l'application du rasoir d'Occam d'abord; et les méchanismes de personnalisation
+               ensuite. </p>
+         </div>
+         <div>
+            <head>Roll your own</head>
+            <p>En effet, le système TEI fournit un gabarit ou un kit lego pour la construction d'un
+               système bien adapté aux besoins de l'utilisateur, mais qui reste en même temps
+               compréhensible par d'autres personnes ou systèmes. </p>
+         </div>
+         <div>
+            <head>L'evolution darwinenne : ca marche</head>
+            <p>Le secret de la réussite de la TEI et de son longévité se trouve dans ses capacités
+               d'évolution. </p>
+
+         </div>
+         <div>
+            <head>Annotation de l'oral</head>
+            <p>Un cas extrème -- il n y a pas de texte à annoter; on le crée en annotant.</p>
+            <p><graphic url="../Graphics/oral-annot.png"/></p>
+         </div>
+
+
+         <div>
+            <head>Combien de formats standardisés faut-il dans le monde ?</head>
+            <list>
+               <label>WKWBFY</label><!-- we know whats best for you -->
+               <item>un seul : solution centralisée</item>
+               <label>NWEUMP</label> <!-- nobody will ever understand my problem -->
+               <item>aucun : solution anarchiste </item>
+               <label>FTH</label> <!-- follow the herd -->
+               <item>autant qu'il en arrive : solution laissez-faire
+               </item>
+            </list>
+         </div>
+         
+         
+         <div>
+            <head>Les normes ne s'imposent pas dans la vie intellectuelle</head>
+            <list>
+               <item>soit elles émergent d'un besoin de le communauté </item>
+               <item>soit leur usage dérive de la nécessité d'utiliser
+                  une technologie particulière </item>
+               <item>mais on ne renonce pas volontièrement à son indépendance ! 
+               </item>
+            </list>
+         </div>
+         
+         <div><head>Standards : un paysage complexe</head>
+            <list>
+               <label>Agences officielles de standardisation</label>
+               <item>nationales : AFNOR, ANSI, BSI, DIN ; internationales : ISO, IEC, W3C, OASIS, TEI ... </item>
+               
+               <label>Regroupements des Personnes Interessées</label>
+               <item>Plusieurs... par exemple
+                  <list>
+                     <item>LISA (Localisation Industry Standards Association)</item>
+                     <item>MPEG (Moving Pictures Expert Group)
+                     </item></list></item>
+               <label>Projets ayant des enjeux pré-normatifs</label>
+               <item>En Europe seul, on peut noter EAGLES, Multext, MATE,
+                  ISLE...</item>
+               <label>Infrastructures de recherche</label>
+               <item>Internationales : Bamboo, DARIAH, CLARIN ; Françaises : Corpus-IR, Adonis</item>
+            </list></div>
+         
+         <div><head>Standards : on peut s'en passer?</head>
+            <p>Pour les scientifiques, les standards pourraient constituer un
+               inconvénient :
+               <list>
+                  <item>ils figent un état de la connaissance</item>
+                  <item>leur production est chronophage et nécessite des compétences interdisciplinaires</item>
+                  <item>leur utilisation peut egalement etre chronophage</item>
+               </list></p>
+            <p rend="box">quand même il y a des "plus" qu'il faut souligner</p>
+         </div>
+         
+         
+         <div><head>Quelques besoins scientifiques</head>
+            <list type="ordered">
+               <item>Comment sur le web identifier et retrouver des ressources numériques
+                  ayant un intérêt linguistique ?</item>
+               <item>Comment valider les résultats scientifiques obtenus par d'autres
+                  personnes ?</item>
+               <item>Comment enrichir ou intégrer les ressources existantes avec ses propres idées ?</item>
+               <item>Comment séparer les ressources des outils qui les
+                  gèrent/analysent ?</item>
+            </list>
+            <p rend="box">Pour tout cela, les standards restent essentiels</p>
+         </div>
+         
+         
+         <div>
+            <head>Quelques besoins techniques</head>
+            <list type="ordered">
+               <item>possibilité de recombiner ou de réutiliser les systèmes existants</item>
+               <item>évolution modulaire des logiciels </item>
+               <item>réduction des coûts de formation</item>
+               <item>existence de <q>frequently answered questions</q>  &#x2014; des solutions qui s'appliquent dans plusieurs domaines  </item>
+            </list>
+            <p rend="box">Les standards offrent ces possibilités ! </p>
+         </div>
+         
+         <div><head>Est-ce qu'on peut arriver à normaliser la transcription ?</head>
+            
+            <p><quote>No transcript is completely theory-neutral or without bias.</quote> (Edwards, 1991)</p>
+            <p> — Mais elle parle plutôt de la manière de visualiser la transcription, non pas de sa structuration.</p>
+            <p><quote>To code morphology and syntax, dozens of coding systems have been devised and none
+               has yet emerged  as standard, since the underlying  theory  in  these areas continues to
+               change. Similarly, in areas such as speech act analysis or intentional analysis, there are
+               many detailed systems for coding, but no single standard.</quote> (MacWhinney, 2001) <!--
+MacWhinney, B. (2001). From CHILDES to TalkBank. In M. Almgren, A.
+Barreña, M. Ezeizaberrena, I. Idiazabal & B. MacWhinney (Eds.),
+Research on Child Language Acquisition (pp. 17-34). Somerville,-->
+            </p>
+         </div>
+         
+         <div><head>Est-ce qu'on peut arriver à normaliser la transcription ?</head>
+            
+            <p><quote> ... there is, to date, no widely dominant method, let alone a real standard, for doing spoken language transcription. However, with the advent of digital research infrastructures, in which corpora from different sources can be combined and processed together, the need for such a standard becomes more and more obvious. <!--Issue 1 | June 2011 : Selected Papers from the 2008 and 2009 TEI Conferences
+A TEI-based Approach to Standardising Spoken Language Transcription
+Thomas Schmidt -->
+            </quote> (Schmidt 2011)</p>
+         </div>
+         
+         <div>
+            <head>Influence des outils sur la modélisation de l'oral</head>
+            
+            <p>Outils de transcription les plus répandus : <list>
+               <item>Anvil, CHAT, ELAN, EXMARaLDa, FOLKER, Praat, Transcriber... </item>
+            </list></p>
+            
+         </div>
+         
+         <div>
+            <head>EXMARaLDA, par exemple</head>
+            <p><graphic url="../Graphics/exmaralda.jpg"/></p>
+            <p>EXMARaLDA: “Extensible Markup Language for Discourse Annotation”
+               http://www.exmaralda.org/</p>
+         </div>
+         
+         <div>
+            <head>Format interne EXMARaLDA</head>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+               <common-timeline>
+                  <tli id="T0" time="0.0"/>
+                  <tli id="T1" time="1.309974117691172"/>
+                  <tli id="T2" time="1.899962460773455"/>
+                  <tli id="T3" time="2.3399537674788866"/> ....</common-timeline>
+               <tier id="TIE0" speaker="SPK0" category="v" type="t" display-name="PRE [v]">
+                  <event start="T2" end="T3">Good evening. </event>
+                  <event start="T5" end="T6">I have with me tonight Ann Elk Mistress Ann Elk.
+                  </event></tier></egXML>
+         </div>
+         <div>
+            <head>Voices of the Holocaust</head>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+               <div xml:lang="de">
+                  <u who="#boderD" start="127.732" end="x">[In German] Also, sagen Sie mir,
+                     wie lautet Ihr Name, Frau Button?</u>
+                  <u who="#buttonE" start="132.669" end="x">Deutsch sprechen?</u>
+                  <u who="#boderD" start="135.403" end="x">Auf Deutsch.</u>
+                  <u who="#buttonE" start="137.122" end="x">Ich heiße Eda Button. Ich war
+                     deportiert von Athen im, äh, April '44.</u>
+                  <u who="#boderD" start="137.122" end="x">Und nach wo wurden sie
+                     deportiert?</u>
+                  <u who="#buttonE" start="146.903" end="x">Ich war deportiert in äh
+                     Bergen-Belsen.</u>
+                  <u who="#boderD" start="149.496" end="x">Ja. Also, sagen Sie mal, äh, wo ist
+                     Ihr Mann?</u>
+                  <u who="#buttonE" start="153.090" end="x">Mein Mann ist, äh, weggelau- war,
+                     äh, in, äh, Palästina, in Tel Aviv.</u>
+               </div>
+            </egXML>
+         </div>
+         <div>
+            <head>IFA Dialog Video corpus </head>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples"><TIME_ORDER>
+               <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
+               <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="10"/>
+               <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="462"/>
+               <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="840"/> ...</TIME_ORDER>
+               <ANNOTATION>
+                  <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts4"
+                     TIME_SLOT_REF2="ts7">
+                     <ANNOTATION_VALUE>beginnen we weer opnieuw?</ANNOTATION_VALUE>
+                  </ALIGNABLE_ANNOTATION>
+               </ANNOTATION>
+            </egXML>
+         </div>
+         
+         <div>
+            <head>Transcriber</head>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples"><Turn speaker="spk2"
+               startTime="0.557" endTime="5.851">
+               <Sync time="0.557"/> so what do you know of your family ’s <Sync
+                  time="2.255"/> history like <Sync time="3.410"/> do you know when and
+               why they came to Oxford </Turn>
+            </egXML>
+         </div>
+         
+         <div><head>Un structuration commune, quand-meme </head>
+            <p>Schmidt (2011) note que tous ces systèmes proposent un modèle commun, une
+               simplification d'une <term>annotation graph</term>  (Bird &amp; Liberman, 2002)  <list>
+                  <item>l'oral existe dans le temps : donc chaque morceau transcrit est
+                     associé à un point de départ et à une fin</item>
+                  <item>ces triplets sont regroupables en couches (<q>tiers</q>)</item>
+                  <item>une couche peut être associée à un locuteur, et/ou à un type</item>
+               </list></p></div>
+         
+         <div>
+            <head>Au niveau de transcription...</head>
+            <p>Même jeu ... On peut identifier (au moins) 5 systèmes de transcription pour les
+               énoncés eux-mêmes: <table>
+                  <row>
+                     <cell role="label">HIAT</cell>
+                     <cell>((coughs)) You must/ you (should) let • it be. ((laughs)) Pleease!</cell>
+                  </row>
+                  <row>
+                     <cell role="label">GAT</cell>
+                     <cell><code>((coughs)) you must- you (should/could) let (-) it be; ((laughs))
+                           plea:se-</code>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell role="label">CHAT</cell>
+                     <cell><code>&amp;=coughs you must... you should let # it be. &amp;=laughs
+                           please!</code>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell role="label">DT1</cell>
+                     <cell><code>(COUGH) you must-- you &lt;X should X&gt; let .. it be. @@
+                           please?</code>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell role="label">cGAT</cell>
+                     <cell><code>((coughs)) you must you (should/could) let (-) it be ((laughs))
+                           please</code>
+                     </cell>
+                  </row>
+               </table>
+            </p>
+            <p>(Table from Schmidt 2011)</p>
+         </div>
+
+         <div>
+            <head>ou, en TEI XML</head>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+               <u>
+                  <seg type="interrupted">
+                     <incident>
+                        <desc>coughs</desc>
+                     </incident>
+                     <w>you</w>
+                     <w>must</w>
+                  </seg>
+                  <seg type="declarative">
+                     <w>you</w>
+                     <w>should</w>
+                     <w>let</w>
+                     <pause dur="short"/>
+                     <w>it</w>
+                     <w>be</w>
+                  </seg>
+                  <seg type="emphatic">
+                     <incident>
+                        <desc>laughs</desc>
+                     </incident>
+                     <w>please</w>
+                  </seg>
+               </u>
+            </egXML>
+         </div>
+
+
+
+
+         <div>
+            <head>L’oral</head>
+            <p> Dans un texte oral on peut reconnaître un sous-ensemble des phénomènes de discours
+               qui sont d’ interet lexical: <list>
+                  <item>des énoncés (utterances)</item>
+                  <item>des pauses</item>
+                  <item>des phénomènes vocalisés mais pas lexicalisés, par exemple la toux, des
+                     quasi-mots comme "hein", "uh" etc. </item>
+                  <item>des phénomènes <term>kinésiques</term> (non vocalisés, non lexicaux, mais
+                     servant à communiquer) notamment les gestes</item>
+                  <item>des événements entièrement non linguistiques, mais ayant un effet sur le
+                     discours, par exemple un camion qui passe etc. </item>
+                  <item>des événements écrits, que l’on peut donc transcrire, par exemple des titres
+                     ou des diapositives affichés pendant une communication</item>
+                  <item>des changements dans la qualité de la voix, par exemple de volume</item>
+               </list></p>
+            <p rend="box"> .. contrairement aux textes écrits, un texte oral est organisé dans le
+               temps </p>
+         </div>
+
+
+
+         <div rend="slide">
+            <head>En résumé... </head>
+            <figure>
+               <graphic url="../Graphics/SpeechDiagram.png"/>
+            </figure>
+         </div>
+
+         <div>
+            <head>Propositions du module <ident>spoken</ident>
+            </head>
+            <list type="gloss">
+               <label>Des éléments supplementaire dans l’en-tête </label>
+               <item><gi>broadcast</gi>, <gi>equipment</gi>, <gi>recording</gi>,
+                     <gi>recordingStmt</gi>, <gi>scriptStmt</gi></item>
+               <label>Des éléments pour la transcription de l’oral</label>
+               <item>
+                  <gi>incident</gi>, <gi>kinesic</gi>, <gi>pause</gi>,<gi>shift</gi>, <gi>u</gi>,
+                     <gi>vocal</gi>, <gi>writing</gi></item>
+               <label>Des mechanismes pour representer le timing : l'alignement dans le temps </label>
+               <item><gi>timeLine</gi>, <att>dur</att>
+                  <att>start</att>
+                  <att>end</att>
+                  <att>sync</att>
+               </item>
+            </list>
+         </div>
+
+
+         <div>
+            <head>Par exemple...</head>
+
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+               <u who="#Jan">mmm delicieux</u>
+               <incident>
+                  <desc>téléphone sonne</desc>
+               </incident>
+               <u who="#Kim">j’y vais</u>
+               <u who="#Tom">ya longtemps <vocal><desc>tousse</desc></vocal> jne fume plus</u>
+               <u who="#Bob"><vocal><desc>sniffs</desc></vocal>il se croit dur</u>
+               <vocal who="#Ann">
+                  <desc>grognement</desc>
+               </vocal>
+               <u who="#Tom">oueh <kinesic><desc>fait un geste avec le doigt</desc></kinesic></u>
+               <u who="#Bob">donc j’aurais dû <vocal who="#Ann"><desc>faisant tss-tss</desc></vocal>
+                  faire quoi</u>
+            </egXML>
+         </div>
+
+         <div>
+            <head>La question des metadonnees</head>
+            <!-- what to record and how to record it 
+            enormous variety of possible interests
+            particularly tricky for spoken but applies everywhere 
+            for participants : names, demographic characteristics, role in dialog
+            for dialog itself : context, function, time, place
+            for recording : technical data, mode of diffusion -->
+         </div>
+         <div>
+            <head>Flexibility and standardization of metadata</head>
+            <list>
+               <item>Information can be supplied purely in documentary terms, as plain
+                  text...</item>
+               <item>... or it can be organized in a structured way, using a rich set of XML
+                  descriptors</item>
+               <item>The available descriptors can be constrained by means of a customised
+                  schema</item>
+               <item>Additional descriptors can be added, and integrated by means of the TEI class
+                  system</item>
+            </list>
+         </div>
+
+         <div rend="slide">
+            <head>Description des participants</head>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+               <particDesc>
+                  <listPerson>
+                     <person xml:id="Jan" sex="2" age="mid">
+                        <p>participant, sexe féminin, bonne éducation, née à Shropshire UK, 12 Jan
+                           1950, commerçante parle français couramment. Statut socio-économique
+                           (SSE) : commerçante.</p>
+                     </person>
+                     <person xml:id="Kim" sex="2">
+                        <persName>
+                           <surname>Matthews</surname>
+                           <forename>Kimberley</forename>
+                           <forename>Jane</forename>
+                        </persName>
+                        <birth when="1967-07-10">
+                           <placeName>Leeds</placeName>
+                        </birth>
+                        <occupation>commerçante</occupation>
+                     </person>
+                  </listPerson>
+               </particDesc>
+            </egXML>
+
+         </div>
+         <div>
+            <head>Description des enregistrements</head>
+            <p>Le cas le plus simple ...</p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+               <recordingStmt>
+                  <recording type="audio" dur="P15M" xml:id="rec-3001">
+                     <date>14 Feb 2001</date>
+                  </recording>
+                  <recording type="audio" dur="P15M" xml:id="rec-3002">
+                     <date>17 Feb 2001</date>
+                  </recording>
+                  <recording type="audio" dur="P15M" xml:id="rec-3003">
+                     <date>22 Feb 2001</date>
+                  </recording>
+               </recordingStmt>
+            </egXML>
+         </div>
+
+         <div>
+            <head>Description des enregistrements</head>
+            <p>Un cas un peu moins simple ...</p>
+
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+               <recordingStmt>
+                  <recording type="audio" dur="P10M">
+                     <equipment>
+                        <p>podcast</p>
+                     </equipment>
+                     <broadcast>
+                        <bibl>
+                           <author>France Inter</author>
+                           <title>Questions sur la souffrance et la santé au travail : pénibilité,
+                              stress, dépression, harcèlement, maladies et accidents...</title>
+                           <respStmt>
+                              <resp>Présentateur</resp>
+                              <name>Alain Bédouet</name>
+                           </respStmt>
+                           <respStmt>
+                              <resp>Personne interrogée</resp>
+                              <name>Marie Pezé <note>Docteur en psychologie, psychanalyste, expert
+                                    judiciaire ; dirige la consultation « souffrance et travail » à
+                                    l’Hôpital de Nanterre (92), auteure de <title>ils ne mourraient
+                                       pas tous mais tous étaient frappés</title>, Editions
+                                    Pearson.</note></name>
+                           </respStmt>
+                           <series>
+                              <title>Le Téléphone sonne</title>
+                           </series>
+                           <note>Première diffusion le <date when="2008-09-24">mercredi 24 septembre
+                                 2008</date>
+                           </note>
+                        </bibl>
+                     </broadcast>
+                  </recording>
+               </recordingStmt>
+            </egXML>
+         </div>
+         <div>
+            <head>Inconvenients</head>
+            <p>Si on disposait (ou souhaitait disposer) des informations plus completes sur les
+               personnes interrogées, ou les mettre? le bricolage avec <gi>note</gi> n'est pas tres
+               joli</p>
+            <p>Si on voulait utiliser des balises plus adaptees a la terminologie correcte pour les
+               emissions radiophoniques?</p>
+            <p>Il nous faudrait un schema plus adaptes... </p>
+         </div>
+         <div>
+            <head>Representation des informations prosopographiques</head>
+            <p>La TEI distingue clairement les <term>entites</term> (par ex, une personne, un lieu) de leurs <term>noms</term> (par ex,
+               un nom de personne, de lieu) en utilisant par ex. <gi>person</gi> et
+                  <gi>persName</gi>, <gi>place</gi> et <gi>placeName</gi></p>
+            <p><gi>name</gi> est une generalisation de <gi>placeName</gi>
+               <gi>persName</gi>, etc. et ne devrait donc pas contenir des informations relatives a
+               la personne, proprement dit (l'emploi de <gi>note</gi> ici est une astuce)</p>
+            <p>L'attribut <att>ref</att> sert a lier un nom d'entite avec l'entite concerne</p>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                <respStmt>
+                              <resp>Personne interrogée</resp>
+                              <name ref="#PEZMA1">Marie Pezé </name>                
+                           </respStmt>
+               <!-- ailleurs dans le document... -->
+                <person xml:id="PEZMA1">
+                  <note>Docteur en psychologie, psychanalyste, expert
+                     judiciaire ; dirige la consultation « souffrance et travail » à
+                     l’Hôpital de Nanterre (92), auteure de <title>ils ne mourraient
+                        pas tous mais tous étaient frappés</title>, Editions
+                     Pearson.</note>
+               </person>
+            </egXML></div>
+         
+         <div><head>Pas de bricolage!</head>
+         <p>La TEI propose un ensemble elabore des elements pour decrire une personne... (cf whoami)
+         <list>
+            <item>ses noms (<gi>persName</gi>) </item>
+            <item>ses proprietes plus ou moins permanents (<gi>sexe</gi>, <gi>nationalite</gi>, <gi>occupation</gi>...)</item>
+            <item>les evenements significatifs de sa vie (<gi>event</gi>, <gi>birth</gi>, <gi>death</gi>) </item>
+         </list>
+         Ces elements sont tous <term>datables</term>: des attributs sont disponibles pour indiquer la temporalite de la caracterisation concernee</p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">  <person xml:id="PEZMA1" >
+               <persName><surname>Peze</surname>
+                  <forename>Marie</forename>
+                  </persName>
+                 <birth when="1952"/>
+               <occupation notBefore="1997">Direction du CASH a Nanterre</occupation>
+               <ref target="http://www.wikipedia.fr">Article sur Wikipedia</ref>
+            </person></egXML>
+         </div>
+               
+         <div>
+            <head>Qu’est-ce&#160;qu’une&#160; métadonnée?</head>
+            <p><graphic url="../Graphics/TEI-Metadonnees-3_1.jpg"/></p>
+            <cb/>
+            <p><graphic url="../Graphics/TEI-Metadonnees-3_2.png"/></p>
+            <p><graphic url="../Graphics/TEI-Metadonnees-3_3.png"/></p>
+         </div>
+
+
+      </body>
+   </text>
+</TEI>
