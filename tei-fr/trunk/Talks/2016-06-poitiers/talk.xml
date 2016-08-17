@@ -3,22 +3,25 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Title</title>
+            <title>La TEI pour les corpus linguistiques: un standard qui se renouvelle</title>
          </titleStmt>
          <publicationStmt>
             <p>Publication information</p>
          </publicationStmt>
          <sourceDesc>
-            <p>Information about the source</p>
+            <p>Hacked from various other talks</p>
          </sourceDesc>
       </fileDesc>
+      <revisionDesc>
+         <change when="2016-06-06">Finalising</change>
+      </revisionDesc>
    </teiHeader>
    <text>
       <body>
 
          <div>
             <head>Combien de formats standardisés faut-il dans le monde ?</head>
-            <p><graphic url="../Graphics/standards.png"/></p>
+            <p><graphic height="80%" url="../Graphics/standards.png"/></p>
          </div>
 
          <div>
@@ -40,7 +43,7 @@
          </div>
 
          <div>
-            <head>Comment caracteriser les standards existants ?</head>
+            <head>Comment caractériser les standards existants ?</head>
             <list>
                <label>WKWBFY</label>
                <!-- we know whats best for you -->
@@ -58,9 +61,9 @@
          <div>
             <head>Les normes ne s'imposent pas dans la vie intellectuelle</head>
             <list>
-               <item>soit elles émergent d'un besoin de le communauté </item>
+               <item>soit elles émergent d'un besoin de la communauté </item>
                <item>soit leur usage dérive de la nécessité d'utiliser une technologie particulière </item>
-               <item>mais on ne renonce pas volontièrement à son indépendance ! </item>
+               <item>mais on ne renonce pas volontairement à son indépendance ! </item>
             </list>
          </div>
 
@@ -71,9 +74,9 @@
                   <item>ils figent un état de la connaissance</item>
                   <item>leur production est chronophage et nécessite des compétences
                      interdisciplinaires</item>
-                  <item>leur utilisation peut egalement etre chronophage</item>
+                  <item>leur utilisation peut être également chronophage</item>
                </list></p>
-            <p rend="box">quand même il y a des "plus" qu'il faut souligner</p>
+            <p rend="box">Quand même, il y a des avantages qu'il faut souligner</p>
          </div>
 
 
@@ -104,10 +107,18 @@
             <p rend="box">Les standards offrent ces possibilités ! </p>
          </div>
 
+         <div>
+            <head>A big claim</head>
+            <p>Dès sa conception initiale, la TEI s'est proposée comme standard pour la
+               construction, la description, la structuration, et l'annotation des corpus
+               linguistiques et littéraires. </p>
+            <p rend="box">De tous types, de toutes périodes, dans toutes les langues</p>
+         </div>
+         
          <div xml:lang="fr">
             <head>La question qui s’impose :</head>
             <list>
-               <item>La TEI est <emph>très ancienne</emph> (nee 1987) !</item>
+               <item>La TEI est <emph>très ancienne</emph> (née en 1987) !</item>
                <item>Elle précède le Web, le DVD, le téléphone portable, la télévision cablée,
                   Microsoft Word.. </item>
                <item>Les technologies informatiques qui survivent plus de 5 ans sont assez rares... </item>
@@ -115,73 +126,73 @@
             </list>
          </div>
 
-         <div>
-            <head>A big claim</head>
-            <p>Dès sa conception initiale, la TEI s'est proposée comme standard pour la
-               construction, la déscription, la structuration, et l'annotation des corpus
-               langagières et littéraires. </p>
-            <p rend="box">De tous types, de toutes periodes, dans toutes les langues</p>
-         </div>
+        
          <div>
             <head>Communautés scientifiques</head>
             <p>Du point de vue historique, la TEI est un produit d'une rarissime conjonction
-               d'interets parmi des <list>
-                  <item>littéraires, stylometriciens, critiques de l'école "close reading" </item>
+               d'interêts parmi ... <list>
+                  <item>littéraires, stylométriciens, critiques de l'école <soCalled>close
+                        reading</soCalled>
+                  </item>
                   <item>historiens, archivistes, éditeurs</item>
-                  <item>bibliographeurs, bibliothecaires</item>
-                  <item>linguistes, notamment de corpus, mais pas exclusivement</item>
+                  <item>bibliographes, bibliothécaires</item>
+                  <item>linguistes, notamment, mais pas exclusivement, de corpus</item>
                   <item>informaticiens ...</item>
 
                </list></p>
-            <p rend="box">Tous confrontés par le passage au numérique des textes écrits ou orales à
-               la grande échelle</p>
+            <p rend="box">Tous concernés par le passage au numérique des textes écrits ou oraux à
+               grande échelle</p>
          </div>
          <div xml:lang="fr">
             <head>Pourquoi tout cet effort ?</head>
+           
+            <p>Parce qu’on s’est aperçu qu’on risquait une nouvelle confusion des langues avec
+               l’arrivée de l'informatique dans la représentation des données textuelles !</p>
+            <cb/>
             <figure>
                <graphic url="../Graphics/babel.jpg" height="65%"/>
             </figure>
-            <p>Parce qu’on s’est aperçu qu’on risquait une nouvelle confusion de langues avec l’arrivée
-               de l'informatique dans la représentation des données textuelles !</p>
          </div>
          <div>
             <head>Oppositions</head>
-            <p>En meme temps, la TEI prétend fournir une réponse pratique aux oppositions typiques
+            <p>En même temps, la TEI prétend fournir une réponse pratique aux oppositions typiques
                des <soCalled>humanités numériques</soCalled> : <list rend="numbered">
                   <item>entre les besoins des débutants et ceux des experts</item>
-                  <item>entre les besoins et les interets des scientifiques et ceux des
+                  <item>entre les besoins et les interêts des scientifiques et ceux des
                      ingénieurs</item>
                </list>
             </p>
          </div>
          <div>
-            <head>Premiere opposition</head>
-            <p>D'un cote, la TEI doit presenter des solutions preconnues, consensuelles, bien
-               etablies: les sujets sur lesquels <q>tout le monde s'est mis d'accord</q> -- et que
-               les debutants doivent donc arriver a comprendre</p>
-            <p>De l'autre, elle doit soutenir la recherche, et donc la decouverte des solutions aux
-               questions pas encore posees, ou posables -- ainsi permettant aux experts de partager
-               leur expertise</p>
+            <head>Première opposition</head>
+            <p><graphic url="../Graphics/boyhoodRaleigh.jpg" /></p>
+            <cb/>
+            <list><item>D'un côté, la TEI doit présenter des solutions préconnues, consensuelles, bien
+               établies: les topoï sur lesquels <q>tout le monde s'est mis d'accord</q> -- et que
+               les débutants doivent donc arriver à comprendre</item><item>
+            De l'autre, elle doit soutenir la recherche, et donc la découverte des solutions aux
+               questions pas encore posées, ou posables -- ainsi permettant aux experts de partager
+               leur expertise.</item></list>
          </div>
          <div>
-            <head>Deuxieme opposition</head>
-            <p><graphic url="../Graphics/scientifique-ingenieur.jpg" height="40%"/></p>
+            <head>Deuxième opposition</head>
+            <p><graphic url="../Graphics/scientifique-ingenieur.jpg" height="50%"/></p>
 
-            <p>D'un cote, la TEI propose aux ingenieurs un systeme bien adapte a l'implemantation
-               avec des outils informatiques courants</p>
-            <p>De l'autre, elle s'exprime dans une langue comprehensible aux non-techniciens et se
-               base sur un modele conceptuel adapte aux disciplines SHS</p>
+          <list><item>  D'un côté, la TEI propose aux ingénieurs un système bien adapté à l'implantation avec
+               des outils informatiques courants</item><item>
+            De l'autre, elle s'exprime dans une langue compréhensible aux non-techniciens et se
+               base sur un modèle conceptuel adapté aux disciplines SHS</item></list>
          </div>
          <div>
-            <head>Imperialisme</head>
+            <head>Impérialisme</head>
             <p> En dépit de son nom, la TEI ne s'adresse pas uniquement au texte proprement dit. </p>
-            <p>Meme dans P1 (la version initiale) on trouve déjà des propositions assez complètes
+            <p>Même dans P1 (la version initiale) on trouve déjà des propositions assez complètes
                pour <list>
-                  <item>les metadonnées bibliographiques </item>
+                  <item>les métadonnées bibliographiques </item>
                   <item>l'encodage des transcriptions orales</item>
-                  <item>les analyses linguistiques abstraites en terme de structures des
+                  <item>les analyses linguistiques abstraites en termes de structures des
                      traits</item>
-               </list> en complement des propositions pour l'encodage des structures traditionnelles
+               </list> en complément des propositions pour l'encodage des structures traditionnelles
                du livre et leurs composants typiques</p>
          </div>
          <div xml:lang="fr">
@@ -189,36 +200,36 @@
             <p>À l’origine, la TEI ne s’intéressait pas à… <list>
                   <item>le web (ça n’existait pas)</item>
                   <item>la mise en page (tex, scribe…)</item>
-                  <item>l’intégration des pages-images/facsimilés numerisés</item>
+                  <item>l’intégration des pages-images/facsimilés numérisés</item>
                   <item>la représentations des faits ou des objets (les bases de données)</item>
                   <item>la production des logiciels</item>
                </list></p>
-            <p>Elle se focalisait quand meme sur : les métadonnées, les textes, les analyses
+            <p>Elle se focalisait quand même sur : les métadonnées, les textes, les analyses
                textuelles et linguistiques</p>
             <p rend="box">Nous avons changé tout cela</p>
          </div>
-         
+
          <div rend="slide">
             <head>La TEI actuelle facilite un balisage <soCalled>intelligent</soCalled>
             </head>
             <p>Elle s'applique à l'encodage des... <list type="bulleted">
-               <item>composants structuraux et fonctionnels d'un texte </item>
-               <item>transcriptions diplomatiques des sources historiques, des
-                  images, des annotations</item>
-               <item>liens, correspondances, alignements</item>
-               <item>données et entités : par exemple de temps, personnes, lieux ou
-                  événements</item>
-               <item>annotations peritextuelles et métatextuelles (correction,
-                  suppression, ajouts)</item>
-               <item>analyses linguistiques</item>
-               <item>métadonnées de plusieurs types</item>
-               <item>... et définitions formelles de schéma XML !</item>
-            </list></p>
+                  <item>composants structuraux et fonctionnels d'un texte </item>
+                  <item>transcriptions diplomatiques des sources historiques, des images, des
+                     annotations</item>
+                  <item>liens, correspondances, alignements</item>
+                  <item>données et entités : par exemple de temps, personnes, lieux ou
+                     événements</item>
+                  <item>annotations péritextuelles et métatextuelles (correction, suppression,
+                     ajouts)</item>
+                  <item>analyses linguistiques</item>
+                  <item>métadonnées de plusieurs types</item>
+                  <item>... et définitions formelles de schéma XML !</item>
+               </list></p>
             <p rend="box">mais il faut séléctionner</p>
          </div>
-              
-         
-         
+
+
+
          <div>
             <head>Interdisciplinarité</head>
             <p> La TEI peut ainsi être considérée comme un des plus grands efforts
@@ -230,24 +241,25 @@
          </div>
          <div>
             <head>Application du rasoir</head>
-               <list>
-               <item>Il arrive souvent que les memes objets portent de noms divers <!-- ...</item>
-               <item>... -->et (moins souvent) que des objets divers ne sont pas distingues de
-                  nom</item>
-               <item>En souhaitant eviter une multiplication ingerable de concepts, la TEI fournit
+            <list>
+               <item>Il arrive souvent que les mêmes objets portent de noms divers
+                  <!-- ...</item>
+               <item>... -->et (moins souvent) que des objets
+                  divers ne sont pas distingués par le nom</item>
+               <item>En souhaitant éviter une multiplication ingérable de concepts, la TEI fournit
                   typiquement <list>
-                     <item>une proposition generique (par ex <gi>div</gi>, <gi>q</gi>)</item>
-                     <item>moins souvent, des propositions specifique (par ex <gi>said</gi>,
+                     <item>une proposition générique (par ex <gi>div</gi>, <gi>q</gi>)</item>
+                     <item>moins souvent, des propositions spécifiques (par ex <gi>said</gi>,
                            <gi>quote</gi>, <gi>mentioned</gi>... ) </item>
                   </list></item>
             </list>
             <cb/>
-            <p><graphic url="../Graphics/rasoir.jpg" /></p>
-            
-            
+            <p><graphic url="../Graphics/rasoir.jpg"/></p>
+
+
          </div>
          <div>
-            <head>La personnalisation</head>
+            <head>La pérsonnalisation</head>
             <p><figure>
                   <graphic url="../Graphics/SGMLuser.png" height="75%"/>
                   <head>Extrait du ICAME Journal, 1992</head>
@@ -256,50 +268,177 @@
             <p>Le système TEI fournit un gabarit ou un kit lego pour la construction d'un système
                d'encodage bien adapté aux besoins de l'utilisateur, qui reste en même temps
                compréhensible par d'autres personnes ou systèmes, et dans lequel les modifications
-               eventuelles se declarent clairement.</p>
+               éventuelles se déclarent clairement.</p>
          </div>
-        
+
          <div>
             <head>Il n'y a pas de &#x201C;TEI dtd&#x201D;</head>
             <list type="unordered">
-               <item> TEI est un système <emph>modulaire</emph>. On s'en sert pour
-                  créer un système d'encodage selon ses propres besoins, en
-                  sélectionnant des <term>modules</term> spécifiques</item>
-               <item>Chaque module définit une brique contenant une groupe d'éléments (et leurs
+               <item> TEI est un système <emph>modulaire</emph>. On s'en sert pour créer un système
+                  d'encodage selon ses propres besoins, en sélectionnant des <term>modules</term>
+                  spécifiques</item>
+               <item>Chaque module définit une brique contenant un groupe d'éléments (et leurs
                   attributs)</item>
-               <item>on peut sélectionner les éléments voulus, et même en changer des
-                  propriétés </item>
-               <item>on peut y mélanger des éléments nouveaux, ou bien natifs ou bien
-                  d'autres standards</item>
+               <item>on peut séléctionner les éléments souhaités, et même en changer des propriétés </item>
+               <item>on peut y mélanger des éléments nouveaux, ou bien natifs ou bien d'autres
+                  standards</item>
             </list>
          </div>
          <div>
             <head>Organisation logique de la TEI</head>
-            <p><graphic url="../Graphics/class-system-FR.png" /></p>
+            <p><graphic url="../Graphics/class-system-FR.png"/></p>
          </div>
-        
-        <div>
-           <head>Les TEI Guidelines</head>
-           <p><graphic url="../Graphics/theGuidelines.jpg"/></p>
-        </div>
-         
+
+         <div>
+            <head>Liste des modules TEI (1)</head>
+            <table rend="rules" >
+<row role="label"><cell>module</cell><cell>contents</cell></row>
+               <row>
+                  <cell>analysis</cell>
+                  <cell>Mécanismes simples d'analyse interpretative</cell>
+               </row>
+               <row>
+                  <cell>certainty</cell>
+                  <cell>Indications de (in)certertitude et de pertinence</cell>
+               </row>
+               <row>
+                  <cell> core </cell>
+                  <cell>Eléments communs à presque tout document</cell>
+               </row>
+               <row>
+                  <cell>corpus</cell>
+                  <cell>Eléments spécialisés pour la description des corpus</cell>
+               </row>
+               <row>
+                  <cell>declarefs</cell>
+                  <cell>Déclarations de système de traits</cell>
+               </row>
+               <row>
+                  <cell>dictionaries</cell>
+                  <cell>Eléments spécialisés pour l'encodage des dictionnaires</cell>
+               </row>
+               <row>
+                  <cell>drama</cell>
+                  <cell>Eléments spécialisés pour l'encodage des pièces de théâtre</cell>
+               </row>
+               <row>
+                  <cell>figures</cell>
+                  <cell>Encodage des tableaux, formules et figures</cell>
+               </row>
+               <row>
+                  <cell>gaiji</cell>
+                  <cell>Documentation des caractères non Unicode et des glyphes</cell>
+               </row>
+               <row>
+                  <cell> header </cell>
+                  <cell>Définition des métadonnées </cell>
+               </row>
+               <row>
+                  <cell>iso-fs</cell>
+                  <cell>Représentation des structure de traits</cell>
+               </row>
+               <row>
+                  <cell>linking</cell>
+                  <cell>Eléments spécialisés pour l'encodage des liens, de la segmentation et de
+                     l'alignement</cell>
+               </row></table></div><div>
+                  <head>Liste des modules TEI (2)</head>
+                  <table rend="rules">
+                     <row role="label"><cell>module</cell><cell>contents</cell></row>
+                     
+               <row>
+                  <cell>msdescription</cell>
+                  <cell>Eléments spécialisés pour la description des sources manuscrites</cell>
+               </row>
+               <row>
+                  <cell>namesdates</cell>
+                  <cell>Encodage des entités nommées</cell>
+               </row>
+               <row>
+                  <cell>nets</cell>
+                  <cell>Encodage des graphies, réseaux, et arborescences</cell>
+               </row>
+               <row>
+                  <cell>spoken</cell>
+                  <cell>Eléments spécialisés pour la transcription orale</cell>
+               </row>
+               <row>
+                  <cell>tagdocs</cell>
+                  <cell>Eléments spécialisés pour la definition et documentation des systèmes
+                     d'encodage</cell>
+               </row>
+               <row>
+                  <cell> tei </cell>
+                  <cell>Definition des datatypes, des classes, et des macros utilisés par tout TEI
+                     module</cell>
+               </row>
+               <row>
+                  <cell>textcrit</cell>
+                  <cell>Eléments spécialisés pour l'apparat critique traditionnel</cell>
+               </row>
+               <row>
+                  <cell> textstructure </cell>
+                  <cell>Eléments structurants par défaut applicables à tout texte</cell>
+               </row>
+               <row>
+                  <cell>transcr</cell>
+                  <cell>Eléments spécialisés pour la transcription diplomatique ou génétique des
+                     sources primaires</cell>
+               </row>
+               <row>
+                  <cell>verse</cell>
+                  <cell>Eléments spécialisés pour le textes poétiques</cell>
+               </row>
+            </table>
+         </div>
+
+
          <div>
             <head>Les TEI Guidelines</head>
-             <p>Dans ses 1 400 pages imprimées, vous trouverez : </p>
-            <list >
-               <item><label>un lexique</label>
-                  de 566 éléments</item>
-               <item><label>des règles d'usage et des contraintes</label>
-                  <list><item>exprimées en langue naturelle</item>
-                  <item>exprimées en langages formels</item></list></item>
-               <item>  <label><emph>beaucoup</emph> de discussion</label>
-                  notamment de plusieurs exemples d'utilisation</item>
-            </list>        
+         <figure><graphic  url="../Graphics/theGuidelines.png"/></figure>
          </div>
-        
-        
-        
-         
+
+         <div>
+            <head>Les TEI Guidelines</head>
+            <p>Dans ses 1 400 pages imprimées, vous trouverez : </p>
+            <list>
+               <item><label>un lexique</label> de 564 éléments</item>
+               <item><label>des règles d'usage et des contraintes</label>
+                  <list>
+                     <item>exprimées en langue naturelle</item>
+                     <item>exprimées en langages formels</item>
+                  </list></item>
+               <item>
+                  <label><emph>beaucoup</emph> de discussions</label> notamment de plusieurs
+                  exemples d'utilisation</item>
+            </list>
+            <p>L'accès online est maintenant plus pratique... </p>
+         </div>
+
+         <div>
+            <head>Par exemple : une spécification typique online</head>
+            <p><ref target="http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-particDesc.html"
+                  > http://www.tei-c.org/release/doc/tei-p5-doc/fr/html/ref-particDesc.html
+               </ref></p>
+         </div>
+
+         <div>
+            <head>TEI P5: derniers nouveautés</head>
+            <p>Il y a une version nouvelle de TEI P5 au moins 2 fois par an; le plus souvent
+               contenant des fautes corrigées, de nouveaux exemples, etc. </p>
+            <p>La plus recente contient deux modifications importantes des possibilités fournies par
+               le langage ODD de personnalisation. On peut désormais utiliser de nouveaux éléments
+               TEI <list>
+                  <item>pour la définition des modèles de contenu </item>
+                  <item>pour la documentation des modéles de traitement</item>
+               </list>
+            </p>
+            <p>Prochainement, le dossier d'exemplaires contiendra <ident>TEI Simple</ident> un
+               nouveau schéma réduit <soCalled>adapté aux besoins de 90% des utilisateurs
+                  TEI</soCalled>, qui est censé remplacer le vénérable <ident>TEI Lite</ident>
+            </p>
+         </div>
+
          <div xml:lang="fr">
             <head>Pourquoi continuer de s’intéresser à la TEI ?</head>
             <p>Deux raisons pour lesquelles les standards échouent le plus souvent : <list>
@@ -308,7 +447,7 @@
                      diverse ou fragmentée</item>
                </list>
             </p>
-            <p rend="box">Le secret de la réussite de la TEI et de son longévité serait-il dans ses
+            <p rend="box">Le secret de la réussite de la TEI et de sa longévité serait-il dans ses
                capacités d'évolution ? </p>
 
          </div>
@@ -316,20 +455,20 @@
          <div xml:lang="fr">
             <head>Comment faire mûrir une théorie ?</head>
             <p>Une personnalisation TEI peut : <list>
-                  <item>faire une selection explicite des elements et des attributs consideres
+                  <item>faire une sélection explicite des éléments et des attributs considérés comme
                      utiles</item>
                   <item>limiter les valeurs possibles d’un attribut plus ou moins strictement</item>
                   <item>proposer des règles Schematron sur le contenu d'un element (p.e.
                      co-dependency)</item>
-                  <item>ajouter de nouveaux éléments (ou classes d'element), labellisés dans votre
-                     propre espace de noms, mais appartenant aux classes semantiques predefinies par
+                  <item>ajouter de nouveaux éléments (ou classes d'élément), labellisés dans votre
+                     propre espace de noms, mais appartenant aux classes sémantiques prédéfinies par
                      la TEI</item>
                </list></p>
             <p rend="box">Donc on peut évoluer et tester sa théorie, en restant toujours
                TEI-conforme. </p>
          </div>
 
-<!-- list of mpdules here ? -->
+         <!-- list of mpdules here ? -->
          <!-- discussion of meytadaya? -->
 
          <div xml:lang="fr">
@@ -347,15 +486,15 @@
                   d’autres ontologies, formalisé par un élément <gi>equiv</gi> (équivalent)</item>
             </list>
          </div>
-        
-         
+
+
          <div xml:lang="fr">
             <head>Un standard existe pour qu'on s'y conforme, non ?</head>
             <figure>
                <graphic url="../Graphics/1991-TEI-commandments.png" height="80%"/>
             </figure>
          </div>
-         
+
          <div xml:lang="fr">
             <head>L’esprit TEI</head>
             <p>Qu’est-ce que cela veut dire : « être conforme » à la TEI ?</p>
@@ -364,8 +503,8 @@
                <item>un lexique commun</item>
                <item>un respect de l’autonomie</item>
             </list>
-            <p>La standardisation ne doit pas signifier « fais comme moi » ; elle veut dire « explique-moi
-               ce que tu fais. »</p>
+            <p>La standardisation ne doit pas signifier « fais comme moi » ; elle veut dire
+               « explique-moi ce que tu fais. »</p>
          </div>
          <div xml:lang="fr">
             <head>L’évolution darwinienne, ça marche…</head>
@@ -380,441 +519,7 @@
             <p rend="box">... et n'oubliez pas de vous abonner au Consortium !</p>
          </div>
 
-<!--
-         <div>
-            <head>Annotation de l'oral</head>
-            <p>Un cas extrème -\- il n y a pas de texte à annoter; on le crée en annotant.</p>
-            <p><graphic url="../Graphics/oral-annot.png"/></p>
-         </div>
 
-
-         <div>
-            <head>Est-ce qu'on peut arriver à normaliser la transcription ?</head>
-
-            <p><quote>No transcript is completely theory-neutral or without bias.</quote> (Edwards,
-               1991)</p>
-            <p> — Mais elle parle plutôt de la manière de visualiser la transcription, non pas de sa
-               structuration.</p>
-            <p><quote>To code morphology and syntax, dozens of coding systems have been devised and
-                  none has yet emerged as standard, since the underlying theory in these areas
-                  continues to change. Similarly, in areas such as speech act analysis or
-                  intentional analysis, there are many detailed systems for coding, but no single
-                  standard.</quote> (MacWhinney, 2001)
-               <!-\-
-MacWhinney, B. (2001). From CHILDES to TalkBank. In M. Almgren, A.
-Barreña, M. Ezeizaberrena, I. Idiazabal & B. MacWhinney (Eds.),
-Research on Child Language Acquisition (pp. 17-34). Somerville,-\->
-            </p>
-         </div>
-
-         <div>
-            <head>Est-ce qu'on peut arriver à normaliser la transcription ?</head>
-
-            <p><quote> ... there is, to date, no widely dominant method, let alone a real standard,
-                  for doing spoken language transcription. However, with the advent of digital
-                  research infrastructures, in which corpora from different sources can be combined
-                  and processed together, the need for such a standard becomes more and more
-                  obvious.
-                  <!-\-Issue 1 | June 2011 : Selected Papers from the 2008 and 2009 TEI Conferences
-A TEI-based Approach to Standardising Spoken Language Transcription
-Thomas Schmidt -\->
-               </quote> (Schmidt 2011)</p>
-         </div>
-
-         <div>
-            <head>Influence des outils sur la modélisation de l'oral</head>
-
-            <p>Outils de transcription les plus répandus : <list>
-                  <item>Anvil, CHAT, ELAN, EXMARaLDa, FOLKER, Praat, Transcriber... </item>
-               </list></p>
-
-         </div>
-
-         <div>
-            <head>EXMARaLDA, par exemple</head>
-            <p><graphic url="../Graphics/exmaralda.jpg"/></p>
-            <p>EXMARaLDA: “Extensible Markup Language for Discourse Annotation”
-               http://www.exmaralda.org/</p>
-         </div>
-
-         <div>
-            <head>Format interne EXMARaLDA</head>
-            <egXML xmlns="http://www.tei-c.org/ns/Examples">
-               <common-timeline>
-                  <tli id="T0" time="0.0"/>
-                  <tli id="T1" time="1.309974117691172"/>
-                  <tli id="T2" time="1.899962460773455"/>
-                  <tli id="T3" time="2.3399537674788866"/> ....</common-timeline>
-               <tier id="TIE0" speaker="SPK0" category="v" type="t" display-name="PRE [v]">
-                  <event start="T2" end="T3">Good evening. </event>
-                  <event start="T5" end="T6">I have with me tonight Ann Elk Mistress Ann Elk.
-                  </event></tier></egXML>
-         </div>
-         <div>
-            <head>Voices of the Holocaust</head>
-            <egXML xmlns="http://www.tei-c.org/ns/Examples">
-               <div xml:lang="de">
-                  <u who="#boderD" start="127.732" end="x">[In German] Also, sagen Sie mir, wie
-                     lautet Ihr Name, Frau Button?</u>
-                  <u who="#buttonE" start="132.669" end="x">Deutsch sprechen?</u>
-                  <u who="#boderD" start="135.403" end="x">Auf Deutsch.</u>
-                  <u who="#buttonE" start="137.122" end="x">Ich heiße Eda Button. Ich war deportiert
-                     von Athen im, äh, April '44.</u>
-                  <u who="#boderD" start="137.122" end="x">Und nach wo wurden sie deportiert?</u>
-                  <u who="#buttonE" start="146.903" end="x">Ich war deportiert in äh
-                     Bergen-Belsen.</u>
-                  <u who="#boderD" start="149.496" end="x">Ja. Also, sagen Sie mal, äh, wo ist Ihr
-                     Mann?</u>
-                  <u who="#buttonE" start="153.090" end="x">Mein Mann ist, äh, weggelau- war, äh,
-                     in, äh, Palästina, in Tel Aviv.</u>
-               </div>
-            </egXML>
-         </div>
-         <div>
-            <head>IFA Dialog Video corpus </head>
-            <egXML xmlns="http://www.tei-c.org/ns/Examples"><TIME_ORDER>
-                  <TIME_SLOT TIME_SLOT_ID="ts1" TIME_VALUE="0"/>
-                  <TIME_SLOT TIME_SLOT_ID="ts2" TIME_VALUE="10"/>
-                  <TIME_SLOT TIME_SLOT_ID="ts3" TIME_VALUE="462"/>
-                  <TIME_SLOT TIME_SLOT_ID="ts4" TIME_VALUE="840"/> ...</TIME_ORDER>
-               <ANNOTATION>
-                  <ALIGNABLE_ANNOTATION ANNOTATION_ID="a1" TIME_SLOT_REF1="ts4" TIME_SLOT_REF2="ts7">
-                     <ANNOTATION_VALUE>beginnen we weer opnieuw?</ANNOTATION_VALUE>
-                  </ALIGNABLE_ANNOTATION>
-               </ANNOTATION>
-            </egXML>
-         </div>
-
-         <div>
-            <head>Transcriber</head>
-            <egXML xmlns="http://www.tei-c.org/ns/Examples"><Turn speaker="spk2" startTime="0.557"
-                  endTime="5.851">
-                  <Sync time="0.557"/> so what do you know of your family ’s <Sync time="2.255"/>
-                  history like <Sync time="3.410"/> do you know when and why they came to Oxford
-               </Turn>
-            </egXML>
-         </div>
-
-         <div>
-            <head>Un structuration commune, quand-meme </head>
-            <p>Schmidt (2011) note que tous ces systèmes proposent un modèle commun, une
-               simplification d'une <term>annotation graph</term> (Bird &amp; Liberman, 2002) <list>
-                  <item>l'oral existe dans le temps : donc chaque morceau transcrit est associé à un
-                     point de départ et à une fin</item>
-                  <item>ces triplets sont regroupables en couches (<q>tiers</q>)</item>
-                  <item>une couche peut être associée à un locuteur, et/ou à un type</item>
-               </list></p>
-         </div>
-
-         <div>
-            <head>Au niveau de transcription...</head>
-            <p>Même jeu ... On peut identifier (au moins) 5 systèmes de transcription pour les
-               énoncés eux-mêmes: <table>
-                  <row>
-                     <cell role="label">HIAT</cell>
-                     <cell>((coughs)) You must/ you (should) let • it be. ((laughs)) Pleease!</cell>
-                  </row>
-                  <row>
-                     <cell role="label">GAT</cell>
-                     <cell><code>((coughs)) you must- you (should/could) let (-) it be; ((laughs))
-                           plea:se-</code>
-                     </cell>
-                  </row>
-                  <row>
-                     <cell role="label">CHAT</cell>
-                     <cell><code>&amp;=coughs you must... you should let # it be. &amp;=laughs
-                           please!</code>
-                     </cell>
-                  </row>
-                  <row>
-                     <cell role="label">DT1</cell>
-                     <cell><code>(COUGH) you must-\- you &lt;X should X&gt; let .. it be. @@
-                           please?</code>
-                     </cell>
-                  </row>
-                  <row>
-                     <cell role="label">cGAT</cell>
-                     <cell><code>((coughs)) you must you (should/could) let (-) it be ((laughs))
-                           please</code>
-                     </cell>
-                  </row>
-               </table>
-            </p>
-            <p>(Table from Schmidt 2011)</p>
-         </div>
-
-         <div>
-            <head>ou, en TEI XML</head>
-            <egXML xmlns="http://www.tei-c.org/ns/Examples">
-               <u>
-                  <seg type="interrupted">
-                     <incident>
-                        <desc>coughs</desc>
-                     </incident>
-                     <w>you</w>
-                     <w>must</w>
-                  </seg>
-                  <seg type="declarative">
-                     <w>you</w>
-                     <w>should</w>
-                     <w>let</w>
-                     <pause dur="short"/>
-                     <w>it</w>
-                     <w>be</w>
-                  </seg>
-                  <seg type="emphatic">
-                     <incident>
-                        <desc>laughs</desc>
-                     </incident>
-                     <w>please</w>
-                  </seg>
-               </u>
-            </egXML>
-         </div>
-
-
-
-
-         <div>
-            <head>L’oral</head>
-            <p> Dans un texte oral on peut reconnaître un sous-ensemble des phénomènes de discours
-               qui sont d’ interet lexical: <list>
-                  <item>des énoncés (utterances)</item>
-                  <item>des pauses</item>
-                  <item>des phénomènes vocalisés mais pas lexicalisés, par exemple la toux, des
-                     quasi-mots comme "hein", "uh" etc. </item>
-                  <item>des phénomènes <term>kinésiques</term> (non vocalisés, non lexicaux, mais
-                     servant à communiquer) notamment les gestes</item>
-                  <item>des événements entièrement non linguistiques, mais ayant un effet sur le
-                     discours, par exemple un camion qui passe etc. </item>
-                  <item>des événements écrits, que l’on peut donc transcrire, par exemple des titres
-                     ou des diapositives affichés pendant une communication</item>
-                  <item>des changements dans la qualité de la voix, par exemple de volume</item>
-               </list></p>
-            <p rend="box"> .. contrairement aux textes écrits, un texte oral est organisé dans le
-               temps </p>
-         </div>
-
-
-
-         <div rend="slide">
-            <head>En résumé... </head>
-            <figure>
-               <graphic url="../Graphics/SpeechDiagram.png"/>
-            </figure>
-         </div>
-
-         <div>
-            <head>Propositions du module <ident>spoken</ident>
-            </head>
-            <list type="gloss">
-               <label>Des éléments supplementaire dans l’en-tête </label>
-               <item><gi>broadcast</gi>, <gi>equipment</gi>, <gi>recording</gi>,
-                     <gi>recordingStmt</gi>, <gi>scriptStmt</gi></item>
-               <label>Des éléments pour la transcription de l’oral</label>
-               <item>
-                  <gi>incident</gi>, <gi>kinesic</gi>, <gi>pause</gi>,<gi>shift</gi>, <gi>u</gi>,
-                     <gi>vocal</gi>, <gi>writing</gi></item>
-               <label>Des mechanismes pour representer le timing : l'alignement dans le temps </label>
-               <item><gi>timeLine</gi>, <att>dur</att>
-                  <att>start</att>
-                  <att>end</att>
-                  <att>sync</att>
-               </item>
-            </list>
-         </div>
-
-
-         <div>
-            <head>Par exemple...</head>
-
-            <egXML xmlns="http://www.tei-c.org/ns/Examples">
-               <u who="#Jan">mmm delicieux</u>
-               <incident>
-                  <desc>téléphone sonne</desc>
-               </incident>
-               <u who="#Kim">j’y vais</u>
-               <u who="#Tom">ya longtemps <vocal><desc>tousse</desc></vocal> jne fume plus</u>
-               <u who="#Bob"><vocal><desc>sniffs</desc></vocal>il se croit dur</u>
-               <vocal who="#Ann">
-                  <desc>grognement</desc>
-               </vocal>
-               <u who="#Tom">oueh <kinesic><desc>fait un geste avec le doigt</desc></kinesic></u>
-               <u who="#Bob">donc j’aurais dû <vocal who="#Ann"><desc>faisant tss-tss</desc></vocal>
-                  faire quoi</u>
-            </egXML>
-         </div>
-
-         <div>
-            <head>La question des metadonnees</head>
-            <!-\- what to record and how to record it 
-            enormous variety of possible interests
-            particularly tricky for spoken but applies everywhere 
-            for participants : names, demographic characteristics, role in dialog
-            for dialog itself : context, function, time, place
-            for recording : technical data, mode of diffusion -\->
-         </div>
-         <div>
-            <head>Flexibility and standardization of metadata</head>
-            <list>
-               <item>Information can be supplied purely in documentary terms, as plain
-                  text...</item>
-               <item>... or it can be organized in a structured way, using a rich set of XML
-                  descriptors</item>
-               <item>The available descriptors can be constrained by means of a customised
-                  schema</item>
-               <item>Additional descriptors can be added, and integrated by means of the TEI class
-                  system</item>
-            </list>
-         </div>
-
-         <div rend="slide">
-            <head>Description des participants</head>
-            <egXML xmlns="http://www.tei-c.org/ns/Examples">
-               <particDesc>
-                  <listPerson>
-                     <person xml:id="Jan" sex="2" age="mid">
-                        <p>participant, sexe féminin, bonne éducation, née à Shropshire UK, 12 Jan
-                           1950, commerçante parle français couramment. Statut socio-économique
-                           (SSE) : commerçante.</p>
-                     </person>
-                     <person xml:id="Kim" sex="2">
-                        <persName>
-                           <surname>Matthews</surname>
-                           <forename>Kimberley</forename>
-                           <forename>Jane</forename>
-                        </persName>
-                        <birth when="1967-07-10">
-                           <placeName>Leeds</placeName>
-                        </birth>
-                        <occupation>commerçante</occupation>
-                     </person>
-                  </listPerson>
-               </particDesc>
-            </egXML>
-
-         </div>
-         <div>
-            <head>Description des enregistrements</head>
-            <p>Le cas le plus simple ...</p>
-            <egXML xmlns="http://www.tei-c.org/ns/Examples">
-               <recordingStmt>
-                  <recording type="audio" dur="P15M" xml:id="rec-3001">
-                     <date>14 Feb 2001</date>
-                  </recording>
-                  <recording type="audio" dur="P15M" xml:id="rec-3002">
-                     <date>17 Feb 2001</date>
-                  </recording>
-                  <recording type="audio" dur="P15M" xml:id="rec-3003">
-                     <date>22 Feb 2001</date>
-                  </recording>
-               </recordingStmt>
-            </egXML>
-         </div>
-
-         <div>
-            <head>Description des enregistrements</head>
-            <p>Un cas un peu moins simple ...</p>
-
-            <egXML xmlns="http://www.tei-c.org/ns/Examples">
-               <recordingStmt>
-                  <recording type="audio" dur="P10M">
-                     <equipment>
-                        <p>podcast</p>
-                     </equipment>
-                     <broadcast>
-                        <bibl>
-                           <author>France Inter</author>
-                           <title>Questions sur la souffrance et la santé au travail : pénibilité,
-                              stress, dépression, harcèlement, maladies et accidents...</title>
-                           <respStmt>
-                              <resp>Présentateur</resp>
-                              <name>Alain Bédouet</name>
-                           </respStmt>
-                           <respStmt>
-                              <resp>Personne interrogée</resp>
-                              <name>Marie Pezé <note>Docteur en psychologie, psychanalyste, expert
-                                    judiciaire ; dirige la consultation « souffrance et travail » à
-                                    l’Hôpital de Nanterre (92), auteure de <title>ils ne mourraient
-                                       pas tous mais tous étaient frappés</title>, Editions
-                                    Pearson.</note></name>
-                           </respStmt>
-                           <series>
-                              <title>Le Téléphone sonne</title>
-                           </series>
-                           <note>Première diffusion le <date when="2008-09-24">mercredi 24 septembre
-                                 2008</date>
-                           </note>
-                        </bibl>
-                     </broadcast>
-                  </recording>
-               </recordingStmt>
-            </egXML>
-         </div>
-         <div>
-            <head>Inconvenients</head>
-            <p>Si on disposait (ou souhaitait disposer) des informations plus completes sur les
-               personnes interrogées, ou les mettre? le bricolage avec <gi>note</gi> n'est pas tres
-               joli</p>
-            <p>Si on voulait utiliser des balises plus adaptees a la terminologie correcte pour les
-               emissions radiophoniques?</p>
-            <p>Il nous faudrait un schema plus adaptes... </p>
-         </div>
-         <div>
-            <head>Representation des informations prosopographiques</head>
-            <p>La TEI distingue clairement les <term>entites</term> (par ex, une personne, un lieu)
-               de leurs <term>noms</term> (par ex, un nom de personne, de lieu) en utilisant par ex.
-                  <gi>person</gi> et <gi>persName</gi>, <gi>place</gi> et <gi>placeName</gi></p>
-            <p><gi>name</gi> est une generalisation de <gi>placeName</gi>
-               <gi>persName</gi>, etc. et ne devrait donc pas contenir des informations relatives a
-               la personne, proprement dit (l'emploi de <gi>note</gi> ici est une astuce)</p>
-            <p>L'attribut <att>ref</att> sert a lier un nom d'entite avec l'entite concerne</p>
-            <egXML xmlns="http://www.tei-c.org/ns/Examples">
-               <respStmt>
-                  <resp>Personne interrogée</resp>
-                  <name ref="#PEZMA1">Marie Pezé </name>
-               </respStmt>
-               <!-\- ailleurs dans le document... -\->
-               <person xml:id="PEZMA1">
-                  <note>Docteur en psychologie, psychanalyste, expert judiciaire ; dirige la
-                     consultation « souffrance et travail » à l’Hôpital de Nanterre (92), auteure de
-                        <title>ils ne mourraient pas tous mais tous étaient frappés</title>,
-                     Editions Pearson.</note>
-               </person>
-            </egXML>
-         </div>
-
-         <div>
-            <head>Pas de bricolage!</head>
-            <p>La TEI propose un ensemble elabore des elements pour decrire une personne... (cf
-               whoami) <list>
-                  <item>ses noms (<gi>persName</gi>) </item>
-                  <item>ses proprietes plus ou moins permanents (<gi>sexe</gi>,
-                     <gi>nationalite</gi>, <gi>occupation</gi>...)</item>
-                  <item>les evenements significatifs de sa vie (<gi>event</gi>, <gi>birth</gi>,
-                        <gi>death</gi>) </item>
-               </list> Ces elements sont tous <term>datables</term>: des attributs sont disponibles
-               pour indiquer la temporalite de la caracterisation concernee</p>
-            <egXML xmlns="http://www.tei-c.org/ns/Examples">
-               <person xml:id="PEZMA1">
-                  <persName><surname>Peze</surname>
-                     <forename>Marie</forename>
-                  </persName>
-                  <birth when="1952"/>
-                  <occupation notBefore="1997">Direction du CASH a Nanterre</occupation>
-                  <ref target="http://www.wikipedia.fr">Article sur Wikipedia</ref>
-               </person></egXML>
-         </div>
-
-         <div>
-            <head>Qu’est-ce&#160;qu’une&#160; métadonnée?</head>
-            <p><graphic url="../Graphics/TEI-Metadonnees-3_1.jpg"/></p>
-            <cb/>
-            <p><graphic url="../Graphics/TEI-Metadonnees-3_2.png"/></p>
-            <p><graphic url="../Graphics/TEI-Metadonnees-3_3.png"/></p>
-         </div>
-
--->
       </body>
    </text>
 </TEI>
