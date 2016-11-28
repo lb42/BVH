@@ -1,0 +1,1228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Handling primary sources in TEI XML</title>
+      </titleStmt>
+      <publicationStmt>
+        <p><!-- supply publication information-->
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Derived from HTML slides originally prepared by
+	M. J. Driscoll; <lb/>
+Arnamagnæan Institute<lb/>
+University of Copenhagen<lb/><lb/>
+<code>mjd@hum.ku.dk</code></p>
+</sourceDesc>
+
+    </fileDesc>
+<revisionDesc>
+  <change when="2008-08-15" who="LB">Revised for Kazan, with Tania's help</change>
+  <change when="2008-07-08" who="LB">Turned MJD's HTML from Serbia into XML</change>
+</revisionDesc>
+  </teiHeader>
+<text>
+    <body>
+
+<div><head>Transcribable features</head>
+
+<p>Transcription is a special kind of encoding, in which the aim is
+to represent all the important features of a primary source without
+prejudging too much about it... hence the term <term>diplomatic
+transcript</term>.</p>
+
+<p>Here are some of the kinds of features concerned:
+<list>
+<item>letter forms</item>
+<item>page layout</item>
+<item>orthography</item>
+<item>word division</item>
+<item>punctuation</item>
+<item>abbreviations</item>
+<item>additions and deletions</item>
+<item>errors and omissions</item>
+</list>
+</p>
+
+</div>
+
+<div><head>Letter forms</head>
+<p><graphic width="6in" url="../Graphics/alphabetum.png"/></p>
+</div>
+
+<div><head>Letter forms</head>
+<list>
+<item>Unicode (ISO 10646) defines computer codepoints for most, though
+not all, of the abstract characters recognized by modern scholars when
+reading ancient sources.</item>
+<item>Different fonts realise those codepoints in different
+styles; however the underlying character remains the same. </item>
+<item>Data entry of Unicode characters can be
+<list>
+<item>direct: some key combination or menu-selection generates the character
+<code>æ</code> for us</item>
+<item>indirect, using a numeric <term>character entity reference</term> such
+as <code>&amp;#xE6</code></item>
+<item>indirect using a mnemonic  character entity reference such as
+<code>&amp;aelig;</code> (this requires every document to carry a DTD
+with it)</item>
+</list></item>
+<!--<item>Unicode contains definitions for e.g. Glagolitic and Old Cyrillic</item>-->
+</list>
+</div>
+
+<div><head>Non-Unicode characters</head>
+<p>Nevertheless, sometimes Unicode is not enough... 
+<list>
+<item>... if your character doesn't exist</item>
+<item>... if you want to distinguish letter forms that Unicode regards
+as identical e.g. for statistical analysis.</item>
+</list></p>
+<p>The <gi>g</gi> (gaiji) element stands for any non-Unicode
+character. Its content can be a local approximation to the desired
+letter (or nothing); its <att>ref</att> attribute points to a
+definition for the required character or glyph.</p>
+
+<egXML rend="small" xmlns="http://www.tei-c.org/ns/Examples">
+<!-- in text -->
+<g ref="#x123"/>
+or
+<g ref="#x123">x</g>
+
+<!-- in header -->
+<char xml:id="x123">
+<!-- character definition here -->
+</char>
+</egXML>
+
+</div>
+
+
+<div><head>Structure and layout</head>
+
+<list>
+<item>As elsewhere we distinguish  <soCalled>structure</soCalled> (the
+way the intellectual content of a work is logically organized) from
+<soCalled>layout</soCalled> (the physical arrangement of the text on the page).</item>
+<item>The structural view is generally privileged over the layout view
+in TEI documents. Common practice is to mark <gi>div</gi>
+<gi>p</gi>, <gi>lg</gi>, <gi>l</gi> (etc) elements, elements, as in printed texts,
+and to use empty <soCalled>milestone</soCalled> tags for significant
+points in the physical layout, for example <gi>pb/</gi>,
+<gi>cb/</gi>, and <gi>lb/</gi> , for page-, column- and
+line-boundaries respectively. </item>
+
+<item>(The opposite practice is also feasible: one could imagine marking up a
+structural hierarchy of <gi>gathering</gi>, <gi>leaf</gi>, etc. with
+milestone elements to mark the points at which
+<soCalled>structural</soCalled> components begin and end.)</item>
+</list>
+</div>
+
+
+<div><head>Abbreviation</head>
+
+<p>Abbreviations are highly characteristic of manuscript materials of
+all kinds.  Western mss traditionally distinguish:
+
+<list type="gloss">
+<label>Suspensions</label> <item>the first letter or letters of the
+word are written, generally followed by a point, or other marker: for
+example <val>e.g.</val> for <val>exemplia gratia</val></item>
+<label>Contractions</label> <item>both first and last letters are
+written, generally with some other mark of abbreviation such as  a
+superscript stroke, or, less commonly, a point or points: e.g.
+<val>Mr.</val> for <val>Mister</val>.</item> 
+<label>Brevigraphs</label><item>Special signs or tittels, such as the
+Tironian <term>nota</term> (<code>&#x204A;</code>) used for <q>et</q>,
+the letter p with a barred tail commonly used for
+<val>per</val>, the letter c with a circumflex used for <val>cum</val> &amp;c.
+</item>
+<label>Superscripts</label><item>Superscript letters (vowels or
+consonants) are often used to indicate various kinds of
+contraction: e.g. <val>w</val> followed by superscript
+<val>ch</val> for <val>which</val>. </item>
+</list>
+</p>
+<p rend="box">Other traditions have similar phenomena, but use
+differing terminology.</p>
+</div>
+
+<div><head>Encoding abbreviations (1)</head>
+<p>TEI proposes two levels of encoding:
+<list>
+<item>the whole of an abbreviated word and the whole of its expansion:
+<gi>abbr</gi> and <gi>expan</gi></item>
+<item>abbreviatory signs or characters and the
+<soCalled>invisible</soCalled> characters they imply: <gi>am</gi> and
+<gi>ex</gi></item>
+</list>
+</p>
+
+<!--
+<p>The Old Icelandic  word <mentioned>hann</mentioned> (<q>he</q>) is
+usually written as a brevigraph, combining the letter <val>h</val>
+with a horizontal stroke representing nasalisation (Unicode character
+0305, functionally similar to the modern tilde). It looks like this:</p>
+<p><graphic width="1cm"  url="../../Graphics/hann.png"/></p>
+-->
+<p>For example: the Russian word господь (Lord) is often found in
+abbreviated form as г&#x0483;ь (a <term>contraction</term>). Similarly,
+the word апостолъ (Apostle) often appears abbreviated as
+аплъ. </p>
+</div>
+
+<div><head>Encoding abbreviations (2)</head>
+
+<p>Depending on editorial policy, we might represent this combination in any one of the following ways:
+
+<!--<egXML xmlns="http://www.tei-c.org/ns/Examples"><abbr>h&amp;#x305;</abbr>
+<expan>hann</expan>
+h<am>&amp;#x305;</am>
+h<ex>ann</ex>
+<abbr>h<am>&amp;#x305;</am></abbr>
+<expan>h<ex>ann</ex></expan>
+</egXML>-->
+<list>
+<item>we could just mark the abbreviated word:
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<abbr>г&#x0483;ь</abbr> 
+</egXML>
+or expand it
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<expan>господь</expan>
+</egXML></item>
+<item>we could mark just the abbreviation signal:
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+г<am>&#x0483;</am>ь
+</egXML>
+or just the additional letters...
+<egXML xmlns="http://www.tei-c.org/ns/Examples">г<ex>оспод</ex>ь
+</egXML></item>
+</list></p></div>
+
+<div><head>Encoding abbreviations (3)</head>
+<list>
+<item>... or we could do both!
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<abbr>г<am>&#x0483;</am>ь</abbr>
+</egXML>
+or
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<expan>г<ex>оспод</ex>ь</expan>
+</egXML></item>
+<item>Or we could use a <gi>choice</gi> element to allow multiple
+alternatives:
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<choice>
+<abbr>г<am>&#x0483;</am>ь</abbr>
+<expan>г<ex>оспод</ex>ь</expan>
+</choice>
+</egXML>
+</item></list>
+</div>
+
+<div><head>Encoding abbreviations (4)</head>
+
+<p>The <att>type</att> attribute on <gi>abbr</gi> can be used to
+dfistinguish different kinds of abbreviation, if this is thought
+useful.</p>
+
+<p>The <att>resp</att> and <att>cert</att> attributes
+indicate who is responsible for an expansion, and the degree of
+certainty attached to it.</p>
+
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<choice>
+  <abbr>бо<am>ж</am>ю </abbr>
+  <expan cert="high">бо<ex>жь</ex>ю  </expan>
+  <expan cert="low">бо<ex>жо</ex>ю</expan>
+  <expan cert="low">бо<ex>ж</ex>ю</expan>
+ </choice>
+
+<choice>
+  <abbr>м<am>лс&#x0487;</am>стью</abbr>
+  <expan>м<ex>и</ex>л<ex>о</ex><ex>с</ex>тью</expan>
+</choice>
+</egXML>
+</div>
+
+<div><head>Additions, deletions, and substitutions</head>
+<!--
+<p>Alterations made to the text, whether by the scribe or in some
+later hand, can be encoded using <gi>add</gi> (addition) or
+<gi>del</gi> (deletion).</p>
+<p>Where the addition and deletion are regarded as a single
+<term>substitution</term>, they can be grouped together using the
+<gi>subst</gi> (substitution) element :
+-->
+<list>
+<item><gi>add</gi> (addition) or
+<gi>del</gi> (deletion) are used for evident alterations in the
+source</item>
+<item>a combined addition and deletion may be marked using
+<gi>subst</gi> (substitution)</item>
+</list>
+<p>
+<graphic width="6in"  url="../Graphics/PHowen.png"/>
+</p></div>
+<div><head>Additions, deletions, and substitutions </head>
+<p><egXML xmlns="http://www.tei-c.org/ns/Examples" rend="tiny" >
+<l>And towards our distant rest began to trudge,</l>
+<l><subst>
+    <del>Helping the worst amongst us</del>
+    <add>Dragging the worst amongt us</add>
+   </subst>, who'd no boots</l>
+<l>But limped on, blood-shod. All went lame;
+<subst>
+  <del>half-</del>
+  <add>all</add>
+</subst> blind;</l>
+<l>Drunk with fatigue ; deaf even to the hoots</l>
+<l>Of tired, outstripped <del>fif</del> five-nines that dropped behind.</l></egXML>
+</p>
+
+</div>
+
+
+<div><head>Corrections and emendations</head>
+
+<p>The <gi>sic</gi> element can be used to indicate that the reading
+of the manuscript is erroneous or nonsensical, while <gi>corr</gi>
+(correction) can be used to provide what in the editor's opinion is
+the correct reading:
+
+<egXML xmlns="http://www.tei-c.org/ns/Examples"><sic>гвои</sic></egXML>
+
+<egXML xmlns="http://www.tei-c.org/ns/Examples"><corr>свои</corr></egXML>
+
+</p>
+
+<p>Alternatively, they may be combined within a <gi>choice</gi>
+element, thus allowing the possibility of providing multiple corrections:
+
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<choice>
+<sic>гвои</sic>
+<corr cert="high">свои</corr>
+<corr cert="low">твои</corr>
+</choice>
+</egXML>
+</p>
+</div>
+
+<div><head>Supplied text</head>
+
+<p>Sometimes, a transcript may need to include words not visibly
+present in the source:
+<list>
+<item> because the carrier has been damaged or is barely
+legible</item>
+<item>because of (assumed) scribal error</item>
+</list>
+The <gi>supplied</gi> element is provided for use in either
+situations; the <att>reason</att> attribute is used to distinguish them. </p>
+<!--<egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples"><p>lid<supplied
+reason="illegible">z</supplied></p></egXML>-->
+<egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">...Dragging the worst
+among<supplied reason="omitted">s</supplied>t us...</egXML>
+
+<p>Attributes <att>resp</att> and <att>cert</att> can be used here as
+elsewhere. A <att>source</att> attribute is also available to
+indicate that another witness supports the reconstruction:
+<egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples"><p>ath þeir <supplied reason="omitted" source="AM02-152">mundu</supplied> sundr ganga</p></egXML>
+</p>
+<p>When missing text cannot be confidently reconstructed, the
+<gi>gap</gi> element should be used. Its <att>reason</att> attribute explains the
+reason for the omission and its
+<att>extent</att> attribute indicates its presumed size.
+<egXML xmlns="http://www.tei-c.org/ns/Examples"><gap reason="damage" extent="7cm"/></egXML></p>
+</div>
+
+<div>
+<head>Normalization</head>
+<p>Source texts rarely use modern normalized orthography. For
+retrieval and other processing reasons, such information may be useful
+in a transcription. The  <gi>reg</gi> (regularized)
+element is available used to mark a normalized form; the  <gi>orig</gi>
+(original) element to indicate a non-standard
+spelling. These elements can optionally be grouped as
+alternatives using the <gi>choice</gi> element:
+
+<!--graphic width="1in" url="../../Graphics/oldwoman-1.png"  /-->
+<graphic width="6in" url="../Graphics/norm-eg-ru.png"  />
+
+</p></div>
+<div><head>Normalization eg</head>
+<p><egXML xmlns="http://www.tei-c.org/ns/Examples">
+
+  <lg>
+        <l>Я просыпаюсь. Я <choice> <orig>об'ят</orig><reg>объят</reg></choice></l>
+        <l>Открывшимся. Я на <choice> <orig>учете</orig><reg>учете.</reg></choice></l>
+        <l>Я на земле, где вы живете,</l>
+        <l>И ваши тополя кипят.</l>
+        <l>Льет дождь. Да будет также <choice> <orig>свят</orig><reg>свят,</reg></choice></l>
+        <l>Как их невинная <choice> <orig>лавина</orig><reg>лавина...</reg></choice></l>
+        <l>Но я уж сплю наполовину,</l>
+        <l>Как только в раннем детстве спят<reg>.</reg></l>
+    </lg>
+
+
+</egXML>
+</p>
+</div>
+
+<!-- ms description stuff -->
+
+<div rend="slide">
+<head>Why are manuscript descriptions special?</head>
+<list>
+<item>Manuscripts are <emph>unique objects</emph>, sometimes (though not always) of great
+cultural or political value</item>
+<item>Books, by contrast, exist in multiple copies, and can be
+described adequately by well-established and formalized bibliographic conventions.</item>
+<item>For manuscripts, there are several traditions, often descriptive
+or <hi>belle lettriste</hi>, and little consensus.</item>
+</list>
+<p rend="box">Similar concerns apply to other <soCalled>tbo</soCalled>s</p>
+</div>
+
+<!-- example from ES here -->
+
+<div rend="slide">
+<head>Objectives</head>
+<p>The TEI <gi>msDesc</gi> element is intended for several different kinds of
+applications:
+<list>
+<item>standalone database of library records (<term>finding aid</term>)</item>
+<item>discursive text collecting many records (<term>catalogue raisonn&#x00E9;</term>)</item>
+<item>metadata component within a digital surrogate (<term>electronic edition</term>)</item>
+<item>tool for <soCalled>quantitative codicology</soCalled></item>
+</list></p>
+</div>
+
+
+
+<div rend="slide">
+<head>Catalogue Raisonn&#x00E9;</head>
+<p>An <gi>msDesc</gi>
+can appear anywhere a <gi>p</gi> paragraph can</p>
+
+<egXML xmlns="http://www.tei-c.org/ns/Examples"><div>
+<head>The Arnamaegnan Institute and its records</head>
+<p>Probably the finest collection of ......
+</p>
+<p>For example: </p>
+<msDesc xml:id="AMI-1"><!-- ...--></msDesc>
+<p>In the following manuscript.... 
+</p>
+<msDesc xml:id="AMI-2"><!-- ...--></msDesc>
+</div></egXML>
+
+</div>
+
+
+<div rend="slide">
+<head>Digital edition</head>
+<list>
+<item>metadata in the header</item>
+<item>transcription in the body, with links to</item>
+<item>images in a <gi>facsimile</gi> element</item>
+</list>
+<egXML xmlns="http://www.tei-c.org/ns/Examples" >
+<TEI >
+<teiHeader>
+<!-- ... metadata describing the manuscript  -->
+<!-- includes a msDesc within the sourceDesc -->
+</teiHeader>
+<facsimile>
+<!-- ... metadata describing the digital images -->
+</facsimile>
+<text>
+<!-- (optional) transcription of the manuscript -->
+</text>
+</TEI>
+</egXML>
+
+
+</div>
+
+<div><head>Example minimal structure</head>
+
+<egXML xmlns="http://www.tei-c.org/ns/Examples" >
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>[Title of manuscript]</title>
+</titleStmt>
+<publicationStmt>
+<distributor>[name of data provider]</distributor>
+<idno>[project-specific identifier]</idno>
+</publicationStmt>
+<sourceDesc>
+<msDesc><!-- [full manuscript description ]--></msDesc>
+</sourceDesc>
+</fileDesc>
+<revisionDesc>
+<change when="2008-01-01">[revision information]</change>
+</revisionDesc>
+</teiHeader>
+</egXML>
+</div>
+
+<div rend="slide">
+<head>Quantitative Codicology: is it possible?</head>
+<p>Two conflicting desires:
+<list>
+<item>preserve (or perpetuate) existing
+descriptive prose</item>
+<item>reliable search, retrieval, and analysis of data</item>
+</list>
+</p>
+<p>The <gi>msDesc</gi> tries, wherever possible, to have its cake and
+eat it. </p>
+</div>
+
+
+<div rend="slide">
+<head>Components of a manuscript description</head>
+<p>We separate, and tag differently, aspects concerned
+with...
+<list>
+<item>identification</item>
+<item>intellectual content</item>
+<item>physical description</item>
+<item>history and curation</item>
+<item>... and other manuscript descriptions</item>
+</list></p>
+</div>
+
+
+      <div>
+        <head>msDesc structure</head>
+        <p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples" rend="small">
+            <msDesc>
+
+              <msIdentifier>
+                <!-- Repository location, shelfmarks, etc.  -->
+              </msIdentifier>
+
+              <head><!--brief heading --></head>
+
+              <msContents><!-- Structured description of MS contents -->
+              </msContents>
+
+              <physDesc><!-- Physical and codicological description -->
+              </physDesc>
+
+              <history><!-- Origin, provenance, acquisition, etc.  -->
+              </history>
+
+              <additional><!-- Additional bibliographic and curatorial information, and associated materials  etc.  -->
+              </additional>
+
+              <msPart><!--Composite manuscript details --></msPart>
+
+            </msDesc>
+          </egXML>
+          <gi>msIdentifier</gi> is the only one that is required. </p>
+      </div>
+
+<!--
+      <div>
+        <head>Simple example <gi>msDesc</gi></head>
+        <p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <msDesc>
+              <msIdentifier>
+                <settlement>Oxford</settlement>
+                <repository>Bodleian Library</repository>
+                <idno>MS. Add. A. 61</idno>
+                <altIdentifier type="SC">
+                  <idno>28843</idno>
+                </altIdentifier>
+              </msIdentifier>
+              <p>In Latin, on parchment: written in more than one hand of the 13th cent. in England:
+                7¼ x 5⅜ in., i + 55 leaves, in double columns: with a few coloured capitals.</p>
+              <p>'Hic incipit Bruitus Anglie,' the De origine et gestis Regum Angliae of Geoffrey of
+                Monmouth (Galfridus Monumetensis: beg. 'Cum mecum multa &amp;amp; de multis.'</p>
+              <p>On fol. 54v very faint is 'Iste liber est fratris guillelmi de buria de ... Roberti
+                ordinis fratrum Pred[icatorum],' 14th cent. (?): 'hanauilla' is written at the foot
+                of the page (15th cent.). Bought from the rev. W. D. Macray on March 17, 1863, for
+                £1 10s.</p>
+            </msDesc>
+          </egXML>
+        </p>
+      </div>
+-->
+
+
+<div><head>Unstructured manuscript description</head>
+
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<msDesc>
+    <msIdentifier>
+        <settlement>Санкт-Петербург</settlement>
+        <repository>Российская национальная библиотека</repository>
+        <idno>F.п.I.5</idno>
+    </msIdentifier>
+    <p>Евангелие апракос краткий (Остромирово евангелие).</p>
+    <p> Древнерусский, 1о, 35 х 30, 294 л., пергамен, 1056-1057, устав, четыре почерка (I - л.
+        2а-24г, II - л. 25а - 294г, III - золотые заголовки отдельных чтений на л. 25б-38а, IV -
+        надписи на миниатюрах евангелистов), текст написан в два столбца, в рукописи имеется эксфонетическая нотация.</p>
+    <p>Богатая иллюминация в старовизантийском стиле: миниатюры (л. 1об, 87об, 126, евангелисты
+        Иоанн, Лука, Марк, на л. 57 оставлено место для миниатюры, но миниатюры четвертого
+        евангелиста - Матфея нет), 1 большая и 18 малых заставок эмальерного (лепесткового) типа,
+        инициалы с антропоморфическими и зооморфическими элементами.</p>
+    <p>На л. 294б запись писца - диакона Григория, содержащая даты работы над рукописью: 21 октября 6564 г. (1056 г.) - 12
+        мая 6565 г. (1057 г.). Рукопись написана для новгородского посадника Остромира (в крещении
+        Иосифа) при киевском князе Изяславе Ярославиче. На л. 1 запись скорописью XVII в.: "Еуа(г)iе
+        Соф&#x0462;иское апрако(с)"</p>
+     <p>Содержание: чтения краткого апракоса (л. 2а-204в), евангелия утренние воскресные (л.
+        204в-210в), месяцеслов (л. 288в-290в), чтение на часах страстной пятницы (л. 290в-294б)</p>
+    <p>Рукопись найдена в 1805 г. среди вещей Екатерины II и передана в Публичную библиотеку в 1806
+        г. Известно, что в 1701 г. рукопись хранилась в московской кремлевской церкви Воскресения
+        словосущего, в 1720 г. перевезена в Петербург.</p>
+    <p>Рукопись реставрирована в 1955-1957 гг. Реставратор Е. Х. Трей.</p>
+</msDesc>
+
+	  </egXML>
+
+
+</div>
+
+
+<div><head>Or, in a more structured form...</head>
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<msDesc>
+    <msIdentifier>
+        <settlement>Санкт-Петербург</settlement>
+        <repository>Российская национальная библиотека</repository>
+        <idno>F.п.I.5</idno>
+    </msIdentifier>
+    <msContents>
+        <msItem>
+            <title type="uniform">Евангелие апракос краткий</title>
+            <title type="uniform">Остромирово евангелие</title>
+            <textLang mainLang="ru">Древнерусский</textLang>
+        </msItem>
+    </msContents>
+    <physDesc>
+        <objectDesc form="codex">
+            <supportDesc material="perg">
+                <support>
+                    <p>Пергамен.</p>
+                </support>
+                <extent>294 л. <dimensions scope="all" type="leaf" unit="сm">
+                        <height>35</height>
+                        <width>30</width>
+                    </dimensions>
+                </extent>
+            </supportDesc>
+            <layoutDesc>
+                <layout columns="2">
+                    <p>Текст написан в два столбца.</p>
+                </layout>
+            </layoutDesc>
+        </objectDesc>
+        <handDesc>
+            <p>Устав. Четыре почерка: первым писцом написан текст на л. 2а-24г и золотые заголовки,
+                вторым писцом, дьяком Григорием, написан текст, снинаксарные указания и приписка на
+                л. 25а - 294г, третьим писцом написаны золотые заголовки отдельных чтений на л.
+                25б-38а, четвертым - надписи на миниатюрах евангелистов.</p>
+        </handDesc>
+        <musicNotation>В рукописи имеется эксфонетическая нотация.</musicNotation>
+        <decoDesc>
+            <p>Богатая иллюминация в старовизантийском стиле: миниатюры (л. 1об, 87об, 126,
+                евангелисты Иоанн, Лука, Марк, на л. 57 оставлено место для миниатюры, но миниатюры
+                четвертого евангелиста - Матфея нет), 1 большая и 18 малых заставок эмальерного
+                (лепесткового) типа, инициалы с антропоморфическими и зооморфическими
+            элементами.</p>
+        </decoDesc>
+    </physDesc>
+    <history>
+        <origin>
+<p>На л. 294б запись писца - диакона Григория, содержащая даты работы
+над рукописью: <origDate notAfter="1057-05-12"
+notBefore="1056-10-21">21 октября 6564 г. (1056 г.) - 12 мая 6565
+г. (1057 г.)</origDate>. Рукопись написана для новгородского посадника
+Остромира (в крещении Иосифа) при киевском князе Изяславе
+Ярославиче.</p>
+        </origin>
+        <provenance>
+            <p>На л. 1 запись скорописью XVII в.: <quote>Еуа(г)iе
+            Соф&#x0462;иское апрако(с)</quote>.</p>
+        </provenance>
+        <acquisition>
+            <p>Рукопись найдена в <date when="1805">1805 г.</date>
+            среди вещей Екатерины II и передана в Публичную библиотеку
+            в <date when="1806">1806 г.</date> Известно, что в 1701
+            г. рукопись хранилась в московской кремлевской церкви
+            Воскресения словосущего, в 1720 г. перевезена в
+            Петербург.</p>
+            <p>Рукопись реставрирована в <date notBefore="1955"
+            notAfter="1957">1955-1957 гг.</date> Реставратор
+            Е. Х. Трей.</p>
+        </acquisition>
+    </history>
+    <adminInfo>
+        <recordHist>
+            <source>
+                <p>Описание рукописи опубликовано в <ref target="СК1984">Сводном каталоге славяно-русских рукописных книг, хранящихся в СССР. XI-XIII вв.</ref>
+                </p>
+            </source>
+        </recordHist>
+        <custodialHist>
+            <custEvent type="conservation" notBefore="1955" notAfter="1957">
+                <p>Рукопись реставрирована в 1955-1957 гг. Реставратор Е. Х. Трей.</p>
+            </custEvent>
+        </custodialHist>
+    </adminInfo>
+</msDesc>
+</egXML></div>
+
+<!--
+
+      <div>
+        <head>Scarey example <gi>msDesc</gi></head>
+          <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+            <msDesc>
+              <msIdentifier>
+                <settlement>Oxford</settlement>
+                <repository>Bodleian Library</repository>
+                <idno>MS. Add. A. 61</idno>
+                <altIdentifier type="SC">
+                  <idno>28843</idno>
+                </altIdentifier>
+              </msIdentifier>
+              <msContents>
+                <msItem>
+                  <author xml:lang="en">Geoffrey of Monmouth</author>
+                  <author xml:lang="la">Galfridus Monumetensis</author>
+                  <title type="uniform" xml:lang="la">De origine et gestis Regum Angliae</title>
+                  <rubric xml:lang="la">Hic incipit Bruitus Anglie</rubric>
+                  <incipit xml:lang="la">Cum mecum multa &amp; de multis</incipit>
+                  <textLang mainLang="la">Latin</textLang>
+                </msItem>
+              </msContents>
+              <physDesc>
+                <objectDesc form="codex">
+                  <supportDesc material="perg">
+                    <support>
+                      <p>Parchment.</p>
+                    </support>
+      <extent>i + 55 leaves <dimensions scope="all" type="leaf" unit="inch">
+                      <height>7 ¼</height>
+                      <width>5 ⅜</width>
+                      </dimensions>
+                    </extent>
+                  </supportDesc>
+                  <layoutDesc>
+                    <layout columns="2">
+                      <p>In double columns.</p>
+                    </layout>
+                  </layoutDesc>
+                </objectDesc>
+                <handDesc>
+                  <p>Written in more than one hand.</p>
+                </handDesc>
+                <decoDesc>
+                  <p>With a few coloured capitals.</p>
+                </decoDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <p>Written in <origPlace>England</origPlace> in the <origDate notAfter="1300"
+                      notBefore="1200">13th cent.</origDate>
+                  </p>
+                </origin>
+                <provenance>
+                  <p>On fol. 54v very faint is <quote xml:lang="la">Iste liber est fratris guillelmi
+                      de buria de <gap/> Roberti ordinis fratrum Pred<ex>icatorum</ex>
+                    </quote>, 14th cent. (?): <quote>hanauilla</quote> is written at the foot of the
+                    page (15th cent.).</p>
+                </provenance>
+                <acquisition>
+                  <p>Bought from the rev. <name key="MCRAYWD">W. D. Macray</name> on <date
+                      when="1863-03-17">March 17, 1863</date>, for £1 10s.</p>
+                </acquisition>
+              </history>
+            </msDesc>
+          </egXML>
+
+      </div>
+
+      <div>
+        <head>Scarey example <gi>msDesc</gi> (contd) </head>
+          <egXML rend="tiny"
+		 xmlns="http://www.tei-c.org/ns/Examples">
+              <physDesc><objectDesc form="codex">
+      <layoutDesc><layout columns="2"/></layoutDesc>
+                </objectDesc>
+                <handDesc>
+                  <p>Written in more than one hand.</p>
+                </handDesc>
+                <decoDesc>
+                  <p>With a few coloured capitals.</p>
+                </decoDesc>
+              </physDesc>
+              <history>
+                <origin>
+                  <p>Written in <origPlace>England</origPlace> in the
+                  <origDate notAfter="1300" notBefore="1200">13th
+                  cent.</origDate>
+                  </p>
+                </origin>
+                <provenance>
+                  <p>On fol. 54v very faint is <quote
+                  xml:lang="la">Iste liber est fratris guillelmi de
+                  buria de <gap/> Roberti ordinis fratrum
+                  Pred<ex>icatorum</ex> </quote>, 14th cent. (?):
+                  <quote>hanauilla</quote> is written at the foot of
+                  the page (15th cent.).</p>
+                </provenance>
+                <acquisition>
+                  <p>Bought from the rev. <name
+                  key="MCRAYWD">W. D. Macray</name> on <date
+                  when="1863-03-17">March 17, 1863</date>, for £1
+                  10s.</p>
+                </acquisition>
+              </history>
+          </egXML>
+      </div>
+
+-->
+<div rend="slide">
+<head>Identification (1)</head>
+
+<p>The <gi>msIdentifier</gi></p>
+<p>Traditional three part specification:
+<list>
+<item>place (<gi>country</gi>, <gi>region</gi>, <gi>settlement</gi>)</item>
+<item>repository (<gi>institution</gi>, <gi>repository</gi>)</item>
+<item>identifier (<gi>collection</gi>, <gi>idno</gi>)
+</item></list> 
+<egXML rend="tiny"
+            xmlns="http://www.tei-c.org/ns/Examples">
+<msIdentifier>
+  <country>France</country>
+  <settlement>Troyes</settlement>
+  <repository>Bibliothèque Municipale</repository>
+  <idno>50</idno>
+</msIdentifier>
+</egXML>
+</p>
+</div>
+<div rend="slide">
+<head>Identification (2)</head>
+
+
+<p>Alternative or additional "names" can also be included:
+<!--<egXML rend="tiny"
+            xmlns="http://www.tei-c.org/ns/Examples">
+            <msIdentifier>
+              <country>Danmark</country>
+              <settlement>København</settlement>
+              <repository> Det ArnamagnæanskeInstitut </repository>
+              <idno>AM 45 fol.</idno>
+              <msName xml:lang="la">Codex Frisianus</msName>
+              <msName xml:lang="is">Fríssbók</msName>
+            </msIdentifier>
+          </egXML>-->
+
+
+<egXML rend="tiny"
+            xmlns="http://www.tei-c.org/ns/Examples">
+<msIdentifier>
+    <country>Россия</country>
+    <settlement>Санкт-Петербург</settlement>
+    <repository>Российская национальная библиотека</repository>
+    <idno>Погод. 68</idno>
+    <msName xml:lang="ru">Толкования Ипполита, папы римского, на книгу пророка Даниила</msName>
+    <msName xml:lang="ru">Московские глаголические листки</msName>
+    <msName xml:lang="ru">Погодинские глаголические листки</msName>
+</msIdentifier>
+</egXML>
+
+        </p>
+      </div>
+
+
+<div rend="slide">
+<head>Intellectual Content</head>
+
+<list>
+<item>May simply use paragraphs of text...</item>
+<item>... or a hierarchically organized tree of <gi>msItem</gi> elements</item>
+<item>... optionally preceded by a prose summary</item>
+</list>
+<p>We can describe the content in general terms:
+<egXML rend="tiny"
+            xmlns="http://www.tei-c.org/ns/Examples">
+<msContents>
+<p>An extraordinary charivari of heroic deeds and
+improving tales, including an early version of
+<title>Guy of Warwick</title> and several hymns.
+</p>
+</msContents>
+</egXML>
+or we can provide detail about each distinct item:
+<egXML rend="tiny"
+            xmlns="http://www.tei-c.org/ns/Examples">
+<msContents>
+<summary>An extraordinary charivari of heroic deeds,
+improving tales, and hymns</summary>
+<msItem> 
+<!-- details of Guy of Warwick here -->
+</msItem>
+<msItem>
+ <!-- other items here -->
+</msItem>
+</msContents>
+</egXML>
+</p>
+</div>
+<div rend="slide">
+<head>The <gi>msItem</gi> element</head>
+<p>Manuscripts 
+contain identifiable items, usually physically tied to a <term>locus</term>. 
+<list>
+<item><gi>locus</gi>, if present, must be given first</item>
+<item>then any of the following, in a specified order:
+<list>
+<item><gi>author</gi>, <gi>respStmt</gi></item>
+<item><gi>title</gi>, <gi>rubric</gi>, <gi>incipit</gi>,
+<gi>explicit</gi>, <gi>colophon</gi>, <gi>finalRubric</gi> </item>
+<item><gi>quote</gi>, <gi>textLang</gi>, <gi>decoNote</gi>,
+<gi>bibl</gi>, <gi>listBibl</gi>, <gi>note</gi> ...</item>
+<item>... or nested <gi>msItem</gi>s</item></list></item>
+</list>
+</p>
+</div>
+
+      <div>
+        <head><gi>msContents</gi> with multiple <gi>msItem</gi>s </head>
+        <p>
+          <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+            <msContents>
+              <msItem n="1">
+                <locus>fols. 5r-7v</locus>
+                <title>An ABC</title>
+                <bibl>
+                  <title>IMEV</title>
+                  <biblScope>239</biblScope>
+                </bibl>
+              </msItem>
+              <msItem n="2">
+                <locus>fols. 7v-8v</locus>
+                <title xml:lang="FR">Lenvoy de Chaucer a Scogan</title>
+                <bibl>
+                  <title>IMEV</title>
+                  <biblScope>3747</biblScope>
+                </bibl>
+              </msItem>
+<!-- ... -->
+  <msItem n="6">
+                <locus>fols. 14r-126v</locus>
+                <title>Troilus and Criseyde</title>
+                <note>Bk. 1:71-Bk. 5:1701, with additional losses due to mutilation
+                throughout</note>
+              </msItem>
+            </msContents>
+          </egXML>
+        </p>
+      </div>
+
+
+<div rend="slide">
+<head>Physical Description</head>
+<p>An artificial (but helpful) grouping of many distinct items.</p>
+<p>You can simply supply paragraphs of prose, covering such topics as
+<list>
+<item><gi>objectDesc</gi>: the physical carrier</item>
+<item><gi>handDesc</gi>: what is carried on it</item>
+<item><gi>musicNotation</gi>, <gi>decoDesc</gi>, <gi>additions</gi> </item>
+<item><gi>bindingDesc</gi> and <gi>sealDesc</gi></item>
+<item><gi>accMat</gi>: accompanying material </item>
+</list>
+Or, group your discussion within the specific elements mentioned above.</p>
+<p>Similarly, within the specific elements, you can supply paragraphs of prose, or further specific elements.</p>
+</div>
+
+<div><head>The carrier 1 </head>
+<p>The <gi>objectDesc</gi> contains just paragraphs, or <gi>supportDesc</gi> and <gi>layoutDesc</gi>
+          <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples"><objectDesc form="codex">
+<supportDesc material="mixed">
+<p>Early modern <material>parchment</material> and
+<material>paper</material>.</p></supportDesc>
+<layoutDesc><layout ruledLines="25 32"/></layoutDesc>
+</objectDesc></egXML></p>
+</div>
+<div><head>The carrier 2</head>
+
+<p>A more complex substructure with specific elements for
+<gi>support</gi>, <gi>extent</gi>, <gi>foliation</gi>,
+<gi>collation</gi>, <gi>condition</gi>.</p>
+<p>Multiple layouts may also be specified:
+          <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+<layoutDesc>
+<layout ruledLines="25">
+<p><locus from="1r-202v"/> <locus from="210r-212v"/>
+Between 25 and 32 ruled lines.</p>
+</layout>
+<layout ruledLines="34 50">
+<p><locus from="203r-209v"/>Between 34 and 50 ruled lines.</p>
+</layout></layoutDesc>
+	  </egXML></p>
+</div>
+
+      <div>
+        <head><gi>handDesc</gi> and <gi>decoDesc</gi></head>
+        <p>
+          <gi>handNote</gi> (note on hand) describes a particular style or hand distinguished within
+          a manuscript. </p>
+        <p><gi>decoNote</gi> contains a note describing either a decorative component of a
+          manuscript, or a fairly homogenous class of such components.</p>
+      </div>
+
+      <div>
+        <head><gi>handDesc</gi> examples</head>
+        <p>
+<!--          <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+            <handDesc hands="2">
+              <p>The manuscript is written in two contemporary hands, otherwise unknown, but clearly
+                those of practised scribes. Hand I writes ff. 1r-22v and hand II ff. 23 and 24. Some
+                scholars, notably Verner Dahlerup and Hreinn Benediktsson, have argued for a third
+                hand on f. 24, but the evidence for this is insubstantial.</p>
+            </handDesc>
+          </egXML>
+          <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+            <handDesc hands="3">
+              <handNote xml:id="Eirsp-1" scope="minor">
+                <p>The first part of the manuscript, <locus from="1v"
+                to="72v:4">fols 1v-72v:4</locus>, is written in a
+                practised Icelandic Gothic bookhand. This hand is not
+                found elsewhere.</p>
+              </handNote>
+              <handNote xml:id="Eirsp-2" scope="major">
+                <p>The second part of the manuscript, <locus
+                from="72v:4" to="194v">fols 72v:4-194</locus>, is
+                written in a hand contemporary with the first; it can
+                also be found in a fragment of <title>Knýtlinga
+                saga</title>, <ref>AM 20b II fol.</ref>.</p>
+              </handNote>
+              <handNote xml:id="Eirsp-3" scope="minor">
+                <p>The third hand has written the majority of the
+                chapter headings. This hand has been identified as the
+                one also found in <ref>AM 221 fol.</ref>.</p>
+              </handNote>
+            </handDesc>
+          </egXML>-->
+
+
+<egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+<handDesc>
+    <p>Устав. Четыре почерка: первым писцом написан текст на л. 2а-24г и золотые заголовки, вторым
+        писцом, дьяком Григорием, написан текст, снинаксарные указания и приписка на л. 25а - 294г,
+        третьим писцом написаны золотые заголовки отдельных чтений на л. 25б-38а, четвертым -
+        надписи на миниатюрах евангелистов.</p>
+</handDesc>
+
+<handDesc hands="4">
+<handNote xml:id="OE1" scope="minor"> первым писцом написан текст на 
+<locus   from="2а-24г"/> л. 2а-24г и золотые заголовки</handNote>, 
+ <handNote xml:id="OEGrigorij" scope="major"> вторым писцом, дьяком
+ Григорием, написан   текст, снинаксарные указания и приписка на 
+<locus from="25а - 294г"/> л. 25а - 294г</handNote>
+<handNote xml:id="OE3" scope="minor"> третьим писцом написаны золотые
+ заголовки отдельных чтений 
+<locus from="25б-38а"/> на л. 25б-38а</handNote>
+<handNote xml:id="OE4" scope="minor"> четвертым  - надписи на миниатюрах евангелистов</handNote>
+</handDesc>
+</egXML>
+        </p>
+      </div>
+      <div>
+        <head>
+          <gi>additions</gi>
+        </head>
+        <p> The <gi>additions</gi> element can be used to list or describe any additions to the
+          manuscript, such as marginalia, scribblings, doodles, etc., which are considered to be of
+          interest or importance. </p>
+        <p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <additions>
+              <p>The text of this manuscript is not interpolated with sentences from Royal decrees
+                promulgated in 1294, 1305 and 1314. In the margins, however, another somewhat later
+                scribe has added the relevant paragraphs of these decrees, see pp. 8, 24, 44, 47
+                etc.</p>
+              <p>As a humorous gesture the scribe in one opening of the manuscript, pp. 36 and 37,
+                has prolonged the lower stems of one letter f and five letters þ and has them
+                drizzle down the margin.</p>
+            </additions>
+          </egXML>
+        </p>
+      </div>
+
+      <div>
+        <head>
+          <gi>accMat</gi>
+        </head>
+        <p>
+          <gi>accMat</gi> (accompanying material) contains details of any significant additional
+          material which may be closely associated with the manuscript being described, such as
+          non-contemporaneous documents or fragments bound in with the manuscript at some earlier
+          historical period.</p>
+        <p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <accMat> A copy of a tax form from 1947 is included in the envelope with the letter. It
+              is not catalogued separately. </accMat>
+          </egXML>
+        </p>
+      </div>
+
+
+<div rend="slide">
+<head>History</head>
+<list>
+<item><gi>origin</gi>: where it all began </item>
+<item><gi>provenance</gi>: everything in between</item>
+<item><gi>acquisition</gi>: how you acquired it</item>
+</list>
+<p><gi>origin</gi> is <term>datable</term> element and thus has 
+attributes <ident>notBefore</ident> and <ident>notAfter</ident>
+</p></div>
+
+      <div>
+        <head>Example</head>
+        <p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <history>
+              <origin>
+                <p>Written in <origPlace>England</origPlace> in the
+                <origDate notAfter="1300" notBefore="1200">13th
+                cent. </origDate>
+                </p>
+              </origin>
+              <provenance>
+                <p>On fol. 54v very faint is <q>Iste liber est fratris
+                guillelmi de buria de <gap/> Roberti ordinis fratrum
+                Pred<expan>icatorum</expan> </q>, 14th cent. (?):
+                <q>hanauilla</q> is written at the foot of the page
+                (15th cent.).</p>
+              </provenance>
+              <acquisition>
+                <p>Bought from the rev. <name
+                type="person">W. D. Macray</name>on <date
+                when="1863-03-17"> March 17, 1863</date>, for 1pound
+                10s.</p>
+              </acquisition>
+            </history>
+          </egXML>
+        </p>
+      </div>
+
+
+
+<div rend="slide">
+<head>Additional information</head>
+<list>
+<item><gi>adminInfo</gi> : administrative information</item>
+<item><gi>surrogates</gi> : information about other surrogates eg pictures</item>
+<item><gi>accMat</gi> : accompanying material </item> 
+<item><gi>listBibl</gi> : bibliography</item>
+</list>
+</div>
+
+<div rend="slide">
+<head>Administrative information</head>
+<list>
+<item>record history</item>
+<item>availability</item>
+<item>custodial history</item>
+<item>miscellaneous remarks</item>
+</list>
+<!--
+          <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+<adminInfo>
+<recordHist>
+<source><p>Information transcribed from  <ref target="IMEV123">IMEV 123</ref>
+</p></source>
+</recordHist>
+<custodialHist>
+<custEvent type="conservation" notBefore="1961-03" notAfter="1963-02">
+<p>Conserved between March 1961 and February 1963 at Birgitte Dalls 
+Konserveringsv&#xE6;rksted.</p></custEvent>
+<custEvent type="photography" notBefore="1988-05-01" notAfter="1988-05-30">
+<p>Photographed in May 1988 by AMI/FA.</p></custEvent>
+<custEvent type="transfer-dispatch" notBefore="1989-11-13" notAfter="1989-11-13">
+<p>Dispatched to Iceland 13 November 1989.</p></custEvent>
+</custodialHist>
+</adminInfo>
+	  </egXML>
+-->
+
+<egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+
+<adminInfo>
+    <recordHist>
+        <source>
+            <p>Описание рукописи опубликовано в <ref target="СК1984">Сводном каталоге славяно-русских рукописных книг, хранящихся в СССР. XI-XIII вв.</ref>
+            </p>
+        </source>
+    </recordHist>
+    <custodialHist>
+        <custEvent type="conservation" notBefore="1955" notAfter="1957">
+            <p>Рукопись реставрирована в 1955-1957 гг. Реставратор Е. Х. Трей.</p>
+        </custEvent>
+        </custodialHist>
+</adminInfo>
+</egXML>
+</div>
+
+<div rend="slide">
+<head>And finally</head>
+<p>A <gi>msDesc</gi> can contain a nested <gi>msDesc</gi>, called a
+<gi>msPart</gi>: this caters for the case where a manuscript has been
+made by combining two others, formerly distinct.</p>
+
+          <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+<msDesc>
+    <msIdentifier>
+        <msName xml:lang="la">Codex Suprasliensis</msName>
+        <msName xml:lang="ru">Супрасльская рукопись</msName>
+            </msIdentifier>
+    <msPart>
+        <altIdentifier type="partial">
+            <settlement>Ljubljana</settlement>
+            <repository>Narodna in univerzitetna knjiznica</repository>
+            <idno>MS Kopitar 2</idno>
+            <note>Contains ff. 10 to 42 only</note>
+        </altIdentifier>
+    </msPart>
+    <msPart>
+        <altIdentifier type="partial">
+            <settlement>Warszawa</settlement>
+            <repository>Biblioteka Narodowa</repository>
+            <idno>BO 3.201</idno>
+        </altIdentifier>
+    </msPart>
+    <msPart>
+        <altIdentifier type="partial">
+            <settlement>Санкт-Петербург</settlement>
+            <repository>Российская национальная библиотка</repository>
+            <idno>Q.п.I.72</idno>
+        </altIdentifier>
+    </msPart>
+</msDesc>
+          </egXML>
+
+      </div>
+
+</body></text></TEI>
+
+
+

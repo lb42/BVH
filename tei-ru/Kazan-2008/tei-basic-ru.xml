@@ -1,0 +1,882 @@
+<?xml version="1.0"?>
+<?oxygen RNGSchema="p5odds.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+<!--        <title>Using the basic TEI structural elements</title>-->
+        <title>Основные структурные элементы TEI и их использование</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>TEI</publisher>
+        <availability>
+          <p>Freely available for use and derivative works under a Creative Commons Attribution
+            license.</p>
+        </availability>
+        <date>2008-07-07</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Some bits may be lifted from previous talks/workshops by the TEI Community and certainly
+          from the TEI P5 1.0 Release of the Guidelines.</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change>
+        <date>$LastChangedDate: 2008-07-16 00:39:55 +0100 (Wed, 16 Jul 2008) $.</date>
+        <name>$LastChangedBy: lou $</name>
+        <note>$LastChangedRevision: 3044 $</note>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body xml:lang="ru">
+
+      <div>
+        <head>Инфраструктура TEI</head>
+        <list>
+          <item> Схема разметки TEI включает определенное число <term>модулей</term></item>
+          <item>Модули содержат декларации элементов XML и их атрибутов</item>
+          <item>Декларация элемента соотносит его с определенным(-ми) <term>классом(-ами)</term>
+            моделей</item>
+          <item>Декларация путем ссылок на соответствующие классы также определяет возможное
+            содержание элемента и указывает атрибуты</item>
+          <item>Преимущество подобной описательной структуры в ее силе и гибкости</item>
+          <item>Структура позволяет путем указания на определенный класс включить в схему или
+            исключить из нее новый элемент </item>
+        </list>
+
+      </div>
+      <div>
+        <head>Что такое модуль?</head>
+        <list>
+          <item>Удобный способ группировки некоторого числа деклараций элементов</item>
+          <item>Декларации одного модуля обычно имеют общую тему или одну область приложения</item>
+          <item>Отдельная глава «Руководства TEI», как правило, посвящается описанию и определению
+            элементов одного модуля</item>
+          <item>Схема TEI создается путем выбора модулей с последующим добавлением необходимых
+            (исключением нефункциональных) элементов</item>
+        </list>
+      </div>
+
+      <div>
+        <head>Модули</head>
+        <table xml:id="tab-mods">
+          <row>
+            <cell>
+              <hi>Названия модулей</hi>
+            </cell>
+            <cell>
+              <hi>Раздел</hi>
+            </cell>
+          </row>
+          <row>
+            <cell>analysis (анализ)</cell>
+            <cell>Элементарные механизмы анализа</cell>
+          </row>
+          <row>
+            <cell>certainty (степень достоверности)</cell>
+            <cell>Степень достоверности и ответственность</cell>
+          </row>
+          <row>
+            <cell>core (осевой модуль)</cell>
+            <cell>Элементы, присутствующие во всех TEI-документах</cell>
+          </row>
+          <row>
+            <cell>corpus (корпус)</cell>
+            <cell>Лингвистический корпус</cell>
+          </row>
+          <row>
+            <cell>dictionaries (словари)</cell>
+            <cell>Словари</cell>
+          </row>
+          <row>
+            <cell>drama (драма)</cell>
+            <cell>Драматические тексты</cell>
+          </row>
+          <row>
+            <cell>figures (изображения)</cell>
+            <cell>Таблицы, формулы и графика</cell>
+          </row>
+          <row>
+            <cell>gaiji</cell>
+            <cell>Репрезентация нестандартных букв и глифов</cell>
+          </row>
+          <row>
+            <cell>header (паспорт)</cell>
+            <cell>Паспорт TEI-документа</cell>
+          </row>
+          <row>
+            <cell>iso-fs</cell>
+            <cell>Структуры признаков</cell>
+          </row>
+          <row>
+            <cell>linking (выравнивание)</cell>
+            <cell>Выравнивание, сегментация, ориентация</cell>
+          </row>
+          <row>
+            <cell>msdescription</cell>
+            <cell>Описание рукописи</cell>
+          </row>
+          <row>
+            <cell>namesdates</cell>
+            <cell>Даты, личные имена, георгафические названия</cell>
+          </row>
+          <row>
+            <cell>nets</cell>
+            <cell>Диаграммы, сетевые системы, деревья</cell>
+          </row>
+          <row>
+            <cell>spoken</cell>
+            <cell>Транскрибция речи</cell>
+          </row>
+          <row>
+            <cell>tagdocs</cell>
+            <cell>Элементы документации</cell>
+          </row>
+          <row>
+            <cell>tei</cell>
+            <cell>Инфраструктура TEI</cell>
+          </row>
+          <row>
+            <cell>textcrit</cell>
+            <cell>Критический аппарат</cell>
+          </row>
+          <row>
+            <cell>textstructure</cell>
+            <cell>Структура текста по умолчанию</cell>
+          </row>
+          <row>
+            <cell>transcr</cell>
+            <cell>Репрезентация источника</cell>
+          </row>
+          <row>
+            <cell>verse</cell>
+            <cell>Поэзия</cell>
+          </row>
+        </table>
+      </div>
+
+
+      <div>
+        <head>Воображаемый проект Punch (ВПР)</head>
+        <list>
+          <item><hi>Punch</hi> – известный английский юмористический журнал, выходивший в 1841–1992
+            годах (<ptr target="http://www.punch.co.uk/historyofpunch.html"/>).</item>
+          <item>Цель проекта – опубликовать полностью размеченные тексты журнала и постраничные
+            цифровые снимки изданий. Аудитория проекта: <list>
+              <item>специалисты в области истории общества</item>
+              <item>сотрудики библиотек</item>
+              <item>лингвисты</item>
+            </list></item>
+          <item>В чем может заключаться помощь TEI? И какие разделы TEI мы можем использовать в этой
+            работе?</item>
+        </list>
+      </div>
+
+      <div>
+        <head>Сначала нам надо решить, какие аспекты текста мы будем размечать:</head>
+        <list>
+          <item>выходные данные и номера страниц, чтобы можно было на них ссылаться</item>
+          <item>«куски» или разделы текста, которые содержат иллюстрации, стихи, прозу, пьесы, или
+            комбинацию всех этих жанров</item>
+          <item>внутри «куска» тектса мы можем идентифицировать формальные единицы, например <list>
+              <item>иллюстрации, подписи к иллистрациям</item>
+              <item>строфы, стихи</item>
+              <item>абзацы</item>
+              <item>реплики и ремарки</item>
+            </list></item>
+          <item>и так далее...</item>
+        </list>
+      </div>
+
+      <div>
+        <head>Теги TEI для разметки макроструктуры текста</head>
+        <p>Мы будем рассматривать каждый <term>выпуск</term> как отдельный <gi>text</gi> элемент, а
+          каждый идентифицируемый раздел выпуска – как элемент <gi>div</gi> (раздел) определенного
+            <term>типа</term> (скетч, стихотворение, проза и т.д.)</p>
+
+        <p>Например, <ref target="Punch/Pages/147_01.jpg">страница 1</ref> содержит два раздела,
+            <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+            <pb n="1"/>
+            <div type="cartoon">....</div>
+            <div type="poem"><head>Progress</head>....</div>
+          </egXML>
+          <ref target="Punch/Pages/147_02.jpg">Страница 2</ref> также содержит два раздела разного
+          типа: <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+            <pb n="2"/>
+            <div type="prose"><head>The enchanted castle</head>....</div>
+            <div type="snippet"><head>Correspondence</head>....</div>
+          </egXML>
+        </p>
+      </div>
+
+      <div>
+        <head>Почему разделы, а не страницы?</head>
+        <p>Потому что раздел может начаться на одной странице (например, <ref
+            target="Punch/Pages/147_05.jpg">стр. 5</ref>) и закончиться на другой (<ref
+            target="Punch/Pages/147_06.jpg">стр. 6</ref>).</p>
+        <p>Границы страниц мы можем разметить с помощью <term>пустого элемента</term>
+          <gi>pb</gi>. Это лучше, чем размечать каждую страницу как <gi>div type="page"</gi>.</p>
+        <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+          <pb n="5"/>
+          <div type="cartoon">...</div>
+          <div type="review"><head>Egypt in Venice</head>... <pb n="6"/> ... </div>
+          <div type="cartoon">...</div>
+          <div type="verse"><head>Enigma</head>...</div>
+          <div type="snippets">...</div>
+        </egXML>
+        <p>Порядок появления разделов не всегда предсказуем.</p>
+      </div>
+
+      <div>
+        <head>Разделы могут состоять из разделов... </head>
+        <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+          <div type="snippets">
+            <div type="snippet">Curiously....Chancellor</div>
+            <div type="snippet">Men for the Antarctic... Canadians</div>
+          </div>
+        </egXML>
+        <list>
+          <item>TEI также предлагает названия элементов разделов, содержащие указание на «глубину»
+            расположения раздела в структуре документа (<gi>div1</gi>, <gi>div2</gi> etc.). Многие
+            считают, что это удобно</item>
+          <item>Разделы всегда расположены строго по нисходящей: если вы спустились на нижний
+            уровень, то выдолжны на нем и оставаться.</item>
+        </list>
+
+      </div>
+
+      <div>
+        <head>Плавающий текст</head>
+        <p>Как было сказано, элементы <gi>div</gi> должны быть расположены под всем текстом
+          «старшего» раздела <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+            <div1>
+              <p> ... </p>
+              <div2>
+                <p> ... </p>
+              </div2>
+              <div2>
+                <p> ... </p>
+              </div2>
+            </div1>
+          </egXML> это правильная структура, НО <egXML rend="tiny"
+            xmlns="http://www.tei-c.org/ns/Examples">
+            <div1>
+              <p> ... </p>
+              <div2>
+                <p> ... </p>
+              </div2>
+              <p> ... </p>
+            </div1>
+          </egXML>
+          <emph>неправильная</emph>.</p>
+        <p rend="box">Для подобных «перебивок» существует специальный элемент <gi>floatingText</gi>
+          (плавающий текст)</p>
+
+      </div>
+
+      <div>
+        <head>Что входит в состав раздела?</head>
+        <p>(кроме более мелких разделов)</p>
+        <list>
+          <item><gi>head</gi> (название) <!--note>(заглавие)</note--></item>
+          <item><gi>p</gi> (абзац)</item>
+          <item><gi>sp</gi> (речь), этот элемент может включать в себя все ниже приведенные
+            элементы, а также <gi>stage</gi> (сцена) и <gi>speaker</gi> (говорящий)</item>
+          <item><gi>list</gi>, включает элементы <gi>head</gi> (название), <gi>label</gi> (ярлык),
+              <gi>item</gi>(единица)</item>
+          <item><gi>table</gi> (таблица), включает элементы <gi>row</gi> (строка), содержащий элемент
+            <gi>cell</gi>(графа) ... </item>
+          <item><gi>l</gi> (строка или стих), несколько элементов обычно группируются как
+            <gi>lg</gi> (группа строк или строфа)</item>
+          <item><gi>figure</gi> (изображение), включает элементы <gi>graphic</gi> (графика),
+              <gi>figDesc</gi> (описание изображения), <gi>head</gi> (заглавие)...</item>
+        </list>
+      </div>
+
+      <div>
+        <head>Пример</head>
+        <p>Скетч (карикатура и диалог) на <ref target="Punch/Pages/147_03.jpg">странице 3</ref>:
+            <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+            <div type="cartoon">
+              <figure>
+                <head>Когда корабли возвращаются на рейд</head>
+                <figDesc>Турок лежит на диване, курит сигарету и внимательно читает книгу «Все о
+                  военном флоте». Грек, стоя за его спиной, изучает свою записную книжку.</figDesc>
+                <graphic url="Punch/XML/Graphics/003.png"/>
+              </figure>
+              <sp>
+                <speaker>Грек.</speaker>
+                <p>Не пора ли нам опять...</p>
+              </sp>
+              <sp>
+                <speaker>Турок.</speaker>
+                <p>Я думаю, пора. Когда вы будете готовы?</p>
+              </sp>
+              <sp>
+                <speaker>Грек.</speaker>
+                <p> Хм, через несколько недель.</p>
+              </sp>
+              <sp>
+                <speaker>Турок.</speaker>
+                <p>Нет, не подходит. Я буду готов только к осени.</p>
+              </sp>
+            </div>
+          </egXML>
+        </p>
+      </div>
+
+      <div>
+        <head>Пример</head>
+        <p><title>The militants' tariff</title> (<ref target="Punch/Pages/147_15.jpg">страница
+          15</ref>): название, абзацы и таблица... <egXML rend="teeny"
+            xmlns="http://www.tei-c.org/ns/Examples">
+            <div type="prose">
+              <head>THE MILITANTS' TARIFF.</head>
+              <head rend="right">Etna Lodge, W.</head>
+              <p>Mrs. Bangham Smasher, having entered into partnership with the Misses Burnham
+                Blazer, as General Agents of Destruction, begs to inform the public that the firm
+                will be prepared to execute commissions of all kinds, at the shortest notice, on the
+                very moderate terms given below : – </p>
+              <table>
+                <row role="label">
+                  <cell/>
+                  <cell>£</cell>
+                  <cell>s.</cell>
+                  <cell>d.</cell>
+                </row>
+                <row>
+                  <cell>For breaking windows, per window ...</cell>
+                  <cell>0</cell>
+                  <cell>7</cell>
+                  <cell>6</cell>
+                </row>
+                <row>
+                  <cell>For howling, kicking, or biting during service in church, per howl, kick, or
+                    bite ...</cell>
+                  <cell>0</cell>
+                  <cell>10</cell>
+                  <cell>6</cell>
+                </row>
+                <row>
+                  <cell>For sitting on doorsteps of obnoxious persons, per hour, if fine ...</cell>
+                  <cell>0</cell>
+                  <cell>15</cell>
+                  <cell>0</cell>
+                </row>
+                <row>
+                  <cell>For sitting on doorsteps of obnoxious persons, per hour, if wet ...</cell>
+                  <cell>1</cell>
+                  <cell>1</cell>
+                  <cell>0</cell>
+                </row>
+                <!-- ... -->
+              </table>
+            </div>
+          </egXML>
+          <!--
+<row>
+  <cell>For bombs suited to wreck really superior
+  buildings, such as Westminster Abbery
+  and St. Paul's</cell>
+  <cell>50</cell> <cell>0</cell> <cell>0</cell>
+</row>
+<row>
+  <cell>For disturbing public meetings and the
+  general harassing and annoyance of all
+  peaceable and decent people ...</cell>
+  <cell cols="3">No Charge</cell>
+</row>
+  </table>
+  <p>Bangham Smasher, Burnham Blazer &amp; Co. beg to assure 
+  their patrons that all the choppers, hammers, bombs, 
+  stones, etc., employed in their business are of the very 
+  best quality, and only refined paraffin and wax matches
+  will be used in burning down any building.</p>
+
+</div></egXML>-->
+        </p>
+      </div>
+
+      <div>
+        <head>Глобальные атрибуты</head>
+        <p>Некоторые характеристики, такие как: <list>
+            <item>идентификационный код</item>
+            <item>язык</item>
+            <item>оформление (rendition)</item>
+          </list> в принципе могут распространяться на любой фрагмент документа.</p>
+        <p>TEI предполагает следующее использование глобальных атрибутов: <list>
+            <item><att>xml:id</att> – уникальный идентификационный код любого элемента; </item>
+            <item><att>n</att> – порядковый номер элемента</item>
+            <item><att>xml:lang</att> – язык элемента (указывается в виде стандартного кода ISO)</item>
+            <item><att>rend</att> и <att>rendition</att> – определяет офрмление элемента</item>
+          </list>
+        </p>
+      </div>
+
+      <div>
+        <head>Пример</head>
+        <p><title>Egypt in Venice</title> (<ref target="Punch/Pages/147_05.jpg">страница 05</ref>)
+          Заголовок и подзаголовок, последний на французском: <egXML rend="tiny"
+            xmlns="http://www.tei-c.org/ns/Examples">
+            <div type="prose" xml:lang="en" xml:id="I1914-07-01_05_02">
+              <head>Egypt in Venice.</head>
+              <head xml:lang="fr" rend="it">"La Légende de Joseph."</head>
+              <p>Those who know the kind of attractions that the Russian ballet offers in so many of
+                its themes ....</p>
+            </div>
+          </egXML>
+        </p>
+        <p>Последний из стихов каждой строфы стихотворения на <ref
+            target="Punch/Pages/147_10">станице 10</ref> выделен увеличенным отступом: <egXML
+            rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+            <lg>
+              <l>There were eight pretty walkers who went up a hill;</l>
+              <l>They were Jessamine, Joseph and Japhet and Jill,</l>
+              <l>And Allie and Sally and Tumbledown Bill,</l>
+              <l rend="indent">And Farnaby Fullerton Rigby.</l>
+            </lg>
+          </egXML>
+        </p>
+      </div>
+
+      <div>
+        <head>Макроструктура 1</head>
+        <p>Все выпуски <title>Punch</title> за один год составляют <term>том</term>. Мы можем
+          рассматривать том как отдельный <gi>text</gi> (текст) и каждый выпуск как отдельный
+            <gi>div</gi> (раздел) текста. Или мы можем воспользоваться элементом <gi>group</gi>
+          (группа): <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+            <text xml:id="v147">
+              <front><!-- Здесь: введение к тому 147  --></front>
+              <group>
+                <text xml:id="I1914-07-01">
+                  <body><!-- первый выпуск (1 июля) --></body>
+                </text>
+                <text xml:id="I1914-07-15">
+                  <body><!-- второй выпуск (15 июля) --></body>
+                </text>
+                <!-- etc... -->
+              </group>
+              <back><!-- содержание тома, приложения и т.д. --></back>
+            </text>
+          </egXML>
+        </p>
+      </div>
+
+      <div>
+        <head>Макроструктура 2</head>
+        <p>У нас есть текст, подробные метаданные каждого тома и цифровые изображения всех страниц.
+          Что соответствует трем каноническим частям TEI-документа: <egXML rend="tiny"
+            xmlns="http://www.tei-c.org/ns/Examples">
+            <TEI>
+              <teiHeader><!-- элемент обязателен; содержит метаданные --></teiHeader>
+              <facsimile>
+                <!-- текст, представленный как изображение   -->
+                <note>текст в виде фотографий источника</note>
+              </facsimile>
+              <text>
+                <!-- текст, готовый к публикации и размеченный -->
+                <note>текст в форме транскрипции с разметкой</note>
+              </text>
+            </TEI>
+          </egXML>
+        </p>
+      </div>
+
+      <div>
+        <head>Макроструктура 3</head>
+
+        <p>Если некоторое множество документов объединено как корпус (а не коллекция), то, возможно,
+          полезно вычленить их общие метаданные: <egXML rend="tiny"
+            xmlns="http://www.tei-c.org/ns/Examples">
+            <teiCorpus>
+              <teiHeader><!--общие метаданные --></teiHeader>
+              <TEI>
+                <teiHeader><!-- специальные метаданные --></teiHeader>
+                <text><!-- ...  --></text>
+              </TEI>
+              <TEI>
+                <teiHeader><!-- специальные метаданные --></teiHeader>
+                <text><!-- ...  --></text>
+              </TEI>
+            </teiCorpus>
+          </egXML></p>
+      </div>
+
+
+      <div>
+        <head>Метаданные какого рода?</head>
+        <p>Для <title>ВПР</title> и подобных ему проектов, нам необходимо место, чтобы разместить
+          следующую информацию <list>
+            <item>идентификацонный код ресурса («что это?»)</item>
+            <item>заявление об ответственности («кем что и когда сделано?»)</item>
+            <item>указание источника публикации («какой текст лег в основу публикации?»)</item>
+            <item>заявление о публикации («каким образом и кто распространяет данное издание?»)</item>
+            <item>декларация кодировки («что значит добавленная нами кодировка?»)</item>
+          </list></p>
+        <p rend="box">Паспорт TEI-документа (TEI header) содержит всю эту информацию, и не только
+          ее.</p>
+      </div>
+
+      <div>
+        <head>Паспорт TEI-документа (TEI header)</head>
+        <p>паспорт TEI-документа разрабатывался с учетом потребностей двух групп пользователей<list>
+            <item>библиографов и библиотекарей при каталогизации «электронных изданий»</item>
+            <item>аналитиков текста при документации «практики кодировки» цифровых
+            ресурсов</item>
+          </list>
+        </p>
+
+        <p>С одной стороны, паспорт ДЛЯ БИБЛИОТЕКАРЯ <list>
+            <item>использует стандартные библиографические понятия</item>
+            <item>учитывает уже существующие системы создания библиографических описаний (например,
+              MARC)</item>
+            <item> отдает предпочтение структурированным данным, а не «свободной прозе»</item>
+          </list></p>
+        <p>С другой стороны, паспорт ДЛЯ КАЖДОГО <list>
+            <!--    <item>делает лишь легкий реверанс в сторону библиографической практики</item>-->
+            <item>предполагает поддержку (потенциально) самой разной неоднородной и случайно (ad
+              hoc) организованной информации </item>
+            <item>непредсказуемая комбинация точно размеченной системы документации и описаний,
+              выполненных в «свободной прозе»</item>
+          </list>
+        </p>
+      </div>
+
+
+      <div>
+        <head>Структура паспорта TEI-документа</head>
+        <p>Паспорт TEI-документа включает четыре основных компонента:<list>
+            <item>
+              <gi>fileDesc</gi> (описание файла) содержит исчерпывающее библиографическое описание
+              файла.</item>
+            <item>
+              <gi>encodingDesc</gi> (описание кодировки) документирует связи между цифровым текстом
+              и его источником (источниками).</item>
+            <item>
+              <gi>revisionDesc</gi> (описание редактирования) информирует об истории изменения
+              файла.</item>
+            <item>
+              <gi>profileDesc</gi> (краткое «жизнеописание» описание текста) содержит детальное
+              описание небиблиографических аспектов текста, в частности языка(-ов) текста, истории
+              создания текста, информацию о лицах, участвовавших в создании текста и т.д. (другими
+              словами – всю информацию, не вошедшую в другие элементы) </item>
+          </list>
+        </p>
+        <p>Обязательным элементам является только <gi>fileDesc</gi> (описание файла), все остальные
+          – факультативные.</p>
+      </div>
+
+
+      <div>
+        <head>Образец паспорта TEI-документа для ВПР</head>
+        <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+          <teiHeader>
+            <fileDesc>
+              <titleStmt>
+                <title>Punch, or the London Charivari, Vol. 147, July 1, 1914</title>
+              </titleStmt>
+              <publicationStmt>
+                <idno type="gutenberg">24357</idno>
+                <availability>
+                  <p>В границах юрисдикции законодательства США и Великобритании текст может быть
+                    свободно использован повторно, гражданам других стран при повторном
+                    использовании текста рекомендуется обратиться за юридической справкой в
+                    соответствующие инстанции.</p>
+                </availability>
+              </publicationStmt>
+              <sourceDesc>
+                <p>Данный текст является TEI-версией текста проекта Gutenberg (PG). Оригинальный
+                  текст <ptr target="http://www.gutenberg.org/dirs/2/4/3/5/24357/"/>. Согласно
+                  лицензионному соглашению, нами были сняты все сноски на знак PG.</p>
+              </sourceDesc>
+            </fileDesc>
+            <revisionDesc>
+              <change when="2008-07-26T23:49:55.968+01:00"/>
+            </revisionDesc>
+          </teiHeader>
+        </egXML>
+      </div>
+      <div>
+
+        <!--
+looking below the paragraph...
+
+lots of other things: some we;ll see tomorrow
+
+- editoril intervention
+- data like/ normalisn of dates, placenames, person names
+- interpretive or linguistic analyses
+
+in punch, just do person and placenames?
+
+
+-->
+        <head>Под знаком «параграф»...</head>
+
+        <p>Элементы, о которых мы говорили, включают множество предусмотренных TEI способов для
+          разметки более мелких компонентов текста. Например: <list>
+            <item>границы текста: страница, колонка (столбец), конец строки</item>
+            <item>выделение, подчеркивание и кавычки</item>
+            <item>изменения в ходе редактирования: исправления, нормализация и т.д. </item>
+            <item>названия (наименования и личные имена), числа, даты, адреса... </item>
+            <item>сноски и перекрестные ссылки</item>
+            <item>замечания, аннотации, индексы</item>
+            <item>графика</item>
+            <item>библиографические ссылки</item>
+            <item>анализ слов и других элементов текста</item>
+          </list>
+        </p>
+
+      </div>
+
+      <div>
+        <head>Выделение (Highlighting)</head>
+        <p>Под <term>выделением</term> мы понимаем любую комбинацию типографических способов (шрифт,
+          размер, цвет, etc.), позволяющую выделить часть текста. Причины выделения текста могут
+          быть самыми разными... <list>
+            <item>выделение иностранных слов, архаизмов, технических терминов</item>
+            <item>выделение значимых слов (фрагментов) речи (высказывания)</item>
+            <item>выделение элементов, не являющихся собственно частью текста (перекрестных ссылок,
+              названий, заголовков...)</item>
+            <item>выделение элементов, принадлежащих различным агентам внутри или вне текста (прямая
+              речь, кавычки)
+              <!--note>выделение высказываний или отдельных слов, принадлежащих различным персонажам внутри или вне текста (прямая речь, кавычки)</note--></item>
+          </list>
+        </p>
+        <p rend="boxed">TEI предлагает как общий тег <gi>hi</gi>, так и большое количество
+          специальных тегов...</p>
+      </div>
+
+      <div>
+        <head>Несколько примеров выделений</head>
+        <list>
+          <item>
+            <gi>hi</gi> (выделено: причина неизвестна либо не имеет значения) <egXML rend="tiny"
+              xmlns="http://www.tei-c.org/ns/Examples">
+              <p>[Оставшаяся часть доклада опущена по причине недостатка места.—<hi rend="sc"
+                >Ред</hi>.]</p>
+            </egXML>
+          </item>
+          <item>
+            <gi>emph</gi> (подчеркнуто, акцентировано) <egXML rend="tiny"
+              xmlns="http://www.tei-c.org/ns/Examples">
+              <said>'E won't bite yer <emph>if you buy 'im</emph> guv'ner.</said>
+            </egXML></item>
+
+          <item><gi>title</gi> (название) и <gi>foreign</gi> (иностранный): <egXML rend="tiny"
+              xmlns="http://www.tei-c.org/ns/Examples">
+              <p><foreign xml:lang="fr">À propos</foreign> of Oxford, it is a question whether that
+                extremely amusing book <title>Verdant Green</title> is still much read by freshers.
+              </p>
+            </egXML></item>
+
+          <item><gi>distinct</gi> (лингвистически маркировано) <egXML rend="tiny"
+              xmlns="http://www.tei-c.org/ns/Examples"> But then I remind myself that the Russian
+              ballet is nothing if not <distinct>bizarre</distinct>
+            </egXML>
+          </item>
+        </list>
+      </div>
+
+      <div>
+        <head>Кавычки</head>
+        <p>Причины использования знака в тексте можно уточнить с помощью тегов: <list>
+            <item><gi>q</gi> - используется, если причина употребления знака неясна или неважна</item>
+            <item><gi>said</gi> - речь или мысль</item>
+            <item><gi>quote</gi> - указание на внешний источник</item>
+            <item><gi>mentioned</gi> и <gi>soCalled</gi> - нюансы нарративного статуса</item>
+          </list>
+          <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+            <p><said who="#Celia">I know a lovely tin of potted grouse,</said> said Celia, and she
+              went off to cut some sandwiches. </p>
+          </egXML>
+        </p>
+        <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+          <head>How to utilise the art of <soCalled>suggestion</soCalled></head>
+          <head>The Doctor, six down at the turn, <soCalled>suggests</soCalled> to his opponent that
+            they are playing croquet, and wins by two and one.</head>
+        </egXML>
+      </div>
+      <div>
+        <head>Кавычки 2</head>
+
+        <p>Заметим, что эти элементы расположены по принципу матрешки (один в другом): <egXML
+            rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+            <p>The poet returned to his work. <said>
+                <quote>In tooth and claw,</quote>
+              </said> he muttered to himself, <said>
+                <quote>In tooth and claw.</quote>
+              </said></p>
+          </egXML>
+        </p>
+      </div>
+
+
+      <div>
+        <head>Интервенция публикатора</head>
+        <p>В качестве простого примера: <q>Excuse me sir, but would you like to buy a nice little
+            dawg?</q>
+          <ref target="Punch/Pages/147_06.jpg">(страница 6)</ref></p>
+        <p>Мы можем: <list>
+            <item>воспользоваться тегом <gi>orig</gi> и указать, что в оригинале стоит "dawg", даже
+              если это написание не соответствует правилам</item>
+            <item>воспользоваться тегом <gi>reg</gi> и указать, что написание "dog" является
+              редакторской правкой</item>
+            <item>поместить оба варианта внутрь элемента <gi>choice</gi>, если наша схема это
+              позволяет:</item>
+          </list>
+          <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples"> ...a nice little <choice>
+              <orig>dawg</orig>
+              <reg>dog</reg>
+            </choice>? </egXML></p>
+      </div>
+
+      <div>
+        <head>Личные имена, географические названия, наименования... </head>
+        <p>
+          <list>
+            <item><gi>name</gi> - наименование в тексте; наименование представляет собой имя
+              собственное или именное словосочетание</item>
+            <item><gi>rs</gi> - устоявшееся название или ссылка</item>
+            <item><gi>title</gi> - название в любой форме</item>
+          </list>
+        </p>
+        <p>Атрибут <att>type</att> используется для указания, к какой котегории относится имя или
+          название. Также эти указанные элементы могут иметь атрибуты <att>key</att>, <att>ref</att>
+          и <att>nymRef</att>.</p>
+      </div>
+
+      <div>
+        <head>Имена и названия: примеры</head>
+
+        <p>Использование атрибута <att>type</att> для разграничения личных имен и географических
+          названий: <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+            <p>The scene opens at a party given by <name type="person">Potiphar</name> in <name
+                type="place">Venice</name>. </p>
+          </egXML>
+        </p>
+
+
+        <p>Использование атрибутов <att>key</att> и <att>ref</att> при указании сносок и атрибутации
+          (to de-reference) ссылок и связывании присутствующих в тексте имен и названий: <egXML
+            rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+            <p><label>Business done.</label>—The Commons still harping on the Budget. <name
+                type="person" ref="http://en.wikipedia.org/wiki/Timothy_Michael_Healy"> Tim
+              Healy</name> enlivened proceedings by vigorous personal attack on <q>the most reckless
+                and incapable <rs key="LLG">Chancellor of the Exchequer</rs> that ever sat on the
+                Treasury Bench.</q>
+              <name key="LLG">Lloyd George's</name> retort courteous looked forward to with
+              interest.</p>
+          </egXML>
+        </p>
+      </div>
+
+      <div>
+        <head>Даты</head>
+        <p>
+          <list>
+            <item>Элемент <gi>date</gi> (дата) может содержать указание на дату или время в любом
+              форме</item>
+            <item>Для машинной обработки дата конвентируется в нормализированный
+              <!--note>стандартный</note--> формат с помощью атрибута <att>when</att> (когда).</item>
+            <item>Если дата и/или время указаны неточно, могут быть использованы атрибуты:
+                <att>notBefore</att> (не ранее), <att>notAfter</att> (не позднее), <att>from</att>
+              (от), <att>to</att> (до)</item>
+          </list>
+        </p>
+        <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+          <p>House of Commons, <date when="1914-06-22"> Monday, June 22, 1914</date>.</p>
+          <p><date notAfter="1914-06-01" notBefore="1914-03-01"> Sunday, a month ago,</date> was
+            hot.</p>
+
+        </egXML>
+      </div>
+
+      <div>
+        <head>Перекрестные ссылки</head>
+        <p><term>Перекрестные ссылки</term> представляют собой сноску от одной точки текста (сноска)
+          к другой (адрес ссылки). </p>
+        <p>TEI предлагает общие элементы <gi>ptr</gi> и <gi>ref</gi> для подобных целей. Если есть
+          возможность автоматически генерировать перекрестную ссылку, используется элемент
+          <gi>ptr</gi>; во всех остальных случаях используется элемент <gi>ref</gi>.</p>
+        <p>Сноска – место текста, указанное в элементе <gi>ptr</gi> или <gi>ref</gi>; адрес ссылки
+          указывается в атрибуте <att>target</att> в форме URI-ссылки
+          <!--note>в формате URI</note-->.</p>
+        <p>
+          <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples"> See <ref target="#Section12"
+              >section 12 on page 34</ref>. </egXML>
+          <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples"> See <ptr target="#Section12"
+            />. </egXML>
+        </p>
+
+      </div>
+
+
+
+      <div>
+        <head>Библиографическая ссылка</head>
+        <p>TEI предлагает специальные элементы для библиографических ссылок: <list>
+            <item><gi>bibl</gi> (свободная структура)</item>
+            <item><gi>biblStruct</gi> (стандартная структура библиографии)</item>
+            <item><gi>listBibl</gi> (включает список библиографии)</item>
+          </list></p>
+        <p>Эти элементы, как правило, используются при подготовке библиографии или при оформлении
+          ссылок. Но у нас есть примеры и из Punch. </p>
+      </div>
+
+      <div>
+        <head> Пример <gi>bibl</gi></head>
+        <p>В Punch ссылки часто сопутствуют цитатам из других газет: </p>
+        <p>Элемент <gi>cit</gi> включает как цитату, так и ссылку: <!--note>добавлен перевод</note-->
+          <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+            <cit>
+              <quote>It was the time when Henry III. was batting with Simon de Montfort and his
+                Barons.</quote>
+              <bibl>
+                <title>Straits Times.</title>
+              </bibl>
+            </cit>
+          </egXML></p>
+      </div>
+
+
+      <div>
+        <head>Примечания</head>
+        <p>Примечания, которые находятся непосредственно в оригинальном тексте или были добавлены
+          редактором, могут быть размечены с помощью элемента <gi>note</gi>. </p>
+        <p>Мы можем добавить некоторые биографические сведения об одном из персонажей Punch в наше
+          издание: <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+            <p>By-the-by, it is denied that Sir <name rend="sc">Joseph Beecham</name>
+              <note>Sir Joseph Beecham, 1st Baronet (8 June 1848 – 23 October 1916)...</note>. was
+              in any way responsible for the Government's "Pills for Earthquakes," by which it was
+              hoped to avert the Irish crisis.</p>
+          </egXML></p>
+        <p>Атрибуты элемента <gi>note</gi>: <att>place</att> и <att>resp</att>.</p>
+      </div>
+
+      <div>
+        <head>Примечания, связанные между собой</head>
+        <p>Поскольку у нас в тексте может быть несколько упоминаний одного и того же лица, мы можем
+          поместить примечание в определенном месте и в дальнейшем указывать местоположение
+          примечания: <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples">
+            <div type="notes">
+              <note xml:id="BEECHJO">Sir Joseph Beecham, 1st Baronet (8 June 1848 – 23 October 1916)
+                the eldest son of Thomas Beecham (1820-1907) played a large part in the growth and
+                expansion of his father's medicinal pill business which he joined in 1866....</note>
+              <!-- other notes -->
+            </div>
+            <div type="snippets">
+              <p>... Both Earl <name rend="sc">Beauchamp</name> and <name>Sir <ref target="#BEECHJO"
+                    >Joseph Beecham</ref></name> appear in the recent Honours List.</p>
+              <p>By-the-by, it is denied that Sir <name rend="sc" ref="#BEECHJO">Joseph
+                Beecham</name> was in any way responsible...</p>
+            </div>
+          </egXML></p>
+        <p>В данном случае также может быть использован специальный элемент <gi>person</gi>.</p>
+        <p>«В определенном месте» может означать: <emph>где угодно</emph> в Интернете...</p>
+      </div>
+
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Exploring TEI with Roma</title>
+                <author>Lou Burnard</author>
+            </titleStmt>
+            <publicationStmt>
+                <p><date>Aug 2008</date>
+                </p>
+            </publicationStmt><sourceDesc>
+                <p>Rehacked from Montreak</p>
+            </sourceDesc></fileDesc>
+        <revisionDesc>
+            <change when="2007-08-03">revised for Kazan</change>
+            <change when="2007-08-16">first draft</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>Before we begin</head>
+                <p>In this exercise, you will be using <list>
+                        <item>Roma: <ptr target="http:www.tei-c.org/Roma/"/></item>
+                        <item>Oxygen (start it up)</item>
+                    </list></p>
+            </div>
+            <div>
+                <head>TEI ODD: an adventure in 5 steps</head>
+                <list>
+                    <item>Easy TEI in a few clicks</item>
+                    <item>Exploration of the TEI modules</item>
+                    <item>Expanding a schema</item>
+                    <item>Controlled modification of a TEI schema</item>
+                    <item>ODD under the hood</item>
+                </list>
+            </div>
+            <div>
+                <head>Easy TEI</head>
+                <list type="ordered">
+                    <item>Open <ptr target="http://www.tei-c.org/Roma/"/> using any web browser </item>
+                    <item>Select Create Customization from Template Absolutely
+                        Bare.<!--(<ptr target="../Graphics/roma-1.png"/>)--></item>
+                    <item>Select Schema, and then RELAXNG Compact
+                        <!--. (<ptr
+target="../Graphics/roma-2.png"/>)--></item>
+                    <item>Select Documentation, and then
+                        HTML.<!-- (<ptr
+target="../Graphics/roma-3.png"/>)--></item>
+                    <item>Start Oxygen and select New XML Document
+                        <!--(<ptr
+target="../Graphics/oxy-1.png"/>)--></item>
+                    <item>Choose the schema <ident>tei_bare.rnc</ident>, which you created in step 3
+                        above <!--(<ptr
+target="../Graphics/oxy-2.png"/>)--></item>
+                    <item>Type <code>&lt;text</code> to start adding an element. Oxygen keeps your
+                        document valid, and explains the possible choices at each step.</item>
+                </list>
+                <p>How far can you get making a useful document with this simplistic schema
+                    (avoiding tag abuse)?</p>
+            </div>
+            <div>
+                <head>Exploring the TEI modules</head>
+                <list type="ordered">
+                    <item>Open Roma again. Select New, and then Build Schema. If you'd like to work
+                        in some language other than English, choose it from the menu.
+                        <!--(<ptr target="roma-fr.png"/>)-->.</item>
+                    <item>Click on Modules to see which TEI modules are available for inclusion in
+                        your schema. <!-- (<ptr target="roma-mods.png"/>)--></item>
+                    <item>Click on the name of a module (e.g. Drama)  (<ptr target="roma-drama.png"
+                        />) to see the elements it provides.</item>
+                    <item>Click on the ? after the element name  (e.g. caption) to see its
+                        description.</item>
+                    <item>Close the window</item>
+                </list>
+                <p>Make a suitable schema for your document. Delete the elements you don't want.
+                    Don't forget to produce the reference manual as well.</p>
+                <p>Now create a new document in Oxygen, and see how it uses your new schema.</p>
+            </div>
+            <div>
+                <head>Extending a schema</head>
+                <p>We are going to tag some biographical materials, so we will need the elements for
+                    describing names of persons and places.</p>
+                <list type="ordered">
+                    <item>Return to Roma. Select New, and then  Build Schema. </item>
+                    <item>Click on Modules to see the available modules;  add
+                        <ident>namesdates</ident> and <ident>corpus</ident></item>
+                    <item>Remove from the list of elements now available any that don't interest
+                        you: for example <gi>nym</gi> and <gi>listNym</gi></item>
+                    <item>Produce a schema and its documentation</item>
+                    <item>You could experiment with this schema as before, but first we'll add
+                        something new..</item>
+                </list>
+            </div>
+            <div>
+                <head>Modifying a schema</head>
+                <p>Let's suppose we want a special element to record the colour or style of people's
+                    hair. (We could use the generic <gi>trait</gi>, but we prefer to add a new
+                    element called <gi>hairDetails</gi></p>
+                <list type="ordered">
+                    <item>Choose Add Element and provide the definition of the new element as
+                        follows:</item>
+                    <item>Add it to the classes  <ident>model.persTraitLike</ident> and
+                            <ident>att.datable</ident>)</item>
+                    <item>Its content model is <ident>macro.phraseSeq.limited</ident></item>
+                    <item>Once more, produce a schema and its documentation</item>
+                    <item><!--(<ptr
+target="roma-hair.png"/>)--></item>
+                </list>
+            </div>
+            <div>
+                <div>
+                    <p>Now create a new document in Oxygen, and see how it uses your new schema.</p>
+                </div>
+            </div>
+            <div>
+                <head>ODD under the hood</head>
+                <p>What is Roma doing behind the scenes? It is constructing a little TEI document,
+                    of course, to define your schema.</p>
+                <list type="ordered">
+                    <item>Click on  Save</item>
+                    <item>Now look at the file you made using Oxygen</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

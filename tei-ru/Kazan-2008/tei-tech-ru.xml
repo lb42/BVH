@@ -1,0 +1,383 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+<!--<title>Three key XML technologies</title>-->
+      <title>Три ключевые XML-технологии</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>TEI</publisher>
+        <availability>
+          <p>Freely available for use and derivative works under a Creative Commons Attribution
+            license.</p>
+        </availability>
+        <date>2008-07</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Some bits may be lifted from previous talks/workshops by the TEI Community and certainly
+          from the TEI P5 release of the Guidelines.</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change>
+        <date>$LastChangedDate: 2008-07-23 12:54:44 +0100 (Wed, 23 Jul 2008) $.</date>
+        <name>$LastChangedBy: rahtz $</name>
+        <note>$LastChangedRevision: 3145 $</note>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body xml:lang="ru">
+
+
+      <div rend="slide">
+        <head>Что еще нам нужно знать?</head>
+        <p>Мы подготовили несколько TEI-документов. Какие технологии мы можем использовать для их
+          обработки?</p>
+
+        <list>
+          <item>XPath</item>
+          <item>XSLT</item>
+          <item>XML Query (XQuery)</item>
+        </list>
+      </div>
+      <div rend="slide">
+        <head>Что такое XPath?</head>
+        <list>
+          <item>Нормализованный синтаксис для идентификации и доступа к фрагмету XML-документа</item>
+          <item>Библиотека стандартных функций</item>
+          <item>Стандарт, принятый консорциумом W3C</item>
+          <item>Важный компонент XQuery, XSLT и практически любой системы обработки XML</item>
+        </list>
+      </div>
+      <div>
+        <head>Пример: текст</head>
+        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <body n="anthology">
+            <div type="poem">
+              <head>The SICK ROSE </head>
+              <lg type="stanza">
+                <l n="1">O Rose thou art sick.</l>
+                <l n="2">The invisible worm,</l>
+                <l n="3">That flies in the night </l>
+                <l n="4">In the howling storm:</l>
+              </lg>
+              <lg type="stanza">
+                <l n="5">Has found out thy bed </l>
+                <l n="6">Of crimson joy:</l>
+                <l n="7">And his dark secret love </l>
+                <l n="8">Does thy life destroy.</l>
+              </lg>
+            </div>
+          </body>
+        </egXML>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-05.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-06.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-07.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-08.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-09.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-10.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-11.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-12.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-13.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-14.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-15.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-16.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-17.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-18.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-19.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-20.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-21.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-22.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-23.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-24.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-25.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-26.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-27.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-28.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-29.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-30.png"/>
+        </p>
+      </div>
+      <div rend="slide">
+        <head>XPath: резюме</head>
+        <list>
+          <item>Путь к месту в документе (location path) выражается в виде набора узлов (node-set)</item>
+          <item>Путь может быть абсолютным(<code>/div/lg[1]/l</code>)</item>
+          <item>или относительным (<code>l/../../head</code>)</item>
+          <item>Формальный синтаксис: (<code>axisname::nodetest[predicate]</code>)</item>
+          <item>Пример:<code>child::div[contains(head, 'ROSE')]</code></item>
+        </list>
+      </div>
+
+      <div rend="slide">
+        <head>XPath: краткий синтаксис</head>
+        <list>
+          <item>наиболее «востребованная» ось – <code>child::</code>, таким образом просто
+            <code>lg</code> – сокращение от <code>child::lg </code></item>
+          <item>@ – то же самое, что <code>attribute::</code>, таким образом <code>@type</code> –
+            сокращение от <code>attribute::type </code></item>
+          <item>. – то же самое, что <code>self::</code>, таким образом <code>./head</code> –
+            сокращение от <code>self::node()/child::head </code></item>
+          <item>.. – то же самое, что <code>parent::</code>, таким образом <code>../lg</code> –
+            сокращение от <code>parent::node()/child::lg</code></item>
+          <item>// – то же самое, что <code>descendant-or-self::</code>, таким образом
+            <code>div//l</code> – сокращение от
+            <code>child::div/descendant-or-self::node()/child::l</code>
+          </item>
+        </list>
+      </div>
+      <div rend="slide">
+        <head>XPath также обладает рядом встроенных функций</head>
+        <p>В их числе... <list>
+            <label>функции набора узлов (node-set functions)</label>
+            <item>например, чтобы сосчитать количество узлов в наборе, выбрать узел по его позиции,
+              названию или пространству имен и т.п.</item>
+            <label>функции цепочки символов (string functions)</label>
+            <item>например, чтобы стыковать цепочки, сопоставлять их, находить фрагменты внутри
+              цепочек (substrings), проводить посимвольное преобразование и т.д.</item>
+          </list></p>
+      </div>
+
+      <div>
+        <head>«Расширяемые» стилевые листки XSLT (eXtensible StyLesheeTs)</head>
+        <p>Язык XSLT <list>
+            <item>основан на формате XML; использует пространства имен для различения содержимого на
+              выходе (output) от инструкций</item>
+            <item>полноценный по Тьюрингу (Turing-complete) функциональный язык программирования</item>
+            <item>«читает» и «рисует» деревья XML</item>
+            <item>создан для генерации XSL FO, но сегодня широко используется для
+              генерации HTML или трансформации одного документа XML в другой</item>
+          </list>
+        </p>
+      </div>
+
+
+      <div>
+        <head>Что означает «трансформация»?</head>
+        <p>Нам нужно преобразовать <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <![CDATA[<recipe>
+ <title>Pasta for beginners</title>
+ <ingredients><item>Pasta</item>
+     <item>Grated cheese</item>
+ </ingredients>
+ <cook>Cook the pasta and mix with the cheese</cook>
+</recipe>]]></egXML> в <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <![CDATA[<html>
+ <h1>Pasta for beginners</h1>
+ <p>Ingredients: Pasta Grated cheese</p>
+ <p>Cook the pasta and mix with the cheese</p>
+</html>]]></egXML>
+        </p>
+      </div>
+
+      <div>
+        <head>Как выполнить эту трансформацию с помощью XSL?</head>
+        <p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples"
+            xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+            <![CDATA[<xsl:stylesheet 
+    xmlns:xsl='http://www.w3.org/1999/XSL/Transform' 
+    version="1.0">
+<xsl:template match="recipe">
+ <html> 
+ <h1><xsl:value-of select="title"/></h1>
+ <p>Ingredients:    
+    <xsl:apply-templates  
+     select = "ingredients/item"/> 
+ </p> 
+ <p><xsl:value-of select="cook"/></p>
+ </html> 
+</xsl:template>
+</xsl:stylesheet>
+]]></egXML>
+        </p>
+      </div>
+
+
+
+
+      <div>
+        <head>XSL: Резюме</head>
+        <p>Основные методы: <list>
+            <item>правила шаблонов (template rules) для узлов XML на входе</item>
+            <item>материал берется из других узлов</item>
+            <item>один и тот же узел может обрабатываться несколько раз в различных режимах</item>
+            <item>переменные и функции</item>
+            <item>выбор, сортировка, нумерация</item>
+            <item>различные форматы на выходе</item>
+          </list>
+        </p>
+      </div>
+
+      <div rend="slide">
+        <head>Что такое XQuery?</head>
+        <list>
+          <item>специфический (domain-specific) метод доступа и обработки данных XML</item>
+          <item>создан для написания запросов XML</item>
+          <item>основан на использовании XPath</item>
+          <item>аналогичен SQL (но предназначен для XML, а не для реляционных данных)</item>
+          <item>рекомендован консорциумом W3C</item>
+        </list>
+      </div>
+
+      <div rend="slide">
+        <head>XQuery: основные приемы</head>
+        <list type="gloss">
+          <label>выражения пути (path expressions)</label>
+          <item>возвращение набора узлов</item>
+          <label>конструкторы элементов</label>
+          <item>возвращение нового элемента</item>
+          <label>выражения FLWOR</label>
+          <item>аналогичны выражениям Select в SQL</item>
+          <label>выражения списков</label>
+          <item>операции со списками или наборами значений</item>
+          <label>условные выражения</label>
+          <item>традиционные логические конструкции ЕСЛИ, ТО, ИНАЧЕ</item>
+          <label>квалифицированные выражения (qualified expressions)</label>
+          <item>Булевы операции со списками и наборами значений</item>
+          <label>выражения типа данных (datatype)</label>
+          <item>проверка соответствия значений типу данных</item>
+        </list>
+        <p rend="box">XQUERY – полноценный язык программирования</p>
+      </div>
+
+
+
+      <div rend="slide">
+        <head>Использование XQuery</head>
+        <list>
+          <item>Сам язык, как правило, скрыт от пользователя (например, запросной формой HTML)</item>
+          <item>Продукты на основе XQuery, например <ident>eXist</ident>, могут включаться в среду
+            (framework) веб-публикации, как, например, Apache...</item>
+          <item>... но к eXist могут обращаться и программы на Java, а также приложения,
+            использующие HTTP/REST, XML-RPC, SOAP, WebDAV и т.д.</item>
+          <item>eXist включает XUpdate – средство добавления, изменения и удаления узлов из XML-базы
+            данных</item>
+        </list>
+      </div>
+
+      <div>
+        <head>Доступ к XML: Выводы</head>
+        <list>
+          <item>XML – это набор иерархически организованных узлов, каждый из которых может
+              быть идентифицирован с помощью XPath</item>
+          <item>XSLT - удобное средство преобразования XML в другие формы</item>
+          <item>XQuery позволяет формулировать запросы любой сложности к общирным текстовым базам
+            данных</item>
+          <item>... Мы использовали кодировку TEI XML в наших текстах не просто так, а для того,
+            чтобы иметь возможность извлекать из этих текстов полезную информацию или создавать 
+            на их основе новые объекты. Например, выводить текст в разных форматах, составлять 
+            списки имен, получать статистическую информацию, осуществлять лингвистический анализ или добавлять
+            дополнительные слои аннотации.</item>
+        </list>
+
+      </div>
+
+    </body>
+  </text>
+</TEI>

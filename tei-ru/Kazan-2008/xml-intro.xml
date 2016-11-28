@@ -1,0 +1,403 @@
+<?xml version="1.0"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>What is XML markup for?</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>TEI</publisher>
+        <availability>
+          <p>Freely available for use and derivative works under a Creative Commons Attribution
+            license.</p>
+        </availability>
+        <date>2008-07-13</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Some bits maybe lifted from previous talks/workshops by the TEI Community and certainly
+          from the TEI P5 1.0 Release of the Guidelines.</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change>
+        <date>$LastChangedDate: 2008-07-15 23:46:32 +0100 (Tue, 15 Jul 2008) $.</date>
+        <name>$LastChangedBy: lou $</name>
+        <note>$LastChangedRevision: 3032 $</note>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+        <div rend="slide">
+          <head>What's in a text ?</head>
+          <figure>
+            <graphic url="../Graphics/beowulf-ms.png"/>
+            <!--head>BL Ms Cotton Vitelius A xv, fol. 129r</head-->
+          </figure>
+        </div>
+
+        <div rend="slide">
+          <head>Is this the same text?</head>
+          <p>
+            <graphic  width="100%" url="../Graphics/beowulf-wrenn.png"/>
+          </p>
+        </div>
+
+
+        <div rend="slide">
+          <head>The ontology of text</head>
+          <p>Where is the text? <list>
+              <item rend="pause">in the shape of letters and their layout?</item>
+              <item rend="pause">in the original from which this copy derives?</item>
+              <item rend="pause">in the stories we read into it? or in its author's intentions?
+              </item>
+            </list>
+          </p>
+          <p rend="box">A "text" is an abstraction, created by or for a community of readers. Markup encodes
+            and makes concrete such abstractions.</p>
+        </div>
+        <div rend="slide">
+          <head>Encoding of texts</head>
+          <list>
+            <item >Texts are more than sequences of encoded glyphs <list>
+                <item>They have <hi>structure</hi> and <hi>content</hi></item>
+                <item>They also have multiple <hi>readings</hi></item>
+              </list></item>
+            <item >Encoding, or markup, is a way of making these things explicit</item>
+	  </list>
+
+            <p rend="box">Only that which is explicit can be reliably processed</p>
+
+        </div>
+
+
+
+        <div rend="slide">
+          <head>What's the point of markup?</head>
+          <list>
+            <item rend="pause">To make explicit (to a machine) what is implicit (to a person)</item>
+            <item rend="pause">To add value by supplying multiple annotations</item>
+            <item rend="pause">To facilitate re-use of the same material <list>
+                <item rend="pause">in different formats</item>
+                <item rend="pause">in different contexts</item>
+                <item rend="pause">by different users</item>
+              </list>
+            </item>
+          </list>
+            <p rend="box">It's (usually) more useful to markup what we think things
+              <emph>are</emph> than what they <emph>look like</emph></p>
+
+        </div>
+
+
+
+        <div rend="slide">
+          <head>Markup as a scholarly activity</head>
+          <list>
+            <item rend="pause">The application of markup to a document can be an intellectual
+              activity</item>
+            <item rend="pause">In deciding what markup to apply, and how this represents the
+              original, one is undertaking the task of an editor </item>
+            <item rend="pause">There is (almost) no such thing as neutral markup -- all of it
+              involves interpretation</item>
+            <item rend="pause">Markup can assist in answering research questions, and the deciding
+              what markup is needed to enable such questions to be answered can be a research
+              activity in itself</item>
+            <item rend="pause">Good textual encoding is never as easy or quick as people would
+              believe</item>
+            <item rend="pause">Detailed document analysis is needed before encoding for the
+              resulting markup to be useful</item>
+          </list>
+        </div>
+
+
+
+
+        <div rend="slide">
+          <head>What does markup capture?</head>
+          <p>Compare <egXML
+	  xmlns="http://www.tei-c.org/ns/Examples"><lb/><hi
+	  rend="dropcap">H</hi><g ref="#WYNN"/>ÆT WE GARDE
+            <lb/>na in gear-dagum þeod-cyninga 
+            <lb/>þrym gefrunon, hu ða æþelingas 
+            <lb/>ellen fremedon. oft scyld scefing sceaþe<supplied>na</supplied>
+            <lb/>þreatum, moneg<ex>um</ex> mægþum meodo-setl<supplied>a</supplied> 
+            <lb/>of<damage><desc>blotted</desc></damage>teah ...</egXML>
+            <emph>and</emph>
+            <egXML xmlns="http://www.tei-c.org/ns/Examples"><lg><l>Hwæt! we Gar-dena in gear-dagum</l>
+              <l>þeod-cyninga þrym gefrunon,</l>
+              <l>hu ða æþelingas ellen fremedon,</l></lg>
+              <lg><l>Oft Scyld Scefing sceaþena þreatum,</l>
+                <l>monegum mægþum meodo-setla ofteah;</l>
+                <l>egsode Eorle, syððan ærest wearþ</l>
+                <l>feasceaft funden...</l></lg>
+            </egXML>
+          </p>
+        </div>
+
+        <div rend="slide">
+          <head>Some alphabet soup</head>
+          <table>
+            <row>
+              <cell>SGML</cell>
+              <cell>Standard Generalized Markup Language</cell>
+            </row>
+            <row>
+              <cell>HTML</cell>
+              <cell>Hypertext Markup Language</cell>
+            </row>
+            <row>
+              <cell>W3C</cell>
+              <cell>World Wide Web Consortium</cell>
+            </row>
+            <row>
+              <cell>XML</cell>
+              <cell>eXtensible Markup Language</cell>
+            </row>
+            <row>
+              <cell>DTD</cell>
+              <cell>Document Type Definition (or Declaration)</cell>
+            </row>
+            <row>
+              <cell>CSS</cell>
+              <cell>Cascading Style Sheet</cell>
+            </row>
+            <row>
+              <cell>Xpath</cell>
+              <cell>XML Path Language</cell>
+            </row>
+            <row>
+              <cell>XSLT</cell>
+              <cell>eXtensible Stylesheet Language - Transformations</cell>
+            </row>
+            <row>
+              <cell>XQuery</cell>
+              <cell>XML Querying</cell>
+            </row>
+            <row>
+              <cell>RELAXNG</cell>
+              <cell>Regular Expression Language for XML (New Generation)</cell>
+            </row>
+          </table>
+          <p>Oh, and then there's also <hi>TEI</hi>, the <emph>Text Encoding Initiative</emph></p>
+        </div>
+
+
+        <div rend="slide">
+          <head>XML: what it is and why you should care</head>
+          <list>
+            <item rend="pause">XML is <hi>structured data</hi> represented as strings of text</item>
+            <item rend="pause">XML looks like HTML, except that:-<list>
+                <item rend="pause">XML is <hi>extensible</hi>
+                </item>
+                <item rend="pause">XML must be <hi>well-formed</hi>
+                </item>
+                <item rend="pause">XML can be <hi>validated</hi>
+                </item>
+              </list>
+            </item>
+            <item rend="pause">XML is application-, platform-, and vendor- independent </item>
+            <item rend="pause">XML empowers the <hi>content provider</hi> and facilitates data
+              integration</item>
+          </list>
+        </div>
+
+
+        <div rend="slide">
+          <head>XML terminology</head>
+          <p>An XML document may contain:- <list>
+              <item rend="pause">elements, possibly bearing attributes</item>
+              <item rend="pause">processing instructions</item>
+              <item rend="pause">comments</item>
+              <item rend="pause">entity references</item>
+              <item rend="pause">marked sections (CDATA, IGNORE, INCLUDE)</item>
+            </list>
+          </p>
+          <p rend="pause">An XML document must be <hi>well-formed</hi> and may be <hi>valid</hi>
+          </p>
+        </div>
+        
+
+        <div rend="slide">
+          <head>The rules of the XML Game</head>
+          <list>
+            <item rend="pause">An XML document represents a (kind of) <hi>tree</hi>
+            </item>
+            <item rend="pause">It has a single <hi>root</hi> and many nodes</item>
+            <item rend="pause">Each node can be<list>
+                <item rend="pause">a subtree</item>
+                <item rend="pause">a single <hi>element</hi> (possibly bearing some
+                  <hi>attributes</hi>)</item>
+                <item rend="pause">a string of <hi>character data</hi>
+                </item>
+              </list>
+            </item>
+            <item rend="pause">Each element has a name or <hi>generic identifier</hi>
+            </item>
+            <item rend="pause">Attribute names are predefined for a given element; values can also
+              be constrained</item>
+          </list>
+        </div>
+
+        <div rend="slide">
+          <head>Representing an XML tree</head>
+          <list>
+            <item>An XML document is encoded as a linear string of characters</item>
+            <item>It begins with a special <hi>processing instruction</hi>
+            </item>
+            <item>Element occurrences are marked by <hi>start-</hi> and <hi>end-tags</hi>
+            </item>
+            <item> The characters &lt; and &amp; are Magic and must always be "escaped" if
+              you want to use them as themselves</item>
+            <item><hi>Comments</hi> are delimited by &lt;!- - and - -&gt;</item>
+            <item><hi>CDATA sections</hi> are delimited by &lt;![CDATA[ and ]]&gt;</item>
+            <item>Attribute name/value pairs are supplied on the start-tag and may be given in any
+              order</item>
+            <item>Entity references are delimited by &amp; and ;</item>
+          </list>
+        </div>
+
+
+        <div rend="slide">
+          <head>A complete  XML document</head>
+
+          <eg><![CDATA[<?xml version="1.0"?> 
+<greetings xmlns="http://www.example.com/ns">
+<hello type="fulsome">hello world!</hello>
+</greetings>]]>
+          </eg>
+          <p>
+            <list>
+              <item rend="pause">The XML declaration</item>
+              <item rend="pause">Namespace declaration</item>
+              <item rend="pause">The root element of the document itself</item>
+              <item rend="pause">Other elements and content</item>
+              <item rend="pause">Attribute and value</item>
+            </list>
+          </p>
+        </div>
+
+        <div rend="slide">
+          <head>The XML declaration</head>
+
+            <eg><![CDATA[<?xml version="1.0" encoding="iso-8859-1"?>
+]]></eg>
+
+          <p>An XML document must begin with an <hi>XML declaration</hi> which does two things: <list>
+              <item>specifies that this <emph>is</emph> an XML document, and which version of the
+                XML standard it follows</item>
+              <item>may specify a different character encoding for the document
+	      — if the default, and recommended, encoding  UTF-8
+	    is not being used</item>
+</list></p>
+        </div>
+
+
+        <div rend="slide">
+          <head>Namespace declarations</head>
+
+          <p>An XML document may include elements declared in different <term>name spaces</term>.</p>
+
+	  
+            <eg><![CDATA[ <TEI xmlns="http://www.tei-c.org/ns/1.0"
+      xmlns:math="http://www.mathml.org">
+      <p>...<math:expr>...</math:expr>...</p>...</TEI>]]></eg>
+
+          <list>
+            <item>a namespace declaration associates a namespace prefix with an external URI-like
+              identifier</item>
+            <item>the default namespace <emph>may</emph> be declared using a <code>xmlns</code></item>
+            <item>other name spaces must all use a specially declared prefix</item>
+<item>All TEI documents are declared within the TEI namespace</item>
+<item>The <ident>xml</ident> namespace is available in all XML
+documents; TEI uses it for  global attributes
+            <att>xml:id</att> and <att>xml:lang</att></item></list>
+
+        </div>
+
+
+
+        <div rend="slide">
+          <head>The Doctype Declaration</head>
+          <p>You may sometimes find an optional "Document Type"
+	  declaration: </p>
+          <eg>
+          <![CDATA[<?xml version="1.0" ?>
+          <!DOCTYPE greeting SYSTEM "greeting.dtd []">]]>
+	  </eg>
+          <list>
+            <item>The DTD is one way of associating the document with its schema (but is not used by
+              W3C or RELAXNG for this purpose)</item>
+            <item>The DTD subset is used to provide declarations additional to those in the schema,
+              for example for external files</item>
+            <item>The DTD subset may be <hi>internal</hi>, <hi>external</hi>, or both</item>
+          </list>
+          <p rend="box">DTDs are now considered old-fashioned --
+	  RELAXNG or W3C schemas are preferred.</p>
+        </div>
+
+        <div rend="slide">
+          <head>XML syntax: the small print</head>
+          <p>What does it mean to be <hi>well-formed</hi>?</p>
+          <list type="ordered">
+            <item> there is a single root node containing the whole of an XML document</item>
+            <item> each subtree is properly nested within the root node</item>
+            <item> names are always case sensitive</item>
+            <item> start-tags and end-tags are always mandatory (except that a combined
+              start-and-end tag may be used for empty nodes)</item>
+            <item> attribute values are always quoted</item>
+          </list>
+          <p rend="box">Note: You can be <hi>valid</hi> in addition to being well-formed. This means
+            you obey the rules of a specified schema, such as the TEI.</p>
+        </div>
+
+        <div rend="slide">
+          <head>Test your XML knowledge</head>
+          <list>
+            <item>Which are correct?<list>
+                <item rend="pause">
+                  <code><![CDATA[<seg>some text</seg>]]></code>
+                </item>
+                <item rend="pause">
+                  <code><![CDATA[<seg><foo>some</foo> <bar>text</bar></seg>]]></code>
+                </item>
+                <item rend="pause">
+                  <code><![CDATA[<seg><foo>some <bar></foo> text</bar></seg>]]></code>
+                </item>
+                <item rend="pause">
+                  <code><![CDATA[<seg type="text">some text</seg>]]></code>
+                </item>
+                <item rend="pause">
+                  <code><![CDATA[<seg type='text'>some text</seg>]]></code>
+                </item>
+                <item rend="pause">
+                  <code><![CDATA[<seg type=text>some text</seg>]]></code>
+                </item>
+                <item rend="pause">
+                  <code><![CDATA[<seg type = "text">some text</seg>]]></code>
+                </item>
+                <item rend="pause">
+                  <code><![CDATA[<seg type="text">some text<seg/>]]></code>
+                </item>
+                <item rend="pause">
+                  <code><![CDATA[<seg type="text">some text<gap/></seg>]]></code>
+                </item>
+                <item rend="pause">
+                  <code><![CDATA[<seg type="text">some text< /seg>]]></code>
+                </item>
+                <item rend="pause">
+                  <code><![CDATA[<seg type="text">some text</Seg>]]></code>
+                </item>
+              </list>
+            </item>
+          </list>
+        </div>
+
+<!-- now we do some editing -->
+
+
+    </body>
+  </text>
+</TEI>

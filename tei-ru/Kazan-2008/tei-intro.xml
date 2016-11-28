@@ -1,0 +1,404 @@
+<TEI  xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:rng="http://relaxng.org/ns/structure/1.0"> 
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+	    <title>Live long and prosper! Lessons from the TEI</title>
+	    <author>Lou Burnard</author>
+         </titleStmt>
+      <editionStmt>
+            <edition>
+               <date>Marrakech, 2008</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+	   <p>Unpublished, 2008</p>
+	 </publicationStmt>
+         <sourceDesc>
+            <p>Various</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+<text>
+<body>
+
+<div><head>1986 was a long time ago...</head>
+<list rend="pause">
+<item rend="pause">The first computer virus  – Brain – appears, in the USA</item>
+<item rend="pause">Construction of the channel tunnel begins</item>
+<item rend="pause">The Soviet Union launches space station Mir</item>
+<item rend="pause">Disaster at Chernobyl</item>
+<item rend="pause">Olaf Palme assassinated</item>
+<item rend="pause">Records of the year:  <hi>Raising Hell</hi> (Run
+DMC)...  <hi>Graceland</hi> (Paul Simon)...  <hi>Группа крови</hi> (Виктор Цой)</item>
+</list></div>
+
+<div><head>...but we used computers then</head>
+<list>
+<item>Corpus linguistics</item>
+<item>Databases on CD ROM </item>
+<item>Largescale lexical resources already existed (eg TLF, TLG, LASLA...)</item>
+<item>Digital lexicography (e.g. OED) </item>
+<item>Document management systems  (e.g. TeX, Scribe, tRoff..)
+<list><item>some proprietary (and expensive), some research</item></list></item>
+<item>Text archives</item>
+<item>Hypertext theory</item>
+</list>
+<p rend="box">But there was no world wide web and not many desktop pcs...</p>
+</div>
+
+<div><head>Birth of the Text Encoding Initiative</head>
+<list>
+<item>Spring 1987: European workshops on standardisation of historical data (J.P.
+Genet, M Thaller)</item>
+<item>Autumn 1987: NEH funds an exploratory international workshop on the
+feasibility of defining "text encoding guidelines"</item>
+</list>
+<figure>
+<graphic height="70%" url="../Graphics/poughkeepsie.png"/>
+<head>Vassar College, Poughkeepsie</head>
+</figure>
+</div>
+
+
+<div><head>Today's question:</head>
+<list>
+<item>So the TEI is <emph>very old</emph>!</item>
+<item>It comes from a time before the Web, before the DVD, the mobile
+phone, cable tv, or Microsoft Word</item>
+<item>Not much in computing survives 5 years, never mind 20</item>
+<item>What relevance can it possibly have today?</item>
+<item>Why is it still here, and how has it survived?</item>
+</list>
+</div>
+
+
+<div><head>Is the TEI still relevant?</head>
+<list>
+<item>With XML everyone can create their own markup system and still
+share data!</item>
+<item>In the Semantic Web, XML systems will all understand each
+other's data!</item>
+</list>
+<p>If we have <list >
+<item>historical data marked up with a Historical Markup Language</item>
+<item>linguistic data marked up with a Linguistic Markup Language</item>
+<item>metadata marked up with a Metadata Markup Language</item>
+    </list>
+how will we integrate resources or ask interesting questions?</p>
+<p rend="box">Haven't we been here before?</p>
+</div>
+
+<div><head>Relevance 1</head>
+<p>The TEI provides
+<list>
+<item rend="pause">a language-independent framework for defining markup
+languages</item>
+<item rend="pause">a very simple consensus-based way of organizing and structuring
+textual (and other) resources...</item>
+<item rend="pause">... which can be enriched and personalized in highly idiosyncratic
+or specialised ways</item>
+<item rend="pause">a very rich library of existing specialised components</item> 
+<item rend="pause">an integrated suite of standard stylesheets for delivering
+schemas and documentation in various languages and formats</item>
+<item rend="pause">a large and active open source style user community</item>
+</list>
+</p>
+</div>
+
+<div><head>Relevance 2</head>
+<p>Why would you want those things?
+<list>
+<item rend="pause">because we need to interchange resources
+<list>
+<item>between people</item>
+<item>(increasingly) between machines</item>
+</list></item>
+<item rend="pause">because we need to integrate resources
+<list>
+<item>of different media types</item>
+<item>from different technical contexts</item>
+</list></item>
+<item rend="pause">because we need to preserve resources
+<list>
+<item>cryogenics is not the answer!</item>
+<item>we need to preserve metadata as well as data</item>
+</list></item></list></p></div>
+
+<div><head>The virtuous circle of encoding</head>
+<p><graphic url="../Graphics/model.png"/></p>
+</div>
+
+
+<div rend="slide">
+<head>The scope of intelligent markup</head>
+<p>Even within the original scope of the TEI we have
+<list >
+<item>basic structural and functional components</item>
+<item>diplomatic transcription, images, annotation</item>
+<item>links, correspondence, alignment</item>
+<item>data-like objects such as dates, times, places, persons,
+       events (<term>named entity recognition</term>)</item>
+<item>meta-textual annotations (correction, deletion, etc)</item>
+<item>linguistic analysis at all levels</item>
+<item>contextual metadata of all kinds</item>
+<item>... and so on and so forth</item>
+    </list></p>
+<p rend="box">Is it possible to delimit encyclopaedically all possible kinds of
+     markup? </p>
+   </div>
+
+<div rend="slide">
+<head>Reasons for attempting to define a common framework</head>
+<list >
+<item>re-usability and repurposing of resources</item>
+<item>modular software development </item>
+<item>lower training costs</item>
+<item><q>frequently answered questions</q>  &#x2014; common technical
+      solutions for different application areas  </item>
+    </list>
+<p rend="box">The TEI was designed to support multiple views of the
+     same resource</p>
+   </div>
+
+
+<div>
+<head>Old Skool TEI</head>
+<list>
+  <item>A traditional (if large) research project with soft funding,
+  driven by academic curiosity</item>
+  <item>a  codification of best practice, with no formal maintenance method  </item>
+  <item>uncertain licencing and development practices</item>
+  <item>perceived as unmanageably complex except by the
+  priesthood — or simultaneously as too simple for real scholarly work</item>
+  <item>lack of specific tools to <emph>do</emph> something with a TEI text</item>
+<item>failure to market the advantages of rich markup</item>
+</list>
+</div>
+
+
+<div><head>TEI New</head>
+<list>
+<item>Proper open source licence, with visible development on Sourceforge</item>
+<item>Architecture rethought to facilitate expansion and integration
+with other systems</item>
+<item>Self documenting, each release fully validated, delivered using
+standard mechanisms</item>
+<item>Publicly available processing tools managed together with the Guidelines</item>
+<item>Active developer community, wiki, etc. Test files, exemplars,
+regular updates... </item>
+<item>New governance structure, new tools, new modules... </item>
+</list>
+</div>
+
+      <div>
+        <head>Three important things about TEI P5</head>
+	<list type="ordered">
+	  <item>Being a good digital citizen:
+	  <list>
+	    <item>Support for multiple schema languages and namespaces</item>
+	    <item>Reliance on XML, and hence on Unicode</item>
+	    <item>Validation of attributes and datatyping</item>
+	    <item>Use of W3C pointers and paths</item>
+	  </list></item>
+	  <item>Making it flexible:
+	  <list>
+	    <item>ODD: a single specification language for developers,
+	    users, and teachers, integrating schema and documentation;
+	    </item>
+	    <item>Verifiable conformance</item>
+	  </list>
+	  </item>
+	  <item>Old annoyances removed and some new topics added</item>
+	</list>
+      </div>
+      
+      <div>
+	<head>One Specification Language</head>
+	<list>
+	  <item>A set of TEI documents is described by an ODD, which is itself a TEI document that
+	  combines: <list>
+	  <item>references to existing declarations</item>
+	  <item>formal declarations for elements and attributes</item>
+	  <item>documentation and usage notes</item>
+	</list>
+	  </item>
+	  <item>Underlying this: <list>
+	  <item> a conceptual model which abstracts from specific elements to generic classes</item>
+	  <item>a modular architecture for combining sets of definitions</item>
+	  </list></item>
+	  <item>specifications are chainable; modifications are written in ODD with ODD as input
+	  and output </item>
+	  <item><name>Roma</name> is one interface to this: there will be others</item>
+	</list>
+        </div>
+
+
+        <div>
+          <head>For example</head>
+          <p>A TEI ODD file is a valid TEI document, containing as
+	  much discursive prose as you want, and  a <gi>schemaSpec</gi> element to
+            define the schema it documents</p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+<text><body>
+<div><head>Our Project Manual</head>
+<p>In this project we use the basic TEI structures 
+with a few minor modifications to exclude elements 
+we don't plan to use.</p>
+<schemaSpec ident="TEI-minimal" start="TEI">
+              <moduleRef key="tei"/>
+              <moduleRef key="header"/>
+              <moduleRef key="core"/>
+              <moduleRef key="textstructure"/>
+<!-- We don't need these drama elements:  -->
+<elementSpec ident="sp" mode="delete" module="core"/>
+<elementSpec ident="speaker" mode="delete" module="core"/>
+</schemaSpec>
+</div></body></text>
+</egXML>
+        </div>
+
+        <div>
+          <head>Support for many schema languages</head>
+          <list>
+            <item>TEI schemas can be generated for <list>
+                <item>XML DTD language</item>
+                <item>ISO RELAX NG language</item>
+                <item>W3C Schema Language</item>
+              </list></item>
+            <item>Content models are defined using RELAX NG syntax</item>
+            <item>Datatypes are defined in terms of W3C datatypes</item>
+            <item>Some facilities (e.g. alternation, namespaces) cannot be expressed in DTD</item>
+            <item>Additional constraints can be expressed in Schematron</item>
+          </list>
+        </div>
+
+
+
+
+<div><head>Two reasons why standards fail</head>
+<list>
+<item>The theory is not yet ripe</item>
+<item>The "not invented here" attitude: the community of users is too diverse</item>
+</list>
+</div>
+
+<div><head>Coping with partially-baked ideas</head>
+<p>In a TEI ODD, you can ...
+<list>
+<item>constrain the domain of a value list</item>
+<item>enforce schematron rules about  e.g. codependency</item>
+<item>provide new elements in your own namespace</item>
+<item>remove (non-mandatory) child elements</item>
+</list></p>
+</div>
+
+<div><head>New elements</head>
+<p>A schema is a grammar. How can you add new terminals to an existing
+syntax?</p>
+<list>
+<item>All content models are expressed indirectly, by reference to
+element classes rather than elements</item>
+<item>Hence adding a new element is simply a matter of saying which class/es
+it belongs to</item>
+</list>
+<p>The TEI schema is also enriched with semantics. How can you explain
+what a new element means?</p>
+<list>
+<item>Class membership also conveys some semantics</item>
+<item>ODD includes detailed documentation</item>
+</list>
+</div>
+
+<div><head>Coping with the NIH Syndrome</head>
+<list>
+<item>TEI P5 has extensive I18N features for translation of ...
+<list>
+<item>schema objects</item>
+<item>schema documentation</item>
+</list>
+</item>
+<item>See ROMA at http://www.tei-c.org/Roma/</item>
+<item>TEI is hospitable to other namespaces
+<list>
+<item>You can use SVG for graphics, MathML for math, Word Table markup if
+you like</item>
+<item>(but note this doesn't solve the Other Overlap Problem)</item>
+</list></item>
+<item>ODD also includes an <gi>equiv</gi> element for mapping to external
+ontologies</item>
+
+</list></div>
+
+<!--
+        <div>
+          <head>Hospitality to other namespaces</head>
+          <list>
+            <item>A key design goal for P5 was interoperability with other standards</item>
+            <item>By defining — and insisting on — a TEI namespace we facilitate that
+              interoperability</item>
+            <item>Examples: embedding of MathML, SVG, KML, GML...</item>
+            <item>Not to mention: embedding of TEI within Docbook</item>
+          </list>
+
+          <p>User-defined extensions must use their own namespace</p>
+
+        </div>
+-->
+        <div>
+          <head>For example</head>
+          <p>Embedding SVG within TEI:
+            <egXML rend="full" xmlns="http://www.tei-c.org/ns/Examples">
+<![CDATA[<figure>
+ <svg xmlns="http://www.w3.org/2000/svg" width="6cm" height="5cm" viewBox="6 3 6 5">
+  <ellipse style="fill: #ffffff" 
+    cx="9.75" cy="6.35" rx="2.75" ry="2.35"/>
+ </svg>
+</figure>]]></egXML>
+          </p>
+          <p>A user-defined attribute:
+            <egXML rend="full" xmlns="http://www.tei-c.org/ns/Examples">
+<div xmlns:my="http://www.example.org/ns/nonTEI">
+<p n="12" my:topic="rabbits">Flopsy, Mopsy, Cottontail, and Peter...</p>
+</div></egXML></p>
+<p rend="box">James Clark's <emph>onvdl</emph> processer validates against multiple
+namespace schemas</p>
+        </div>
+
+
+<div><head>Conformance issues</head>
+
+<p>A document is <term>TEI Conformant</term> if and only if it ...
+<list type="simple">
+<item> is a well-formed XML document</item>
+<item>can be validated against a <term>TEI Schema</term>, that is, a
+schema derived from the TEI Guidelines</item>
+<item> conforms to the TEI Abstract Model </item>
+<item> uses the <term>TEI Namespace</term> (and other namespaces where
+relevant) correctly </item>
+<item> is documented by means of a TEI Conformant <term>ODD
+file</term> which refers to the
+TEI Guidelines </item>
+</list></p>
+<p>Or if it can be transformed
+automatically using some TEI-defined procedures into such a document.
+(it is <term>TEI-conformable</term>)</p>
+
+          <p rend="box">Standardization should not mean <q>Do what I do</q>, but
+	  rather <q>Explain what you do in terms I can understand</q></p>
+</div>
+
+
+<div><head>Evolution works!</head>
+<list type="ordered">
+<item>Make modifications in your own namespace</item>
+<item>Document them in an ODD</item>
+<item>Propose them to the TEI Council as amendments or feature
+requests</item>
+<item>TEI P5 now has a 6 month release cycle...</item>
+</list>
+
+<p rend="box">Visit http://www.tei-c.org for more background info</p>
+<p rend="box">Visit http://tei.sf.net to download</p>
+</div>
+</body></text></TEI>

@@ -1,0 +1,990 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Oxygen: tutoriel</title>
+                <author>Lou Burnard</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>MEET</publisher>
+                <availability>
+                    <p>Freely available for use and derivative works under a Creative Commons
+                        Attribution license.</p>
+                </availability>
+                <date>juin 2011</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Some bits may be lifted from previous talks/workshops by the TEI Community.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <head>À la découverte d'Oxygen - 1</head>
+                <p>Dans la premiere partie de ce petit tutoriel, nous allons nous servir d'Oxygen
+                    pour : <list>
+                        <item>la création d'un nouveau document XML</item>
+                        <item>le balisage progressif d'un document</item>
+                        <item>la validation continuelle d'un document</item>
+                        <item>l'affichage du document sans balise</item>
+                    </list>
+                </p>
+
+                <p rend="box">Si une version récente du logiciel Oxygen n'est pas encore installé
+                    sur votre poste, il faut l'installer avant d'aborder ce tutoriel. Vous pouvez le
+                    télécharger du site Oxygen à <ptr
+                        target="http://www.oxygenxml.com/download_oxygenxml_editor.html"/> et puis
+                    l'installer avec un licence d'essai, gratuit et valable 30
+                    jours.<!-- <list>
+            <item>copiez sur votre bureau les fichiers <ident>oxygen-licence.txt</ident> et
+                <ident>oxygen.exe</ident> (pour Windows) ou <ident>oxygen.zip</ident> (pour MAC). Si
+              ces derniers ne sont pas disponibles, vous pouvez les télécharger du site Oxygen à
+                <ptr target="http://www.oxygenxml.com/download_oxygenxml_editor.html"/>
+            </item>
+            <item>Cliquez sur l'icone du fichier approprié à votre machine et suivez la procedure
+              d'installation indiquée.</item>
+            <item>La première fois que vous lancerez le logiciel, il vous demandera de copier-coller
+              le contenu du licence, qui est contenu dans le fichier
+                <ident>oxygen-licence.txt</ident>. Ce licence est temporaire: vous pouvez en
+              telecharger une autre du site ci dessus.</item>
+          </list>--></p>
+
+                <div>
+                    <head>Le document né-numérique</head>
+                    <p>La TEI ne sert pas uniquement à l'encodage des documents anciens, déjà
+                        existants sur papier, parchemin, ou pierre. Elle sert aussi à la création de
+                        documents nouveaux <foreign>ex nihilo</foreign>....</p>
+                </div>
+
+                <div>
+                    <head>Création d'un document</head>
+                    <list>
+                        <item>Démarrer Oxygen.</item>
+                        <item>Cliquez sur l'icône <ident>Nouveau</ident> en haut à gauche (ou
+                            sélectionnez <ident>Nouveau</ident> du menu <ident>Fichier</ident>, ou
+                            tapez CTRL-N) pour ouvrir la boîte de dialogue
+                            <ident>Nouveau</ident></item>
+                        <item>Choisissez <ident>Modèles du framework</ident>, ensuite <ident>TEI
+                                P5</ident>, puis <ident>Bare</ident>, pour sélectionnez un schéma
+                            basique TEI. </item>
+                        <item><graphic height="5cm" url="../Graphics/nouveau-bare-1.png"/></item>
+                        <item> Cliquez sur le bouton <ident>Créer</ident> en bas. Oxygen affiche un
+                            document TEI minimal que vous allez compléter.</item>
+                    </list>
+                    <p>Le schéma TEI bare contient un minimum de balises, mais il permet quand-même
+                        de décrire un document complet TEI. </p>
+
+                    <p>On est maintenant dans l'espace de travail typique d'Oxygen. Par défaut, il y
+                        a plusieurs petits écrans, autour d'un grand espace blanc ou nous allons
+                        éditer notre document. A gauche, par exemple, vous voyez dans la fenêtre
+                            <ident>Sommaire</ident> un aperçu de la structure du document. (Si ce
+                        n'est pas le cas, selectionnez <ident>Fenetre -> Afficher la vue</ident>, et
+                        ensuite <ident>Sommaire</ident>)</p>
+                    <p><graphic height="2cm" url="../Graphics/outline-1.png"/></p>
+                    <p>Vous voyez qu'un document TEI est divisé en deux parties. En haut, vous avez
+                        les métadonnées, entourées de la balise <gi>teiHeader</gi>. En bas, se
+                        trouve le texte, entouré de la balise <gi>text</gi>. </p>
+                    <p><graphic height="5cm" url="../Graphics/nouveau-bare-2.png"/></p>
+
+                    <p>En bas de l'écran, vous voyez qu'il est possible modifier l'affichage du
+                        document en cliquant sur les boutons <term>Texte</term>,
+                        <term>Grille</term>, ou <term>Auteur</term>. Nous, on n'a pas peur des
+                        balises, donc on va l'éditer en mode <term>Texte</term>. </p>
+                    <p>D'abord, il faut fournir les métadonnées essentielles à tout nouveau document
+                        : son titre, sa distribution, et ses origines. Oxygen vous propose des
+                        morceaux de texte qu'il faut changer puis compléter... <list>
+                            <item>Remplacez le mot <q>Title</q> (entre les balises <gi>title</gi> et
+                                    <tag>/title</tag>) par un titre pour votre document. À vous de
+                                choisir ! Quelque chose comme <q>À la découverte d'Oxygen</q>
+                                suffirait. </item>
+                            <item>Remplacez les deux autres morceaux de texte proposés par des
+                                mentions plus appropriées. Par exemple, pour publication, on
+                                pourrait mettre <q>Brouillon inédit</q> ou <q>Distribué sur mon
+                                    blog</q> selon le cas ; pour <gi>sourceDesc</gi>, pour
+                                    <gi>sourceDesc</gi>, on vous propose <q>Œuvre originale, guidé
+                                    par un tutoriel TEI à MISAT 2016</q>. </item>
+                        </list>
+                    </p>
+                    <p>Oxygen par défaut cherchera à maintenir votre document dans un état de
+                        validité. Qu'est-ce qui arrive si vous l'endommagez ? <list>
+                            <item>Effacez quelques lettres à l'intérieur de n'importe quelle balise
+                                : par exemple changez <gi>publicationStmt</gi> en <gi>publicat</gi>. </item>
+                            <item>Oxygen fait de son mieux. D'abord, il change la balise fermante
+                                correspondante (qui devient instantanément <tag>/publicat</tag>): le
+                                <!-- Il était écrit "instamment", qui signifie "de manière pressante" = insistently.
+  J'ai substitué par "instantanément", mais peut-être n'est-ce pas ce que tu voulais dire ? -->
+                                document reste donc bien formé. Mais il n'est plus valide : par
+                                conséquent les balises fautives sont soulignées en rouge ; il y a un
+                                message d'erreur en bas de l'écran ; et à droite il y a quelques
+                                taches rouges.</item>
+                            <item>Cliquez sur les taches rouges pour essayer de comprendre la
+                                manière dont une erreur peut en enchaîner une autre.</item>
+                            <item>Cliquez sur CTRL-Z (ou sélectionnez <ident>Undo</ident> du menu
+                                    <ident>Edit</ident>) pour revenir dans un état de grâce... vous
+                                verrez que le petit carreau rouge en haut à droite devient vert
+                                après correction de toutes les erreurs.</item>
+                        </list>
+                    </p>
+                    <p>En plus, Oxygen ne vous permettra d'ajouter que des balises prévues dans le
+                        schéma actuellement sélectionné pour le document. <list>
+                            <item>Mettez le curseur à la fin de la 7ème ou au début de la 8ème
+                                ligne, entre <tag>/title</tag> et <tag>/titleSmt</tag>;</item>
+                            <item>tapez <code>&lt;</code> et arrêtez un instant ;</item>
+                            <item>le carreau vert redevient rouge, parce que vous n'avez pas encore
+                                entré le nom de l'élément souhaité.</item>
+                            <item>Oxygen vous propose une liste de balises disponibles à cet
+                                emplacement dans le document : notamment vous avez le droit
+                                d'insérer ici un élément <gi>author</gi> ou encore un
+                                <gi>title</gi>, de terminer le <gi>titleStmt</gi>, d'insérer un
+                                commentaire XML etc. </item>
+                            <item>Tapez sur ENTRER pour accepter la première proposition. Oxygen
+                                insert dans votre document les balises <gi>author</gi> et
+                                    <tag>/author</tag>.</item>
+                            <item>Le curseur reste à l'intérieur de la balise ouvrante, au cas où
+                                vous désireriez spécifier ses attributs. Faire bouger le curseur
+                                d'un caractère à droite et tapez votre nom, comme auteur du
+                                fichier.</item>
+                        </list>
+                    </p>
+
+                </div>
+
+
+                <div>
+
+                    <head>Ajout de texte au document</head>
+                    <p>Enfin, nous sommes prêts pour commencer la création de notre document. À vous
+                        de décider de son contenu et de son balisage. </p>
+
+                    <p>D'abord, quels composants proposeriez-vous pour votre document ? Un document
+                        contenant un seul paragraphe n'est guère probable ! Avec le schéma
+                            <term>bare</term> vous avez le droit de signaler : <list>
+                       
+                            <item>des titres ... à baliser avec la balise <gi>head</gi></item>
+                            <item>des chapitres ... à baliser avec la balise <gi>div</gi></item>
+                            <item>des listes ... à baliser avec la balise <gi>list</gi></item>
+                            <item>des paragraphes ... à baliser avec la balise <gi>p</gi></item>
+                        </list> Allons-y !</p>
+
+                    <p>Dans le reste de ce petit tutoriel, nous allons vous montrer quelques
+                        manipulations utiles offertes par ce logiciel. </p>
+
+                    <p>D'abord, une question important. Pour le contenu, OK, il faut le créer --
+                        mais est-ce qu'il faut toujours taper soi-même les balises ? Non : Oxygen
+                        est là pour vous aider. Vous avez déjà vu comment il peut vous proposer la
+                        liste des balises disponibles à un certain emplacement du document. Il peut
+                        aussi vous proposer comment baliser un morceau de texte sélectionné. </p>
+
+                    <list>
+                        <item>Avec la souris, sélectionnez le contenu du <gi>body</gi>, i.e. la
+                            séquence <code>&lt;p>Some text here&lt;/p></code>. </item>
+                        <item>Tapez CTRL-E (ou dans le menu <ident>Document</ident> sélectionnez
+                                <ident>Balisage</ident> et ensuite <ident>Encadrer avec des
+                                balises</ident> ).</item>
+                        <item>Oxygen vous propose toutes les balises qui pourraient éventuellement
+                            être insérées à cet endroit précis du document : dans ce cas, il est
+                            conseillé de sélectionner <gi>div</gi>. Puis, cliquez sur
+                                <ident>OK</ident></item>
+                        <item>L'élément <gi>div</gi> va contenir le premier chapitre de votre
+                            document. Nous allons insérer donc un titre au début de ce <gi>div</gi>,
+                            en nous servant de la balise <gi>head</gi>. Vous connaissez déjà la
+                            manip: tapez un chevron au bon endroit et séléctionner le nom de la
+                            balise qu'il vous faut! </item>
+                        <item>Il serait aussi utile de numéroter vos chapitres d'une manière
+                            explicite : pour cela, nous vous proposons l'attribut <att>n</att> qui
+                            est disponible sur n'importe quel élément TEI, y compris <gi>div</gi>. </item>
+                        <item>Mettez le curseur <emph>à l'intérieur</emph> de la balise <gi>div</gi>
+                            juste avant le &gt; et tapez un seul espace. Oxygen vous propose un menu
+                            des attributs disponibles. </item>
+                        <item>Tapez sur RETOUR pour sélectionnez <att>n</att>. Oxygen vous informe
+                            qu'il faut dans ce cas ajouter une valeur, et le curseur reste entre les
+                            guillemets.</item>
+                        <item>Tapez (par exemple) <code>1</code>, et votre document redeviendra
+                            valide. </item>
+                    </list>
+
+                    <p>Votre document devrait maintenant ressembler à ceci :</p>
+                    <p><graphic height="3cm" url="../Graphics/body-shot.png"/></p>
+                    <p>À vous d'ajouter maintenant du texte à ce paragraphe : un peu plus
+                        intéressant que <q>some text here</q> de préférence ! Décrivez-nous vos
+                        premières réactions avec Oxygen ; partagez vos idées sur la situation
+                        politique actuelle ; écrivez ce que vous voulez.</p>
+                    <p>Sans doute aurez-vous besoin de plus d'un seul paragraphe. Comment faire pour
+                        terminer celui-ci et commencer un nouveau ? Bien-sûr on peut simplement
+                        taper les balises <tag>/p>&lt;p</tag> mais il y a une autre manière plus
+                        simple. </p>
+                </div>
+
+
+                <div>
+                    <head>Division des éléments</head>
+                    <p>Supposons que vous avez maintenant quelques centaines de mots dans votre seul
+                        paragraphe, et que vous voulez le diviser en plusieurs.</p>
+                    <list>
+                        <item>Mettez le curseur au point de chaque division souhaitée </item>
+                        <item>Tapez ALT-MAJ-D ou bien dans le menu <ident>Document</ident>
+                            sélectionnez <ident>Balisage</ident> et ensuite <ident>Scinder
+                                l'élément</ident></item>
+                    </list>
+                    <p>Vous pouvez faire pareil pour diviser le chapitre unique, mais attention à
+                        choisir un endroit valide pour effectuer la division : <emph>entre</emph>
+                        deux éléments <gi>p</gi>, et non pas dans l'enceinte d'un <gi>p</gi>. </p>
+                    <p>Dans un de vos chapitres, n'omettez pas d'ajouter une liste, balisée avec un
+                        élément <gi>list</gi>, contenant une séquence de <gi>item</gi> éléments,
+                        précédée d'un <gi>head</gi> facultatif.</p>
+
+                </div>
+
+
+                <div>
+                    <head>Affichage du texte balisé</head>
+                    <p>Est-ce que la quantité de balises dans votre document commence à vous
+                        inquiéter un peu ? </p>
+                    <p>On peut mettre en ordre le balisage que l'on a fait, en cliquant sur le
+                        bouton d'indentation, ou en tapant CTRL+MAJ+P, ou en sélectionnant
+                        Source->Indenter le document sur le menu Document. Mais peut être
+                        préféreriez-vous voir disparaître les balises ?</p>
+                    <list>
+                        <item>Au fond de la fenêtre vous voyez trois onglets: Texte , Grille, et
+                            Auteur. Sélectionnez le dernier. L'affichage de votre document change,
+                            et un nouveau menu <ident>TEI P5</ident> devient disponible. Sur ce
+                            menu, sélectionnez <ident>Mode d'affichage</ident> des balises et
+                            regardez les possibilités offertes par ses options. </item>
+                        <item>L'option <ident>Toutes les balises</ident> affiche les balises en
+                            icones; l'option <ident>Aucune balises</ident>les fait disparaître
+                            totalement.</item>
+                        <item> Notez en plus que votre document est maintenant stylé ; il y a des
+                            changements de police ; les retours de chariots sont traités comme des
+                            blancs ; etc. </item>
+                        <item>Dans mode auteur, on peut diviser un élément simplement en tapant
+                            RETOUR deux fois. Expérimentez cela. c</item>
+                    </list>
+
+
+                </div>
+            </div>
+            <div>
+                <head>À la découverte d' Oxygen - 2</head>
+                <p>Vous avez sans doute noté que le schéma TEI Bare dont nous nous sommes servis
+                    dispose d'un nombre tres limité de balises: à partir d'un <gi>div</gi> on
+                    n'a droit qu'à <gi>p</gi> et <gi>list</gi> et leurs composants <gi>label</gi>,
+                        <gi>title</gi>, et <gi>author</gi> . Ce n'est guère satisfaisant: on
+                    pourrait souhaiter par exemple baliser les noms propres avec <gi>name</gi>, ou
+                    les parties mises en evidences avec <gi>hi</gi>. On pourrait souhaiter enrichir
+                    le document avec de metadonnées plus exactes sur les personnes ou les lieux, ou
+                    avec des analyses linguistiques de chaque mot. Pour tout cela, il nous faut un
+                    schéma plus complet, plus adapté à notre projet. </p>
+
+                <p>Dans cette deuxième partie du tutoriel, nous allons revenir sur cette question
+                    d'un schéma TEI <list>
+                        <item>l'interet de limiter les balises, les attributs, et les valeurs
+                            d'attribut mises à disposition </item>
+                        <item>création d'un schéma personnalisé en utilisant Roma</item>
+                        <item>apercu du format ODD</item>
+                    </list>
+                </p>
+
+
+                <div>
+                    <head>Création d'un document maximal</head>
+                    <list>
+                        <item>Démarrez oXygen.</item>
+                        <item>Cliquez sur l'icône <ident>Nouveau</ident> en haut à gauche (ou
+                            sélectionnez <ident>Nouveau</ident> dans le menu <ident>Fichier</ident>,
+                            ou tapez <ident>CTRL-N</ident>) pour ouvrir la boîte de dialogue
+                            Nouveau</item>
+                        <item>Oxygen affiche une longue liste des types de document connus. Regardez
+                            sous <ident>Cadre des modèles</ident>, ensuite <ident>TEI P5</ident>, et
+                            puis cliquez sur <ident>All</ident>, pour sélectionner un schéma TEI
+                            maximal. </item>
+                        <item>Cliquez sur le bouton <ident>Créer</ident> en bas. oXygen affiche un
+                            document TEI.</item>
+                        <item>Enregistrez ce fichier dans votre dossier <ident>Travaux</ident> sous
+                            le nom <ident>myTest.xml</ident>.</item>
+                    </list>
+                </div>
+                <div>
+                    <head>All n'est pas la solution idéale</head>
+                    <p>Comme vous l'avez déjà vu, oXygen propose éléments et attributs TEI
+                        automatiquement. <list>
+                            <item>Dans le document que vous venez de créer, mettez le curseur à
+                                l'intérieur de l'élément <gi>p</gi>.</item>
+                            <item>Tapez <code>&lt;</code>. oXygen vous offre un menu de tous les
+                                éléments disponibles à ce point.</item>
+                            <item>Passez en revue la liste des noms d'élément : un "pop-up" apparaît
+                                pour expliquer la fonction de chacun. Regardez par exemple
+                                    <gi>address</gi>, <gi>camera</gi>, <gi>incident</gi>,
+                                    <gi>metamark</gi>, ou <gi>notatedMusic</gi>.</item>
+                            <item>Tapez <ident>ESC</ident> pour sortir du menu&#xa0;; supprimez le
+                                '&lt;' que vous venez d'ajouter.</item>
+                            <item>On a beaucoup de choix... mais dans un projet particulier il n'est
+                                guère probable qu'on ait besoin de tous ces éléments. Avec autant de
+                                possibilités, la probabilité d'introduire des incohérences ou
+                                d'effectuer un mauvais choix est fortement augmentée. Cela
+                                complexifie également le traitement des documents XML que nous
+                                allons créer.</item>
+                        </list>
+                    </p>
+                </div>
+                <div>
+                    <head>Création d'un schéma avec Roma</head>
+                    <p>Le logiciel Roma vous permet de créer votre propre schéma TEI. Notre objectif
+                        sera de créer un schéma pour traiter (uniquement) les imprimés, en utilisant
+                        les balises que vous avez déjà découvertes.<list>
+                            <item>Avec votre navigateur rendez-vous sur <ref
+                                    target="http://www.tei-c.org/Roma/"
+                                    >http://www.tei-c.org/Roma/</ref>. La page vous propose quatre
+                                options: <list type="ordered">
+                                    <item><hi>Build up&#xa0;:</hi> on crée une personnalisation en
+                                        ajoutant petit à petit ce qu'on souhaite avoir en partant
+                                        d'une base minimale</item>
+                                    <item><hi>Reduce&#xa0;:</hi> on fait l'inverse&#xa0;:
+                                        c'est-à-dire qu'on crée une personnalisation en retirant
+                                        petit à petit ce qu'on ne souhaite pas avoir en partant
+                                        d'une base maximale</item>
+                                    <item><hi>Create&#xa0;:</hi> on part d'un template deja
+                                        existant</item>
+                                    <item><hi>Use&#xa0;:</hi> on se sert d'une personnalisations
+                                        déjà proposée par la TEI</item>
+                                    <item><hi>Upload&#xa0;:</hi> on retravaille une personnalisation
+                                        qu'on a déjà enregistrée. </item>
+                                </list>
+                            </item>
+                            <item>Dans cet exercice, nous choisissons la troisième solution.
+                                Choisissez <ident>Create</ident> et selectionnez <ident>TEI
+                                    Bare</ident>, puis cliquez sur le bouton rouge
+                                    <ident>start</ident>. </item>
+                            <item>Pour régler les paramètres on vous propose : <list>
+                                    <item><hi>Title&#xa0;:</hi> Changez 'TEI absolutely bare' en
+                                        (par exemple) "TEI pour les corpus".</item>
+                                    <item><hi>Filename&#xa0;:</hi> Change 'tei_bare' en (par
+                                        exemple) <ident>teiCorpus</ident> (c'est un identifiant, et
+                                        donc ne devrait pas inclure de blancs) </item>
+                                    <item><hi>Language&#xa0;: </hi> Vous pouvez laisser en anglais,
+                                        mais ce tutoriel part du principe que vous préférez
+                                        travailler en français. Cochez donc le bouton devant le mot
+                                        "français".</item>
+                                    <item><hi>Author name&#xa0;:</hi> Entrez votre propre nom (ou
+                                        celui de votre avatar si vous préférez) </item>
+                                    <item>Modifiez la description si vous le souhaitez. </item>
+                                </list>
+                            </item>
+                            <item>Cliquez sur le bouton rouge <ident>Save</ident> en bas de page.
+                                Vos changements ont été pris en compte : l'interface est maintenant
+                                en français, et en haut à droite, le nom de la personnalisation sur
+                                laquelle vous travaillez est affiché.</item>
+                            <item>Roma est un logiciel international (plus ou moins). Sélectionnez
+                                l'onglet <ident>Langage</ident>, et cliquez sur le bouton
+                                    <ident>Français</ident> pour assurer que la francisation de cet
+                                exercice soit maximale ! </item>
+                            <item>Encore une fois, cliquez <ident>Save</ident> en bas de
+                                page.</item>
+                        </list>
+                    </p>
+                </div>
+                <div>
+                    <head>Sélection de modules</head>
+                    <p>Un <term>module</term> est un regroupement d'éléments TEI. Tout élément TEI
+                        est déclaré dans un module spécifique. Par exemple, pour encoder un
+                        dictionnaire vous aurez besoin des éléments spécialisés pour les dicos. Mais
+                        ces éléments ne sont pas forcément intéressants pour l'encodage d'autres
+                        types de documents.</p>
+                    <p>Dans Roma, <list>
+                            <item>Cliquez sur l'onglet <ident>Modules</ident> pour vérifier quels
+                                modules constitueront votre schéma</item>
+                            <item>Nous avons commencé avec le schéma <soCalled>bare</soCalled>. Donc, la liste
+                                des modules sélectionnés, affichée à droite, ne contient que trois
+                                modules. </item>
+                            <item>Supposons que nous souhaitons disposer des balises pour traiter les figures
+                                et les tableaux. Nous aurons besoin donc d'ajouter un
+                                module supplémentaire qui s'appelle <ident>figures</ident></item>
+                            <item>Cliquez sur le mot <ident>ajouter</ident> devant la mention du
+                                module <ident>figures</ident> dans la liste a gauche. Ce module va
+                                apparaitre tout de suite dans la liste a droite. </item>
+                           
+                            <item>Vous avez maintenant un schéma construit à partir des modules :
+                                    <ident>tei</ident> (Roma ne vous permet pas d'enlever ce module
+                                    infrastructurel),<ident>core</ident>, <ident>header</ident>,
+                                    <ident>figures</ident> et
+                                    <ident>textstructure</ident>.</item>
+                        </list>
+                        
+                    </p>
+                </div>
+                <div>
+                    <head>Inclusion et exclusion des éléments</head>
+                    <p>Dans ce petit ensemble de modules, plusieurs éléments sont supprimés; et peut
+                        être il y a d'autres qui n'ont aucun intérêt pour notre projet. <list>
+                            <item>Cliquez sur le mot <mentioned>core</mentioned> à droite
+                                (nota&#xa0;: non pas sur le mot <mentioned>supprimer</mentioned>
+                                mais sur le nom du module). Une liste de tous les éléments du module
+                                    <ident>core</ident> s'affiche. </item>
+                            <item>Chaque ligne de cette table contient&#xa0;: <list>
+                                    <item>le nom canonique d'un élément</item>
+                                    <item>une indication de son Inclusion ou Exclusion</item>
+                                    <item>le nom de cet élément dans le schéma actuel (normalement
+                                        c'est le nom canonique i.e. anglais)</item>
+                                    <item>un point d'interrogation fournissant un lien vers la page
+                                        de référence pour cet élément</item>
+                                    <item>une description brève des fonctions de cet élément</item>
+                                    <item>un lien qui permet de modifier les attributs de cet
+                                        élément</item>
+                                </list>
+                            </item>
+                            <item>Cette interface vous permet d'explorer la fonction et l'usage de
+                                tous les éléments TEI. Il vous permet également de sélectionner ceux
+                                que vous souhaitez intégrer dans votre schéma.</item>
+                            <item>Vous pouvez Inclure ou Exclure tous les éléments d'un module.
+                                Cliquez sur le mot <ident>Exclure</ident> dans le titre de la table,
+                                et tous les éléments sont exclus par défaut. Pareille pour le mot
+                                    <ident>Inclure</ident> bien sur. Cliquer le bouton à côté du nom
+                                d'un élément pour changer son in/ex-clusion! </item>
+                         <!--   <item>Pour cet exercice vous êtes invité à sélectionner que les éléments
+                                suivants : <list>
+                                    <item>Du module <ident>core</ident> vous devez exclure tous sauf
+                                        les éléments suivants : <gi>add</gi>, <gi>author</gi>,
+                                            <gi>choice</gi>, <gi>corr</gi>, <gi>del</gi>,
+                                            <gi>graphic</gi>, <gi>head</gi>, <gi>hi</gi>,
+                                            <gi>lb</gi>, <gi>p</gi>, <gi>pb</gi>, <gi>reg</gi>,
+                                            <gi>sic</gi>, <gi>title</gi> et <gi>unclear</gi>.</item>
+                                    <item>Du module <ident>header</ident> vous devez exclure tous
+                                        sauf les éléments suivants : <gi>fileDesc</gi>,
+                                            <gi>publicationStmt</gi>, <gi>sourceDesc</gi>,
+                                            <gi>teiHeader</gi> et <gi>titleStmt</gi>. </item>
+                                    <item>Du module <ident>textstructure</ident> vous devez exclure
+                                        tous sauf les éléments suivants : <gi>TEI</gi>,
+                                            <gi>body</gi>, <gi>closer</gi>,
+                                            <gi>div</gi>,<gi>opener</gi>, <gi>salute</gi>,
+                                            <gi>signed</gi> , <gi>text</gi>, et <gi>trailer</gi>
+                                    </item>
+                                    <item>Du module <ident>figures</ident> vous devez exclure tous
+                                        sauf les éléments suivants : <gi>figure</gi> et
+                                            <gi>figDesc</gi> set.</item>
+                                    <item>Et du module <ident>transcr</ident> vous devez inclure :
+                                            <gi>facsimile</gi>, <gi>surface</gi>, et <gi>zone</gi>.
+                                    </item>
+                                </list>-->
+                                <item>A vous de decider quels elements vous souhaitez inclure. Pour commencer, vous etes invité
+                                    à ajouter deux éléments <gi>name</gi> et <gi>graphic</gi>. 
+                                </item><item>Ensuite considerez les éléments ajoutés dans votre schéma par le module   <ident>figures</ident> : nous vous invitons
+                                d'en supprimer au moins <gi>annotatedMusic</gi> </item>
+                            
+
+                            <item>N'oubliez pas de cliquer sur le bouton rouge <ident>Save</ident>
+                                en bas de page !</item>
+                        </list>
+                    </p>
+                </div>
+                <div>
+                    <head>Création de schéma</head>
+                    <p>
+                        <list>
+                            <item>Cliquez sur l'onglet <ident>Schéma</ident>. Vous pouvez choisir
+                                entre plusieurs langages de schéma&#xa0;: la TEI se définit
+                                indépendamment de toute langue, afin de pouvoir générer tous ces
+                                formats.</item>
+                            <item>Nous vous conseillons de générer un schéma ou bien en Relax NG
+                                Compact Syntax, ou en Relax NG XML Syntax.</item>
+                            <item>Cliquez sur <ident>Générer</ident> et votre navigateur vous envoie
+                                un fichier de schéma. Enregistrer ce fichier dans votre dossier
+                                Travaux. </item>
+                            <item rend="bold">Ne fermez pas votre navigateur : vous en aurez encore
+                                besoin.</item>
+                        </list>
+                    </p>
+                </div>
+                <div>
+                    <head>Association de schéma et fichier en oXygen</head>
+                    <p>Jusqu'à présent, oXygen associait le schéma <ident>tei_all</ident> avec votre
+                        fichier <ident>myTest.xml</ident>. <list>
+                            <item>Revenez dans oXygen et rouvrez votre fichier</item>
+                            <item>Dans le menu Document ouvrir le menu Schéma et sélectionnez
+                                Associer un schéma. (Notez l'icone bleue et rouge pour cette action
+                                qui devrait également apparaitre sur la barre à outils) </item>
+                            <item>Dans la boîte de dialogue qui s'affiche, cliquez sur la petite
+                                icone de dossier à côté de <ident>URL</ident> pour naviguer vers le
+                                fichier RNG que vous venez de créer avec Roma. Cliquez sur
+                                    <ident>OK</ident>.</item>
+                            <item>Dans votre fichier XML-TEI, vous devrez maintenant voir une ligne
+                                qui ressemble à ceci: <egXML
+                                    xmlns="http://www.tei-c.org/ns/Examples"> &lt;?xml-model
+                                    href="teiCorpus.rnc" type="application/relaxng-compact-syntax"
+                                    ns="http://relaxng.org/ns/structure/1.0"?></egXML> . S'il y a
+                                d'autres lignes du même type, enlevez-les pour être sûr !</item>
+                        </list>
+                    </p>
+                </div>
+                <div>
+                    <head>Confirmation</head>
+                    <p>Vous vous souvenez de ces éléments bizarres <gi>address</gi>,
+                        <gi>camera</gi>, <gi>musicNotation</gi> etc. qui étaient disponibles au sein
+                        d'un paragraphe&#xa0;? <list>
+                            <item>Mettez le curseur après une balise ouvrante <gi>p</gi>, et tapez
+                                '&lt;' pour voir de nouveau la liste des éléments
+                                disponibles.</item>
+                            <item>Tous les éléments que vous avez supprimés ont disparu&#xa0;? C'est
+                                bien&#xa0;! Sinon, peut-être que vous avez oublié de cliquer sur le
+                                bouton 'Save' après les avoir inclus/exclus... essayez encore
+                                !</item>
+                        </list>
+                    </p>
+                </div>
+                <div>
+                    <head>Comment limiter les valeurs de l'attribut <att>type</att> de l'élément
+                            <gi>name</gi></head>
+                    <p>Nous avons vu qu'il est très utile de supprimer tel ou tel élément de notre
+                        schéma. Que peut-on faire pour limiter les valeurs légales de ses attributs
+                        ? (Notez qu'en général les attributs TEI sont définis d'une manière très
+                        permissive : vous pouvez taper n'importe quoi). Supposons que nous désirons
+                        limiter les valeurs possibles pour l'attribut <att>type</att> sur
+                            <gi>name</gi>.<list>
+                            <item>Revenez dans Roma</item>
+                            <item>Cliquez sur l'onglet <ident>Modules</ident></item>
+                            <item>Cliquez sur le module <ident>textstructure</ident>
+                            </item>
+                            <item>Trouvez le rang ou est défini l'élément <gi>name</gi> et cliquez
+                                sur <code>Changer les Attributs</code> tout à droite.</item>
+                            <item>Une table des attributs disponibles pour cet élément s'affiche.
+                                Vous pouvez inclure ou exclure des attributs si cela vous intéresse.
+                                Pour le moment essayons quelque chose d'autre. </item>
+                            <item>Descendez jusqu'à <att>type</att> et cliquez sur l'attribut. Une
+                                page s'affiche, qui vous permet de vérifier plusieurs options pour
+                                cet attribut&#xa0;: <list>
+                                    <item><hi>Facultatif&#xa0;?</hi> Est-ce qu'il faut fournir une
+                                        valeur pour cet attribut ou est-il facultatif&#xa0;?
+                                        Supposons que nous désirons un schéma dans lequel la
+                                        présence d'une valeur de <att>type</att> sur <gi>div</gi>
+                                        soit obligatoire&#xa0;: dans ce cas, sélectionnez
+                                            <val>no</val>.</item>
+                                    <item><hi>Contenu&#xa0;:</hi> Combien de valeurs (une ou
+                                        plusieurs) sont permises pour cet attribut, et de quelle
+                                        type (texte, numéro, date...) ? Choisissons une seule valeur
+                                        de type <val>text</val>. </item>
+                                    <item><hi>Valeur par défaut :</hi> nous permet de proposer une
+                                        valeur par défaut pour l'attribut, dans le cas où aucune
+                                        valeur n'est fournie dans le document. Laissez cela vide,
+                                        puisque nous avons déjà décidé de rendre obligatoire la
+                                        présence d'une valeur.</item>
+                                    <item><hi>Liste fermée :</hi> nous permet de préciser si la
+                                        liste de valeurs proposées est une liste fixe impossible à
+                                        augmenter ou non. Dans notre schéma, c'est une liste fermée,
+                                        donc répondez <val>Yes</val>&#xa0;!</item>
+                                    <item><hi>Liste de valeurs&#xa0;:</hi> nous permet de spécifier
+                                        les valeurs permises pour cet attribut dans notre schéma.
+                                        Les valeurs sont proposées sous la forme d'une seule ligne,
+                                        chaque valeur séparée par une virgule. Entrez donc la
+                                        séquence suivante (<hi>sans blancs</hi>)
+                                            <code>personne,lieu,societe,autre</code>.</item>
+                                    <item><hi>Description&#xa0;:</hi> nous permet de modifier la
+                                        description de cet attribut. Vous pouvez la changer comme
+                                        vous le souhaitez&#xa0;: par exemple, changer "n'importe
+                                        quel système ou typologie de classification approprié" en
+                                        "le système de classement proposé pour notre projet".</item>
+                                </list>
+                            </item>
+                            <item rend="bold">Cliquez sur le bouton <ident>Save</ident> en bas de la
+                                page ! </item>
+                        </list>
+                    </p>
+                </div>
+                <div>
+                    <head>Essayons de nouveau...</head>
+                    <p>Est-ce que nous avons réussi? Vous connaissez maintenant la
+                        démarche...&#xa0;: <list>
+                            <item>Cliquez sur l'onglet <ident>Schéma</ident>
+                            </item>
+                            <item>Choisissez l'un des formats de schéma</item>
+                            <item>Cliquez sur <ident>Générer</ident>
+                            </item>
+                            <item>Trouvez le fichier généré et téléchargé; copiez-le sur l'ancienne
+                                version pour la remplacer</item>
+                            <item rend="bold">Ne fermez pas votre Navigateur Internet !</item>
+                            <item>Revenez dans votre fichier <ident>myTest.xml</ident> dans oXygen;
+                                choisir '<ident>Document -> Valider -> Validate</ident>
+                            </item>
+                            <item>Si tout va bien, votre document reste valide : il y a un petit
+                                carré vert. </item>
+                            <item>Maintenant il faut ajouter une <gi>name</gi>. Comme vous avez fait
+                                avant, sélectionnez une denomination quelconque dans ce document, et
+                                entourez-le d'une balise <gi>name</gi> en tapant CTRL-E.</item>
+                            <item>Votre document n'est plus valide&#xa0;: il y a un carré rouge en
+                                haut&#xa0;! En bas vous voyez le message <code>Element 'name'
+                                    missing required attribute 'type'</code>
+                            </item>
+                            <item>Mettez le curseur à l'intérieur de la balise ouvrante de la
+                                    <gi>div</gi>, juste avant le &gt; et tapez un blanc. oXygen
+                                propose une liste d'attributs disponibles. Scrollez-la jusqu'à
+                                    <att>type</att> et notez que cet attribut est affiché en gras,
+                                pour signaler que sa présence est obligatoire.</item>
+                            <item>Sélectionnez <att>type</att> et notez que oXygen vous propose la
+                                liste des valeurs que nous avions prédéfinies dans notre schéma. </item>
+                            <item>Choisissez l'une de ces valeurs, p.ex. <code>personne</code>, et
+                                votre document devient valide, avec un petit carré vert.</item>
+                        </list>
+                    </p>
+                </div>
+                <div>
+                    <head>Génération de documentation</head>
+                    <p>Tout projet aura besoin de sa documentation interne, qui ne sera pas
+                        forcément optimale si elle est en RelaxNG ! Roma vous permet de générer
+                        automatiquement des spécifications compréhensibles, ressemblant à la doc de
+                        référence de la TEI. <list>
+                            <item>Retournez dans votre navigateur et cliquez sur l'onglet
+                                    <ident>Documentation</ident>. </item>
+                            <item>Choisissez <ident>HTML web page</ident>' et cliquez sur
+                                    <ident>Générer</ident>. </item>
+                            <item>Après un bref délai, votre navigateur va recevoir un fichier HTML
+                                que vous pouvez lire avec le navigateur. Au début il y a une table
+                                des matières, avec un lien pour chaque élément de votre schéma.
+                                Scrollez jusqu'au lien pour <gi>div</gi> et cliquez dessus.</item>
+                            <item>Notez que la description de son attribut <att>type</att> est
+                                modifiée selon vos propositions. (Mais notez aussi que d'autres
+                                détails, notamment les exemples d'usage, ne sont pas modifiés)
+                                .</item>
+                            <item>Si vous le préférez, vous pouvez également générer ce document en
+                                format PDF. </item>
+                        </list>
+                    </p>
+                </div>
+                <div>
+                    <head>Enregistrement de la personnalisation</head>
+                    <p>Nous espérons que vous aurez maintenant une idée des capacités de ce système
+                        de personnalisation. Bien sûr, vous ne pouvez pas définir tout ce qui est le
+                        mieux pour votre projet en une seule session. Vous avez donc besoin d'une
+                        façon d'enregistrer la spécification, pour revenir dessus plus tard. <list>
+                            <item>Revenez dans votre navigateur et cliquez sur l'onglet
+                                    <ident>Enregistrer</ident>. </item>
+                            <item>Votre navigateur vous envoie un fichier XML-TEI, avec le même nom
+                                que votre schéma, donc <ident>teiCorpus.xml</ident>. Enregistrez ce
+                                fichier dans votre dossier <ident>Travaux</ident>. </item>
+                            <item>Ouvrez ce fichier XML avec oXygen et lisez-le (mais avec les
+                                balises&#xa0;: en mode Auteur il y a des détails significatifs qui
+                                sont cachés&#xa0;!). </item>
+                            <item>D'abord notez que votre personnalisation hérite des propositions
+                                relatives au schéma minimal duquel vous l'avez dérivé. Vous pouvez
+                                bien sûr modifier ces propositions, en décrivant les objets de votre
+                                projet, vos procédures éventuelles de définition de schéma, vos
+                                règles maison de balisage, etc. etc. -- juste comme un manuel
+                                d'encodage classique. </item>
+                            <item>Ensuite, regardez l'élément <gi>schemaSpec</gi>. Cet élément
+                                contient l'essentiel de votre personnalisation. Notez qu'il compte
+                                un élément <gi>moduleRef</gi> pour chacun des modules que vous avez
+                                sélectionnés, et que le module <ident>core</ident> est complété avec
+                                une liste des éléments que vous avez exclus de ce module.</item>
+                            <item>Regardez la spécification pour <gi>div</gi> (dans un élément
+                                    <gi>elementSpec</gi>) pour voir comment nous l'avons
+                                modifié.</item>
+                            <item>Ce fichier est un document XML-TEI comme tous les autres. Vous
+                                pouvez donc faire des modifications, par exemple au début, pour
+                                améliorer votre manuel d'encodage. Pour recharger votre document
+                                dans Roma, il faut choisir la quatrième option 'Open existing
+                                customisation' sur la page d'accueil de Roma. S'il vous reste du
+                                temps, expérimentez cela !</item>
+                        </list>
+                    </p>
+                </div>
+                <!--
+            <div>
+                <head>Pour aller plus loin...</head>
+                <p>Tester votre schéma avec le fichier <ident>vinet.xml</ident> que vous avez créer
+                    dans le premier exercice. S'il y a des éléments qui manquent dans votre schéma,
+                    sauriez-vous comment les ajouter?</p>
+                <p>Si vous préfériez un document plus moderne, il y a des fichiers de Gaulle dans
+                    votre dossier Travaux. Essayez de completer et baliser la version texte en
+                        <ident>deGaulle.txt</ident> en regardant les fichiers images
+                        (<ident>degaulle-recto.jpg</ident> et <ident>degaulle-verso.jpg</ident>) et,
+                    bien sur, en utilisant le schéma que vous venez de créer. </p>
+            </div>-->
+                <!-- <div>
+                <head>Pour en savoir plus</head>
+                <p> Voici quelques lectures intéressantes (mais en anglais) à ce sujet&#xa0;: <lb/>
+                    <list>
+                        <head>Documentation de référence (dans les Guidelines)</head>
+                        <item> Description complète du langage ODD : <ref
+                                target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/TD.html"
+                                >http://www.tei-c.org/release/doc/tei-p5-doc/en/html/TD.html</ref>. </item>
+                        <item>Description du traitement des fichiers ODD : <ref
+                                target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/USE.html#IM"
+                                >http://www.tei-c.org/release/doc/tei-p5-doc/en/html/USE.html#IM</ref></item>
+                    </list>
+                    <list>
+                        <head>Autres documents tutoriels</head>
+                        <item>
+                            <ref target="http://www.tei-c.org/Support/Learn/odds.xml">Getting
+                                started with P5 ODDs</ref>
+                            <ref target="http://tbe.kantl.be/TBE/modules/TBED08v00.htm"
+                                >http://tbe.kantl.be/TBE/modules/TBED08v00.htm</ref></item>
+                        <item><ref target="http://www.tei-c.org/Guidelines/Customization/odds.xml"
+                                >http://www.tei-c.org/Guidelines/Customization/odds.xml</ref></item>
+                    </list>
+           -->
+            </div>
+            <div>
+                <head>À la découverte d' Oxygen - 3</head>
+                <p>Dans cette troisième partie du tutoriel, nous allons approfondir votre expérience
+                    avec Oxygen pour : <list>
+                        <item>l'encodage XML d'un document Word ou ODT existant</item>
+                        <item>le transformation d'un fichier XML dans un autre</item>
+                    </list>
+                </p>
+
+
+
+                <div>
+                    <head>Quelques documents historiques</head>
+                    <p>Vous trouverez dans votre dossier <ident>Travaux</ident> un fichier nommé
+                            <ident>petain-sample.docx</ident>. Il contient trois communications du
+                        Maréchal Pétain, transcrits et annotes par notre collegue D. Mayaffre,
+                        ensuite édité dans un <title>Lexicometrica</title> de 2005. </p>
+                     <p>Ce fichier contient : <list>
+                            <item>trois transcriptions distinctes, chacune datée</item>
+                            <item>des notices, qui figurent comme notes de bas de pages</item>
+                            <item>des paragraphes </item>
+                            <item>des titres</item>
+                        </list></p><p>Pour ceux ou celles qui ne disposent pas de Microsoft Word, il y a aussi une version ODT
+                        du meme fichier. </p>
+                </div>
+
+
+                <div>
+                    <head>Transformation d'un fichier bureautique en TEI XML</head>
+                    <p>Quoi faire pour transformer ce joli fichier en XML et travailler la-dessus
+                        avec Oxygen? </p>
+                    <p>Nous pourrions l'exporter au format « plein text ». Nous pourrions aussi
+                        faire un copier-coller. Mais dans chaque cas, nous risquons la perte du
+                        formatage qui distingue (par exemple) les annotations en bas de page du
+                        texte annote. s. </p>
+                    <p>Si le fichier est bien stylé, on peut le transformer en XML, sans perte
+                        d’information.</p>
+
+                    <p>Un fichier docx ou un fichier odt est en effet une archive contenant
+                        plusieurs fichiers, notamment des fichiers XML susceptibles de manipulation
+                        et de conversion comme tout autre fichier XML. oxYgen est donc capable de le
+                        traiter, d'autant plus parce que ce logiciel est doté de plusieurs feuilles
+                        de style XSLT prédéfinies pour cette conversion en TEI XML. Ces feuilles
+                        font partie du <soCalled>TEI framework</soCalled>, qu'il faut installer dans
+                        votre copie d'oxyGen (mais qui est fournie comme un
+                            <soCalled>AddOn</soCalled> par défaut dans les versions récentes)</p>
+                    <p>(Ce TEI Oxygen framework peut être configuré à se mettre à jour
+                        automatiquement : voir <ref target="http://lb42.github.io/oxyMaj.html">un
+                            autre tuto</ref> pour vous renseigner sur cette démarche). </p>
+
+
+                    <list xml:lang="fr">
+                        <!-- <head>Ouvrir et convertir un fichier MS Word (.docx) ou un fichier Open Office (.odt)</head>
+            -->
+                        <item>Dans oXygen, utilisez la boite de dialogue habituelle
+                                <ident>Ouvrir</ident> pour sélectionner le fichier
+                            <ident>petain-sample.docx</ident> (ou <ident>petain-sample.odt</ident>) .</item>
+                       
+                        <item>Une fenêtre intitulée <code>Navigateur d'archives</code> s’ouvre à gauche de
+                            l’écran principal. Elle présente la structure de fichiers de l’archive docx ou
+                            odt, qui est legèrement differente dans les deux cas.</item>
+                        <item><list type="gloss">
+                            <label>Microsoft Word</label>
+                            <item>
+                                <list>
+                                    <item><graphic url="../Graphics/navigateur-1.png" height="4cm"/></item>
+                                    <item>Cliquez sur la clef bleu à côté du répertoire appelé
+                                        <ident>word</ident> pour voir le contenu de ce répertoire</item>
+                                    <item><graphic url="../Graphics/navigateur-2.png" height="4cm" /></item>
+                                    <item>Sélectionnez le fichier dénommé <ident>document.xml</ident> et
+                                        double-cliquez pour l’ouvrir </item>
+                                </list></item>
+                            <label>Open Office</label>
+                            <item>
+                                <list>
+                                    <item><graphic url="../Graphics/navigateur-3.png" height="4cm"/></item>
+                                    
+                                    <item>Sélectionnez le fichier dénommé <ident>content.xml</ident> et
+                                        double-cliquez pour l’ouvrir </item>
+                                </list>
+                            </item>
+                        </list>
+                      
+                    <p>Comme vous le constatez, c'est un document XML, plein de balises XML
+                        utilisant plusieurs espaces de nom. </p>
+                    <list>
+                        <item>Avec ce fichier (ou bien <ident>document.xml</ident>, ou bien
+                            <ident>content.xml</ident>) ouvert dans votre fenêtre d’édition principale,
+                            sélectionnez <ident>Transformation -> Configurer Scénario(s) de
+                                Transformation</ident> depuis le menu <ident>Document</ident>. Ou
+                            bien tappez <code>CTRL-SHIFT-C</code>. Ou cliquez sur l’icône avec la
+                            petite clef-à-molette</item>
+                        <item><list>
+                            <item>Pour la conversion par défaut d’un document DOCX vers TEI, cochez
+                                la case DOCX TEI P5</item>
+                            <item>Pour la conversion par défaut d’un document ODT vers TEI, cochez la
+                                case ODT TEI P5</item>
+                        </list> et appuyez sur le bouton <ident>Appliquer Associé(s)</ident></item>
+                    </list></item>
+                    </list>
+                    <p><graphic url="../Graphics/configurer-1.png" height="4cm"/></p>
+                    <list xml:lang="en">
+                        <item>Une nouvelle fenetre s'ouvre en bas de l'écran pour l'affichage des
+                            messages de traitement pendant la conversion; vous n'êtes pas obligé de
+                            les regarder...</item>
+                        <item>Dans la fenêtre d’édition principale, un document TEI-XML s'affiche
+                            (si tout va bien). Du menu<ident>Document</ident> sélectionnez
+                                <ident>Source > Formater et Indenter</ident>, ou tappez CTRL-MAJ-P
+                            ou appuyez sur le bouton <ident>Indent</ident> (celui-ci : <graphic
+                                url="../Graphics/indent.png" height="7mm"/>) si vous ne voyez que le
+                            début d'une ligne. Scrollez et regardez bien comment le stylage de ce
+                            document bureatique a été pris en charges par la conversion. </item>
+                        <item><!--<p><graphic url="media/fr/converted-1.png" height="6cm"/></p>--><p>Plusieurs
+                                paragraphes utilisent l'attribut <att>rend</att>. Ces valeurs
+                                correspondent au stylages utilisés dans le fichier docx ou odt. Donc ils
+                                sont disponibles pour effectuer une conversion plus intelligente.
+                            </p></item>
+                    </list>
+                    <!-- <div xml:lang="fr">
+            <head>et le retour...</head>
+            <p>Bien sur, vous pouvez faire la meme manipulation pour convertir un document TEI P5 en
+              ODT ou en DOCX! </p>
+            <list>
+              <item>Ouvrez un fichier valide TEI P5</item>
+              <item> sélectionnez <ident>Transformation -> Configurer Scénario(s) de
+                Transformation</ident> depuis le menu <ident>Document</ident>. Ou bien tappez
+                <code>CTRL-SHIFT-C</code>. Ou cliquez sur l’icône avec la petite
+                clef-à-molette</item>
+              <item><list>
+                <item>Pour la conversion par défaut d’un document TEI vers DOCX, cochez la case
+                  TEI P5 DOCX</item>
+                <item>Pour la conversion par défaut d’un document TEI vers ODT, cochez la case
+                  TEI P5 ODT</item>
+              </list></item>
+              <item> appuyez sur le bouton <ident>Appliquer Associé(s)</ident></item>
+            </list>-->
+                </div>
+                <!--<list>
+            <item>Ouvrez votre Internet browser, et allez sur le site
+                <ref>http://oxgarage.oucs.ox.ac.uk:8080/ege-webclient/</ref></item>
+            <item>Cliquez sur <ident>Text Documents</ident>. Dans la liste des formats de saisi
+              proposée, cochez la case pour Microsoft Word Document.</item>
+            <item>Une liste des formats cibles proposés apparaît. Cochez la case pour TEI P5
+              XML.</item>
+            <item>En haut de l'écran un bouton <ident>Browse</ident> apparaît. Cliquez sur ceci, et
+              naviguez jusqu'au fichier <ident>petain-sample.docx</ident> dans votre dossier
+                <ident>Travaux</ident>.</item>
+            <item>Cliquez sur le grand bouton <ident>Convert</ident> et patientez. </item>
+            <item>Le site vous renvoie (après un bref délai) un fichier
+                <ident>petain-sample.xml</ident>. Enregistrez-le dans votre dossier
+                <ident>Travaux</ident>.</item>
+          </list>-->
+
+                <div>
+                    <head>Structure du fichier</head>
+                    <p>Voyons de pres ce que cette conversion aura fait de notre fichier Word. En
+                        tout cas, il est devenu un document TEI valide, même s'il pourrait etre
+                        amelioré. </p>
+                    <list>
+                        <item>Relancez Oxygen (si necessaire), et ouvrez le fichier que vous venez
+                            de creer. </item>
+
+
+                        <item><p>D'abord, explorez un peu la structure du fichier. La structuration
+                                est plus evidente dans la fenêtre <ident>Sommaire</ident> à gauche
+                                de l'ecran. Cliquez à gauche de chaque noeud pour l'ouvrir, ou pour
+                                l'enfermer. Par exemple, apres avoir clique à gauche de "text" et de
+                                "body", vous allez voir ceci: </p>
+                            <p><graphic height="4cm" url="../Graphics/structure-1.png" /></p></item>
+                        <item><p>Ensuite, si vous cliquez à gauche du <hi>deuxieme</hi> "div", vous
+                                allez voir ceci:</p><p>
+                                    <graphic height="4cm" url="../Graphics/structure-2.png"
+                            /></p></item>
+                        <item><p>Vous allez vite comprendre que dans ce fichier, il y a quatre
+                                    <gi>div</gi>, dont le premier ne contient que le titre du
+                                fichier. Apres cela, il y a trois <gi>div</gi>, contenant un
+                                    <gi>head</gi> et une serie de <gi>p</gi>. Quelques-uns de ces
+                                    <gi>p</gi> ne contient que de texte, mais il y en a aussi qui
+                                contiennent un <gi>hi</gi>, contenant un <gi>note</gi>, contenant
+                                des <gi>p</gi> emboites comme ceci :</p>
+                            <p>
+                                <graphic height="4cm" url="../Graphics/structure-3.png"/></p></item>
+                        <item>Pourquoi? Notre fichier, comme tout autre fichier issu d'un outil
+                            bureautique, retient les annotations dans le texte à la point de
+                            référence. L'opération de stylage classique sera d'extraire les
+                            annotations, les numerotées, et les affichées en bas de page : une
+                            espece de transformation. </item>
+
+                    </list>
+                </div>
+                <div>
+                    <head>Correction du fichier</head>
+                    <p>Avant de continuer, vous etes invité d'améliorer un peu le balisage du
+                        fichier. Essayez de : <list>
+                            <item>transférer les deux titres dans le bon endroit du
+                                    <gi>teiHeader</gi> ; </item>
+                            <item>enlever la premiere division du fichier ; </item>
+                            <item>ajouter une numérotation à chaque division du fichier (basé sur la
+                                date, p.e. <tag>div n="1940-06-17".</tag></item>
+                        </list>
+                    </p>
+                    <p>Une version corrigée est à votre disposition, si vous en avez besoin, dans le
+                        fichier <ident>petain-sample-corr.xml</ident>! </p>
+                </div>
+                <div>
+                    <head>Transformation du fichier</head>
+                    <p>Vous avez deja vu Oxygen faire une transformation de XML : si vous affichez
+                        votre document en mode Auteur, vous allez voir que les titres sont
+                        maintenant plus jolis, numerotes et mises en evidence, et que les
+                        annotations sont affichees avec une police plus petite, mais peut etre pas à
+                        l'endroit que vous les attendiez.</p>
+                    <p>Essayons d'autre transformations. Il serait impressionant de transformer
+                        notre fichier directement en HTML ou PDF pour l'afficher, n'est-ce pas? <list>
+                            <item>Sur le barre aux outils, il y a un bouton qui contient une fleche
+                                rouge. Cliquez la dessus (ou taper CTRL-MAJ-T, ou selectionnez
+                                Document -> Transformation -> Appliquer le scenario de
+                                transformation ) </item>
+                            <item>En Oxygen un <q>scenario de transformation</q> associe un document
+                                avec une feuille de style, et la fait tourner. Par defaut, vous
+                                voyez <code>TEI P5 XHTML</code> et <code>TEI P5 PDF</code>.
+                                Séléctionnez le scenario qui vous plait, et regardez ce qu'il donne,
+                                en cliquant le bouton <ident>Transformer maintenant</ident>.
+                                Experimentez-l' autre !</item>
+                            <item>Bien sur, on peut configurer ces transformations à volonte, et en
+                                creer des nouveaux. Pour vous en donner le goût, on va finir en vous
+                                proposant une transformation qui n'a rien à faire avec la
+                                visualisation.</item>
+
+                        </list></p>
+
+                    <p>La feuille de style qui controle une transformation s'ecrit dans un autre
+                        langage XML, qui s'appelle XSLT : sujet fascinant, mais peut etre pas pour
+                        les débutants. Vous trouverez quelques exemplaires de feuilles de styles
+                        XSLT dans votre dossier. Pour en servir, il faut créer une nouvelle
+                        transformation en Oxygen <list>
+                            <item>Cliquez sur la flèche rouge (CTRL-MAJ-T) de nouveau</item>
+                            <item>Cliquez le bouton <ident>Nouveau</ident> et séléctionnez
+                                    <ident>XML Transformation with XSLT</ident> du menu déroulant;
+                                la fenetre <ident>Nouveau Scenario</ident> s'ouvre. Dans cette
+                                fenetre : <list>
+                                    <item>fournissez un nom pour le scénario : nous proposons
+                                        "texte-brut"</item>
+                                    <item>spécifiez le fichier XSL souhaité : <list>
+                                            <item>cliquez sur le petit icone dossier jaune à droite
+                                                du champs <ident>XSL URL</ident></item>
+                                            <item>séléctionnez <ident>Parcourir les fichiers
+                                                  locaux</ident> du menu déroulant; la fenetre
+                                                  <ident>Ouvrir</ident> s'ouvre</item>
+                                            <item>séléctionnez le fichier
+                                                  <ident>texte-brut.xsl</ident> et cliquez
+                                                  <ident>Ouvrir</ident> pour fermer ce
+                                                dialog.</item>
+                                        </list></item>
+                                    <item>séléctionnez <ident>Saxon HE 9</ident> du menu
+                                            <ident>Transformateur</ident></item>
+                                    <item>cliquez <ident>Transformer Maintenant</ident> pour voir le
+                                        resultat. </item>
+                                </list></item>
+                        </list></p>
+                    <p>Comme vous voyez, c'est possible de transformer notre document XML ou bien
+                        dans un format d'affichage, ou bien dans un format d'analyse tres classique.
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

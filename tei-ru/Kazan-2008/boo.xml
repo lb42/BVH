@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>XML, TEI and beyond</title>
+        <author>Lou Burnard, Alexei Lavrentev, and Tatiana Timcenko</author>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>TEI</publisher>
+        <availability>
+          <p>Freely available for use and derivative works under a
+          Creative Commons Attribution license.</p>
+        </availability>
+        <date>2008-05-18</date>
+      </publicationStmt>
+      <sourceDesc>
+	<p>Some lifted from previous talks/workshops by the TEI Community, and the TEI P5 1.0
+	Release of the Guidelines.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+     <xi:include
+    href="/home/lou/TEI-OX/Talks/2008-08-kazan/index-ru.xml#xmlns(t=http://www.tei-c.org/ns/1.0)xpointer(/t:TEI/t:text/t:body/t:body)"/>
+
+<p>
+	<ptr n="TEI-intro" target="../2008-08-kazan/tei-intro-ru-handout-slides.pdf" rend="pdfinclude"/>
+
+	<ptr n="XML-intro" target="../2008-08-kazan/xml-intro-ru-handout-slides.pdf" rend="pdfinclude"/>
+
+	<ptr n="TEI-basic" target="../2008-08-kazan/tei-basic-ru-handout-slides.pdf" rend="pdfinclude"/>
+
+	<ptr n="TEI-mss" target="../2008-08-kazan/tei-mss-ru-handout-slides.pdf" rend="pdfinclude"/>
+	<ptr n="TEI-names" target="../2008-08-kazan/tei-names-ru-handout-slides.pdf" rend="pdfinclude"/>
+	<ptr n="TEI-tech" target="../2008-08-kazan/tei-tech-ru-handout-slides.pdf" rend="pdfinclude"/>
+	<ptr n="TEI-distrib" target="../2008-08-kazan/tei-distrib-ru-handout-slides.pdf" rend="pdfinclude"/>
+
+</p>
+<!--
+<div><head>Exercises</head>
+      <xi:include
+	  href="exercise-1-ru.xml#xmlns(t=http://www.tei-c.org/ns/1.0)xpointer(/t:TEI/t:text/t:body/t:div)"/>
+
+      <xi:include
+	  href="exercise-2-ru.xml#xmlns(t=http://www.tei-c.org/ns/1.0)xpointer(/t:TEI/t:text/t:body/t:div)"/>
+
+
+      <xi:include
+	  href="exercise-3-ru.xml#xmlns(t=http://www.tei-c.org/ns/1.0)xpointer(/t:TEI/t:text/t:body/t:div)"/>
+
+
+      </div>
+
+-->
+
+
+    </body>
+  </text>
+</TEI>

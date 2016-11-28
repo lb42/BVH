@@ -1,0 +1,321 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+<!--        <title>Names, People, and Places</title>-->
+        <title>Личные имена и названия мест</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>University of Oxford</publisher>
+        <availability>
+          <p>Freely available for use and derivative works under a Creative Commons Attribution
+            license.</p>
+        </availability>
+        <date>2008-07-14</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Some bits are taken from the workshop given in Leipzig, from the LLC forthcoming article
+          on the roadmap to P5 or lifted from previous talks/workshops by the TEI Community and
+          certainly from the TEI P5 1.0 Release of the Guidelines.</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change>
+        <date>$LastChangedDate: 2008-07-15 19:15:29 +0100 (Tue, 15 Jul 2008) $.</date>
+        <name>$LastChangedBy: rahtz $</name>
+        <note>$LastChangedRevision: 3017 $</note>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body xml:lang="ru">
+
+      <div>
+        <head>Что такое имя?</head>
+<list><item>Мы уже знакомы с элементами <gi>name</gi> и <gi>rs</gi>, предназначенными
+  для разметки имен и ссылок в любой форме.</item>
+<item>Модуль <ident>namesdates</ident> предлагает более
+  специализированные варианты этих элементов: <gi>persName</gi> (имя человека), <gi>placeName</gi> (название места),
+и <gi>orgName</gi> (название организации).</item>
+  <item>Каждый из элементов может содержать субэлементы.</item>
+  <item>Также может быть установлена связь между элементами и <term>именованным объектом</term> (named entity)</item>
+<item>(Имена – это еще и объекты)</item></list>
+
+      </div>
+
+
+      <div>
+        <head>Личные имена</head>
+        <p>Например...
+          <list>
+            <item rend="pause"><gi>persName</gi> (личное имя)
+              имя собственное или словосочетание, указывающее на человека,
+              эквивалентно <gi>name type="person"</gi></item>
+            <item rend="pause"><gi>surname</gi> фамилия </item>
+            <item rend="pause"><gi>forename</gi> имя </item>
+            <item rend="pause"><gi>roleName</gi> компонент элемента <gi>persName</gi>, указывающий положение в обществе (например, титул, передаваемый по наследству)
+            </item>
+            <item rend="pause"><gi>addName</gi> (дополнительное имя) дополнительный компонент
+              элемента <gi>persName</gi>, например, прозвище, эпитет, псевдоним или любое описательное выражение, которым может быть заменено личное имя</item>
+            <item rend="pause"><gi>nameLink</gi> встречающийся в составе имени предлог, связывающий части имени, например, van, der или of.</item></list>
+        </p>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <persName xml:lang="ru">
+              <forename type="first">Владимир</forename>
+              <forename type="patronymic">Владимирович</forename>
+              <surname>Маяковский</surname>
+	    </persName>
+	  </egXML>
+      </div>
+
+<div>
+<head>Имена как референты (1)</head>
+<p>В тексте имя одного и того же человека может упоминаться
+  в разных местах в разной форме:
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+...<persName>Clara Schumann</persName>.... <persName>Clara</persName>
+....<persName>Frau Schumann</persName>
+	  </egXML>
+</p>
+  <p>Все формы имени указывают на одно лицо, или <term>объект</term> (entity)</p>
+  <p>К любому элементу, входящему в субструктуру наименования, может быть добавлен атрибут, 
+  указывающий на именуемый объект:
+<list>
+<item><att>key</att> при внесении кода со ссылкой на внешнее определение</item>
+<item><att>ref</att> при  ссылке на определение объекта </item>
+</list></p>
+</div>
+<div><head>Имена как референты (2)</head>
+<p>Пример:
+
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+...<persName ref="#CS">Clara Schumann</persName>.... <persName ref="#CS">Clara</persName>
+....<persName key="CS123">Frau Schumann</persName>
+<!-- ... в другой части документа  -->
+<person xml:id="CS">
+<persName xml:lang="de">  
+              <forename type="first">Clara</forename>
+              <forename type="middle">Josephine</forename>
+              <surname type="maiden">Wieck</surname>
+              <surname type="married">Schumann</surname>
+            </persName>
+</person>
+          </egXML>
+</p>        </div>
+
+      <div><head>Вещь в себе (1) </head>
+<p>TEI предлагает ряд специальных элементов для структурирования
+  информации об именованных объектах (а также о самих названиях):
+<list>
+<item>элементы <gi>person</gi> (лицо), <gi>place</gi> (место), <gi>event</gi> (событие);</item>
+<item>могут быть объединены с помощью <gi>listPerson</gi> (список лиц), <gi>listPlace</gi> (список географических названий) (и скоро <gi>listEvent</gi>, список событий);</item>
+  <item>так же могут моделироваться отношения указанных элементов (эксплицитно, с помощью элемента <gi>relation</gi>, 
+  или имплицитно, благодаря контексту).</item>
+</list>
+   <egXML xmlns="http://www.tei-c.org/ns/Examples">
+<person xml:id="VM1893">
+<persName xml:lang="ru">Владимир Владимирович Маяковский</persName>
+<persName xml:lang="fr">Wladimir Maïakowski</persName>
+<birth when="1893-07-19">7 июля (по старому стилю) 1893 г., <placeName
+ref="#BGDT" xml:lang="ru">Багдади, Грузия</placeName></birth>
+<death when="1930-04-14"/>
+<occupation><p>поэт и драматург, один из ярчайших представителей
+  русского футуризма начала XX в.</p></occupation>
+<!-- ... -->
+</person>
+</egXML></p></div>
+
+
+<!--
+<http://maps.google.com/maps?f=q&hl=en&q=Bagdadi,+Georgia&sll=32.091883,-81.095581&sspn=2.889746,4.669189&ie=UTF8&cd=1&geocode=0,42.069271,42.823681&ll=42.102298,42.832947&spn=0.600134,1.167297&t=p&z=10>-->
+
+
+<div><head>Свойства, состояния и события</head>
+  <p>Список характеристик, которые могут входить в описание именованного объекта, <emph>очень широк</emph>.
+  Поэтому TEI предлагает три элемента «широкого профиля» и несколько
+  более специализированных.</p>
+<p>Различаются три основных типа характеристик:
+  <list>
+            <item><term>свойства</term>, которые, как правило, 
+              не меняются во времени;</item>
+            <item><term>состояния</term>, которые объект
+              принимает лишь в определенные промежутки времени;</item>
+            <item><term>события</term> или инциденты, которые могут
+              приводить к смене состояния или, реже, свойства объекта.</item>
+          </list>
+</p>
+<p>Для человека свойствами будут <gi>faith</gi> (вероисповедание),
+<gi>sex</gi> (пол), <gi>socEcStatus</gi> (социально-экономический статус) и т.п.;
+  состояниями – <gi>occupation</gi> (вид деятельности), 
+  <gi>residence</gi> (место жительства), <gi>education</gi> (образование);
+  событиями – <gi>birth</gi> (рождение) и <gi>death</gi> (смерть).</p>
+        </div>
+
+      <div>
+        <head>Личные отношения и родственные связи</head>
+        <list>
+          <item rend="pause">Элемент  <gi>relationGrp</gi> (группа отношений)
+          содержит всю информацию об отношениях
+          между людьми, местами и организациями. </item>
+          <item rend="pause">Элемент <gi>relation</gi> (отношение) 
+            описывает любого рода отношение или связь между
+            участниками определенной группы:<list type="gloss">
+              <label>
+                <att>name</att>
+              </label>
+              <item>указывает название типа отношений, к которому
+                принадлежит описываемый случай;</item>
+              <label>
+                <att>active</att>
+              </label>
+              <item>указывает на «активных» участников «неравноправных»
+                отношений или всех участников равноправных отношений;</item>
+              <label>
+                <att>mutual</att>
+              </label>
+              <item>указывает, что все учатники описываемых отношений, участвуют в них на равных правах</item>
+              <label>
+                <att>passive</att>
+              </label>
+              <item>указывает на «пассивных» участников неравноправных отношений</item>
+            </list>
+          </item>
+
+        </list>
+
+      </div>
+        <div>
+          <head>Пример</head>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <person xml:id="jsbach">
+              <persName>Johann Sebastian Bach</persName>
+            </person>
+            <person xml:id="cdbach">
+              <persName>Catharina Dorothea Bach</persName>
+            </person>
+            <person xml:id="ghbach">
+              <persName>Gottfried Heinrich Bach</persName>
+            </person>
+            <!--….-->
+            <relationGrp type="children" subtype="first-marriage">
+              <relation name="parent" active="#jsbach" passive="#cdbach"/>
+              <!--….-->
+            </relationGrp>
+            <relationGrp type="children" subtype="second-marriage">
+              <relation name="parent" active="#jsbach" passive="#ghbach"/>
+              <!--….-->
+            </relationGrp>
+          </egXML>
+        </div>
+
+
+
+      <div>
+        <head>Другие виды объектов</head>
+        <p><gi>org</gi>: известный (упомянутый) под определенным названием и рассматриваемый как единое целое коллектив, например, коммерческая организация или племя.</p>
+        <p><gi>place</gi>:  известное (упомянутое) под определенным названием место любого рода (в том числе мифологическое
+  или внеземное)</p>
+<p>Эти элементы могут так же быть объединены (элементы <gi>listOrg</gi> и
+<gi>listPlace</gi>), могут быть указаны их свойства,  они находиться в том или ином состоянии и с ними могут 
+  происходить события.</p>
+      </div>
+
+
+      <div>
+        <head>Географические объекты (места)</head>
+<list>
+  <item>Географические объекты могут определяться исключительно в
+  терминах географических признаков или указанием на местонахождение, например:
+  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+<place><placeName>
+   <geogFeat>гора</geogFeat>
+   <geogName>Синай</geogName>
+</placeName></place></egXML></item>
+<item>Чаще, однако, они определяются в геополитических терминах с
+  указанием:
+<list><item>административных единиц: <gi>bloc</gi> (блок), <gi>country</gi> (страна),
+<gi>region</gi> (регион), <gi>settlement</gi> (населенный пункт), <gi>district</gi> (район)</item>
+<item>местоположения: <gi>geo</gi> (географические координаты) и <gi>offset</gi> (расстояние) </item></list></item>
+  <item>Заметим, что все эти признаки со временем могут меняться.</item>
+</list></div>
+
+<div><head>Пример: место рождения В.В. Маяковского</head>
+
+   <egXML xmlns="http://www.tei-c.org/ns/Examples">
+<place xml:id="BGDT">
+<placeName xml:lang="ka">ბაღდათი</placeName>
+<placeName xml:lang="en">Baghdati</placeName>
+  <placeName xml:lang="ru">Багдади</placeName>
+  <placeName notAfter="1990" notBefore="1940">Маяковский</placeName>
+<location type="geopolitical">
+<country>Грузия</country>
+<region>Имерети</region>
+</location>
+<location type="physical">
+<offset>На западе от</offset>
+<placeName>
+<geogFeat>реки</geogFeat>
+<geogName>Ханисцкали</geogName>
+</placeName>
+<geo>42.102298,42.832947</geo>
+</location>
+<population when="2007"><p>4,700 человек</p></population>
+</place>
+   </egXML></div>
+
+        <div>
+          <head>Географические объекты могут располагаться один в другом (в отличие от людей) </head>
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">           
+      <place xml:id="LT">
+        <country>Литва</country>
+        <country xml:lang="lt">Lietuva</country>
+        <place xml:id="LT-VN">
+<settlement>Вильнюс</settlement>
+        </place>
+        <place xml:id="LT-KA">
+<settlement>Каунас</settlement>
+        </place>
+      </place></egXML></div>
+
+      <div>
+        <head>Источники</head>
+        <p>При упоминании источника с помощью атрибутов класса  <ident>att.editLike</ident> может быть заявлена ответственность и степень уверенности в достоверности источника:
+          <egXML xmlns="http://www.tei-c.org/ns/Examples">
+            <org xml:id="MXY" type="tribe" resp="#herodotus">
+              <orgName>Максианцы (The Maxyans)</orgName>
+              <country>Ливия</country>
+              <desc>Согласно Геродоту, они были западно-ливийским
+                племенем и говорили, что происходят от жителей Трои.</desc>
+            </org>
+          </egXML>
+	</p>        </div>
+
+
+      <div>
+        <head>Имена – это еще и объекты</head>
+
+<p>В некоторых исследованиях (ономасиологических, этимологических...) названия имеют
+  самостоятельную ценность, независимо от их приложения к «внешним» объектам.</p>
+<p>Элементы <gi>nym</gi> и <gi>listNym</gi> могут использоваться
+  для записи информации о названии, рассматриваемом как объект, при этом
+  атрибут <att>nymRef</att> может использоваться для связывания с ним другого названия
+  или названий.</p>
+<egXML xmlns="http://www.tei-c.org/ns/Examples" rend="tiny"><nym xml:id="VLAD">
+<nym>
+  <form xml:lang="ru">Владимир</form>
+  <etym>от <lang>старославянского</lang> 
+    владь (‘власть’) + м&#x0463;р (‘великий’, преобразовано народной этимологией в "мир") </etym>
+   <nym><form>Влад</form></nym>
+   <nym><form>Володя</form></nym>
+</nym>
+<nym>  <form xml:lang="da">Valdemar</form></nym>
+   <nym >    <form xml:lang="de">Waldemar</form>   </nym>
+</nym>
+<!-- ... -->
+<forename type="first" nymref="#VLAD">Владимир</forename>
+</egXML>
+      </div>
+    </body>
+  </text>
+</TEI>

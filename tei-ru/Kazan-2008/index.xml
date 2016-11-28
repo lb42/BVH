@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">An introduction to TEI and XML / </title>
+<title xml:lang="ru">ВВЕДЕНИЕ В TEI И XML</title>
+      </titleStmt>
+<publicationStmt>
+        <p>Prepared for Kazan Workshop
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Derived from the usual collection of talks, but done into Russian</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+<table>
+<row><cell>      Цель курса – дать краткое введение к «Рекомендациям кодирования цифровых
+        текстов» Инициативы кодирования текстов (Text Encoding Initiative, TEI). Курс разработан для
+        специалистов, работающих в области гуманитарных дисциплин и имеющих некоторые технические
+        навыки (такие как умение пользоваться электронной почтой и интернетом), а также
+        представление о возможностях цифровых текстов. Курс также будет интересен техническому
+        персоналу, работающему в сотрудничестве с представителями гуманитарных специальностей.<!--note>... специалистам по информационным технологиям, работающим с учеными-гуманитариями</note-->
+</cell><cell>
+This course is intended to provide a good
+introduction to the Text Encoding Initiative (TEI) Guidelines for the
+Encoding of Digital Texts. The course is aimed at researchers in any
+Humanities discipline who have some technical knowledge (for example,
+the ability to use e-mail and the web) and are aware of the potential
+of digital texts.  It is also suitable for technical support staff
+working with such users.
+</cell></row>
+<row><cell>
+      Программа курса включает: <list>
+
+           <item>Введение: базовые понятия кодировки.</item>
+          <item>История возникновения, цели и достижения TEI.</item>
+          <item>Обзор фундаментальных понятий XML и языков схем.</item>
+          <item>Построение TEI XML схемы с использованием Roma.
+<!--note>Я бы поменял порядок: схемы XML-TEI</note--></item>
+          <item>Использование XML-редактора для валидации документов.</item>
+        <item>Обзор базовых структур TEI и строения TEI-документа.</item>
+          <item>Разработки TEI для кодирования специфических текстов
+<list>
+          <item>рукописей</item>
+<item>исторических документов</item>
+          <item>литературных текстов, устной речи</item>
+          <item>лингвистических корпусов.</item></list></item>
+        <item>Програмное обеспечения для публикации и работы с  TEI XML документами.</item>
+        <item>Анализ отдельных примеров.</item>
+        </list>
+      </cell>
+<cell>Topics covered include:
+<list>
+<item>Basic concepts of encoding.</item>
+<item>Origins, objectives, and achievements of the TEI.</item>
+<item>      Review of fundamental concepts of XML and schema languages.</item>
+<item>      How to build a TEI XML schema, using Roma.</item>
+<item>      How to use an XML editor to validate documents.</item>
+<item>Basic structure and organisation of a TEI document.</item>
+<item>TEI proposals for encoding of specific kinds of material,
+including :
+<list>
+<item>manuscripts</item>
+<item>historical records,</item>
+<item>literary texts</item>
+<item>linguistic corpora</item></list></item>
+<item>Software choices for publishing and processing TEI
+XML documents</item>
+<item>Some TEI case studies. </item>
+</list>
+</cell></row>
+<row><cell>Курс включает лекций и семинары. Курс проводится на английском языке с переводом на русский язык. Материалы курса будут
+        представлены на английском и русском языках. 
+</cell><cell>The course combines hands-on practice with formal presentations. It
+will be given in English, with translation into Russian. The course
+materials will also be provided in Russian.
+</cell></row>
+<row>
+<!-- <cell>
+26.08.2008: 14:00–15:30</cell>-->
+<cell> <ref target="tei-intro-ru.xml">Краткое введение в TEI</ref></cell>
+<cell> <ref target="tei-intro.xml">A short introduction to the TEI</ref></cell></row>
+<row><cell><ref target="xml-intro-ru.xml">Краткое введение в
+XML</ref></cell>
+<cell><ref target="xml-intro.xml">A short
+introduction to XML</ref></cell></row>
+<row>
+<cell>Практическое занятие № 1. Работа с XML-документом:  <ref target="exercise-1-ru.xml">Первые шаги</ref></cell>
+<cell>Editing in XML <ref target="exercise-1.xml">a simple
+exercise</ref></cell></row>
+<row>
+<cell><ref target="tei-basic-ru.xml">Основные структурные элементы TEI</ref></cell>
+<cell><ref target="tei-basic.xml">TEI Basic structures</ref></cell></row>
+<row>
+<cell><ref target="exercise-2-ru.xml">Практическое занятие № 2. Работа с XML-документом</ref> </cell>
+<cell><ref target="exercise-2.xml">Roma, Oxygen, and
+Mr Punch</ref></cell></row>
+<row>
+<cell>Специализированные структуры TEI:  <ref
+target="tei-mss-ru.xml">Рукописи</ref></cell>
+<cell>TEI specialised structures:  <ref
+target="tei-mss.xml">manuscripts</ref></cell></row>
+
+<row> <cell> <ref
+target="tei-names-ru.xml">Имена собственные: люди и географические
+названия</ref> </cell>
+<cell><ref
+target="tei-names.xml">Names of persons and places</ref></cell></row>
+<row><cell> <ref
+target="tei-tech-ru.xml">Три XML-технологии</ref> </cell>
+<cell><ref
+target="tei-tech.xml">Three XML technologies</ref></cell></row>
+<row><cell> <ref
+target="tei-distrib-ru.xml">Распространение ресурсов TEI XML</ref></cell>
+<cell><ref
+target="tei-distrib.xml">Distributing TEI XML Resources</ref></cell>
+</row><row>
+<cell>/Практическое занятие № 3. Статегия и практика
+	    разметки  <ref target="exercise-3-ru.xml">В.В. Маяковский
+	    "Я сам". Цифровое издание</ref></cell>
+<cell> <ref
+target="exercise-3.xml">Markup Decisions and How to Apply Them</ref></cell>
+</row></table>
+    
+<table><row><cell> Russian translations by Tatiana Timcenko (Vilnius
+University Library) and Alexei Lavrentev (Université de Lyon,
+ENS-LSH).</cell> <cell>Перевод на русский язык: Алексей Лаврентьев
+(Лионский университет, ENS-LSH), Татьяна Тимченко (Библиотека
+Вильнюсского университета).</cell></row></table>
+
+<p>These materials were first presented at the <ref target="http://textualheritage.org/index.php?option=com_content%26task=view%26id=154%26Itemid=68">Textual Heritage
+conference El Manuscript 08</ref> at Kazan State University in August 2008.<lb/>
+<ref target="http://picasaweb.google.co.uk/lou.burnard/TEIWorkshopInKazan">Photos/фотографии</ref></p>
+
+</body>
+  </text>
+</TEI>

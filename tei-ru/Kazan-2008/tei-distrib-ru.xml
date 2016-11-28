@@ -1,0 +1,146 @@
+<?xml version="1.0"?> 
+<?oxygen RNGSchema="p5odds.rnc" type="compact"?>
+<TEI xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+<!--            <title>Distributing  TEI XML Resources</title>-->
+            <title>Распространение ресурсов TEI XML</title>
+
+         </titleStmt>
+         <editionStmt>
+            <edition>
+<!--               <date>July 2008</date>-->
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>TEI</authority>
+            <address>
+               <addrLine>tei@oucs.ox.ac.uk</addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This is the master version of an original document.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change>
+            <date>$LastChangedDate: 2007-02-14 21:59:13 +0000 (Wed, 14 Feb 2007) $.</date>
+            <name>$LastChangedBy: lou $</name>
+            <note>$LastChangedRevision: 814 $</note>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body xml:lang="ru">
+         <div rend="slide">
+            <head>Вкратце</head>
+            <list>
+               <item>Теперь все наши данные в TEI XML, что дальше?</item>
+               <item>Множество самых разных систем распространения XML</item>
+               <item>Несколько примеров из «настоящей жизни»</item>
+            </list>
+         </div>
+
+         <div rend="slide">
+            <head>Напоминание: зачем нужен XML?</head>
+            <list>
+               <item>обмен данными <list type="ordered">
+                     <item>между людьми</item>
+                     <item>между людьми и машинами</item>
+                     <item>между машинами</item>
+                  </list>
+               </item>
+               <item>сохранение информации <list type="ordered">
+                     <item>независимо от конкретного приложения</item>
+                     <item>независимо от носителя или «железа» (hardware)</item>
+                  </list>
+               </item>
+            </list>
+            <p rend="box">Но так ли хорош XML с точки зрения <hi>распространения</hi>
+            информации?</p>
+         </div>
+
+         <div rend="slide">
+            <head>Какой у нас выбор?</head>
+            <list>
+               <item>для распространения: <list>
+                     <item>трансформировать на сервере в HTML и распространять в этой форме</item>
+                     <item>распространять непосредственно XML; использовать «умную» обработку со
+                        стороны клиента для поддержания формата</item>
+                  </list>
+               </item>
+               <item>для управления: <list>
+                     <item>файловая система</item>
+                     <item>система управления контентом (content management system)</item>
+                     <item>система управления базой данных (database management system)</item>
+                  </list>
+               </item>
+               <item>для разработки инструментов: <list>
+                     <item>общее решение для цифровых библиотек, например xtf</item>
+                     <item>пакет Linux-Apache-Mozilla-Perl (LAMP)</item>
+                     <item>web-аппликации с использованием xhtml, ajax и т.д.</item>
+                  </list>
+               </item>
+            </list>
+         </div>
+
+
+         <div rend="slide">
+            <head>Несколько примеров</head>
+
+            <list>
+               <item>заставим поработать браузер: Early America's Digital Archive (<ptr
+                     target="http://www.mith2.umd.edu/eada/"/>)</item>
+               <item>заставим поработать клиента: Artamène, ou Le Grand Cyrus (<ptr
+                     target="http://www.artamene.org/"/>)</item>
+               <item>поддержка множества систем письма в одном проекте: Samyukta Agama (<ptr
+                     target="http://buddhistinformatics.chibs.edu.tw/BZA/"/>)</item>
+               <item>изображение и текст: Robert Graves' Diary (<ptr
+                     target="http://www.tapor.uvic.ca:8080/cocoon/graves/index.xml"/>)</item>
+               <item>критическое издание библейской литературы: (<ptr
+                     target="http://www.sbl-site.org/publications/books_additionalmaterial.aspx"/>)</item>
+               <item>параллельный корпус: Clay Sanskrit Library (<ptr
+                     target="http://rts-dev.oucs.ox.ac.uk/cslweb.php"/>)</item>
+               <item>цифровой архив: Swinburne Archive (<ptr
+                     target="http://swinburnearchive.indiana.edu/swinburne/www/swinburne/"/>)</item>
+            </list>
+         </div>
+
+         <div>
+            <head>XTF встречается с Mr Punch</head>
+
+            <list>
+               <item>Extensible Text Framework или XTF (<ptr
+                     target="http://www.cdlib.org/inside/projects/xtf/"/>) – коллекция скриптов для
+                  стороны сервера Калифорнийской цифровой библиотеки</item>
+               <item>Если мы уже знакомы с Apache и Tomcat, и у нас есть доступ к интернету, то нам
+                  потребуется не больше 5 минут, чтобы установить базовое приложение xtf для
+                  TEI-файлов</item>
+               <item>(более или менее)</item>
+               <item>модель библиотеки</item>
+            </list>
+            <p rend="box">
+               <ptr target="http://tei.oucs.ox.ac.uk:8080/xtf/view?docId=tei/Punch/1914_July_1.xml"
+               />
+            </p>
+
+         </div>
+
+
+         <div rend="slide">
+            <head>Выводы</head>
+            <list>
+               <item>используя самые простые методы, мы можем обмениваться нашими кодировками, нашим
+                  анализом</item>
+               <item>чем сложнее наша разметка, тем сложнее искать возможности распространения информации</item>
+               <item>уже есть общепринятый набор техник и инструментов – не нужно  изобретать колесо</item>
+               <item>TEI XML дает все карты в руки тому, кто предлагает данные –  он определяет, как могут быть использованы его данные</item>
+
+            </list>
+         </div>
+
+      </body>
+
+   </text>
+</TEI>

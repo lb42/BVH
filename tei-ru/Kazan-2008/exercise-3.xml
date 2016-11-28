@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Exercise 3: Design Decisions</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>TEI</publisher>
+        <availability>
+          <p>Freely available for use and derivative works under a Creative Commons Attribution
+            license.</p>
+        </availability>
+        <date>2008-07-07</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Some bits may be lifted from previous talks/workshops by the TEI Community and certainly
+          from the TEI P5 1.0 Release of the Guidelines.</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change>
+        <date>$LastChangedDate: 2008-07-21 11:56:54 +0100 (Mon, 21 Jul 2008) $.</date>
+        <name>$LastChangedBy: rahtz $</name>
+        <note>$LastChangedRevision: 3096 $</note>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+<head>Marking up Mayakovsky</head>
+<p>In this  exercise you will apply what you have learned so far to a
+practical purpose. Your task is to produce a new digital edition of a
+classic of Russian literature: Mayakosky's autobiographical text
+<title>I Myself</title> (Я сам)</p>
+<p>This will involve the following tasks:
+<list>
+<item>look at the source materials (in Resources/Yasam) to identify
+the features of the original that your markup should
+capture</item>
+<item>think about the functionality you want your digital edition to
+support: who is it for and how will they use it?</item>
+<item>define a TEI schema appropriate to the project</item>
+<item>prepare a marked-up text</item>
+</list>
+</p>
+<p>We suggest that the first two tasks should be done in small groups,
+who will discuss the options and reach a consensus, which they will
+then feed back to the rest.</p>
+
+<div><head>Task 1: what is important in this text?</head>
+<p>Make a list of the important features of the text. If you know the
+TEI element that corresponds with each feature, or can suggest a way
+of encoding it in TEI, please do so! If you don't, just describe the
+feature concerned informally. </p>
+<p>Markup costs time and money.  When you have made your preliminary list,
+assume that your budget has been halved, and go through the list
+again, deciding which features you can live without.</p>
+<p>Now report back. Did everyone agree with you?</p>
+</div>
+
+<div><head>Task 2: what is the purpose of making this  digital
+edition?</head>
+<p>What kind of people do you think will want to use your digital
+edition and what kinds of uses will they make of it?</p>
+<p>Are there aspects of your markup that would help one sort of use
+more than another?</p>
+<p>What kind of technical factors will you take into account when
+making this edition?</p>
+</div>
+<div><head>Task 3: Making a schema</head>
+<p>If you feel confident using Roma, please go ahead and make
+yourself a schema.</p>
+<p>We will make one for you, on the basis of the results from the
+previous two steps.</p>
+</div>
+<div><head>Use Oxygen to markup your text</head>
+<list>
+<item>Create a new XML document, specifing the new schema</item>
+<item>Make a TEI Header</item>
+<item>Markup the structure of your text first</item>
+<item>To save typing, you can cut and paste from the <ref
+target="Resources/yasam.txt">text-only version</ref>
+of the source</item>
+</list>
+</div>
+    </body>
+  </text>
+</TEI>

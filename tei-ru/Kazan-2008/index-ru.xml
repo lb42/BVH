@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <!--        <title>AN INTRODUCTION TO TEI AND XML</title>-->
+        <title>ВВЕДЕНИЕ В TEI И XML</title>
+        <author>Lou Burnard, Alexei Lavrentev, and Tatiana Timcenko</author>
+      </titleStmt>
+      <publicationStmt>
+        <p><!-- supply publication information-->
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <p><!-- supply information about the source --></p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <p>Цель курса – дать краткое введение к «Рекомендациям кодирования цифровых текстов»
+        Инициативы кодирования текстов (Text Encoding Initiative, TEI). Курс разработан для
+        специалистов, работающих в области гуманитарных дисциплин и имеющих некоторые технические
+        навыки (такие как умение пользоваться электронной почтой и интернетом), а также
+        представление о возможностях цифровых текстов. Курс также будет специалистам по
+        информационным технологиям, работающим в сотрудничестве с представителями гуманитарных
+        специальностей.</p>
+
+      <p>Программа курса включает: <list>
+
+          <item>Введение: базовые понятия кодировки.</item>
+          <item>История возникновения, цели и достижения TEI.</item>
+          <item>Обзор фундаментальных понятий XML и языков схем.</item>
+          <item>Построение TEI XML схемы с использованием Roma.
+            <!--note>Я бы поменял порядок: схемы XML-TEI</note--></item>
+          <item>Использование XML-редактора для валидации документов.</item>
+          <item>Обзор базовых структур TEI и строения TEI-документа.</item>
+          <item>Разработки TEI для кодирования специфических текстов <list>
+              <item>рукописей</item>
+              <item>исторических документов</item>
+              <item>литературных текстов, устной речи</item>
+              <item>лингвистических корпусов.</item>
+            </list></item>
+          <item>Програмное обеспечения для публикации и работы с TEI XML документами.</item>
+          <item>Анализ отдельных примеров.</item>
+        </list>
+      </p>
+      <p>Курс включает лекций и семинары. Курс проводится на английском языке с переводом на русский
+        язык. Материалы курса будут представлены на английском и русском языках. Перевод на русский
+        язык: Алексей Лаврентьев (Лионский университет, ENS-LSH), Татьяна Тимченко (Библиотека
+        Вильнюсского университета).</p>
+
+      <?tex \newpage ?>
+
+
+      <table>
+        <row>
+          <cell role="label"> 26.08.2008 </cell>
+          <cell>14:00</cell>
+          <cell>
+            <!-- <ref target="tei-intro.xml">A short introduction to the TEI</ref>;-->
+            <ref target="Handouts/tei-intro-ru-handout.pdf">Краткое введение в TEI</ref>
+          </cell>
+        </row>
+        <row>
+          <cell/>
+          <cell/>
+          <cell>
+            <!--ref target="xml-intro.xml">A short
+introduction to XML</ref>;-->
+            <ref target="Handouts/xml-intro-ru-handout.pdf">Краткое введение в XML</ref>
+          </cell>
+        </row>
+        <row>
+          <cell/>
+          <cell>15:30</cell>
+          <cell>Перерыв</cell>
+        </row>
+        <row>
+          <cell/>
+          <cell> 16:00</cell>
+          <cell>
+            <!--Editing in XML/--> Практическое занятие № 1. Работа с XML-документом:
+              <!--ref target="exercise-1.xml">a simple
+exercise</ref>; --><ref
+              target="Handouts/exercise-1-ru-handout.pdf">Первые шаги</ref></cell>
+        </row>
+        <row>
+          <cell role="label">27.08.2008</cell>
+          <cell>09:30</cell>
+          <cell>
+            <!--ref target="tei-basic.xml">TEI Basic structures</ref>; -->
+            <ref target="Handouts/tei-basic-ru-handout.pdf">Основные структурные элементы TEI</ref>
+          </cell>
+        </row>
+        <row>
+          <cell/>
+          <cell>11:00</cell>
+          <cell>Перерыв</cell>
+        </row>
+        <row>
+          <cell/>
+          <cell>11:30</cell>
+          <cell>
+            <!--Editing in XML: <ref target="Handouts/exercise-2.xml">Roma, Oxygen, and
+Mr Punch</ref>; -->
+            <ref target="Handouts/exercise-2-ru-handout.pdf">Практическое занятие № 2. Работа с
+              XML-документом</ref>
+          </cell>
+        </row>
+        <row>
+          <cell role="label">28.08.2008</cell>
+          <cell>09:30</cell>
+          <cell><!--TEI specialised structures/-->Специализированные структуры TEI:
+              <!--ref
+target="tei-mss.xml">manuscripts</ref>;  --><ref
+              target="Handouts/tei-mss-ru-handout.pdf">рукописи</ref></cell>
+        </row>
+        <!--<row><cell/><cell/><cell><ref
+target="TEI-analysis.xml">Linguistic Analysis</ref></cell></row>-->
+        <row>
+          <cell/>
+          <cell/>
+          <cell>
+            <!--ref
+target="tei-names-handout.pdf">Names of persons and places</ref>; -->
+            <ref target="Handouts/tei-names-ru.-handout.pdf">Имена собственные: люди и
+              географические названия</ref>
+          </cell>
+        </row>
+        <row>
+          <cell/>
+          <cell/>
+          <cell>
+            <!--ref
+target="tei-tech-handout.pdf">Three XML technologies</ref>; -->
+            <ref target="tei-tech-ru.xml">Три XML-технологии</ref>
+          </cell>
+        </row>
+        <row>
+          <cell/>
+          <cell/>
+          <cell>
+            <!--ref
+target="tei-distrib-handout.pdf">Distributing TEI XML Resources</ref>; -->
+            <ref target="Handouts/tei-distrib-handout.pdf">Распространение ресурсов TEI XML</ref>
+          </cell>
+        </row>
+        <row>
+          <cell/>
+          <cell>11:00</cell>
+          <cell>Перерыв</cell>
+        </row>
+        <row>
+          <cell/>
+          <cell>11:30</cell>
+          <cell><!--Markup Decisions and How to Apply Them/-->Практическое занятие № 3. Статегия и
+            практика разметки
+              <!--ref
+target="exercise-3.xml">Discussion and Practical</ref>; --><ref
+              target="Handouts/exercise-3-ru-handout.pdf">В.В. Маяковский "Я сам". Цифровое
+            издание</ref></cell>
+        </row>
+      </table>
+
+    </body>
+  </text>
+</TEI>

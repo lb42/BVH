@@ -1,0 +1,395 @@
+<?xml version="1.0"?>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_allPlus.rnc" type="compact"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+<title>Introduction to XML</title>
+<!--        <title>Зачем нужна разметка</title>-->
+      </titleStmt>
+      <publicationStmt>
+        <publisher>TEI</publisher>
+        <availability>
+          <p>Freely available for use and derivative works under a Creative Commons Attribution
+            license.</p>
+        </availability>
+        <date>2008-07-13</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Some bits maybe lifted from previous talks/workshops by the TEI Community and certainly
+          from the TEI P5 1.0 Release of the Guidelines.</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change>
+        <date>$LastChangedDate: 2008-07-15 23:46:32 +0100 (Tue, 15 Jul 2008) $.</date>
+        <name>$LastChangedBy: lou $</name>
+        <note>$LastChangedRevision: 3032 $</note>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+        <div rend="slide">
+          <head>Из чего состоит текст?</head>
+          <figure>
+            <graphic url="../Graphics/beowulf-ms.png"/>
+            <!--head>BL Ms Cotton Vitelius A xv, fol. 129r</head-->
+          </figure>
+        </div>
+
+        <div rend="slide">
+          <head>А это тот же текст или нет?</head>
+          <p>
+            <graphic width="100%" url="../Graphics/beowulf-wrenn.png"/>
+          </p>
+        </div>
+
+
+        <div rend="slide">
+          <head>Онтология текста</head>
+          <p>Где прячется текст? Что он?<list>
+            <item rend="pause">Форма букв и их расположение на странице?</item>
+            <item rend="pause">Оригинал этой копии?</item>
+            <item rend="pause">История, которую мы читаем? или замысел автора?
+              </item>
+            </list>
+          </p>
+          <p rend="box">Текст - это абстракция,
+            созданная или сообществом читателей, или для этого сообщества. Разметка кодирует и
+            конкретезирует подобные абтрактные положения.</p>
+        </div>
+        <div rend="slide">
+          <head>Кодирование текста</head>
+          <list>
+            <item>Текст шире, чем последовательность кодированых знаков - у текста есть<list>
+              <item><hi>структура</hi>, <hi>содержание</hi></item>
+              <item>и возможность разных <hi>прочтений</hi></item>
+              </list></item>
+            <item>Кодирование, или разметка, позволяет формально зафиксировать разные слои текста</item>
+	  </list>
+
+          <p rend="box">Только то, что выражено формально, может быть автоматически обработано</p>
+
+        </div>
+
+
+
+        <div rend="slide">
+          <head>В чем смысл разметки?</head>
+          <list>
+            <item rend="pause">Сделать явным (для машины) то, что подразумеватся (читателем)</item>
+            <item rend="pause">Обогатить текст, дополняя его различными аннотациями</item>
+            <item rend="pause">Получить возможность повторно использовать тот же материал<list>
+              <item rend="pause">в различных форматах</item>
+              <item rend="pause">в различных контекстах</item>
+              <item rend="pause">различными пользователями</item>
+              </list>
+            </item>
+          </list>
+          <p rend="box">(Обычно,) размечая текст,
+            полезно следовать собственному представлению о том, что <emph>представляет собой</emph> то
+            или иное явление текста, а не <emph>внешнему проявлению</emph> этого явления</p>
+        </div>
+
+        <div rend="slide">
+          <head>Разметка как научная деятельность</head>
+          <list>
+            <item rend="pause">Разметка документа может рассматриваться как интеллектуальная деятельность</item>
+            <item rend="pause">Разрабатывая систему разметки и решая, какие стороны оригинального текста она
+              будет отражать, автор разметки решает задачи публикатора текста</item>
+            <item rend="pause">(Практически) не существует нейтральной разметки -- любая разметка предполагает
+              интерпретацию</item>
+            <item rend="pause">Разметка может быть использована при решении научных проблем, и поиск оптимальных
+              способов разметки для подобных целей можно рассматривать как самостоятельную
+              научную работа</item>
+            <item rend="pause">Хорошая система кодирования текста создается не так легко и не так бытро, как многим
+              бы хотелось</item>
+            <item rend="pause">Для создания действительно эффективной системы разметки необходимо детальное
+              исследование текста, и оно должно предшествовать кодированию</item>
+          </list>
+        </div>
+
+        <div rend="slide">
+          <head>Какие преимущества дает нам разметка?</head>
+          <p>Сравним: <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples"><lb/><hi rend="dropcap">H</hi><g ref="#WYNN"/>ÆT WE GARDE
+            <lb/>na in gear-dagum þeod-cyninga 
+            <lb/>þrym gefrunon, hu ða æþelingas 
+            <lb/>ellen fremedon. oft scyld scefing sceaþe<supplied>na</supplied>
+            <lb/>þreatum, moneg<ex>um</ex> mægþum meodo-setl<supplied>a</supplied> 
+            <lb/>of<damage><desc>blotted</desc></damage>teah ...</egXML>
+            <emph>и</emph>
+            <egXML rend="tiny" xmlns="http://www.tei-c.org/ns/Examples"><lg><l>Hwæt! we Gar-dena in gear-dagum</l>
+              <l>þeod-cyninga þrym gefrunon,</l>
+              <l>hu ða æþelingas ellen fremedon,</l></lg>
+              <lg><l>Oft Scyld Scefing sceaþena þreatum,</l>
+                <l>monegum mægþum meodo-setla ofteah;</l>
+                <l>egsode Eorle, syððan ærest wearþ</l>
+                <l>feasceaft funden...</l></lg>
+            </egXML>
+          </p>
+        </div>
+
+        <div rend="slide">
+          <head>Несколько аббревиатур</head>
+          <table>
+            <row>
+              <cell>SGML</cell>
+              <cell>Стандартный обобщенный язык разметки (Standard Generalized Markup Language)</cell>
+            </row>
+            <row>
+              <cell>HTML</cell>
+              <cell>Язык разметки гипертекста (Hypertext Markup Language)</cell>
+            </row>
+            <row>
+              <cell>W3C</cell>
+              <cell>Консорциум Всемирной паутины (World Wide Web Consortium)</cell>
+            </row>
+            <row>
+              <cell>XML</cell>
+              <cell>Расширяемый язык разметки (eXtensible Markup Language)</cell>
+            </row>
+            <row>
+              <cell>DTD</cell>
+              <cell>Определение или декларация типа документа (Document Type Definition or
+                Declaration)</cell>
+            </row>
+            <row>
+              <cell>CSS</cell>
+              <cell>Каскадные таблицы стилей (Cascading Style Sheet)</cell>
+            </row>
+            <row>
+              <cell>Xpath</cell>
+              <cell>Язык XML Path</cell>
+            </row>
+            <row>
+              <cell>XSLT</cell>
+              <cell>XSL-трансформации, расширяемый язык таблицы стилей - трансформации (eXtensible Stylesheet Language - Transformations)</cell>
+            </row>
+            <row>
+              <cell>XQuery</cell>
+              <cell>Язык запросов XML (XML Querying)</cell>
+            </row>
+            <row>
+              <cell>RELAXNG</cell>
+              <cell>Язык регулярных выражений для XML, Новое поколение (Regular Expression Language for
+                XML, New Generation)</cell>
+            </row>
+          </table>
+          <p>да, в этом ряду должна быть и <hi>TEI</hi>, <emph>Инициатива кодирования текстов</emph></p>
+        </div>
+
+
+        <div rend="slide">
+          <head>XML: что это такое и зачем он нам нужен?</head>
+          <list>
+            <item rend="pause">XML - это <hi>структурированные данные</hi>, представленные как цепочка текста</item>
+            <item rend="pause">XML похож на HTML, но при этом:<list>
+              <item rend="pause">XML может <hi>расширяться</hi>
+                </item>
+              <item rend="pause">XML должен быть <hi>правильно структурированным</hi>
+                </item>
+              <item rend="pause">XML может быть <hi>валидирован</hi>
+                </item>
+              </list>
+            </item>
+            <item rend="pause">XML является независимым от приложения, платформы, торговой марки</item>
+            <item rend="pause">Использование XML дает новые возможности <hi>публикатору</hi> и позволяет
+              облегчить интеграцию данных</item>
+          </list>
+        </div>
+
+        <div rend="slide">
+          <head>Терминология XML</head>
+          <p>XML-документ может содержать:<list>
+            <item rend="pause">элементы, которые в свою очередь могут содержать атрибуты</item>
+            <item rend="pause">инструкции обработки</item>
+            <item rend="pause">комментарии</item>
+            <item rend="pause">ссылки на объекты (entity references)</item>
+            <item rend="pause">размеченные разделы (CDATA, IGNORE, INCLUDE)</item>
+            </list>
+          </p>
+          <p rend="pause">XML документ должен <hi>быть правильно структурирован</hi> и может быть <hi>валидирован</hi>
+          </p>
+        </div>
+        
+         <div rend="slide">
+           <head>Правила игры в XML</head>
+          <list>
+            <item rend="pause">XML документ преставляет собой <hi>дерево</hi> (некоторый его вид)
+            </item>
+            <item rend="pause">У этого дерева один <hi>корень</hi> и множество ветвей</item>
+            <item rend="pause">Каждая из ветвей может быть<list>
+              <item rend="pause">отдельным подчиненным деревом</item>
+              <item rend="pause">отдельным <hi>элементом</hi> (возможно имеющим несколько
+                <hi>атрибутов</hi>)</item>
+              <item rend="pause">цепочкой <hi>буквенных данных</hi>
+                </item>
+              </list>
+            </item>
+            <item rend="pause">Каждый из элементов имеет имя или <hi>общий идентификатор</hi>
+            </item>
+            <item rend="pause">Для определенного элемента предусмотрены определенные атрибуты, также могут быть
+              заданы допустимые значения атрибута</item>
+          </list>
+        </div>
+
+      <div rend="slide">
+        <head>Дерево XML</head>
+          <list>
+            <item>XML документ кодируется как линейная последовательность буквенных символов</item>
+            <item>Документ начинается специальной <hi>инструкцией обработки</hi>
+            </item>
+            <item>Границы элемента размечаются <hi>открывающим</hi> и <hi>закрывающим</hi>
+              тегами
+            </item>
+            <item>  Символы &lt; and &amp; ВОЛШЕБНЫЕ, и, если они Вам нужны, придется
+              выкручиваться</item>
+            <item><hi>Комментарии</hi>  выделяются знаками &lt;!- - и - -&gt;</item>
+            <item><hi>Раздел CDATA</hi> выделяется как &lt;![CDATA[ и ]]&gt;</item>
+            <item>Атрибуты (пары название/значение) задаются в открывающем теге и могут следовать в любом порядке</item>
+            <item>Сноски на объекты ограничены знаками &amp; и ;</item>
+          </list>
+        </div>
+     
+
+        <div rend="slide">
+          <head>Полный состав XML-документа</head>
+
+          <eg><![CDATA[<?xml version="1.0"?> 
+            <greetings xmlns="http://www.example.com/ns">
+              <hello type="fulsome">Привет, мир!</hello>
+	    </greetings>]]>
+          </eg>
+          <p>
+            <list>
+              <item rend="pause">XML-декларация</item>
+              <item rend="pause">Декларация пространства имен</item>
+              <item rend="pause">Корневой элемент документа</item>
+              <item rend="pause">Другие элементы и содержание</item>
+              <item rend="pause">Атрибут и его значение</item>
+            </list>
+          </p>
+        </div>
+
+
+        <div rend="slide">
+          <head>XML-декларация</head>
+
+            <eg><![CDATA[<?xml version="1.0" encoding="iso-8859-1"?>
+]]></eg>
+
+          <p>XML-документ должен начинаться <hi>XML-декларацией</hi> которая: <list>
+            <item>определяет документ как <emph>XML</emph> документ и указывает, к какой версии
+              стандарта XML он относится</item>
+            <item>может сообщать о кодировке буквенных символов (в том случае, если не используется предусмотренная по умолчанию и рекомендованная кодировка UTF-8)</item>
+</list></p>
+        </div>
+
+        <div rend="slide">
+          <head>Декларация пространства имен</head>
+
+          <p>XML-документ может включать элементы, которые заявлены в различных <term>пространствах имен</term>.</p>
+
+	  
+            <eg><![CDATA[ <TEI xmlns="http://www.tei-c.org/ns/1.0"
+      xmlns:math="http://www.mathml.org">
+      <p>...<math:expr>...</math:expr>...</p>...</TEI>]]></eg>
+
+          <list>
+            <item>Декларация пространства имен связывает префикс пространства имени с внешним
+              идентификатором URI типа</item>
+            <item>Пространство имен, выбираемое по умолчанию, <emph>должно быть</emph> декларировано с
+              помощью <code>xmlns</code></item>
+            <item>Остальные пространства имен должны имень специально заявленный префикс</item>
+            <item>Все документы TEI декларируются в рамках пространства имен TEI</item>
+            <item>Пространство имен <ident>xml</ident> доступно во всех XML-документах; TEI
+              использует его для глобальных атрибутов
+            <att>xml:id</att> и <att>xml:lang</att></item></list>
+
+        </div>
+
+        <div rend="slide">
+          <head>Декларация типа документа (DTD)</head>
+          <p>Иногда можно встретить необязательную декларацию DocType (DTD):</p>
+          <eg>
+          <![CDATA[<?xml version="1.0" ?>
+          <!DOCTYPE greeting SYSTEM "greeting.dtd []">]]>
+	  </eg>
+          <list>
+            <item>DTD - это способ связать документ с его схемой (но в W3C или RELAXNG для подобных
+              целей DTD не используется)</item>
+            <item>Подмножество DTD используется для того, чтобы представить дополнительные
+              декларации для деклараций схемы, например для внешних файлов</item>
+            <item>Подмножество DTD может быть <hi>внутренним</hi>, <hi>внешним</hi>
+              или смешанным</item>
+          </list>
+          <p rend="box">DTD уже "вышли из моды" --
+            предпочтение отдается схемам RELAXNG или W3C</p>
+        </div>
+
+        <div rend="slide">
+          <head>Синтаксис XML: мелкий шрифт</head>
+          <p>Что значит <hi>правильно структурированный</hi> документ?</p>
+          <list type="ordered">
+            <item>Есть корневой узел, содержащий весь XML-документ</item>
+            <item>Каждое из подчиненных деревьев расположено в отведенном ему месте корневого узла</item>
+            <item>Названия всегда реагируют на изменения регистра</item>
+            <item>Открывающие и закрывающие теги всегда строго обязательны (кроме случаев
+              комбинированного использования начального и конечного тега для обозначения пустого
+              узла)</item>
+            <item>Значение атрибутов всегда дано в кавычках</item>
+          </list>
+          <p rend="box">Примечание: Ваш документ может быть
+            <hi>валидирован</hi> в дополнение к правильному оформлению.
+            Это значит, что Вы соблюли все правила выбранной схемы, например, TEI.</p>
+	</div>       
+        <div rend="slide">
+          <head>Проверьте Ваши знания XML</head>
+          <list>
+            <item>В каких разметках нет ошибок?<list>
+                <item rend="pause">
+                  <code><![CDATA[<seg>some text</seg>]]></code>
+                </item>
+                <item rend="pause">
+                  <code><![CDATA[<seg><foo>some</foo> <bar>text</bar></seg>]]></code>
+                </item>
+                <item rend="pause">
+                  <code><![CDATA[<seg><foo>some <bar></foo> text</bar></seg>]]></code>
+                </item>
+                <item rend="pause">
+                  <code><![CDATA[<seg type="text">some text</seg>]]></code>
+                </item>
+                <item rend="pause">
+                  <code><![CDATA[<seg type='text'>some text</seg>]]></code>
+                </item>
+                <item rend="pause">
+                  <code><![CDATA[<seg type=text>some text</seg>]]></code>
+                </item>
+                <item rend="pause">
+                  <code><![CDATA[<seg type = "text">some text</seg>]]></code>
+                </item>
+                <item rend="pause">
+                  <code><![CDATA[<seg type="text">some text<seg/>]]></code>
+                </item>
+                <item rend="pause">
+                  <code><![CDATA[<seg type="text">some text<gap/></seg>]]></code>
+                </item>
+                <item rend="pause">
+                  <code><![CDATA[<seg type="text">some text< /seg>]]></code>
+                </item>
+                <item rend="pause">
+                  <code><![CDATA[<seg type="text">some text</Seg>]]></code>
+                </item>
+              </list>
+            </item>
+          </list>
+        </div>
+
+
+
+
+  </body>
+  </text>
+</TEI>

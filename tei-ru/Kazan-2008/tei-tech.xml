@@ -1,0 +1,386 @@
+<?xml version="1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Three key XML technologies</title> 
+      </titleStmt>
+      <publicationStmt>
+        <publisher>TEI</publisher>
+        <availability>
+          <p>Freely available for use and derivative works under a Creative Commons Attribution
+            license.</p>
+        </availability>
+        <date>2008-07</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Some bits may be lifted from previous talks/workshops by the TEI Community and certainly
+          from the TEI P5 release of the Guidelines.</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change>
+        <date>$LastChangedDate: 2008-07-23 12:54:44 +0100 (Wed, 23 Jul 2008) $.</date>
+        <name>$LastChangedBy: rahtz $</name>
+        <note>$LastChangedRevision: 3145 $</note>
+      </change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+
+
+<div rend="slide">
+        <head>What more do you need to know?</head>
+        <p>You've created some TEI XML documents. What processing
+	technologies are now available to you?</p>
+	
+        <list >
+          <item>XPath</item>
+          <item>XSLT</item>
+          <item>XML Query (XQuery)</item>
+        </list>
+      </div>
+      <div rend="slide">
+        <head>What is XPath?</head>
+        <list >
+          <item>A standardized syntax for identifying and accessing parts of an XML document</item>
+          <item>A library of standard functions</item>
+          <item>A W3C Standard</item>
+          <item>A major  component of XQuery, XSLT, and almost every XML
+	  processing system</item>
+        </list>
+      </div>
+      <div>
+        <head>Example text</head>
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<body n="anthology" >
+  <div type= "poem">
+    <head>The SICK ROSE </head> 
+    <lg type= "stanza"> 
+      <l n="1">O Rose thou art sick.</l> 
+      <l n="2">The invisible worm,</l> 
+      <l n="3">That flies in the night </l> 
+      <l n="4">In the howling storm:</l> 
+    </lg> 
+    <lg type= "stanza">
+      <l n="5">Has found out thy bed </l> 
+      <l n="6">Of crimson joy:</l> 
+      <l n="7">And his dark secret love </l> 
+      <l n="8">Does thy life destroy.</l> 
+    </lg>
+  </div>
+</body>
+</egXML>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-05.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-06.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-07.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-08.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-09.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-10.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-11.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-12.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-13.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-14.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-15.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-16.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-17.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-18.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-19.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-20.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-21.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-22.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-23.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-24.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-25.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-26.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-27.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-28.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-29.png"/>
+        </p>
+      </div>
+      <div>
+        <p>
+          <graphic url="../Graphics/xpath/xpath-eg-30.png"/>
+        </p>
+      </div>
+      <div rend="slide">
+        <head>XPath in summary</head>
+        <list >
+          <item>A location path results in a node-set</item>
+          <item>Paths can be absolute (<code>/div/lg[1]/l</code>)</item>
+          <item>Paths can be relative (<code>l/../../head</code>)</item>
+          <item>Formal Syntax: (<code>axisname::nodetest[predicate]</code>)</item>
+          <item>For example:<code>child::div[contains(head, 'ROSE')]</code></item>
+        </list>
+      </div>
+
+      <div rend="slide">
+        <head>XPath: Abbreviated Syntax</head>
+        <list>
+          <item>nothing is the same as <code>child::</code>, so <code>lg</code> is short for
+              <code>child::lg </code></item>
+          <item>@ is the same as <code>attribute::</code>, so <code>@type</code> is short for
+              <code>attribute::type </code></item>
+          <item>. is the same as <code>self::</code>, so <code>./head</code> is short for
+              <code>self::node()/child::head </code></item>
+          <item>.. is the same as <code>parent::</code>, so<code>../lg</code> is short for
+              <code>parent::node()/child::lg</code></item>
+          <item>// is the same as <code>descendant-or-self::</code>, 
+            so <code>div//l</code> is short for 
+            <code>child::div/descendant-or-self::node()/child::l</code>
+          </item>
+        </list>
+      </div>
+      <div rend="slide">
+        <head>XPath also has built-in functions</head>
+<p>These include...
+<list>
+<label>node-set functions</label>
+<item>for example, to find the  number of nodes in a node-set, select
+nodes by position, name, namespace, etc.</item>
+<label>string functions</label>
+<item>for example, to concatenate string values, do string matching,
+find substrings, perform one-to-one character translation, etc.</item>
+</list></p>
+      </div>
+
+        <div>
+<head>eXtensible StyLesheeTs</head>
+<p>The XSLT language is
+ <list>
+   <item>expressed in XML; uses namespaces to distinguish 
+     output from instructions</item>
+   <item>a Turing-complete functional programing language</item>
+   <item>reads and writes XML trees</item>
+   <item>designed to generate XSL FO, but now widely used to generate HTML or other forms of XML</item>
+ </list>
+</p>
+</div>
+
+
+<div>
+<head>What do you mean, "transformation"?</head>
+<p>Take this
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<![CDATA[<recipe>
+ <title>Pasta for beginners</title>
+ <ingredients><item>Pasta</item>
+     <item>Grated cheese</item>
+ </ingredients>
+ <cook>Cook the pasta and mix with the cheese</cook>
+</recipe>]]></egXML>
+and make this
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+  <![CDATA[<html>
+ <h1>Pasta for beginners</h1>
+ <p>Ingredients: Pasta Grated cheese</p>
+ <p>Cook the pasta and mix with the cheese</p>
+</html>]]></egXML>
+</p>
+</div>
+
+<div>
+<head>How do you express that in XSL?</head>
+<p>
+  <egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:xsl='http://www.w3.org/1999/XSL/Transform'>
+    <![CDATA[<xsl:stylesheet 
+    xmlns:xsl='http://www.w3.org/1999/XSL/Transform' 
+    version="1.0">
+<xsl:template match="recipe">
+ <html> 
+ <h1><xsl:value-of select="title"/></h1>
+ <p>Ingredients:    
+    <xsl:apply-templates  
+     select = "ingredients/item"/> 
+ </p> 
+ <p><xsl:value-of select="cook"/></p>
+ </html> 
+</xsl:template>
+</xsl:stylesheet>
+]]></egXML>
+</p>
+</div>
+
+
+
+
+<div>
+<head>XSL Summary</head>
+<p>The core techniques:
+<list>
+  <item>template rules for nodes in the incoming XSL</item>
+  <item>taking material from other nodes</item>
+  <item>processing nodes several times in different modes</item>
+  <item>variables and functions</item>
+  <item>choosing, sorting, numbering</item>
+  <item>different types of output</item>
+</list>
+</p>
+</div>
+
+<div rend="slide">
+<head>What is XQuery?</head>
+<list >
+<item>a domain-specific method for accessing and manipulating XML</item>
+<item>designed  for querying XML</item>
+<item>built upon XPath</item>
+<item>analagous to SQL (but for XML rather than for relational data)</item>
+<item>a W3C recommendation</item>
+</list>
+</div>
+
+<div rend="slide"><head>XQuery: the core techniques</head>
+<list type="gloss">
+<label>path expressions</label><item>return a nodeset</item>
+<label>element constructors</label><item>return a new element</item>
+<label>FLWOR expressions</label><item>analogous to SQL Select statement</item>
+<label>list expressions</label><item>operations on lists or sets of values</item>
+<label>conditional expressions</label><item>traditional if then else construction</item>
+<label>qualified expressions</label><item>boolean operations over
+lists or sets of values</item>
+<label>datatype expressions</label><item>test datatypes of values</item>
+</list>
+<p rend="box">XQUERY is a complete programming language </p>
+</div>
+
+  
+
+<div rend="slide">
+    <head>Using XQuery</head>
+    <list>
+      <item>The language itself is usually hidden from the end
+      user (e.g. behind an HTML form)</item>
+<item>Implementations such as <ident>eXist</ident> may be embedded in
+web publishing framework such as Apache...</item>
+      <item>.. but eXist can also be accessed e.g. from a Java program
+      and via HTTP/REST, XML-RPC, SOAP, WebDAV etc.</item>
+      <item>eXist provides XUpdate: a means of adding, changing, or
+      deleting nodes from an XML database</item>
+      </list>
+</div>
+
+<div>
+  <head>Accessing XML: Conclusions</head>
+ <list>
+   <item>XML is a set of hierachical nodes that can be identified with
+   XPath</item>
+   <item>XSLT is an easy way to transform these into different
+   forms</item>
+   <item>XQuery can enable you to perform sophisticated queries on a
+   large database of texts</item>
+   <item>...We haven't put things into TEI XML for the fun of it, but
+   to be able to get things out of it or do things to it.  These
+   things may be the text in multiple formats, lists of names,
+   statistical information, linguistic analysis, or additional layers
+   of annotation</item>
+ </list> 
+  
+</div>
+      
+
+
+
+
+    </body>
+  </text>
+</TEI>

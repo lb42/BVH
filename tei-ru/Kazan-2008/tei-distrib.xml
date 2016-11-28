@@ -1,0 +1,151 @@
+<?xml version="1.0"?> 
+<TEI  
+    xmlns:rng="http://relaxng.org/ns/structure/1.0"
+    xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Distributing  TEI XML Resources</title>
+<!--            <author>Lou Burnard</author>-->
+         </titleStmt>
+         <editionStmt>
+            <edition>
+<!--               <date>July 2008</date>-->
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>TEI</authority>
+            <address>
+               <addrLine>tei@oucs.ox.ac.uk</addrLine>
+            </address>
+         </publicationStmt>
+         <sourceDesc>
+            <p>This is the master version of an original document.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change>
+            <date>$LastChangedDate: 2007-02-14 21:59:13 +0000 (Wed, 14 Feb 2007) $.</date>
+	    <name>$LastChangedBy: lou $</name>
+	    <note>$LastChangedRevision: 814 $</note>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+<text>
+<body>
+<div rend="slide">
+<head>Summary</head>
+<list >
+<item>Now that it's all in TEI XML, what next?</item>
+<item>Varieties of XML delivery system</item>
+<item>Some real life examples</item>
+    </list>
+   </div>
+
+<div rend="slide">
+<head>A reminder: what is XML for?</head>
+<list >
+<item>exchanging data
+<list type="ordered">
+<item>between people</item>
+<item>between people and machines</item>
+<item>between machines</item>
+</list>
+</item>
+<item>preserving information
+<list type="ordered">
+<item>independent of particular applications</item>
+<item>independent of medium or hardware</item>
+</list>
+</item>
+</list>
+<p rend="box">But is XML any good as a means of <hi>delivering</hi> information?</p>
+</div>
+
+<div rend="slide"><head>What are the options?</head>
+<list>
+<item>for delivery:
+<list>
+<item>transform into HTML on the server and deliver that</item>
+<item>deliver XML; use clever client-side processing to handle it</item>
+</list>
+</item>
+<item>for management:
+<list>
+<item>the filesystem</item>
+<item>a content management system</item>
+<item>a database management system</item>
+</list>
+</item>
+<item>for tools development:
+<list>
+<item>generic digital library solutions e.g. xtf</item>
+<item>Linux-Apache-Mozilla-Perl (LAMP) toolkit</item>
+<item>web applications using xhtml, ajax, etc.</item>
+</list>
+</item>
+</list>
+</div>
+
+
+<div rend="slide"><head>Some real life examples</head>
+
+<list>
+<item>make the browser do the work: 
+Early America's Digital
+Archive (<ptr  target="http://www.mith2.umd.edu/eada/"/>)</item>
+<item>make the client do the work:
+Artamène, ou Le Grand
+Cyrus (<ptr target="http://www.artamene.org/"/>)</item>
+<item>handling multiple scripts:
+Samyukta
+Agama (<ptr target="http://buddhistinformatics.chibs.edu.tw/BZA/"/>)</item>
+<item>image and text:
+Robert
+Graves' Diary (<ptr
+    target="http://www.tapor.uvic.ca:8080/cocoon/graves/index.xml"/>)</item>
+<item>critical edition of biblical literature: (<ptr target="http://www.sbl-site.org/publications/books_additionalmaterial.aspx"/>)</item>
+<item>parallel corpora: 
+Clay Sanskrit
+Library (<ptr  target="http://rts-dev.oucs.ox.ac.uk/cslweb.php"/>)</item>
+<item>digital archive:
+Swinburne
+Archive (<ptr
+    target="http://swinburnearchive.indiana.edu/swinburne/www/swinburne/"/>)</item>
+</list>
+</div>
+
+<div><head>XTF meets Mr Punch</head>
+
+<list>
+<item>Extensible Text Framework or XTF (<ptr target="http://www.cdlib.org/inside/projects/xtf/"/>) is a collection of server-side scripts from the California
+Digital Library</item>
+<item>If you are already running Apache and Tomcat, and have access to
+a website, you can set up a default xtf application for TEI files in 5
+minutes</item>
+<item>(more or less)</item>
+<item>Library model</item>
+</list>
+<p rend="box"><ptr  target="http://tei.oucs.ox.ac.uk:8080/xtf/view?docId=tei/Punch/1914_July_1.xml"/></p>
+
+</div>
+
+
+<div rend="slide"><head>Conclusions</head>
+<list>
+<item>even the simplest of approaches allows you to share your
+encoding, your analysis</item>
+<item>the more ambitious your markup, the more sophisticated the
+possibilities</item>
+<item>there is a common set of techniques and tools: you don't need to
+re-invent the wheel</item>
+<item>TEI XML empowers the data provider: you determine what can be
+done with your materials</item>
+
+</list>
+</div>
+
+</body>
+
+</text>
+</TEI>

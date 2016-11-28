@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<locatingRules xmlns="http://thaiopensource.com/ns/locating-rules/1.0">
+  <uri resource="tei-names-ru.xml" uri="p5odds.rnc"/>
+  <uri resource="tei-mss-ru.xml" uri="p5odds.rnc"/>
+  <uri resource="index.xml" uri="p5odds.rnc"/>
+  <uri resource="TEI-mss-ru.xml" uri="p5odds.rnc"/>
+  <uri resource="TEI-names-ru.xml" uri="p5odds.rnc"/>
+  <uri resource="tei-tech-ru.xml" uri="p5odds.rnc"/>
+  <uri resource="tei-mss.xml" uri="p5odds.rnc"/>
+  <uri resource="TEI-basic-ru.xml" uri="p5odds.rnc"/>
+  <uri resource="tei-names.xml" uri="p5odds.rnc"/>
+  <uri resource="tei-intro.xml" uri="p5odds.rnc"/>
+  <uri resource="TEI-mss.xml" uri="p5odds.rnc"/>
+  <uri resource="xml-intro-ru.xml" uri="p5odds.rnc"/>
+  <uri resource="tei-intro-ru.xml" uri="p5odds.rnc"/>
+  <uri resource="tei-basic.xml" uri="p5odds.rnc"/>
+  <uri resource="tei-basic.xml" uri="../../../TEI-SF/P5/Exemplars/tei_all.rnc"/>
+  <uri resource="index.xml"
+       uri="../../../../../../usr/share/xml/tei/custom/schema/relaxng/teiall.rnc"/>
+</locatingRules>
