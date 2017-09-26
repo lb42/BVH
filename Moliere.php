@@ -27,10 +27,10 @@ class Moliere
   }
 
   /**
-   * Entête html
+   * Entête html pour piece
    * $basehref URL relative au contexte de l’application
    */
-  static function head( )
+  static function dramahead( )
   {
     $dramagraph = self::$basehref.'../Dramagraph/';
     echo '

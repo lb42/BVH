@@ -1,13 +1,12 @@
 <?php
 /**
- * Visualisation du dossier des précurseurs de Molière
+ * Visualisation de théâtre
  */
-include( dirname(__FILE__).'/Moliere.php' );
-new Moliere(dirname(__FILE__).'/moliere.sqlite');
-$playcode = null;
 
-$playcode = current( explode( '/', Moliere::$pathinfo ));
-$sql = "SELECT * FROM play WHERE code = ".Moliere::$pdo->quote($playcode);
+include( dirname(__FILE__).'/Moliere.php' );
+new Moliere( dirname(__FILE__).'/'.$conf['sqlite'] );
+
+$sql = "SELECT * FROM play WHERE code = ".Moliere::$pdo->quote( $conf['playcode'] );
 $play = Moliere::$pdo->query( $sql )->fetch();
 if (!$play) $playcode = null;
 ?><!DOCTYPE html>
@@ -29,7 +28,7 @@ if ( !$playcode ) {
     <div id="center">
       <header id="header">
         <h1>
-          <a href=".">OBVIL, Molière</a>
+          <a href="<?php echo Moliere::$basehref; ?>">OBVIL, Molière</a>
         </h1>
         <a class="logo" href="http://obvil.paris-sorbonne.fr/"><img class="logo" src="<?php echo Moliere::$basehref ?>../theme/img/logo-obvil.png" alt="OBVIL"></a>
       </header>
@@ -44,9 +43,19 @@ if ( !$playcode ) {
           <div id="article">
       <?php
 if ( !$playcode ) {
+  echo $conf['abstract'];
   Dramagraph_Biblio::table( Moliere::$pdo );
 }
 else {
+ if (strpos( $play['identifier'], 'bibdramatique.paris-sorbonne.fr') !== false) {
+    echo '<p class="noindent">Retrouvez cette pièce sur la <a target="_blank" href="'.$play['identifier'].'">Bibliothèque dramatique</a>, avec son introduction et son apparat critique.</p>
+    <p> </p>';
+  }
+  if (strpos( $play['identifier'], 'theatre-classique.fr') !== false) {
+    echo '<p class="noindent">Retrouvez cette pièce sur <a target="_blank" href="'.$play['identifier'].'">Théâtre Classique</a>, avec 800 autres textes, et leurs outils.</p>
+    <p> </p>';
+
+  }
   Moliere::text($playcode);
 }
       ?>

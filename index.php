@@ -1,161 +1,165 @@
 <?php
-/**
- * Pilote de l’application OBVIL-Molière
- * La logique applicative est libre
- * Le design est contraint par obvil.css
- */
-include (dirname(__FILE__).'/../teipot/Teipot.php');
-$path = Web::pathinfo(); // path demandé
+ini_set('display_errors', '1');
+error_reporting(-1);
+include( dirname(dirname(__FILE__))."/Teinte/Web.php" );
+include( dirname(dirname(__FILE__))."/Teinte/Base.php" );
+$path = Teinte_Web::pathinfo(); // document demandé
+$basehref = Teinte_Web::basehref(); //
+$teinte = $basehref."../Teinte/";
 
-// les pièces commencent par moliere, laissaer la main au script pieces.php
+// les pièces commencent par moliere, laissaer la main au script pour le théâtre
 if (strpos($path, 'moliere') === 0 || strpos($path, 'theatre') === 0) {
+  $conf = array(
+    "playcode" => current( explode( '/', $path )), // relatif à la politique d’URL décidée ici
+    "url" => Teinte_Web::basehref()."moliere/",
+    "title" => "Molière",
+    "sqlite" => "moliere.sqlite", // nom de la base sqlite
+    "abstract" => '',
+  );
   include (dirname(__FILE__).'/theatre.php');
   exit();
 }
 // devanciers et contemporains
 if (strpos($path, 'contexte') === 0) {
-  include (dirname(__FILE__).'/contexte.php');
+  $conf = array(
+    "playcode" => end ( explode( '/', $path ) ), // relatif à la politique d’URL décidée ici
+    "url" => Teinte_Web::basehref()."contexte/",
+    "title" => "Devanciers et contemporains",
+    "sqlite"=> "contexte.sqlite", // nom de la base sqlite
+    "abstract" => '
+<div style="padding: 1em">
+<h1>Devanciers et contemporains de Molière</h1>
+<p class="noindent">Ce dossier présente des pièces de théâtre qui ne sont pas de Molière mais qui lui sont antérieures ou contemporaines, afin de les comparer avec les mêmes statistiques et interfaces. Ce ne sont pas des éditions du LABEX OBVIL, mais des textes prêtés par la <a href="http://bibdramatique.paris-sorbonne.fr/">Bibliothèque dramatique</a> (CELLF, Université Paris-Sorbonne) et le site <a href="http://theatre-classique.fr/pages/programmes/PageEdition.php">Théâtre Classique</a> (Paul Fièvre). L’OBVIL tient à remercier ces partenaires, et à leur laisser toute la paternité (et la responsabilité) de leurs éditions. Si un texte vous intéresse plus particulièrement, il vaut mieux le consulter sur son site d’origine. Sur la <a href="http://bibdramatique.paris-sorbonne.fr/">Bibliothèque dramatique</a>, vous trouverez une introduction critique, des notes, et différents formats pour la lecture (epub, mobi, pdf). Sur <a href="http://theatre-classique.fr/pages/programmes/PageEdition.php">Théâtre Classique</a>, vous trouverez bien d’autres pièces (plus de 800 en 2016), d’autres statistiques et formats. Cette compilation a été rendue possible par un effort de convergence sur le format des textes (XML/TEI) afin que les logiciels de chacun y trouvent leurs repères et leurs balises.</p>
+</div>'."\n",
+  );
+  include (dirname(__FILE__).'/theatre.php');
   exit();
 }
-$pot = false;
-$q = ""; // requête en cours
 
-// ou alors on charge de la critique sous critique/…,
-if (strpos($path, 'critique/') === 0) {
-  // noter, le path relatif dans la base critique.sqlite
-  $pot = new Teipot(dirname(__FILE__).'/critique-moliere.sqlite', 'fr', substr($path, 9));
-  $pot->file(); // fichiers statiques, notamment images
-  $doc=$pot->doc();
-  // ici rajouter des metas pour les moteurs de recherche, noindex, renvoi à la version canonique du document
-  $q = $pot->q;
-  $critique = true;
+
+
+header( 'content-type: text/html; charset=utf-8' );
+if ( !file_exists( $f=dirname(__FILE__)."/conf.php" ) ) {
+  echo '<h1>Problème de configuration, fichier conf.php introuvable.</h1>';
 }
-// aller chercher un doc statique écrit en html
-else if (strpos($path, 'doc/')===0) {
-  $chtimel=new Chtimel(dirname(__FILE__) . '/' . $path . '.html');
-  $doc['body']=$chtimel->body();
-  $doc['head']=$chtimel->head();
-}
-else if ($path == '') {
-  $chtimel=new Chtimel(dirname(__FILE__) . '/doc/home.html');
-  $doc['body']=$chtimel->body();
-  $doc['head']=$chtimel->head();
-}
-// ou alors, quoi ?
 else {
-
+  $conf = include( $f );
 }
 
-// si une base, mais pas de doc trouvé, charger des résultats en mémoire
-if ($pot && !isset($doc['body'])) {
-  $timeStart=microtime(true);
-  $pot->search();
+// chercher le doc dans la base
+$docid = current( explode( '/', $path ) );
+if ( !file_exists( $conf['sqlite'] )) {
+  echo '<h1>Première installation ? Allez voir la page <a href="pull.php">pull.php</a> pour transformer vos fichiers XML.</h1>';
+  exit();
 }
+$base = new Teinte_Base( $conf['sqlite'] );
+$query = $base->pdo->prepare("SELECT * FROM doc WHERE code = ?; ");
+$query->execute( array( $docid ) );
+$doc = $query->fetch();
 
-$teinte = Web::basehref().'../Teinte/'; // chemin css, js ; basehref est le nombre de '../' utile pour revenir en racine du site
-$theme = Web::basehref().'../theme/'; // autres ressources spécifiques
-
+$q = null;
+if ( isset($_REQUEST['q']) ) $q=$_REQUEST['q'];
 
 ?><!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" charset="utf-8" type="text/css" href="<?php echo $teinte ?>tei2html.css"/>
-    <link rel="stylesheet" type="text/css" href="<?php echo $theme ?>obvil.css" />
-        <?php
-if(isset($doc['head'])) echo $doc['head'];
-else echo '
-<title>OBVIL, Molière</title>
-';
-if (isset($moliere) && !$play) {
-  echo '<style>#main { width: 100%; } #aside { visibility: hidden; } </style>';
-}
-    ?>
+    <meta charset="UTF-8" />
+    <title><?php
+if( $doc ) echo $doc['title'].' — ';
+echo $conf['title'];
+    ?></title>
+    <link rel="stylesheet" type="text/css" href="<?= $teinte ?>tei2html.css" />
+    <link rel="stylesheet" type="text/css" href="<?= $basehref ?>../theme/obvil.css"/>
+    <link rel="stylesheet" type="text/css" href="<?= $basehref ?>gongora.css" />
   </head>
-  <body>
+  <body id="top">
     <div id="center">
       <header id="header">
-        <h1>
-          <a href="<?php
-
-if (isset($play)) echo "moliere";
-else echo Web::$basehref;
-          ?>">OBVIL, Molière</a>
-        </h1>
-        <a class="logo" href="http://obvil.paris-sorbonne.fr/"><img class="logo" src="<?php echo $theme; ?>img/logo-obvil.png" alt="OBVIL"></a>
+        <h1><?php
+          if ( !$path && $base->search ) {
+            echo '<a href="'.$basehref.'">'.$conf['title'].'</a>';
+          }
+          else if ( !$path ) {
+            echo '<a href="//obvil.paris-sorbonne.fr/projets/edition-digitale-et-etude-de-la-polemique-autour-de-gongora">OBVIL, '.$conf['title'].'</a>';
+          }
+          else {
+            echo '<a href="'.$basehref.'?'.$_COOKIE['lastsearch'].'">'.$conf['title'].'</a>';
+          }
+        ?></h1>
+        <a class="logo" href="http://obvil.paris-sorbonne.fr/"><img class="logo" src="<?php echo $basehref; ?>../theme/img/logo-obvil.png" alt="OBVIL"></a>
       </header>
       <div id="contenu">
-        <div id="main">
-          <nav id="toolbar">
-            <nav class="breadcrumb">
-            <?php
-if (isset($critique)) echo '<a href="' . Web::basehref() . 'critique/' . $pot->qsa(null, null, '?') . '">Critique moliéresque</a> &gt; ';
-if (isset($doc['breadcrumb'])) echo $doc['breadcrumb'];
-            ?>
-            </nav>
-          </nav>
-          <div id="article">
-      <?php
-if (isset($doc['body'])) {
-  echo $doc['body'];
-  // page d’accueil d’un livre avec recherche plein texte, afficher une concordance
-  if ($pot && $pot->q && (!$doc['artname'] || $doc['artname']=='index')) {
-    echo $pot->concBook($doc['bookrowid']);
-  }
-}
-// pas de livre demandé, montrer un rapport général
-else if ( $pot ) {
-  // nombre de résultats
-  echo $pot->report();
-  // présentation bibliographique des résultats
-  if (isset($critique)) echo $pot->biblio(array('byline','title','date'));
-  else echo $pot->biblio(array('date', 'title'));
-  // concordance s’il y a recherche plein texte
-  echo $pot->concByBook();
-}
-      ?>
-          </div>
-        </div>
         <aside id="aside">
           <?php
-
-// livre de critique
-if (isset($doc['bookrowid'])) {
-  if(isset($doc['download'])) echo "\n".'<nav id="download">' . $doc['download'] . '</nav>';
-  echo "\n<nav>";
+if ( $doc ) {
+  // if (isset($doc['download'])) echo $doc['download'];
   // auteur, titre, date
-  if ($doc['byline']) $doc['byline']=$doc['byline'].'<br/>';
-  echo "\n".'<header><a href="' . $pot->basehref() . $doc['bookname'].'/">'.$doc['byline'].$doc['title'].' ('.$doc['end'].')</a></header>';
-  // rechercher dans ce livre
   echo '
-  <form action=".#conc" name="searchbook" id="searchbook">
-    <input name="q" id="q" class="search" size="20" onclick="this.select()"  placeholder="Rechercher dans ce livre" title="Rechercher dans ce livre" value="'. str_replace('"', '&quot;', $q) .'"/>
-    <input type="image" id="go" alt="&gt;" value="&gt;" name="go" src="'. $theme . 'img/loupe.png"/>
-  </form>
-  ';
-  // table des matières
-  echo '
-          <div id="toolpan" class="toc">
-            <div class="toc">
-              '.$doc['toc'].'
-            </div>
-          </div>
-  ';
-  echo "\n</nav>";
+<header>
+  <a class="title" href="' . $basehref . $doc['code'] . '">'.$doc['title'].'</a>
+</header>
+<form action="#mark1">
+  <a title="Retour aux résultats" href="'.$basehref.'?'.$_COOKIE['lastsearch'].'"><img src="'.$basehref.'../theme/img/fleche-retour-corpus.png" alt="←"/></a>
+  <input name="q" value="'.str_replace( '"', '&quot;', $base->p['q'] ).'"/><button type="submit">🔎</button>
+</form>
+';
+
+  // table des matières, quand il y en a une
+   if ( file_exists( $f="toc/".$doc['code']."_toc.html" ) ) readfile( $f );
 }
 // accueil ? formulaire de recherche général
-else if(isset($critique)) {
+else {
   echo'
-    <form action="" style="text-align:center">
-      <input name="q" id="q" class="search" size="20" onclick="this.select()" placeholder="Rechercher" class="text" value="'.str_replace('"', '&quot;', $q).'"/>
-      <input type="image" id="go" alt="&gt;" value="&gt;" name="go" src="'. $theme . 'img/loupe.png"/>
-    </form>
+<form action="">
+  <input style="width: 100%;" name="q" class="text" placeholder="Rechercher de mots" value="'.str_replace( '"', '&quot;', $base->p['q'] ).'"/>
+  <div><label>De <input placeholder="année" name="start" class="year" value="'.$base->p['start'].'"/></label> <label>à <input class="year" placeholder="année" name="end" value="'.$base->p['end'].'"/></label></div>
+  <button type="reset" onclick="return Form.reset(this.form)">Effacer</button>
+  <button type="submit" style="float: right; ">Rechercher</button>
+</form>
   ';
 }
-?>
+          ?>
         </aside>
+        <div id="main">
+          <nav id="toolbar">
+            <?php
+            ?>
+          </nav>
+          <div id="article" class="<?php echo $doc['class']; ?>">
+            <?php
+// page d’accueil
+if ( !$path ) {
+  echo '
+  <h1>OBVIL - corpus Molière</h1>
+  <div class="clear">
+    <a href="./moliere" class="square">Théâtre</a>
+    <a href="./critique/" class="square couleur2">Critique</a>
+    <a href="./contexte/" class="square couleur3">Devanciers et contemporains</a>
+    <a href="http://obvil-dev.paris-sorbonne.fr/corpus/moliere/anecdotes/index.php" class="square couleur4">Anecdotes</a>
+  </div>
+  ';
+}
+else if ( $doc ) {
+  $html = file_get_contents( "article/".$doc['code']."_art.html" );
+  if ( $q ) echo $base->hilite( $doc['id'], $q, $html );
+  else echo $html;
+}
+else if ( $base->search ) {
+  $base->biblio( array( "no", "date", "author", "title", "occs" ), "SEARCH" );
+}
+// pas de livre demandé, page de couverture
+else {
+  readfile('accueil.html');
+  $base->biblio( array( "date", "author", "title" ) );
+}
+            ?>
+            <a id="gotop" href="#top">▲</a>
+          </div>
+        </div>
       </div>
     </div>
-    <script type="text/javascript" src="<?php echo $teinte; ?>Tree.js">//</script>
-    <script type="text/javascript" src="<?php echo $teinte; ?>Sortable.js">//</script>
+    <script type="text/javascript" src="<?= $teinte ?>Teinte.js">//</script>
+    <script type="text/javascript" src="<?= $teinte ?>Tree.js">//</script>
+    <script type="text/javascript" src="<?= $teinte ?>Sortable.js">//</script>
   </body>
 </html>
