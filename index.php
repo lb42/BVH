@@ -3,14 +3,19 @@ ini_set('display_errors', '1');
 error_reporting(-1);
 include( dirname(dirname(__FILE__))."/Teinte/Web.php" );
 include( dirname(dirname(__FILE__))."/Teinte/Base.php" );
-$path = Teinte_Web::pathinfo(); // document demandé
 $basehref = Teinte_Web::basehref(); //
 $teinte = $basehref."../Teinte/";
+
+$path = Teinte_Web::pathinfo(); // document demandé
+// chercher le doc dans la base
+$branches = explode( '/', $path );
+$docid = end( $branches );
+
 
 // les pièces commencent par moliere, laissaer la main au script pour le théâtre
 if (strpos($path, 'moliere') === 0 || strpos($path, 'theatre') === 0) {
   $conf = array(
-    "playcode" => current( explode( '/', $path )), // relatif à la politique d’URL décidée ici
+    "playcode" => $docid, // relatif à la politique d’URL décidée ici
     "url" => Teinte_Web::basehref()."moliere/",
     "title" => "Molière",
     "sqlite" => "moliere.sqlite", // nom de la base sqlite
@@ -22,7 +27,7 @@ if (strpos($path, 'moliere') === 0 || strpos($path, 'theatre') === 0) {
 // devanciers et contemporains
 if (strpos($path, 'contexte') === 0) {
   $conf = array(
-    "playcode" => end ( explode( '/', $path ) ), // relatif à la politique d’URL décidée ici
+    "playcode" => $docid, // relatif à la politique d’URL décidée ici
     "url" => Teinte_Web::basehref()."contexte/",
     "title" => "Devanciers et contemporains",
     "sqlite"=> "contexte.sqlite", // nom de la base sqlite
@@ -46,8 +51,6 @@ else {
   $conf = include( $f );
 }
 
-// chercher le doc dans la base
-$docid = current( explode( '/', $path ) );
 if ( !file_exists( $conf['sqlite'] )) {
   echo '<h1>Première installation ? Allez voir la page <a href="pull.php">pull.php</a> pour transformer vos fichiers XML.</h1>';
   exit();
@@ -76,17 +79,21 @@ echo $conf['title'];
     <div id="center">
       <header id="header">
         <h1><?php
+        echo $path;
           if ( !$path && $base->search ) {
-            echo '<a href="'.$basehref.'">'.$conf['title'].'</a>';
+            echo '<a href="?">'.$conf['title'].'</a>';
           }
           else if ( !$path ) {
-            echo '<a href="//obvil.paris-sorbonne.fr/projets/edition-digitale-et-etude-de-la-polemique-autour-de-gongora">OBVIL, '.$conf['title'].'</a>';
+            echo '<a class="home" href="'.$basehref.'?">Molière</a>';
+          }
+          else if ( trim( $path, "/" ) == "critique" ) {
+            echo '<a href="'.$basehref.'">Molière, accueil</a>';
           }
           else {
-            echo '<a href="'.$basehref.'?'.$_COOKIE['lastsearch'].'">'.$conf['title'].'</a>';
+            echo '<a href="'.$basehref.'critique/?'.$_COOKIE['lastsearch'].'">Critique moliéresque</a>';
           }
         ?></h1>
-        <a class="logo" href="http://obvil.paris-sorbonne.fr/"><img class="logo" src="<?php echo $basehref; ?>../theme/img/logo-obvil.png" alt="OBVIL"></a>
+        <a class="logo" href="http://obvil.paris-sorbonne.fr/projets/projet-moliere"><img class="logo" src="<?php echo $basehref; ?>../theme/img/logo-obvil.png" alt="OBVIL"></a>
       </header>
       <div id="contenu">
         <aside id="aside">
@@ -99,7 +106,7 @@ if ( $doc ) {
   <a class="title" href="' . $basehref . $doc['code'] . '">'.$doc['title'].'</a>
 </header>
 <form action="#mark1">
-  <a title="Retour aux résultats" href="'.$basehref.'?'.$_COOKIE['lastsearch'].'"><img src="'.$basehref.'../theme/img/fleche-retour-corpus.png" alt="←"/></a>
+  <a title="Retour aux résultats" href="'.$basehref.'critique/?'.$_COOKIE['lastsearch'].'"><img src="'.$basehref.'../theme/img/fleche-retour-corpus.png" alt="←"/></a>
   <input name="q" value="'.str_replace( '"', '&quot;', $base->p['q'] ).'"/><button type="submit">🔎</button>
 </form>
 ';
@@ -132,7 +139,7 @@ if ( !$path ) {
   echo '
   <h1>OBVIL - corpus Molière</h1>
   <div class="clear">
-    <a href="./moliere" class="square">Théâtre</a>
+    <a href="./moliere" class="square couleur1">Théâtre</a>
     <a href="./critique/" class="square couleur2">Critique</a>
     <a href="./contexte/" class="square couleur3">Devanciers et contemporains</a>
     <a href="http://obvil-dev.paris-sorbonne.fr/corpus/moliere/anecdotes/index.php" class="square couleur4">Anecdotes</a>
@@ -149,7 +156,6 @@ else if ( $base->search ) {
 }
 // pas de livre demandé, page de couverture
 else {
-  readfile('accueil.html');
   $base->biblio( array( "date", "author", "title" ) );
 }
             ?>

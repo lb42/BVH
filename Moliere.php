@@ -79,13 +79,13 @@ class Moliere
   {
     self::$qobj->execute(array($playcode, 'graph'));
     echo current(self::$qobj->fetch(PDO::FETCH_NUM));
+    self::$qobj->execute(array($playcode, 'article'));
+    $res = self::$qobj->fetch(PDO::FETCH_NUM);
+    echo '<div style="padding: 0 20px 50px 45px; ">'.$res[0].'</div>';
     self::$qobj->execute(array($playcode, 'roles'));
     echo current(self::$qobj->fetch(PDO::FETCH_NUM));
     self::$qobj->execute(array($playcode, 'relations'));
     echo current(self::$qobj->fetch(PDO::FETCH_NUM));
-    self::$qobj->execute(array($playcode, 'article'));
-    $res = self::$qobj->fetch(PDO::FETCH_NUM);
-    echo '<div style="padding: 0 20px 50px 45px; ">'.$res[0].'</div>';
   }
 
 }
