@@ -79,7 +79,6 @@ echo $conf['title'];
     <div id="center">
       <header id="header">
         <h1><?php
-        echo $path;
           if ( !$path && $base->search ) {
             echo '<a href="?">'.$conf['title'].'</a>';
           }
