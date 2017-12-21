@@ -12,7 +12,7 @@ $branches = explode( '/', $path );
 $docid = end( $branches );
 
 
-// les pièces commencent par moliere, laissaer la main au script pour le théâtre
+// les pièces commencent par moliere, laisser la main au script pour le théâtre
 if (strpos($path, 'moliere') === 0 || strpos($path, 'theatre') === 0) {
   $conf = array(
     "playcode" => $docid, // relatif à la politique d’URL décidée ici
@@ -98,8 +98,16 @@ echo $conf['title'];
         <aside id="aside">
           <?php
 if ( $doc ) {
-  // if (isset($doc['download'])) echo $doc['download'];
-  // auteur, titre, date
+  echo '
+<nav id="download"><small>Télécharger :</small>
+    <a target="_blank" href="http://obvil.github.io/moliere/critique/'.$doc['code'].'.xml" title="Livre électronique">tei</a>,
+    <a target="_blank" href="'.$basehref.'epub/'.$doc['code'].'.epub" title="Livre électronique">epub</a>,
+    <a target="_blank" href="'.$basehref.'kindle/'.$doc['code'].'.mobi" title="Mobi, format propriétaire Amazon">kindle</a>,
+    <a target="_blank" href="'.$basehref.'markdown/'.$doc['code'].'.md" title="Markdown">texte brut</a>,
+    <a target="_blank" href="'.$basehref.'iramuteq/'.$doc['code'].'.txt" title="Markdown">iramuteq</a>,
+    <a target="_blank" href="'.$basehref.'html/'.$doc['code'].'.html">html</a>.
+</nav>';
+// auteur, titre, date
   echo '
 <header>
   <a class="title" href="' . $basehref . $doc['code'] . '">'.$doc['title'].'</a>
@@ -115,6 +123,16 @@ if ( $doc ) {
 }
 // accueil ? formulaire de recherche général
 else {
+  echo '
+<nav id="download"><small>Télécharger :</small>
+    <a target="_blank" href="http://obvil.github.io/moliere/" title="Livre électronique">tei</a>,
+    <a target="_blank" href="'.$basehref.'epub/" title="Livre électronique">epub</a>,
+    <a target="_blank" href="'.$basehref.'kindle/" title="Mobi, format propriétaire Amazon">kindle</a>,
+    <a target="_blank" href="'.$basehref.'markdown/" title="Markdown">texte brut</a>,
+    <a target="_blank" href="'.$basehref.'iramuteq/" title="Markdown">iramuteq</a>,
+    <a target="_blank" href="'.$basehref.'html/">html</a>.
+</nav>';
+  echo '<p> </p>';
   echo'
 <form action="">
   <input style="width: 100%;" name="q" class="text" placeholder="Rechercher de mots" value="'.str_replace( '"', '&quot;', $base->p['q'] ).'"/>
