@@ -14,11 +14,11 @@
                                 <a class="tooltip" title="Classer par date de première occurrence"><i class="fa fa-sort"></i></a>
                             </th>
                             <?php foreach($books as $book){?>
-                            <th id="<?php echo $book["id"]; ?>" class="book-author inactive book <?php echo $book["id"]; ?> tooltip" title="<?php echo $book["author"]; ?>, <i><?php echo $book["title"]; ?></i>">
+                            <th id="<?php echo $book["id"]; ?>" class="book-author inactive book <?php echo $book["id"]; ?> tooltip-e" title="<?php echo $book["author"]; ?>, <i><?php echo $book["title"]; ?></i>">
                                 <div class="th-container">
                                     <span><?php echo $book["lastname"]; ?></span>
                                 </div>
-                                <div class="div-open-document"><a href="<?php echo $book["path"]; ?>" target="_blank" class="tooltip open-document" title="Afficher le texte complet de l'ouvrage"><i class="fa fa-file"></i></a></div>
+                                <div class="div-open-document"><a href="<?php echo $book["path"]; ?>" target="_blank" class="tooltip-e open-document" title="Afficher le texte complet de l'ouvrage"><i class="fa fa-file"></i></a></div>
                             </th>
                             <?php }?>
                         </tr>
@@ -48,18 +48,18 @@
                             <th class="no-border">
                             </th>
                             <?php foreach($books as $book){?>
-                            <th class="anecdotes-count book <?php echo $book["id"]; ?> tooltip" title="Nombre d'anecdotes">
+                            <th class="anecdotes-count book <?php echo $book["id"]; ?> tooltip-e" title="Nombre d'anecdotes">
                                  <span><?php echo $book["occ_n"]; ?></span>
                             </td>
                             <?php }?>
-                        </tr>                        
+                        </tr>
                 </thead>
                 <tbody>
                         <?php foreach($anecdotes as $anecdote){?>
                                 <tr class="anecdote <?php echo $anecdote["id"]; ?>" id="<?php echo $anecdote["id"]; ?>">
                                         <td class="anecdote-title anecdote inactive <?php echo $anecdote["id"]; ?> tooltip" title="<?php echo $anecdote["title"] ?>">
                                                 <span class="short-title"><?php echo $anecdote["short_title"] ?></span>
-                                                <span class="title" style="display: none;"><?php echo $anecdote["title"] ?></span>                                                
+                                                <span class="title" style="display: none;"><?php echo $anecdote["title"] ?></span>
                                         </td>
                                         <td class="count <?php echo $anecdote["id"]; ?> tooltip" title="Nombre d'occurrences">
                                             <?php echo $anecdote["occ_n"]; ?>
@@ -90,4 +90,4 @@
                                 </tr>
                         <?php }?>
                 </tbody>
-        </table> 
+        </table>

@@ -33,9 +33,9 @@
 	<div class="header">
 	    <a href="http://obvil.paris-sorbonne.fr" class="logo"><img src="http://obvil.paris-sorbonne.fr/sites/default/files/logo.png"></a>
 	    <h1 class="page-title">Anecdotes sur Molière</h1>
-	    <a id="trigger-info" href="#info" class="tooltip" title="Aide et présentation du projet"><i class="fa fa-question"></i></a>
-	    <a id="view-matrix" class="tooltip" title="Afficher la vue synthétique" style="display: none;"><i class="fa fa-compress"></i></a>
-	    <a id="view-detail" class="tooltip" title="Afficher toutes les anecdotes"><i class="fa fa-expand"></i></a>
+	    <a id="trigger-info" href="#info" class="tooltip-e" title="Aide et présentation du projet"><i class="fa fa-question"></i></a>
+	    <a id="view-matrix" class="tooltip-e" title="Afficher la vue synthétique" style="display: none;"><i class="fa fa-compress"></i></a>
+	    <a id="view-detail" class="tooltip-e" title="Afficher toutes les anecdotes"><i class="fa fa-expand"></i></a>
 	</div>
 	<?php
 include ("functions/functions.php");
