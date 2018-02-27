@@ -16,7 +16,7 @@
 ../critique/aime-martin_introduction-oeuvres
 ../critique/auger_notices-09
 ../critique/picard_notice-moliere
-../../critique/roederer/roederer_memoires-societe-polie
+../critique/roederer/roederer_memoires-societe-polie
 ../critique/saugeon_alceste-celimene
 ../critique/colet_monument-moliere
 ../critique/magnin_don-juan
@@ -24,12 +24,12 @@
 ../critique/bouillier_moliere-gassendi
 ../critique/geruzez-moliere
 ../critique/noel_moliere
-../../critique/janin/janin_litterature_dramatique-02
+../critique/janin/janin_litterature_dramatique-02
 ../critique/rambert_moliere
 ../critique/vanhollebeke_etude-moliere
-../../critique/taschereau/taschereau_vie-moliere
+../critique/taschereau/taschereau_vie-moliere
 ../critique/schlegel_cours-moliere
-../../critique/stapfer/stapfer_petite-comedie
+../critique/stapfer/stapfer_petite-comedie
 ../critique/celler_representation-pourceaugnac
 ../critique/doumergue_philosophie-moliere
 ../critique/janin_moliere
@@ -46,7 +46,7 @@
 ../critique/monval_lettres-au-mercure
 ../critique/moland-vie-de-moliere
 ../critique/lucas_moliere-dancourt
-../../critique/sarcey/sarcey_quarante-ans-02
+../critique/sarcey/sarcey_quarante-ans-02
 ../critique/rebelliau_deux-ennemis
 ../critique/faguet_en-lisant-moliere
 ../critique/brunetiere_moliere
