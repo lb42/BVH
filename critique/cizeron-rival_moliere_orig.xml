@@ -21,14 +21,14 @@
 </editionStmt>
 <publicationStmt>
     <publisher>Sorbonne Université, LABEX OBVIL</publisher>
-<date when="2017" />
+<date when="2018" />
 <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/moliere/critique/cizeron-rival_moliere_orig.xml</idno>
     <idno type="html">http://obvil.paris-sorbonne.fr/corpus/moliere/critique/cizeron-rival_moliere_orig.html</idno>
     <idno type="txt">http://obvil.paris-sorbonne.fr/corpus/moliere/critique/cizeron-rival_moliere_orig.txt</idno>
     <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/moliere/critique/cizeron-rival_moliere_orig.epub</idno>
 <availability status="restricted">
 <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
-<p>Copyright © 2017 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Copyright © 2018 Sorbonne Université, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
 <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
 <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
 <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
@@ -162,17 +162,13 @@
         <head>XXII.</head>
 <p>Moliere fuyoit la peine ; &amp; ce fut M. Despréaux, qui lui corrigea ces deux vers de la premiere Scene des Femmes Savantes, que le Poëte Comique avoit faits ainsi :</p>
 <quote>
-<lg>
 <l>Quand sur une personne on prétend s’ajuster,</l>
 <l>C’est par les beaux côtés, qu’il la faut imiter.</l>
-</lg>
 </quote>
 <p>M. Despréaux trouva du jargon dans ces deux vers, &amp; les rétablit de cette façon :</p>
 <quote>
-<lg>
 <l>Quand sur une personne on prétend se régler,</l>
 <l>C’est par ses beaux endroits, qu’il lui faut ressembler.</l>
-</lg>
 <p>(Bolœana, page 23.)</p>
 </quote>
     </div>
@@ -223,15 +219,11 @@
 </quote>
 <p>Moliere lui fit entendre qu’il avoit eu dessein de traiter ce sujet-là : mais qu’il demandoit d’être traité avec la derniere délicatesse : qu’il ne falloit point sur-tout faire comme Desmarets, dans ses Visionnaires qui a justement mis sur le Théatre des fous dignes des Petites-Maisons. Car, qu’un homme s’imagine être Alexandre, &amp; autres caracteres de pareille nature, cela ne peut arriver, que la cervelle ne soit tout-à-fait altérée : mais le dessein du Poëte Comique étoit de dépeindre plusieurs fous de société, qui tous auroient des manies pour lesquelles on ne renferme point, &amp; qui ne laisseroient pas de se faire le procès les uns aux autres, comme s’ils étoient moins fous pour avoir de différentes folies. Moliere avoit peut-être en vue cette idée, quand à la fin de sa premiere Scene de l’Ecole des Femmes, il fait dire d’Arnolphe par Chrisalde :</p>
 <pb n="19" /><quote>
-<lg>
 <l><hi rend="i">Ma foi, je le tien fou de toutes les manieres,</hi></l>
-</lg>
 </quote>
 <p>Arnolphe dit de son côté de Chrisalde :</p>
 <quote>
-<lg>
 <l><hi rend="i">Il est un peu blessé sur certaines matieres.</hi></l>
-</lg>
 </quote>
     </div>
     <div type="section" xml:id="XXVIII">

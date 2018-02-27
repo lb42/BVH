@@ -21,14 +21,14 @@
 </editionStmt>
 <publicationStmt>
     <publisher>Sorbonne Université, LABEX OBVIL</publisher>
-<date when="2017" />
+<date when="2018" />
 <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/moliere/critique/baillet_moliere_orig.xml</idno>
     <idno type="html">http://obvil.paris-sorbonne.fr/corpus/moliere/critique/baillet_moliere_orig.html</idno>
     <idno type="txt">http://obvil.paris-sorbonne.fr/corpus/moliere/critique/baillet_moliere_orig.txt</idno>
     <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/moliere/critique/baillet_moliere_orig.epub</idno>
 <availability status="restricted">
 <licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
-<p>Copyright © 2017 Université Paris-Sorbonne, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Copyright © 2018 Sorbonne Université, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
 <p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
 <p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
 <p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
@@ -62,10 +62,8 @@
 <p>C’est par ce moyen qu’il a sceu reformer, non pas les mœurs des Chrestiens, mais les défauts de la vie civile, &amp; de ce qu’on appelle le Train de ce monde, &amp; c’est sans doute tout ce qu’a voulu loüer en luy le P. Bouhours, par le jugement avantageux qu’il semble en avoir fait dans le Monument qu’il a dressé à sa Memoire, ou aprés l’avoir appellé<note type="numero" place="end"><p>Gill. Menage dans ses observations sur la langue Franc. seconde partie chapitre 4. pag. 15. de l’édit. de l’an 1676.</p></note> par rapport à ses talens naturels,</p>
 <pb n="114" /><ab type="ornament">*</ab>
 <quote>
-<lg>
 <l><hi rend="i">Ornement du Theâtre, incomparable Acteur,</hi></l>
 <l> <hi rend="i">Charmant Poëte, illustre Auteur,</hi></l>
-</lg>
 </quote>
 <p>Il ajoûte pour nous precautionner contre ses Partisans &amp; ses Admirateurs, &amp; pour nous specifier la qualité du service qu’il peut avoir rendu aux Gens du Monde,</p>
 <quote>
