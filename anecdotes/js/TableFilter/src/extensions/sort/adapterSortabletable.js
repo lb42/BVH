@@ -96,19 +96,13 @@ export default class AdapterSortableTable{
             }
 
             if(adpt.onAfterSort){
-                adpt.onAfterSort.call(null, tf, adpt.stt.sortColumn,
-                adpt.stt.descending);
+                adpt.onAfterSort.call(null, tf, adpt.stt.sortColumn);
             }
 
-            adpt.emitter.emit('column-sorted', tf, adpt.stt.sortColumn,
-                adpt.stt.descending);
+            adpt.emitter.emit('column-sorted', tf, adpt.stt.sortColumn);
         };
 
-        this.emitter.on(['sort'],
-            (tf, colIdx, desc)=> this.sortByColumnIndex(colIdx, desc));
-
         this.initialized = true;
-        this.emitter.emit('sort-initialized', tf, this);
     }
 
     /**
@@ -354,8 +348,6 @@ export default class AdapterSortableTable{
      */
     destroy(){
         let tf = this.tf;
-        this.emitter.off(['sort'],
-            (tf, colIdx, desc)=> this.sortByColumnIndex(colIdx, desc));
         this.sorted = false;
         this.initialized = false;
         this.stt.destroy();

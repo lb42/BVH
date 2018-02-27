@@ -17,18 +17,13 @@
     test('Filters row', function() {
         equal(tf.tbl.rows[0].className, 'fltrow', 'Filters row CSS class name');
         equal(tf.getFilterElement(0).nodeName, 'INPUT', 'Filter DOM element');
-        deepEqual(
-            tf.tbl.scrollWidth === tf.tbl.clientWidth,
-            true,
-            'Horizontal scrollbar is not displayed'
-        );
     });
+
 
     var tf1 = new TableFilter(
         document.querySelector('.test'),
         {
             base_path: '../dist/tablefilter/',
-            responsive: true,
             filters_row_index: 1,
             btn: true
         }
@@ -37,10 +32,8 @@
     var btn = document.querySelector('#'+tf1.prfxValButton+'4_'+tf1.id);
 
     module('Table 2: sanity checks');
-    test('TableFilter instance', function() {
+    test('TableFilter object', function() {
         notEqual(tf1.id, null, 'id check');
-        deepEqual(tf1.tbl.classList.contains(tf1.prfxResponsive), true,
-            'Responsive CSS class');
         equal(tf1.filtersRowIndex, 1, 'Filters row index');
         deepEqual(tf1.getCellsNb(), 5, 'filters type collection length');
     });
@@ -53,11 +46,6 @@
             'Filters row CSS class name'
         );
         equal(tf1.getFilterElement(0).nodeName, 'INPUT', 'Filter DOM element');
-        deepEqual(
-            tf1.tbl.scrollWidth > tf1.tbl.clientWidth,
-            true,
-            'Horizontal scrollbar is displayed'
-        );
     });
     test('Filter button', function(){
         notEqual(btn, null, 'Button exists');

@@ -1,6 +1,3 @@
-import Types from './types';
-import Str from './string';
-
 /**
  * DOM utilities
  */
@@ -13,10 +10,10 @@ export default {
      * @return {String}
      */
     getText(node){
-        if(Types.isUndef(node.textContent)) {
-            return Str.trim(node.innerText);
-        }
-        return Str.trim(node.textContent);
+        let s = node.textContent || node.innerText ||
+                node.innerHTML.replace(/<[^<>]+>/g, '');
+        s = s.replace(/^\s+/, '').replace(/\s+$/, '');
+        return s;
     },
 
     /**

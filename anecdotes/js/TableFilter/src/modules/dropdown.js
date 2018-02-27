@@ -5,9 +5,6 @@ import Str from '../string';
 import Sort from '../sort';
 import Event from '../event';
 
-const SORT_ERROR = 'Filter options for column {0} cannot be sorted in ' +
-    '{1} manner.';
-
 export class Dropdown extends Feature{
 
     /**
@@ -24,8 +21,10 @@ export class Dropdown extends Feature{
             false : true;
         //defines empty option text
         this.nonEmptyText = f.non_empty_text || '(Non empty)';
+        //sets select filling method: 'innerHTML' or 'createElement'
+        this.slcFillingMethod = f.slc_filling_method || 'createElement';
         //IE only, tooltip text appearing on select before it is populated
-        this.activateSlcTooltip = f.activate_slc_tooltip ||
+        this.activateSlcTooltip =  f.activate_slc_tooltip ||
             'Click to activate';
         //tooltip text appearing on multiple select
         this.multipleSlcTooltip = f.multiple_slc_tooltip ||
@@ -40,12 +39,14 @@ export class Dropdown extends Feature{
     onSlcFocus(e) {
         let elm = Event.target(e);
         let tf = this.tf;
+        tf.activeFilterId = elm.getAttribute('id');
+        tf.activeFlt = Dom.id(tf.activeFilterId);
         // select is populated when element has focus
         if(tf.loadFltOnDemand && elm.getAttribute('filled') === '0'){
             let ct = elm.getAttribute('ct');
             this.build(ct);
         }
-        this.emitter.emit('filter-focus', tf, elm);
+        this.emitter.emit('filter-focus', tf, this);
     }
 
     onSlcChange() {
@@ -116,8 +117,10 @@ export class Dropdown extends Feature{
      * Build drop-down filter UI
      * @param  {Number}  colIndex    Column index
      * @param  {Boolean} isLinked    Enable linked refresh behaviour
+     * @param  {Boolean} isExternal  Render in external container
+     * @param  {String}  extSlcId    External container id
      */
-    build(colIndex, isLinked=false){
+    build(colIndex, isLinked=false, isExternal=false, extSlcId=null){
         let tf = this.tf;
         colIndex = parseInt(colIndex, 10);
 
@@ -128,7 +131,11 @@ export class Dropdown extends Feature{
         this.slcInnerHtml = '';
 
         let slcId = tf.fltIds[colIndex];
-        let slc = Dom.id(slcId),
+        if((!Dom.id(slcId) && !isExternal) ||
+            (!Dom.id(extSlcId) && isExternal)){
+            return;
+        }
+        let slc = !isExternal ? Dom.id(slcId) : Dom.id(extSlcId),
             rows = tf.tbl.rows,
             matchCase = tf.matchCase;
 
@@ -136,10 +143,10 @@ export class Dropdown extends Feature{
         this.isCustom = tf.isCustomOptions(colIndex);
 
         //custom selects text
-        let activeIdx;
-        let activeFilterId = tf.getActiveFilterId();
-        if(isLinked && activeFilterId){
-            activeIdx = tf.getColumnIndexFromFilterId(activeFilterId);
+        let activeFlt;
+        if(isLinked && tf.activeFilterId){
+            activeFlt = tf.activeFilterId.split('_')[0];
+            activeFlt = activeFlt.split(tf.prfxFlt)[1];
         }
 
         let excludedOpts = null,
@@ -167,24 +174,24 @@ export class Dropdown extends Feature{
             // this loop retrieves cell data
             for(let j=0; j<nchilds; j++){
                 // WTF: cyclomatic complexity hell
-                if((colIndex === j &&
+                if((colIndex===j &&
                     (!isLinked ||
                         (isLinked && tf.disableExcludedOptions))) ||
-                    (colIndex === j && isLinked &&
+                    (colIndex==j && isLinked &&
                         ((rows[k].style.display === '' && !tf.paging) ||
                     (tf.paging && (!tf.validRowsIndex ||
                         (tf.validRowsIndex &&
                             tf.validRowsIndex.indexOf(k) != -1)) &&
-                        ((activeIdx === undefined || activeIdx === colIndex) ||
-                            (activeIdx != colIndex &&
+                        ((activeFlt===undefined || activeFlt==colIndex)  ||
+                            (activeFlt!=colIndex &&
                                 tf.validRowsIndex.indexOf(k) != -1 ))) ))){
-                    let cellData = tf.getCellData(cell[j]),
+                    let cell_data = tf.getCellData(cell[j]),
                         //Vary Peter's patch
-                        cellString = Str.matchCase(cellData, matchCase);
+                        cell_string = Str.matchCase(cell_data, matchCase);
 
                     // checks if celldata is already in array
-                    if(!Arr.has(this.opts, cellString, matchCase)){
-                        this.opts.push(cellData);
+                    if(!Arr.has(this.opts, cell_string, matchCase)){
+                        this.opts.push(cell_data);
                     }
 
                     if(isLinked && tf.disableExcludedOptions){
@@ -192,10 +199,10 @@ export class Dropdown extends Feature{
                         if(!filteredCol){
                             filteredCol = tf.getFilteredDataCol(j);
                         }
-                        if(!Arr.has(filteredCol, cellString, matchCase) &&
+                        if(!Arr.has(filteredCol, cell_string, matchCase) &&
                             !Arr.has(
-                                excludedOpts, cellString, matchCase)){
-                            excludedOpts.push(cellData);
+                                excludedOpts, cell_string, matchCase)){
+                            excludedOpts.push(cell_data);
                         }
                     }
                 }//if colIndex==j
@@ -222,33 +229,43 @@ export class Dropdown extends Feature{
         }
 
         //asc sort
-        if(tf.sortNumAsc.indexOf(colIndex) != -1){
+        if(tf.sortNumAsc && tf.sortNumAsc.indexOf(colIndex) != -1){
             try{
-                this.opts.sort(Sort.numSortAsc);
+                this.opts.sort( numSortAsc );
                 if(excludedOpts){
-                    excludedOpts.sort(Sort.numSortAsc);
+                    excludedOpts.sort(numSortAsc);
                 }
                 if(this.isCustom){
-                    this.optsTxt.sort(Sort.numSortAsc);
+                    this.optsTxt.sort(numSortAsc);
                 }
             } catch(e) {
-                throw new Error(SORT_ERROR.replace('{0}', colIndex)
-                    .replace('{1}', 'ascending'));
+                this.opts.sort();
+                if(excludedOpts){
+                    excludedOpts.sort();
+                }
+                if(this.isCustom){
+                    this.optsTxt.sort();
+                }
             }//in case there are alphanumeric values
         }
         //desc sort
-        if(tf.sortNumDesc.indexOf(colIndex) != -1){
+        if(tf.sortNumDesc && tf.sortNumDesc.indexOf(colIndex) != -1){
             try{
-                this.opts.sort(Sort.numSortDesc);
+                this.opts.sort(numSortDesc);
                 if(excludedOpts){
-                    excludedOpts.sort(Sort.numSortDesc);
+                    excludedOpts.sort(numSortDesc);
                 }
                 if(this.isCustom){
-                    this.optsTxt.sort(Sort.numSortDesc);
+                    this.optsTxt.sort(numSortDesc);
                 }
             } catch(e) {
-                throw new Error(SORT_ERROR.replace('{0}', colIndex)
-                    .replace('{1}', 'ascending'));
+                this.opts.sort();
+                if(excludedOpts){
+                    excludedOpts.sort();
+                }
+                if(this.isCustom){
+                    this.optsTxt.sort();
+                }
             }//in case there are alphanumeric values
         }
 
@@ -267,6 +284,7 @@ export class Dropdown extends Feature{
      */
     addOptions(colIndex, slc, isLinked, excludedOpts){
         let tf = this.tf,
+            fillMethod = Str.lower(this.slcFillingMethod),
             slcValue = slc.value;
 
         slc.innerHTML = '';
@@ -288,20 +306,33 @@ export class Dropdown extends Feature{
                 isDisabled = true;
             }
 
-            let opt;
-            //fill select on demand
-            if(tf.loadFltOnDemand && slcValue === this.opts[y] &&
-                tf.getFilterType(colIndex) === tf.fltTypeSlc){
-                opt = Dom.createOpt(lbl, val, true);
+            if(fillMethod === 'innerhtml'){
+                let slcAttr = '';
+                if(tf.loadFltOnDemand && slcValue===this.opts[y]){
+                    slcAttr = 'selected="selected"';
+                }
+                this.slcInnerHtml += '<option value="'+val+'" ' + slcAttr +
+                    (isDisabled ? 'disabled="disabled"' : '')+ '>' +
+                    lbl+'</option>';
             } else {
-                opt = Dom.createOpt(lbl, val, false);
+                let opt;
+                //fill select on demand
+                if(tf.loadFltOnDemand && slcValue===this.opts[y] &&
+                    tf.getFilterType(colIndex) === tf.fltTypeSlc){
+                    opt = Dom.createOpt(lbl, val, true);
+                } else {
+                    opt = Dom.createOpt(lbl, val, false);
+                }
+                if(isDisabled){
+                    opt.disabled = true;
+                }
+                slc.appendChild(opt);
             }
-            if(isDisabled){
-                opt.disabled = true;
-            }
-            slc.appendChild(opt);
         }// for y
 
+        if(fillMethod === 'innerhtml'){
+            slc.innerHTML += this.slcInnerHtml;
+        }
         slc.setAttribute('filled', '1');
     }
 
@@ -310,21 +341,28 @@ export class Dropdown extends Feature{
      * @param {Object} slc Select DOM element
      */
     addFirstOption(slc){
-        let tf = this.tf;
+        let tf = this.tf,
+            fillMethod = Str.lower(this.slcFillingMethod);
 
-        let opt0 = Dom.createOpt(
-            (!this.enableSlcResetFilter ? '' : tf.displayAllText),'');
-        if(!this.enableSlcResetFilter){
-            opt0.style.display = 'none';
+        if(fillMethod === 'innerhtml'){
+            this.slcInnerHtml += '<option value="">'+ tf.displayAllText +
+                '</option>';
         }
-        slc.appendChild(opt0);
-        if(tf.enableEmptyOption){
-            let opt1 = Dom.createOpt(tf.emptyText, tf.emOperator);
-            slc.appendChild(opt1);
-        }
-        if(tf.enableNonEmptyOption){
-            let opt2 = Dom.createOpt(tf.nonEmptyText, tf.nmOperator);
-            slc.appendChild(opt2);
+        else {
+            let opt0 = Dom.createOpt(
+                (!this.enableSlcResetFilter ? '' : tf.displayAllText),'');
+            if(!this.enableSlcResetFilter){
+                opt0.style.display = 'none';
+            }
+            slc.appendChild(opt0);
+            if(tf.enableEmptyOption){
+                let opt1 = Dom.createOpt(tf.emptyText, tf.emOperator);
+                slc.appendChild(opt1);
+            }
+            if(tf.enableNonEmptyOption){
+                let opt2 = Dom.createOpt(tf.nonEmptyText, tf.nmOperator);
+                slc.appendChild(opt2);
+            }
         }
         return slc;
     }

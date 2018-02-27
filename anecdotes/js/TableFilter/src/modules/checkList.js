@@ -5,9 +5,6 @@ import Str from '../string';
 import Sort from '../sort';
 import Event from '../event';
 
-const SORT_ERROR = 'Filter options for column {0} cannot be sorted in ' +
-    '{1} manner.';
-
 export class CheckList extends Feature{
 
     /**
@@ -51,9 +48,10 @@ export class CheckList extends Feature{
     }
 
     onChange(evt){
-        let elm = Event.target(evt);
+        let elm = evt.target;
         let tf = this.tf;
-        this.emitter.emit('filter-focus', tf, elm);
+        tf.activeFilterId = elm.getAttribute('id');
+        tf.activeFlt = Dom.id(tf.activeFilterId);
         tf.filter();
     }
 
@@ -122,8 +120,10 @@ export class CheckList extends Feature{
     /**
      * Build checklist UI
      * @param  {Number}  colIndex   Column index
+     * @param  {Boolean} isExternal Render in external container
+     * @param  {String}  extFltId   External container id
      */
-    build(colIndex){
+    build(colIndex, isExternal=false, extFltId=null){
         let tf = this.tf;
         colIndex = parseInt(colIndex, 10);
 
@@ -132,7 +132,13 @@ export class CheckList extends Feature{
         this.opts = [];
         this.optsTxt = [];
 
-        let flt = this.checkListDiv[colIndex];
+        let divFltId = this.prfxCheckListDiv+colIndex+'_'+tf.id;
+        if((!Dom.id(divFltId) && !isExternal) ||
+            (!Dom.id(extFltId) && isExternal)){
+            return;
+        }
+
+        let flt = !isExternal ? this.checkListDiv[colIndex] : Dom.id(extFltId);
         let ul = Dom.create(
             'ul', ['id', tf.fltIds[colIndex]], ['colIndex', colIndex]);
         ul.className = this.checkListCssClass;
@@ -141,18 +147,16 @@ export class CheckList extends Feature{
         let rows = tf.tbl.rows;
         this.isCustom = tf.isCustomOptions(colIndex);
 
-        let activeIdx;
-        let activeFilterId = tf.getActiveFilterId();
-        if(tf.linkedFilters && activeFilterId){
-            activeIdx = tf.getColumnIndexFromFilterId(activeFilterId);
+        let activeFlt;
+        if(tf.linkedFilters && tf.activeFilterId){
+            activeFlt = tf.activeFilterId.split('_')[0];
+            activeFlt = activeFlt.split(tf.prfxFlt)[1];
         }
 
         let filteredDataCol = [];
         if(tf.linkedFilters && tf.disableExcludedOptions){
             this.excludedOpts = [];
         }
-
-        flt.innerHTML = '';
 
         for(let k=tf.refRow; k<tf.nbRows; k++){
             // always visible rows don't need to appear on selects as always
@@ -172,30 +176,29 @@ export class CheckList extends Feature{
             // this loop retrieves cell data
             for(let j=0; j<ncells; j++){
                 // WTF: cyclomatic complexity hell :)
-                if((colIndex === j && (!tf.linkedFilters ||
+                if((colIndex===j && (!tf.linkedFilters ||
                     (tf.linkedFilters && tf.disableExcludedOptions)))||
-                    (colIndex === j && tf.linkedFilters &&
+                    (colIndex===j && tf.linkedFilters &&
                     ((rows[k].style.display === '' && !tf.paging) ||
-                    (tf.paging && ((!activeIdx || activeIdx === colIndex )||
-                    (activeIdx != colIndex &&
+                    (tf.paging && ((!activeFlt || activeFlt===colIndex )||
+                    (activeFlt!=colIndex &&
                         tf.validRowsIndex.indexOf(k) != -1)) )))){
-
-                    let cellData = tf.getCellData(cells[j]);
+                    let cell_data = tf.getCellData(cells[j]);
                     //Vary Peter's patch
-                    let cellString = Str.matchCase(cellData, tf.matchCase);
+                    let cell_string = Str.matchCase(cell_data, tf.matchCase);
                     // checks if celldata is already in array
-                    if(!Arr.has(this.opts, cellString, tf.matchCase)){
-                        this.opts.push(cellData);
+                    if(!Arr.has(this.opts, cell_string, tf.matchCase)){
+                        this.opts.push(cell_data);
                     }
                     let filteredCol = filteredDataCol[j];
                     if(tf.linkedFilters && tf.disableExcludedOptions){
                         if(!filteredCol){
                             filteredCol = tf.getFilteredDataCol(j);
                         }
-                        if(!Arr.has(filteredCol, cellString, tf.matchCase) &&
+                        if(!Arr.has(filteredCol, cell_string, tf.matchCase) &&
                             !Arr.has(this.excludedOpts,
-                                cellString, tf.matchCase)){
-                            this.excludedOpts.push(cellData);
+                                cell_string, tf.matchCase)){
+                            this.excludedOpts.push(cell_data);
                         }
                     }
                 }
@@ -223,33 +226,42 @@ export class CheckList extends Feature{
             }
         }
         //asc sort
-        if(tf.sortNumAsc.indexOf(colIndex) != -1){
+        if(tf.sortNumAsc && tf.sortNumAsc.indexOf(colIndex) != -1){
             try{
-                this.opts.sort(Sort.numSortAsc);
+                this.opts.sort(numSortAsc);
                 if(this.excludedOpts){
-                    this.excludedOpts.sort(Sort.numSortAsc);
+                    this.excludedOpts.sort(numSortAsc);
                 }
                 if(this.isCustom){
-                    this.optsTxt.sort(Sort.numSortAsc);
+                    this.optsTxt.sort(numSortAsc);
                 }
             } catch(e) {
-                throw new Error(SORT_ERROR.replace('{0}', colIndex)
-                    .replace('{1}', 'ascending'));
+                this.opts.sort();
+                if(this.excludedOpts){
+                    this.excludedOpts.sort();
+                }
+                if(this.isCustom){
+                    this.optsTxt.sort();
+                }
             }//in case there are alphanumeric values
         }
         //desc sort
-        if(tf.sortNumDesc.indexOf(colIndex) != -1){
+        if(tf.sortNumDesc && tf.sortNumDesc.indexOf(colIndex) != -1){
             try{
-                this.opts.sort(Sort.numSortDesc);
+                this.opts.sort(numSortDesc);
                 if(this.excludedOpts){
-                    this.excludedOpts.sort(Sort.numSortDesc);
+                    this.excludedOpts.sort(numSortDesc);
                 }
                 if(this.isCustom){
-                    this.optsTxt.sort(Sort.numSortDesc);
+                    this.optsTxt.sort(numSortDesc);
                 }
             } catch(e) {
-                throw new Error(SORT_ERROR.replace('{0}', colIndex)
-                    .replace('{1}', 'descending'));
+                this.opts.sort();
+                if(this.excludedOpts){
+                    this.excludedOpts.sort(); }
+                if(this.isCustom){
+                    this.optsTxt.sort();
+                }
             }//in case there are alphanumeric values
         }
 
@@ -347,15 +359,17 @@ export class CheckList extends Feature{
         if(!o){
             return;
         }
-
         let tf = this.tf;
         let chkValue = o.value; //checked item value
-        // TODO: provide helper to extract column index, ugly!
         let chkIndex = parseInt(o.id.split('_')[2], 10);
-        let colIdx = tf.getColumnIndexFromFilterId(o.id);
-        let itemTag = 'LI';
+        let filterTag = 'ul', itemTag = 'li';
+        let n = o;
 
-        let n = tf.getFilterElement(parseInt(colIdx, 10));
+        //ul tag search
+        while(Str.lower(n.nodeName)!==filterTag){
+            n = n.parentNode;
+        }
+
         let li = n.childNodes[chkIndex];
         let colIndex = n.getAttribute('colIndex');
         let fltValue = n.getAttribute('value'); //filter value (ul tag)
@@ -363,7 +377,7 @@ export class CheckList extends Feature{
 
         if(o.checked){
             //show all item
-            if(chkValue === ''){
+            if(chkValue===''){
                 if((fltIndexes && fltIndexes!=='')){
                     //items indexes
                     let indSplit = fltIndexes.split(tf.separator);
@@ -385,7 +399,8 @@ export class CheckList extends Feature{
 
             } else {
                 fltValue = (fltValue) ? fltValue : '';
-                chkValue = Str.trim(fltValue+' '+chkValue+' '+tf.orOperator);
+                chkValue = Str.trim(
+                    fltValue+' '+chkValue+' '+tf.orOperator);
                 chkIndex = fltIndexes + chkIndex + tf.separator;
                 n.setAttribute('value', chkValue);
                 n.setAttribute('indexes', chkIndex);
@@ -395,13 +410,13 @@ export class CheckList extends Feature{
                 }
             }
 
-            if(li.nodeName === itemTag){
+            if(Str.lower(li.nodeName) === itemTag){
                 Dom.removeClass(
                     n.childNodes[0], this.checkListSlcItemCssClass);
                 Dom.addClass(li, this.checkListSlcItemCssClass);
             }
         } else { //removes values and indexes
-            if(chkValue !== ''){
+            if(chkValue!==''){
                 let replaceValue = new RegExp(
                         Str.rgxEsc(chkValue+' '+tf.orOperator));
                 fltValue = fltValue.replace(replaceValue,'');
@@ -412,7 +427,7 @@ export class CheckList extends Feature{
                 fltIndexes = fltIndexes.replace(replaceIndex, '');
                 n.setAttribute('indexes', fltIndexes);
             }
-            if(li.nodeName === itemTag){
+            if(Str.lower(li.nodeName)===itemTag){
                 Dom.removeClass(li, this.checkListSlcItemCssClass);
             }
         }

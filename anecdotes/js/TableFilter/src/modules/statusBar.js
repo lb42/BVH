@@ -27,9 +27,9 @@ export class StatusBar extends Feature{
         //defines status bar text
         this.statusBarText = f.status_bar_text || '';
         //defines css class status bar
-        this.statusBarCssClass = f.status_bar_css_class || 'status';
+        this.statusBarCssClass = f.status_bar_css_class || 'statusf';
         //delay for status bar clearing
-        this.statusBarCloseDelay = 250;
+        this.statusBarCloseDelay =  250;
 
         //calls function before message is displayed
         this.onBeforeShowMsg = Types.isFn(f.on_before_show_msg) ?
@@ -118,11 +118,11 @@ export class StatusBar extends Feature{
         emitter.on(['before-filtering'], ()=> this.message(this.msgFilter));
         emitter.on(['before-populating-filter'],
             ()=> this.message(this.msgPopulate));
-        emitter.on(['before-page-change'],
+        emitter.on(['before-changing-page'],
             ()=> this.message(this.msgChangePage));
         emitter.on(['before-clearing-filters'], ()=>
             this.message(this.msgClear));
-        emitter.on(['before-page-length-change'],
+        emitter.on(['before-changing-results-per-page'],
             ()=> this.message(this.msgChangeResults));
         emitter.on(['before-reset-page'], ()=> this.message(this.msgResetPage));
         emitter.on(['before-reset-page-length'],
@@ -133,15 +133,16 @@ export class StatusBar extends Feature{
             ()=> this.message(this.msgLoadThemes));
 
         emitter.on([
-            'after-filtering',
-            'after-populating-filter',
-            'after-page-change',
-            'after-clearing-filters',
-            'after-page-length-change',
-            'after-reset-page',
-            'after-reset-page-length',
-            'after-loading-extensions',
-            'after-loading-themes'],
+                'after-filtering',
+                'after-populating-filter',
+                'after-changing-page',
+                'after-clearing-filters',
+                'after-changing-results-per-page',
+                'after-reset-page',
+                'after-reset-page-length',
+                'after-loading-extensions',
+                'after-loading-themes'
+            ],
             ()=> this.message('')
         );
 
@@ -188,11 +189,11 @@ export class StatusBar extends Feature{
         emitter.off(['before-filtering'], ()=> this.message(this.msgFilter));
         emitter.off(['before-populating-filter'],
             ()=> this.message(this.msgPopulate));
-        emitter.off(['before-page-change'],
+        emitter.off(['before-changing-page'],
             ()=> this.message(this.msgChangePage));
         emitter.off(['before-clearing-filters'],
             ()=> this.message(this.msgClear));
-        emitter.off(['before-page-length-change'],
+        emitter.off(['before-changing-results-per-page'],
             ()=> this.message(this.msgChangeResults));
         emitter.off(['before-reset-page'], ()=>
             this.message(this.msgResetPage));
@@ -204,15 +205,16 @@ export class StatusBar extends Feature{
             ()=> this.message(this.msgLoadThemes));
 
         emitter.off([
-            'after-filtering',
-            'after-populating-filter',
-            'after-page-change',
-            'after-clearing-filters',
-            'after-page-length-change',
-            'after-reset-page',
-            'after-reset-page-length',
-            'after-loading-extensions',
-            'after-loading-themes'],
+                'after-filtering',
+                'after-populating-filter',
+                'after-changing-page',
+                'after-clearing-filters',
+                'after-changing-results-per-page',
+                'after-reset-page',
+                'after-reset-page-length',
+                'after-loading-extensions',
+                'after-loading-themes'
+            ],
             ()=> this.message('')
         );
 

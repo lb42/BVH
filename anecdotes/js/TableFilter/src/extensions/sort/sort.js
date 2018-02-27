@@ -1,3 +1,4 @@
+// import 'script!sortabletable';
 import AdapterSortableTable from './adapterSortabletable';
 
 if(!window.SortableTable){

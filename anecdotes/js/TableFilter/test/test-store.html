@@ -2,14 +2,21 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>TableFilter no headers tests</title>
+        <title>TableFilter store</title>
         <link rel="stylesheet" href="libs/qunit/qunit.css">
         <script src="libs/qunit/qunit.js"></script>
         <script src="libs/polyfill.js"></script>
     </head>
     <body>
-        <table id="demo">
+        <table id="demo" cellpadding="0" cellspacing="0">
             <tbody>
+                <tr>
+                    <th>From</th>
+                    <th>Destination</th>
+                    <th>Road Distance (km)</th>
+                    <th>By Air (hrs)</th>
+                    <th>By Rail (hrs)</th>
+                </tr>
                 <tr>
                     <td><strong>Sydney</strong></td>
                     <td>Adelaide</td>
@@ -63,7 +70,7 @@
         </table>
 
         <script src="../dist/tablefilter/tablefilter.js"></script>
-        <script src="test-no-headers.js"></script>
+        <script src="test-store.js"></script>
 
         <div id="qunit"></div>
         <div id="qunit-fixture"></div>

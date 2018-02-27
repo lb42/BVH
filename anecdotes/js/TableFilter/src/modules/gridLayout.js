@@ -35,7 +35,6 @@ export class GridLayout extends Feature{
         //generate filters in table headers
         this.gridEnableFilters = f.grid_enable_default_filters!==undefined ?
             f.grid_enable_default_filters : true;
-        this.noHeaders = Boolean(f.grid_no_headers);
         //default col width
         this.gridDefaultColWidth = f.grid_default_col_width || '100px';
 
@@ -96,7 +95,7 @@ export class GridLayout extends Feature{
             }
             tf.hasColWidths = true;
         }
-        tf.setColWidths();
+        tf.setColWidths(this.gridHeadRowIndex);
 
         let tblW;//initial table width
         if(tbl.width !== ''){
@@ -118,7 +117,7 @@ export class GridLayout extends Feature{
         tbl.parentNode.insertBefore(this.tblMainCont, tbl);
 
         //Table container: div wrapping content table
-        this.tblCont = Dom.create('div', ['id', this.prfxTblCont + tf.id]);
+        this.tblCont = Dom.create('div',['id', this.prfxTblCont + tf.id]);
         this.tblCont.className = this.gridContCssClass;
         if(this.gridWidth){
             if(this.gridWidth.indexOf('%') != -1){
@@ -184,19 +183,11 @@ export class GridLayout extends Feature{
                 tf.externalFltTgtIds[j] = fltTdId;
             }
         }
-
         //Headers row are moved from content table to headers table
-        if(!this.noHeaders) {
-            for(let i=0; i<this.gridHeadRows.length; i++){
-                let headRow = tbl.rows[this.gridHeadRows[0]];
-                tH.appendChild(headRow);
-            }
-        } else {
-            // Handle table with no headers, assuming here headers do not
-            // exist
-            tH.appendChild(Dom.create('tr'));
+        for(let i=0; i<this.gridHeadRows.length; i++){
+            let headRow = tbl.rows[this.gridHeadRows[0]];
+            tH.appendChild(headRow);
         }
-
         this.headTbl.appendChild(tH);
         if(tf.filtersRowIndex === 0){
             tH.insertBefore(filtersRow, hRow);
@@ -221,7 +212,7 @@ export class GridLayout extends Feature{
         // this.headTbl.style.width = tbl.style.width;
 
         //content table without headers needs col widths to be reset
-        tf.setColWidths(this.headTbl);
+        tf.setColWidths(0, this.headTbl);
 
         //Headers container width
         // this.headTblCont.style.width = this.tblCont.clientWidth+'px';

@@ -69,7 +69,7 @@ export class PopupFilter extends Feature{
             var popUpDiv = this.popUpFltElms[colIndex],
                 header = this.tf.getHeaderElement(colIndex),
                 headerWidth = header.clientWidth * 0.95;
-            popUpDiv.style.width = parseInt(headerWidth, 10) + 'px';
+            popUpDiv.style.width = parseInt(headerWidth, 10)  + 'px';
         }
         Event.cancel(evt);
         Event.stop(evt);
@@ -151,7 +151,7 @@ export class PopupFilter extends Feature{
         tf.externalFltTgtIds.push(popUpDiv.id);
         var header = tf.getHeaderElement(colIndex);
         header.insertBefore(popUpDiv, header.firstChild);
-        Event.add(popUpDiv, 'click', (evt) => Event.stop(evt));
+        Event.add(popUpDiv, 'click', (evt) => { Event.stop(evt); });
         this.popUpFltElms[colIndex] = popUpDiv;
     }
 

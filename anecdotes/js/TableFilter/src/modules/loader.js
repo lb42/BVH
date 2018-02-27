@@ -67,27 +67,29 @@ export class Loader extends Feature{
 
         // Subscribe to events
         emitter.on([
-            'before-filtering',
-            'before-populating-filter',
-            'before-page-change',
-            'before-clearing-filters',
-            'before-page-length-change',
-            'before-reset-page',
-            'before-reset-page-length',
-            'before-loading-extensions',
-            'before-loading-themes'],
+                'before-filtering',
+                'before-populating-filter',
+                'before-changing-page',
+                'before-clearing-filters',
+                'before-changing-results-per-page',
+                'before-reset-page',
+                'before-reset-page-length',
+                'before-loading-extensions',
+                'before-loading-themes'
+            ],
             ()=> this.show('')
         );
         emitter.on([
-            'after-filtering',
-            'after-populating-filter',
-            'after-page-change',
-            'after-clearing-filters',
-            'after-page-length-change',
-            'after-reset-page',
-            'after-reset-page-length',
-            'after-loading-extensions',
-            'after-loading-themes'],
+                'after-filtering',
+                'after-populating-filter',
+                'after-changing-page',
+                'after-clearing-filters',
+                'after-changing-results-per-page',
+                'after-reset-page',
+                'after-reset-page-length',
+                'after-loading-extensions',
+                'after-loading-themes'
+            ],
             ()=> this.show('none')
         );
 
@@ -128,27 +130,29 @@ export class Loader extends Feature{
 
         // Unsubscribe to events
         emitter.off([
-            'before-filtering',
-            'before-populating-filter',
-            'before-page-change',
-            'before-clearing-filters',
-            'before-page-length-change',
-            'before-reset-page',
-            'before-reset-page-length',
-            'before-loading-extensions',
-            'before-loading-themes'],
+                'before-filtering',
+                'before-populating-filter',
+                'before-changing-page',
+                'before-clearing-filters',
+                'before-changing-results-per-page',
+                'before-reset-page',
+                'before-reset-page-length',
+                'before-loading-extensions',
+                'before-loading-themes'
+            ],
             ()=> this.show('')
         );
         emitter.off([
-            'after-filtering',
-            'after-populating-filter',
-            'after-page-change',
-            'after-clearing-filters',
-            'after-page-length-change',
-            'after-reset-page',
-            'after-reset-page-length',
-            'after-loading-extensions',
-            'after-loading-themes'],
+                'after-filtering',
+                'after-populating-filter',
+                'after-changing-page',
+                'after-clearing-filters',
+                'after-changing-results-per-page',
+                'after-reset-page',
+                'after-reset-page-length',
+                'after-loading-extensions',
+                'after-loading-themes'
+            ],
             ()=> this.show('none')
         );
 
