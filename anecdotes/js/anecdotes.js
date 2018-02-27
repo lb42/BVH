@@ -9,7 +9,7 @@ $(document).ready(function() {
     gravity: 'e'
   });
   var tfConfig1 = {
-    base_path: 'js/TableFilter/dist/tablefilter/',
+    base_path: './js/TableFilter/dist/tablefilter/',
     auto_filter: true,
 		auto_filter_delay: 100,
     // rows_always_visible: [2, 3],
@@ -27,7 +27,7 @@ $(document).ready(function() {
 
   };
   var tfConfig2 = {
-    base_path: 'TableFilter/dist/tablefilter/',
+    base_path: './js/TableFilter/dist/tablefilter/',
     auto_filter: true,
     //rows_always_visible: [2, 3],
     watermark: "Filtrer",
