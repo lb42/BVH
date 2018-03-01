@@ -63,7 +63,7 @@
                         <pubPlace>Paris</pubPlace>, <publisher>Fr. Amb. Didot aîné</publisher>,
                         <date>1772</date>, 527 p. Source : <ref
                         target="http://www.archive.org/details/delartdelacom01cail">Internet
-                        Archive</ref>.</bibl>
+                        Archive</ref>. Errata intégré.</bibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc>
@@ -539,7 +539,7 @@
                     élans de son génie ? non sans doute. Tels sont les grands hommes dans tous les
                     genres.</p>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-01">
+            <div type="chapter" xml:id="livre-01_chapitre-01">
                 <pb n="25"/>
                 <pb n="25"/>
                 <head>CHAPITRE PREMIER.<lb/><hi rend="i">Du Choix d’un Sujet.</hi></head>
@@ -911,7 +911,7 @@
                         l’<hi rend="i">âge</hi>, du <hi rend="i">rang</hi>, du <hi rend="i">nom des
                         personnages</hi>.</p>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-02">
+            <div type="chapter" xml:id="livre-01_chapitre-02">
                 <head>CHAPITRE II.<lb/><hi rend="i">De l’Etat, de la Fortune, de l’Age, du Rang, du
                         Nom des Personnages.</hi></head>
                 <p>C’est <hi rend="i">le sujet</hi> qu’un Auteur a choisi, qui doit déterminer l’<hi
@@ -920,7 +920,7 @@
                     plusieurs <pb n="39"/>autres qualités d’un drame. Quelques Comiques n’ont pas
                     daigné réfléchir sur cette vérité. <hi rend="i">Moliere</hi> &amp; bien d’autres
                     l’ont vivement sentie.</p>
-                <div type="section" xml:id="livre-1_chapitre-02_section-1">
+                <div type="section" xml:id="livre-01_chapitre-02_section-01">
                     <head><hi rend="i">De l’Etat.</hi></head>
                     <p><hi rend="i">Le Procureur Arbitre</hi>, comédie en vers, en un acte, de <hi
                             rend="i">Poisson</hi>, se présente la premiere à mon imagination, &amp;
@@ -1016,7 +1016,7 @@
                         de leurs noces : c’est beaucoup pour elles, j’en conviens ; ce n’est pas
                         assez pour les hommes en général.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-01_section-2">
+                <div type="section" xml:id="livre-01_chapitre-01_section-02">
                     <head><hi rend="i">De la Fortune.</hi></head>
                     <p><hi rend="i">Destouches</hi> a voulu prouver que l’homme le plus vain
                         s’humanise à l’aspect d’un coffre-fort<note place="bottom"><p>Nous
@@ -1198,7 +1198,7 @@
                         hiver, &amp; si un jeune chevalier qui fait la cour à la dame aura un
                         régiment.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-01_section-3">
+                <div type="section" xml:id="livre-01_chapitre-01_section-03">
                     <pb n="48"/>
                     <head><hi rend="i">De l’Age.</hi></head>
                     <p>L’âge des principaux personnages contribue autant que leur fortune à rendre
@@ -1566,7 +1566,7 @@
                         Faites-la plus vieille, elle n’a plus de quoi plaire, elle cesse d’être
                         intéressante, &amp; nous n’avons plus de piece.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-01_section-4">
+                <div type="section" xml:id="livre-01_chapitre-01_section-04">
                     <head><hi rend="i">Du Rang.</hi></head>
                     <p>Graces à la vanité mal entendue des Auteurs qui ont succédé à <hi rend="i"
                             >Moliere</hi>, il est devenu indécent de mettre des bourgeois sur la
@@ -1702,7 +1702,7 @@
                         est une foiblesse de la part du Public, &amp; une lâcheté de la part des
                         Auteurs.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-01_section-5">
+                <div type="section" xml:id="livre-01_chapitre-01_section-05">
                     <pb n="65"/>
                     <head><hi rend="i">Des Noms.</hi></head>
                     <p>Il est aisé de voir, dans nombre de nos pieces, que leurs Auteurs se sont
@@ -2049,7 +2049,7 @@
                         parlerons dans le volume où il sera question des genres.</p>
                 </div>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-03">
+            <div type="chapter" xml:id="livre-01_chapitre-03">
                 <head>CHAPITRE III.<lb/><hi rend="i">Choix du lieu de la Scene.</hi></head>
                 <p>Toutes les parties d’une comédie doivent être enchaînées l’une à l’autre ;
                     chacune tient à celle qui la précede, &amp; en dépend. Quand un Auteur s’est une
@@ -2569,7 +2569,7 @@
                     jaloux de l’opéra, aiment que la toile, en se levant, présente un coup d’œil
                     agréable : les Auteurs comiques ont une ambition toute opposée.</p>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-04">
+            <div type="chapter" xml:id="livre-01_chapitre-04">
                 <head>CHAPITRE IV.<lb/><hi rend="i">Du Choix du Titre.</hi></head>
                 <p>Il est plus difficile qu’on ne pense de bien intituler une piece. Il en est du
                         <hi rend="i">titre</hi>, comme du sujet que l’Auteur a choisi, du but qu’il
@@ -2599,7 +2599,7 @@
                     puisqu’il n’en est que trois, celui qui promet un caractere, celui qui dénote
                     une intrigue, &amp; celui qui annonce un personnage intéressant. Je souris à mon
                     tour, &amp; je continue.</p>
-                <div type="section" xml:id="livre-1_chapitre-04_section-1">
+                <div type="section" xml:id="livre-01_chapitre-04_section-01">
                     <head><hi rend="i">Titres pris d’une seule Scene.</hi></head>
                     <p>Je n’hésite point à prononcer sur les <hi rend="i">titres</hi> de <pb n="95"
                         />cette espece, ils sont tous mauvais. Tel est celui du <hi rend="i">Dépit
@@ -2649,7 +2649,7 @@
                         Commandeur tué, qui s’appelle <hi rend="i">Dom Pedre</hi>, a donné lieu à
                         l’équivoque.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-04_section-2">
+                <div type="section" xml:id="livre-01_chapitre-04_section-02">
                     <head><hi rend="i">Titres qui annoncent une double Intrigue.</hi></head>
                     <p><hi rend="sc">Exemple.</hi>
                         <hi rend="i">Le Retour imprévu</hi>, ou l’<hi rend="i">Obstacle sans
@@ -2660,7 +2660,7 @@
                         l’obstacle, c’est un défaut dans le drame, qu’il est très imprudent
                         d’annoncer sur l’affiche.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-04_section-3">
+                <div type="section" xml:id="livre-01_chapitre-04_section-03">
                     <head><hi rend="i">Titres qui annoncent un Caractere &amp; une
                         Intrigue.</hi></head>
                     <p><hi rend="i">Titres</hi> encore toujours mauvais. <hi rend="sc">Exemple.</hi>
@@ -2672,7 +2672,7 @@
                         étrangere au caractere, ou le caractere à l’intrigue, c’est une grande faute
                         sur laquelle on ne doit pas prévenir le spectateur.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-04_section-4">
+                <div type="section" xml:id="livre-01_chapitre-04_section-04">
                     <head><hi rend="i">Titres qui annoncent en même temps l’Intrigue &amp; le
                             Dénouement.</hi></head>
                     <p>On ne peut pas dire que ces <hi rend="i">titres</hi> soient précisément
@@ -2707,7 +2707,7 @@
                         &amp; a privé le spectateur d’une agréable surprise, causée par un événement
                         qu’il eût désiré sans oser l’espérer.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-04_section-5">
+                <div type="section" xml:id="livre-01_chapitre-04_section-05">
                     <head><hi rend="i">Titres qui annoncent un Personnage &amp; une
                         Intrigue.</hi></head>
                     <p>Tel est le <hi rend="i">titre</hi> du chef-d’œuvre comique ; <hi rend="i"
@@ -2725,7 +2725,7 @@
                         des Italiens, parceque c’est le rang &amp; non le grand nom des personnages
                         qui doit donner le ton à la jalousie.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-04_section-6">
+                <div type="section" xml:id="livre-01_chapitre-04_section-06">
                     <head><hi rend="i">Titres qui annoncent un double Caractere.</hi></head>
                     <p><hi rend="i">Le Dissipateur</hi>, ou <hi rend="i">l’Honnête Fripponne</hi> ;
                             l’<hi rend="i">Ambitieux</hi>, ou <hi rend="i">l’Indiscrete</hi>, de <hi
@@ -2741,7 +2741,7 @@
                         excellents, médiocrement bons, ou tout-à-fait mauvais, selon qu’ils tiennent
                         plus ou moins ce qu’ils promettent.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-04_section-7">
+                <div type="section" xml:id="livre-01_chapitre-04_section-07">
                     <head><hi rend="i">Titres qui annoncent une chose utile à l’Action.</hi></head>
                     <p><hi rend="i">La Casa con dos puertas</hi> (<hi rend="i">la Maison à deux
                             portes</hi>) des Espagnols ; <hi rend="i">le Tambour Nocturne</hi> de
@@ -2769,7 +2769,7 @@
                         par le croquis seul de cette piece, qu’elle est bien intitulée, puisque
                         l’intrigue est bâtie &amp; roule sur des perdrix.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-04_section-8">
+                <div type="section" xml:id="livre-01_chapitre-04_section-08">
                     <head><hi rend="i">Titres qui établissent le lieu de la Scene.</hi></head>
                     <p><hi rend="i">Le Café</hi> de <hi rend="i">Rousseau, le Port de mer</hi> de
                             <hi rend="i">la Motte, le Bal, l’Impromptu de Versailles</hi> de <hi
@@ -2780,7 +2780,7 @@
                         d’une répétition de comédie, qui pouvoit se faire partout ailleurs qu’à
                         Versailles : ainsi ce titre n’est pas merveilleux.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-04_section-9">
+                <div type="section" xml:id="livre-01_chapitre-04_section-09">
                     <head><hi rend="i">Titres qui annoncent un Personnage.</hi></head>
                     <p><hi rend="i">Mélanide</hi>, de <hi rend="i">La Chaussée ; l’Andrienne</hi>,
                         de <hi rend="i">Térence ; Pourceaugnac</hi>, de <hi rend="i">Moliere ; le
@@ -2792,7 +2792,7 @@
                         la comédie, un valet de paroître sous son nom, pour dénouer la piece ; aussi
                         est-elle aussi mal dénouée que mal intitulée.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-04_section-10">
+                <div type="section" xml:id="livre-01_chapitre-04_section-010">
                     <head><hi rend="i">Titres qui promettent des Moralités.</hi></head>
                     <p><hi rend="i">L’Ecole des Maris, l’Ecole des Amis, l’Ecole <pb n="101"/>des
                             Meres, l’Ecole des Cocus.</hi> Les trois premiers titres sont bons, en
@@ -2800,7 +2800,7 @@
                         meres. Le dernier ne l’est pas, puisque dans la piece le héros finit par
                         céder sa femme : n’est-ce pas une bonne leçon ?</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-04_section-11">
+                <div type="section" xml:id="livre-01_chapitre-04_section-011">
                     <head><hi rend="i">Titres qui annoncent la Patrie du principal
                         Personnage.</hi></head>
                     <p><hi rend="i">La Parisienne</hi>, de <hi rend="i">d’Ancourt ; Arlequin
@@ -2816,7 +2816,7 @@
                         peut se rencontrer que dans le climat où les héros ont pris naissance : le
                         titre qui l’annonce est donc excellent.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-04_section-12">
+                <div type="section" xml:id="livre-01_chapitre-04_section-012">
                     <head><hi rend="i">Titres qui fixent la saison pendant laquelle l’action se
                             passe.</hi></head>
                     <p><hi rend="i">Les Vendanges.</hi> L’intrigue roule sur quelques personnes que
@@ -2824,7 +2824,7 @@
                         plus grand nombre de mauvais titres : le lecteur en doit tant
                         connoître !</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-04_section-13">
+                <div type="section" xml:id="livre-01_chapitre-04_section-013">
                     <pb n="102"/>
                     <head><hi rend="i">Titres qui marquent en même temps la saison pendant laquelle
                             l’action se passe, &amp; l’état ou le caractere des
@@ -2838,7 +2838,7 @@
                         s’amusent avec des Abbés, des Financiers, des Maîtres à chanter : par
                         conséquent, elle est très bien intitulée.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-04_section-14">
+                <div type="section" xml:id="livre-01_chapitre-04_section-014">
                     <head><hi rend="i">Titres qui distinguent les nuances que l’Auteur veut peindre
                             dans un caractere, dans un état, un ridicule, une passion,
                         &amp;c.</hi></head>
@@ -2858,7 +2858,7 @@
                         des Chapitres destinés aux pieces à caracteres.</p>
                 </div>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-05">
+            <div type="chapter" xml:id="livre-01_chapitre-05">
                 <pb n="103"/>
                 <head>CHAPITRE V.<lb/><hi rend="i">Des Vers &amp; de la Prose dans les
                         Comédies.</hi></head>
@@ -3142,7 +3142,7 @@
                 </quote>
                 <p>Citons un exemple plus considérable.</p>
                 <label>LE SICILIEN, ou L’AMOUR PEINTRE.</label>
-                <label>ACTE I. <hi rend="sc">Scene</hi> I.</label>
+                <label>ACTE I. <hi rend="sc">Scene</hi> II.</label>
                 <quote>
                     <p>Il fait noir comme dans un four. Le ciel s’est habillé ce soir en
                         scaramouche ; &amp; je ne vois pas une étoile qui montre le bout de son nez.
@@ -3308,7 +3308,7 @@
                 </quote>
 
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-06">
+            <div type="chapter" xml:id="livre-01_chapitre-06">
                 <head>CHAPITRE VI.<lb/><hi rend="i">Des Prologues.</hi></head>
                 <p>Chez les <hi rend="i">Grecs</hi> le <hi rend="i">Prologue</hi> étoit une des
                     parties essentielles de la comédie ; chez les <hi rend="i">Latins</hi>, un des
@@ -3385,7 +3385,7 @@
                     comédiens ne nous donnent point autre chose : peut-être par cette nouveauté
                     l’emporteroient-ils sur <hi rend="i">l’Opéra Comique</hi>. Examinons bien leurs
                     différents genres, &amp; voyons à quoi ils peuvent être bons.</p>
-                <div type="section" xml:id="livre-1_chapitre-06_section-1">
+                <div type="section" xml:id="livre-01_chapitre-06_section-01">
                     <head><hi rend="i">Prologue fait pour solliciter l’indulgence du
                             Spectateur.</hi></head>
                     <p>Il est très aisé de prouver que le public n’a nul égard aux prieres qu’on lui
@@ -3411,7 +3411,7 @@
                         l’Auteur n’eût pas été une femme, &amp; si on ne lui eût pas demandé son
                         indulgence ?</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-06_section-2">
+                <div type="section" xml:id="livre-01_chapitre-06_section-02">
                     <pb n="121"/>
                     <head><hi rend="i">Prologue fait pour demander l’attention du
                         Public.</hi></head>
@@ -3422,7 +3422,7 @@
                         fois, il tenta de la faire reparoître dans la même année avec le <hi
                             rend="i">prologue</hi> qui suit.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-06_section-3">
+                <div type="section" xml:id="livre-01_chapitre-06_section-03">
                     <head><hi rend="i">Prologue de la seconde représentation de
                         l’Hecyre.</hi></head>
                     <quote>
@@ -3459,7 +3459,7 @@
                         ne voulut entendre que le premier acte. Ce ne fut qu’à la troisieme
                         tentative de l’Auteur qu’on daigna écouter la piece d’un bout à l’autre.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-06_section-4">
+                <div type="section" xml:id="livre-01_chapitre-06_section-04">
                     <head><hi rend="i">Des Prologues où l’Auteur se plaint de quelqu’un de ses
                             Rivaux.</hi></head>
                     <p>J’ai fait voir que les Latins s’impatientoient d’entendre <hi rend="i"
@@ -3555,7 +3555,7 @@
                         jetter des pierres à <hi rend="i">Regnard</hi> : cependant la piece du
                         dernier triompha ; pourquoi. Parcequ’elle plut davantage.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-06_section-5">
+                <div type="section" xml:id="livre-01_chapitre-06_section-05">
                     <head><hi rend="i">Prologues qui exposent l’avant-scene.</hi><lb/>
                         <hi rend="i">Prologues qui la mettent en action.</hi><lb/>
                         <hi rend="i">Prologues qui instruisent les spectateurs du sujet, de
@@ -3954,7 +3954,7 @@
                             >prologue</hi> pour nous prouver qu’il ne faut pas en faire.</p>
                 </div>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-07">
+            <div type="chapter" xml:id="livre-01_chapitre-07">
                 <head>CHAPITRE VII.<lb/><hi rend="i">De l’Exposition.</hi></head>
                 <p>L’exposition d’une piece est très difficile à faire. Il faut tant de choses pour
                     la rendre bonne, que nous n’en avons qu’un petit nombre sur notre scene, même
@@ -3969,7 +3969,7 @@
                         >expositions</hi> qui doivent être englobées dans l’<hi rend="i"
                         >exposition</hi> générale, &amp; qu’il est pourtant bon de traiter
                     séparément.</p>
-                <div type="section" xml:id="livre-1_chapitre-07_section-1">
+                <div type="section" xml:id="livre-01_chapitre-07_section-01">
                     <head><hi rend="i">Exposition du lieu de la Scene.</hi></head>
                     <p>Le premier acteur qui paroît doit satisfaire là-dessus les spectateurs ; ou,
                         si la premiere scene n’est qu’un monologue sans conséquence, il doit
@@ -4024,7 +4024,7 @@
                             >Moliere</hi> fit <hi rend="i">le Dépit Amoureux</hi>, il les imitoit
                         jusques dans leurs défauts.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-07_section-2">
+                <div type="section" xml:id="livre-01_chapitre-07_section-02">
                     <head><hi rend="i">Exposition des événements qui ont précédé
                         l’action.</hi></head>
                     <p>Cette <hi rend="i">exposition</hi> est une narration de ce qui s’est passé
@@ -4033,7 +4033,7 @@
                         faire à lui-même, ou à quelque autre personnage : il n’y a que ces deux
                         moyens ; chacun peut être bon &amp; très défectueux. Voici en quoi.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-07_section-3">
+                <div type="section" xml:id="livre-01_chapitre-07_section-03">
                     <head><hi rend="i">Exposition que l’Acteur se fait.</hi></head>
                     <p>Si le personnage se fait de sang froid une longue récapitulation de ce qu’il
                         sait déja, la mal-adresse de l’Auteur perce ; l’<hi rend="i">exposition</hi>
@@ -4069,7 +4069,7 @@
                         vraisemblable ; &amp;, d’après cela, je conclus hardiment que l’<hi rend="i"
                             >exposition</hi> est mauvaise.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-07_section-4">
+                <div type="section" xml:id="livre-01_chapitre-07_section-04">
                     <head><hi rend="i">Exposition faite à un autre personnage.</hi></head>
                     <p>En suivant cette seconde route on instruit le spectateur en feignant
                         d’instruire un des personnages de la piece ; par conséquent ce personnage
@@ -4294,24 +4294,24 @@
                         scene, &amp; lui débite cruellement cent quarante-quatre vers pour lui
                         apprendre qu’il étoit autrefois <pb n="149"/>fort content de son fils, &amp;
                         qu’il ne l’est plus tant ; qu’il se doute de son amour pour l’<hi rend="i"
-                            >Andrienne</hi> ; que cette <hi rend="i">Andrienne</hi> étoit jadis fort
-                        laborieuse &amp; très retirée chez elle, mais que depuis elle a changé de
-                        conduite. Il l’instruit enfin des moyens qu’il veut employer pour savoir
-                        s’il doit quereller son fils ou non. A quoi bon cette longue confidence ?
-                            <hi rend="i">Sosie</hi> est-il intéressé à savoir tout cela ? Non. <hi
-                            rend="i">Simon</hi> a-t-il intérêt à l’apprendre à <hi rend="i"
-                            >Sosie</hi> ? Il le semble d’abord, puisqu’il le charge d’épier la
-                        conduite de son fils, &amp; de lui faire une fausse confidence ; mais c’est
-                        un prétexte de l’Auteur. <hi rend="i">Sosie</hi> ne sert à rien dans la
-                        piece, d’ailleurs son maître pouvoit se servir de lui sans lui confier son
-                        secret ; &amp; <hi rend="i">Simon</hi> a un triple tort, celui d’aller
-                        bavarder avec un pauvre diable qui n’a que faire de ce qu’il lui apprend,
-                        celui de se choisir un confident qui ne lui sera d’aucune utilité, du moins
-                        aux yeux du spectateur, &amp; celui de donner, par cette confidence
-                        importante, du relief &amp; de la consistance à un personnage qu’on ne
-                        reverra plus.</p>
+                            >Andrienne</hi> ; que <hi rend="i">Chrisis</hi>, sœur de cette <hi
+                            rend="i">Andrienne</hi> étoit jadis fort laborieuse &amp; très retirée
+                        chez elle, mais que depuis elle a changé de conduite. Il l’instruit enfin
+                        des moyens qu’il veut employer pour savoir s’il doit quereller son fils ou
+                        non. A quoi bon cette longue confidence ? <hi rend="i">Sosie</hi> est-il
+                        intéressé à savoir tout cela ? Non. <hi rend="i">Simon</hi> a-t-il intérêt à
+                        l’apprendre à <hi rend="i">Sosie</hi> ? Il le semble d’abord, puisqu’il le
+                        charge d’épier la conduite de son fils, &amp; de lui faire une fausse
+                        confidence ; mais c’est un prétexte de l’Auteur. <hi rend="i">Sosie</hi> ne
+                        sert à rien dans la piece, d’ailleurs son maître pouvoit se servir de lui
+                        sans lui confier son secret ; &amp; <hi rend="i">Simon</hi> a un triple
+                        tort, celui d’aller bavarder avec un pauvre diable qui n’a que faire de ce
+                        qu’il lui apprend, celui de se choisir un confident qui ne lui sera d’aucune
+                        utilité, du moins aux yeux du spectateur, &amp; celui de donner, par cette
+                        confidence importante, du relief &amp; de la consistance à un personnage
+                        qu’on ne reverra plus.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-07_section-5">
+                <div type="section" xml:id="livre-01_chapitre-07_section-05">
                     <head><hi rend="i">Exposition de l’état actuel, de l’action &amp; des moyens qui
                             doivent servir à la marche de l’intrigue, à ses développements, au jeu
                             des ressorts, &amp;c.</hi></head>
@@ -4363,7 +4363,7 @@
                         projet qu’il ne sauroit démêler, mais qu’il desire ardemment de voir
                         remplir.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-07_section-6">
+                <div type="section" xml:id="livre-01_chapitre-07_section-06">
                     <head><hi rend="i">Exposition des Personnages.</hi></head>
                     <p>Il est encore juste que le spectateur connoisse les personnages qui doivent
                         concourir à des événements auxquels il s’intéresse. Il attend avec
@@ -4537,7 +4537,7 @@
                         frais de l’intrigue, &amp; partager les lauriers de son concurrent ? Point
                         du tout, elle ne parle plus.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-07_section-7">
+                <div type="section" xml:id="livre-01_chapitre-07_section-07">
                     <head><hi rend="i">L’exposition doit être claire &amp; rapide.</hi></head>
                     <p>Le moyen le plus sûr pour donner à l’<hi rend="i">exposition</hi> ces deux
                         qualités, est de la débarrasser non seulement des personnages &amp; des
@@ -4725,7 +4725,7 @@
                         servante ne l’excuse point ; au contraire, elle est une inutilité de
                         plus.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-07_section-8">
+                <div type="section" xml:id="livre-01_chapitre-07_section-08">
                     <pb n="163"/>
                     <head><hi rend="i">Il faut que l’exposition finisse avec le premier
                         acte.</hi></head>
@@ -4793,7 +4793,7 @@
                         doivent partir toutes les racines.</p>
                 </div>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-08">
+            <div type="chapter" xml:id="livre-01_chapitre-08">
                 <pb n="165"/>
                 <head>CHAPITRE VIII.<lb/><hi rend="i">De l’Action, du Nœud, des
                     Incidents.</hi></head>
@@ -4950,7 +4950,7 @@
                     bien loin. Il n’en est pas ainsi des <hi rend="i">incidents</hi> qui nouent
                     l’action de <hi rend="i">Pourceaugnac</hi> ; ils sont tous favorables aux
                     amants, &amp; contraires au héros. Tout autre que <hi rend="i">Moliere</hi>
-                    auroit rendu les mystifications des Limousins aussi ennuyeuses que celles de <hi
+                    auroit rendu les mystifications du Limousin aussi ennuyeuses que celles de <hi
                         rend="i">Dom Japhet</hi>. Il a paré le coup en grand maître ; il n’est pas
                     un seul de ces <hi rend="i">incidents</hi> qui ne serve au dénouement, puisque
                     tous tendent à faire prendre la fuite au héros qu’on veut chasser. De toutes les
@@ -4984,7 +4984,7 @@
                         rend="i">incident</hi> le plus petit en apparence produit de grands
                     effets.</p>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-09">
+            <div type="chapter" xml:id="livre-01_chapitre-09">
                 <pb n="172"/>
                 <head>CHAPITRE IX.<lb/><hi rend="i">Du point où doit commencer l’action d’une fable
                         comique.</hi></head>
@@ -5154,7 +5154,7 @@
                             <l> Et si de <hi rend="i">la chaussée.</hi></l>
                         </quote></note>, ou par celui de la diction, dont nous allons parler.</p>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-10">
+            <div type="chapter" xml:id="livre-01_chapitre-10">
                 <pb n="178"/>
                 <head>CHAPITRE X.<lb/><hi rend="i">De la Diction.</hi></head>
                 <p>Il faut que la <hi rend="i">diction</hi> d’une comédie soit, comme toutes ses
@@ -5166,7 +5166,7 @@
                 <p>Le discours le plus familier est celui qui convient le plus à la comédie, &amp;
                     le seul que les bons Auteurs de tous les siecles &amp; de toutes les nations
                     aient employé.</p>
-                <div type="section" xml:id="livre-1_chapitre-10_section-1">
+                <div type="section" xml:id="livre-01_chapitre-10_section-01">
                     <head><hi rend="i">Diction des Anciens.</hi></head>
                     <p>La comédie Grecque n’a jamais, &amp; dans aucun <pb n="179"/>sujet, employé
                         d’autre style que le familier. Prenons un exemple dans <hi rend="i"
@@ -5271,8 +5271,8 @@
                         dans la marche, dans les dénouements, &amp; leur froide symmétrie, au
                         comique inconcevable &amp; varié qui regne dans les vingt comédies de <hi
                             rend="i">Plaute</hi> ; &amp; cela seulement parceque le premier est plus
-                        châtié, plus élégant. Il n’est pas question de prouver ici que le génie doit
-                        l’emporter sur l’esprit de détail. Malheur à ceux qui balancent. Il est
+                        châtié, plus élégant. Il n’est pas question de faire voir ici que le génie
+                        doit l’emporter sur l’esprit de détail. Malheur à ceux qui balancent. Il est
                         question de prouver que ce même <hi rend="i">Térence</hi>, si poli, si
                         recherché, est infiniment plus naturel que nos Modernes. Prenons, pour le
                         prouver, le moment intéressant où <hi rend="i">Pamphile</hi>, amoureux de
@@ -5299,7 +5299,7 @@
                             désobéisse ? Que je suis malheureux ! Je ne sais quel parti prendre.</p>
                     </quote>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-10_section-2">
+                <div type="section" xml:id="livre-01_chapitre-10_section-02">
                     <head><hi rend="i">Diction des François.</hi></head>
                     <p>Toutes les nations se sont imposé la loi des Anciens : les Anglois, les
                         Allemands sont simples dans leur diction : les Italiens, les Espagnols même
@@ -5765,7 +5765,7 @@
                         que de la stérilité des Auteurs : la moindre réflexion suffit pour le
                         prouver.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-10_section-3">
+                <div type="section" xml:id="livre-01_chapitre-10_section-03">
                     <head><hi rend="i">Diction d’esprit.</hi></head>
                     <p>Les Auteurs qui sont venus après le pere de la vraie comédie, ont, je n’en
                         doute point, tenté de marcher sur les traces de ce grand homme, &amp; de
@@ -5809,7 +5809,7 @@
                     <p>Le même Prince voyoit jouer le ** par ses comédiens ; les beaux esprits qui
                         l’entouroient sourioient à tous les traits fins, délicats, à toutes les
                         épigrammes dont cette piece fourmille. Leur bienfaiteur, surpris de
-                        n’éprouver pas la même sensation, leur en demandant la cause : Sire, lui
+                        n’éprouver pas la même sensation, leur en demanda la cause : Sire, lui
                         répondirent-ils, il faudroit, pour bien sentir toutes les finesses de cette
                         piece, que Votre Majesté connût Paris comme nous. Oui ! dit le Prince. Ah !
                         je comprends : mais je n’ai pas besoin de me <pb n="200"/>transporter à
@@ -5922,7 +5922,7 @@
                         cabinet.</p>
                 </div>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-11">
+            <div type="chapter" xml:id="livre-01_chapitre-11">
                 <pb n="204"/>
                 <head>CHAPITRE XI.<lb/><hi rend="i">Du Dialogue.</hi></head>
                 <p>Le <hi rend="i">dialogue</hi>, dit-on communément, doit être coupé, rapide :
@@ -6089,10 +6089,10 @@
                     piquante, sans autre secours que celui d’un <hi rend="i">dialogue</hi>
                     coupé.</p>
                 <p>Pour faire sentir à mes Lecteurs la vérité de ce que je dis, je crois très à
-                    propos de leur faire comparer une partie de la seconde scene du <hi rend="i"
-                        >Phormion</hi> de <hi rend="i">Térence</hi>, avec une partie de la seconde
-                    scene des <hi rend="i">Fourberies de Scapin</hi> de <hi rend="i">Moliere</hi>.
-                    La situation est la même, les personnages disent <pb n="210"/>à-peu-près la même
+                    propos de comparer une partie de la seconde scene du <hi rend="i">Phormion</hi>
+                    de <hi rend="i">Térence</hi>, avec une partie de la seconde scene des <hi
+                        rend="i">Fourberies de Scapin</hi> de <hi rend="i">Moliere</hi>. La
+                    situation est la même, les personnages disent <pb n="210"/>à-peu-près la même
                     chose, puisque <hi rend="i">Moliere</hi> n’a presque fait, en cet endroit, que
                     copier <hi rend="i">Térence</hi> : toute la différence consistera donc dans
                     l’art de <hi rend="i">dialoguer</hi>.</p>
@@ -6483,7 +6483,7 @@
                     situation, &amp; ils ont coupé, pressé, ralenti leur <hi rend="i">dialogue</hi>
                     en conséquence.</p>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-12">
+            <div type="chapter" xml:id="livre-01_chapitre-12">
                 <pb n="223"/>
                 <head>CHAPITRE XII.<lb/><hi rend="i">Des Scenes.</hi></head>
                 <p>L’art de filer une <hi rend="i">scene</hi> m’a toujours paru si difficile, &amp;
@@ -7318,7 +7318,7 @@
                     nous conduire, par un sentier fleuri, vers une issue qui nous rejette dans le
                     centre.</p>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-13">
+            <div type="chapter" xml:id="livre-01_chapitre-13">
                 <pb n="250"/>
                 <head>CHAPITRE XIII.<lb/><hi rend="i">De la liaison des Scenes.</hi></head>
                 <p>Puisqu’on ne peut représenter sur le théâtre qu’une seule action sensible, il est
@@ -7622,7 +7622,7 @@
                     &amp; plus propres à la marche d’un drame ? quelle erreur ! Passons à l’article
                     qui les regarde.</p>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-14">
+            <div type="chapter" xml:id="livre-01_chapitre-14">
                 <head>CHAPITRE XIV.<lb/><hi rend="i">Des Monologues.</hi></head>
                 <p>Les Monologues ont leurs critiques &amp; leurs partisans. Les uns les bannissent
                     totalement du théâtre, les autres au contraire se passionnent pour eux, les
@@ -8022,7 +8022,7 @@
                                 rend="i">le Malade imaginaire</hi>.</p></note>, de même les bons <hi
                         rend="i">monologues</hi> sont bons : il est question de les bien faire.</p>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-15">
+            <div type="chapter" xml:id="livre-01_chapitre-15">
                 <pb n="274"/>
                 <head>CHAPITRE XV.<lb/><hi rend="i">Des Actes.</hi></head>
                 <p>Les Anciens appelloient <hi rend="i">acte</hi> la partie d’un drame qu’ils
@@ -8090,7 +8090,7 @@
                 <p>L’essentiel est de bien posséder son sujet avant que de distribuer les <hi
                         rend="i">actes</hi>. Malheur à l’Auteur qui n’en a jamais vu qu’un à la
                     fois. Il faut connoître si bien son plan, qu’on puisse le parcourir en entier
-                    dans un seul coup d’œil ; en voir en même temps les endroits saillants ou
+                    d’un seul coup d’œil ; en voir en même temps les endroits saillants ou
                     médiocres ; &amp; les diviser si bien dans chaque <hi rend="i">acte</hi>, qu’ils
                     partagent également les beautés &amp; les défauts, &amp; que, loin de se nuire,
                     ils se servent mutuellement. <hi rend="i">Moliere</hi> a mis deux scenes
@@ -8456,7 +8456,7 @@
                         éternueroit ; ainsi voilà la piece finie. »</quote> En effet elle n’alla pas
                     plus loin.</p>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-16">
+            <div type="chapter" xml:id="livre-01_chapitre-16">
                 <pb n="289"/>
                 <head>CHAPITRE XVI.<lb/><hi rend="i">De l’Entr’acte.</hi></head>
                 <p>J’aime fort la comparaison qu’on a toujours faite de la peinture avec la poésie :
@@ -8574,7 +8574,7 @@
                     entiere, leur joie ou leur désespoir peindroit leur passion avec le crayon le
                     plus énergique. Le moins excusable de tous les Auteurs est celui du <hi rend="i"
                         >Joueur Anglois</hi>. Quel effet n’auroit pas produit son <hi rend="i"
-                        >Béverlai</hi>, s’il nous l’eût fait voir dans l’infame tripot où sa fortune
+                        >Béverlai</hi>, s’il nous l’eût fait voir dans l’instant fatal où sa fortune
                     s’engloutit, &amp; entouré de tous les frippons qui se la partagent ! Quel
                     tableau vigoureux, sur-tout dans un pays &amp; sur un théâtre où le mot de
                     décence n’étouffe point le talent, ne lui fait pas un crime de sa hardiesse, ne
@@ -8962,7 +8962,7 @@
                     &amp; lâche flatterie compromet son jugement &amp; le fait siffler des
                     connoisseurs. Je n’avois donc point à balancer.</p>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-17">
+            <div type="chapter" xml:id="livre-01_chapitre-17">
                 <head>CHAPITRE XVII.<lb/><hi rend="i">De l’Art de prévenir les
                     Critiques.</hi></head>
                 <p>On n’est jamais plus convaincu de l’art &amp; de la profondeur d’un Comique, que
@@ -9041,8 +9041,8 @@
                     précédente, trouvera, sans contredit, les propos d’<hi rend="i">Elmire</hi> très
                     hardis, &amp; les critiquera ; mais il leur applaudira tout au contraire s’il a
                     saisi la façon ingénieuse avec laquelle <hi rend="i">Moliere</hi> prépare le
-                    spectateur à entendre les choses les plus fortes, &amp; à prévenir sa critique
-                    en lui prouvant qu’elles sont nécessaires.</p>
+                    spectateur à entendre les choses les plus fortes, &amp; prévient sa critique en
+                    lui prouvant qu’elles sont nécessaires.</p>
                 <label><hi rend="sc">Scene</hi> IV.</label>
                 <quote>
                     <label type="speaker">Elmire, <hi rend="i">à son mari</hi>.</label>
@@ -9141,7 +9141,7 @@
                         rend="i">Palaprat</hi> ne peut qu’avoir été très mauvaise de tout temps,
                     &amp; le sera toujours.</p>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-18">
+            <div type="chapter" xml:id="livre-01_chapitre-18">
                 <pb n="314"/>
                 <head>CHAPITRE XVIII.<lb/><hi rend="i">De la Décence &amp; de
                     l’Indécence.</hi></head>
@@ -9173,7 +9173,7 @@
                     du sujet, quelques autres par l’exécution ; on en voit un plus grand nombre qui
                     n’ont que des expressions, des détails indécents : mais les unes &amp; les
                     autres sont très vicieuses.</p>
-                <div type="section" xml:id="livre-1_chapitre-18_section-1">
+                <div type="section" xml:id="livre-01_chapitre-18_section-01">
                     <head><hi rend="i">Indécence dans le détail.</hi></head>
                     <p>Les Auteurs sans génie sont, sans contredit, ceux qui ont jetté un plus grand
                         nombre d’<hi rend="i">indécences</hi> dans leurs détails : trop foibles pour
@@ -9248,8 +9248,8 @@
                             rien de ça au moins ; je vous avertis, car je suis brutal.</p>
                     </quote>
                     <p>Le Capitaine étoit venu dans le dessein de <pb n="318"/>troubler
-                        l’acquisition du procureur ; il change de dessein en faveur de la fille de
-                        ce même procureur dont il est amoureux.</p>
+                        l’acquisition du procureur ; il change d’avis en faveur de la fille de ce
+                        même procureur dont il est amoureux.</p>
                     <quote>
                         <label type="speaker">Maugrebleu.</label>
                         <p>Ah ! les choses s’accommoderont, je vois bien cela : l’acquisition
@@ -9273,7 +9273,7 @@
                     <p>Il m’auroit été aisé de citer des traits plus forts, mais je serois devenu
                         moi-même indécent.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-18_section-2">
+                <div type="section" xml:id="livre-01_chapitre-18_section-02">
                     <head><hi rend="i">Indécence dans l’exécution.</hi></head>
                     <p>Les <hi rend="i">indécences</hi> de cette seconde espece sont beaucoup plus
                         dangereuses que les premieres, plus sensibles, &amp; occupent plus
@@ -9333,7 +9333,7 @@
                         vertueuse qui ayant conduit sa fille au spectacle en croyant lui procurer un
                         plaisir innocent, se voit forcée de rougir doublement à ses côtés !</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-18_section-3">
+                <div type="section" xml:id="livre-01_chapitre-18_section-03">
                     <head><hi rend="i">Indécence dans le sujet.</hi></head>
                     <p>Malheur à tout Auteur comique qui sourit à un sujet indécent, &amp; qui cede
                         au desir de le <pb n="321"/>traiter. Il en est de la <hi rend="i"
@@ -9988,7 +9988,7 @@
                     </quote>
                 </div>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-19">
+            <div type="chapter" xml:id="livre-01_chapitre-19">
                 <head>CHAPITRE XIX.<lb/><hi rend="i">De la Gradation.</hi></head>
                 <p>Il ne suffit pas de mettre de belles choses dans une comédie, il faut les placer
                     avec goût, &amp; de façon que les premieres n’enchérissent pas sur les secondes,
@@ -10139,7 +10139,7 @@
                     &amp; finit enfin par lui faire craindre d’être pendu. S’il eût commencé par le
                     dernier moyen, les lavements, les créanciers, les femmes, les enfants, loin de
                     produire le moindre effet sur le héros &amp; le public, auroient été du dernier
-                    pistolet.</p>
+                    pitoyable.</p>
                 <p>Plusieurs de mes lecteurs vont s’écrier peut-être, qu’il n’étoit pas nécessaire
                     d’écrire une vérité incontestable, qui n’est ignorée de personne. Ceux qui
                     diront cela se tromperont. On joue tous les jours sur notre théâtre des pieces
@@ -10299,7 +10299,7 @@
                     pas y en avoir. J’ai déja dit mon avis là-dessus. Parlons présentement d’une
                     partie bien essentielle au théâtre, des <hi rend="i">unités</hi>.</p>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-20">
+            <div type="chapter" xml:id="livre-01_chapitre-20">
                 <pb n="352"/>
                 <head>CHAPITRE XX.<lb/><hi rend="i">Des Unités.</hi></head>
                 <p>On compte ordinairement trois especes d’<hi rend="i">unité ; unité</hi> de temps,
@@ -10308,7 +10308,7 @@
                     nécessaire à la comédie, l’<hi rend="i">unité</hi> d’intérêt. Mais ce qui
                     regarde cette derniere, trouvera assez sa place dans l’article de l’intérêt
                     même ; je ne vais donc parler que des trois premieres.</p>
-                <div type="section" xml:id="livre-1_chapitre-20_section-1">
+                <div type="section" xml:id="livre-01_chapitre-20_section-01">
                     <head><hi rend="i">De l’Unité de temps.</hi></head>
                     <p><hi rend="i">Aristote</hi>, ce grand philosophe, si souvent cité, si souvent
                         commenté, a dit <hi rend="i">que la durée d’une action dramatique doit être
@@ -10388,7 +10388,7 @@
                         veillions <hi rend="i">M. Argant</hi> &amp; toute sa famille pendant qu’ils
                         dorment, puisque leur sommeil ne fait rien à la piece.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-20_section-2">
+                <div type="section" xml:id="livre-01_chapitre-20_section-02">
                     <head><hi rend="i">De l’Unité du lieu.</hi></head>
                     <p><hi rend="i">Aristote</hi> auroit bien dû nous dicter des loix sur l’<hi
                             rend="i">unité du lieu</hi>, il auroit épargné bien des disputes à ses
@@ -10494,7 +10494,7 @@
                     <p>Ce sont les grandes difficultés qu’il est beau de vaincre, &amp; c’est en
                         triomphant d’elles que nos maîtres ont su s’assurer l’immortalité.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-20_section-3">
+                <div type="section" xml:id="livre-01_chapitre-20_section-03">
                     <head><hi rend="i">De l’Unité de Fable ou d’Action.</hi></head>
                     <p>Quelques Commentateurs ont entendu par <hi rend="i">unité d’action</hi>,
                         qu’il ne falloit employer pour le sujet d’une piece qu’une action unique
@@ -10733,7 +10733,7 @@
                         d’adresse : voyons le parti qu’on peut en tirer.</p>
                 </div>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-21">
+            <div type="chapter" xml:id="livre-01_chapitre-21">
                 <pb n="367"/>
                 <head>CHAPITRE XXI.<lb/><hi rend="i">De l’Amour.</hi></head>
                 <p>L’amour est absolument nécessaire sur la scene comique. <hi rend="i"
@@ -11272,7 +11272,7 @@
                     point affadir leurs pieces en croyant les rendre touchantes. Combien de gens
                     n’ont pas l’idée qu’ils devroient avoir de l’intérêt théâtral !</p>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-22">
+            <div type="chapter" xml:id="livre-01_chapitre-22">
                 <head>CHAPITRE XXII.<lb/><hi rend="i">De l’Intérêt.</hi></head>
                 <p>L’intérêt est l’ame de la piece : sans lui un drame, quel qu’il soit, ne fait que
                     naître &amp; mourir.</p>
@@ -11623,7 +11623,7 @@
                 <p>J’ai cru voir qu’on pense ajouter beaucoup à l’intérêt d’une piece en la
                     remplissant de reconnoissances : elles seront le sujet de l’article suivant.</p>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-23">
+            <div type="chapter" xml:id="livre-01_chapitre-23">
                 <head>CHAPITRE XXIII.<lb/><hi rend="i">Des Reconnoissances.</hi></head>
                 <p>Les Auteurs comiques de tous les siecles, de toutes les nations, ont tous fait
                     des <hi rend="i">reconnoissances</hi>. Nos Modernes, extrêmes en tout, en ont
@@ -11636,7 +11636,7 @@
                     divisons-les en trois classes ; savoir, les <hi rend="i">reconnoissances</hi>
                     larmoyantes, les <hi rend="i">reconnoissances</hi> comiques, &amp; les <hi
                         rend="i">reconnoissances</hi> en récit.</p>
-                <div type="section" xml:id="livre-1_chapitre-23_section-1">
+                <div type="section" xml:id="livre-01_chapitre-23_section-01">
                     <head><hi rend="i">Reconnoissances larmoyantes.</hi></head>
                     <p>Autrefois un Auteur comique n’osoit qu’en tremblant risquer une situation
                         larmoyante sur la scene comique ; à présent, les larmes en font tout
@@ -11775,7 +11775,7 @@
                             plaisir qui soit gai, &amp; qui ne ressemble pas si fort au
                             chagrin ».</quote></p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-23_section-2">
+                <div type="section" xml:id="livre-01_chapitre-23_section-02">
                     <head><hi rend="i">Reconnoissances comiques.</hi></head>
                     <p>Il est si difficile de rendre une <hi rend="i">reconnoissance</hi> bien
                         comique, que je ne puis citer pour exemple le pere de la bonne comédie, <hi
@@ -12145,7 +12145,7 @@
                             plaît... . . . . . . . . . .</p>
                     </quote>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-23_section-3">
+                <div type="section" xml:id="livre-01_chapitre-23_section-03">
                     <head><hi rend="i">Reconnoissances en récit.</hi></head>
                     <p>Les Anciens, qui sentoient vraisemblablement combien il étoit difficile de
                         rendre une <hi rend="i">reconnoissance</hi> plaisante, &amp; qui ne
@@ -12323,7 +12323,7 @@
                         nécessaire de leur consacrer un petit article à la suite de celui-ci.</p>
                 </div>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-24">
+            <div type="chapter" xml:id="livre-01_chapitre-24">
                 <head>CHAPITRE XXIV.<lb/><hi rend="i">Des Tableaux.</hi></head>
                 <p>Les Tableaux font un grand effet sur le théâtre, aussi voit-on que nos Auteurs
                     ont grand soin d’en placer dans leurs pieces. On ne sauroit trop les exhorter à
@@ -12447,7 +12447,7 @@
                     le nom de toutes les choses qu’il a voulu peindre. Ce n’est certainement pas le
                     moyen de me faire illusion : elle est cependant si nécessaire !</p>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-25">
+            <div type="chapter" xml:id="livre-01_chapitre-25">
                 <head>CHAPITRE XXV.<lb/><hi rend="i">De l’Illusion Théâtrale.</hi></head>
                 <p>Voici encore un chapitre qu’on ne pourroit traiter à fond qu’en revenant sur
                     presque tous les articles dont nous avons déja parlé, puisque l’<hi rend="i"
@@ -12698,7 +12698,7 @@
                         >Goldoni</hi> que je fais un pareil reproche, c’est au goût de sa nation,
                     que ce grand homme n’a pu entiérement corriger.</p>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-26">
+            <div type="chapter" xml:id="livre-01_chapitre-26">
                 <head>CHAPITRE XXVI.<lb/><hi rend="i">De la Vraisemblance.</hi></head>
                 <p>La vraisemblance est le fondement de toutes les pieces de théâtre ; elle est le
                     caractere général auquel on doit reconnoître un bon &amp; un mauvais Drame. La
@@ -12771,7 +12771,7 @@
                     un événement arrivé avant l’action, je traiterai de la <hi rend="i"
                         >vraisemblance</hi> dans l’avant-scene : appliquons-nous à parler
                     présentement de la <hi rend="i">vraisemblance</hi> pendant l’action.</p>
-                <div type="section" xml:id="livre-1_chapitre-26_section-1">
+                <div type="section" xml:id="livre-01_chapitre-26_section-01">
                     <head><hi rend="i">De la vraisemblance pendant l’action.</hi></head>
                     <p>Je dis pendant l’action, parceque mon dessein n’est pas de parler seulement
                         des fautes de <hi rend="i">vraisemblance</hi> qui regardent l’action, mais
@@ -13080,7 +13080,7 @@
                         je ne suis point de cet avis, &amp; je vais bientôt exposer mes raisons.</p>
                 </div>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-27">
+            <div type="chapter" xml:id="livre-01_chapitre-27">
                 <pb n="446"/>
                 <head>CHAPITRE XXVII.<lb/><hi rend="i">Des aparté.</hi></head>
                 <p>Il arrive souvent, sur le théâtre, qu’un personnage dit des choses qui ne doivent
@@ -13162,7 +13162,7 @@
                     moins vicieux, plus ou moins naturels, selon l’art des Auteurs.</p>
                 <p>Il est des <hi rend="i">aparté</hi> de plusieurs especes ; nous parlerons de ceux
                     qui sont le plus en usage.</p>
-                <div type="section" xml:id="livre-1_chapitre-27_section-1">
+                <div type="section" xml:id="livre-01_chapitre-27_section-01">
                     <head><hi rend="i">Premiere espece.</hi></head>
                     <p>Il est naturel que deux personnes entrant en même temps par les côtés opposés
                         d’un jardin, d’un bois, ou d’un appartement, &amp; ne se voyant pas, chacune
@@ -13209,7 +13209,7 @@
                         seroient aussi mauvais qu’ils sont bons, mais par la faute du Poëte
                         seulement.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-27_section-2">
+                <div type="section" xml:id="livre-01_chapitre-27_section-02">
                     <head><hi rend="i">Seconde espece.</hi></head>
                     <p>Lorsqu’un acteur en écoute un autre qui ne le voit pas, &amp; qu’il fait des
                             <hi rend="i">aparté</hi> sur ce qu’il entend, <pb n="451"/>il doit
@@ -13263,7 +13263,7 @@
                         <p>Nous y pourvoirons.</p>
                     </quote>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-27_section-3">
+                <div type="section" xml:id="livre-01_chapitre-27_section-03">
                     <head><hi rend="i">Troisieme espece.</hi></head>
                     <p>Les <hi rend="i">aparté</hi> qui se font entre deux acteurs qui se parlent
                         &amp; qui se voient, demandent beaucoup plus d’art que les autres. Ils
@@ -13309,7 +13309,7 @@
                         dont il paroissoit s’écarter, &amp; l’on n’a pas le plus petit mot à dire,
                         si son fourbe s’excuse adroitement.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-27_section-4">
+                <div type="section" xml:id="livre-01_chapitre-27_section-04">
                     <head><hi rend="i">Quatrieme espece.</hi></head>
                     <p>Je range dans la quatrieme classe les <hi rend="i">aparté</hi>
                         <pb n="454"/>qui se font lorsqu’un acteur en tire un autre à l’écart, &amp;
@@ -13546,7 +13546,7 @@
                         féconde de comique.</p>
                 </div>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-28">
+            <div type="chapter" xml:id="livre-01_chapitre-28">
                 <head>CHAPITRE XXVIII.<lb/><hi rend="i">Du Comique, du Plaisant, des Causes du
                         rire.</hi></head>
                 <p>Il faut faire une grande différence entre le comique &amp; le plaisant. Un trait
@@ -13884,7 +13884,7 @@
                     bon Comique pour exciter le rire. Comme il y a trop de choses à en dire, que ce
                     chapitre est déja assez long, nous leur destinerons les deux suivants.</p>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-29">
+            <div type="chapter" xml:id="livre-01_chapitre-29">
                 <head>CHAPITRE XXIX.<lb/><hi rend="i">Des Méprises, des Equivoques &amp; de ce qu’on
                         appelle</hi> quiproquo <hi rend="i">au Théâtre.</hi></head>
                 <p>Retranchez du théâtre les <hi rend="i">méprises</hi>, les <hi rend="i"
@@ -13934,17 +13934,17 @@
                     souvent ils excitent le rire le plus bas, quelquefois ils font verser les larmes
                     les plus ameres, &amp; ils peuvent remplir les différents degrés qui séparent
                     ces deux extrêmes. Il est aisé de le prouver.</p>
-                <div type="section" xml:id="livre-1_chapitre-29_section-1">
+                <div type="section" xml:id="livre-01_chapitre-29_section-01">
                     <head><hi rend="i">Méprise tragique.</hi></head>
                     <p><hi rend="i">Mérope</hi> pleure la mort de son fils : on lui amene un jeune
                         homme qu’on prend pour le meurtrier de ce fils ; elle veut l’immoler à sa
                         vengeance, elle leve sur lui le glaive fatal, elle apprend que c’est son
                         fils lui-même qu’elle alloit sacrifier.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-29_section-2">
+                <div type="section" xml:id="livre-01_chapitre-29_section-02">
                     <head><hi rend="i">Méprise attendrissante.</hi></head>
                     <p>Dans <hi rend="i">le Préjugé à la mode</hi>, comédie en cinq actes en vers,
-                        de <hi rend="i">Nivel de la Chaussée, Duval</hi>, époux de <hi rend="i"
+                        de <hi rend="i">Nivelle de la Chaussée, Durval</hi>, époux de <hi rend="i"
                             >Constance</hi>, lui fait mille infidélités. L’amour voudroit le ramener
                         vers sa femme ; mais le préjugé à la mode &amp; la crainte de se donner un
                         ridicule en avouant son amour, le retiennent ; il devient cependant jaloux
@@ -13983,7 +13983,7 @@
                     <p><hi rend="i">Durval</hi> tombe aux pieds de sa femme, &amp; tout se termine à
                         l’amiable.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-29_section-3">
+                <div type="section" xml:id="livre-01_chapitre-29_section-03">
                     <pb n="477"/>
                     <head><hi rend="i">Méprise plaisante.</hi></head>
                     <p>Dans la même piece, <hi rend="i">Durval</hi>, jaloux, &amp; se croyant trahi
@@ -13995,7 +13995,7 @@
                         trouve enfin qu’elles sont de lui, &amp; qu’une de ses maîtresses les a
                         renvoyées à sa femme.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-29_section-4">
+                <div type="section" xml:id="livre-01_chapitre-29_section-04">
                     <head><hi rend="i">Méprise balourde.</hi></head>
                     <p>Dans <hi rend="i">Arlequin Valet étourdi</hi>, piece Italienne, on charge <hi
                             rend="i">Arlequin</hi> de deux lettres ; l’une est pour <hi rend="i"
@@ -14014,7 +14014,7 @@
                         deux lettres, &amp;, graces à son demi-tour &amp; à sa balourdise, il fait
                         une méprise qui forme l’intrigue de la piece.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-29_section-5">
+                <div type="section" xml:id="livre-01_chapitre-29_section-05">
                     <head><hi rend="i">Méprise burlesque.</hi></head>
                     <p><hi rend="i">Manzelle Zirzabelle</hi> est amoureuse du beau <pb n="478"/><hi
                             rend="i">Liandre</hi>. On veut profiter de l’absence du héros pour
@@ -14355,7 +14355,7 @@
                         nous laisser leur secret : tâchons de le trouver dans leurs ouvrages.</p>
                 </div>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-30">
+            <div type="chapter" xml:id="livre-01_chapitre-30">
                 <head>CHAPITRE XXX.<lb/><hi rend="i">Des Surprises.</hi></head>
                 <p>Tout ce qui arrive sur la scene d’une maniere imprévue, dans le cours d’une
                     action, s’appelle coup de théâtre, ou <hi rend="i">surprise</hi>. Le dernier de
@@ -14374,7 +14374,7 @@
                     encore distinguer dans toutes ces especes, celles qui ne surprennent qu’un ou
                     quelques personnages, &amp; celles qui surprennent en même temps les acteurs
                     &amp; le spectateur.</p>
-                <div type="section" xml:id="livre-1_chapitre-30_section-1">
+                <div type="section" xml:id="livre-01_chapitre-30_section-01">
                     <head><hi rend="i">Surprises muettes.</hi></head>
                     <p>J’appelle une <hi rend="i">surprise</hi> muette celle qu’un personnage
                         ressent si vivement qu’il ne peut l’exprimer par un seul mot. Nous en avons
@@ -14461,7 +14461,7 @@
                             >Agnès</hi> &amp; <hi rend="i">Horace</hi>, qui se croient perdus,
                         voient tout d’un coup combler leurs vœux.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-30_section-2">
+                <div type="section" xml:id="livre-01_chapitre-30_section-02">
                     <head><hi rend="i">Surprise de pensée ou d’idée.</hi></head>
                     <p>J’entends, comme tout le monde, par <hi rend="i">surprise</hi> de pensée ou
                         d’idée, celle qu’une seule pensée d’un des interlocuteurs occasionne. Il
@@ -14526,7 +14526,7 @@
                             >Sganarelle</hi> qui <pb n="495"/>n’entend point finesse à la scene, ne
                         peuvent éprouver aucune surprise.</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-30_section-3">
+                <div type="section" xml:id="livre-01_chapitre-30_section-03">
                     <head><hi rend="i">Surprises d’action.</hi></head>
                     <p>Toutes les <hi rend="i">surprises</hi> sont, à proprement parler, des <hi
                             rend="i">surprises</hi> d’action, puisque, si elles sont bonnes, elles
@@ -14655,7 +14655,7 @@
                             j’aurois de joie à le voler !</p>
                     </quote>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-30_section-4">
+                <div type="section" xml:id="livre-01_chapitre-30_section-04">
                     <head><hi rend="i">Surprises de présence ou d’apparition.</hi></head>
                     <p>Les <hi rend="i">surprises</hi> occasionnées par l’apparition subite d’un
                         personnage, sont les plus communes <pb n="499"/>sur notre théâtre. Pour être
@@ -14699,7 +14699,7 @@
                             d’action</hi>, &amp; donne pour exemple de la derniere la scene XIV du
                         second acte de <hi rend="i">l’Ecole des Maris</hi>. Voici ce qu’il dit :</p>
                 </div>
-                <div type="section" xml:id="livre-1_chapitre-30_section-5">
+                <div type="section" xml:id="livre-01_chapitre-30_section-05">
                     <head><hi rend="i">Exemple de la surprise d’action.</hi></head>
                     <quote>
                         <p>« La scene dixieme du second acte de <hi rend="i">l’Ecole des Maris</hi>
@@ -14751,7 +14751,7 @@
                         suivant.</p>
                 </div>
             </div>
-            <div type="chapter" xml:id="livre-1_chapitre-31">
+            <div type="chapter" xml:id="livre-01_chapitre-31">
                 <head>CHAPITRE XXXI.<lb/><hi rend="i">De la Catastrophe ou du
                     Dénouement.</hi></head>
                 <p>Les Anciens appelloient <hi rend="i">catastrophe</hi>, ce que nous nommons <hi
