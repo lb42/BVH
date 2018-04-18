@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <!--Odette: 2018-02-12T14:58:17+01:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
@@ -74,17 +75,17 @@
       </div>
       <div>
         <head>PERSONNAGES.</head>
-        <p>MOLIÈRE, <hi rend="i">Auteur Dramatique.</hi></p>
-        <p>CHAPELLE, <hi rend="i">ami de Molière.</hi></p>
-        <p>LA BÉJART, <hi rend="i">Comédienne, demeurant dans la maison de Molière.</hi></p>
-        <p>ISABELLE, <hi rend="i">fille de la Béjart, Comédienne.</hi></p>
-        <p>LA THORILLIÈRE, <hi rend="i">Comédien, et ami de Molière.</hi></p>
-        <p>PIRLON,<hi rend="i"> ennemi de Molière.</hi></p>
-        <p>LE MARQUIS DE ***.</p>
-        <p>LE COMTE DE ***.</p>
-        <p>Mademoiselle T***, <hi rend="i">jeune personne.</hi></p>
-        <p>LA FOREST, <hi rend="i">servante de Molière.</hi></p>
-        <p>LESBIN, <hi rend="i">domestique de Molière.</hi></p>
+        <castList><castItem><role xml:id="moliere">MOLIÈRE</role>, <roleDesc>Auteur Dramatique.</roleDesc></castItem>
+        <castItem><role xml:id="chapelle">CHAPELLE</role>, <roleDesc>ami de Molière.</roleDesc></castItem>
+          <castItem><role xml:id="labejart">LA BÉJART</role>, <roleDesc>Comédienne, demeurant dans la maison de Molière.</roleDesc></castItem>
+          <castItem><role xml:id="isabelle">ISABELLE</role>, <roleDesc>fille de la Béjart, Comédienne.</roleDesc></castItem>
+          <castItem><role xml:id="lathorilliere">LA THORILLIÈRE</role>, <roleDesc>Comédien, et ami de Molière.</roleDesc></castItem>
+          <castItem><role xml:id="pirlon">PIRLON</role>,<roleDesc> ennemi de Molière.</roleDesc></castItem>
+          <castItem><role xml:id="lemarquis">LE MARQUIS DE ***</role>.</castItem>
+          <castItem><role xml:id="lecomte">LE COMTE DE ***</role>.</castItem>
+          <castItem><role xml:id="mademoiselle-t">Mademoiselle T***</role>, <roleDesc>jeune personne.</roleDesc></castItem>
+          <castItem><role xml:id="laforest">LA FOREST</role>, <roleDesc>servante de Molière.</roleDesc></castItem>
+          <castItem><role xml:id="lesbin">LESBIN</role>, <roleDesc>domestique de Molière.</roleDesc></castItem></castList>
         <p/>
         <stage>La scène est à Paris, rue de Richelieu, chez Molière.</stage>
       </div>
@@ -546,31 +547,31 @@
             <l>De le voir, par mon choix, devenir votre époux.</l>
             <l>Eh !…</l>
           </sp>
-          <sp who="marianne">
+          <sp who="isabelle">
             <speaker>MARIANNE.</speaker>
             <l>           Eh !</l>
           </sp>
-          <sp who="orgon">
+          <sp who="moliere">
             <speaker>ORGON.</speaker>
             <l>                   Qu’est-ce ?</l>
           </sp>
-          <sp who="marianne">
+          <sp who="isabelle">
             <speaker>MARIANNE.</speaker>
             <l>                                      Plaît-il ?</l>
           </sp>
-          <sp who="orgon">
+          <sp who="moliere">
             <speaker>ORGON.</speaker>
             <l>                                                     Quoi ?</l>
           </sp>
-          <sp who="marianne">
+          <sp who="isabelle">
             <speaker>MARIANNE.</speaker>
             <l>                                                                 Me suis-je méprise ?</l>
           </sp>
-          <sp who="orgon">
+          <sp who="moliere">
             <speaker>ORGON.</speaker>
             <l>Comment !</l>
           </sp>
-          <sp who="marianne">
+          <sp who="moliere">
             <speaker>MARIANNE.</speaker>
             <l>                  Qui voulez-vous, mon père, que je dise</l>
             <p>Qui me touche le cœur et qu’il me serait doux</p>
@@ -580,7 +581,7 @@
             <speaker>MOLIÈRE, <hi rend="i">du ton de la réprimande</hi>.</speaker>
             <p>Mademoiselle, Mademoiselle, vous avez une tête, une tête !… Vous allez avec une volubilité !… Soyez donc, je vous prie, plus attentive et appuyez davantage… Votre étourderie pourrait s’étendre jusque sur la scène, et le parterre alors… Vous le savez ; il prend de l’humeur… Recommencez. Je ne suis pas content de ce ton-là… Allons point de mines ; songez Mademoiselle, que c’est pour votre bien.</p>
           </sp>
-          <sp who="marianne">
+          <sp who="isabelle">
             <speaker>MARIANNE.</speaker>
             <l>Qui voulez vous, mon père, que je dise</l>
             <l>Qui me touche le cœur et qu’il me serait doux</l>
@@ -1602,8 +1603,8 @@
             <speaker>MOLIÈRE.</speaker>
             <p>C’est que je suis un homme désespéré.</p>
           </sp>
-          <sp who="lathorillliere">
-            <speaker>LA THORILLLIÈRE.</speaker>
+          <sp who="lathorilliere">
+            <speaker>LA THORILLIÈRE.</speaker>
             <p>Eh ! Que vous est-il arrivé ?</p>
           </sp>
           <sp who="moliere">
@@ -3228,7 +3229,7 @@
             <speaker>MOLIÈRE, <hi rend="i">se levant et allant au devant</hi>.</speaker>
             <p>Que désirez-vous, Mademoiselle ?</p>
           </sp>
-          <sp who="mademoisellet***">
+          <sp who="mademoiselle-t">
             <speaker>MADEMOISELLE T***.</speaker>
             <p>C’est vous qui êtes Monsieur de Molière ?</p>
           </sp>
@@ -3236,7 +3237,7 @@
             <speaker>MOLIÈRE.</speaker>
             <p>Oui, Mademoiselle.</p>
           </sp>
-          <sp who="mademoisellet***">
+          <sp who="mademoiselle-t">
             <speaker>MADEMOISELLE T***, <hi rend="i">d’un ton embarrassé et timide</hi>.</speaker>
             <p>Il me paraît que je viens dans un moment bien contraire.</p>
           </sp>
@@ -3244,7 +3245,7 @@
             <speaker>MOLIÈRE, <hi rend="i">lui présentant un siège</hi>.</speaker>
             <p>Pourquoi donc, Mademoiselle ?… Donnez-vous la peine de vous asseoir. <hi rend="i">(Mademoiselle T*** s’assied, et Molière à ses côtés.)</hi></p>
           </sp>
-          <sp who="mademoisellet***">
+          <sp who="mademoiselle-t">
             <speaker>MADEMOISELLE T***.</speaker>
             <p>Hélas ! Monsieur… J’hésite à parler…</p>
           </sp>
@@ -3252,7 +3253,7 @@
             <speaker>MOLIÈRE.</speaker>
             <p>Mettez-vous à votre aise… Rassurez-vous, Mademoiselle.</p>
           </sp>
-          <sp who="mademoisellet***">
+          <sp who="mademoiselle-t">
             <speaker>MADEMOISELLE T***.</speaker>
             <p>J’ai entendu faire de grands éloges de vous, Monsieur, et surtout de votre honnêteté… Mais je suis si troublée que j’oubliais que j’ai une lettre à vous présenter qui vous préviendra de tout… Elle est d’une personne qui m’a dit être votre ami depuis fort longtemps.</p>
           </sp>
@@ -3260,7 +3261,7 @@
             <speaker>MOLIÈRE, <hi rend="i">prenant la lettre</hi>.</speaker>
             <p>Donnez, je vous prie ; je verrai… <hi rend="i">(Il ouvre la lettre.)</hi> Oui, c’est d’un bien bon ami… <hi rend="i">(Il la lit précipitamment, et répète la date tout haut.)</hi> Le cinq avril… Vous ne faites donc que d’arriver, Mademoiselle ?</p>
           </sp>
-          <sp who="mademoisellet***">
+          <sp who="mademoiselle-t">
             <speaker>MADEMOISELLE T***.</speaker>
             <p>À l’instant même, Monsieur, je descends du coche…</p>
           </sp>
@@ -3268,7 +3269,7 @@
             <speaker>MOLIÈRE, <hi rend="i">après un intervalle</hi>.</speaker>
             <p>Quoi ! Mademoiselle, serait-il possible ? À votre âge ! Vous pourriez vous déterminer à vous faire comédienne ; et qui a pu vous inspirer cette idée ?</p>
           </sp>
-          <sp who="mademoisellet***">
+          <sp who="mademoiselle-t">
             <speaker> MADEMOISELLE T***.</speaker>
             <p>L’abandon universel où je suis, la disette de tout secours, la tyrannie d’un tuteur que j’ai fui pour éviter de prendre une vocation que je ne peux embrasser : tout me livre à cette seule et unique ressource.</p>
           </sp>
@@ -3276,7 +3277,7 @@
             <speaker>MOLIÈRE.</speaker>
             <p>Ah ! Ce n’est point tout à fait de votre choix</p>
           </sp>
-          <sp who="mademoisellet***">
+          <sp who="mademoiselle-t">
             <speaker>MADEMOISELLE T***.</speaker>
             <p>J’ai appris au couvent à déclamer des pièces de vers pour les fêtes de nos supérieures, et je sais plusieurs rôles de tragédies, qu’on a trouvé que je rendais assez bien.</p>
           </sp>
@@ -3284,7 +3285,7 @@
             <speaker>MOLIÈRE.</speaker>
             <p>Je vois par cette lettre, Mademoiselle, et plus encore par vous-même, que vous êtes bien née ; mais, souffrez que je vous le dise, vous êtes sans expérience, et, pour tout dire, abusée… Vous vous faites, de l’état que vous voulez embrasser, une image bien différente de ce qu’il est en effet… Je me reprocherais toute ma vie de ne pas vous en exposer tous les dangers ; ils sont considérables… Je suis comédien, le sort l’a voulu, mais croyez-moi, je serais au désespoir d’avoir une fille qui suivît cette dangereuse carrière. Vous ne vous doutez point combien il est difficile de s’y maintenir vertueuse.</p>
           </sp>
-          <sp who="mademoisellet****">
+          <sp who="mademoiselle-t">
             <speaker>MADEMOISELLE T****.</speaker>
             <p>Mais, Monsieur, ne saurait-on réciter publiquement des rôles sur un théâtre et être honnête et vertueuse en même temps ?</p>
           </sp>
@@ -3292,7 +3293,7 @@
             <speaker>MOLIÈRE.</speaker>
             <p>Ce phénomène n’est pas impossible ; et le théâtre épuré, comme il pourrait l’être, les exceptions seraient encore moins rares. Les mœurs des comédiens dépendraient d’une sage et nouvelle administration ; mais aujourd’hui (et je parle malheureusement d’après l’expérience) mauvaise vie, que celle de comédien, vie licencieuse… Le moyen de vous rendre la plus infortunée des créatures serait de persister imprudemment dans votre premier dessein.</p>
           </sp>
-          <sp who="mademoisellet***">
+          <sp who="mademoiselle-t">
             <speaker>MADEMOISELLE T***.</speaker>
             <p>Ah, mon Dieu ! Monsieur, vous m’épouvantez… Que ferai-je donc ?… Orpheline, que deviendrai-je ? Comment subsister ? Je n’ai point appris de métier ; mais j’aimerais mieux mourir de faim, que de me laisser enfermer toute ma vie, comme le voudrait mon tuteur.</p>
           </sp>
@@ -3300,7 +3301,7 @@
             <speaker>MOLIÈRE.</speaker>
             <p>Ce tuteur est-il votre parent de bien près, Mademoiselle ?</p>
           </sp>
-          <sp who="mademoisellet***">
+          <sp who="mademoiselle-t">
             <speaker>MADEMOISELLE T***.</speaker>
             <p>Mon père l’appelait son cousin germain ; c’est un vieux régent de collège, qui jouit de beaucoup de crédit dans notre petite province. Il dit toujours que je n’ai rien du bien de mon père, que je lui suis à charge… Il voudrait que je fusse morte ou religieuse.</p>
           </sp>
@@ -3308,7 +3309,7 @@
             <speaker>MOLIÈRE.</speaker>
             <p>Et vous n’avez point d’autres parents ?</p>
           </sp>
-          <sp who="mademoisellet***">
+          <sp who="mademoiselle-t">
             <speaker>MADEMOISELLE T***.</speaker>
             <p>Aucun autre que trois frères.</p>
           </sp>
@@ -3316,7 +3317,7 @@
             <speaker>MOLIÈRE.</speaker>
             <p>Trois frères ! Et que font-ils, vos trois frères, Mademoiselle ? Sont-ils de même sous l’empire de votre tuteur ?</p>
           </sp>
-          <sp who="mademoisellet***">
+          <sp who="mademoiselle-t">
             <speaker>MADEMOISELLE T***.</speaker>
             <p>Que trop ; car ne pouvant souffrir ses duretés, ils se sont faits soldats tous trois l’un après l’autre.</p>
           </sp>
@@ -3324,7 +3325,7 @@
             <speaker>MOLIÈRE.</speaker>
             <p>Je sens votre situation… Tâchons d’y remédier. Votre projet, j’en suis bien sûr, Mademoiselle, n’est autre, certainement, que de trouver à vivre de votre travail, en conservant le précieux trésor de l’honneur, conformément aux principes dans lesquels vous avez été élevée.</p>
           </sp>
-          <sp who="mademoisellet***">
+          <sp who="mademoiselle-t">
             <speaker>MADEMOISELLE T***.</speaker>
             <p>Oh ! Oui, Monsieur. C’est bien là tout mon désir.</p>
           </sp>
@@ -3332,7 +3333,7 @@
             <speaker>MOLIÈRE.</speaker>
             <p>Gravez bien dans votre esprit ce que je vais vous dire… Il n’y a point de bonheur sur la terre sans la paix avec soi-même. Avec un seul remords, on n’est plus heureuse. Tremblez de ne pouvoir plus un jour vous respecter vous-même ; l’opulence ne vous dédommagerait jamais de ce que vous auriez perdu… Point de plus sûr chemin pour le vrai bonheur qu’une honnête conduite. Oui, Mademoiselle, il vous faut prendre un métier ; et, quelque ingrat qu’il soit, croyez qu’il ne sera jamais si rude, si pénible, si scabreux, que celui de comédienne… Cela vous étonne !… Mais vous me remercierez un jour de vous avoir sauvée d’un sort bien plus affreux que celui que vous vouliez éviter… Ne vous chagrinez point… Je connais un bon père de famille, chef d’une manufacture située à vingt-cinq lieues d’ici. Il prend beaucoup d’ouvrières. Vous êtes jeune, vous pourrez facilement faire apprentissage. <hi rend="i">(Il tire une carte de sa poche.)</hi> Rendez-vous à cette adresse. C’est un de ses correspondants, qui vous fera partir dès demain matin, sur ce que je vais lui écrire. <hi rend="i">(Il va à son bureau et il écrit, et tout en écrivant, il dit :)</hi> Ne vous inquiétez de rien… Soyez seulement docile, laborieuse et sage, et vous serez chez lui comme l’enfant de la maison… C’est entre les mains des plus honnêtes gens du monde que je vous confie ; ils auront soin de vous dans toutes les circonstances possibles.</p>
           </sp>
-          <sp who="mademoisellet***">
+          <sp who="mademoiselle-t">
             <speaker>MADEMOISELLE T***.</speaker>
             <p>Ils se chargeraient de ma nourriture, de mon entretien, et de m’apprendre encore un métier !… Mais, Monsieur, je n’ai point d’argent à leur offrir.</p>
           </sp>
@@ -3340,7 +3341,7 @@
             <speaker>MOLIÈRE, <hi rend="i">écrivant</hi>.</speaker>
             <p>Puisque vous avez quelque confiance en moi, suivez mes conseils, et soyez tranquille sur le reste… Rendez-vous à cette adresse ; votre sort est assuré. Mais gardez-vous de me nommer à qui que ce soit. Je suis chef de troupe, malheureusement comédien<note place="bottom"><p>[NdA] La famille de Molière ne lui pardonna point de s’être fait comédien. Vainement donna-t-il les entrées libres aux Poquelin. Aucun n’en voulut profiter. Il fut rayé de l’arbre généalogique qu’un de ses parents fit dresser. Cette opinion était donc bien enracinée dans les esprits, puisque le grand poète, avec toute sa gloire, ne put jamais absoudre le comédien.</p><p>C’est peu : il était valet de chambre du Roi. Voulant un jour user de sa qualité, et, en conséquence, faire le lit du Roi, un autre valet de chambre ne voulut point partager le service avec lui, prétendant qu’il n’était point fait pour aller de pair avec un comédien. Le Roi le sut, en fut très fâché ; mais il garda le silence.</p><p>Autre exemple plus fort. Les secrétaires du Roi, apprenant que le fameux Lully, pour concourir aux délassements de Louis XIV, s’était chargé, quoique sous le masque, du rôle de Muphti dans <hi rend="i">le Bourgeois gentilhomme</hi>, retardèrent longtemps sa réception et firent naître les plus grandes difficultés. Il n’était néanmoins que pantomime. Il n’avait pas le visage découvert. Il ne représentait qu’à la cour devant le Roi, et pour lui plaire ; et l’opinion dominante lui fit un crime de cette complaisance.</p></note> et sujet, par mon état, à donner lieu à plusieurs conjectures. En ne prononçant jamais mon nom, l’on ne soupçonnera point de votre part quelque démarche indiscrète… Oubliez que vous m’ayez vu, que vous m’ayez parlé : ceci est de conséquence pour vous.</p>
           </sp>
-          <sp who="mademoisellet***">
+          <sp who="mademoiselle-t">
             <speaker>MADEMOISELLE T***.</speaker>
             <p>Moi ! Vous oublier, Monsieur, moi ! Ah ! Jamais !… Jamais !… J’entrevois toute votre charité…</p>
           </sp>
@@ -3348,7 +3349,7 @@
             <speaker>MOLIÈRE.</speaker>
             <p>C’est bien peu de chose ; et je dois ces légers bienfaits à votre modestie, à votre âge, à vos vertus… De ce premier pas dépendait le destin de votre vie… Conservez l’innocence de vos mœurs, afin de ne point perdre le repos et le bonheur.</p>
           </sp>
-          <sp who="mademoisellet***">
+          <sp who="mademoiselle-t">
             <speaker>MADEMOISELLE T***.</speaker>
             <p>Ah ! Combien vous me pénétrez d’admiration et de reconnaissance ! Je vois que vous me tirez d’un mauvais pas où l’imprudence et le besoin m’entraînaient… Non, Monsieur, non, mon cœur n’est point exempt de trouble ; vous me rendez plus que la vie ! Vous êtes le premier qui m’ayez dit un seul mot de consolation, depuis que j’ai perdu mon infortuné et respectable père… Ô mon honorable bienfaiteur ! Comment me rendrai-je digne de tout ce que vous daignez faire pour moi ?… <hi rend="i">(Voulant embrasser les genoux de Molière.)</hi> Souffrez que je vous baise les mains.</p>
           </sp>
@@ -3356,7 +3357,7 @@
             <speaker>MOLIÈRE, <hi rend="i">l’arrêtant</hi>.</speaker>
             <p>Je vous en prie, Mademoiselle, contraignez-vous de grâce… Si quelqu’un venait… Voici la lettre… Je vais vous donner mes porteurs… Obligez-moi, vous dis-je, de vous retirer sans rien dire : cette maison est si fréquentée ; le moins qu’on aura pu vous y voir sera toujours le meilleur. <hi rend="i">(Il appelle Lesbin.) (À Lesbin.)</hi> Vous ferez conduire Mademoiselle par mes gens à l’adresse qu’elle vous indiquera. <hi rend="i">(Lesbin sort.)</hi></p>
           </sp>
-          <sp who="mademoisellet***">
+          <sp who="mademoiselle-t">
             <speaker>MADEMOISELLE T***.</speaker>
             <p>C’est bien le moins que je vous obéisse… Si ma reconnaissance ne peut pas éclater comme je le désirerais, croyez qu’elle est bien profondément gravée dans mon cœur.</p>
           </sp>

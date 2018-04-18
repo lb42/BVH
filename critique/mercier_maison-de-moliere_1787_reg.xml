@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <!--Odette: 2018-02-12T14:58:17+01:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
@@ -65,37 +66,34 @@
           <p><hi rend="i">P. S.</hi> J’ai rendu à la mémoire de Montesquieu le même hommage qu’à celle de Molière. La pièce est intitulée <hi rend="i">Montesquieu à Marseille</hi> ; son impression a précédé de deux années la représentation du <hi rend="i">Bienfait anonyme</hi> de M. Pilhes. J’avoue que je ne me suis pas vu sans peine prévenu par un Ouvrage inférieur au mien, et où l’on m’a dérobé plus qu’une intention. Il m’en avait coûté de faire parler Montesquieu, le langage de ce rare penseur étant un des plus difficiles à saisir ; M. Pilhes ne s’y est nullement attaché.</p>
         </postscript>
       </div>
-      <div xml:id="castList">
+      <div type="set" xml:id="personnages">
         <head>Personnages</head>
         <castList>
-          <castItem><role>MOLIÈRE</role>, <roleDesc>Auteur dramatique</roleDesc>, <actor>M. Fleury</actor>.</castItem>
-          <castItem><role>CHAPELLE</role>, <roleDesc>ami de Molière</roleDesc>, <actor>M. Naudet</actor>.</castItem>
-          <castItem><role>LA BÉJART</role>, <roleDesc>Comédienne demeurant dans la maison de Molière,</roleDesc> <actor>Mme Suin</actor>.</castItem>
-          <castItem><role>ISABELLE</role>, <roleDesc>fille de la Béjart, Comédienne</roleDesc>, <actor>Mme Petit</actor>.</castItem>
-          <castItem><role>LA THORILLIERE</role>, <roleDesc>Comédien et ami de Molière</roleDesc>, <actor>M. Sainfal</actor>.</castItem>
-          <castItem><role>PIRLON</role>, <roleDesc>Ennemi de Molière</roleDesc>, <actor>M. La Rochelle</actor>.</castItem>
-          <castItem><role>LE MARQUIS DE ***</role>, <actor>M. Florence</actor>.</castItem>
-          <castItem><role>LE COMTE DE ***</role>, <actor>M. Dunant</actor>.</castItem>
-          <castItem><role>LA FOREST</role>, <roleDesc>servante de Molière</roleDesc>, <actor>Mme Bellecour</actor>.</castItem>
-          <castItem><role>LESBIN</role>, <roleDesc>domestique de Molière</roleDesc>, <actor>M. Belmont</actor>.</castItem>
+          <castItem><role xml:id="moliere">MOLIÈRE</role>, <roleDesc>Auteur dramatique</roleDesc>, <actor>M. Fleury</actor>.</castItem>
+          <castItem><role xml:id="chapelle">CHAPELLE</role>, <roleDesc>ami de Molière</roleDesc>, <actor>M. Naudet</actor>.</castItem>
+          <castItem><role xml:id="labejart">LA BÉJART</role>, <roleDesc>Comédienne demeurant dans la maison de Molière,</roleDesc> <actor>Mme Suin</actor>.</castItem>
+          <castItem><role xml:id="isabelle">ISABELLE</role>, <roleDesc>fille de la Béjart, Comédienne</roleDesc>, <actor>Mme Petit</actor>.</castItem>
+          <castItem><role xml:id="lathorilliere">LA THORILLIERE</role>, <roleDesc>Comédien et ami de Molière</roleDesc>, <actor>M. Sainfal</actor>.</castItem>
+          <castItem><role xml:id="pirlon">PIRLON</role>, <roleDesc>Ennemi de Molière</roleDesc>, <actor>M. La Rochelle</actor>.</castItem>
+          <castItem><role xml:id="lemarquis">LE MARQUIS DE ***</role>, <actor>M. Florence</actor>.</castItem>
+          <castItem><role xml:id="lecomte">LE COMTE DE ***</role>, <actor>M. Dunant</actor>.</castItem>
+          <castItem><role xml:id="laforest">LA FOREST</role>, <roleDesc>servante de Molière</roleDesc>, <actor>Mme Bellecour</actor>.</castItem>
+          <castItem><role xml:id="lesbin">LESBIN</role>, <roleDesc>domestique de Molière</roleDesc>, <actor>M. Belmont</actor>.</castItem>
         </castList>
         <stage>La scène est à Paris, rue de Richelieu, chez Molière.</stage>
       </div>
       <div>
         <head>Acte premier.</head>
-        <p/>
-        <p/>
         <div type="scene">
           <head>Scène première.</head>
           <sp who="moliere">
-            <speaker>MOLIERE, <hi rend="i">seul, assis devant une table, la plume à la main.</hi></speaker>
+            <speaker>MOLIÈRE, <hi rend="i">seul, assis devant une table, la plume à la main.</hi></speaker>
             <p>Combien la carrière de l’Homme de Lettres est encore rétrécie par les usages tyranniques, auxquels on veut l’assujettir ! On attend de lui de nouveaux Ouvrages, et on le subordonne à toutes les misères des sociétés ! On veut qu’il représente dans le monde, et qu’il compose au cabinet ; c’est-à-dire, que l’on exige tout à la fois qu’il soit Auteur et homme oisif, deux choses incompatibles... Quand je ne voudrais pas écrire, le genre humain m’y forcerait par ses extravagances... Il me faut rêver à mon <hi rend="i">Malade imaginaire</hi>, à mon <hi rend="i">Envieux</hi>, à mon <hi rend="i">Homme de Cour…</hi> Oh ! Je garde celui-ci pour le dernier... Si la mort ne me surprend point, on verra un miroir.... Il est des choses que l’on pense quelquefois trop fortement pour pouvoir les écrire, et ce sont celles-là qui sont ordinairement perdues pour la postérité. J’oserai dire ce qu’on n’a pas encore dit ! Il faut pour cela du courage ! Oh ! J’en ai. Une voix secrète me dit que je dois livrer la guerre aux vices. Toujours libre et maître de ma pensée.... Le silence me favorise... Voici le vrai temps de la méditation… Revoyons mon plan, car c’est du plan surtout que dépend tout le reste.... Ah ! J’allais oublier... j’ai trouvé, pour ma chère traduction, une image heureuse qui rend bien mieux... (<hi rend="i">Il cherche dans ses papiers</hi>.) Où donc est mon cahier ?... Il était là... Je ne le trouve point. (<hi rend="i">Il appelle</hi>.) Lesbin, Lesbin !... Ce drôle-là est fait pour tourmenter ma vie... Lesbin, Lesbin, Lesbin !</p>
           </sp>
         </div>
         <div type="scene">
           <head>Scène II.</head>
           <stage rend="center">Molière, Lesbin.</stage>
-          <p/>
           <sp who="lesbin">
             <speaker>LESBIN, <hi rend="i">accourant</hi>.</speaker>
             <p>Monsieur.....</p>
@@ -265,7 +263,7 @@
           </sp>
         </div>
         <div type="scene">
-          <head>Scène VII.</head>
+          <head>Scène VII.<listPerson><person corresp="#chapelle"/><person corresp="#moliere"/></listPerson></head>
           <stage rend="center">MOLIÈRE, CHAPELLE.</stage>
           <p/>
           <sp who="chapelle">
@@ -518,32 +516,32 @@
             <p>De le voir par mon choix devenir votre époux.</p>
             <p>Eh !...</p>
           </sp>
-          <sp who="marianne">
+          <sp who="isabelle">
             <speaker>MARIANNE.</speaker>
             <p>Eh !</p>
           </sp>
-          <sp who="orgon">
+          <sp who="moliere">
             <speaker>ORGON.</speaker>
             <p>Qu’est-ce ?</p>
           </sp>
 
-          <sp who="marianne">
+          <sp who="isabelle">
             <speaker>MARIANNE.</speaker>
             <p>Plaît-il ?</p>
           </sp>
-          <sp who="orgon">
+          <sp who="moliere">
             <speaker>ORGON.</speaker>
             <p>Quoi ?</p>
           </sp>
-          <sp who="marianne">
+          <sp who="isabelle">
             <speaker>MARIANNE.</speaker>
             <p>Me suis-je méprise ?</p>
           </sp>
-          <sp who="orgon">
+          <sp who="moliere">
             <speaker>ORGON.</speaker>
             <p>Comment ?</p>
           </sp>
-          <sp who="marianne">
+          <sp who="isabelle">
             <speaker>MARIANNE.</speaker>
             <p>Qui voulez-vous, mon père, que je dise</p>
             <p>Qui me touche le cœur, et qu’il me serait doux</p>
@@ -553,7 +551,7 @@
             <speaker>MOLIÈRE, <hi rend="i">du ton de la réprimande</hi>.</speaker>
             <p>Mademoiselle, mademoiselle, vous avez une tête, une tête !... Soyez donc, je vous prie, plus attentive, et appuyez davantage... Votre étourderie pourrait s’étendre jusque sur la scène, et le parterre alors... Vous le savez, il prend de l’humeur... Recommencez ; je ne suis pas content de ce ton-là... Allons, point de mines ; songez, mademoiselle, que c’est pour votre bien.</p>
           </sp>
-          <sp who="marianne">
+          <sp who="isabelle">
             <speaker>MARIANNE.</speaker>
             <p>Qui voulez-vous, mon père, que je dise,</p>
             <p>Qui me touche le cœur, et qu’il me serait doux</p>
@@ -802,8 +800,8 @@
             <speaker>MOLIÈRE.</speaker>
             <p>Oui, oui, courage ; il me manque en vérité.... Les indignes rivaux qui m’opposent de viles parades, que le public applaudit, tout en les méprisant…</p>
           </sp>
-          <sp who="lathorillliere">
-            <speaker>LA THORILLLIÈRE.</speaker>
+          <sp who="lathorilliere">
+            <speaker>LA THORILLIÈRE.</speaker>
             <p>Il n’est pas possible que ces rivaux l’emportent, après les modèles que vous avez tracés.</p>
           </sp>
           <sp who="moliere">
@@ -1480,8 +1478,8 @@
           <head>Scène XIII.</head>
           <stage rend="center">MOLIÈRE, LA THORILLIÈRE.</stage>
           <p/>
-          <sp who="lathorillliere">
-            <speaker>LA THORILLLIÈRE, <hi rend="i">avec empressement et avec joie</hi>.</speaker>
+          <sp who="lathorilliere">
+            <speaker>LA THORILLIÈRE, <hi rend="i">avec empressement et avec joie</hi>.</speaker>
             <p>C’est un tintamarre à la porte de l’Hôtel, comme on n’en a jamais vu ! On n’entend que ces mots : <hi rend="i">aujourd’hui la première représentation de l</hi>’Imposteur ; <hi rend="i">allons prendre place, ne soyons pas des derniers.</hi> Les Portiers et les barrières suffisent à peine... on se coudoie, on se heurte, on s’écrase...</p>
           </sp>
           <sp who="moliere">
@@ -1912,8 +1910,8 @@
         <div type="scene">
           <head>Scène VII.</head>
           <p/>
-          <sp who="lathorillliere">
-            <speaker>LA THORILLLIÈRE, <hi rend="i">seul</hi>.</speaker>
+          <sp who="lathorilliere">
+            <speaker>LA THORILLIÈRE, <hi rend="i">seul</hi>.</speaker>
             <p>Hé ! Voilà donc les Juges des œuvres du génie !...</p>
           </sp>
         </div>
@@ -2491,8 +2489,8 @@
             <speaker>PIRLON.</speaker>
             <p>L’impiété triomphe. L’irréligion a passé jusque dans le cœur de la populace. On insulte les gens de bien avec scandale… Ô siècle ! Ô temps ! Ô mœurs !</p>
           </sp>
-          <sp who="laforet">
-            <speaker>LA FORET</speaker>
+          <sp who="laforest">
+            <speaker>LA FOREST</speaker>
             <p>Ah ! Ah ! Je croyons deviner : on s’est moqué de vous.</p>
           </sp>
           <sp who="pirlon">
