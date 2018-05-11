@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../anecdotes/anecdotes.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../anecdotes/anecdotes.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
@@ -329,7 +330,7 @@
             <p>Cette actrice était femme de Duparc, connu au théâtre sous le nom de <hi rend="i">Gros-René</hi>. Elle s’engagea avec son mari dans la troupe <pb n="LII"/>de Molière lorsque ce dernier partit pour la province, et parut avec succès dans les seconds rôles tragiques et comiques. Elle joignit au talent de la déclamation et du jeu de théâtre celui de la danse.</p>
             <p>Mademoiselle Duparc revint avec Molière et sa troupe à Paris, en 1658, et réussit encore plus sur le théâtre du Petit-Bourbon, et sur celui du Palais-Royal, que dans les différentes villes du royaume qu’elle avait parcourues. Molière l’estimait beaucoup : on en trouve la preuve dans la première scène de son <hi rend="i">Impromptu de Versailles</hi>. Voici le passage :</p>
             <quote>
-              <label type="speaker">Molière<stage>, parlant à Mademoiselle Duparc</stage>.</label>
+              <label type="speaker">Molière<hi rend="i">, parlant à Mademoiselle Duparc.</hi></label>
               <p>Pour vous, mademoiselle...</p>
               <label type="speaker">Mademoiselle Duparc.</label>
               <p>Mon dieu ! pour moi, je m’acquitterai fort mal de mon personnage, et je ne sais pas pourquoi vous m’avez donné ce rôle de façonnière.</p>

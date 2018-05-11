@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../anecdotes/anecdotes.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <!--odt2tei: 2015-03-17T11:09:17+01:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
@@ -80,7 +81,7 @@
       <p>— Un garçon d’esprit toutefois.. ; II m’a fait pâmer de rire dans telle pièce de Scarron… mais aussi, ce Scarron, quel génie !… Vraiment, ce Molière est à Paris !</p>
         <p>— <milestone type="commentStart" corresp="#valet-de-chambre-humilie-moliere"/>Depuis quatre ans ; Monsieur patronne sa troupe ; et il plaît au Roi, dont il est valet de chambre</p>
       <p><pb n="13"/> — Que me dites-vous là ? Mais c’est un personnage.</p>
-        <p>— Il serait vrai, si son métier de comédien ne lui faisait tort ; <milestone type="commentEnd"/><milestone type="anecdoteStart" xml:id="valet-de-chambre-humilie-moliere"/>et les autres valets de chambre ne souffrent qu’impatiemment de partager avec lui l’honneur de faire le lit du roi.<milestone type="anecdoteEnd"/> <milestone type="anecdoteStart" xml:id="moliere-utilise-memoires-et-tablettes"/>Cependant il persiste : cela lui donne ses entrées ; il observe les hommes, fournit ses tablettes et s’oriente sur l’humeur du maître...<milestone type="anecdoteEnd"/></p>
+        <p>— Il serait vrai, si son métier de comédien ne lui faisait tort ; <milestone type="commentEnd"/><milestone type="anecdoteStart" xml:id="valet-de-chambre-humilie-moliere"/>et les autres valets de chambre ne souffrent qu’impatiemment de partager avec lui l’honneur de faire le lit du roi.<milestone type="anecdoteEnd"/> <milestone type="anecdoteStart" xml:id="moliere-utilise-memoires-et-tablettes"/>Cependant il persiste : cela lui donne ses entrées ; il observe les hommes, fournit ses tablettes et s’oriente sur l’humeur du maître…<milestone type="anecdoteEnd"/></p>
       <p>— Mais valet de chambre ! Il était donc de bonne famille ?</p>
       <p>— La charge lui vient de son père, qui était en outre tapissier.</p>
         <p>— <milestone type="commentStart" corresp="#amour-origine-vocation"/>Et ce père l’a laissé jeter dans le théâtre !<milestone type="commentEnd"/></p>
@@ -92,24 +93,24 @@
       <p>— Il en a épousé la sœur ?</p>
       <p>— Toute jeune ; c’est du fruit bien vert pour lui ; d’où les méchants bruits qui courent.</p>
       <p>— De méchants bruits ? Parlez, parlez.</p>
-      <p>— Cela ne se peut dire qu’à l’oreille...</p>
-      <p>— Y croyez-vous ?.. Sa fille !...</p>
+      <p>— Cela ne se peut dire qu’à l’oreille…</p>
+      <p>— Y croyez-vous ?.. Sa fille !…</p>
       <p>— Je crois Molière honnête homme, et il a des ennemis.</p>
       <p>— Un satiriste n’en saurait manquer.</p>
       <p>— Et des plus cruels : car il en fait rire.</p>
       <p>— C’est juste.</p>
       <p>— Ajoutez qu’il est riche ; comment endurer <pb n="15"/> qu’il loge rue Richelieu, qu’il ait des meubles précieux, des lustres, des miroirs, des cabinets, des tableaux et des tapisseries, et que, reçu dans les meilleures compagnies, tout comédien qu’il est, il tranche assez du grand seigneur pour rendre tous les dîners qu’il reçoit ?.</p>
       <p>— Cela crie vengeance, en effet… Mais que dit sa femme et comment se comporte-t-elle ?</p>
-      <p>— Heuh ! heuh !...</p>
-      <p>— Comment diable ! Est-ce que ?...</p>
+      <p>— Heuh ! heuh !…</p>
+      <p>— Comment diable ! Est-ce que ?…</p>
       <p>— Hé ! hé !</p>
       <p>— Diantre ! Mais vous disiez qu’il vient de l’épouser ?</p>
       <p>— En janvier dernier… Entre nous, ce serait dommage ; car il ne s’est pas conduit avec elle en Sganarelle, mais en Ariste… Je pense que vous connaissez l<hi rend="i">’École des Maris</hi> ?</p>
       <p>— On me l’a fait lire.</p>
-      <p>— On assure que Molière s’est peint dans Ariste ; et l’éducation que préconise ce bonhomme est celle qu’il a donnée à sa femme, car il l’a élevée lui-même...</p>
+      <p>— On assure que Molière s’est peint dans Ariste ; et l’éducation que préconise ce bonhomme est celle qu’il a donnée à sa femme, car il l’a élevée lui-même…</p>
       <p>— Bonne <hi rend="i">précaution</hi>, encore que Scarron la <pb n="16"/> déclare <hi rend="i">inutile</hi>  Mais que pensez-vous du fait ?</p>
-      <p>— Qu’il est possible ; et j’ai observé que Molière a repris cette pièce au moment même de son mariage...</p>
-      <p>— Si j’en crois le titre de celle d’aujourd’hui, nous allons sans doute voir la contrepartie. Je gage que Molière a changé d’avis, et qu’il est à présent pour Sganarelle...</p>
+      <p>— Qu’il est possible ; et j’ai observé que Molière a repris cette pièce au moment même de son mariage…</p>
+      <p>— Si j’en crois le titre de celle d’aujourd’hui, nous allons sans doute voir la contrepartie. Je gage que Molière a changé d’avis, et qu’il est à présent pour Sganarelle…</p>
       <p>— Nous le saurons tout à l’heure : le rideau monte.</p>
       <p>Le rideau monte effectivement, et nous découvre la scène, assez étroite et encombrée de spectateurs du bel air, assis à droite et à gauche, dans des postures qui montrent que la plupart savent qu’ils se donnent eux-mêmes en spectacle. On se jette quelques noms à l’oreille : c’est M. le duc de la Feuillade, c’est M. le commandeur de Souvré, c’est M. le comte de Broussin… J’entends nommer Plapisson. un personnage assez dédaigneux, de ceux-là évidemment qui, à l’hôtel de Bourgogne, partent avant la fin du spectacle, pour ne pas ouïr la farce qu’on donne après la tragédie.</p>
       <p><pb n="17"/> Le décor est fort simple : c’est deux maisons sur le devant et, le reste, une place de ville. <quote>« Il faut une chaise, une bourse et des jetons. »</quote> Voilà pour la mise en scène et les accessoires. Au reste, que pourrait-on mieux faire, n’ayant point de coulisses, et tous les acteurs réduits à entrer par le fond, comme le veulent ces deux rangs de marquis en demi-cercle ? — C’est un mal dont on a pris son parti ; et l’on ne supprime ces places que dans les pièces à machines, ou chez le roi.</p>
@@ -131,7 +132,7 @@
       </quote>
       <p><pb n="20"/> Il va plus loin : il veut que la sienne</p>
       <quote>
-        <l>                                …... En clartés peu sublime</l>
+        <l>                                …… En clartés peu sublime</l>
         <l>Même ne sache pas ce que c’est qu’une rime,</l>
         <l>Et s’il faut qu’avec elle on joue au corbillon,</l>
         <l>Et qu’on vienne à lui dire à son tour : Qu’y met-on ?</l>
@@ -169,14 +170,14 @@
         <label>ARNOLPHE</label>
         <l>Ah ! vous aurez bientôt quelqu’un pour les chasser.</l>
         <label>AGNÈS</label>
-        <l>Vous me ferez plaisir...</l>
+        <l>Vous me ferez plaisir…</l>
       </quote>
       <p>Et là-dessus, elle remonte, laissant le parterre en joie et Arnolphe dans le ravissement de son ouvrage. Patience ; notre homme va <pb n="24"/> déchanter. Voici l’amoureux qui paraît. C’est Lagrange, un acteur tout noblesse et tout feu ; un vraiment honnête homme aussi. Les pousseuses de beaux sentiments, que les puces d’Agnès inquiétaient aussi furieusement, sont un peu apaisées, ce semble, par l’entrée en scène de ce joli jeune homme. Il est bien fait, avec son air éventé, ses grands cheveux blonds, ses belles dents, ses rubans et ses plumes.</p>
       <p>Le voilà qui embrasse Arnolphe. Il ne le connaît que sous ce nom. Arnolphe est un ami de son père, à qui ce père le recommande en attendant qu’il arrive lui-même, écrit-il, pour un fait important qu’il n’explique point. Arnolphe, à qui plaît la société des jeunes gens, pour les galanteries qu’ils aiment à dire, ouvre obligeamment sa bourse à notre Horace, et tout aussitôt le met sur le chapitre des femmes. —<quote> Voyons cela ; donnez-moi la comédie ; les femmes sont faciles, les maris bénins ; vous avez fait des cocus, hé ? Contez-moi ça ?</quote></p>
-      <p>— Et voyez comme son œil pétille ; l’eau lui vient à la bouche. Horace d’ailleurs ne le fait point languir ; il a toute l’aimable intempérance <pb n="25"/> de langue des jeunes gens, qui met toute la terre dans leur confidence ; et le voilà qui conte qu’il est épris… de qui ? d’Agnès naturellement ; oui, d’un jeune objet, qu’entretient dans l’ignorance certain de la Zousse ou de la Source, vous pensez qu’il a bien autre chose à faire que de s’arrêter au nom, un homme riche, mais un fou, un ridicule…<quote> Le connaissez-vous point ?</quote> —<quote> Hé oui ! je le connoi</quote>, dit Arnolphe ; et il ne se peut rien voir de plus plaisant que le changement de son visage, le rapprochement de ses sourcils et la grimace dont il avale cette pilule… Mais Horace ne voit point cela, ou n’en soupçonne point la cause ; et il s’éloigne, bien aise d’avoir parlé de celle qu’il aime, et recommandant le secret, — sans doute pour se laisser le plaisir de le conter lui-même à tout le monde, et Arnolphe, un moment abattu, finit l’acte en courant après lui afin d’en tirer davantage...</p>
+      <p>— Et voyez comme son œil pétille ; l’eau lui vient à la bouche. Horace d’ailleurs ne le fait point languir ; il a toute l’aimable intempérance <pb n="25"/> de langue des jeunes gens, qui met toute la terre dans leur confidence ; et le voilà qui conte qu’il est épris… de qui ? d’Agnès naturellement ; oui, d’un jeune objet, qu’entretient dans l’ignorance certain de la Zousse ou de la Source, vous pensez qu’il a bien autre chose à faire que de s’arrêter au nom, un homme riche, mais un fou, un ridicule…<quote> Le connaissez-vous point ?</quote> —<quote> Hé oui ! je le connoi</quote>, dit Arnolphe ; et il ne se peut rien voir de plus plaisant que le changement de son visage, le rapprochement de ses sourcils et la grimace dont il avale cette pilule… Mais Horace ne voit point cela, ou n’en soupçonne point la cause ; et il s’éloigne, bien aise d’avoir parlé de celle qu’il aime, et recommandant le secret, — sans doute pour se laisser le plaisir de le conter lui-même à tout le monde, et Arnolphe, un moment abattu, finit l’acte en courant après lui afin d’en tirer davantage…</p>
       <p>Un gros bourdonnement s’élève, le parterre applaudit, les loges font les renchéries ; les marquis sur le théâtre se lèvent avec un bruit proportionné à leur importance et vont derrière <pb n="26"/> la scène agacer les comédiennes ou draper Molière chez Molière. On entoure les distributrices de rossolis et de vin d’Espagne. Un jeune homme, fort affairé, qui a le rabat et la calotte, entre dans une loge, offrant des confitures aux dames ; les dames sont des plus précieuses ; et par notre Parisien, qui sait tout, nous apprenons que ce jeune homme est un poète, un sieur de Visé, familier de l’Hôtel de Bourgogne ; il semble fort animé contre la pièce ; le mot d’obscénité est prononcé ; Une voix forte répète sur la scène : « Tarte à la crème ! » Ah ! ah ! tarte à la crème I On rit, on querelle ; cependant on reste dans l’attente, et voici qu’Arnolphe rentre en scène.</p>
-      <p>Admirez quelle passion l’anime : il en est tout bouffi ; il enrage. Il n’a pu rejoindre Horace ; il interroge ses valets. L’amusante scène et que cela est joué ! Les pauvres bêtes sont assommées de peur ; ils tombent l’un et l’autre à genoux, et y retombent jusqu’à six fois symétriquement, avec des postures inimaginables ; si cela est delà farce, comme l’assure le poète pincé, un certain Br......Bross...... <pb n="27"/> Boursault, à ce que j’entends dire, — au moins cette farce ne manque-t-elle pas son but ; on rit ; l’on rit davantage encore lorsqu’Arnolphe montant lui-même chercher Agnès, Alain, seul avec Georgette, lui explique ce que c’est que la jalousie, et que la femme est, par rapport à l’homme, comme un potage où il lui déplaît que le prochain trempe les doigts. Mais cette similitude ne paraît point goûtée de nos précieuses ; et en voilà qui font des haut-le-corps… La femme un potage ! Le moyen d’y tenir ! Tous les délicats seront contre la pièce et il ne restera de Molière qu’un bouffon sans conséquence. Ainsi parle Araminte à Climène ; et Lysidas opine du bonnet.</p>
-      <p>Chut ! Arnolphe reparaît ; Agnès le suit ; notre homme s’est à-propos rappelé son Plutarque ; il contient son courroux ; il interroge doucement, et s’efforce même de prendre part à la peine d’Agnès, qu’émeut encore le trépassement du petit chat. S’ennuyait-elle point durant l’absence d’Arnolphe ? — <quote>Jamais je ne m’ennuie</quote>, dit-elle. Et pourquoi s’ennuierait-elle, <pb n="28"/> en effet ? Elle ne sait ce qui lui manque. — Et elle a tant à s’occuper ! Elle se fait des cornettes ; elle lui a fait des coiffes ; de ces copieuses coiffes de nuit, qui tiennent chaud à la tête et préservent du serein. — Et il a beau la lorgner en dessous, la bonne petite fille qu’elle est, tranquille et candide, n’avoue ni ne se déconcerte ; il n’en tirera rien, s’il ne décharge franchement son cœur. — Il le fait donc, à la façon classique, avec un exorde insinuant. —<quote> Le monde est une étrange chose, Agnès ! On prétend qu’un jeune homme est ici venu, que vous avez écouté ses harangues ; j’ai gagé que c’était une fausseté pure…</quote> — <quote>Oh ! </quote>s’écrie l’enfant, <quote>ne gagez pas, vous perdriez !… </quote>Et dans l’ingénuité de son âme, n’épargnant aucun détail à son interlocuteur étranglé de jalousie, elle conte, en un récit charmant, sa rencontre avec Horace et leur assaut de révérences ; puis, la venue de certaine vieille, envoyée par le jeune homme pour lui peindre les blessures qu’il a reçues de ses yeux et lui en demander remède ; et après ce préliminaire, les visites d’Horace lui-même... <pb n="29"/> Admirez le jeu de Molière pendant cette confidence innocemment assassine ! Il semble, tant il charge ses traits, ride le front, roule les yeux et joue des sourcils, qu’Arnolphe se sente pousser vraiment des cornes !</p>
+      <p>Admirez quelle passion l’anime : il en est tout bouffi ; il enrage. Il n’a pu rejoindre Horace ; il interroge ses valets. L’amusante scène et que cela est joué ! Les pauvres bêtes sont assommées de peur ; ils tombent l’un et l’autre à genoux, et y retombent jusqu’à six fois symétriquement, avec des postures inimaginables ; si cela est delà farce, comme l’assure le poète pincé, un certain Br……Bross…… <pb n="27"/> Boursault, à ce que j’entends dire, — au moins cette farce ne manque-t-elle pas son but ; on rit ; l’on rit davantage encore lorsqu’Arnolphe montant lui-même chercher Agnès, Alain, seul avec Georgette, lui explique ce que c’est que la jalousie, et que la femme est, par rapport à l’homme, comme un potage où il lui déplaît que le prochain trempe les doigts. Mais cette similitude ne paraît point goûtée de nos précieuses ; et en voilà qui font des haut-le-corps… La femme un potage ! Le moyen d’y tenir ! Tous les délicats seront contre la pièce et il ne restera de Molière qu’un bouffon sans conséquence. Ainsi parle Araminte à Climène ; et Lysidas opine du bonnet.</p>
+      <p>Chut ! Arnolphe reparaît ; Agnès le suit ; notre homme s’est à-propos rappelé son Plutarque ; il contient son courroux ; il interroge doucement, et s’efforce même de prendre part à la peine d’Agnès, qu’émeut encore le trépassement du petit chat. S’ennuyait-elle point durant l’absence d’Arnolphe ? — <quote>Jamais je ne m’ennuie</quote>, dit-elle. Et pourquoi s’ennuierait-elle, <pb n="28"/> en effet ? Elle ne sait ce qui lui manque. — Et elle a tant à s’occuper ! Elle se fait des cornettes ; elle lui a fait des coiffes ; de ces copieuses coiffes de nuit, qui tiennent chaud à la tête et préservent du serein. — Et il a beau la lorgner en dessous, la bonne petite fille qu’elle est, tranquille et candide, n’avoue ni ne se déconcerte ; il n’en tirera rien, s’il ne décharge franchement son cœur. — Il le fait donc, à la façon classique, avec un exorde insinuant. —<quote> Le monde est une étrange chose, Agnès ! On prétend qu’un jeune homme est ici venu, que vous avez écouté ses harangues ; j’ai gagé que c’était une fausseté pure…</quote> — <quote>Oh ! </quote>s’écrie l’enfant, <quote>ne gagez pas, vous perdriez !… </quote>Et dans l’ingénuité de son âme, n’épargnant aucun détail à son interlocuteur étranglé de jalousie, elle conte, en un récit charmant, sa rencontre avec Horace et leur assaut de révérences ; puis, la venue de certaine vieille, envoyée par le jeune homme pour lui peindre les blessures qu’il a reçues de ses yeux et lui en demander remède ; et après ce préliminaire, les visites d’Horace lui-même… <pb n="29"/> Admirez le jeu de Molière pendant cette confidence innocemment assassine ! Il semble, tant il charge ses traits, ride le front, roule les yeux et joue des sourcils, qu’Arnolphe se sente pousser vraiment des cornes !</p>
       <quote>
         <l>O fâcheux examen d’un mystère fatal</l>
         <l>Où l’examinateur souffre seul tout le mal !</l>
@@ -189,15 +190,15 @@
       <p>— <quote>Ne vous a-t-il point pris, Agnès, quelque autre chose ?</quote> demande Arnolphe ; et voyant qu’elle se tait, interdite, il pense étrangler. Ouf ! — Une rumeur, un chuchotement court dans la salle ; des rires étouffés ; un grand claquement d’éventails qu’agite désespérément la pudeur violée des marquises ; mais cela est bien plus fort deux mots plus loin :</p>
       <quote>
         <label><pb n="30"/> AGNÈS</label>
-        <l>Hé ! il m’a...</l>
+        <l>Hé ! il m’a…</l>
         <label>ARNOLPHE</label>
         <l>                    Quoi ?</l>
         <label>AGNÈS</label>
-        <l>                              Pris...</l>
+        <l>                              Pris…</l>
         <label>ARNOLPHE</label>
         <l>                                      Heuh !</l>
         <label>AGNÈS</label>
-        <l>                                                     Le...</l>
+        <l>                                                     Le…</l>
       </quote>
       <p>A ce <hi rend="i">le</hi>, où s’arrête Agnès, comme effilée de ce qu’elle va dire, la chasteté des précieuses ne connaît plus de bornes, elles tournent le dos à la scène ; c’en est fait, elles n’écoutent plus, les abbés s’indignent, et il y a sur le théâtre des élégants tout prêts à tomber en syncope.</p>
       <p>Agnès cependant s’explique : ce <hi rend="i">le</hi> est un ruban ; un ruban, rien de plus ; et si elle en a tant retardé l’aveu, c’est que c’était un ruban donné par Arnolphe ; Arnolphe ne peut manquer d’être fort en colère ; et elle est toute <pb n="31"/> surprise de le voir soulagé. Mais ce n’est point pour longtemps ; et il révèle à l’ingénue épouvantée que toutes ces choses qu’elle raconte, si plaisantes et si douces, sont des péchés, et des plus gros ; et qu’il entend, si le blondin se représente, qu’elle lui jette la porte au nez et, s’il heurte, un grès par la fenêtre ; et la pauvre petite a beau objecter :</p>
@@ -206,17 +207,17 @@
       </quote>
       <p>l’extravagant lui coupe la parole, et, enflant la voix, d’un ton.de parodie :</p>
       <quote>
-        <l>Je suis maître, je parle ; allez, obéissez !...</l>
+        <l>Je suis maître, je parle ; allez, obéissez !…</l>
       </quote>
       <p>Tous deux rentrent ; et avant même qu’ils aient disparu, le brouhaha éclate ; c’est une rumeur à ne pas s’entendre ; le vicomte du Broussin s’élance dehors en renversant sa chaise ; M. de la Feuillade ricane ; Plapisson, le philosophe, regarde le parterre comme s’il s’agissait d’une demi-lune à forcer, ou même d’une lune tout entière ; et les abbés voltigent de loge en loge, caquetant sur l’obscénité de <pb n="32"/> Molière. Vous ne le saviez pas, mesdames ? ce bouffon est plus ordurier que Tabarin. Je vous dirai, si vous voulez, sa chanson du <hi rend="i">lanladerirette.</hi> Il y en a pour faire rougir un mousquetaire. — Vraiment ? dit un autre. Où se la procure-t-on ? — Comment vous trouvez-vous, madame ?Ce <hi rend="i">le</hi> ne vous a-t-il point indisposée ? — Autant que vous, madame. Ce <hi rend="i">le</hi>, se peut-il souffrir ?</p>
       <quote>
-        <l rend="i">De quelle étrange image on est par lui blessée !... </l>
+        <l rend="i">De quelle étrange image on est par lui blessée !… </l>
       </quote>
       <p>Et M. Boursault, qui a des tablettes, griffonne entre deux piliers, pendant que le parterre, en belle humeur, lance aux loges des quolibets, auxquels les laquais et les pages, ces pestes du théâtre, mêlent quelques lardons. La pièce tourne à la bataille ; mais le peuple est pour Molière ; il ne doit pas être inquiet.</p>
       <p>Il reparaît en effet, intrépide ; il n’est point, lui, de ces auteurs au faible cœur, qui tremblent et se dérobent ; il paie de sa personne ; il est constamment en scène, faisant son personnage entre ces deux rangs de marquis dont <pb n="33"/> il entend les murmures et dont les railleries le couchent en joue. Cela ne le trouble point, et il porte bravement sa pièce, faisant tête tour à tour aux loges, aux galeries et au théâtre. Aux connaisseurs en courage d’apprécier celui-là.</p>
       <p>Il rentre donc, et dès ses premiers mots soulève une inimitié nouvelle. — Tout s’est passé comme le voulait Arnolphe. Horace est confondu, Agnès lui a jeté la pierre, et le jaloux veut préparer la petite à l’honneur des noces qu’il lui prépare ; à cet effet, et en attendant le notaire, il lui fait un ample et mirifique discours sur les devoirs, du mariage et la condition subalterne où gît la femme en la société ;</p>
       <quote>
-        <l>Du côté de la barbe est la toute-puissance...</l>
+        <l>Du côté de la barbe est la toute-puissance…</l>
         <l>Et ce que le soldat, dans son devoir instruit,</l>
         <l>Montre d’obéissance au chef qui le conduit,</l>
         <l>Le valet à son maître, un enfant à son père,</l>
@@ -232,9 +233,9 @@
       </quote>
       <p>Quand il a clos ce sermon, en l’invitant à faire la révérence, comme en passant devant le sacrement, il lui fait lire, pour sa gouverne, un joli petit moisi livret, dirait maître François, destiné à être son unique entretien, et qui renferme</p>
       <quote>
-        <l rend="center i">Les maximes du mariage </l>
+        <l rend="center"><hi rend="i">Les maximes du mariage</hi></l>
         <l rend="center"><hi rend="i">ou les devoirs de la femme mariée</hi>…</l>
-        <l rend="center"><hi rend="i">avec son exercice journalier</hi>...</l>
+        <l rend="center"><hi rend="i">avec son exercice journalier</hi>…</l>
       </quote>
       <p>Tout cela est le développement naturel du caractère d’Arnolphe ; il n’est point de libertin ayant pris sa retraite et entré au giron du mariage qui n’ait, pour sa défense et le morigènement de sa moitié, appelé au secours la religion et le diable ; le bon de l’Eglise, disent-ils, c’est qu’elle occupe nos femmes et les range au devoir. Mais ceux qui cabalent contre Molière ne veulent point entendre la raillerie ; <pb n="35"/> ils feignent devoir un sacrilège dans ces extravagances. d’Arnolphe ; on.murmure dans des coins où nous n’avions vu personne encore ; des personnages, de noir vêtus, crasseux et mal en point, s’y révèlent par des effarouchements pieux et des yeux de côté ; et les mains ne se contentent plus de se lever au ciel, j’en vois qui esquissent des signes de croix. Écoutez comme le murmure gagne : - Cela est choquer nos mystères !… Tourner la religion en ridicule !… Où s’arrêtera cette fureur ?… N’a-t-il de respect pour rien ?… Et plus bas encore : — Je vous le disais bien qu’il avait épousé sa fille ! Mais cet orage sous terre ne semble pas étonner le comédien. Il va, soutenu par les applaudissements du parterre ; et le parterre c’est la bonne moitié de la salle ; la pièce continue, hardie, grosse, de verve. Agnès est rentrée, et voici Horace qui revient. Arnolphe est en humeur de rire ; il plaint l’amoureux qu’il suppose déconfit ; il le plaint, l’hypocrite, et le raille, entre cuir et chair : Un grès ! comment ?on vous a jeté un grès ?</p>
       <quote>
@@ -252,9 +253,9 @@
       <p>Une lettre ! une lettre d’Agnès ! ne trouvez-vous pas cela plaisant, seigneur Arnolphe ?</p>
       <quote>
         <label>ARNOLPHE</label>
-        <l>                                   Oui, fort plaisant.....</l>
+        <l>                                   Oui, fort plaisant…..</l>
         <label>HORACE</label>
-        <l>— Non, vous n’en riez pas assez, à mon avis...</l>
+        <l>— Non, vous n’en riez pas assez, à mon avis…</l>
         <label>ARNOLPHE</label>
       </quote>
       <l>Pardonnez-moi, j’en ris tout autant que je puis.</l>
@@ -280,15 +281,15 @@
       <p>— Vous êtes sûr ?</p>
       <p><pb n="39"/> — Je le tiens de M. Somaize.</p>
       <p>— Tout cela n’est que plate bouffonnerie. Si ce genre triomphe, tout est perdu ; nous allons devenir l’opprobre des humains !</p>
-      <p>— C’est un athéiste ! Il drape les dix commandements ! Il mettra en scène les sept péchés mortels...</p>
+      <p>— C’est un athéiste ! Il drape les dix commandements ! Il mettra en scène les sept péchés mortels…</p>
       <p>— On en a brûlé pour moins que cela.</p>
       <p>— Et Monsieur patronne cette troupe !</p>
       <p>— Oh ! il est censé leur faire une pension, mais il ne la paie pas.</p>
       <p>— Silence donc ! crie le parterre. On a commencé.</p>
-      <p>C’est encore Molière qui rouvre le quatrième acte ; et, tout entier à son rôle, il nous peint Arnolphe rongeant son frein, jaune de bile, tantôt poussant de pitoyables soupirs, tantôt crossant du pied, cherchant où décharger son courroux, et à chacune de ces inflexions plaisantes, et de ces brusques changements d’intonation, où il excelle, et que ses rivaux traitent d’affectation, la gaîté se communique et s’accroît. Arnolphe a vu Agnès et elle était tranquille : hé oui, tranquille ; elle le tue, et <pb n="40"/> n’a pas l’air d’y toucher ! il n’en revient pas. Que faire cependant ? Il l’aime, il faut sortir de là. Il cherche dans sa tête, si absorbé, qu’il ne voit ni n’entend le notaire, et qu’il s’en suit une longue scène de coq-à-l’âne, dont le public se réjouit, et qui met le sceau au succès. Puis le jaloux s’assure de ses valets, il les style, leur fait répéter la façon dont ils chargeront Horace, s’il sa présente ; il médite de soudoyer pour espion le savetier du coin ; il veut redoubler de précautions...</p>
+      <p>C’est encore Molière qui rouvre le quatrième acte ; et, tout entier à son rôle, il nous peint Arnolphe rongeant son frein, jaune de bile, tantôt poussant de pitoyables soupirs, tantôt crossant du pied, cherchant où décharger son courroux, et à chacune de ces inflexions plaisantes, et de ces brusques changements d’intonation, où il excelle, et que ses rivaux traitent d’affectation, la gaîté se communique et s’accroît. Arnolphe a vu Agnès et elle était tranquille : hé oui, tranquille ; elle le tue, et <pb n="40"/> n’a pas l’air d’y toucher ! il n’en revient pas. Que faire cependant ? Il l’aime, il faut sortir de là. Il cherche dans sa tête, si absorbé, qu’il ne voit ni n’entend le notaire, et qu’il s’en suit une longue scène de coq-à-l’âne, dont le public se réjouit, et qui met le sceau au succès. Puis le jaloux s’assure de ses valets, il les style, leur fait répéter la façon dont ils chargeront Horace, s’il sa présente ; il médite de soudoyer pour espion le savetier du coin ; il veut redoubler de précautions…</p>
       <p>Le nigaud ne sait rien. Il eût admiré bien davantage la sécurité d’Agnès s’il eût su que pendant qu’il était chez elle, marchant à grands pas, ruminant, grondant, cassant les porcelaines et donnant force coups de pied au petit chien, — Horace, lui, était dans l’armoire, où, sur le point d’être surprise, Agnès, qui l’avait appelé du balcon, l’avait vivement enfermé au <hi rend="i">triquetrac</hi> des pas d’Arnolphe sur les degrés… Mais, comme de coutume, c’est encore Horace qui lui raconte la scène ; Horace qui le croit toujours son ami, ne l’ayant, de son étui, ni vu, ni entendu parler… et Horace <pb n="41"/> lui en confie bien davantage ; ce soir il enlève Agnès ; il y suffit d’une échelle, Agnès ouvrira la fenêtre, et tous deux prendront la volée. Ainsi dit l’amoureux, affolé de joie, et il s’enfuit, chercher l’échelle, sans doute. Voilà Arnolphe plus bas que jamais.</p>
       <p>Pour comble, son compère du premier acte, l’excellent Chrysale, survient pour le souper où Arnolphe l’avait invité, et maintenant le désinvite ; et le bonhomme, qui est de lignée gauloise, entame derechef la question du matin, celle inépuisable du <hi rend="i">cocquaige</hi> ; et il fait le panégyrique de cette condition, pleine, à ce qu’il assure, de compensations merveilleuses et enviables à bien des maris. L’on pense comme Arnolphe l’écoute. Cela ne fait que l’animer davantage ; et, le compère aussitôt renvoyé, il court s’armer, lui et ses valets, de bâtons bien en main, dont ils accueilleront Horace sur son échelle, à l’heure propice.</p>
-      <p>Ils n’y manquent pas. Horace est culbuté par ce lourdaud d’Alain ; il tombe sur la place, et les complices le croient mort ; les voilà, épouvantés, qui se retirent… Mais à <pb n="42"/> vingt ans, on ne se laisse pas ainsi déferrer l’âme du corps ; et comme Arnolphe est à songer, Horace encore une fois reparaît à ses yeux. La Providence, qui veut qu’Arnolphe soit berné selon ses mérites, prend toujours soin de lui adresser le jeune éventé : et instruit par lui de toutes choses, ce routier de la galanterie ne peut cependant parer aux ruses naïves d’une innocente ! Horace donc lui raconte comment Agnès est venue aussi voir s’il était mort ; et quelle joie elle a fait éclater, à voir qu’il n’en était rien ; et que, ne voulant plus retourner chez soi, elle s’est commise à la foi du jeune homme, ne sachant quels périls elle court, par la faute de celui qui l’a tenue ignorante ; et qu’en attendant qu’Horace, qui la veut épouser honnêtement, ait préparé son père à ce mariage, il faut trouver asile chez quelque ami ; et que cet ami, ce sera Arnolphe, à qui Horace va remettre la petite, s’il y consent...</p>
+      <p>Ils n’y manquent pas. Horace est culbuté par ce lourdaud d’Alain ; il tombe sur la place, et les complices le croient mort ; les voilà, épouvantés, qui se retirent… Mais à <pb n="42"/> vingt ans, on ne se laisse pas ainsi déferrer l’âme du corps ; et comme Arnolphe est à songer, Horace encore une fois reparaît à ses yeux. La Providence, qui veut qu’Arnolphe soit berné selon ses mérites, prend toujours soin de lui adresser le jeune éventé : et instruit par lui de toutes choses, ce routier de la galanterie ne peut cependant parer aux ruses naïves d’une innocente ! Horace donc lui raconte comment Agnès est venue aussi voir s’il était mort ; et quelle joie elle a fait éclater, à voir qu’il n’en était rien ; et que, ne voulant plus retourner chez soi, elle s’est commise à la foi du jeune homme, ne sachant quels périls elle court, par la faute de celui qui l’a tenue ignorante ; et qu’en attendant qu’Horace, qui la veut épouser honnêtement, ait préparé son père à ce mariage, il faut trouver asile chez quelque ami ; et que cet ami, ce sera Arnolphe, à qui Horace va remettre la petite, s’il y consent…</p>
       <p>S’il y consent ! cela ne se demande pas. Le traître, bénissant ce coup de fortune, se cache dans son allée, s’enveloppe le nez dans son <pb n="43"/> manteau, et prend la main d’Agnès, qui ne le reconnaît point. Les deux enfants — ils le sont par la confiance et la pureté de cœur — se font de touchants adieux, qu’Arnolphe abrège en tirant Agnès par la manche… Horace s’en va ; et la grande scène, que Molière a si bien su faire attendre, commence enfin, admirable de vérité humaine et de force comique.</p>
       <p>L’homme attaque, naturellement ; il est le plus fort ; il raille, il nargue, il contrefait l’innocente, il l’insulte, le brutal :</p>
       <quote>
@@ -301,10 +302,10 @@
       </quote>
       <p>Et éclatant en injures grotesques :</p>
       <quote>
-        <l>Ah ! Coquine !...</l>
+        <l>Ah ! Coquine !…</l>
         <l>Petit serpent que j’ai réchauffé dans mon sein…</l>
         <l>Et qui, dès qu’il se sent, par une humeur ingrate,</l>
-        <l>Cherche à faire du mal....</l>
+        <l>Cherche à faire du mal….</l>
       </quote>
       <p><pb n="44"/> La pauvre enfant a grand peur tout d’abord ; mais elle sent son droit, cela la rend forte, et elle tient bravement tête. —<quote> Pourquoi me criez-vous ?</quote> dit-elle.</p>
       <quote>
@@ -324,17 +325,17 @@
       <p>—<quote> Ah ! c’est que vous l’aimez !</quote> gronde le jaloux.</p>
       <p>Et elle, toujours tranquille, opposant à ses invectives de Cassandre des mots tout divins :</p>
       <quote>
-        <l>Oui, je l’aime !...</l>
+        <l>Oui, je l’aime !…</l>
         <l/>
         <l>— Le deviez-vous aimer, impertinente ?</l>
         <l/>
         <l><pb n="45"/> —                                                      Hélas !</l>
         <l>Est-ce que j’en puis mais ? Lui seul en est la cause</l>
-        <l>Et je n’y songeais pas lorsque se fit la chose...</l>
+        <l>Et je n’y songeais pas lorsque se fit la chose…</l>
       </quote>
       <p>D’ailleurs,</p>
       <quote>
-        <l>......Quel mal cela peut-il vous faire ?</l>
+        <l>……Quel mal cela peut-il vous faire ?</l>
         <l>— Il est vrai, j’ai sujet d’en être réjoui !.</l>
         <l>Vous ne m’aimez donc pas, à ce compte ?</l>
         <l>                                                           — Vous ?</l>
@@ -345,7 +346,7 @@
         <l>— Pourquoi ne pas m’aimer, madame l’imprudente ?</l>
         <l>— Mon Dieu ! Ce n’est pas moi que vous devez blâmer.</l>
         <l>Que ne vous.êtes-vous comme lui, fait aimer !</l>
-        <l>Je ne vous en ai pas empêché, que je pense...</l>
+        <l>Je ne vous en ai pas empêché, que je pense…</l>
       </quote>
       <p>Qu’a-t-il à répondre ?… Qu’il a fait ce qu’il a pu : qu’il n’a pas réussi. Et elle, alors, achevant d’un coup ce roué, qui se flattait de connaître toutes les rubriques :</p>
       <quote>
@@ -358,7 +359,7 @@
       </quote>
       <p>Ah ! pauvre sot toi-même, qui ne veux pas comprendre que c’est tout simplement que le cœur a plus d’esprit que l’esprit !</p>
       <p>Mais il a perdu le sens, il se ravale à lui reprocher l’argent qu’il a dépensé pour elle : Horace vous rendra tout, fait-elle. —<quote> Et les obligations que vous m’avez, les soins que j’ai pris de vous ?</quote>… — Oh ! comme Agnès le rabroue là-dessus ! Ne sait-elle pas bien qu’elle est une bête, et par sa faute à lui ? Si Horace l’en guérit, elle devra beaucoup plus à Horace qu’à Arnolphe, qui l’a laissée une sotte.</p>
-      <p>Quand il entend cela, et devine le travail qui s’est fait dans cette franche petite tête, le lourdaud s’emporte : peu s’en faut qu’il la batte...</p>
+      <p>Quand il entend cela, et devine le travail qui s’est fait dans cette franche petite tête, le lourdaud s’emporte : peu s’en faut qu’il la batte…</p>
       <quote>
         <l>Et quelques coups de poings satisferaient son cœur.</l>
         <l>— Hélas ! vous le pouvez, si cela peut vous plaire,</l>
@@ -391,17 +392,17 @@
         <l>Horace avec deux mots enterait plus que vous.</l>
       </quote>
       <p>Et c’est au milieu des rires qu’Arnolphe reçoit cette nasarde. Ah I comme Molière joue cette scène ! Et qui résisterait a ces sons filés, à ces larmes niaises, à ces postures étourdissantes ? Et tout cela est la vérité même, mais grossie comme dans ces miroirs où l’on ne peut se regarder sans pouffer de soi-même ; les délicats crieront à l’outrance ; les céladons à la profanation ; le parterre s’abandonne bonnement, lui ; Molière veut qu’il rie, il rit.</p>
-      <p>Et la partie est gagnée. La pièce court à sa fin, portée sur la bonne humeur de tous ; Arnolphe se relève exaspéré, fait enfermer <pb n="49"/> Agnès, trahit Horace qui vient le prier d’intercéder pour lui près de son père… Aussi quelle joie lorsqu’on voit le dénouement tourner contre le traître ! Il veut que ce père marie promptement Horace : le père y donne les mains, mais c’est à Agnès qu’il le marie ; et Agnès, par un de ces coups du ciel qui se produisent toujours à la fin d’un cinquième acte, se trouve aussi avoir un père, qui la revendique, toujours pour la donner à Horace, et qui paiera Arnolphe, qui pis est… Sous cette pluie de camouflets célestes, notre homme n’en peut plus, il ne trouve rien à dire, il s’en va, comme un homme assommé, avec un <quote>« Ouf ! »</quote> qui est son dernier soupir...</p>
+      <p>Et la partie est gagnée. La pièce court à sa fin, portée sur la bonne humeur de tous ; Arnolphe se relève exaspéré, fait enfermer <pb n="49"/> Agnès, trahit Horace qui vient le prier d’intercéder pour lui près de son père… Aussi quelle joie lorsqu’on voit le dénouement tourner contre le traître ! Il veut que ce père marie promptement Horace : le père y donne les mains, mais c’est à Agnès qu’il le marie ; et Agnès, par un de ces coups du ciel qui se produisent toujours à la fin d’un cinquième acte, se trouve aussi avoir un père, qui la revendique, toujours pour la donner à Horace, et qui paiera Arnolphe, qui pis est… Sous cette pluie de camouflets célestes, notre homme n’en peut plus, il ne trouve rien à dire, il s’en va, comme un homme assommé, avec un <quote>« Ouf ! »</quote> qui est son dernier soupir…</p>
       <p><hi rend="i">È finita la commedia</hi> !
 </p>
-      <p>Grande rumeur. On ne s’en va pas pourtant. On sait que Molière va reparaître ; car il est l’orateur de sa troupe ; en cette qualité c’est lui qui fait l’annonce du prochain spectacle. Dans la presse des marquis debout et gesticulant, le voici, en effet, qui fait sa révérence au public : il est pâle sous son fard ; il y a <pb n="50"/> du tremblement dans sa voix, tout à l’heure si ferme et si chaude : c’est l’homme cette fois qui vient à nous. Des applaudissements s’élèvent au parterre, aux galeries ; les loges font grise mine : sauf Ninon, — sauf quelques belles encore ; et des manants à face suspecte font voler quelques pommes sur les planches. Il n’en est pas ému. (A <hi rend="i">l’Amour médecin</hi>, il recevra jusqu’à des pipes cassées.) Il fait son annonce et point de harangue, bien qu’il aime l’éloquence : vendredi prochain, vingt-neuvième jour de décembre, nous aurons encore <hi rend="i">l’École des Femmes.</hi> Et là-dessus il se retire : derrière les coulisses, la de Brie l’embrasse, puis la petite Marotte et M<hi rend="sup">lle</hi> Molière elle-même........</p>
+      <p>Grande rumeur. On ne s’en va pas pourtant. On sait que Molière va reparaître ; car il est l’orateur de sa troupe ; en cette qualité c’est lui qui fait l’annonce du prochain spectacle. Dans la presse des marquis debout et gesticulant, le voici, en effet, qui fait sa révérence au public : il est pâle sous son fard ; il y a <pb n="50"/> du tremblement dans sa voix, tout à l’heure si ferme et si chaude : c’est l’homme cette fois qui vient à nous. Des applaudissements s’élèvent au parterre, aux galeries ; les loges font grise mine : sauf Ninon, — sauf quelques belles encore ; et des manants à face suspecte font voler quelques pommes sur les planches. Il n’en est pas ému. (A <hi rend="i">l’Amour médecin</hi>, il recevra jusqu’à des pipes cassées.) Il fait son annonce et point de harangue, bien qu’il aime l’éloquence : vendredi prochain, vingt-neuvième jour de décembre, nous aurons encore <hi rend="i">l’École des Femmes.</hi> Et là-dessus il se retire : derrière les coulisses, la de Brie l’embrasse, puis la petite Marotte et M<hi rend="sup">lle</hi> Molière elle-même……..</p>
       <p>Et voici les spectateurs qui remplissent les couloirs ; cris de laquais, lazzis, les marquis s’interpellent : « Tarte à la crème ! » ricane l’un, « Ouf ! » s’exclame l’autre. Les auteurs s’indignent au nom des règles, les dévots au nom de la morale ; les uns invoquent Aristote, les autres citent les Pères de l’Église, et le traité des spectacles de saint Cyprien, <pb n="51"/> et la première catéchère mystagogique de saint Cyrille. Il est fort tard, sept heures au moins, la nuit est profonde, les porteurs de lanternes éclairent la montée en carrosses ou en chaises ; les seigneurs prennent congé des dames, les plumes balayant la terre ; touche chez Arthénice ! Touche chez Scudéry ! On s’en va caqueter dans les ruelles ; d’autres, de Visé, par exemple, courent à l’hôtel de Bourgogne, raconter la pièce aux grands comédiens renfrognés. Le Périgourdin remercie son voisin, l’obligeant Parisien, qu’il croit quelque docteur pensionné, et qui n’est qu’un mercier de la rue Saint-Dents, amateur de théâtre, qui, à toutes les premières, se cotise avec trois ou quatre voisins pour offrir une loge à leurs femmes et s’offrir le parterre à eux-mêmes. Et peu à peu le bruit s’efface ; quelques discussions attardées sous les arcades : — La pièce fera fureur ! — C’est un scandale ! — Molière est un génie ! — -Molière est un farceur ! — Un doucereux intervient, et d’un air impartial : — Il faut tomber d’accord, dit-il, que si Molière n’a ni les <pb n="52"/> rencontres de Gautier-Garguille, ni les impromptus de Turlupin, ni la bravoure de Capitan, ni la naïveté de Jodelet, ni la panse de Gros Guillaume, ni la science du Docteur, il ne laisse pas cependant de plaire quelquefois et de divertir en son genre… Puis, on se quitte sur ce mot : « Nous verrons ce que dira Chapelain ». Et en chemin nous heurtons le jeune Despréaux, qui, déjà, l’air satisfait, s’en va monologuant les vers que cinq jours plus tard il enverra pour étrennes à Molière :</p>
       <l>En vain mille jaloux esprits,</l>
       <l>Molière, osent avec mépris</l>
       <l>Censurer ton plus bel ouvrage,</l>
       <l>Sa charmante naïveté</l>
       <l>S’en va pour jamais d’âge en âge</l>
-      <l>Enjouer la postérité......</l>
+      <l>Enjouer la postérité……</l>
       <p>Voilà à peu près comme on peut se figurer la première de l’<hi rend="i">École des Femmes.</hi> Les suivantes, on le sait, ne furent pas moins mouvementées. Les précieuses, appuyées des auteurs et des comédiens, essayaient leur revanche ; et les dévots se mirent de la partie ; <pb n="53"/> sous l’étincelante cour du jeune roi, ils creusaient déjà les sapes par où ils devaient plus tard s’introduire dans la place. Il y avait une fureur de conversions : M<hi rend="sup">me</hi> de Longue ville se mettait à pleurer ses fautes ; elle avait fort à faire. M. de Rancé allait fonder la Trappe. Le prince de Conti, l’ex-condisciple, ami et protecteur de Molière, se brouillait avec lui et préparait le livre curieux où il devait, à l’occasion même de l’<hi rend="i">École des Femmes</hi>, le vouer aux vengeances célestes. Toute cette coalition ne put nuire à la pièce, surtout après que le roi se la fut fait jouer, le jour des Rois justement, le 6 janvier, et qu’elle l’eut fait rire, dit le véridique Loret, à <hi rend="i">s’en tenir les cotes</hi>. On continua, certes, à la fronder ; mais il vint tant de monde</p>
       <quote>
         <l>Que jamais sujet important</l>
@@ -412,7 +413,7 @@
         <l><pb n="54"/> Voilà dès le commencement</l>
         <l>Quel fut mon propre sentiment ;</l>
         <l>Sans être pourtant adversaire</l>
-        <l>De ceux qui sont d’avis contraire......</l>
+        <l>De ceux qui sont d’avis contraire……</l>
       </quote>
       <p>Si le roi était pour, en effet, le grand Condé paraissait très réservé ; le prince d’Enghien était contre. Le sujet passionnait la ville et la cour ; Molière allait jouer sa pièce chez le comte de Soissons, chez le duc de Richelieu, chez Colbert, chez la maréchale de l’Hospital ; les vacances de Pâques interrompirent seules le succès.</p>
       <p>C’est à ce moment que Molière fut couché sur l’État pour une pension de mille livres. Même chiffre que Corneille le Jeune, cinq cents livres de moins que Benserade, entre lesquels il figure sur la liste, beaucoup plus bas que Desmarets, <hi rend="i">ce fertile génie</hi>, et le sieur Chapelain, <hi rend="i">le plus grand poète français qui ait été</hi> et le mieux renté certes, puisqu’il eut, lui, 3,000 livres. Il n’importe : la libéralité du roi fut précieuse à Molière, pour l’effet moral qu’elle produisit ; on ne voulait voir en lui qu’un acteur, un bouffon de tréteaux ; il fallut bien désormais le prendre pour ce que <pb n="55"/> disait le Grand-Livre : u<hi rend="i">n excellent poète comique</hi>. Il se sentit encouragé et lança, le 1<hi rend="sup">er</hi> juin, sa <hi rend="i">Critique de l’École des Femmes</hi>.</p>
@@ -424,7 +425,7 @@
       <quote>
         <l>Ce fut un charme sans égal</l>
         <l>De voir là la copie et son original.</l>
-        <l>......</l>
+        <l>……</l>
         <l>Quelqu’un lui demanda : Molière, qu’en dis-tu ?</l>
         <l>Lui, répondit d’abord de son ton agréable :</l>
         <l>Admirable, morbleu ! du dernier admirable !</l>
@@ -478,7 +479,7 @@
       <quote>
         <l>… Un grand peintre, avec pleine largesse</l>
         <l>D’une féconde idée étale la richesse</l>
-        <l>Et fait briller partout delà diversité...</l>
+        <l>Et fait briller partout delà diversité…</l>
         <l>Mais un peintre commun trouve une peine extrême</l>
         <l>A sortir dans ses airs de l’amour de soi-même :</l>
         <l>De redites sans nombre il fatigue les yeux</l>
@@ -502,7 +503,7 @@
         <l>Quelle preuve veux-tu que je t’en donne, ingrate ?</l>
         <l>Me veux-tu voir pleurer ? Veux-tu que je me batte ?</l>
         <l>Veux-tu que je me tue ? Oui, dis si tu le veux,</l>
-        <l>Je suis tout prêt, cruelle, à te prouver ma flamme...</l>
+        <l>Je suis tout prêt, cruelle, à te prouver ma flamme…</l>
       </quote>
       <p>Mais si dans ces vers vous introduisez :</p>
       <quote>
@@ -515,7 +516,7 @@
       <p>s’il n’est un grotesque ; parce qu’un amoureux véritablement éperdu, et, par conséquent,</p>
       <p><pb n="73"/> touchant, lié proposera pas de s’arracher un côté de toupet, laissant à entendre qu’il désire garder l’autre côté pour une autre occasion ; parce qu’en un mot le paroxysme de la passion-, qui offre toujours deux faces la face ridicule et la face sublime, nous dévoile ici, de par la volonté de Molière, la face ridicule, et ainsi vous serez forcé de dire au comique :</p>
       <quote>
-        <l>...A mon amour, rien, ne peut s’égaler. :</l>
+        <l>…A mon amour, rien, ne peut s’égaler. :</l>
         <l>Quelle preuve veux-tu que je t’en donne, ingrate ?</l>
         <l>Me veux-tu voir pleurer ? Veux-tu que je me batte ?</l>
         <l>Veux-tu que je m’arrache an côté de cheveux ?</l>
@@ -533,7 +534,7 @@
       <p>Et répétait : <hi rend="i">dix-neuf</hi> ! ajoutant ainsi deux syllabes à son vers et estropiant son auteur. Cela horripilait Samson, pour qui un acteur du Théâtre-Français n’est jamais assez littéraire. On sait s’il l’était, lui. Il faut dire qu’il sacrifiait tout à son art, même le goût des autres. Il n’entendait rien en peinture, non plus qu’en musique, et cela lui était égal. Il n’avait chez lui, en fait de tableaux, que deux portraits, l’un de Molière, l’autre de Corneille. — Mais, cher maître Samson, me hasardai-je à lui demander un jour, expliquez-moi donc pourquoi l’on ne voit dans votre cabinet que ces deux portraits, qui sont deux croûtes ? — Vous croyez ? me répondit-il. Moi, je les trouve ressemblants.</p>
       <p>Cela lui suffisait. Ah ! il n’eût pas écrit <hi rend="i">la Gloire du Dôme du Val de Grâce</hi> ! Et pourtant ce mécréant en peinture, une fois devant sa glace, savait se faire une tête qui était une œuvre de maître ; et quand il entrait en scène, <pb n="76"/> la perruque était peut-être de travers et le costume incomplet, mais l’homme y était ; et il n’avait qu’à parler, et l’homme vivait, vivait et charmait. Merveille, je le répète, qu’il pouvait réaliser même loin de 3a scène, en face d’un verre d’eau et d’un encrier, n’ayant que son filet de voix et l’art d’en jouer pour créer une illusion complète et vous faire voir l’Arnolphe de Molière, ce fou fieffé, ce brutal,, avec ses roulements d’yeux de jaloux qu’on dupe et ses. larmes niaises !</p>
       <p>Je dis l’Arnolphe de Molière, car nous ne sommes pas ici dans la même incertitude que pour Alceste ; nous savons comment Molière jouait le rôle ; il a pris soin de nous en instruire lui-même dans la <hi rend="i">Critique</hi> ; et les indications que. j’ai mises sous vos yeux dans mon compte rendu de la <hi rend="i">première</hi>, sont tirées des contemporains. S’il penchait d’un côté dans son interprétation du rôle, c’était plutôt du côté de la charge ; et principalement dans cette scène du cinquième acte, où il se sauvait ainsi d’un double danger : celui de faire plaindre Arnolphe, ce qu’il ne voulait pas ; et celui de <pb n="77"/> le rendre trop odieux, ce qui n’est pas, non plus, de l’essence de la comédie.</p>
-      <p>Car cet Arnolphe, auquel on a voulu assimiler ce généreux Molière, cet Arnolphe, si vous voulez bien y regarder de près, est un fort vilain sire. Il est égoïste et cynique, il n’a que mépris pour la nature humaine, et surtout pour cette pâte féminine, qu’il s’imagine pétrir à son gré, et à son usage. Il a acheté Agnès à quatre ans, comme un Turc, dirait Lisette, qui achète pour son harem une petite fille ; il l’a voulu rendre idiote, il le dit ; il avait défendu qu’on lui apprît à écrire ; c’est pis que ce butor de Sganarelle, qui renfermait Isabelle, mais qui la laissait lire, et Arnolphe a trouvé mieux que les verrous et les grilles, c’est l’âme qu’il veut mettre en cette prison, l’ignorance. Tout cela pour se réserver une servante. Car le mariage, comme- il l’entend, c’est une clôture, et Agnès devrait se priver de ses cinq sens pour satisfaire uniquement aux siens. Véritablement il n’a pas de pudeur, et, comme tous les libertins finissants, cet être sans morale et sans foi tâche à tourner à son profit <pb n="78"/> la foi et la morale ; et il apprend le catéchisme à Agnès, comme Louis XV aux petites filles du Parc aux Cerfs ; mais un catéchisme à l’usage des maris, où le Tout-Puissant, avec sa grande barbe, est constitué le gardien et le vengeur de l’honneur conjugal, et celui qui fait bouillir en enfer les femmes mal vivantes. Et ce catéchisme sera l’unique entretien d’Agnès ; elle y devra régler sa vie ; sans doute elle trouvera en tête le <hi rend="i">Calendrier des vieillards</hi>.....</p>
+      <p>Car cet Arnolphe, auquel on a voulu assimiler ce généreux Molière, cet Arnolphe, si vous voulez bien y regarder de près, est un fort vilain sire. Il est égoïste et cynique, il n’a que mépris pour la nature humaine, et surtout pour cette pâte féminine, qu’il s’imagine pétrir à son gré, et à son usage. Il a acheté Agnès à quatre ans, comme un Turc, dirait Lisette, qui achète pour son harem une petite fille ; il l’a voulu rendre idiote, il le dit ; il avait défendu qu’on lui apprît à écrire ; c’est pis que ce butor de Sganarelle, qui renfermait Isabelle, mais qui la laissait lire, et Arnolphe a trouvé mieux que les verrous et les grilles, c’est l’âme qu’il veut mettre en cette prison, l’ignorance. Tout cela pour se réserver une servante. Car le mariage, comme- il l’entend, c’est une clôture, et Agnès devrait se priver de ses cinq sens pour satisfaire uniquement aux siens. Véritablement il n’a pas de pudeur, et, comme tous les libertins finissants, cet être sans morale et sans foi tâche à tourner à son profit <pb n="78"/> la foi et la morale ; et il apprend le catéchisme à Agnès, comme Louis XV aux petites filles du Parc aux Cerfs ; mais un catéchisme à l’usage des maris, où le Tout-Puissant, avec sa grande barbe, est constitué le gardien et le vengeur de l’honneur conjugal, et celui qui fait bouillir en enfer les femmes mal vivantes. Et ce catéchisme sera l’unique entretien d’Agnès ; elle y devra régler sa vie ; sans doute elle trouvera en tête le <hi rend="i">Calendrier des vieillards</hi>…..</p>
       <p>Bref, il entend la faire absolument sa chose ; et lorsqu’à la fin il la voit insensible à ses sottises, il s’emporte ; il répond à la confiance de ce pauvre Horace par une trahison, et va de ce pas se venger d’Agnès en la jetant dans <quote>« un cul de couvent »</quote>, — le mot est de lui.</p>
       <p>Tout cela, n’est-ce pas, est assez odieux en somme ; mais Molière, qui ne veut pas, dans sa comédie, de personnages odieux, parce que le sentiment qu’ils inspirent est pénible et qu’il entend nous faire rire, Molière qui, même de l’effrayant Tartufe a su faire un personnage comique, Molière, donc, a dissimulé habilement tout cet odieux du rôle d’Arnolphe en en faisant <pb n="79"/> avant tout un <hi rend="i">ridicule.</hi> Il l’a peint tout bouffi de vanité, se débaptisant après la quarantaine pour se faire appeler <hi rend="i">M. de la Souche</hi> il lui a donné des prétentions au bel air, et quelque esprit, dont il use comme Un sot, car cela se voit. Notre homme a donc en soi et en son système une confiance imperturbable ; et comment ne rirait-on pas de lui, quand, au début de la pièce, on l’a vu avec toutes sortes d’airs de supériorité, d’ironies et de rires gras ; déclarer qu’il.est sûr de son affaire, qu’il a un secret infaillible, ;.que ce n’est pas à lui qu’on en conte et qu’il a tout expérimenté ; et qu’on le voit à la fin battu par une innocente ; lui, le malin, l’<hi rend="i">homme qui sait</hi>, comme on dit aujourd’hui, s’éloigner</p>
       <quote>
@@ -541,11 +542,11 @@
       </quote>
       <p>Qui donc s’attendrirait à le voir pincé à son propre, piège ? Le bon Chrysale ne l’avait-il pas prévenu ? Une sotte peut manquer à son devoir</p>
       <quote>
-        <l>Sans en avoir envie et sans penser le faire... ?</l>
+        <l>Sans en avoir envie et sans penser le faire… ?</l>
       </quote>
       <p><pb n="80"/> Et Agnès effectivement.</p>
       <quote>
-        <l>...Ne voit pas de mal à tout ; ce qu’elle a fait.</l>
+        <l>…Ne voit pas de mal à tout ; ce qu’elle a fait.</l>
       </quote>
       <p>Le daubeur est daubé : 1’effronté railleur, qui poursuivait de ses lardons tant d’excellents maris, n’en pouvant mais de leur destinée, il a été lui-même ; Partisan de la sienne, c’est pain bénit !</p>
       <p>Songez-y donc ! si vous le plaigniez  il vous faudrait accuser : Agnès, cette âme exquise ! Ah ! ce serait pis qu’à là tragédie ; où l’on pleurait <hi rend="i">sur ce pauvre Holopherne si ; méchamment mis à mal par Judith</hi> ! — Car Agnès a mille raisons. : que m’avait pas Judith. Est-ce que vous en voulez à Agnès ? Avez-vous ce courage ? Je vous en prie, laissez-la venir à vous,comme les petits enfants, avec cette candeur qui lui vient bien plus de.la droiture de sa jeunesse que de l’ignorance où on la tient, avec cet air engageant et ce je ne sais quoi de tendre, que lui donne la bonté de son petit cœur : Oh ! vraiment, Shakespeare a dit de la femme : <quote>« perfide comme l’onde »</quote>, et moi je dirai d’Agnès : <pb n="81"/> « claire comme l’eau de la source ». Dans la transparence de sa naïveté vous voyez toutes les qualités aimables de nos filles : elle est compatissante, témoin son affliction de la mort du petit chat ; elle est civile, rappelez-vous ses belles révérences ; elle est enfin docile, ordonnée, travailleuse ; avec cela, une petite pointe de coquetterie : c’est sa grosse passion : elle aime à être <hi rend="i">brave et leste</hi> ; ce sera bien la plus délicieuse petite bourgeoise ! Et elle ne ment jamais ; non ; elle est sincère comme la nature. C’est pourquoi elle est si tranquille. Elle a eu foi dans Arnolphe : <quote>« J’ai fait ce que vous m’avez dit »</quote>, lui dit-elle ; et c’est vrai. Elle ne lui cache rien de sa rencontre avec Horace. Pauvre jeune homme ! Il était si intéressant ! ne fallait-il pas qu’elle le guérît ? Elle raconte tout : le plaisir qu’elle avait de ses compliments et de ses caresses ; elle en est ravie comme d’une découverte ; persuadée d’ailleurs qu’une chose si douce ne saurait être condamnable. Car le mal, c’est ce qu’on fait avec peur. Elle n’a pas eu peur du tout.</p>

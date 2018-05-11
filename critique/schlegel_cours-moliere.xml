@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../anecdotes/anecdotes.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <!--odt2tei: 2015-03-17T11:09:17+01:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
@@ -37,7 +38,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Auguste Schlegel</author>, <title>Cours de littérature dramatique</title>, traduit de l’allemand par M<hi rend="sup">me</hi> Necker de Saussure, tome II, douzième leçon, <pubPlace>Paris</pubPlace>, <publisher>Librairie internationale, Lacroix, Verboeckoven et C<hi rend="sup">ie</hi></publisher>, <date>1865</date>, p. 75-124.</bibl>
+        <bibl><author>Auguste Schlegel</author>, <title>Cours de littérature dramatique</title>, traduit de l’allemand par M<hi rend="sup">me</hi> Necker de Saussure, tome II, douzième leçon, <pubPlace>Paris</pubPlace>, <publisher>Librairie internationale, Lacroix, Verboeckoven et Cie</publisher>, <date>1865</date>, p. 75-124.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>

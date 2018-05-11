@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../anecdotes/anecdotes.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <!--odt2tei: 2015-03-17T11:09:17+01:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
@@ -42,7 +43,7 @@
     </fileDesc>
     <profileDesc>
       <creation>
-        <date when="18**"/>
+        <date notBefore="1838" notAfter="1840">c. 1838 - 1840</date>
       </creation>
       <langUsage>
         <language ident="fr"/>

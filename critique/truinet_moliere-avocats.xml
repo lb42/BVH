@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <!--odt2tei: 2015-03-17T11:09:17+01:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
@@ -227,11 +228,11 @@
           faits justificatifs, et qu’on ne me saurait condamner sur une simple accusation, sans un
           récolement de confrontation avec mes parties.</p>
         <quote>
-          <bibl rend="center">Acte II, scène XIII.</bibl>
-          <label type="speaker">Premier avocat<stage>, traînant ses paroles en chantant.</stage></label>
+          <bibl>Acte II, scène XIII.</bibl>
+          <label type="speaker">Premier avocat<hi rend="i">, traînant ses paroles en chantant.</hi></label>
           <l>La polygamie est un cas</l>
           <l>Est un cas pendable.</l>
-          <label type="speaker">Deuxième avocat<stage>, chantant fort vite en bredouillant.</stage></label>
+          <label type="speaker">Deuxième avocat<hi rend="i">, chantant fort vite en bredouillant.</hi></label>
           <l>Votre fait</l>
           <l>Est clair et net ;</l>
           <l>Et tout le droit</l>

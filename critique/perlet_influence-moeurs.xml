@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../teibook/teibook.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <!--odt2tei: 2015-03-17T11:09:17+01:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
@@ -1935,9 +1936,7 @@
               observer que l’arrêt qui le condamne, et dont il se montre si courroucé, n’étant qu’en
               premier ressort, n’entraîne point la perte de son procès,</p>
             <quote>
-              <l>
-                <quote>Et qu’il est en justice aisé d’y revenir ; </quote>
-              </l>
+              <l>Et qu’il est en justice aisé d’y revenir ;</l>
             </quote>
             <p>il répond :</p>
             <quote>

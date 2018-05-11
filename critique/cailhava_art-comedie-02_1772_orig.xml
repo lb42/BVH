@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <TEI xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -3135,8 +3136,8 @@
                 <p><quote>« Pourquoi, dira-t-on encore, la foule ne court-elle pas aux pieces de <hi
                             rend="i">Moliere</hi> » ?</quote> Parceque depuis un siecle on les
                     représente journellement. On propose à une femme d’aller à une représentation du
-                        <hi rend="i">Tartufe</hi> ; elle dit, d’après <hi rend="i">Lucinde</hi>, dans
-                        <hi rend="i">l’Oracle : Ah ! ma Bonne, j’ai tant vu le Soleil !</hi> &amp;
+                        <hi rend="i">Tartufe</hi> ; elle dit, d’après <hi rend="i">Lucinde</hi>,
+                    dans <hi rend="i">l’Oracle : Ah ! ma Bonne, j’ai tant vu le Soleil !</hi> &amp;
                     fait, sans y penser, l’éloge de <hi rend="i">Moliere</hi>. Qu’on ne joue ses
                     pieces que deux fois l’année : qu’on ne les donne pas les petits jours,
                     c’est-à-dire ceux où la plus extravagante des étiquettes interdit le spectacle
@@ -7494,19 +7495,20 @@
                 <p>On peut m’objecter que si les pieces de <hi rend="i">Ménandre</hi> étoient
                     parvenues jusqu’à nous, les connoisseurs verroient qu’elles ne tiennent rien, ou
                     que bien peu de chose, de ce que leur titre promet. On peut ajouter que <hi
-                        rend="i">le Menteur</hi>, <hi rend="i">le Prince jaloux</hi> &amp; <hi rend="i"
-                        >l’Aulularia</hi> sont bien loin de ce que nous les voyons dans notre
-                    langue. J’en conviens : mais je ne conviendrai pas que les pieces dont j’ai
-                    parlé ne méritent point d’être appellées <hi rend="i">pieces à caractere</hi>,
-                    &amp; cela parcequ’elles sont moins parfaites que les nôtres. Encore est-ce une
-                    question à décider, si parmi les comédies qu’on joue &amp; qu’on gratifie du
-                    titre de <hi rend="i">pieces à caractere</hi>, il n’en est point qui méritent
-                    moins cet honneur, que la plupart de celles qui ont précédé nos chefs-d’œuvre.
-                    Je crois le contraire, &amp; je vais tâcher d’entraîner le sentiment de
-                    quelques-uns de mes Lecteurs, en leur donnant l’extrait d’une piece espagnole
-                    très ancienne.</p>
+                        rend="i">le Menteur</hi>, <hi rend="i">le Prince jaloux</hi> &amp; <hi
+                        rend="i">l’Aulularia</hi> sont bien loin de ce que nous les voyons dans
+                    notre langue. J’en conviens : mais je ne conviendrai pas que les pieces dont
+                    j’ai parlé ne méritent point d’être appellées <hi rend="i">pieces à
+                        caractere</hi>, &amp; cela parcequ’elles sont moins parfaites que les
+                    nôtres. Encore est-ce une question à décider, si parmi les comédies qu’on joue
+                    &amp; qu’on gratifie du titre de <hi rend="i">pieces à caractere</hi>, il n’en
+                    est point qui méritent moins cet honneur, que la plupart de celles qui ont
+                    précédé nos chefs-d’œuvre. Je crois le contraire, &amp; je vais tâcher
+                    d’entraîner le sentiment de quelques-uns de mes Lecteurs, en leur donnant
+                    l’extrait d’une piece espagnole très ancienne.</p>
                 <label><hi rend="i">EL ZELOSO ESTREMEÑO, de Don Juan Perez de Montalva.</hi></label>
-                <label><hi rend="i">LE JALOUX DU PAYS DE L’ESTRAMADOURE, Par Jean Perès de Montalva.</hi></label>
+                <label><hi rend="i">LE JALOUX DU PAYS DE L’ESTRAMADOURE, Par Jean Perès de
+                        Montalva.</hi></label>
                 <p><hi rend="i">Don Juan</hi> partage ses soins entre <hi rend="i">Dona Luisa</hi>
                     &amp; <hi rend="i">Dona Léonor</hi> ; il feint d’être amoureux de la premiere
                     qui est très riche, parcequ’il veut arranger ses affaires en l’épousant ; il est
@@ -7708,7 +7710,8 @@
                 <p>Il est des <hi rend="i">caracteres</hi> de plusieurs especes, &amp; qui sont plus
                     ou moins propres à la scene selon leur qualité.</p>
                 <quote>
-                    <p rend="indent"><hi rend="i">Caracteres généraux ou propres à tous les pays.</hi></p>
+                    <p rend="indent"><hi rend="i">Caracteres généraux ou propres à tous les
+                            pays.</hi></p>
                     <p><hi rend="i">Caracteres nationaux ou propres à une seule nation.</hi></p>
                     <p><hi rend="i">Caracteres principaux ou qui ne doivent rien de leurs grands
                             traits à un autre.</hi></p>
@@ -9275,8 +9278,8 @@
                 <label>LE POTIER D’ÉTAIN POLITIQUE,<lb/>OU<lb/>L’HOMME D’ÉTAT IMAGINAIRE.</label>
                 <quote>
                     <label><hi rend="i">Principaux Personnages.</hi></label>
-                    <p rend="indent">M<hi rend="sup">e</hi>. <hi rend="sc">Herman de Breme</hi>, Potier
-                        d’étain.</p>
+                    <p rend="indent">M<hi rend="sup">e</hi>. <hi rend="sc">Herman de Breme</hi>,
+                        Potier d’étain.</p>
                     <p><hi rend="sc">Madelaine</hi>, sa femme.</p>
                     <p><hi rend="sc">Angélique</hi>, leur fille.</p>
                     <p>M<hi rend="sup">e</hi>. <hi rend="sc">Antoine</hi>, amant d’Angélique.</p>
@@ -11113,26 +11116,26 @@
                         <label>SONNET.</label>
                         <lg>
                             <l>C’est trop long-temps, Iris, me mettre à la torture ;</l>
-                        <l>Et si je suis vos loix, je les blâme tout bas</l>
-                        <l>De me forcer à taire un tourment que j’endure,</l>
-                        <l>Pour déclarer un mal que je ne ressens pas.</l>
+                            <l>Et si je suis vos loix, je les blâme tout bas</l>
+                            <l>De me forcer à taire un tourment que j’endure,</l>
+                            <l>Pour déclarer un mal que je ne ressens pas.</l>
                         </lg>
                         <pb n="381"/>
                         <lg>
                             <l>Faut-il que vos beaux yeux, à qui je rends les armes,</l>
-                        <l>Veuillent me divertir de mes tristes soupirs ?</l>
-                        <l>Et n’est-ce pas assez de souffrir pour vos charmes,</l>
-                        <l>Sans me faire souffrir encor pour vos plaisirs ?</l>
+                            <l>Veuillent me divertir de mes tristes soupirs ?</l>
+                            <l>Et n’est-ce pas assez de souffrir pour vos charmes,</l>
+                            <l>Sans me faire souffrir encor pour vos plaisirs ?</l>
                         </lg>
                         <lg>
                             <l>C’en est trop à la fois que ce double martyre ;</l>
-                        <l>Et ce qu’il me faut taire, &amp; ce qu’il me faut dire,</l>
-                        <l>Exerce sur mon cœur pareille cruauté.</l>
+                            <l>Et ce qu’il me faut taire, &amp; ce qu’il me faut dire,</l>
+                            <l>Exerce sur mon cœur pareille cruauté.</l>
                         </lg>
                         <lg>
                             <l>L’amour le met en feu, la contrainte le tue ;</l>
-                        <l>Et si par la pitié vous n’êtes combattue,</l>
-                        <l>Je meurs &amp; de la feinte &amp; de la vérité.</l>
+                            <l>Et si par la pitié vous n’êtes combattue,</l>
+                            <l>Je meurs &amp; de la feinte &amp; de la vérité.</l>
                         </lg>
                     </quote>
                 </quote>
@@ -11661,12 +11664,12 @@
                     grace &amp; la vivacité de leurs mouvements divers, se fournissent tour-à-tour
                     les moyens de les développer aux yeux du spectateur charmé. L’un est sans
                     contredit bien inférieur à l’autre ; cela doit être ainsi, le public s’y attend,
-                    mais la résistance qu’il oppose à sa défaite vaut la victoire que
-                    l’autre remporte : elle lui fait autant d’honneur<note type="numero"
-                        place="bottom"><p>La comparaison, quoiqu’imparfaite, comme elles le sont
-                            toutes, rend, je crois, mon idée. Cependant je ne l’aurois pas risquée
-                            si <hi rend="i">Boileau</hi> n’eût déja comparé <hi rend="i"
-                                >Moliere</hi> à un maître d’escrime.</p>
+                    mais la résistance qu’il oppose à sa défaite vaut la victoire que l’autre
+                    remporte : elle lui fait autant d’honneur<note type="numero" place="bottom"
+                            ><p>La comparaison, quoiqu’imparfaite, comme elles le sont toutes, rend,
+                            je crois, mon idée. Cependant je ne l’aurois pas risquée si <hi rend="i"
+                                >Boileau</hi> n’eût déja comparé <hi rend="i">Moliere</hi> à un
+                            maître d’escrime.</p>
                         <label><hi rend="sc">Satyre</hi> II, <hi rend="i">à Moliere</hi>.</label>
                         <quote>
                             <l>Rare &amp; fameux esprit, dont la fertile veine</l>

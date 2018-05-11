@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <!--Odette: 2018-02-26T17:13:52+01:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
@@ -17,7 +18,7 @@
         </respStmt>
       </editionStmt>
       <publicationStmt>
-        <publisher>Sorbonne Université LABEX OBVIL</publisher>
+        <publisher>Sorbonne Université, LABEX OBVIL</publisher>
         <idno type="tei">http://obvil.paris-sorbonne.fr/corpus/moliere/critique/bayle_poquelin_1730_orig.xml</idno>
         <idno type="html">http://obvil.paris-sorbonne.fr/corpus/moliere/critique/bayle_poquelin_1730_orig.html</idno>
         <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/moliere/critique/bayle_poquelin_1730_orig.epub</idno>

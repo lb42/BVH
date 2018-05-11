@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../anecdotes/anecdotes.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <!--odt2tei: 2015-03-17T11:09:17+01:00-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
@@ -248,7 +249,7 @@
           <hi rend="i">Tartuffe</hi> :
         </quote> </p>
         <quote>
-          <l><quote>Il est avec le ciel des accommodements.</quote> </l>
+          <l>Il est avec le ciel des accommodements.</l>
         </quote>
         <p><quote>Il imagina donc l’expédient que l’on sait ; il ordonna une enquête et permit d’enterrer Molière au cimetière Saint-Joseph, mais à la nuit noire (à huit heures du soir, en février !), comme s’il eût voulu cacher aux Parisiens la honte de sa capitulation. 
           »

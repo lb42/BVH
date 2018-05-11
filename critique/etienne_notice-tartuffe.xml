@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../anecdotes/anecdotes.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../anecdotes/anecdotes.rng" type="application/xml"  schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
   <teiHeader>
@@ -112,7 +113,7 @@
             <hi rend="sc">lise.</hi>
           </label>
           <l>Tu peux les voir de loin et sans en approcher.</l>
-          <label type="speaker"><hi rend="sc">laurent</hi><stage>, la pressant vivement</stage>.</label>
+          <label type="speaker"><hi rend="sc">laurent</hi><hi rend="i">, la pressant vivement</hi>.</label>
           <l>Je ne puis voir de loin et suis court de visière.</l>
           <label type="speaker">
             <hi rend="sc">lise.</hi>
@@ -123,9 +124,9 @@
         <p>On n’imaginerait jamais comment le dévot parodiste amène les reproches de plagiat qu’il fait à Molière. La suivante, repoussant les ardeurs de Laurent, lui dit comme Dorine à Tartuffe<note place="bottom">Et pour être Romain on n’en est pas moins homme. (<hi rend="i">Sertorius</hi>)</note> :</p>
         <quote>
           <l>Je te verrais tout nu sans en être tentée.</l>
-          <label type="speaker"><hi rend="sc">laurent</hi><stage>, se déshabillant</stage>.</label>
+          <label type="speaker"><hi rend="sc">laurent</hi><hi rend="i">, se déshabillant</hi>.</label>
           <l>Il le faut éprouver.</l>
-          <label type="speaker"><hi rend="sc">lise</hi><stage>, le retenant</stage>.</label>
+          <label type="speaker"><hi rend="sc">lise</hi><hi rend="i">, le retenant</hi>.</label>
           <l>Il n’est pas besoin. Non.</l>
           <l>Quoi ! tu serais sujet à la tentation !</l>
           <l>Un valet tel que toi de l’amour se consomme !</l>
