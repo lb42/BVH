@@ -35,7 +35,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Louis-Sébastien Mercier</author>, <title>Molière : drame en cinq actes en prose ; imité de Goldoni, par M. Mercier</title>, <pubPlace>Amsterdam, Paris</pubPlace>, <publisher>s. n., chez les libraires qui vendent des nouveautés</publisher>, <date>1776</date>, xvj-220 p. Source : <ref target="https://books.google.fr/books?id=69tVAAAAcAAJ">Google Livres</ref>.</bibl>
+        <bibl><author>Louis-Sébastien Mercier</author>, <title>Molière : drame en cinq actes en prose ; imité de Goldoni, par M. Mercier</title>, <pubPlace>Amsterdam, Paris</pubPlace>, <publisher>s. n., chez les libraires qui vendent des nouveautés</publisher>, <date>1776</date>, pp. <biblScope unit="page">xvj-220</biblScope>. Source : <ref target="https://books.google.fr/books?id=69tVAAAAcAAJ">Google Books</ref>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>

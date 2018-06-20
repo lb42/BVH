@@ -38,7 +38,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Ferdinand Brunetière</author>, <title>Histoire de la littérature française classique (1515-1830) Tome II Le dix-septième siècle</title>,  Chapitre IV : « Molière », <pubPlace>Paris</pubPlace>, <publisher>Delagrave</publisher>, <date>1919</date>, 652 p.</bibl>
+        <bibl><author>Ferdinand Brunetière</author>, <title>Histoire de la littérature française classique (1515-1830). Molière</title>, t. <biblScope unit="volume">II</biblScope>, <pubPlace>Paris</pubPlace>, <publisher>Delagrave</publisher>, <date>1919</date>, p. <biblScope unit="page">652</biblScope>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>

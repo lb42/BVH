@@ -39,7 +39,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Jean-Jacques Weiss</author>, <title>Molière</title>, préface par le prince Georges Stirbey, <pubPlace>Paris</pubPlace>, <publisher>C. Lévy</publisher>, <date>1900</date>, XX-283 p. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k204391w">Gallica</ref>.</bibl>
+        <bibl><author>Jean-Jacques Weiss</author>, <title>Molière</title>, préface par le prince Georges Stirbey, <pubPlace>Paris</pubPlace>, <publisher>C. Lévy</publisher>, <date>1900</date>, pp. <biblScope unit="page">XX-283</biblScope>. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k204391w">Gallica</ref>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>

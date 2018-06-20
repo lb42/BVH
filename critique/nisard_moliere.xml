@@ -38,7 +38,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Désiré Nisard</author>, <title>Histoire de la littérature française</title>,<date>1850</date>, tome IV, livre III, chapitre IX, p. 75-132.</bibl>
+        <bibl><author>Désiré Nisard</author>, <title>Histoire de la littérature française</title>,<date>1850</date>, t. <biblScope unit="volume">IV</biblScope>, livre III, chapitre IX, pp. <biblScope unit="page">75-132</biblScope>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>

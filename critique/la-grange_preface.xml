@@ -28,10 +28,7 @@
          </publicationStmt>
          <sourceDesc>
             <bibl>
-               <author>La Grange,</author>
-               <title>Préface à l'édition des Oeuvres de Molière,</title>
-               <publisher>Thierry,</publisher>
-               <date>1682</date>
+               <author>La Grange,</author>, <title>Préface à l'édition des Œuvres de Molière,</title>, <publisher>Thierry</publisher>, <date>1682</date>.
             </bibl>
          </sourceDesc>
       </fileDesc>

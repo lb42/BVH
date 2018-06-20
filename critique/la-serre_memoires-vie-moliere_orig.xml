@@ -38,7 +38,7 @@
 </availability>
 </publicationStmt>
 <sourceDesc>
-    <bibl>Jean-Louis-Ignace de <author>La Serre</author>, <title><hi rend="i">« Mémoires sur la vie et les ouvrages de Molière », in </hi>Œuvres de Molière, nouvelle édition</title>, <pubPlace>Paris</pubPlace>, <publisher>Prault</publisher>, <date>1734</date>, t. I, p. xvij-lxj. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k1051602r">Gallica</ref>.</bibl>
+    <bibl><author>Jean-Louis-Ignace de La Serre</author>, <title><hi rend="i">« Mémoires sur la vie et les ouvrages de Molière », in </hi>Œuvres de Molière, nouvelle édition</title>, t. <biblScope unit="volume">I</biblScope>, <pubPlace>Paris</pubPlace>, <publisher>Prault</publisher>, <date>1734</date>, pp. <biblScope unit="page">xvij-lxj</biblScope>. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k1051602r">Gallica</ref>.</bibl>
 </sourceDesc>
 </fileDesc>
 <profileDesc>

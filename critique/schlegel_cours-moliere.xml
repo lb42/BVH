@@ -38,7 +38,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Auguste Schlegel</author>, <title>Cours de littérature dramatique</title>, traduit de l’allemand par M<hi rend="sup">me</hi> Necker de Saussure, tome II, douzième leçon, <pubPlace>Paris</pubPlace>, <publisher>Librairie internationale, Lacroix, Verboeckoven et Cie</publisher>, <date>1865</date>, p. 75-124.</bibl>
+        <bibl><author>Auguste Schlegel</author>, <title>Cours de littérature dramatique</title>, traduit de l’allemand par M<hi rend="sup">me</hi> Necker de Saussure, t. <biblScope unit="volume">II</biblScope>, douzième leçon, <pubPlace>Paris</pubPlace>, <publisher>Librairie internationale, Lacroix, Verboeckoven et Cie</publisher>, <date>1865</date>, pp. <biblScope unit="page">75-124</biblScope>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>

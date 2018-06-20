@@ -16,24 +16,15 @@
         </distributor>
       </publicationStmt>
       <sourceDesc>
-        <bibl>
-          <title>
-Encyclopédie, Dictionnaire raisonné des 
-sciences, des arts et des métiers, par une 
-Société de Gens de lettres.
-</title>
-          <author>Diderot, Denis &amp; Alembert, Jean d’(eds)</author>
-          <publisher>Le Breton</publisher>
-          <pubPlace>Paris</pubPlace>
-        </bibl>
+        <bibl><author>Diderot, Denis &amp; Alembert, Jean d’</author>, <title>Encyclopédie, Dictionnaire raisonné des sciences, des arts et des métiers, par une Société de Gens de lettres</title>, <pubPlace>Paris</pubPlace>, <publisher>Le Breton</publisher>, <date>1751-1765c</date>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
       <langUsage>
-        <language ident="fr"/>
+        <language ident="fre"/>
       </langUsage>
       <creation>
-        <date notBefore="1751" notAfter="1765"/>
+        <date notBefore="1751" notAfter="1765">1751-1765c</date>
       </creation>
     </profileDesc>
   </teiHeader>

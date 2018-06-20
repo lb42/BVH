@@ -37,7 +37,7 @@
 </availability>
 </publicationStmt>
 <sourceDesc>
-    <bibl>Charles <author>Perrault</author>, <title><hi rend="i">« Molière », in </hi>Les Hommes illustres qui ont paru en France pendant ce siècle</title>, <pubPlace>Paris</pubPlace>, <publisher>Antoine Dezaillier</publisher>, <date>1696</date>, p. 79-80. Source : <ref target="https://archive.org/details/gri_hommesillust01perr">Internet Archive</ref>.</bibl>
+    <bibl><author>Charles Perrault</author>, <title><hi rend="i">« Molière », in </hi>Les Hommes illustres qui ont paru en France pendant ce siècle</title>, <pubPlace>Paris</pubPlace>, <publisher>Antoine Dezaillier</publisher>, <date>1696</date>, pp. <biblScope unit="page">79-80</biblScope>. Source : <ref target="https://archive.org/details/gri_hommesillust01perr">Internet Archive</ref>.</bibl>
 </sourceDesc>
 </fileDesc>
 <profileDesc>

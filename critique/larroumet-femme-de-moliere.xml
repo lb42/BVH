@@ -38,7 +38,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Gustave Larroumet</author>, <title>« La femme de Molière : Armande Béjart »</title>, in <hi rend="i">Revue des deux mondes</hi>,3<hi rend="sup">e</hi> période, tome LXIX, <date>15 juin 1885</date>, p. 873-908.</bibl>
+        <bibl><author>Gustave Larroumet</author>, <title>« La femme de Molière : Armande Béjart »</title>, in <hi rend="i">Revue des deux mondes</hi>,3<hi rend="sup">e</hi> période, t. <biblScope unit="volume">LXIX</biblScope>, 15 juin <date>1885</date>, pp. <biblScope unit="page">873-908</biblScope>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>

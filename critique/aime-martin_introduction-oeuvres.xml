@@ -48,8 +48,8 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Louis-Aimé Martin</author>, <title>Oeuvres de Molière, avec les notes de tous
-            les commentateurs</title>, tome premier, <pubPlace>Paris</pubPlace>, <publisher>Lefèvre
+        <bibl><author>Louis-Aimé Martin</author>, <title>Œuvres de Molière, avec les notes de tous
+            les commentateurs</title>, t. <biblScope unit="volume">I</biblScope>, <pubPlace>Paris</pubPlace>, <publisher>Lefèvre
             et Furne</publisher>, <date>1845</date>.</bibl>
       </sourceDesc>
     </fileDesc>

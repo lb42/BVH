@@ -32,7 +32,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Étienne, Charles-Guillaume (1777-1845)</author>, « Notice sur le <hi rend="i">Tartuffe</hi> » [1824], in <title>Œuvres complètes de Molière, précédées d’une notice par L. B. Picard, avec des notes et des éclaircissements historiques</title>, nouvelle édition, tome IV, <pubPlace>Paris</pubPlace>, <publisher>P. Pourrat frères</publisher>, <date>1838</date>, p. 91-146.</bibl>
+        <bibl><author>Charles-Guillaume Étienne</author>, « Notice sur le <hi rend="i">Tartuffe</hi> » [1824], in <title>Œuvres complètes de Molière, précédées d’une notice par L. B. Picard, avec des notes et des éclaircissements historiques</title>, nouvelle édition, t. <biblScope unit="volume">IV</biblScope>, <pubPlace>Paris</pubPlace>, <publisher>P. Pourrat frères</publisher>, <date>1838</date>, p. <biblScope unit="page">91-146</biblScope>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>

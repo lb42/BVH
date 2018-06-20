@@ -43,10 +43,7 @@
         <idno>http://obvil.paris-sorbonne.fr/corpus/moliere/personnage/gensoul_menage-moliere_1822</idno>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Gensoul Justin</author>, <author>Naudet A.</author>, <title>Le Ménage de
-            Molière</title>, <pubPlace>Paris</pubPlace>, <publisher>Mme Huet</publisher>,
-            <date>1822</date>, in-8<hi rend="sup">o</hi>. PDF : <ref
-            target="https://books.google.fr/books?id=98onAAAAYAAJ">Google Books</ref>.</bibl>
+        <bibl><author>Gensoul Justin</author>, <author>Naudet A.</author>, <title>Le Ménage de Molière</title>, <pubPlace>Paris</pubPlace>, <publisher>Mme Huet</publisher>, <date>1822</date>, in-8<hi rend="sup">o</hi>. Source : <ref target="https://books.google.fr/books?id=98onAAAAYAAJ">Google Books</ref>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>
@@ -219,8 +216,7 @@
             <l>C'est : <hi rend="i">Le Ménage de Molière.</hi></l>
           </sp>
           <sp who="semainier">
-            <speaker>Le semainier<stage>, </stage><stage>ô</stage><stage>tant son
-              chapeau.</stage></speaker>
+            <speaker>Le semainier<stage>, ôtant son chapeau.</stage></speaker>
             <l>De Molière ?</l>
           </sp>
           <sp who="auteur">
@@ -369,7 +365,7 @@
             <l>Et nous verrons après.</l>
           </sp>
           <sp who="auteur">
-            <speaker>L'auteur<stage>, </stage><stage>avec inquiétude.</stage></speaker>
+            <speaker>L'auteur<stage>, avec inquiétude.</stage></speaker>
             <l>Voici donc le moment</l>
             <l>Où l’on va décider du sort de mon ouvrage !</l>
             <l>Je me croyais plus de courage.</l>
@@ -412,14 +408,14 @@
           <castItem><role xml:id="baron">Baron</role>, <actor>M. Desmousseaux</actor>.</castItem>
           <castItem><role xml:id="brecourt">Brécourt</role>, <roleDesc>amant d’Henriette</roleDesc>,
               <actor>M. Firmin</actor>.</castItem>
-          <castItem><role xml:id="mme_moliere">Mme Molière</role>, <actor>Mlle
+          <castItem><role xml:id="mme_moliere">M<hi rend="sup">me</hi> Molière</role>, <actor>M<hi rend="sup">lle</hi>
             Mars</actor>.</castItem>
-          <castItem><role xml:id="henriette">Henriette</role>, <roleDesc>nièce de Mme
-              Molière</roleDesc>, <actor>Mlle Bourgoin</actor>.</castItem>
-          <castItem><role xml:id="croisy">Mme du Croisy</role>, <roleDesc>comédienne</roleDesc>,
-              <actor>Mlle Leverd</actor>.</castItem>
+          <castItem><role xml:id="henriette">Henriette</role>, <roleDesc>nièce de M<hi rend="sup">me</hi>
+              Molière</roleDesc>, <actor>M<hi rend="sup">lle</hi> Bourgoin</actor>.</castItem>
+          <castItem><role xml:id="croisy">M<hi rend="sup">me</hi> du Croisy</role>, <roleDesc>comédienne</roleDesc>,
+              <actor>M<hi rend="sup">lle</hi> Leverd</actor>.</castItem>
           <castItem><role xml:id="forest">La Forest</role>, <roleDesc>servante de
-            Molière</roleDesc>, <actor>Mme Demerson</actor>.</castItem>
+            Molière</roleDesc>, <actor>M<hi rend="sup">me</hi> Demerson</actor>.</castItem>
         </castList>
         <stage>La Scène se passe à Paris, dans la maison de Molière.</stage>
       </div1>
@@ -446,7 +442,7 @@
             <l>S'est glissé si furtivement…</l>
           </sp>
           <sp who="forest">
-            <speaker>La Forest<stage>, </stage><stage>la contrefaisant.</stage></speaker>
+            <speaker>La Forest<stage>, la contrefaisant.</stage></speaker>
             <l>« Je ne le voulais pas… vraiment »</l>
             <l>C'est bien l’excuse d’une femme.</l>
           </sp>
@@ -528,7 +524,7 @@
           <head>Scène 2</head>
           <stage>Henriette, La Forest, Molière.</stage>
           <sp who="moliere">
-            <speaker>Molière<stage>, </stage><stage>un manuscrit à la main.</stage></speaker>
+            <speaker>Molière<stage>, un manuscrit à la main.</stage></speaker>
             <l>Je crois que le parterre</l>
             <l>Du bonhomme Chrysale aimera le bon sens.</l>
             <l>Sa faiblesse de caractère</l>
@@ -536,7 +532,7 @@
             <l>Et cette fois encor j’ai saisi la nature.</l>
           </sp>
           <sp who="forest">
-            <speaker>La Forest<stage>, </stage><stage>à part.</stage></speaker>
+            <speaker>La Forest<stage>, à part.</stage></speaker>
             <l>Il se tuera, la chose est sûre !</l>
           </sp>
           <sp who="henriette">
@@ -625,7 +621,7 @@
         <div2 type="scene">
           <head>Scène 3</head>
           <sp who="moliere">
-            <speaker>Molière<stage>, </stage><stage>seul.</stage></speaker>
+            <speaker>Molière<stage>, seul.</stage></speaker>
             <l>Messieurs les beaux esprits de l’hôtel Rambouillet,</l>
             <l>Par votre excès d’extravagance,</l>
             <l>Vous avez trouvé le secret</l>
@@ -650,9 +646,9 @@
         </div2>
         <div2 type="scene">
           <head>Scène 4</head>
-          <stage>Molière, Mme Molière.</stage>
+          <stage>Molière, M<hi rend="sup">me</hi> Molière.</stage>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Vous voilà, mon ami ? Je vous cherche partout.</l>
             <l>Pour un rôle nouveau j’ai fait quelques emplettes,</l>
             <l>Et je veux sur cela consulter votre goût.</l>
@@ -663,7 +659,7 @@
             <l>Est toujours bien.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>C'est l’auteur, mon ami,</l>
             <l>Que je veux consulter, et non pas le mari.</l>
           </sp>
@@ -675,7 +671,7 @@
             <l>Ma scène ne s’achève pas,</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Vous la ferez demain, :</l>
             <pb/>
           </sp>
@@ -684,7 +680,7 @@
             <l>Madame…</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Sans doute.</l>
           </sp>
           <sp who="moliere">
@@ -692,7 +688,7 @@
             <l>L'on attend…</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Eh bien l’on attendra.</l>
             <l>Croyez-moi, laissez tout cela,</l>
             <l>Et rendez grâce à votre femme.</l>
@@ -704,7 +700,7 @@
             <l>Croyez, mon aimable Isabelle…</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Vous ne méritez pas que l’on vienne vous voir.</l>
             <l>Non, vous ne savez point apprécier mon zèle.</l>
             <l>En vérité, Messieurs les grands esprits,</l>
@@ -717,11 +713,11 @@
             <l>Et le plaisir reste à la porte.</l>
           </sp>
           <sp who="moliere">
-            <speaker>Molière<stage>, </stage><stage>avec douceur.</stage></speaker>
+            <speaker>Molière<stage>, avec douceur.</stage></speaker>
             <l>Isabelle, plus de raison !</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Vraiment le conseil est fort bon !</l>
             <l>J'en sais un qui pourrait vous être très utile.</l>
             <l>Vous qui savez si bien de la Cour, de la Ville,</l>
@@ -738,7 +734,7 @@
             <l>Près de lui je mettrais sa femme…</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Doucement…</l>
             <l>Le rôle serait bon, j’en suis persuadée ;</l>
             <l>Mais de la femme, au moins, lorsque l’on aura ri,</l>
@@ -751,7 +747,7 @@
             <l>Songeons…</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Avec votre permission</l>
             <l>Je manquerai la répétition.</l>
             <l>Je viens vous l’annoncer.</l>
@@ -761,7 +757,7 @@
             <l>Quel motif ?</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Une affaire</l>
             <l>Me retient au logis.</l>
           </sp>
@@ -770,7 +766,7 @@
             <l>Ne puis-je la savoir ?</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Non : attendez jusqu’à ce soir.</l>
             <l>Mais en restant ici, je pourrais vous déplaire.</l>
             <pb/>
@@ -778,11 +774,11 @@
             <l>Adieu.</l>
           </sp>
           <sp who="moliere">
-            <speaker>Molière<stage>, </stage><stage>la retenant avec tendresse.</stage></speaker>
+            <speaker>Molière<stage>, la retenant avec tendresse.</stage></speaker>
             <l>Ne croyez point…</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Ma parole est donnée :</l>
             <l>Vous ne me verrez pas de toute la journée.</l>
             <stage>(Elle sort.)</stage>
@@ -791,7 +787,7 @@
         <div2 type="scene">
           <head>Scène 5</head>
           <sp who="moliere">
-            <speaker>Molière<stage>, </stage><stage>seul.</stage></speaker>
+            <speaker>Molière<stage>, seul.</stage></speaker>
             <l>Elle est charmante au fond, et, malgré ses défauts,</l>
             <l>Je sens que je l’adore… et c’est là ma folie.</l>
             <l>Par les sots tracassé, poursuivi par l’envie,</l>
@@ -934,7 +930,7 @@
             <l>Et le parterre y reviendra.</l>
           </sp>
           <sp who="moliere">
-            <speaker>Molière<stage>, </stage><stage>avec expression.</stage></speaker>
+            <speaker>Molière<stage>, avec expression.</stage></speaker>
             <l>J'aurai fermé les yeux quand on l’applaudira !</l>
             <l>Par le travail je sens que ma santé s’altère.</l>
           </sp>
@@ -1003,7 +999,7 @@
             <pb/>
           </sp>
           <sp who="moliere">
-            <speaker>Molière<stage>, </stage><stage>l’interrompant.</stage></speaker>
+            <speaker>Molière<stage>, l’interrompant.</stage></speaker>
             <l>Est bon juge, Chapelle.</l>
             <l>Sans ce grand roi, digne de notre amour,</l>
             <l><hi rend="i">Tartuffe</hi> n’eût pas vu le jour.</l>
@@ -1115,9 +1111,9 @@
         </div2>
         <div2 type="scene">
           <head>Scène 9</head>
-          <stage>Chapelle, La Forest, Mme Molière.</stage>
+          <stage>Chapelle, La Forest, M<hi rend="sup">me</hi> Molière.</stage>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Ah ! vous voilà, Chapelle ! eh bien, pour aujourd’hui</l>
             <l>Aurai-je mes couplets ?</l>
           </sp>
@@ -1130,7 +1126,7 @@
             <l>J'ai bon cœur et bon appétit.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Fort bien, mais ma chanson ?</l>
             <pb/>
           </sp>
@@ -1142,7 +1138,7 @@
             <l>C'est avec le bon vin que coulent les bons vers.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Avec moi, mon ami, voulez-vous être aimable ?</l>
             <l>Avant qu’on ne se mette à table,</l>
             <l>Que tout soit prêt.</l>
@@ -1162,7 +1158,7 @@
         <div2 type="scene">
           <head>Scène 10</head>
           <sp who="mme_moliere">
-            <speaker>Mme Molière<stage>, seule.</stage></speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière<stage>, seule.</stage></speaker>
             <l>Chapelle est un peu fou, mais excellent ami,</l>
             <l>Et sa gaîté fait du bien à Molière.</l>
             <l>Mais j’aperçois Brécourt… il vient souvent ici,</l>
@@ -1172,7 +1168,7 @@
         </div2>
         <div2 type="scene">
           <head>Scène 11</head>
-          <stage>Mme Molière, Brécourt.</stage>
+          <stage>M<hi rend="sup">me</hi> Molière, Brécourt.</stage>
           <sp who="brecourt">
             <speaker>Brécourt</speaker>
             <l>Je sors du théâtre à l’instant ;</l>
@@ -1180,7 +1176,7 @@
             <pb/>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Je la reconnais là.</l>
           </sp>
           <sp who="brecourt">
@@ -1190,7 +1186,7 @@
             <l>Mais viendrez-vous ?</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Non, je ne puis m’y rendre.</l>
           </sp>
           <sp who="brecourt">
@@ -1201,7 +1197,7 @@
             <l>Aux lieux où vous n’êtes pas.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Avouez que je suis bien bonne.</l>
             <l>Vous faites tous les jours le galant avec moi,</l>
             <l>Et cependant je vous pardonne ;</l>
@@ -1221,7 +1217,7 @@
             <l>N'aura de meilleur interprète.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Un moment, s’il vous plaît ; comme vous prenez feu !</l>
             <pb/>
             <l>Votre admiration est sans doute flatteuse,</l>
@@ -1233,19 +1229,19 @@
             <l>Et souffrez qu’à vos pieds je vous fasse l’aveu…</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>N'achevez pas, Monsieur, je ne veux rien entendre.</l>
           </sp>
         </div2>
         <div2 type="scene">
           <head>Scène 12</head>
-          <stage>Mme Molière, Brécourt, Henriette, au fond du théâtre.</stage>
+          <stage>M<hi rend="sup">me</hi> Molière, Brécourt, Henriette, au fond du théâtre.</stage>
           <sp who="brecourt">
             <speaker>Brécourt</speaker>
             <l>C'est de vous aujourd’hui que mon sort va dépendre.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Ah ! je me fâcherai, ceci devient trop fort.</l>
             <l>J'ai bien voulu souffrir votre galanterie,</l>
             <l>Mais je vois bien que j’avais tort ;</l>
@@ -1258,7 +1254,7 @@
             <l>Je n’osai pas déclarer mon amour.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Votre aveu cette fois est beaucoup trop sincère !</l>
           </sp>
           <sp who="brecourt">
@@ -1266,7 +1262,7 @@
             <l>Vous me protégerez près de Monsieur Molière ?</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Comment…</l>
             <pb/>
           </sp>
@@ -1276,7 +1272,7 @@
             <l>De vos bontés j’obtiendrai votre nièce.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Ma nièce ?</l>
           </sp>
           <sp who="brecourt">
@@ -1284,7 +1280,7 @@
             <l>Vous daignez m’en faire la promesse ?</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière<stage>, </stage><stage>riant.</stage></speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière<stage>, riant.</stage></speaker>
             <l>Ah ! j’en suis quitte pour la peur !</l>
           </sp>
           <sp who="brecourt">
@@ -1292,7 +1288,7 @@
             <l>Madame, à quel propos ?…</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Oh ! j’en ris de bon cœur !</l>
             <l>Je suis femme, et, suivant l’usage,</l>
             <l>J'ai cru qu’à ma beauté s’adressait votre hommage.</l>
@@ -1303,7 +1299,7 @@
             <l>Ma tante…</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Eh bien, Mademoiselle, après ?</l>
           </sp>
           <sp who="henriette">
@@ -1312,7 +1308,7 @@
             <l>Que de moi Monsieur vous parlait.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Qui vous a donc si bien instruite ?</l>
           </sp>
           <sp who="henriette">
@@ -1320,7 +1316,7 @@
             <l>Mais… je ne savais pas que cela s’apprenait.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Vous l’avez deviné toute seule ?</l>
             <pb/>
           </sp>
@@ -1332,7 +1328,7 @@
             <l>Que vous ne pouviez pas vous marier deux fois.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>C'est bien, Mademoiselle ; allons, baissez la vue.</l>
             <l>Nous pourrons au théâtre en faire une ingénue.</l>
             <l>De toutes vos douceurs, Brécourt, j’ai le secret :</l>
@@ -1348,7 +1344,7 @@
             <l>Pourriez-vous bien le rendre malheureux ?</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>De bon cœur je cède à vos vœux ;</l>
             <l>Mais mon consentement n’est pas seul nécessaire.</l>
             <l>Molière est son tuteur ; c’est à lui qu’il faut plaire.</l>
@@ -1359,7 +1355,7 @@
             <l>Pourquoi demain ?</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Vous êtes bien impatiente !</l>
             <l>Savez-vous que c’est fort vilain ?</l>
           </sp>
@@ -1368,7 +1364,7 @@
             <l>Pardon : je l’ignorais, ma tante.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Mes amis, à votre bonheur</l>
             <l>Je donnerai mes soins ; mais, aujourd’hui, Molière</l>
             <l>[pb]</l>
@@ -1387,7 +1383,7 @@
             <l>Baron le suit avec La Thorillière.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Sortons vite, et pensez à ma commission.</l>
             <stage>(Ils sortent.)</stage>
           </sp>
@@ -1422,7 +1418,7 @@
             <stage>(Un domestique entre et remet des lettres à Molière.)</stage>
           </sp>
           <sp who="moliere">
-            <speaker>Molière<stage>, </stage><stage>parcourant une lettre.</stage></speaker>
+            <speaker>Molière<stage>, parcourant une lettre.</stage></speaker>
             <l>Oh ! oh ! l’on veut me faire peur.</l>
             <l>Un médecin qui me menace</l>
             <l>De punir ma témérité,</l>
@@ -1442,14 +1438,8 @@
             <l>Nous sommes à bon droit tes premiers confidents.</l>
           </sp>
           <sp who="moliere">
-            <speaker>Molière<stage>, </stage><stage>lit.</stage></speaker>
-            <l>« Mon cher Molière, à force de chefs-d’œuvre, vous avez vaincu la résistance de mes
-              confrères de l’Académie, et ils commencent à être embarrassés de ne pas vous compter
-              au nombre des élus. Vous connaissez les motifs qui vous ont fermé jusqu’ici l’entrée
-              du temple. On doit faire des démarches auprès de vous, pour vous engager à quitter
-              l’état de comédien. Je n’ai pas de conseils à vous donner ; mais j’ai besoin de vous
-              dire combien je serais heureux d’être le confrère de celui dont je m’honore d’être
-              l’ami. »</l>
+            <speaker>Molière<stage>, lit.</stage></speaker>
+            <l>« Mon cher Molière, à force de chefs-d’œuvre, vous avez vaincu la résistance de mes confrères de l’Académie, et ils commencent à être embarrassés de ne pas vous compter au nombre des élus. Vous connaissez les motifs qui vous ont fermé jusqu’ici l’entrée du temple. On doit faire des démarches auprès de vous, pour vous engager à quitter l’état de comédien. Je n’ai pas de conseils à vous donner ; mais j’ai besoin de vous dire combien je serais heureux d’être le confrère de celui dont je m’honore d’être l’ami. »</l>
           </sp>
           <sp who="baron">
             <speaker>Baron</speaker>
@@ -1461,8 +1451,7 @@
             <pb/>
           </sp>
           <sp who="moliere">
-            <speaker>Molière<stage>, </stage><stage>avec force et les prenant par la
-              main.</stage></speaker>
+            <speaker>Molière<stage>, avec force et les prenant par la main.</stage></speaker>
             <l>Ils apprendront du refus de Molière,</l>
             <l>Que j’ai trouvé chez vous l’honneur et l’amitié.</l>
           </sp>
@@ -1487,7 +1476,7 @@
             <l>Il sera de nos fils le plus bel héritage.</l>
           </sp>
           <sp who="moliere">
-            <speaker>Molière<stage>, </stage><stage>ouvrant une autre lettre.</stage></speaker>
+            <speaker>Molière<stage>, ouvrant une autre lettre.</stage></speaker>
             <l>Quel est ce billet-ci ? Je reconnais le seing.</l>
             <l>C'est Mondorge…</l>
           </sp>
@@ -1506,7 +1495,7 @@
             <l>De vous parler pour lui.</l>
           </sp>
           <sp who="moliere">
-            <speaker>Molière<stage>, </stage><stage>après avoir lu.</stage></speaker>
+            <speaker>Molière<stage>, après avoir lu.</stage></speaker>
             <l>Réclamer ma pitié !…</l>
             <l>Ah ! ce mot-là me blesse.</l>
             <pb/>
@@ -1577,9 +1566,9 @@
         </div2>
         <div2 type="scene">
           <head>Scène 14</head>
-          <stage>Molière, La Thorillière et Mlle du Croisy.</stage>
+          <stage>Molière, La Thorillière et M<hi rend="sup">lle</hi> du Croisy.</stage>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>Eh bien ! est-ce ici qu’on répète,</l>
             <l>Messieurs ?Je vous cherche partout.</l>
             <l>J'arrive du théâtre où je n’ai vu personne.</l>
@@ -1595,7 +1584,7 @@
             <l>En attendant votre venue.</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>De si bonne heure aussi, pourquoi répète-ton ?</l>
             <l>En vérité, si cela continue,</l>
             <l>Bientôt avant le jour on nous fera lever.</l>
@@ -1607,7 +1596,7 @@
             <l>Que Madame aujourd’hui n’est pas très matinale.</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>Votre obligeance en tout temps se signale.</l>
             <stage>(À Molière.)</stage>
             <l>Il me tardait de vous trouver ;</l>
@@ -1620,7 +1609,7 @@
             <l>La pièce est assez bien.</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>Qui vous a dit cela ? Mon rôle ne vaut rien.</l>
             <l>Je l’avais accepté pour soutenir l’ouvrage ;</l>
             <l>Mais Armande est vraiment un si sot personnage,</l>
@@ -1640,7 +1629,7 @@
             <l>Que lui reprochez-vous enfin ?</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>Du commencement à la fin,</l>
             <l>Ce rôle est plein d’extravagance.</l>
           </sp>
@@ -1650,7 +1639,7 @@
             <pb/>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>Je dis ce que je pense.</l>
             <l>Je n’ai pas quatre vers que l’on puisse applaudir ;</l>
             <l>Pas un mot de galanterie !</l>
@@ -1662,7 +1651,7 @@
             <l>À quoi bon ? Ne le voit-on pas ?</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>Oui, franchement je le répète,</l>
             <l>Votre rôle est des plus ingrats.</l>
             <l>L'auteur le sacrifie à celui d’Henriette.</l>
@@ -1672,7 +1661,7 @@
             <l>Le théâtre ne vit que d’oppositions.</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>Ah ! voilà de belles raisons !</l>
           </sp>
           <sp who="moliere">
@@ -1680,7 +1669,7 @@
             <l>Mais cependant…</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>Point de réplique !</l>
             <l>Des règles d’Aristote et de sa rhétorique</l>
             <l>Je ne fais pas le moindre cas.</l>
@@ -1690,7 +1679,7 @@
             <l>Mais le bon sens le veut.</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>Moi, je ne le veux pas.</l>
             <l>Je suis certainement très bonne camarade ;</l>
             <l>Mais quand on vous jouera je tomberai malade.</l>
@@ -1701,7 +1690,7 @@
             <pb/>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>Si l’on vous écoutait j’aurais peut-être tort.</l>
           </sp>
           <sp who="thorilliere">
@@ -1709,7 +1698,7 @@
             <l>De raisonner avec vous je n’ai garde.</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy<stage>, </stage><stage>à Molière.</stage></speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy<stage>, à Molière.</stage></speaker>
             <l>Le moyen d’y tenir ! Doucement je hasarde</l>
             <l>Une observation ; on se fâche d’abord.</l>
             <l>Autant que vous, je crois que cela me regarde ;</l>
@@ -1722,7 +1711,7 @@
             <l>Aux miennes vous ne pensez guère.</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>En suivant mes conseils, vous pouvez éviter</l>
             <l>Une chute : du moins il faudrait m’écouter.</l>
           </sp>
@@ -1732,7 +1721,7 @@
             <l>Que ferai-je ?</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>Il vous faut changer vos caractères.</l>
           </sp>
           <sp who="moliere">
@@ -1740,7 +1729,7 @@
             <l>Rien que cela ?</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>Le mien, premièrement.</l>
           </sp>
           <sp who="moliere">
@@ -1748,7 +1737,7 @@
             <l>J'aurais grand tort ; il est charmant !</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>Là, sans disputer d’avantage,</l>
             <l>Au parterre croit-on que j’aurai le courage</l>
             <pb/>
@@ -1765,7 +1754,7 @@
             <l>Vous vous mettez.</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>Non, non. Il est de certains mots</l>
             <l>Que je ne dirai point : je me sens des scrupules.</l>
           </sp>
@@ -1779,7 +1768,7 @@
             <l><hi rend="i">Les Précieuses ridicules</hi>.</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>Vous me raillez, je crois ?</l>
           </sp>
           <sp who="thorilliere">
@@ -1788,7 +1777,7 @@
             <l>Je pense que Molière en sait autant que vous. |</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>Vous êtes un flatteur.</l>
           </sp>
           <sp who="moliere">
@@ -1796,7 +1785,7 @@
             <l>À ton tour.</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>- Quoi qu’on fasse,</l>
             <l>Je n’en démordrai point, et vous le dis tout net.</l>
             <l>Il faudra retrancher la scène du sonnet,</l>
@@ -1810,7 +1799,7 @@
             <l>Mais je n’en ferai rien du tout.</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>Non ? vous reprendrez donc votre rôle d’Armande ?</l>
             <l>Le voici.</l>
           </sp>
@@ -1819,7 +1808,7 @@
             <l>Soit, c’est ce que je demande.</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>Qu'en ferez-vous ?</l>
           </sp>
           <sp who="moliere">
@@ -1827,7 +1816,7 @@
             <l>Un autre le prendra.</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy<stage>, reprenant le rôle.</stage></speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy<stage>, reprenant le rôle.</stage></speaker>
             <l>En vérité ? je vous attendais-là.</l>
             <l>Et cette autre sans doute, est Madame Molière ;</l>
             <l>Femme du directeur, pour elle on doit tout faire.</l>
@@ -1841,7 +1830,7 @@
             <l>Bien ! ma femme a son tour aussi !</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>Cependant, pour cette fois-ci,</l>
             <l>Laissez-lui, croyez-moi, son rôle d’amoureuse,</l>
             <l>Avec plaisir elle s’en chargera ;</l>
@@ -1853,11 +1842,11 @@
             <l>Le fortuné Brécourt vient déclarer ses feux !</l>
           </sp>
           <sp who="thorilliere">
-            <speaker>La Thorillière<stage>, bas à Mlle du Croisy.</stage></speaker>
+            <speaker>La Thorillière<stage>, bas à M<hi rend="sup">lle</hi> du Croisy.</stage></speaker>
             <l>Finirez-vous ?</l>
           </sp>
           <sp who="moliere">
-            <speaker>Molière<stage>, </stage><stage>inquiet.</stage></speaker>
+            <speaker>Molière<stage>, inquiet.</stage></speaker>
             <l>Non. Poursuivez : je veux…</l>
           </sp>
           <sp who="thorilliere">
@@ -1865,7 +1854,7 @@
             <l>Bon !</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>Aurais-je mal parlé d’elle ?</l>
             <l>J'en serais désolée ! Elle est sage et fidèle ;</l>
             <l>Je le soutiens à tous.</l>
@@ -1875,16 +1864,16 @@
             <l>Que dites-vous donc là ?</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy<stage>, </stage><stage>bas à La Thorillière.</stage></speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy<stage>, bas à La Thorillière.</stage></speaker>
             <l>Mais voyez la belle nouvelle !</l>
             <l>On ne parle que de cela.</l>
           </sp>
           <sp who="moliere">
-            <speaker>Molière<stage>, </stage><stage>qui l’a entendue.</stage></speaker>
+            <speaker>Molière<stage>, qui l’a entendue.</stage></speaker>
             <l>Vous dites ?</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>Rien… Adieu ! je garderai mon rôle,</l>
             <l>Puisque vous l’exigez ; mais souvenez-vous bien,</l>
             <l>Si vous êtes sifflé, que je n’y suis pour rien.</l>
@@ -1901,7 +1890,7 @@
             <pb/>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>De ce pas</l>
             <l>Je sors ; ici je n’ai plus rien à faire.</l>
             <stage>(À La Thorillière.)</stage>
@@ -1912,7 +1901,7 @@
             <l>Oh ! volontiers.</l>
           </sp>
           <sp who="croisy">
-            <speaker>Mlle du Croisy</speaker>
+            <speaker>M<hi rend="sup">lle</hi> du Croisy</speaker>
             <l>Sans rancune, Molière.</l>
             <l>Vous voyez, je suis franche, et je ne sais rien taire.</l>
             <l>Vous avez de l’esprit : vous ne m’en voudrez pas.</l>
@@ -1921,7 +1910,7 @@
         <div2 type="scene">
           <head>Scène 15</head>
           <sp who="moliere">
-            <speaker>Molière<stage>, </stage><stage>seul.</stage></speaker>
+            <speaker>Molière<stage>, seul.</stage></speaker>
             <l>Juste ciel ! que viens-je d’entendre !</l>
             <l>Ah ! d’un trouble mortel je ne puis me défendre.</l>
             <l>Se pourrait-il ! Ma femme !… Oh non !</l>
@@ -1947,9 +1936,9 @@
         </div2>
         <div2 type="scene">
           <head>Scène 16</head>
-          <stage>Molière et Mme. Molière.</stage>
+          <stage>Molière et M<hi rend="sup">me</hi> Molière.</stage>
           <sp who="mme_moliere">
-            <speaker>Mme Molière<stage>, </stage><stage>un rôle à la main.</stage></speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière<stage>, un rôle à la main.</stage></speaker>
             <l>Chez-vous peut-on se présenter,</l>
             <l>Sans indiscrétion ? je viens vous consulter ;</l>
             <l>Non pas comme tantôt, sur un objet frivole,</l>
@@ -1961,7 +1950,7 @@
             <l>C'est mal prendre son temps.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Est-ce que je vous gêne ?</l>
           </sp>
           <sp who="moliere">
@@ -1970,7 +1959,7 @@
             <l>Peu disposé…</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Si ; vous êtes en scène</l>
             <l>On ne peut mieux ; car il s’agit</l>
             <l>Du <hi rend="i">Misanthrope</hi>, et voici Célimène.</l>
@@ -1980,7 +1969,7 @@
             <l>Vous apprenez ?…</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Oui.</l>
           </sp>
           <sp who="moliere">
@@ -1989,7 +1978,7 @@
             <pb/>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Eh quoi !</l>
             <l>Ne doit-on pas cette semaine</l>
             <l>Jouer la pièce chez le Roi ?</l>
@@ -2000,7 +1989,7 @@
             <l>Madame du Croisy…</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>J'entends. Jusqu’à ce jour</l>
             <l>Elle a joué ce rôle ; eh bien, c’est à mon tour.</l>
           </sp>
@@ -2009,7 +1998,7 @@
             <l>Ce n’est pas votre emploi.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Je le prends.</l>
           </sp>
           <sp who="moliere">
@@ -2018,7 +2007,7 @@
             <l>Trouvera-t-on mauvais…</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>N'êtes-vous pas le maître ?</l>
             <l>Auteur et directeur, vous avez tous les droits.</l>
           </sp>
@@ -2027,7 +2016,7 @@
             <l>Aussi s’en plaint-on quelquefois.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Je veux jouer, vous dis-je, une grande coquette.</l>
             <l>C'est un point résolu. Vous verrez, mon ami,</l>
             <l>Que je réussirai.</l>
@@ -2037,7 +2026,7 @@
             <l>Je le crois trop.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Ainsi</l>
             <l>Répétons. J'ai déjà commandé ma toilette.</l>
             <pb/>
@@ -2049,7 +2038,7 @@
             <l>À nos jeunes Seigneurs, faire tourner la tête ?</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière<stage>, </stage><stage>d’un air de confidence.</stage></speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière<stage>, d’un air de confidence.</stage></speaker>
             <l>Oh ! je serai charmante.</l>
           </sp>
           <sp who="moliere">
@@ -2059,7 +2048,7 @@
             <l>Ce rôle-là ne vous sied point.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Pourquoi ?</l>
           </sp>
           <sp who="moliere">
@@ -2067,7 +2056,7 @@
             <l>Vous le joueriez fort mal.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Ah ! c’est là votre crainte ?</l>
             <l>Elle n’est pas flatteuse.</l>
           </sp>
@@ -2077,7 +2066,7 @@
             <l>Je dois vous l’avouer ; et c’est une imprudence…</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Brécourt, dont vous prenez bien souvent les avis,</l>
             <l>Me juge avec plus d’indulgence.</l>
           </sp>
@@ -2101,7 +2090,7 @@
             <l>À bien gouverner ma maison.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Qui ? Moi ? renoncer au théâtre ?</l>
             <l>Quitter un art que j’idolâtre ?</l>
             <l>Y pensez-vous ?</l>
@@ -2111,7 +2100,7 @@
             <l>Très sérieusement.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Allons, vous rêvez ?</l>
           </sp>
           <sp who="moliere">
@@ -2120,7 +2109,7 @@
             <l>Ce serait agir prudemment.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Encor ? Mais quel est ce vertige ?</l>
           </sp>
           <sp who="moliere">
@@ -2129,7 +2118,7 @@
             <l>Je crains pour vous les traits de la satire.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Oh ! finissez, Monsieur,</l>
           </sp>
           <sp who="moliere">
@@ -2137,7 +2126,7 @@
             <l>Je me retire, mais…</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Mais… suis-je sans talent ?</l>
             <pb/>
           </sp>
@@ -2153,7 +2142,7 @@
         <div2 type="scene">
           <head>Scène 17</head>
           <sp who="mme_moliere">
-            <speaker>Mme Molière<stage>, seule.</stage></speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière<stage>, seule.</stage></speaker>
             <l>Quelle est cette bizarrerie !</l>
             <l>C'est sans doute un nouvel accès de jalousie.</l>
             <l>Douter de mon amour, c’est mal assurément ;</l>
@@ -2166,9 +2155,9 @@
         </div2>
         <div2 type="scene">
           <head>Scène 18</head>
-          <stage>Brécourt, Mme Molière, et ensuite Molière.</stage>
+          <stage>Brécourt, M<hi rend="sup">me</hi> Molière, et ensuite Molière.</stage>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Ah ! vous voilà ? fort bien.</l>
           </sp>
           <sp who="brecourt">
@@ -2177,7 +2166,7 @@
             <l>Votre portrait.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière<stage>, </stage><stage>la regardant.</stage></speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière<stage>, la regardant.</stage></speaker>
             <l>Je le crois ressemblant.</l>
             <pb/>
           </sp>
@@ -2209,7 +2198,7 @@
             <l>Que dit-il ?</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière<stage>, </stage><stage>bas à Brécourt.</stage></speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière<stage>, bas à Brécourt.</stage></speaker>
             <l>Voici mon mari.</l>
             <l>Pour un moment laissez-nous seuls ici.</l>
             <l>Vous reviendrez pour notre fête.</l>
@@ -2224,14 +2213,14 @@
         </div2>
         <div2 type="scene">
           <head>Scène 19</head>
-          <stage>Molière, Mme Molière.</stage>
+          <stage>Molière, M<hi rend="sup">me</hi> Molière.</stage>
           <sp who="moliere">
             <speaker>Molière<stage>, à part.</stage></speaker>
             <l>La perfide !</l>
             <pb/>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière<stage>, </stage><stage>à part.</stage></speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière<stage>, à part.</stage></speaker>
             <l>Essayons mon rôle de coquette.</l>
           </sp>
           <sp who="moliere">
@@ -2239,7 +2228,7 @@
             <l>Ah ! Qu'ai-je vu ?</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière<stage>, </stage><stage>à part.</stage></speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière<stage>, à part.</stage></speaker>
             <l>Ma vengeance s’apprête.</l>
             <l>Voici mon Misanthrope inquiet et jaloux :</l>
             <l>Nous, soyons Célimène.</l>
@@ -2252,7 +2241,7 @@
             <l>Cache une âme si double et le cœur le plus faux !</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Vous me supposez-là de bien jolis défauts.</l>
           </sp>
           <sp who="moliere">
@@ -2262,7 +2251,7 @@
             <l>Quand de vos trahisons en secret occupé…</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Que me voulez-vous dire ?</l>
           </sp>
           <sp who="moliere">
@@ -2273,7 +2262,7 @@
             <l>Je retrouve mon cœur ainsi que ma raison.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Vous me direz du moins, Monsieur, quel est mon crime ?</l>
           </sp>
           <sp who="moliere">
@@ -2283,7 +2272,7 @@
             <pb/>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>J'admire, en vérité, ce caprice jaloux.</l>
             <l>Est-ce ma faute, à moi, si j’ai le don de plaire ?</l>
             <l>Prenez votre parti, car je ne sais qu’y faire.</l>
@@ -2301,7 +2290,7 @@
             <l>Vous venez de cacher ?…</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Quoi ! c’est là le sujet…</l>
           </sp>
           <sp who="moliere">
@@ -2309,7 +2298,7 @@
             <l>Je le verrai, j’espère.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Oh ! non. C'est un secret ;</l>
             <l>Et vous savez, Monsieur, combien je suis discrète.</l>
           </sp>
@@ -2318,7 +2307,7 @@
             <l>Vous m’oseriez payer d’une telle défaite ?</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Et vous, vous me croyez capable d’un détour ?</l>
             <l>C'est fort mal ; je pourrais me fâcher à mon tour ;</l>
             <l>Et vous méritez peu l’amour que l’on vous porte ;</l>
@@ -2333,7 +2322,7 @@
             <l>Ce portrait de Brécourt suffit pour vous confondre.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>De Brécourt ? Qui vous dit que ce soit là le sien ?</l>
           </sp>
           <sp who="moliere">
@@ -2342,7 +2331,7 @@
             <l>C'est de me le montrer ; ainsi, veuillez, Madame…</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>À quoi bon ? si c’était le portrait d’ une femme ?</l>
           </sp>
           <sp who="moliere">
@@ -2351,7 +2340,7 @@
             <l>Donnez-le moi, je veux…</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière<stage>, </stage><stage>avec fermeté.</stage></speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière<stage>, avec fermeté.</stage></speaker>
             <l>Non. Je n’en ferai rien.</l>
             <l>C'est souffrir trop longtemps un doute qui m’outrage,</l>
             <l>Et vous vous en tiendrez à mon seul témoignage.</l>
@@ -2361,7 +2350,7 @@
             <l>Ne nous emportons point, et daignez seulement…</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Non, vous dis-je, c’est bien le portrait d’un amant.</l>
             <l>Croyez-le, j’y consens, et que votre colère</l>
             <l>Pousse, jusques au bout, l’éclat qu’elle veut faire.</l>
@@ -2384,7 +2373,7 @@
             <l>Et vous croire innocente est ma plus douce envie.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>À la bonne heure ; allons, je vous pardonne tout ;</l>
             <l>Mais méritez mon indulgence.</l>
             <l>L'hymen veut de la confiance,</l>
@@ -2407,7 +2396,7 @@
             <l>Je remets en vos mains le soin de mon bonheur.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Croyez-moi, c’est toujours ce qu’il faut que l’on fasse.</l>
             <l>Mais laissons cela, mon ami.</l>
             <l>Vous me boudiez, tout est fini ;</l>
@@ -2423,7 +2412,7 @@
         </div2>
         <div2 type="scene">
           <head>Scène 20</head>
-          <stage>Molière, Mme Molière, La Fontaine et Mignard.</stage>
+          <stage>Molière, M<hi rend="sup">me</hi> Molière, La Fontaine et Mignard.</stage>
           <sp who="mignard">
             <speaker>Mignard</speaker>
             <l>Bravo ! Molière ! reste-là.</l>
@@ -2442,7 +2431,7 @@
             <l>Un tel excès d’amour ?</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Bon ! c’est une querelle.</l>
             <stage>(Avec intention.)</stage>
             <l>Monsieur était jaloux.</l>
@@ -2452,7 +2441,7 @@
             <l>Taisez-vous donc.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Pourquoi ?</l>
             <l>Ce n’est pas un crime, je crois.</l>
           </sp>
@@ -2461,7 +2450,7 @@
             <l>Quoi ! voulez-vous ?…</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière<stage>, sans l’écouter.</stage></speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière<stage>, sans l’écouter.</stage></speaker>
             <l>J'ai su sans peine le confondre,</l>
             <l>Et me trouvant rien à répondre,</l>
             <l>Il était à mes pieds, bien soumis, bien confus !</l>
@@ -2472,7 +2461,7 @@
             <l>Vous vous moquez, je pense.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Oh ! n’y revenez plus !</l>
             <l>Je ne suis pas toujours bonne, je le confesse.</l>
           </sp>
@@ -2483,7 +2472,7 @@
             <l>Vous me devez une explication.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>À quoi bon ? la scène est finie.</l>
             <l>Avouez maintenant, là, sans prévention</l>
             <l>Que je sais assez bien jouer la comédie.</l>
@@ -2493,7 +2482,7 @@
             <l>Eh ! quoi !…</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière<stage>, à Mignard et à La Fontaine.</stage></speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière<stage>, à Mignard et à La Fontaine.</stage></speaker>
             <l>Mon cher époux s’était mis dans l’esprit</l>
             <l>Que j’avais tort de jouer Célimène ;</l>
             <l>Que j’étais sans talent. Dans mon juste dépit,</l>
@@ -2519,7 +2508,7 @@
             <l>Ainsi donc, ce portrait ?…</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>N'était pas d’un amant.</l>
             <l>C'est le mien : le voici. Votre meilleure amie</l>
             <l>Le gardait pour ce jour heureux</l>
@@ -2571,7 +2560,7 @@
             <l>Qu'est-ce donc ?</l>
           </sp>
           <sp who="chapelle">
-            <speaker>Chapelle<stage>, </stage><stage>accourant.</stage></speaker>
+            <speaker>Chapelle<stage>, accourant.</stage></speaker>
             <l>Apprenez la faveur singulière</l>
             <l>Que vient de recevoir Molière.</l>
             <l>Le Roi, pour honorer et l’homme et le talent,</l>
@@ -2599,7 +2588,7 @@
             <l>Au fait, ce parrain-là vaut bien ton grand seigneur.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>De ses bontés, allez lui rendre grâce.</l>
           </sp>
           <sp who="moliere">
@@ -2608,7 +2597,7 @@
             <pb/>
           </sp>
           <sp who="chapelle">
-            <speaker>Chapelle<stage>, </stage><stage>l’arrêtant.</stage></speaker>
+            <speaker>Chapelle<stage>, l’arrêtant.</stage></speaker>
             <l>Viens, je n’ai pas fini,</l>
             <l>Et maintenant, c’est l’auteur que j’embrasse ;</l>
             <l>Ton Bourgeois Gentilhomme est bien en cour aussi.</l>
@@ -2647,7 +2636,7 @@
             <l>Il est de la famille.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Il épouse ma nièce.</l>
           </sp>
           <sp who="chapelle">
@@ -2665,7 +2654,7 @@
             <l>J'espérais une fête, et j’en rencontre deux.</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière<stage>, à Molière.</stage></speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière<stage>, à Molière.</stage></speaker>
             <l>Entre nous plus de jalousie.</l>
             <l>Mon cœur est à vous pour jamais.</l>
             <l>Je ne serai coquette désormais</l>
@@ -2684,26 +2673,23 @@
         </div2>
         <div2 type="scene">
           <head>Scène 23</head>
-          <stage>Ajoutée pour la représentation du 15 janvier, jour anniversaire de la Naissance de
-            Molière.</stage>
+          <stage>Ajoutée pour la représentation du 15 janvier, jour anniversaire de la Naissance de Molière.</stage>
           <stage>Les mêmes personnages.</stage>
           <sp who="forest">
             <speaker>La Forest<stage>, accourant, et bas à Madame Molière.</stage></speaker>
             <l>Madame, tout est prêt. Peut-on commencer ?</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>Oui.</l>
-            <stage>(Le fond du théâtre s’ouvre. On voit sur un piedestal le buste de Molière,
-              couronné de lauriers. Tous les acteurs de son théâtre, une couronne à la main, et en
-              habit de caractère, entourent le buste.)</stage>
+            <stage>(Le fond du théâtre s’ouvre. On voit sur un piedestal le buste de Molière, couronné de lauriers. Tous les acteurs de son théâtre, une couronne à la main, et en habit de caractère, entourent le buste.)</stage>
           </sp>
           <sp who="moliere">
             <speaker>Molière</speaker>
             <l>Quoi !…</l>
           </sp>
           <sp who="mme_moliere">
-            <speaker>Mme Molière</speaker>
+            <speaker>M<hi rend="sup">me</hi> Molière</speaker>
             <l>C'est votre fête aujourd’hui</l>
             <l>Et voilà vos amis, Molière.</l>
           </sp>
@@ -2716,8 +2702,7 @@
             <l>Amis, je n’ai point mérité</l>
             <l>Ce laurier dont on me couronne.</l>
             <l>Il n’appartient qu’à la postérité…</l>
-            <stage>(Il s’avance vivement vers son buste. Tous les personnages l’entourent en élevant
-              leur couronne sur sa tête.)</stage>
+            <stage>(Il s’avance vivement vers son buste. Tous les personnages l’entourent en élevant leur couronne sur sa tête.)</stage>
             <pb/>
           </sp>
           <sp who="mignard">
@@ -2746,7 +2731,7 @@
             <l>Ne peut suffire ici…</l>
           </sp>
           <sp who="fontaine">
-            <speaker>La Fontaine<stage>, </stage><stage>lui donnant sa couronne.</stage></speaker>
+            <speaker>La Fontaine<stage>, lui donnant sa couronne.</stage></speaker>
             <l>Tiens, prends.</l>
           </sp>
           <sp who="moliere">
@@ -2754,8 +2739,7 @@
             <l>Je la reçois,</l>
             <l>Quand le génie à l’amitié la donne.</l>
           </sp>
-          <stage>(Tous les personnages se groupent de nouveau autour de Molière. La toile
-            tombe.)</stage>
+          <stage>(Tous les personnages se groupent de nouveau autour de Molière. La toile tombe.)</stage>
           <trailer>Fin</trailer>
         </div2>
       </div1>

@@ -31,7 +31,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Picard, Louis-Benoît (1769-1828)</author>, « Notice sur Molière » [1825], in <title>Œuvres complètes de Molière, précédées d’une notice par L. B. Picard, avec des notes et des éclaircissements historiques</title>, nouvelle édition, tome I, <pubPlace>Paris</pubPlace>, <publisher>P. Pourrat frères</publisher>, <date>1838</date>, p. I-LV.</bibl>
+        <bibl><author>Picard Louis-Benoît</author>, « Notice sur Molière » [1825], in <title>Œuvres complètes de Molière, précédées d’une notice par L. B. Picard, avec des notes et des éclaircissements historiques</title>, nouvelle édition, t. <biblScope unit="volume">I</biblScope>, <pubPlace>Paris</pubPlace>, <publisher>P. Pourrat frères</publisher>, <date>1838</date>, pp. <biblScope unit="page">I-LV</biblScope>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>

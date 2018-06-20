@@ -7,7 +7,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>La Science du coeur humain, ou la Psychologie des sentiments et des passions, d'après les oeuvres de Molière</title>
+        <title>La Science du coeur humain, ou la Psychologie des sentiments et des passions, d'après les œuvres de Molière</title>
         <author key="Despine, Prosper (1812-1892)">Prosper Despine</author>
       </titleStmt>
       <editionStmt>
@@ -38,7 +38,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Prosper Despine</author>, <title> La Science du coeur humain, ou la Psychologie des sentiments et des passions, d'après les oeuvres de Molière</title>, in <hi rend="i">Œuvres de Molière</hi>, tome I, <pubPlace>Paris</pubPlace>, <publisher>F. Savy</publisher>, <date>1884</date>.</bibl>
+        <bibl><author>Prosper Despine</author>, <title> La Science du cœur humain, ou la Psychologie des sentiments et des passions, d'après les œuvres de Molière</title>, in <hi rend="i">Œuvres de Molière</hi>, t. <biblScope unit="volume">I</biblScope>, <pubPlace>Paris</pubPlace>, <publisher>F. Savy</publisher>, <date>1884</date>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>

@@ -50,7 +50,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl><author>Jean Pierre Claris de Florian</author>, <title>Nouveaux mélanges de poésie et
-            de littérature</title>, <date>1820</date>,p. 134-160.</bibl>
+            de littérature</title>, <date>1820</date>, p. <biblScope unit="page">134-160</biblScope>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>

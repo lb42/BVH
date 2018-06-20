@@ -60,9 +60,9 @@
                 <bibl>Jean-François <author>Cailhava de L’Estandoux</author>, <title>De l’art de la
                         comédie, ou Détail raisonné des diverses parties de la comédie et de ses
                         différents genres, suivi d’un Traité de l’imitation où l’on compare à leurs
-                        originaux les Imitations de Moliere et celles des Modernes</title>, tome I,
+                        originaux les Imitations de Moliere et celles des Modernes</title>, t. <biblScope unit="volume">I</biblScope>,
                         <pubPlace>Paris</pubPlace>, <publisher>Fr. Amb. Didot aîné</publisher>,
-                        <date>1772</date>, 527 p. Source : <ref
+                        <date>1772</date>. Source : <ref
                         target="http://www.archive.org/details/delartdelacom01cail">Internet
                         Archive</ref>. Errata intégré.</bibl>
             </sourceDesc>

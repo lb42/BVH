@@ -38,7 +38,7 @@
 </availability>
 </publicationStmt>
 <sourceDesc>
-    <bibl>Evrard <author>Titon du Tillet</author>, <title><hi rend="i">« Jean-Baptiste Pocquelin de Molière », in </hi>Le Parnasse François, dedié au Roi</title>, <pubPlace>Paris</pubPlace>, <publisher>J.-B. Coignard fils</publisher>, <date>1732</date>, p. 308-320. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k1041669n/f428.image">Gallica</ref>.</bibl>
+    <bibl><author>Evrard Titon du Tillet</author>, <title><hi rend="i">« Jean-Baptiste Pocquelin de Molière », in </hi>Le Parnasse François, dedié au Roi</title>, <pubPlace>Paris</pubPlace>, <publisher>J.-B. Coignard fils</publisher>, <date>1732</date>, pp. <biblScope unit="page">308-320</biblScope>. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k1041669n/f428.image">Gallica</ref>.</bibl>
 </sourceDesc>
 </fileDesc>
 <profileDesc>

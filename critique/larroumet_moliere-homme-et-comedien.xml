@@ -38,7 +38,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Gustave Larroumet</author>, <title>« Molière, l’homme et le comédien »</title>, in <hi rend="i">Revue des deux mondes</hi>,3<hi rend="sup">e</hi> période, tome LXXVII, <date>15 octobre 1886</date>, p. 796-834.</bibl>
+        <bibl><author>Gustave Larroumet</author>, <title>« Molière, l’homme et le comédien »</title>, in <hi rend="i">Revue des deux mondes</hi>,3<hi rend="sup">e</hi> période, t. <biblScope unit="tome">LXXVII</biblScope>, 15 octobre <date>1886</date>, pp. <biblScope unit="page">796-834</biblScope>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>

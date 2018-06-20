@@ -38,7 +38,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Charles Magnin</author>, <title>« Le Don Juan de Molière au Théâtre-français »</title>, in <hi rend="i">La Revue des deux mondes</hi>, <date>1847</date>, p. 557-567.</bibl>
+        <bibl><author>Charles Magnin</author>, <title>« Le Don Juan de Molière au Théâtre-français »</title>, in <hi rend="i">La Revue des deux mondes</hi>, <date>1847</date>, pp. <biblScope unit="page">557-567</biblScope>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>

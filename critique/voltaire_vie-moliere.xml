@@ -29,12 +29,7 @@
       </publicationStmt>
       <sourceDesc>
         <bibl>
-          <author>Voltaire,</author>
-          <title>Oeuvres de Voltaire, t. IX,</title>
-          <pubPlace>Genève,</pubPlace>
-          <publisher>Cramer,</publisher>
-          <date>1775</date>
-        </bibl>
+          <author>Voltaire</author>, <title>Œuvres de Voltaire</title>, t. <biblScope unit="volume">IX</biblScope>, <pubPlace>Genève</pubPlace>, <publisher>Cramer</publisher>, <date>1775</date>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>

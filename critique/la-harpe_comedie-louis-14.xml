@@ -38,7 +38,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Jean-François de La Harpe</author>, <title>« De la Comédie dans le siècle de Louis XIV » [1800]</title>, in <hi rend="i">Cours de littérature ancienne et moderne</hi>, <pubPlace>Paris</pubPlace>, <publisher>Depelafol</publisher>, <date>1825</date>, tome II, chap. VI, p. 204-293.</bibl>
+        <bibl><author>Jean-François de La Harpe</author>, <title>« De la Comédie dans le siècle de Louis XIV » [1800]</title>, in <hi rend="i">Cours de littérature ancienne et moderne</hi>, t. <biblScope unit="tome">II</biblScope>, chap. VI, <pubPlace>Paris</pubPlace>, <publisher>Depelafol</publisher>, <date>1825</date>, pp. <biblScope unit="page">204-293</biblScope>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>

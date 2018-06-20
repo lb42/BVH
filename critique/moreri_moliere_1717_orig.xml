@@ -38,7 +38,7 @@
 </availability>
 </publicationStmt>
 <sourceDesc>
-    <bibl>Louis <author>Moréri</author>, <title><hi rend="i">« Moliere (Jean Baptiste Poquelin) », in </hi>Le Grand Dictionaire historique, ou Le Mélange curieux de l’histoire sacrée et profane…</title>, dixieme édition, <pubPlace>Amsterdam, La Haye, Utrecht</pubPlace>, <publisher>P. Brunel, R et G. Wettstein, David Mortier, Pierre de Coup, Adrien Moetjens, L. et H. Van Dole, Guillaume Vande Water</publisher>, <date>1717</date>, t. III, p. 530. Source : <ref target="https://archive.org/stream/legranddictionai03mor#page/530/mode/2u">Internet Archive</ref>.</bibl>
+    <bibl><author>Louis Moréri</author>, <title><hi rend="i">« Moliere (Jean Baptiste Poquelin) », in </hi>Le Grand Dictionaire historique, ou Le Mélange curieux de l’histoire sacrée et profane…</title>, dixieme édition, t. <biblScope unit="volume">III</biblScope>, <pubPlace>Amsterdam, La Haye, Utrecht</pubPlace>, <publisher>P. Brunel, R et G. Wettstein, David Mortier, Pierre de Coup, Adrien Moetjens, L. et H. Van Dole, Guillaume Vande Water</publisher>, <date>1717</date>, p. <biblScope unit="page">530</biblScope>. Source : <ref target="https://archive.org/stream/legranddictionai03mor#page/530/mode/2u">Internet Archive</ref>.</bibl>
 </sourceDesc>
 </fileDesc>
 <profileDesc>

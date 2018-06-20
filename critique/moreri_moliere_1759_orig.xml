@@ -34,7 +34,7 @@
 </availability>
 </publicationStmt>
 <sourceDesc>
-    <bibl>Louis <author>Moréri</author>, <title><hi rend="i">« Moliere (Jean-Baptiste Pocquelin) », in </hi>Le Grand Dictionnaire historique, ou Le Mélange curieux de l’histoire sacrée et profane…, nouvelle édition dans laquelle on a refondu les Supplémens de M. l'Abbé Goujet. Le tout revu, corrigé &amp; augmenté par M. Drouet</title>, <pubPlace>Paris</pubPlace>, <publisher>chez les Libraires associés</publisher>, <date>1759</date>, t. VII, p. 604-605. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k39193v/f610.image">Gallica</ref>.</bibl>
+    <bibl>Louis <author>Moréri</author>, <title><hi rend="i">« Moliere (Jean-Baptiste Pocquelin) », in </hi>Le Grand Dictionnaire historique, ou Le Mélange curieux de l’histoire sacrée et profane…, nouvelle édition dans laquelle on a refondu les Supplémens de M. l'Abbé Goujet. Le tout revu, corrigé &amp; augmenté par M. Drouet</title>, t. <biblScope unit="volume">VII</biblScope>, <pubPlace>Paris</pubPlace>, <publisher>chez les Libraires associés</publisher>, <date>1759</date>, pp. <biblScope unit="page">604-605</biblScope>. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k39193v/f610.image">Gallica</ref>.</bibl>
 </sourceDesc>
 </fileDesc>
 <profileDesc>

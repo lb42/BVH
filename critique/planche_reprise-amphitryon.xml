@@ -38,7 +38,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-          <bibl><author>Gustave Planche</author>, <title>Les reprises au Théâtre-français : l’Amphitryon, de Molière</title>, in <hi rend="i">Revue des deux mondes</hi>, <date>15 octobre 1856,</date>, 2<hi rend="sup">e</hi> période, tome IV, p. 456-459. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k86940s/f459">Gallica</ref> </bibl>
+          <bibl><author>Gustave Planche</author>, <title>Les reprises au Théâtre-français : l’Amphitryon, de Molière</title>, in <hi rend="i">Revue des deux mondes</hi>, <date>15 octobre 1856,</date>, 2<hi rend="sup">e</hi> période, t. <biblScope unit="volume">IV</biblScope>, pp. <biblScope unit="page">456-459</biblScope>. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k86940s/f459">Gallica</ref> </bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>

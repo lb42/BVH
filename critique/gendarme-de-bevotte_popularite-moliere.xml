@@ -31,7 +31,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Georges Gendarme de Bévotte</author>, « La popularité de Molière », <hi rend="i">La Grande Revue</hi>, volume 107, <date>janvier 1922</date>, p. 353-364.</bibl>
+        <bibl><author>Georges Gendarme de Bévotte</author>, « La popularité de Molière », <hi rend="i">La Grande Revue</hi>, volume 107, janvier <date>1922</date>, p. <biblScope unit="page">353-364</biblScope>.</bibl>
       </sourceDesc>
     </fileDesc>
     <profileDesc>

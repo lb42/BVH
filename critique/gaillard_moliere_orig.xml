@@ -37,7 +37,7 @@
 </availability>
 </publicationStmt>
 <sourceDesc>
-    <bibl>Gabriel-Henri <author>Gaillard</author>, <title><hi rend="i">« Molière (Jean Baptiste Poquelin de) », in </hi>Dictionnaire encyclopédique. Histoire</title>, <pubPlace>Paris</pubPlace>, <publisher>Pancoucke</publisher>, <date>1788</date>, t. III, p. 588-589. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k58310692/f599.image">Gallica</ref>.</bibl>
+    <bibl><author>Gabriel-Henri Gaillard</author>, <title><hi rend="i">« Molière (Jean Baptiste Poquelin de) », in </hi>Dictionnaire encyclopédique. Histoire</title>, t. <biblScope unit="volume">III</biblScope>, <pubPlace>Paris</pubPlace>, <publisher>Pancoucke</publisher>, <date>1788</date>, pp. <biblScope unit="page">588-589</biblScope>. Source : <ref target="http://gallica.bnf.fr/ark:/12148/bpt6k58310692/f599.image">Gallica</ref>.</bibl>
 </sourceDesc>
 </fileDesc>
 <profileDesc>

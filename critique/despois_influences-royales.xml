@@ -38,7 +38,7 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
-        <bibl><author>Eugène Despois</author>, <title>Des influences royales en littérature. I. Louis XIV</title>, in <hi rend="i">Revue des deux mondes</hi>, 23<hi rend="sup">e</hi> année, 2<hi rend="sup">e</hi> série de la nouvelle période, tome II, <date>1853</date>, p. 1229-1246.</bibl>
+        <bibl><author>Eugène Despois</author>, <title>Des influences royales en littérature. I. Louis XIV</title>, in <hi rend="i">Revue des deux mondes</hi>, 23<hi rend="sup">e</hi> année, 2<hi rend="sup">e</hi> série de la nouvelle période, t. <biblScope unit="volume">II</biblScope>, <date>1853</date>, pp. <biblScope unit="page">1229-1246</biblScope>.</bibl>
       </sourceDesc>      
     </fileDesc>
     <profileDesc>
