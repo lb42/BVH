@@ -7,7 +7,60 @@
     http://relaxng.org/tutorial-20011203.html#IDAVEZR
   -->
   <include href="../../Teinte/teinte.rng" h:href="../../Teinte/teinte.rng" h:title="Schéma Teinte">
-
+    
+    <define name="note">
+      <element name="note">
+        <a:documentation>Une note, encodée dans le flux du texte, au point de l’appel.</a:documentation>
+        <div xmlns="http://www.w3.org/1999/xhtml">
+          <p>Une note ne contient que du texte riche, ou que des blocs (le mélange texte avec blocs n'est pas autorisé).</p>
+          <p>Le numéro ou la lettre d’appel dans le texte original est contenu dans l’attribut <a:att>n</a:att>. Si la note ne comporte pas d'attribut <a:att>n</a:att>, elle apparaît dans le flux, mais le bloc est considéré comme relevant d'un autre statut que le texte environnant. Lorsque plusieurs types de notes cohabitent (hors apparat critique <a:el>app</a:el>), chaque type doit pouvoir être distingué, afin notamment de pouvoir filtrer les notes pour certains exports (ex : texte hors droit à destination de la recherche, avec les notes de l’auteur hors droit, sans les notes de l’éditeur encore sous droits d’auteur). Le responsable d’une note sera alors précisé dans l’attribut <a:att>resp</a:att>. Il est aussi possible de distinguer les notes par leur présentation typographique <a:att>rend</a:att>.</p>
+        </div>
+        <ref name="xml-atts"/>
+        <optional>
+          <ref name="n-att"/>
+        </optional>
+        <optional>
+          <ref name="resp-att"/>
+        </optional>
+        <!-- Quel genre de rendu attendu ?
+        <ref name="rendering-atts"/>
+        -->
+        <!--CS-->
+        <optional>
+          <ref name="milestone"/>
+        </optional>
+        <!--CS-->
+        <optional>
+          <ref name="type-att"/>
+        </optional>
+        <optional>
+          <ref name="place-att"/>
+        </optional>
+        <ref name="rendering-atts"/>
+        <choice>
+          <!-- Attention au déterminisme xsd pour <figure>, ne pas autoriser note dans note, ainsi que saut de page (ex: note de fin, ou note sur plus d'une page) -->
+          <oneOrMore>
+            <choice>
+              <text/>
+              <!--
+              <ref name="quote-c"/>
+              <ref name="bibl"/>
+              XSD cos -->
+              <ref name="anchor"/>
+              <ref name="quote-c"/>
+              <ref name="function"/>
+              <ref name="indexable"/>
+              <ref name="lb"/>
+              <ref name="typo"/>
+            </choice>
+          </oneOrMore>
+          <oneOrMore>
+            <ref name="block"/>
+          </oneOrMore>
+        </choice>
+      </element>
+    </define>
+    
     <define name="milestone">
       <element name="milestone">
         <a:documentation>Borne anonyme, vide, permet d’étiqueter des points qui n’entrent pas dans la hiérarchie éditoriale, et qui ne sont pas des sauts de page <a:el>pb</a:el>, de colonne <a:el>cb</a:el> ou de ligne <a:el>lb</a:el></a:documentation>

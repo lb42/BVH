@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://oeuvres.github.io/Teinte/teinte.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../anecdotes/anecdotes.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
 <?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="fr">
@@ -2948,7 +2948,7 @@
                   qu’il vient de lui faire, <quote><hi rend="i">ha ! je te casserai la tête
                       assurément</hi></quote> ; et le parterre a couvert d’applaudissements ces deux
                   acteurs, et les loges n’ont pas crié au parterre,</p><quote><p>Quoi ! vous avez,
-                    le fro<hi rend="bg_FFFF66">n</hi>t de trouver cela
+                    le front de trouver cela
               beau ?</p></quote></note>.</p>
             <p>Si je jouais le rôle d’<hi rend="i">Arsinoé</hi>, je me garderais de rendre ma scène
               avec <hi rend="i">Alceste</hi>, comme celle que je viens d’avoir avec <hi rend="i"
