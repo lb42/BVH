@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../anecdotes/anecdotes.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/css" href="../../Teinte/opentei.css"?>
+<?xml-stylesheet type="text/xsl" href="../../Teinte/tei2html.xsl"?>
+<TEI xml:lang="fr" xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+<fileDesc>
+<titleStmt>
+    <title>Molière (<hi rend="i">Les Hommes illustres</hi>) [graphies originales]</title>
+<author key="Perrault, Charles (1628-1703)">Charles Perrault</author>
+</titleStmt>
+<editionStmt>
+<edition>OBVIL</edition>
+<respStmt>
+<name>Eric Thiébaud</name>
+<resp>Stylage sémantique</resp>
+</respStmt>
+<respStmt>
+<name>Wordpro</name>
+<resp>Numérisation et encodage TEI</resp>
+</respStmt>
+</editionStmt>
+<publicationStmt>
+<publisher>Sorbonne Université, LABEX OBVIL</publisher>
+<date when="2018" />
+<idno type="tei">http://obvil.paris-sorbonne.fr/corpus/moliere/critique/perrault_moliere_orig.xml</idno>
+    <idno type="html">http://obvil.paris-sorbonne.fr/corpus/moliere/critique/perrault_moliere_orig.html</idno>
+    <idno type="txt">http://obvil.paris-sorbonne.fr/corpus/moliere/critique/perrault_moliere_orig.txt</idno>
+    <idno type="epub">http://obvil.paris-sorbonne.fr/corpus/moliere/critique/perrault_moliere_orig.epub</idno>
+<availability status="restricted">
+<licence target="http://creativecommons.org/licenses/by-nc-nd/3.0/fr/">
+<p>Copyright © 2018 Sorbonne Université, agissant pour le Laboratoire d’Excellence « Observatoire de la vie littéraire » (ci-après dénommé OBVIL).</p>
+<p>Cette ressource électronique protégée par le code de la propriété intellectuelle sur les bases de données (L341-1) est mise à disposition de la communauté scientifique internationale par l’OBVIL, selon les termes de la licence Creative Commons : « Attribution - Pas d’Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR) ».</p>
+<p>Attribution : afin de référencer la source, toute utilisation ou publication dérivée de cette ressource électroniques comportera le nom de l’OBVIL et surtout l’adresse Internet de la ressource.</p>
+<p>Pas d’Utilisation Commerciale : dans l’intérêt de la communauté scientifique, toute utilisation commerciale est interdite.</p>
+<p>Pas de Modification : l’OBVIL s’engage à améliorer et à corriger cette ressource électronique, notamment en intégrant toutes les contributions extérieures, la diffusion de versions modifiées de cette ressource n’est pas souhaitable.</p>
+</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+    <bibl><author>Charles Perrault</author>, <title><hi rend="i">« Molière », in </hi>Les Hommes illustres qui ont paru en France pendant ce siècle</title>, <pubPlace>Paris</pubPlace>, <publisher>Antoine Dezaillier</publisher>, <date>1696</date>, pp. <biblScope unit="page">79-80</biblScope>. Source : <ref target="https://archive.org/details/gri_hommesillust01perr">Internet Archive</ref>.</bibl>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<creation>
+<date when="1696" />
+</creation>
+<langUsage>
+<language ident="fre">fre</language>
+</langUsage>
+</profileDesc>
+</teiHeader>
+<text>
+<body>
+<div type="chapter" xml:id="jean-baptiste-poquelin-de-moliere">
+<pb n="79" />
+    <head>JEAN-BAPTISTE POQUELIN<lb />DE MOLIERE.</head>
+<p>Moliere nâquit avec une telle inclination pour la Comedie qu’il ne fut pas possible de l’empescher de se faire Comedien. A peine eut-il achevé ses Estudes, où il réüssit parfaitement, qu’il se joignit avec plusieurs jeunes gens de son âge &amp; de son goust, &amp; prit la résolution de former une Trouppe de Comediens pour aller dans les Provinces joüer la Comedie. Son Pere bon Bourgeois de Paris &amp; Tapissier du Roy, fâché du party que son Fils avoit pris, le fit solliciter par tout ce qu’il avoit d’Amis de quitter cette pensée, promettant s’il vouloit revenir chez luy, de luy achepter une Charge telle qu’il la souhaitteroit ; pourvû qu’elle n’excedast pas ses forces. Ni les prieres, ni les remontrances de ses Amis soustenuës de ces promesses ne purent rien sur son Esprit. Ce bon Pere luy envoya ensuite le Maistre chez qui il l’avoit mis en pension pendant les premieres années de ses Estudes, esperant que par l’autorité que ce Maistre avoit eüe sur luy pendant ces temps-là, il pourroit le ramener à son devoir ; mais bien loin que le Maistre luy persuadast de quitter la Profession de Comedien, le jeune Moliere luy persuada d’embrasser la mesme Profession, &amp; d’estre le Docteur de leur Comedie, luy ayant representé que le peu de Latin qu’il sçavoit le rendroit capable d’en bien faire le Personnage, &amp; que la vie qu’ils meneroient, seroit bien plus agreable que celle d’un Homme qui tient des Pensionnaires.</p>
+<p>Sa Trouppe estant formée il alla joüer à Roüen, &amp; de-là à Lyon, où ayant plû au Prince de Conty, qui jeune alors &amp; non encore dans les sentimens de Pieté qui l’ont porté à écrire si solidement &amp; si chrétiennement contre la Comedie, les prit pour ses Comediens &amp; leur donna des Appointemens. De là ils vinrent à Paris, où ils joüerent devant le Roy &amp; toute la Cour. Il est vray que la Trouppe ne réüssit pas cette premiere fois : mais Moliere fit un Compliment au Roy, si spirituel, si delicat &amp; si bien tourné, &amp; joüa si bien son roolle dans la petite Comedie qu’il donna ensuite de la grande, qu’il emporta tous les suffrages, &amp; obtint la permission de joüer à Paris. Il satisfit fort le Public sur tout par les Pieces de sa Composition, qui estant d’un genre tout nouveau attirerent une grande affluence de Spectateurs.</p>
+<p>Jusques-là il y avoit eu de l’esprit &amp; de la plaisanterie dans nos Comedies, mais il y ajousta une grande naïveté avec des Images si vives des mœurs de son siecle, &amp; des Caracteres si bien marquez, que les Representations sembloient moins estre des Comedies que la verité mesme, chacun s’y reconnoissoit &amp; plus encore son voisin, dont on est plus aise de voir les defauts que les siens propres. On y prit un plaisir singulier, &amp; mesme on peut dire qu’elles furent d’une grande utilité pour bien des Gens.</p>
+<p>Moliere avoit remarqué que les François avoient deux defauts bien considerables ; L’un, que presque tous les jeunes Gens avoient du dégoust pour la Profession de leurs Peres, &amp; que ceux qui n’estoient que Bourgeois vouloient vivre en Gentils-hommes &amp; ne rien faire ; ce qui ne manque point de les ruiner <pb n="80" />en peu de temps ; Et l’autre, que les femmes avoient une violente inclination à devenir, ou du moins à paroistre Sçavantes, ce qui ne s’accorde point avec l’esprit du menage, si necessaire pour conserver le bien dans les familles. Il s’attacha à jetter du ridicule sur ces deux vices, ce qui a eu un effet beaucoup au-de-là de tout ce qu’on pouvoit en esperer. Il composa deux Pieces contre le premier de ces desordres, dont l’une est intitulée : <hi rend="i">Le Bourgeois Gentilhomme</hi>, &amp; l’autre : <hi rend="i">Le Marquis de Pourceaugnac</hi>. Il y a apparence que les jeunes gens en profiterent, du moins s’apperceut-on que les airs outrez de Cavalier qu’ils se donnoient diminuerent à veüe d’œil. Contre le defaut qui regarde les femmes il fit aussi deux Comedies ; L’une intitulée : <hi rend="i">Les Precieuses ridicules</hi> ; Et l’autre : <hi rend="i">Les Femmes sçavantes</hi>. Ces Comedies firent tant de honte aux Dames qui se picquoient trop de bel Esprit que toute la Nation des Precieuses s’éteignit en moins de quinze jours, ou du moins elles se déguiserent si bien là dessus qu’on n’en trouva plus, ni à la Cour, ni à la Ville, &amp; mesme depuis ce temps-là elles ont esté plus en garde contre la reputation de Sçavantes &amp; de Precieuses, que contre celle de Galantes &amp; de Dereglées.</p>
+<p>Il fit aussi deux Comedies contre les Hypocrites &amp; les Faux-devots, sçavoir, le Festin de Pierre, Piece imitée sur celle des Italiens du mesme nom, &amp; le Tartuffe de son Invention. Cette Piece luy fit des affaires, parce qu’on en faisoit des applications à des Personnes de grande consideration, &amp; aussi parce qu’on prétendit que la vertu &amp; le vice en cette matiere se prenant aisément l’un pour l’autre, le ridicule tomboit presque également sur tous les deux, &amp; donnoit lieu de se mocquer des Personnes de Pieté &amp; de leurs remontrances. Cependant aprés quelques obstacles qui furent levez aussi-tost, il eut permission entiere de la joüer publiquement.</p>
+<p>Il attaqua encore les mauvais Medecins par deux Pieces fort Comiques, dont l’un est le <hi rend="i">Medecin malgré luy</hi>, &amp; l’autre le <hi rend="i">Malade imaginaire</hi>. On peut dire qu’il se méprit un peu dans cette derniere Piece, &amp; qu’il ne se contint pas dans les bornes du pouvoir de la Comedie ; car au lieu de se contenter de blâmer les mauvais Medecins, il attaqua la Medecine en elle mesme, la traitta de Science frivole, &amp; posa pour principe qu’il est ridicule à un Homme de vouloir en guerir un autre. La Comedie s’est tousjours mocquée des Rodomons &amp; de leurs rodomontades ; mais jamais elle n’a raillé, ni les vrais braves, ni la vraye bravoure ; Elle s’est réjoüïe des Pedans &amp; de la Pedanterie, mais elle n’a jamais blâmé, ni les Sçavans, ni les Sciences. Suivant cette regle il n’a pû trop mal-traitter les Charlatans &amp; les ignorans Medecins, mais il devoit en demeurer-là &amp; ne pas tourner en ridicule les bons Medecins, que l’Ecriture mesme nous enjoint d’honorer. Quoyqu’il en soit depuis les anciens Poëtes Grecs &amp; Latins qu’il a égalez &amp; peut-estre surpassez dans le Comique, aucun autre n’a eu tant de talent ni de réputation.</p>
+<p>Il mourut le 13. Février de l’année 1673. âgé de 52. ou 53. ans. Il a ramassé en luy seul tous les talens necessaires à un Comedien. Il a esté si excellent Acteur pour le Comique, quoyque trés-mediocre pour le serieux, qu’il n’a peu estre imité que trés-imparfaitement par ceux qui ont joüé son roolle aprés sa mort. Il a aussi entendu admirablement les habits des Acteurs en leur donnant leur veritable caractere, &amp; il a eu encore le don de leur distribuer si bien les Personnages &amp; de les instruire ensuite si parfaitement qu’ils sembloient moins des Acteurs de Comedie que les vrayes Personnes qu’ils representoient.</p>
+</div>
+</body>
+</text>
+</TEI>
