@@ -3,7 +3,7 @@
 <TEI
   xmlns="http://www.tei-c.org/ns/1.0"
   xmlns:e="http://distantreading.net/eltec/ns"
-  xml:id="Anonim_MCP_ROSCAN_HAIDUCUL"
+  xml:id="ROM001"
   xml:lang="ro">
   <teiHeader>
     <fileDesc>
@@ -17,7 +17,7 @@
       </titleStmt>
       <extent>
         <measure
-          unit="words">14,217</measure>
+          unit="words">14217</measure>
         <measure
           unit="pages">128</measure>
       </extent>
@@ -26,21 +26,13 @@
         </p>
       </publicationStmt>
       <sourceDesc>
-        <bibl>
+        <bibl type="copyText">
           <author>Anonymous(MCP)</author>
           <title>Roșcan Haiducul. Nuvelă ilustrată cu două gravuri</title>
           <pubPlace>Bucharest</pubPlace>
           <publisher>Tipo-Litografia și Fonderia de Litere „Dor. P. Cucu”</publisher>
           <date>1894</date>
-          <idno
-             type="library">http://193.231.13.17/vufind/Record/BCU02000806900</idno>
-          <relatedItem>
-            <bibl>
-              <title>The Minor Patrimony in the Romanian Hajduk Novels (1850-l920): A Corpus-based Analysis</title>
-              <ref
-                target="https://kompetenzzentrum.uni-trier.de/de/"/>
-            </bibl>
-          </relatedItem>
+           <ref target="http://193.231.13.17/vufindh/Record/BCU02000806900">BCU02000806900</ref>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -69,9 +61,7 @@
         when="2018-09-28">Initial TEI version generated.</change>
     </revisionDesc>
   </teiHeader>
-  <text
-    xml:id="ROM001"
-    xml:lang="ro">
+  <text>
     <front>
       <div
         type="titlePage">
