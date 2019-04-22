@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../TEIslides/teislides.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Achieving comity: disciplinary border crossings with Guy Aston </title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="slide" n="1">
+            <head>Allegiances</head>
+            <figure>
+               <graphic url="media/allegiances.jpg" height="75%"/>
+            </figure>
+            <list>
+               <item>And what do <hi>you</hi> do?</item>
+            </list>
+         </div>
+         <div type="slide" n="2">
+            <head>This talk</head>
+            <list>
+               <item>some graphics</item>
+               <item>some bulleted lists</item>
+               <item>mostly text</item>
+            </list>
+            <p rend="box">a socio-historical approach</p>
+         </div>
+         <div type="slide" n="3">
+            <head>Clever boys/confused students</head>
+            <figure>
+               <graphic url="media/196705-guy.jpg" height="75%"/>
+               <head>Holywell Manor, Oxford: May 1967</head>
+            </figure>
+         </div>
+         <div type="slide" n="4">
+            <head>Preaching in Parma</head>
+           
+            <figure><graphic url="media/parma-preaching.png"/>
+            <head>October 1992: Electronic Resources for Textual Studies</head></figure>
+        </div>
+         
+         <div type="slide" n="5"><head>... TLAs to pitch for</head>
+        <list>
+           <item>BNC</item><item>TEI</item><item>DRH</item><item>HCU</item><item>etc</item>
+        </list>
+        <figure><graphic url="media/drh-book.jpg" height="50%"/></figure>
+        </div>
+         
+         <div type="slide" n="6"><head>Fame at last</head>
+        <figure><graphic url="media/199409-me.jpg" height="70%"/>
+        <head>Electronic Buddhist Text Initiative meeting, Haiensa, October 1994 
+        </head></figure>
+        </div>
+        <!-- <div type="slide" n="7"><head>Teaching and Language Corpora</head>
+        </div>-->
+         <div type="slide" n="7"><head>BNC goals</head>
+            <figure><graphic url="media/bnc-goals.png" height="70%"/>
+            </figure>
+           
+       </div>
+         <div type="slide" n="8"><head>BNC goals</head>
+            <figure><graphic url="media/bnc-goals-2.png" height="70%"/>
+            </figure>
+            
+         </div>
+         <div type="slide" n="9"><head>The BNC Handbook in production</head>
+            <figure>  <graphic url="media/199003-guy.jpg" height="80%"/>
+               <head>Oxford: March 1994</head>
+            </figure></div>
+         <div type="slide" n="10"><head>(And yes, it was authored in TEI)</head>
+            <figure><graphic url="media/doMen.png" height="80%"/></figure></div>
+         
+
+         <div type="slide" n="11"><head>and published!</head>
+            <figure>
+               <graphic url="media/handbk-eng.jpg" height="80%"/>
+               <cb/>
+               <graphic url="media/handbk-jap.jpg" height="80%"/>
+                  </figure>
+        </div>
+         
+         <div type="slide" n="12"><head>First Forli Workshop, 1997</head>
+           <figure>  <graphic url="media/forli97students.jpg" height="80%"/>
+              <head>The survivors</head>
+           </figure>
+            
+        </div><div type="slide" n="13"><head>Workshop programme (2004)</head>
+           <figure>  <graphic url="media/forli2004.png" height="80%"/>
+          </figure>
+        </div>
+        
+         <div type="slide" n="14"><head>The Double Act</head>
+            <figure><graphic url="media/bnc-lou.png" height="80%"/></figure><!--</div>
+         <div type="slide" n="14"><head>The Double Act</head>-->
+            <figure><graphic url="media/bnc-guy.png" height="80%"/></figure></div>
+        
+           
+         <div type="slide" n="15"><head>The Astonian Method</head>
+            <list>
+               <item>explore the data: be open to surprise</item>
+               <item>don't simplify the data </item>
+            </list>
+            <figure><graphic url="media/astonian.png" height="50%"/></figure>
+         </div>
+         
+         <div type="slide" n="16"><head>The Astonian Method: first example</head>
+            <figure><graphic url="media/fallback-1.png" height="80%"/></figure><!--</div>
+         <div type="slide" n="16"><head>The Astonian Method</head>-->
+            <figure><graphic url="media/fallback-2.png" height="80%"/></figure></div>
+         <div type="slide" n="17"><head>The Astonian Method: serendipitity strikes</head>
+            <figure><graphic url="media/fallback-3.png" height="80%"/></figure><!--></div>
+         <div type="slide" n="17"><head>The Astonian Method: serendipitity strikes</head>-->
+            <figure><graphic url="media/fallback-4.png" height="80%"/></figure>
+         </div>
+           <div type="slide" n="18"><head>Second example</head>
+            <figure><graphic url="media/tend-1.png" height="80%"/></figure><!--</div>
+         <div type="slide" n="17"><head>Second example</head>-->
+            <figure><graphic url="media/tend-2.png" height="80%"/></figure><!--</div>
+         <div type="slide" n="17"><head>Second example</head>-->
+            <figure><graphic url="media/tend-3.png" height="80%"/></figure><!--</div>
+         <div type="slide" n="17"><head>Second example</head>-->
+            <figure><graphic url="media/tend-4.png" height="80%"/></figure><!--</div>
+         <div type="slide" n="17"><head>Second example</head>-->
+            <figure><graphic url="media/tend-5.png" height="80%"/></figure><!--</div>
+         <div type="slide" n="17"><head>Second example</head>-->
+            <figure><graphic url="media/tend-6.png" height="80%"/></figure></div>
+         
+    
+         <div type="slide" n="19"><head>Millenial wanderings</head>
+            <figure><graphic url="media/200004-guy.jpg" height="80%"/></figure></div>
+         
+         <div type="slide" n="20"><head>TaLCs</head>
+            <p>     <ptr target="media/talcSummary.pdf"/>
+            </p>   </div>
+         
+         
+         <div type="slide" n="21"><head> DDL is <emph>still</emph> useful</head>
+            <figure><graphic url="media/boulton-1.png" height="75%"/></figure>
+         <p rend="box">ex auctoritate corpus</p></div>
+        
+         <div type="slide" n="22"><head>.... because it still works</head>
+            <figure><graphic url="media/boulton-2.png" height="75%"/>
+            <head>(Boulton, Researching data-driven learning:
+               Past, present, future, TaLC 2018)</head></figure></div>
+  
+
+         
+         
+         <div type="slide" n="23"><head>Thank you for your attention!</head>
+            <figure><graphic url="media/thanks.png"/></figure></div>
+         
+
+      </body>
+   </text>
+</TEI>
