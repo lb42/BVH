@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<project name="Annotation en POS" default="annot">
+  <property name="TalismanePath" value="Talismane/"/>
+  <property name="XslPath" value="XSL"/>
+  <property name="wdPath" value="espaceTravail"/>
+  <property name="saxonPath" value="/usr/share/java/saxonb.jar"/>
+  <!-- ou bien : ${oxygenlib}/saxon9ee.jar -->
+  <property name="resultsPath" value="out"/>
+  <property name="JAVAP" location="JAVA"/>
+  <property name="currDir" value="."/>
+
+
+  <macrodef name="forked-xslt">
+    <attribute name="in"/>
+    <attribute name="out"/>
+    <attribute name="style"/>
+    <sequential>
+      <java jar="${saxonPath}" fork="true" failonerror="true" output="${out}">
+	<jvmarg value="-Xmx3G">
+	</jvmarg>
+	<arg value="-s:@{in}"/>
+        <arg value="@{style}"/>
+      </java>
+    </sequential>
+  </macrodef>
+  
+  <target name="annot">
+ 
+    
+    <!--<echo message="file name : ${fileName}"/>
+    <echo message="javap : ${JAVAP}"/>
+    <echo message="saxonPath : ${saxonPath}"/>-->
+
+
+    <echo message="c'est parti !"/>
+    <basename property="bnFile" file="${fileName}" suffix=".xml"/> 
+    <mkdir dir="${wdPath}"/>
+    
+     <xslt in="${fileName}" out="${wdPath}/${bnFile}_etoiles.xml" style="${XslPath}/abstraireEtoiles.xsl" classpath="${saxonPath}">
+       <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+     </xslt>
+     <xslt in="${wdPath}/${bnFile}_etoiles.xml" out="${wdPath}/${bnFile}_lb.xml" style="${XslPath}/normaliserLb.xsl" classpath="${saxonPath}">
+       <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+     </xslt>
+     <xslt in="${wdPath}/${bnFile}_lb.xml" out="${wdPath}/${bnFile}_blancs.xml" style="${XslPath}/normaliserBlanc.xsl" classpath="${saxonPath}">
+       <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+     </xslt>
+     <xslt in="${wdPath}/${bnFile}_blancs.xml" out="${wdPath}/${bnFile}.edition.xml" style="${XslPath}/extraireEdition.xsl" classpath="${saxonPath}">
+       <factory name="net.sf.saxon.TransformerFactoryImpl">
+	 <attribute name="http://saxon.sf.net/feature/allow-external-functions" value="true"/>
+       </factory>
+       <param name="annotation" expression="${bnFile}.annotations"/>
+       <param name="fichierNotes" expression="${bnFile}_notes.xml"/>
+     </xslt>
+     <xslt in="${wdPath}/${bnFile}.edition.xml" out="${wdPath}/${bnFile}.txt"  style="${XslPath}/debaliser2.xsl" classpath="${saxonPath}">
+       <factory name="net.sf.saxon.TransformerFactoryImpl">
+	 <attribute name="http://saxon.sf.net/feature/allow-external-functions" value="true"/>
+       </factory>
+     </xslt>
+     <xslt in="${wdPath}/${bnFile}_notes.xml" out="${wdPath}/${bnFile}_notes.txt"  style="${XslPath}/debaliser2.xsl" classpath="${saxonPath}">
+       <factory name="net.sf.saxon.TransformerFactoryImpl">
+	 <attribute name="http://saxon.sf.net/feature/allow-external-functions" value="true"/>
+       </factory>
+     </xslt>
+
+     <!--Le morceau de bravoure : Talismane-->
+     <echo message="${TalismanePath}fichiers_OUT/"/>
+     <delete>
+       <fileset dir="${TalismanePath}fichiers_OUT/" includes="*"/>
+     </delete>
+     <delete>
+       <fileset dir="${TalismanePath}fichiers_IN/" includes="*"/>
+     </delete>
+     <copy file="${wdPath}/${bnFile}.txt" todir="${TalismanePath}fichiers_IN/"/>
+     <copy file="${wdPath}/${bnFile}_notes.txt" todir="${TalismanePath}fichiers_IN/"/>
+    
+     <java jar="${TalismanePath}talismane-2.6.0b/talismane-core-2.6.0b.jar"
+      fork="true"
+      failonerror="true">
+       <jvmarg value="-Xmx3G">
+       </jvmarg>
+       <arg line="command=analyse encoding=UTF-8 locale=fr endModule=postag sentenceModel=${TalismanePath}talismane-2.6.0b/frenchLanguagePack-2.5.0/sentence_ftb_all_maxent_cut5_v2.zip posTagSet=${TalismanePath}talismane-2.6.0b/apprentissageFrantext/frantextTagset.txt posTaggerModel=${TalismanePath}talismane-2.6.0b/apprentissageFrantext/models/frantextPosTagger_final.zip lexicon=${TalismanePath}talismane-2.6.0b/apprentissageFrantext/lexicons/lexicons_frantext_final.zip tokeniserType=simple tokenFilters=replace:${TalismanePath}talismane-2.6.0b/apprentissageFrantext/filters/token_filters_fr_simple_final.txt textFilters=${TalismanePath}talismane-2.6.0b/apprentissageFrantext/filters/textFilter.txt logStats=true posTaggerRules=${TalismanePath}talismane-2.6.0b/apprentissageFrantext/features/posTagger_fr_rules_final.txt template=${TalismanePath}talismane-2.6.0b/apprentissageFrantext/formats/templateFrantext.txt newline=NONE inDir=${TalismanePath}fichiers_IN  outDir=${TalismanePath}fichiers_OUT"/>
+       <classpath>
+	 <pathelement location="dist/test.jar"/>
+	 <pathelement path="${java.class.path}"/>
+       </classpath>
+     </java>
+    
+    
+
+     <!-- On recopie les résultats -->
+     <copy file="${TalismanePath}fichiers_OUT/${bnFile}" toFile="${wdPath}/out_${bnFile}"/>
+     <copy file="${TalismanePath}fichiers_OUT/${bnFile}_notes" toFile="${wdPath}/out_${bnFile}_notes"/>
+
+     <!-- On fait le fichier compagnon -->
+     <java classname="faireComp" output="${wdPath}/${bnFile}.edition.comp" fork="true"
+       failonerror="true">
+       <jvmarg value="-Dfile.encoding=UTF-8"/>
+       <arg line="${wdPath}/out_${bnFile} ${wdPath}/${bnFile}.txt"/>
+       <classpath>
+	 <pathelement path="${JAVAP}"/>
+       </classpath>
+     </java>
+     <java classname="faireComp" output="${wdPath}/${bnFile}.notes.comp" fork="true"
+      failonerror="true">
+       <arg line="${wdPath}/out_${bnFile}_notes ${wdPath}/${bnFile}_notes.txt"/>
+       <jvmarg value="-Dfile.encoding=UTF-8"/>
+       <classpath>
+	 <pathelement path="${JAVAP}"/>
+       </classpath>
+     </java>
+
+     <!-- On remballe -->
+     <java jar="${JAVAP}/mix2.jar" output="${wdPath}/${bnFile}.annote.edition.xml" error="${wdPath}/${bnFile}.err"
+      fork="true"
+      failonerror="true">
+       <jvmarg value="-Xmx16G">
+       </jvmarg>
+       <jvmarg value="-Xss150m">
+       </jvmarg>
+       <jvmarg value="-Dfile.encoding=UTF-8"/>
+       <arg line="${wdPath}/${bnFile}.edition.xml ${wdPath}/${bnFile}.edition.comp"/>
+       <classpath>
+	 <pathelement location="dist/test.jar"/>
+	 <pathelement path="${java.class.path}"/>
+       </classpath>
+     </java>
+     <java jar="${JAVAP}/mix2.jar" output="${wdPath}/${bnFile}.annote.notes.xml" error="${wdPath}/${bnFile}.err"
+      fork="true"
+      failonerror="true">
+       <jvmarg value="-Xmx16G">
+       </jvmarg>
+       <jvmarg value="-Xss150m">
+       </jvmarg>
+       <jvmarg value="-Dfile.encoding=UTF-8"/>
+       <arg line="${wdPath}/${bnFile}_notes.xml ${wdPath}/${bnFile}.notes.comp"/>
+       <classpath>
+	 <pathelement path="dist/test.jar"/>
+	  <pathelement path="${java.class.path}"/>
+       </classpath>
+     </java>
+
+     <!-- on réintègre les notes.... -->
+      <xslt in="${wdPath}/${bnFile}.annote.edition.xml" out="${wdPath}/${bnFile}.annote.temp.xml" style="${XslPath}/reIntegrerNotes.xsl" classpath="${saxonPath}">
+	<factory name="net.sf.saxon.TransformerFactoryImpl"/>
+	<param name="annotation" expression="../${wdPath}/${bnFile}.annotations"/>
+	<param name="annotationAnnotees" expression="../${wdPath}/${bnFile}.annote.notes.xml"/>
+     </xslt>
+    
+     <!-- on vire les atilf:id -->
+     <xslt in="${wdPath}/${bnFile}.annote.temp.xml" out="${wdPath}/${bnFile}.annote.temp2.xml" style="${XslPath}/idnns.xsl" classpath="${saxonPath}">
+       <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+     </xslt>
+     
+ 
+     <!-- On rétablit les blancs... -->
+     <xslt in="${wdPath}/${bnFile}.annote.temp2.xml" out="${wdPath}/${bnFile}.annote.xml" style="${XslPath}/deNormaliserBlancsBis.xsl" classpath="${saxonPath}">
+       <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+     </xslt>
+
+     <!-- on repère les parties pas annotées par talismane et on insère un segment de partie du discours "X" ou l'annotation du truc vide qui précède selon les cas. -->
+     <xslt in="${wdPath}/${bnFile}.annote.xml" out="${wdPath}/${bnFile}_pasAnno.comp" style="${XslPath}/chercherPasAnnote.xsl" classpath="${saxonPath}">
+       <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+     </xslt>
+   
+
+     
+     <java jar="${JAVAP}/mix2.jar" output="${wdPath}/${bnFile}.annotToutTexte.xml" error="${wdPath}/${bnFile}.err"
+      fork="true"
+      failonerror="true">
+       <jvmarg value="-Xmx16G">
+       </jvmarg>
+       <jvmarg value="-Xss150m">
+       </jvmarg>
+       <jvmarg value="-Dfile.encoding=UTF-8"/>
+       <arg line="${wdPath}/${bnFile}.annote.xml ${wdPath}/${bnFile}_pasAnno.comp"/>
+       <classpath>
+	 <pathelement path="."/>
+	 <pathelement path="${java.class.path}"/>
+       </classpath>
+     </java>
+
+     <!-- Si ca ne tennait qu'à moi, c'est ${fileName}.annotToutTexte.xml qu'on conserverait pour archivage... -->
+
+     <!-- on met des lemmes là où il n'y en a pas (la forme devient le lemme...) -->
+     <xslt in="${wdPath}/${bnFile}.annotToutTexte.xml" out="${wdPath}/${bnFile}.ttLemmes.xml" style="${XslPath}/mettreLesLemmes.xsl" classpath="${saxonPath}">
+       <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+     </xslt>
+
+     <!--  on met les notes en fin de fichier si nécessaire... -->
+      <xslt in="${wdPath}/${bnFile}.ttLemmes.xml" out="${wdPath}/${bnFile}.notesEnFin.xml" style="${XslPath}/deplacerEtNettoyerNotes.xsl" classpath="${saxonPath}">
+       <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+     </xslt>
+
+     <!-- on prend en compte les éventuelles annotations manuelles --> 
+     <xslt in="${wdPath}/${bnFile}.notesEnFin.xml" out="${resultsPath}/${bnFile}.xml" style="${XslPath}/traiterManualEtRegs.xsl" classpath="${saxonPath}">
+       <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+     </xslt>
+
+     <!-- On copie le résultat dans currDir -->
+     <copy file="${resultsPath}/${bnFile}.xml" toFile="${currDir}/${bnFile}.annote.xml"/>
+   </target>
+
+   <target name="clean">
+     <delete>
+       <fileset dir="${wdPath}" includes="*"/>
+     </delete>
+     <delete>
+       <fileset dir="${resultsPath}" includes="*"/>
+     </delete>
+     <delete>
+       <fileset dir="${TalismanePath}/fichiers_IN" includes="*"/>
+     </delete>
+     <delete>
+       <fileset dir="${TalismanePath}/fichiers_OUT" includes="*"/>
+     </delete>
+     <delete>
+       <fileset dir="logs" includes="*"/>
+     </delete>
+   </target>
+</project>

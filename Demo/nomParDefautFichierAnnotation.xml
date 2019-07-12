@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?><annotations xmlns="http://www.tei-c.org/ns/1.0"><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" xml:lang="und" atilf:id="d1e439">
+          <schemaSpec ident="TEI-minimal" start="TEI">
+            <moduleRef key="tei"/>
+            <moduleRef key="header"/>
+            <moduleRef key="core"/>
+            <moduleRef key="textstructure"/>
+          </schemaSpec>
+        </egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e540"><schemaSpec ident="TEI-PROJECT" start="TEI">
+            <moduleRef key="tei"/>
+            <moduleRef key="header"/>
+            <moduleRef key="core"/>
+            <moduleRef key="textstructure"/>
+            <moduleRef key="msdescription"/>
+            <!-- manuscript description -->
+            <moduleRef key="transcr"/>
+            <!-- transcription of primary sources -->
+            <moduleRef key="figures"/>
+            <!-- figures and tables -->
+            <moduleRef key="namesdates"/>
+            <!-- names, dates, people, and places -->
+          </schemaSpec></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" xml:lang="und" atilf:id="d1e581"><schemaSpec ident="TEI-TRANSCR" start="TEI">
+            <moduleRef key="tei"/>
+            <moduleRef key="core"/>
+            <moduleRef key="textstructure"/>
+            <moduleRef key="transcr"/>
+          </schemaSpec></egXML><note xmlns:atilf="http://www.atilf.fr" place="bottom" atilf:id="d1e825">The colon is also by default a
+              valid name character; however, it has a specific purpose in XML (to indicate namespace
+              prefixes), and may not therefore be used in any other way within a name.</note><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" source="#STGA-eg-4" valid="false" atilf:id="d1e845">
+&lt;p xml:id="PAGE1"&gt;&lt;q&gt;What's it going to be then, eh?&lt;/q&gt;&lt;/p&gt; 
+&lt;p xml:id="PAGE1"&gt;There was me, that is Alex, and my three droogs, that is Pete,
+Georgie, and Dim, ... &lt;/p&gt;</egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e866"><list rend="numbered">
+                <item n="1">About These Guidelines</item>
+                <item n="2">A Gentle Introduction to XML</item>
+                <item n="9">Verse</item>
+                <item n="10">Drama</item>
+                <item n="10">Spoken Materials </item>
+                <item n="12">Dictionaries</item>
+              </list></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" source="#STGA-eg-6" atilf:id="d1e893"><div type="book" n="one" xml:id="TXT0101">
+                <!-- ... -->
+                <div type="stanza" n="xlii">
+                  <!-- ... -->
+                </div>
+              </div></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" xml:lang="und" atilf:id="d1e913"><l n="1"><!-- ... --></l>
+              <l n="2"><!-- ... --></l>
+              <l n="3"><!-- ... --></l>
+              <!-- ... -->
+              <l n="100"><!-- ... --></l>
+            </egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" xml:lang="und" valid="feasible" atilf:id="d1e966">
+              <TEI xml:lang="en">
+                <teiHeader>
+                  <!-- ... -->
+                </teiHeader>
+                <text>
+                  <!-- ... -->
+                </text>
+              </TEI></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" xml:lang="und" valid="feasible" atilf:id="d1e984">
+              <TEI>
+                <teiHeader xml:lang="en">
+                  <!-- ... -->
+                </teiHeader>
+                <text xml:lang="en">
+                  <!-- ... -->
+                </text>
+              </TEI></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" xml:lang="und" valid="feasible" atilf:id="d1e1002">
+              <TEI>
+                <teiHeader xml:lang="en">
+                  <!-- ... -->
+                </teiHeader>
+                <text xml:lang="fr">
+                  <!-- ... -->
+                </text>
+              </TEI></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" xml:lang="und" valid="feasible" atilf:id="d1e1021">
+              <TEI>
+                <teiHeader xml:lang="en">
+                  <!-- ... -->
+                </teiHeader>
+                <text xml:lang="fr">
+                  <body>
+                    <div>
+                      <!-- chapter one is in French -->
+                    </div>
+                    <div xml:lang="de">
+                      <!-- chapter two is in German -->
+                    </div>
+                    <div>
+                      <!-- chapter three is French -->
+                    </div>
+                    <!-- ... -->
+                  </body>
+                </text>
+              </TEI></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" source="#STGA-eg-10" atilf:id="d1e1069"><p xml:lang="en">The
+                constitution declares <q>that no bill of attainder or <term xml:lang="la">ex post
+                    facto</term> law shall be passed.</q> ...</p></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1085"><ptr target="x12" targetLang="fr"/></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" source="#STGA-eg-11" atilf:id="d1e1129"><p> ... Their motives <emph rend="italics">might</emph> be pure
+                and pious; but he was equally alarmed by his knowledge of the ambitious <name rend="italics">Bohemond</name>, and his ignorance of the Transalpine chiefs:
+                ...</p></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" source="#STGA-eg-11" atilf:id="d1e1143"><p> ... Their motives <emph style="font-style: italic">might</emph> be pure and pious; but he was equally alarmed by his knowledge of
+                the ambitious <name style="font-style: italic">Bohemond</name>, and his ignorance of
+                the Transalpine chiefs: ...</p></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1198">
+              <tagsDecl>
+                <!-- define italic style using CSS, selecting it as default for emph and hi elements -->
+                <rendition xml:id="IT" scheme="css" selector="emph hi">font-style: italic;</rendition>
+                <!-- define a serif font family, selecting it as default for the text element -->
+                <rendition xml:id="FontRoman" scheme="css" selector="text">font-family: serif;</rendition>
+              </tagsDecl>
+              <!-- ... -->
+              <text>
+                <body>
+                  <div>
+                    <p rendition="#IT">
+		      <!-- this paragraph uses the seriffed font, but is in italic-->
+		    </p>
+                    <p>
+                      <!-- this paragraph uses the seriffed font, but is not in italic -->
+		    </p>
+                  </div>
+                </body>
+              </text>
+            </egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1354">
+                <p>
+                  <!-- ... -->
+                  <quote source="#chicago-15_ed">Grammatical theories 
+                    are in flux, and the more we learn, the less we 
+                    seem to know.</quote>
+                  <!-- ... -->
+                </p>
+                <!-- ... -->
+                <bibl xml:id="chicago-15_ed"><title level="m">The Chicago Manual of Style</title>, 
+                  <edition>15th edition</edition>. 
+                  <pubPlace>Chicago</pubPlace>: 
+                  <publisher>University of Chicago Press</publisher> 
+                  (<date>2003</date>), 
+                  <biblScope unit="page">p.147</biblScope>.
+                </bibl>
+              </egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1390">
+                  <p>
+                    <!-- ... -->
+                    <quote source="http://www.chicagomanualofstyle.org/15/ch05/ch05_sec002.html">Grammatical theories 
+                      are in flux, and the more we learn, the less we 
+                      seem to know.</quote>
+                    <!-- ... -->
+                  </p> </egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1424">
+              <elementRef key="p" source="tei:2.0.1"/>
+            </egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1432">
+              <elementRef key="p" source="http://www.tei-c.org/Vault/P5/2.0.1/xml/tei/odd/p5subset.xml"/>
+            </egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" source="#pythonBrian" atilf:id="d1e1455">
+              Blessed are the <choice><sic>cheesemakers</sic><corr cert="high">peacemakers</corr><corr cert="low">placemakers</corr></choice>: 
+for they shall be called the children of God.</egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" source="#pythonBrian" atilf:id="d1e1494">
+            ... <corr cert="high" resp="#ed1">peacemakers</corr>
+              <corr cert="low" resp="#ed2">placemakers</corr>...</egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" source="#TAYLOR" atilf:id="d1e1528">
+              <!-- in the <text> ... -->
+              <lg>
+                <!-- ... -->
+                <l>Punkes, Panders, baſe extortionizing 
+                  sla<choice><sic>n</sic><corr resp="#JENSJ">u</corr></choice>es,</l>
+                <!-- ... -->
+              </lg>
+              <!-- in the <teiHeader> ... -->
+              <!-- ... -->
+              <respStmt xml:id="JENSJ">
+                <resp>Transcriber</resp>
+                <name>Janelle Jenstad</name>
+              </respStmt>
+            </egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1606">
+              <body>
+                <div xml:base="http://www.example.org/somewhere.xml">
+                  <p><!--... -->
+                    <ptr target="elsewhere.xml"/>
+                    <!--... -->
+                  </p>
+                </div>
+                <div>
+                  <p><!--... -->
+                    <ptr target="elsewhere.xml"/>
+                    <!--... -->
+                  </p>
+                </div>
+              </body></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1721">
+              <choice>
+                <sic>1724</sic>
+                <corr>1728</corr>
+              </choice>
+            </egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1765">
+              <persName>
+                <forename>Edward</forename>
+                <forename>George</forename>
+                <surname type="linked">Bulwer-Lytton</surname>, <roleName>Baron Lytton of
+                    <placeName>Knebworth</placeName>
+                </roleName>
+              </persName>
+            </egXML><specGrp xmlns:atilf="http://www.atilf.fr" xml:id="DSTECAT" n="Attribute classes" atilf:id="d1e1874">
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.ascribed.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.canonical.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.ranging.xml"/>
+            <!-- must come before att.dimensions -->
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.dimensions.xml"/>
+            <!-- must come before att.damaged -->
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.written.xml"/>
+            <!-- must come before att.damaged -->
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.damaged.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.breaking.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.cReferencing.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.datable.custom.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.datable.w3c.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.datable.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.datcat.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.declarable.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.declaring.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.fragmentable.xml"/>
+            <!-- must come before att.divLike -->
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.divLike.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.docStatus.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.duration.w3c.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.duration.iso.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.duration.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.global.responsibility.xml"/>
+            <!-- referenced by att.editLike, att.interpLike, att.testCritical -->
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.editLike.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.global.rendition.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.global.source.xml"/>              
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.global.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.handFeatures.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.internetMedia.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.media.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.resourced.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.interpLike.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.measurement.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.milestoneUnit.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.naming.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.notated.xml"/>
+
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.placement.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.typed.xml"/>
+            <!-- must precede pointing.group -->
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.pointing.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.pointing.group.xml"/>
+            <!--<include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.readFrom.xml"/>-->
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.scoping.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.segLike.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.sortable.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.edition.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.spanning.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.styleDef.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.tableDecoration.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.timed.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.transcriptional.xml"/>
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.translatable.xml"/>
+
+            <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.citing.xml"/>
+          </specGrp><note xmlns:atilf="http://www.atilf.fr" place="bottom" atilf:id="d1e2132">In former
+          editions of these Guidelines, such elements were known metaphorically as
+            <soCalled>crystals</soCalled>.</note><note xmlns:atilf="http://www.atilf.fr" place="bottom" atilf:id="d1e2195">Note that in this context,
+                  <term>phrase</term> means any string of characters, and can apply to individual
+                words, parts of words, and groups of words indifferently; it does not refer only to
+                linguistically-motivated phrasal units. This may cause confusion for readers
+                accustomed to applying the word in a more restrictive sense.</note><note xmlns:atilf="http://www.atilf.fr" res="#BG" atilf:id="d1e2273">
+	  <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.nameLike.agent.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.segLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.hiLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.emphLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.highlighted.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.dateLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.dimLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.measureLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.egLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.graphicLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.offsetLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.pPart.msdesc.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.pPart.editorial.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.pPart.transcriptional.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.pPart.edit.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.linePart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.ptrLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.lPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.global.meta.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.milestoneLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.gLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.oddDecl.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.oddRef.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.phrase.xml.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.specDescLike.xml"/>
+        <!-- inter level -->
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.biblLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.headLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.labelLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.listLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.noteLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.lLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.pLike.xml"/>
+        <!-- used by model.divPart -->
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.stageLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.featureVal.complex.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.featureVal.single.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.entryPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.entryPart.top.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.eventLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.global.edit.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.global.spoken.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.divPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.persStateLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.personLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.personPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.placeNamePart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.placeStateLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.orgPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.publicationStmtPart.agency.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.publicationStmtPart.detail.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.availabilityPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.certLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.descLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.glossLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.quoteLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.qLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.rdgLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.respLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.divWrapper.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.divTopPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.divTop.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.frontPart.drama.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.pLike.front.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.divBottomPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.divBottom.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.titlepagePart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.msQuoteLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.msItemPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.choicePart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.recordingPart.xml"/>
+        <!-- in TS-->
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.imprintPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.catDescPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.settingPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.textDescPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.castItemPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.physDescPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.addressLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.nameLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.persNamePart.xml"/>
+        <!-- from ND -->
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.global.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.featureVal.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.biblPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.frontPart.xml"/>
+        <!-- These classes refer only to level 1 or to primitive lowlevel classes or to elements -->
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.addrPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.pPart.data.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.inter.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.common.xml"/>
+        <!-- needs model.inter -->
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.phrase.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.limitedPhrase.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.divLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.divGenLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.div1Like.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.div2Like.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.div3Like.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.div4Like.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.div5Like.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.div6Like.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.div7Like.xml"/>
+        <!-- remainder are left overs -->
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.applicationLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.teiHeaderPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.sourceDescPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.encodingDescPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.editorialDeclPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.profileDescPart.xml"/></note><specGrp xmlns:atilf="http://www.atilf.fr" atilf:id="d1e2571">
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/macro.paraContent.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/macro.limitedContent.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/macro.phraseSeq.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/macro.phraseSeq.limited.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/macro.specialPara.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/macro.xtext.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/macro.anyXML.xml"/>
+      </specGrp><specGrp xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:atilf="http://www.atilf.fr" xml:id="DTYPES-1" n="Numeric Datatypes" atilf:id="d1e2681">
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.certainty.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.probability.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.numeric.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.interval.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.percentage.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.count.xml"/>
+      </specGrp><specGrp xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:atilf="http://www.atilf.fr" xml:id="DTYPES-2" n="Normalized Datatypes" atilf:id="d1e2726">
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.temporal.w3c.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.duration.iso.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.temporal.iso.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.duration.w3c.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.truthValue.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.xTruthValue.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.language.xml"/>
+      </specGrp><specGrp xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:atilf="http://www.atilf.fr" xml:id="DTYPES-3" n="Notation and pointer datatypes" atilf:id="d1e2772">
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.namespace.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.namespaceOrName.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.outputMeasurement.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.pattern.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.point.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.pointer.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.version.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.versionNumber.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.replacement.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.xpath.xml"/>
+      </specGrp><note xmlns:atilf="http://www.atilf.fr" place="bottom" atilf:id="d1e2936">Technically <ref target="https://tools.ietf.org/html/rfc3986#section-3.1">the
+      specification</ref> permits the 26 uppercase letters
+      <mentioned>A-Z</mentioned>; however, since <quote>the canonical
+      form is lowercase and documents that specify schemes must do so
+      with lowercase letters</quote>, the TEI <ident type="datatype">teidata.prefix</ident> datatype does not permit
+      uppercase letters.</note><specGrp xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:atilf="http://www.atilf.fr" xml:id="DTYPES-4" n="Coded value datatypes" atilf:id="d1e2993">
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.word.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.sex.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.text.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.name.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.xmlName.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.prefix.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.enumerated.xml"/>
+      </specGrp><specGrp xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:atilf="http://www.atilf.fr" xml:id="DTYPES-5" n="Complex datatypes" atilf:id="d1e3040">
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.probCert.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.unboundedInt.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/teidata.nullOrName.xml"/>
+      </specGrp><moduleSpec xmlns:atilf="http://www.atilf.fr" xml:id="DSTTEI2" ident="tei" type="core" atilf:id="d1e3061">
+        <altIdent type="FPI">TEI Infrastructure</altIdent>
+        <desc>Declarations for classes, datatypes, and macros available to all TEI modules</desc>
+        <desc xml:lang="fr">Infrastructure de la TEI</desc>
+        <desc xml:lang="zh-TW">所有TEI模組可用的元素集、資料類型、巨集指令之宣告</desc>
+        <desc xml:lang="it">Dichiarazione di classi, tipi di dati (datatype)e macro disponibili in
+          tutti i moduli TEI</desc>
+        <desc xml:lang="pt">Declaraçoes de classes, tipos de dados, e macros disponíveis em todos os
+          módulos TEI </desc>
+        <desc xml:lang="ja">全TEIモジュールで使用可能なデータ型，クラス，マクロ．</desc>
+      </moduleSpec><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.certainty.xml" atilf:id="d1e3126"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.probability.xml" atilf:id="d1e3128"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.numeric.xml" atilf:id="d1e3131"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.interval.xml" atilf:id="d1e3133"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.percentage.xml" atilf:id="d1e3135"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.count.xml" atilf:id="d1e3137"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.temporal.w3c.xml" atilf:id="d1e3139"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.duration.w3c.xml" atilf:id="d1e3141"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.truthValue.xml" atilf:id="d1e3144"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.xTruthValue.xml" atilf:id="d1e3146"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.language.xml" atilf:id="d1e3148"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.namespace.xml" atilf:id="d1e3150"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.outputMeasurement.xml" atilf:id="d1e3152"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.pattern.xml" atilf:id="d1e3154"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.point.xml" atilf:id="d1e3157"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.pointer.xml" atilf:id="d1e3159"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.version.xml" atilf:id="d1e3161"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.versionNumber.xml" atilf:id="d1e3163"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.replacement.xml" atilf:id="d1e3165"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.xpath.xml" atilf:id="d1e3167"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.word.xml" atilf:id="d1e3170"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.sex.xml" atilf:id="d1e3172"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.text.xml" atilf:id="d1e3174"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.name.xml" atilf:id="d1e3176"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.xmlName.xml" atilf:id="d1e3178"/><include xmlns="http://www.w3.org/2001/XInclude" xmlns:atilf="http://www.atilf.fr" href="../../Specs/data.enumerated.xml" atilf:id="d1e3180"/></annotations>
