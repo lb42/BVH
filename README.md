@@ -1,6 +1,6 @@
 # Annotations
 
-In order to test a demo, get demo.zip in subdirectiry demo,
+In order to test a demo, get demo.zip in sub-directiry Demo,
 Unzip it somewhere.
 
 Now in oxygen, import the scenario as follows :
