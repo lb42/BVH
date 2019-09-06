@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?><annotations xmlns="http://www.tei-c.org/ns/1.0"><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e176"><app>
+   <rdg wit="#El">Experience though noon Auctoritee</rdg>
+   <rdg wit="#La">Experiment thouh noon Auctoritee</rdg>
+   <rdg wit="#Ra2">Eryment though none auctorite</rdg>
+</app></egXML><specGrp xmlns:atilf="http://www.atilf.fr" xml:id="DTCAPEN" n="Apparatus entry" atilf:id="d1e194"> <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/app.xml"/> <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/listApp.xml"/></specGrp><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e308"><app>
+   <lem wit="#El #Hg">Experience</lem>
+   <rdg wit="#La" type="substantive">Experiment</rdg>
+   <rdg wit="#Ra2" type="substantive">Eryment</rdg>
+</app></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e321"><app>
+   <lem wit="#El #Ra2">though</lem>
+   <rdg wit="#La" type="orthographic">thouh</rdg>
+</app></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e349"><app>
+   <rdg wit="#La" varSeq="1">Experiment</rdg>
+   <rdg wit="#Ra2" cause="abbreviation_loss" varSeq="2">Eryment</rdg>
+</app></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" xml:lang="gmh" source="#COBICOR-eg-251" atilf:id="d1e373"><l>Swaz hi gât umbe</l>
+<l>daz sint alle megede,</l>
+<l>die wellent ân man</l>
+<l>
+   <app>
+      <rdg wit="#Mu" varSeq="1" hand="#m1">alle</rdg>
+      <rdg wit="#Mu" cause="nachgetragen" varSeq="2" hand="#m2">allen</rdg>
+   </app>
+disen sumer gân.</l>
+</egXML><note xmlns:atilf="http://www.atilf.fr" place="bottom" atilf:id="d1e407">For the sake of legibility in the example, long
+          marks over vowels are omitted. </note><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" xml:lang="ang" source="#TCAPLR-eg-11" atilf:id="d1e410"><l>se ðe on
+  <app>
+     <rdg wit="#Kl">hea(um) h(æþ)e</rdg>
+     <rdg wit="#ms" resp="#Z">heaðo hlæwe</rdg>
+     <rdg wit="#ms" resp="#Cha">heaum hope</rdg>
+  </app></l>
+<l>hord beweotode,</l></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" source="#TCAPLR-eg-11" atilf:id="d1e471"><l n="2207a">syððan Beowulfe
+<note resp="#Kl" place="app">Fol. 179a <mentioned>beowulfe</mentioned>.
+  Folio 179, with the last page (Fol. 198b), is the worst part of the
+  entire MS. It has been freshened up by a later hand, but not always
+  correctly. Information on doubtful readings is in the notes of
+  Zupitza and Chambers.</note></l>
+<l n="2207b">brade rice</l>
+</egXML><specGrp xmlns:atilf="http://www.atilf.fr" xml:id="DTCAPLR" n="Readings" atilf:id="d1e525"> <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/lem.xml"/> <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/rdg.xml"/> </specGrp><tag xmlns:atilf="http://www.atilf.fr" atilf:id="d1e588">rdg type='orthographic'</tag><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e594"><app>
+   <lem wit="#El #Ra2">though</lem>
+   <rdgGrp type="orthographic">
+      <rdg wit="#La">thogh</rdg>
+      <rdg wit="#Hg">thouh</rdg>
+   </rdgGrp>
+</app></egXML><tag xmlns:atilf="http://www.atilf.fr" atilf:id="d1e641">rdg type='groupBase'</tag><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e663"><app type="substantive">
+    <rdgGrp type="subvariants">
+         <lem wit="#El #Hg">Experience</lem>
+        <rdg wit="#Ha4">Experiens</rdg>
+     </rdgGrp>
+    <rdgGrp type="subvariants">
+        <lem wit="#Cp #Ld1">Experiment</lem>
+        <rdg wit="#La">Ex<g ref="#per"/>iment</rdg>
+    </rdgGrp>
+    <rdgGrp type="subvariants">
+      <lem resp="#ed2013">Eriment</lem>
+        <rdg wit="#Ra2">Eryment</rdg>
+     </rdgGrp>
+</app></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e717"><app n="a1" type="substantive">
+   <rdg wit="#El #Hg #Ha4">        
+      <app n="a2" type="orthographic">
+         <lem wit="#El #Hg">Experience</lem>
+         <rdg wit="#Ha4">Experiens</rdg>
+      </app>
+   </rdg>
+   <rdg wit="#Cp #Ld1 #La">        
+      <app n="a3" type="orthographic">
+         <lem wit="#Cp #Ld1">Experiment</lem>
+         <rdg wit="#La">Ex<g ref="#per"/>iment</rdg>
+      </app>
+   </rdg>
+   <rdg wit="#Ra2">        
+      <app n="a4" type="orthographic">
+        <lem resp="#ed2013">Eriment</lem>
+         <rdg wit="#Ra2">Eryment</rdg>
+      </app>
+   </rdg>
+</app></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e774"><app type="substantive">
+    <rdgGrp type="subvariants">
+        <lem wit="#El #Hg">Experience</lem>
+        <rdg wit="#Ha4">Experiens</rdg>
+    </rdgGrp>
+    <rdgGrp type="sequence">
+        <rdgGrp varSeq="1" type="subvariants">
+            <lem wit="#Cp #Ld1">Experiment</lem>
+            <rdg wit="#La">Ex<g ref="#per"/>iment</rdg>
+        </rdgGrp>
+        <rdgGrp varSeq="2" cause="abbreviation_loss">
+          <lem resp="#ed2013">Eriment</lem>
+            <rdg wit="#Ra2">Eryment</rdg>
+        </rdgGrp>
+    </rdgGrp>
+</app></egXML><specGrp xmlns:atilf="http://www.atilf.fr" xml:id="DTCAPSU" n="Reading Groups" atilf:id="d1e810"> <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/rdgGrp.xml"/> </specGrp><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e887"><app type="substantive">
+    <rdgGrp type="subvariants">
+        <lem xml:id="W026" wit="#El #Hg">Experience</lem>
+        <rdg wit="#Ha4">Experiens</rdg>
+    </rdgGrp>
+</app>
+<witDetail target="#W026" wit="#El" resp="#PR">Ornamental capital.</witDetail></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" xml:lang="gmh" source="#COBICOR-eg-251" atilf:id="d1e921"><l>Swaz hi gât umbe</l>
+<l>daz sint alle megede,</l>
+<l>die wellent ân man</l>
+<l>
+   <app>
+      <rdg wit="#Mu" hand="#m1">alle</rdg>
+      <rdg xml:id="anon.6.4" wit="#Mu" hand="#m2">allen</rdg>
+   </app>
+disen sumer gân.</l>
+<witDetail target="#anon.6.4" wit="#Mu">
+   <ref>allen</ref>
+   <mentioned>n</mentioned> nachgetragen.
+</witDetail></egXML><specGrp xmlns:atilf="http://www.atilf.fr" xml:id="DTCAPWD" n="Witness Details" atilf:id="d1e973"> <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/witDetail.xml"/> </specGrp><note xmlns:atilf="http://www.atilf.fr" place="foot" atilf:id="d1e1033">We use the term sigil as the English equivalent of the Latin
+            term <foreign>siglum</foreign> (sign) traditionally used for the brief identifier
+            associated with a particular document.</note><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" source="#COBICOR-eg-251" xml:lang="gmh" atilf:id="d1e1094"><lg type="stanza"> <l xml:id="Diet1.1">Slăfest du, vriedel ziere?</l>
+    <l xml:id="Diet1.2">wan wecket uns leider schiere;</l>
+    <l xml:id="Diet1.3">ein vogellīn sŏ wol getăn</l>
+    <l xml:id="Diet1.4">daz ist der linden an daz zwī gegăn.</l>
+    </lg>
+<app type="secondary" loc="Diet.1.1">
+    <rdg wit="#Kb">slăfst</rdg> <wit>K(Ba)</wit>
+    </app>
+<app type="secondary" loc="Diet.1.2">
+    <rdg wit="#Kv">Man</rdg> <wit>K(V)</wit>
+    <rdg wit="#K">weckt</rdg> <wit>K (Wackernagel 401)</wit>
+    <rdg wit="#Ju">Ich waen ez taget uns schiere</rdg>
+    <wit>Jungbluth, Festschr. Pretzel 1963, 122.</wit>
+    </app>
+</egXML><specGrp xmlns:atilf="http://www.atilf.fr" xml:id="DTCSCWL" n="Sourcetext Witness Lists in Apparatus" atilf:id="d1e1152"> <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/wit.xml"/> </specGrp><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" xml:lang="und" atilf:id="d1e1225"><listWit>
+   <witness xml:id="Chi3"/>
+   <witness xml:id="Ha4"/>
+   <witness xml:id="Ju"/> 
+   <witness xml:id="K"/>  
+   <witness xml:id="Kb"/>  
+   <witness xml:id="Kl"/> 
+   <witness xml:id="Kv"/>  
+   <witness xml:id="Ld"/>
+   <witness xml:id="Ld1"/> 
+   <witness xml:id="Ln"/>
+   <witness xml:id="Mu"/>  
+   <witness xml:id="Ry2"/>
+   <witness xml:id="Wa"/>  
+   <witness xml:id="X"/>   
+</listWit></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1264"><listWit>
+  <witness xml:id="El">Ellesmere, Huntingdon Library 26.C.9</witness>
+  <witness xml:id="Hg">Hengwrt, National Library of Wales,
+    Aberystwyth, Peniarth 392D</witness>
+  <witness xml:id="Ra2">Bodleian Library Rawlinson Poetic 149
+(see further <ptr target="http://example.com/msDescs#MSRP149"/>)</witness>
+</listWit></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" xml:lang="de" source="#COBICOR-eg-251" atilf:id="d1e1285"><listWit>
+   <witness xml:id="A">die sog. <soCalled>Kleine (oder alte)
+      Heidelberger Liederhandschrift</soCalled>.
+      <bibl>Universitätsbibliothek Heidelberg col. pal.
+      germ. 357. Pergament, 45 Fll. 18,5 × 13,5 cm.</bibl>
+      Wahrscheinlich die älteste der drei großen Hss. Sie
+      <quote>datiert aus dem 13. Jahrhundert, etwa um 1275. Ihre Sprache
+      weist ins Elsaß, evtl. nach Straßburg. Man geht wohl nicht
+      fehl, in ihr eine Sammlung aus dem Stadtpatriziat zu sehen</quote>
+      (<bibl><author>Blank</author>, [vgl. <ref>Lit. z. Hss. Bd. 2,
+      S. 39</ref>] S. 14</bibl>). Sie enthält 34 namentlich
+      genannte Dichter. <quote>Zu den Vorzügen von A gehört, daß
+      sie kaum je bewußt geändert hat, so daß sie für
+      manche Dichter ... oft den besten Text liefert</quote> (so wohl mit
+      Recht <bibl><author>v. Kraus</author></bibl>).</witness>
+   <witness xml:id="a">Bezeichnung <bibl><author>Lachmann</author>
+      </bibl>s für die von einer 2. Hand auf bl. 40–43
+      geschriebenen Strophen der Hs. A.</witness>
+   <witness xml:id="B">die <soCalled>Weingartner (Stuttgarter)
+      Liederhandschrift</soCalled>. <bibl>Württembergische
+      Landesbibliothek Stuttgart, HB XIII poetae germanici 1.
+      Pergament, 156 Bll. 15 × 11,5 cm; 25 teils ganzseitig,
+      teils halbseitige Miniaturen.</bibl> Kaum vor 1306 in Konstanz
+      geschrieben. Sie enthält Lieder von 25 namentlich genannten
+      Dichtern. (Dazu kommen Gedichte von einigen ungenannten
+      bzw. unbekannten Dichtern, ein Marienlobpreis und eine
+      Minnelehre.)</witness>
+</listWit></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" xml:lang="mul" atilf:id="d1e1354">
+<listBibl> 
+<bibl xml:id="bcn_1482">T. Kempis, De la imitació de Jesuchrist e del
+menyspreu del món (trad. Miquel Peres); Barcelona, 1482, Pere
+Posa. Editio princeps.</bibl>
+<bibl xml:id="val_1491">T. Kempis, Del menyspreu del món (trad. Miquel
+Peres); València, 1491.</bibl>
+<bibl xml:id="bcn_1518">T. Kempis, Libre del menysprey del món e de la
+imitació de nostre senyor Déu Jesucrist, (trad. Miquel Peres);
+Barcelona, 1518, Carles Amorós. </bibl>
+</listBibl>
+</egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1377">
+<listWit>
+<witness xml:id="Ellesmere">Ellesmere, Huntingdon Library 26.C.9</witness>
+<!-- ... -->
+<listWit xml:id="Con">
+   <head>Constant Group C</head>
+   <witness xml:id="Cp">Corpus Christi Oxford MS 198</witness>
+   <witness xml:id="La">British Library Lansdowne 851</witness>
+   <witness xml:id="Sl2">British Library Sloane MS 1686</witness>
+</listWit>
+</listWit></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1408"><rdg wit="#Con">Experiment</rdg></egXML><specGrp xmlns:atilf="http://www.atilf.fr" xml:id="DTCAPLW" n="Witness Lists in Front Matter" atilf:id="d1e1447"> <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/listWit.xml"/> <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/witness.xml"/> </specGrp><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1502"><app>
+   <lem wit="#El #Hg">Auctoritee</lem>
+   <rdg wit="#La #Ra2">auctorite</rdg>
+   <rdg wit="#X"><lacunaEnd/>auctorite</rdg>
+</app></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1516"><app>
+   <lem wit="#El #Hg">Auctoritee</lem>
+   <rdg wit="#La #Ra2 #X"><lacunaEnd wit="#X"/>auctorite</rdg>
+</app></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1534"><app>
+   <lem wit="#El #Hg">Auctoritee</lem>
+   <rdg wit="#La #Ra2">auctorite</rdg>
+   <rdg wit="#X"><witStart/>auctorite</rdg>
+</app></egXML><specGrp xmlns:atilf="http://www.atilf.fr" xml:id="DTCFW" n="Fragmentary witnesses" atilf:id="d1e1548"> <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/witStart.xml"/> <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/witEnd.xml"/> <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/lacunaStart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/lacunaEnd.xml"/> </specGrp><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1651"><variantEncoding method="location-referenced" location="external"/></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1659"><text>
+  <body> 
+    <div n="WBP" type="prologue">
+      <head>The Prologe of the Wyves Tale of Bathe</head>
+      <l n="1">Experience though noon Auctoritee</l>
+      <l>Were in this world ...</l>
+    </div>
+  </body>
+</text></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1686"><app loc="WBP 1">
+   <rdg wit="#La">Experiment</rdg>
+   <rdg wit="#Ra2">Eryment</rdg>
+</app></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1699"><variantEncoding method="location-referenced" location="internal"/>
+<!-- ... -->
+<l n="1">Experience
+  <app>
+    <rdg wit="#La">Experiment</rdg>
+    <rdg wit="#Ra2">Eryment</rdg>
+  </app>
+  though noon Auctoritee</l>
+<l>Were in this world ...</l></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1721"><l n="1">Experience though noon Auctoritee
+  <app>
+    <rdg wit="#La"> Experiment</rdg>
+    <rdg wit="#Ra2"> Eryment</rdg>
+  </app></l>
+<l>Were in this world ...</l></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1741"><l n="1">Experience though noon Auctoritee
+  <app>
+    <lem wit="#El">Experience</lem>
+    <rdg wit="#La">Experiment</rdg>
+    <rdg wit="#Ra2">Eryment</rdg>
+  </app></l>
+<l>Were in this world ...</l></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1803">
+    <variantEncoding method="double-end-point" location="external"/>
+<!-- ... -->
+      <div n="WBP" type="prologue"><head>The Prologe ... </head>
+        <l n="1" xml:id="WBP.1">Experience<anchor xml:id="WBP-A2"/> though noon Auctoritee</l>
+        <l>Were in this world ...</l> 
+      </div> 
+</egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1823"><app from="#WBP.1" to="#WBP-A2">
+   <rdg wit="#La">Experiment</rdg>
+   <rdg wit="#Ra2">Eryment</rdg>
+</app></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1861"><variantEncoding method="double-end-point" location="internal"/>
+<!-- ... -->
+<l n="1" xml:id="wbp.1">Experience
+   <app from="#wbp.1">
+      <rdg wit="#La">Experiment</rdg>
+      <rdg wit="#Ra2">Eryment</rdg>
+   </app>
+   though noon Auctoritee</l>
+<l>Were in this world ...</l></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1896"><app from="#WBP.1" to="#WBP-A2">
+   <lem wit="#El #Hg">Experience</lem>
+   <rdg wit="#La">Experiment</rdg>
+   <rdg wit="#Ra2">Eryment</rdg>
+</app></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e1950"><l xml:id="WBP.117" n="117"> And
+  <anchor xml:id="WBP-A117.1"/> of so parfit
+  <anchor xml:id="WBP-A117.2"/> wys
+  <anchor xml:id="WBP-A117.3"/> a wight
+  <anchor xml:id="WBP-A117.4"/> ywroght
+  <app from="#WBP-A117.1" to="#WBP-A117.3">
+    <lem wit="#Hg">of so parfit wys</lem>
+    <rdg wit="#Ha4">in what wise was</rdg>
+  </app>
+  <app from="#WBP-A117.2" to="#WBP-A117.4">
+    <lem wit="#Hg">wys a wight</lem>
+    <rdg wit="#El #Ha4">was a wight</rdg>
+  </app></l></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e2007"><variantEncoding method="parallel-segmentation" location="internal"/>
+<!-- ... -->
+  <l n="1">
+    <app><lem wit="#El #Hg">Experience</lem>
+         <rdg wit="#La">Experiment</rdg>
+         <rdg wit="#Ra2">Eryment</rdg></app>
+    though noon Auctoritee</l>
+  <l>Were in this world ...</l></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e2040"><l n="1">    
+   <app>
+      <lem>Experience</lem>
+      <rdg wit="#La">Experiment</rdg>
+      <rdg wit="#Ra2">Eryment</rdg>
+   </app>
+   though noon Auctoritee</l>
+<l>Were in this world ...</l></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e2067"><l n="1">
+   <app>
+      <rdg wit="#Chi3">Auctoritee, though none experience</rdg>
+      <rdg>    
+         <app>
+            <rdg wit="#El #Hg">Experience</rdg>
+            <rdg wit="#La">Experiment</rdg>
+            <rdg wit="#Ra2">Eryment</rdg>
+         </app>
+         <app>
+            <rdg wit="#El #Ra2">though</rdg>
+            <rdg wit="#Hg">thogh</rdg>
+            <rdg wit="#La">thouh</rdg>
+         </app>
+         <app>
+            <rdg wit="#El #Hg">noon Auctorite</rdg>
+            <rdg wit="#La #Ra2">none auctorite</rdg>
+         </app>
+      </rdg>
+   </app>
+</l></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e2166"> 
+    <l n="1"><seg xml:id="WBP-so.1.1">Experience</seg> though noon Auctoritee</l>
+    
+    <!-- In another file -->
+    
+    <app from="example.xml#WBP-so.1.1">
+      <rdg wit="#La">Experiment</rdg>
+      <rdg wit="#Ra2">Eryment</rdg>
+    </app>
+   </egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e2186"> 
+    <l n="1"><anchor xml:id="WBP-so.1.1a"/> though noon Auctoritee</l>
+    
+    <!-- In another file -->
+    
+    <app from="http://www.example.com/example.xml#WBP-so.1.1a">
+      <lem>Experience</lem>
+      <rdg wit="#La">Experiment</rdg>
+      <rdg wit="#Ra2">Eryment</rdg>
+    </app>
+   </egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e2224">     
+        <l n="1" xml:id="WP.1a">Experience though noon Auctoritee</l>
+        
+        <!-- In another file -->
+        
+        <app from="example.xml#string-range(WP.1a, 0, 10)">
+          <lem>Experience</lem>
+          <rdg wit="#La">Experiment</rdg>
+          <rdg wit="#Ra2">Eryment</rdg>
+        </app>
+   </egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e2308">Virginite is grete
+<app>
+  <rdg source="#ES">perfectio<am><g ref="#ii"/></am></rdg>
+  <rdg source="#FJF">perfectio<ex>u</ex>n</rdg>
+  <rdg source="#PGR">perfectiou<ex>n</ex></rdg>
+</app></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e2347">Virginite is grete
+<app>
+  <rdg source="#ES">perfecti<am><g ref="#ii"/></am></rdg>
+  <rdg xml:id="f105" source="#FJF">perfectio<ex>u</ex>n</rdg>
+  <rdg xml:id="r105" source="#PGR">perfectiou<ex>n</ex></rdg>
+</app>
+<!-- ... <note> appearing elsewhere in the document ... -->
+<note target="#r105 #f105">Furnivall's expansion implies that the bar
+  is an abbreviation for 'u'. There are no certain instances of
+  this mark as an abbreviation for 'u' in these manuscripts and it is
+  widely used as an abbreviation for 'n'. Ruggiers' expansion is to
+  be accepted.</note></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e2443"><app xml:id="d1e372">
+  <lem xml:id="d1e373" source="#Heyworth"><l n="18">Hypsipyle uacuo constitit in thalamo:</l></lem>
+  <rdg xml:id="d1e376" wit="#J" cause="homeoarchon"/>
+</app></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e2459"><app xml:id="app-lem-l25-l26" exclude="#app-rdg-Housman-l25-26">
+  <lem xml:id="d1e462" source="#Heyworth">
+    <l n="25" xml:id="l25">desine iam reuocare tuis periuria verbis,</l>
+    <l n="26" xml:id="l26">Cynthia, et oblitos parce movere deos;</l>
+  </lem>
+</app></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e2472"><app xml:id="app-rdg-Housman-l25-26" exclude="#app-lem-l25-l26">
+  <rdg xml:id="d1e603" source="#Housman">
+    <l copyOf="#l25"/>
+    <l copyOf="#l26"/>
+  </rdg>
+  <note target="#d1e603">Housman put these lines after 32.</note>
+</app></egXML><egXML xmlns="http://www.tei-c.org/ns/Examples" xmlns:atilf="http://www.atilf.fr" atilf:id="d1e2499"><app xml:id="d1e275">
+  <lem xml:id="d1e277" source="#Heyworth">
+    <l n="8"><app xml:id="d1e280"><lem xml:id="d1e281" wit="#N #Λ">ut</lem><rdg xml:id="d1e283" wit="#A">et</rdg><rdg xml:id="d1e285" source="#Nodell">ac</rdg> <note target="#d1e287">perhaps</note><rdg xml:id="d1e287" source="#Heyworth" cert="low">quam</rdg></app> formosa nouo quae parat ire uiro.</l>
+    <l n="9"><app xml:id="d1e294"><lem xml:id="d1e295">at</lem><rdg xml:id="d1e297" wit="#A">et</rdg></app> non sic, Ithaci digressu <app xml:id="d1e300"><lem xml:id="d1e301">mota</lem><rdg xml:id="d1e303" source="#Graevius">immota</rdg></app>, Calypso</l>
+    <l n="10">desertis olim fleuerat aequoribus:</l>
+    <l n="11">multos illa dies incomptis maesta capillis</l>
+  </lem>
+  <rdg xml:id="d1e314" wit="#C" cause="homoeoteleuton"/><note target="#d1e314">omits lines 8-11 because of homoeoteleuton.</note>
+</app></egXML><moduleSpec xmlns:atilf="http://www.atilf.fr" xml:id="DTC" ident="textcrit" atilf:id="d1e2566">
+        <altIdent type="FPI">Text Criticism</altIdent>
+        <desc>Critical Apparatus</desc>
+        <desc xml:lang="fr">Apparat critique</desc>
+        <desc xml:lang="zh-TW">學術編輯註解</desc>
+        <desc xml:lang="it">Apparato critico</desc>
+        <desc xml:lang="pt">Critical Apparatus</desc>
+        <desc xml:lang="ja">校勘モジュール</desc>
+      </moduleSpec><specGrp xmlns:atilf="http://www.atilf.fr" atilf:id="d1e2594"> <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/variantEncoding.xml"/> <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.rdgPart.xml"/> <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.rdgPart.xml"/> <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.witnessed.xml"/> <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/att.textCritical.xml"/>
+        <specGrpRef target="#DTCAPEN"/>
+      <specGrpRef target="#DTCAPLR"/>
+      <specGrpRef target="#DTCAPSU"/>
+      <specGrpRef target="#DTCAPWD"/>
+      <specGrpRef target="#DTCSCWL"/>
+      <specGrpRef target="#DTCAPLW"/>
+      <specGrpRef target="#DTCFW"/>
+    </specGrp></annotations>

@@ -3,18 +3,20 @@
 #à refaire sous forme de build ant puis ajouter un scénario Oxygen....
 #mettre aussi autre chose que les noms par défaut pour les fichiers de notes...
 
-saxonb-xslt -ext:on ST-Infrastructure.xml extraireEdition.xsl > ST-InfrastructureEdition.xml
+bn=$( basename $1 .xml )
 
-saxonb-xslt -ext:on ST-InfrastructureEdition.xml extraireTexte.xsl > ST-Infrastructure.txt
+saxonb-xslt -ext:on $bn.xml extraireEdition.xsl > ${bn}Edition.xml
 
-java -mx300m -classpath stanford-postagger-3.9.2.jar edu.stanford.nlp.tagger.maxent.MaxentTagger -model english-left3words-distsim.tagger -textFile ST-Infrastructure.txt > ST-Infrastructure.pos
+saxonb-xslt -ext:on ${bn}Edition.xml extraireTexte.xsl > ${bn}.txt
 
-java StanfordToTab ST-Infrastructure.pos > ST-Infrastructure.tab
+java -mx300m -classpath stanford-postagger-3.9.2.jar edu.stanford.nlp.tagger.maxent.MaxentTagger -model english-left3words-distsim.tagger -textFile ${bn}.txt > ${bn}.pos
 
-java -jar alignXMLAndTab.jar ST-InfrastructureEdition.xml ST-Infrastructure.tab > ST-Infrastructure.tab.align
+java StanfordToTab ${bn}.pos > ${bn}.tab
 
-java -jar faireComp.jar ST-Infrastructure.tab.align > ST-Infrastructure.comp
+java -jar alignXMLAndTab.jar ${bn}Edition.xml ${bn}.tab > ${bn}.tab.align
 
-java -jar mix2.jar ST-InfrastructureEdition.xml ST-Infrastructure.comp > ST-InfrastructureEdition.ann.xml
+java -jar faireComp.jar ${bn}.tab.align > ${bn}.comp
 
-saxonb-xslt -ext:on ST-InfrastructureEdition.ann.xml reIntegrerNotes.xsl >  ST-Infrastructure.ann.xml
+java -jar mix2.jar ${bn}Edition.xml ${bn}.comp > ${bn}Edition.ann.xml
+
+saxonb-xslt -ext:on ${bn}Edition.ann.xml reIntegrerNotes.xsl >  ${bn}.ann.xml

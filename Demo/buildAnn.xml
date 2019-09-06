@@ -3,9 +3,8 @@
   <property name="TaggerPath" value="."/>
   <property name="XslPath" value="."/>
   <property name="wdPath" value="demosWorkspace"/>
-  <!-- <property name="saxonPath" value="/usr/share/java/saxonb.jar"/> -->
+
   <!-- or : ${oxygenlib}/saxon9ee.jar -->
-  <property name="saxonPath" value="${oxygenlib}/saxon9ee.jar"/>
   <property name="resultsPath" value="."/>
   <property name="JAVAP" location="JAVA"/>
   <property name="currDir" value="."/>
@@ -29,24 +28,27 @@
  
     
     <!--<echo message="file name : ${fileName}"/>
-    <echo message="javap : ${JAVAP}"/>
-    <echo message="saxonPath : ${saxonPath}"/>-->
+	<echo message="javap : ${JAVAP}"/>-->
+    
 
 
-    <echo message="Let's go ! !"/>
+
+    <echo message="Let's go !"/>
     <basename property="bnFile" file="${fileName}" suffix=".xml"/> 
     <mkdir dir="${wdPath}"/>
     
-     <xslt in="${fileName}" out="${wdPath}/${bnFile}Edition.xml" style="${XslPath}/extraireEdition.xsl" classpath="${saxonPath}">
+     <xslt force="yes" in="${fileName}" out="${wdPath}/${bnFile}Edition.xml" style="${XslPath}/extraireEdition.xsl" classpath="./saxonb.jar">
        <factory name="net.sf.saxon.TransformerFactoryImpl">
 	  <attribute name="http://saxon.sf.net/feature/allow-external-functions" value="true"/>
        </factory>
+       <!-- <classpath location="${saxonPath}"/>-->
        <param name="annotation" expression="${bnFile}.annotations"/>
        <param name="fichierNotes" expression="${bnFile}_notes.xml"/>
+       
      </xslt>
 
-     <xslt in="${wdPath}/${bnFile}Edition.xml" out="${wdPath}/${bnFile}.txt" style="${XslPath}/extraireTexte.xsl" classpath="${saxonPath}">
-       <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+     <xslt in="${wdPath}/${bnFile}Edition.xml" out="${wdPath}/${bnFile}.txt" style="${XslPath}/extraireTexte.xsl" classpath="./saxonb.jar">
+       <factory name="net.sf.saxon.TransformerFactoryImpl"/> 
      </xslt>
 
 
@@ -98,14 +100,14 @@
      </java>
 
      <!-- on réintègre les notes.... -->
-      <xslt in="${wdPath}/${bnFile}Edition.ann.xml" out="${wdPath}/${bnFile}.annote.temp.xml" style="${XslPath}/reIntegrerNotes.xsl" classpath="${saxonPath}">
+      <xslt in="${wdPath}/${bnFile}Edition.ann.xml" out="${wdPath}/${bnFile}.annote.temp.xml" style="${XslPath}/reIntegrerNotes.xsl" classpath="saxonb.jar">
 	<factory name="net.sf.saxon.TransformerFactoryImpl"/>
 	<param name="annotation" expression="${wdPath}/${bnFile}.annotations"/>
 	<param name="annotationAnnotees" expression="${wdPath}/${bnFile}_notes.xml"/>
      </xslt>
     
      <!-- on vire les atilf:id -->
-     <xslt in="${wdPath}/${bnFile}.annote.temp.xml" out="${wdPath}/${bnFile}.posc.xml" style="${XslPath}/idnns.xsl" classpath="${saxonPath}">
+     <xslt in="${wdPath}/${bnFile}.annote.temp.xml" out="${wdPath}/${bnFile}.posc.xml" style="${XslPath}/idnns.xsl" classpath="saxonb.jar">
        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
      </xslt>
      

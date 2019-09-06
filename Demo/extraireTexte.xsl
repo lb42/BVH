@@ -19,12 +19,22 @@
     </xsl:variable>
     <xsl:apply-templates select="$pass1" mode="pass2"/>
   </xsl:template>
-
+  
+  <xsl:template match="tei:p|tei:head|tei:incident|tei:cell|tei:row" mode="pass1">
+    <xsl:copy>
+      <xsl:apply-templates mode="pass1"/>
+      <xsl:text>&#x0a;</xsl:text>
+    </xsl:copy>
+  </xsl:template>
+    
   <xsl:template match="*" mode="pass1">
     <xsl:choose>
-      <xsl:when test="contains($lreturnApres, local-name(.))">
+
+      <xsl:when test="contains($lreturnApres, local-name(.)) and
+		      contains(local-name(.), $lreturnApres)">
 	<xsl:copy>
 	  <xsl:apply-templates mode="pass1"/>
+	  <xsl:text>&#x0a;</xsl:text>
 	</xsl:copy>
       </xsl:when>
       <xsl:otherwise>

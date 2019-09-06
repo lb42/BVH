@@ -41,11 +41,11 @@
   </xsl:template>-->
     
   <xsl:template match="tei:p | tei:lg | tei:head" mode="passIds">
-    <xsl:text>&#x0a;</xsl:text>
+    <!-- <xsl:text>&#x0a;</xsl:text> -->
     <xsl:copy>
       <xsl:apply-templates select="@* | node()" mode="passIds"/>
     </xsl:copy>
-    <xsl:text>&#x0a;</xsl:text>
+    <!-- <xsl:text>&#x0a;</xsl:text> -->
     </xsl:template>
 
     
@@ -95,7 +95,7 @@
   
   <!-- Il faudra évidemment complèter ce fichier ! -->
   
-  <xsl:template match="tei:teiHeader | tei:orig[parent::tei:choice] | tei:sic[parent::tei:choice] | tei:note | tei:speaker | tei:facsimile | tei:graphic | tei:specGrp | tei:schemaSpec | tei:moduleSpec | xi:include | ex:egXML" mode="passIds">
+  <xsl:template match="tei:teiHeader | tei:orig[parent::tei:choice] | tei:sic[parent::tei:choice] | tei:note | tei:speaker | tei:facsimile | tei:graphic | tei:specGrp | tei:schemaSpec | tei:moduleSpec | tei:tag | tei:code | xi:include | ex:egXML" mode="passIds">
     <xsl:copy>
       <xsl:copy-of select="@*"/>
       <xsl:attribute name="id" namespace="http://www.atilf.fr">
@@ -105,7 +105,7 @@
   </xsl:template>
 
   
-  <xsl:template match="tei:teiHeader | tei:orig[parent::tei:choice] | tei:sic[parent::tei:choice] | tei:note | tei:speaker | tei:facsimile | tei:graphic |  tei:specGrp | tei:schemaSpec | tei:moduleSpec | xi:include | ex:egXML" mode="passNotes">
+  <xsl:template match="tei:teiHeader | tei:orig[parent::tei:choice] | tei:sic[parent::tei:choice] | tei:note | tei:speaker | tei:facsimile | tei:graphic |  tei:specGrp | tei:schemaSpec | tei:moduleSpec | tei:tag | tei:code | xi:include | ex:egXML" mode="passNotes">
     <xsl:copy>
       <xsl:copy-of select="@*"/>
       <xsl:attribute name="id" namespace="http://www.atilf.fr">
