@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><div xmlns="http://www.tei-c.org/ns/1.0"><p xmlns:atilf="http://www.atilf.fr" atilf:id="d1e825">The colon is also by default a
+              valid name character; however, it has a specific purpose in XML (to indicate namespace
+              prefixes), and may not therefore be used in any other way within a name.</p>
+<p xmlns:atilf="http://www.atilf.fr" atilf:id="d1e2132">In former
+          editions of these Guidelines, such elements were known metaphorically as
+            <soCalled>crystals</soCalled>.</p>
+<p xmlns:atilf="http://www.atilf.fr" atilf:id="d1e2195">Note that in this context,
+                  <term>phrase</term> means any string of characters, and can apply to individual
+                words, parts of words, and groups of words indifferently; it does not refer only to
+                linguistically-motivated phrasal units. This may cause confusion for readers
+                accustomed to applying the word in a more restrictive sense.</p>
+<p xmlns:atilf="http://www.atilf.fr" atilf:id="d1e2273">
+	  <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.nameLike.agent.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.segLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.hiLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.emphLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.highlighted.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.dateLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.dimLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.measureLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.egLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.graphicLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.offsetLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.pPart.msdesc.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.pPart.editorial.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.pPart.transcriptional.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.pPart.edit.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.linePart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.ptrLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.lPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.global.meta.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.milestoneLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.gLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.oddDecl.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.oddRef.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.phrase.xml.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.specDescLike.xml"/>
+        <!-- inter level -->
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.biblLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.headLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.labelLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.listLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.noteLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.lLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.pLike.xml"/>
+        <!-- used by model.divPart -->
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.stageLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.featureVal.complex.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.featureVal.single.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.entryPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.entryPart.top.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.eventLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.global.edit.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.global.spoken.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.divPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.persStateLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.personLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.personPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.placeNamePart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.placeStateLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.orgPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.publicationStmtPart.agency.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.publicationStmtPart.detail.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.availabilityPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.certLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.descLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.glossLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.quoteLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.qLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.rdgLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.respLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.divWrapper.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.divTopPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.divTop.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.frontPart.drama.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.pLike.front.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.divBottomPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.divBottom.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.titlepagePart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.msQuoteLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.msItemPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.choicePart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.recordingPart.xml"/>
+        <!-- in TS-->
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.imprintPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.catDescPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.settingPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.textDescPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.castItemPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.physDescPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.addressLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.nameLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.persNamePart.xml"/>
+        <!-- from ND -->
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.global.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.featureVal.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.biblPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.frontPart.xml"/>
+        <!-- These classes refer only to level 1 or to primitive lowlevel classes or to elements -->
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.addrPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.pPart.data.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.inter.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.common.xml"/>
+        <!-- needs model.inter -->
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.phrase.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.limitedPhrase.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.divLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.divGenLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.div1Like.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.div2Like.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.div3Like.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.div4Like.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.div5Like.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.div6Like.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.div7Like.xml"/>
+        <!-- remainder are left overs -->
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.applicationLike.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.teiHeaderPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.sourceDescPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.encodingDescPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.editorialDeclPart.xml"/>
+        <include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/model.profileDescPart.xml"/></p>
+<p xmlns:atilf="http://www.atilf.fr" atilf:id="d1e2936">Technically <ref target="https://tools.ietf.org/html/rfc3986#section-3.1">the
+      specification</ref> permits the 26 uppercase letters
+      <mentioned>A-Z</mentioned>; however, since <quote>the canonical
+      form is lowercase and documents that specify schemes must do so
+      with lowercase letters</quote>, the TEI <ident type="datatype">teidata.prefix</ident> datatype does not permit
+      uppercase letters.</p>
+</div>

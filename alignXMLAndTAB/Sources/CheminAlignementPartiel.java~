@@ -1,0 +1,11 @@
+
+class CheminAlignementPartiel{
+    int [] chemin;
+
+
+    CheminAlignementPartiel(int taille){
+	chemin = new int[taille];
+    };
+
+
+}

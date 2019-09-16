@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="http://asmode.atilf.fr/frantextAnnote.css"
+    ?><div xmlns="http://www.tei-c.org/ns/1.0" n="17" type="div1" xml:id="CE">
+<head><w pos="NN">Certainty</w><w pos=",">,</w> <w pos="NN">Precision</w><w pos=",">,</w> <w pos="CC">and</w> <w pos="NN">Responsibility</w></head>
+
+
+<p><w pos="NNS">Encoders</w> <w pos="IN">of</w> <w pos="NN">text</w> <w pos="RB">often</w> <w pos="VBP">find</w> <w pos="PRP">it</w> <w pos="JJ">useful</w> <w pos="TO">to</w> <w pos="VB">indicate</w> <w pos="IN">that</w> <w pos="DT">some</w> <w pos="NNS">aspects</w>
+<w pos="IN">of</w> <w pos="DT">the</w> <w pos="VBN">encoded</w> <w pos="NN">text</w> <w pos="VBP">are</w> <w pos="JJ">problematic</w> <w pos="CC">or</w> <w pos="JJ">uncertain</w><w pos=",">,</w> <w pos="CC">and</w> <w pos="TO">to</w> <w pos="VB">indicate</w> <w pos="WP">who</w> <w pos="VBZ">is</w>
+<w pos="JJ">responsible</w> <w pos="IN">for</w> <w pos="JJ">various</w> <w pos="NNS">aspects</w> <w pos="IN">of</w> <w pos="DT">the</w> <w pos="NN">markup</w> <w pos="IN">of</w> <w pos="DT">the</w> <w pos="JJ">electronic</w> <w pos="NN">text</w><w pos=".">.</w>
+<w pos="DT">These</w> <w pos="NNS">Guidelines</w> <w pos="VBP">provide</w> <w pos="JJ">several</w> <w pos="NNS">methods</w> <w pos="IN">of</w> <w pos="VBG">recording</w> <w pos="NN">uncertainty</w> <w pos="IN">about</w> <w pos="DT">the</w>
+<w pos="NN">text</w> <w pos="CC">or</w> <w pos="PRP$">its</w> <w pos="NN">markup</w><w pos=":">:</w>
+<list rend="bulleted">
+<item><w pos="DT">the</w> <gi><w pos="NN">note</w></gi> <w pos="NN">element</w> <w pos="VBN">defined</w> <w pos="IN">in</w> <w pos="NN">section</w> <ptr target="#CONO"/> <w pos="MD">may</w>
+<w pos="VB">be</w> <w pos="VBN">used</w> <w pos="IN">with</w> <w pos="DT">a</w> <w pos="NN">value</w> <w pos="IN">of</w> <val><w pos="NN">certainty</w></val> <w pos="IN">for</w> <w pos="PRP$">its</w> <att><w pos="NN">type</w></att>
+<w pos="NN">attribute</w><w pos=".">.</w></item>
+<item><w pos="DT">the</w> <gi><w pos="NN">certainty</w></gi> <w pos="NN">element</w> <w pos="VBN">defined</w> <w pos="IN">in</w> <w pos="DT">this</w> <w pos="NN">chapter</w> <w pos="MD">may</w> <w pos="VB">be</w> <w pos="VBN">used</w>
+<w pos="TO">to</w> <w pos="VB">record</w> <w pos="DT">the</w> <w pos="NN">nature</w> <w pos="CC">and</w> <w pos="NN">degree</w> <w pos="IN">of</w> <w pos="DT">the</w> <w pos="NN">uncertainty</w> <w pos="IN">in</w> <w pos="DT">a</w> <w pos="RBR">more</w> <w pos="JJ">structured</w>
+<w pos="NN">way</w><w pos=".">.</w></item>
+<item><w pos="DT">the</w> <gi><w pos="NN">precision</w></gi> <w pos="NN">element</w> <w pos="VBN">defined</w> <w pos="IN">in</w> <w pos="DT">this</w> <w pos="NN">chapter</w> <w pos="MD">may</w> <w pos="VB">be</w>
+<w pos="VBN">used</w> <w pos="TO">to</w> <w pos="VB">record</w> <w pos="DT">the</w> <w pos="NN">accuracy</w> <w pos="IN">with</w> <w pos="WDT">which</w> <w pos="DT">some</w> <w pos="JJ">numerical</w> <w pos="NN">value</w><w pb="t" pos="-LRB-"> (</w><w pos="JJ">such</w> <w pos="IN">as</w> <w pos="DT">a</w>
+<w pos="NN">date</w> <w pos="CC">or</w> <w pos="NN">quantity</w><w pb="t" pos="-RRB-">) </w><w pos="VBZ">is</w> <w pos="VBN">provided</w> <w pos="IN">by</w> <w pos="DT">some</w> <w pos="JJ">other</w> <w pos="NN">element</w> <w pos="CC">or</w> <w pos="NN">attribute</w><w pos=".">.</w></item>
+<item><w pos="DT">the</w> <gi><w pos="NN">alt</w></gi> <w pos="NN">element</w> <w pos="VBN">defined</w> <w pos="IN">in</w> <w pos="DT">the</w> <w pos="NN">module</w> <w pos="IN">for</w>
+<w pos="VBG">linking</w> <w pos="CC">and</w> <w pos="NN">segmentation</w> <w pos="MD">may</w> <w pos="VB">be</w> <w pos="VBN">used</w> <w pos="TO">to</w> <w pos="VB">provide</w> <w pos="JJ">alternative</w> <w pos="NNS">encodings</w>
+<w pos="IN">for</w> <w pos="NNS">parts</w> <w pos="IN">of</w> <w pos="DT">a</w> <w pos="NN">text</w><w pos=",">,</w> <w pos="IN">as</w> <w pos="VBN">described</w> <w pos="IN">in</w> <w pos="NN">section</w> <w pos="."><ptr target="#SAAT"/>.</w></item></list>
+<w pos="EX">There</w> <w pos="VBP">are</w> <w pos="CD">three</w> <w pos="NNS">methods</w> <w pos="IN">of</w> <w pos="VBG">indicating</w> <w pos="NN">responsibility</w> <w pos="IN">for</w> <w pos="JJ">different</w>
+<w pos="NNS">aspects</w> <w pos="IN">of</w> <w pos="DT">the</w> <w pos="JJ">electronic</w> <w pos="NN">text</w><w pos=":">:</w>
+<list rend="bulleted">
+<item><w pos="DT">the</w> <w pos="NNP">TEI</w> <w pos="NN">header</w> <w pos="NNS">records</w> <w pos="WP">who</w> <w pos="VBZ">is</w> <w pos="JJ">responsible</w> <w pos="IN">for</w> <w pos="DT">an</w> <w pos="JJ">electronic</w> <w pos="NN">text</w>
+<w pos="IN">by</w> <w pos="NNS">means</w> <w pos="IN">of</w> <w pos="DT">the</w> <gi><w pos="NN">respStmt</w></gi> <w pos="NN">element</w> <w pos="CC">and</w> <w pos="JJ">other</w> <w pos="RBR">more</w> <w pos="JJ">specific</w> <w pos="NNS">elements</w><w pb="t" pos="-LRB-">
+(</w><gi><w pos="NN">author</w></gi><w pos=",">,</w> <gi><w pos="NN">sponsor</w></gi><w pos=",">,</w> <gi><w pos="NN">funder</w></gi><w pos=",">,</w> <gi><w pos="NN">principal</w></gi><w pos=",">,</w>
+<w pos="FW">etc.</w><w pb="t" pos="-RRB-">) </w><w pos="VBN">used</w> <w pos="IN">within</w> <w pos="DT">the</w> <gi><w pos="NN">titleStmt</w></gi><w pos=",">,</w> <gi><w pos="NN">editionStmt</w></gi><w pos=",">,</w> <w pos="CC">and</w>
+<gi><w pos="JJ">revisionDesc</w></gi> <w pos="NNS">elements</w><w pos=".">.</w></item>
+<item><w pos="DT">the</w> <gi><w pos="NN">note</w></gi> <w pos="NN">element</w> <w pos="MD">may</w> <w pos="VB">be</w> <w pos="VBN">used</w> <w pos="IN">with</w> <w pos="DT">a</w> <w pos="NN">value</w> <w pos="IN">of</w> <val><w pos="NN">resp</w></val>
+<w pos="CC">or</w> <val><w pos="NN">responsibility</w></val> <w pos="IN">in</w> <w pos="PRP$">its</w> <att><w pos="NN">type</w></att> <w pos="NN">attribute</w><w pos=".">.</w></item>
+<item><w pos="DT">the</w> <gi><w pos="NNS">respons</w></gi> <w pos="NN">element</w> <w pos="VBN">defined</w> <w pos="IN">in</w> <w pos="DT">this</w> <w pos="NN">chapter</w> <w pos="MD">may</w> <w pos="VB">be</w> <w pos="VBN">used</w>
+<w pos="TO">to</w> <w pos="VB">record</w> <w pos="JJ">fine-grained</w> <w pos="JJ">structured</w> <w pos="NN">information</w> <w pos="IN">about</w> <w pos="NN">responsibility</w> <w pos="IN">for</w>
+<w pos="JJ">individual</w> <w pos="NNS">tags</w> <w pos="IN">in</w> <w pos="DT">the</w> <w pos="NN">text</w><w pos=".">.</w></item></list>
+<w pos="DT">No</w> <w pos="JJ">special</w> <w pos="NNS">steps</w> <w pos="VBP">are</w> <w pos="VBN">needed</w> <w pos="TO">to</w> <w pos="VB">use</w> <w pos="DT">the</w> <gi><w pos="NN">note</w></gi> <w pos="CC">and</w> <gi><w pos="NN">respStmt</w></gi> <w pos="NNS">elements</w><w pos=",">,</w> <w pos="IN">since</w> <w pos="PRP">they</w> <w pos="VBP">are</w> <w pos="VBN">defined</w> <w pos="IN">in</w> <w pos="DT">the</w> <w pos="NN">core</w> <w pos="NN">module</w> <w pos="CC">and</w> <w pos="NN">header</w>
+<w pos="RB">respectively</w><w pos=".">.</w>  <w pos="DT">The</w> <gi><w pos="NN">alt</w></gi> <w pos="NN">element</w> <w pos="VBZ">is</w> <w pos="RB">only</w> <w pos="JJ">available</w> <w pos="WRB">when</w> <w pos="DT">the</w>
+<w pos="NN">module</w> <w pos="IN">for</w> <w pos="VBG">linking</w> <w pos="VBZ">has</w> <w pos="VBN">been</w> <w pos="VBN">selected</w><w pos=",">,</w> <w pos="IN">as</w> <w pos="VBN">described</w> <w pos="IN">in</w>
+<w pos="NN">chapter</w> <w pos="."><ptr target="#SA"/>.</w> <w pos="TO">To</w> <w pos="VB">use</w> <w pos="DT">the</w> <gi><w pos="NN">certainty</w></gi><w pos=",">,</w> <gi><w pos="NN">precision</w></gi> <w pos="CC">or</w>
+<gi><w pos="JJ">respons</w></gi> <w pos="NNS">elements</w><w pos=",">,</w> <w pos="DT">the</w> <w pos="NN">module</w> <w pos="IN">for</w> <w pos="NN">certainty</w> <w pos="CC">and</w>
+<w pos="NN">responsibility</w> <w pos="MD">must</w> <w pos="VB">be</w> <w pos="VBN">selected</w><w pos=".">.</w> 
+</p>
+
+
+
+<p><w pos="DT">These</w> <w pos="CD">three</w> <w pos="NNS">elements</w> <w pos="VBP">are</w> <w pos="DT">all</w> <w pos="NNS">members</w> <w pos="IN">of</w> <w pos="DT">an</w> <w pos="NN">attribute</w> <w pos="NN">class</w> <w pos="VBN">called</w>
+<ident type="class"><w pos="VBG">att.scoping</w></ident> <w pos="IN">from</w> <w pos="WDT">which</w> <w pos="PRP">they</w> <w pos="VBP">inherit</w> <w pos="DT">the</w>
+<w pos="VBG">following</w> <w pos="NNS">attributes</w><w pos=":">:</w>
+
+<specList>
+<specDesc atts="target match" key="att.scoping"/>
+</specList>
+</p>
+
+
+<p><w pos="DT">These</w> <w pos="NNS">attributes</w> <w pos="VBP">enable</w> <w pos="NNS">statements</w> <w pos="IN">about</w> <w pos="NN">certainty</w><w pos=",">,</w> <w pos="NN">precision</w><w pos=",">,</w> <w pos="CC">or</w>
+<w pos="NN">responsibility</w> <w pos="TO">to</w> <w pos="VB">be</w> <w pos="VBN">made</w> <w pos="IN">with</w> <w pos="NN">respect</w> <w pos="TO">to</w> <w pos="DT">the</w> <w pos="NN">whole</w> <w pos="IN">of</w> <w pos="DT">a</w> <w pos="NN">document</w><w pos=",">,</w> <w pos="CC">or</w>
+<w pos="DT">any</w> <w pos="NN">part</w> <w pos="CC">or</w> <w pos="NNS">parts</w> <w pos="IN">of</w> <w pos="PRP">it</w> <w pos="WDT">which</w> <w pos="MD">can</w> <w pos="VB">be</w> <w pos="VBN">identified</w> <w pos="VBG">using</w> <w pos="JJ">standard</w> <w pos="NN">XML</w>
+<w pos="NN">location</w> <w pos="NNS">methods</w><w pos=".">.</w> <w pos="JJ">Several</w> <w pos="NNS">examples</w> <w pos="VBP">are</w> <w pos="VBN">given</w> <w pos="IN">in</w> <w pos="DT">the</w> <w pos="NN">discussion</w> <w pos="IN">of</w> <w pos="DT">the</w>
+<gi><w pos="NN">certainty</w></gi> <w pos="NN">element</w> <w pos="IN">below</w><w pos=":">;</w> <w pos="DT">the</w> <w pos="JJ">same</w> <w pos="NNS">mechanisms</w> <w pos="VBP">are</w> <w pos="JJ">available</w>
+<w pos="IN">for</w> <w pos="DT">all</w> <w pos="CD">three</w> <w pos="NNS">elements</w> <w pos="VBN">discussed</w> <w pos="IN">in</w> <w pos="DT">this</w> <w pos="NN">chapter</w><w pos=".">.</w>
+</p>
+
+<div type="div2" xml:id="CECERT">
+<head><w pos="NNS">Levels</w> <w pos="IN">of</w> <w pos="NNP">Certainty</w></head>
+
+
+<p><w pos="JJ">Many</w> <w pos="NNS">types</w> <w pos="IN">of</w> <w pos="NN">uncertainty</w> <w pos="MD">may</w> <w pos="VB">be</w> <w pos="VBN">distinguished</w><w pos=".">.</w>  <w pos="DT">The</w>
+<gi><w pos="NN">certainty</w></gi> <w pos="NN">element</w> <w pos="VBZ">is</w> <w pos="VBN">designed</w> <w pos="TO">to</w> <w pos="VB">encode</w> <w pos="DT">the</w> <w pos="VBG">following</w> <w pos="NNS">sorts</w><w pos=":">:</w>
+<list rend="bulleted">
+<item><w pos="DT">a</w> <w pos="VBN">given</w> <w pos="NN">tag</w> <w pos="MD">may</w> <w pos="CC">or</w> <w pos="MD">may</w> <w pos="RB">not</w> <w pos="RB">correctly</w> <w pos="VB">apply</w><w pb="t" pos="-LRB-"> (</w><w pos="FW">e.g.</w> <w pos="DT">a</w> <w pos="VBN">given</w> <w pos="NN">word</w> <w pos="MD">may</w>
+<w pos="VB">be</w> <w pos="DT">a</w> <w pos="JJ">personal</w> <w pos="NN">name</w><w pos=",">,</w> <w pos="CC">or</w> <w pos="RB">perhaps</w> <w pos="RB">not</w><w next="#Repair_new0" pb="t" pos="-RRB-">)</w></item><w xml:id="Repair_new0">
+</w><item><w pos="DT">the</w> <w pos="JJ">precise</w> <w pos="NN">point</w> <w pos="IN">at</w> <w pos="WDT">which</w> <w pos="DT">an</w> <w pos="NN">element</w> <w pos="VBZ">begins</w> <w pos="CC">or</w> <w pos="VBZ">ends</w> <w pos="VBZ">is</w>
+<w pos="JJ">uncertain</w></item>
+<item><w pos="DT">the</w> <w pos="NN">value</w> <w pos="VBN">given</w> <w pos="IN">for</w> <w pos="DT">an</w> <w pos="NN">attribute</w> <w pos="VBZ">is</w> <w pos="JJ">uncertain</w></item>
+<item><w pos="DT">the</w> <w pos="NN">content</w> <w pos="VBN">given</w> <w pos="IN">for</w> <w pos="DT">an</w> <w pos="NN">element</w> <w pos="VBZ">is</w> <w pos="JJ">unreliable</w> <w pos="IN">for</w> <w pos="DT">any</w> <w pos="NN">reason</w><w pos=".">.</w></item></list></p>
+
+
+<p><w pos="DT">The</w> <w pos="JJ">following</w> <w pos="NNS">types</w> <w pos="IN">of</w> <w pos="NN">uncertainty</w> <w pos="VBP">are</w> <emph><w pos="RB">not</w></emph> <w pos="VBN">indicated</w>
+<w pos="IN">with</w> <w pos="DT">the</w> <gi><w pos="NN">certainty</w></gi> <w pos="NN">element</w><w pos=":">:</w>
+<list rend="bulleted">
+<item><w pos="DT">the</w> <w pos="JJ">numerical</w> <w pos="NN">precision</w> <w pos="VBN">associated</w> <w pos="IN">with</w> <w pos="DT">a</w> <w pos="NN">number</w> <w pos="CC">or</w> <w pos="NN">date</w><w pb="t" pos="-LRB-"> (</w><w pos="IN">for</w>
+<w pos="DT">this</w> <w pos="NN">use</w> <w pos="DT">the</w> <gi><w pos="NN">precision</w></gi> <w pos="NN">element</w> <w pos="VBN">discussed</w> <w pos="IN">in</w><w next="#Repair_new1" pb="t" pos="-RRB-"> <ptr target="#CEPREC"/>)
+</w></item><w xml:id="Repair_new1">
+</w><item><w pos="DT">the</w> <w pos="NN">content</w> <w pos="IN">of</w> <w pos="DT">the</w> <w pos="NN">document</w> <w pos="VBG">being</w> <w pos="VBN">transcribed</w> <w pos="VBZ">is</w> <w pos="JJ">identifiable</w><w pos=",">,</w>
+<w pos="CC">but</w> <w pos="MD">may</w> <w pos="VB">be</w> <w pos="VBN">read</w> <w pos="CC">or</w> <w pos="VBN">understood</w> <w pos="IN">in</w> <w pos="JJ">different</w> <w pos="NNS">ways</w><w pb="t" pos="-LRB-">
+(</w><w pos="IN">for</w> <w pos="DT">this</w> <w pos="NN">use</w> <w pos="DT">the</w> <w pos="JJ">transcriptional</w> <w pos="NNS">elements</w> <w pos="JJ">such</w> <w pos="IN">as</w> <gi><w pos="JJ">unclear</w></gi><w pos=",">,</w>
+<w pos="VBN">discussed</w> <w pos="IN">in</w> <w pos="NN">chapter</w><w next="#Repair_new2" pb="t" pos="-RRB-"> <ptr target="#PH"/>)</w></item><w xml:id="Repair_new2">
+<item next="#Repair_new4">a<w next="#Repair_new3" pos="DT"/></item></w><item xml:id="Repair_new4"><w xml:id="Repair_new3"> </w><w pos="NN">transcriber</w><w pos=",">,</w> <w pos="NN">editor</w><w pos=",">,</w> <w pos="CC">or</w> <w pos="NN">author</w> <w pos="NNS">wishes</w> <w pos="TO">to</w> <w pos="VB">indicate</w> <w pos="DT">a</w> <w pos="NN">level</w> <w pos="IN">of</w>
+<w pos="NN">confidence</w> <w pos="IN">in</w> <w pos="DT">a</w> <w pos="JJ">factual</w> <w pos="NN">assertion</w> <w pos="VBN">made</w> <w pos="IN">in</w> <w pos="DT">the</w> <w pos="NN">text</w><w pb="t" pos="-LRB-"> (</w><w pos="IN">for</w> <w pos="DT">this</w> <w pos="NN">use</w> <w pos="DT">the</w>
+<w pos="JJ">interpretative</w> <w pos="NNS">mechanisms</w> <w pos="VBN">discussed</w> <w pos="IN">in</w> <ptr target="#AI"/> <w pos="CC">and</w> <ptr target="#FS"/>)</item><w next="#Repair_new5" pos="-RRB-">
+<!--<item>an author is not sure if the sentence chosen to start a
+paragraph is really the one to be  retained in the final version. </item>--></w></list><w next="#Repair_new6" xml:id="Repair_new5">
+</w></p><w xml:id="Repair_new6">
+
+<div next="#Repair_new9" type="div3" xml:id="CECENO">
+<head next="#Repair_new8"/></div><w next="#Repair_new7" pos="VBG"/></w><div xml:id="Repair_new9"><head xml:id="Repair_new8"><w xml:id="Repair_new7">Using</w> <w pos="NNS">Notes</w> <w pos="TO">to</w> <w pos="NNP">Record</w> <w pos="NN">Uncertainty</w></head>
+
+
+<p><w pos="DT">The</w> <w pos="JJS">simplest</w> <w pos="NN">way</w> <w pos="IN">of</w> <w pos="VBG">recording</w> <w pos="NN">uncertainty</w> <w pos="IN">about</w> <w pos="NN">markup</w> <w pos="VBZ">is</w> <w pos="TO">to</w> <w pos="VB">attach</w> <w pos="DT">a</w>
+<w pos="NN">note</w> <w pos="TO">to</w> <w pos="DT">the</w> <w pos="NN">element</w> <w pos="CC">or</w> <w pos="NN">location</w> <w pos="IN">about</w> <w pos="WDT">which</w> <w pos="NN">one</w> <w pos="VBZ">is</w> <w pos="JJ">unsure</w><w pos=".">.</w>  <w pos="IN">In</w> <w pos="DT">the</w>
+<w pos="NN">following</w><w pb="t" pos="-LRB-"> (</w><w pos="VBN">invented</w><w pb="t" pos="-RRB-">) </w><w pos="NN">paragraph</w><w pos=",">,</w> <w pos="IN">for</w> <w pos="NN">example</w><w pos=",">,</w> <w pos="DT">an</w> <w pos="NN">encoder</w> <w pos="MD">might</w> <w pos="VB">be</w>
+<w pos="JJ">uncertain</w> <w pos="IN">whether</w> <w pos="TO">to</w> <w pos="VB">mark</w> <q><w pos="NNP">Essex</w></q> <w pos="IN">as</w> <w pos="DT">a</w> <w pos="NN">place</w> <w pos="NN">name</w> <w pos="CC">or</w> <w pos="DT">a</w> <w pos="JJ">personal</w>
+<w pos="NN">name</w><w pos=",">,</w> <w pos="IN">since</w> <w pos="DT">both</w> <w pos="MD">might</w> <w pos="VB">be</w> <w pos="JJ">plausible</w> <w pos="IN">in</w> <w pos="DT">the</w> <w pos="VBN">given</w> <w pos="NN">context</w><w pos=":">:</w>
+<q rend="display"><w pos="NNP">Elizabeth</w> <w pos="VBD">went</w> <w pos="TO">to</w> <w pos="NNP">Essex</w><w pos=".">.</w> <w pos="PRP">She</w> <w pos="VBD">had</w> <w pos="RB">always</w> <w pos="VBN">liked</w> <w pos="NNP">Essex</w><w pos=".">.</w></q>
+<w pos="VBG">Using</w> <gi><w pos="NN">note</w></gi><w pos=",">,</w> <w pos="DT">the</w> <w pos="NN">uncertainty</w> <w pos="RB">here</w> <w pos="MD">may</w> <w pos="VB">be</w> <w pos="VBN">recorded</w> <w pos="RB">quite</w> <w pos="RB">simply</w><w pos=":">:</w>
+<egXML xmlns="http://www.tei-c.org/ns/Examples"><persName>Elizabeth</persName> went to <placeName>Essex</placeName>. She had always liked <placeName>Essex</placeName>.<note type="certainty" resp="#MSM">It is not
+clear here whether <mentioned>Essex</mentioned>
+refers to the place or to the nobleman. -MSM</note></egXML></p>
+
+
+<p><w pos="VBG">Using</w> <w pos="DT">the</w> <w pos="JJ">normal</w> <w pos="NNS">mechanisms</w><w pos=",">,</w> <w pos="DT">the</w> <w pos="NN">note</w> <w pos="MD">may</w> <w pos="VB">be</w> <w pos="VBN">associated</w>
+<w pos="RB">unambiguously</w> <w pos="IN">with</w> <w pos="JJ">specific</w> <w pos="NNS">elements</w> <w pos="IN">of</w> <w pos="DT">the</w> <w pos="NN">text</w><w pos=",">,</w> <w pos="RB">thus</w><w pos=":">:</w>
+<egXML xmlns="http://www.tei-c.org/ns/Examples"><persName>Elizabeth</persName> went to <placeName xml:id="CE-p1a">Essex</placeName>.
+She had always liked <placeName xml:id="CE-p1b">Essex</placeName>.<note type="certainty" resp="#MSM" target="#CE-p1a #CE-p1b">It
+is not clear here whether <mentioned>Essex</mentioned>
+refers to the place or to the nobleman. If the latter,
+it should be tagged as a personal name. -<name xml:id="MSM">Michael</name></note></egXML></p>
+
+
+<p><w pos="DT">The</w> <w pos="NN">advantage</w> <w pos="IN">of</w> <w pos="DT">this</w> <w pos="NN">technique</w> <w pos="VBZ">is</w> <w pos="PRP$">its</w> <w pos="JJ">relative</w> <w pos="NN">simplicity</w><w pos=".">.</w> <w pos="PRP$">Its</w>
+<w pos="NN">disadvantage</w> <w pos="VBZ">is</w> <w pos="IN">that</w> <w pos="DT">the</w> <w pos="NN">nature</w> <w pos="CC">and</w> <w pos="NN">degree</w> <w pos="IN">of</w> <w pos="NN">uncertainty</w> <w pos="VBP">are</w> <w pos="RB">not</w>
+<w pos="VBN">conveyed</w> <w pos="IN">in</w> <w pos="DT">any</w> <w pos="JJ">systematic</w> <w pos="NN">way</w> <w pos="CC">and</w> <w pos="RB">thus</w> <w pos="VBP">are</w> <w pos="RB">not</w> <w pos="JJ">susceptible</w> <w pos="TO">to</w> <w pos="DT">any</w> <w pos="NN">sort</w>
+<w pos="IN">of</w> <w pos="JJ">automatic</w> <w pos="NN">processing</w><w pos=".">.</w></p>
+</div>
+<div type="div3" xml:id="CECECE">
+<head><w pos="VBN">Structured</w> <w pos="NNPS">Indications</w> <w pos="IN">of</w> <w pos="NN">Uncertainty</w></head>
+
+
+<p><w pos="TO">To</w> <w pos="VB">record</w> <w pos="NN">uncertainty</w> <w pos="IN">in</w> <w pos="DT">a</w> <w pos="RBR">more</w> <w pos="JJ">structured</w> <w pos="NN">way</w><w pos=",">,</w> <w pos="JJ">susceptible</w> <w pos="IN">of</w> <w pos="IN">at</w>
+<w pos="JJS">least</w> <w pos="JJ">simple</w> <w pos="JJ">automatic</w> <w pos="NN">processing</w><w pos=",">,</w> <w pos="DT">the</w> <gi><w pos="NN">certainty</w></gi> <w pos="NN">element</w> <w pos="MD">may</w> <w pos="VB">be</w>
+<w pos="VBN">used</w><w pos=":">:</w>
+<specList><specDesc atts="locus degree " key="certainty"/></specList></p>
+
+
+<p><w pos="VBG">Returning</w> <w pos="TO">to</w> <w pos="DT">the</w> <w pos="NN">example</w><w pos=",">,</w> <w pos="DT">the</w> <gi><w pos="NN">certainty</w></gi> <w pos="NN">element</w> <w pos="MD">may</w> <w pos="VB">be</w> <w pos="VBN">used</w> <w pos="TO">to</w> <w pos="VB">record</w> <w pos="NNS">doubts</w> <w pos="IN">about</w>
+<w pos="DT">the</w> <w pos="JJ">proper</w> <w pos="NN">encoding</w> <w pos="IN">of</w> <q><w pos="NNP">Essex</w></q> <w pos="IN">in</w> <w pos="JJ">several</w> <w pos="NNS">ways</w> <w pos="IN">of</w> <w pos="VBG">varying</w>
+<w pos="NN">precision</w><w pos=".">.</w>  <w pos="TO">To</w> <w pos="VB">record</w> <w pos="RB">merely</w> <w pos="IN">that</w> <w pos="PRP">we</w> <w pos="VBP">are</w> <w pos="RB">not</w> <w pos="JJ">certain</w> <w pos="IN">that</w> <q><w pos="NNP">Essex</w></q>
+<w pos="VBZ">is</w> <w pos="IN">in</w> <w pos="NN">fact</w> <w pos="DT">a</w> <w pos="NN">place</w> <w pos="NN">name</w><w pos=",">,</w> <w pos="IN">as</w> <w pos="PRP">it</w> <w pos="VBZ">is</w> <w pos="VBN">tagged</w><w pos=",">,</w> <w pos="PRP">we</w> <w pos="VBP">use</w> <w pos="DT">the</w> <att><w pos="NN">target</w></att>
+<w pos="NN">attribute</w> <w pos="TO">to</w> <w pos="VB">identify</w> <w pos="DT">the</w> <w pos="NN">element</w> <w pos="IN">in</w> <w pos="NN">question</w><w pos=",">,</w> <w pos="CC">and</w> <w pos="DT">the</w> <att><w pos="NN">locus</w></att>
+<w pos="NN">attribute</w> <w pos="TO">to</w> <w pos="VB">indicate</w> <w pos="WDT">which</w> <w pos="NN">aspect</w> <w pos="IN">of</w> <w pos="DT">the</w> <w pos="NN">markup</w> <w pos="PRP">we</w> <w pos="VBP">are</w> <w pos="JJ">uncertain</w> <w pos="IN">about</w><w pb="t" pos="-LRB-">
+(</w><w pos="IN">in</w> <w pos="DT">this</w> <w pos="NN">case</w><w pos=",">,</w> <w pos="IN">whether</w> <w pos="PRP">we</w> <w pos="VBP">have</w> <w pos="VBN">used</w> <w pos="DT">the</w> <w pos="JJ">correct</w> <q><w pos="NN">name</w></q> <w pos="IN">for</w> <w pos="DT">the</w>
+<w pos="NN">element</w> <w pos="VBN">used</w> <w pos="TO">to</w> <w pos="VB">mark</w> <w pos="PRP">it</w><w pb="t" pos="-RRB-">):
+</w><w pos=":"><egXML xmlns="http://www.tei-c.org/ns/Examples">Elizabeth went to 
+<placeName xml:id="CE-pl1">Essex</placeName>.
+<!-- ... elsewhere in the document ... -->
+<certainty target="#CE-pl1" locus="name"><desc>possibly not a placename</desc></certainty></egXML>
+</w><w pos="EX">There</w> <w pos="VBP">are</w> <w pos="DT">no</w> <w pos="JJ">particular</w> <w pos="NNS">constraints</w> <w pos="IN">as</w> <w pos="TO">to</w> <w pos="WRB">where</w> <w pos="DT">the</w> 
+<gi><w pos="NN">certainty</w></gi> <w pos="NN">element</w> <w pos="VBZ">is</w> <w pos="VBN">placed</w> <w pos="IN">in</w> <w pos="DT">a</w> <w pos="NN">document</w><w pos=":">;</w> <w pos="PRP">it</w> <w pos="MD">may</w> <w pos="VB">be</w> <w pos="VBN">placed</w> <w pos="JJ">adjacent</w> <w pos="TO">to</w> <w pos="DT">the</w> <w pos="NN">target</w>
+<w pos="NN">element</w><w pos=",">,</w> <w pos="CC">or</w> <w pos="RB">elsewhere</w> <w pos="IN">in</w> <w pos="DT">the</w> <w pos="JJ">same</w> <w pos="CC">or</w> <w pos="DT">another</w> <w pos="NN">document</w><w pos=".">.</w>  <w pos="PRP$">Its</w> <w pos="NN">position</w>
+<w pos="VBZ">is</w> <w pos="RB">however</w> <w pos="JJ">significant</w> <w pos="WRB">when</w> <w pos="DT">the</w> <att><w pos="NN">target</w></att> <w pos="NN">attribute</w> <w pos="VBZ">is</w> <w pos="RB">not</w> <w pos="VBN">specified</w>
+<w pos="IN">as</w> <w pos="JJ">further</w> <w pos="VBN">discussed</w> <w pos="IN">below</w><w pos=".">.</w>
+</p>
+
+
+<p><w pos="PRP">We</w> <w pos="MD">may</w> <w pos="VB">wish</w> <w pos="TO">to</w> <w pos="VB">record</w> <w pos="DT">the</w> <w pos="NN">probability</w><w pos=",">,</w> <w pos="VBN">assessed</w> <w pos="IN">in</w> <w pos="DT">some</w> <w pos="JJ">subjective</w>
+<w pos="NN">way</w><w pos=",">,</w> <w pos="WDT">that</w> <q><w pos="NNP">Essex</w></q> <w pos="RB">really</w> <w pos="VBZ">is</w>  <w pos="DT">a</w> <w pos="NN">place</w> <w pos="NN">name</w> <w pos="RB">here</w><w pos=".">.</w> <w pos="DT">The</w>
+<att><w pos="NN">degree</w></att> <w pos="NN">attribute</w> <w pos="VBZ">is</w> <w pos="VBN">used</w> <w pos="TO">to</w> <w pos="VB">indicate</w> <w pos="DT">the</w> <w pos="NN">degree</w> <w pos="IN">of</w>
+<w pos="NN">confidence</w> <w pos="VBN">associated</w> <w pos="IN">with</w> <w pos="DT">the</w> <gi><w pos="NN">certainty</w></gi> <w pos="NN">element</w><w pos=",">,</w> <w pos="VBN">expressed</w> <w pos="IN">as</w> <w pos="DT">a</w>
+<w pos="NN">number</w> <w pos="IN">between</w> <w pos="CD">0</w> <w pos="CC">and</w> <w pos="CD">1</w><w pos=":">:</w>
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<!-- ... -->
+<certainty target="#CE-pl1" locus="name" degree="0.6"/></egXML>
+<w pos="DT">This</w> <w pos="VBZ">expresses</w> <w pos="DT">the</w> <w pos="NN">point</w> <w pos="IN">of</w> <w pos="NN">view</w> <w pos="IN">that</w> <w pos="EX">there</w> <w pos="VBZ">is</w> <w pos="DT">a</w> <w pos="CD">60</w> <w pos="NN">percent</w> <w pos="NN">chance</w> <w pos="IN">of</w> <q><w pos="NNP">Essex</w></q>
+<w pos="VBG">being</w> <w pos="DT">a</w> <w pos="NN">place</w> <w pos="NN">name</w> <w pos="RB">here</w><w pos=",">,</w> <w pos="CC">and</w> <w pos="RB">hence</w> <w pos="DT">a</w> <w pos="CD">40</w> <w pos="NN">percent</w> <w pos="NN">chance</w> <w pos="IN">of</w> <w pos="PRP$">its</w> <w pos="VBG">being</w> <w pos="DT">a</w>
+<w pos="JJ">personal</w> <w pos="NN">name</w><w pos=".">.</w> <w pos="PRP">We</w> <w pos="MD">can</w> <w pos="VB">use</w> <w pos="CD">two</w> <gi><w pos="NN">certainty</w></gi> <w pos="NNS">elements</w> <w pos="TO">to</w> <w pos="VB">indicate</w> <w pos="DT">the</w>
+<w pos="CD">two</w> <w pos="NNS">probabilities</w> <w pos="RB">independently</w><w pos=".">.</w> <w pos="DT">Both</w> <w pos="NNS">elements</w> <w pos="VBP">indicate</w> <w pos="DT">the</w> <w pos="JJ">same</w> <w pos="NN">location</w> <w pos="IN">in</w> <w pos="DT">the</w>
+<w pos="NN">text</w><w pos=",">,</w> <w pos="CC">but</w> <w pos="DT">the</w> <w pos="JJ">second</w> <w pos="VBZ">provides</w> <w pos="DT">an</w> <w pos="JJ">alternative</w> <w pos="NN">choice</w> <w pos="IN">of</w> <w pos="NN">name</w>
+<w pos="NN">identifier</w><w pb="t" pos="-LRB-"> (</w><w pos="IN">in</w> <w pos="DT">this</w> <w pos="NN">case</w> <gi><w pos="NN">persName</w></gi><w pb="t" pos="-RRB-">),</w><w pos=","> </w><w pos="WDT">which</w> <w pos="VBZ">is</w> <w pos="VBN">given</w> <w pos="IN">as</w> <w pos="DT">the</w>
+<w pos="NN">value</w> <w pos="IN">of</w> <w pos="DT">the</w> <att><w pos="NN">assertedValue</w></att> <w pos="NN">attribute</w><w pos=":">:</w>
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<!-- ... -->
+<certainty target="#CE-pl1" locus="name" degree="0.6">
+   <desc>probably a placename, but possibly not</desc></certainty>
+<certainty target="#CE-pl1" locus="name" degree="0.4" assertedValue="persName">
+   <desc>may refer to the Earl of Essex</desc></certainty></egXML></p>
+
+
+
+<p><w pos="IN">In</w> <w pos="DT">the</w> <w pos="JJS">simplest</w> <w pos="NN">case</w><w pos=",">,</w> <w pos="PRP">it</w> <w pos="VBZ">is</w> <w pos="RB">also</w> <w pos="JJ">possible</w> <w pos="TO">to</w> <w pos="VB">place</w> <w pos="DT">the</w>
+<gi><w pos="NN">certainty</w></gi> <w pos="NN">element</w> <w pos="IN">within</w> <w pos="DT">the</w> <w pos="NN">element</w> <w pos="JJ">concerned</w><w pos=":">:</w>
+
+<egXML xmlns="http://www.tei-c.org/ns/Examples">Elizabeth went to 
+<placeName>Essex
+<certainty locus="name" degree="0.6"/></placeName>.</egXML>
+<w pos="WRB">When</w>  <w pos="DT">no</w>  <att><w pos="NN">target</w></att>  <w pos="VBZ">is</w> <w pos="VBN">specified</w><w pos=",">,</w> <w pos="IN">by</w> <w pos="NN">default</w> <w pos="DT">the</w> <w pos="VBN">proposed</w>
+<w pos="NN">certainty</w> <w pos="VBZ">applies</w> <w pos="TO">to</w> <w pos="PRP$">its</w> <w pos="NN">parent</w> <w pos="NN">element</w><w pos=",">,</w> <w pos="IN">in</w> <w pos="DT">this</w> <w pos="NN">case</w> <w pos="DT">the</w>
+<gi><w pos="NN">placeName</w></gi> <w pos="NN">element</w><w pos=".">.</w> <w pos="DT">The</w> <att><w pos="NN">match</w></att> <w pos="NN">attribute</w> <w pos="VBN">discussed</w>
+<w pos="IN">below</w> <w pos="MD">may</w> <w pos="VB">be</w> <w pos="VBN">used</w> <w pos="TO">to</w> <w pos="JJ">further</w> <w pos="VBP">vary</w> <w pos="DT">this</w> <w pos="NN">behaviour</w><w pos=".">.</w></p>
+
+
+<div xml:id="CEconcon">
+<head><w pos="JJ">Contingent</w> <w pos="NNS">Conditions</w></head>
+
+
+
+<p><w pos="RB">Finally</w><w pos=",">,</w> <w pos="PRP">we</w> <w pos="MD">may</w> <w pos="VB">wish</w> <w pos="TO">to</w> <w pos="VB">make</w> <w pos="PRP$">our</w> <w pos="NN">probability</w> <w pos="VBZ">estimates</w> <w pos="NN">contingent</w>
+<w pos="IN">on</w> <w pos="DT">some</w> <w pos="NN">condition</w><w pos=".">.</w>  <w pos="IN">In</w> <w pos="DT">the</w> <w pos="NN">passage</w> <q><w pos="NNP">Elizabeth</w> <w pos="VBD">went</w> <w pos="TO">to</w> <w pos="NNP">Essex</w><w pos=":">;</w> <w pos="PRP">she</w> <w pos="VBD">had</w>
+<w pos="RB">always</w> <w pos="VBN">liked</w> <w pos="NNP">Essex</w><w pos=",">,</w></q> <w pos="IN">for</w> <w pos="NN">example</w><w pos=",">,</w> <w pos="PRP">we</w> <w pos="MD">may</w> <w pos="VB">feel</w> <w pos="EX">there</w> <w pos="VBZ">is</w> <w pos="DT">a</w> <w pos="CD">60</w> <w pos="NN">percent</w> <w pos="NN">chance</w>
+<w pos="IN">that</w> <w pos="DT">the</w> <w pos="NN">county</w> <w pos="VBZ">is</w> <w pos="VBN">meant</w><w pos=",">,</w> <w pos="CC">and</w> <w pos="DT">a</w> <w pos="CD">40</w> <w pos="NN">percent</w> <w pos="NN">chance</w> <w pos="IN">that</w> <w pos="DT">the</w> <w pos="NN">earl</w> <w pos="VBZ">is</w> <w pos="VBN">meant</w><w pos=".">.</w>  <w pos="CC">But</w>
+<w pos="DT">the</w> <w pos="CD">two</w> <w pos="NNS">occurrences</w> <w pos="IN">of</w> <w pos="DT">the</w> <w pos="NN">word</w> <w pos="VBP">are</w> <w pos="RB">not</w> <w pos="JJ">independent</w><w pos=":">:</w>  <w pos="EX">there</w> <w pos="VBZ">is</w><w pb="t" pos="-LRB-"> (</w><w pos="PRP">we</w> <w pos="MD">may</w>
+<w pos="VB">feel</w><w pb="t" pos="-RRB-">) </w><w pos="DT">no</w> <w pos="NN">chance</w> <w pos="IN">at</w> <w pos="DT">all</w> <w pos="IN">that</w> <w pos="DT">the</w> <w pos="JJ">first</w> <w pos="NN">occurrence</w> <w pos="VBZ">refers</w> <w pos="TO">to</w> <w pos="DT">the</w> <w pos="NN">county</w>
+<w pos="CC">and</w> <w pos="DT">the</w> <w pos="JJ">second</w>
+<w pos="TO">to</w> <w pos="DT">the</w> <w pos="NN">earl</w><w pos=".">.</w>  <w pos="PRP">We</w> <w pos="MD">can</w> <w pos="VB">express</w> <w pos="DT">this</w> <w pos="IN">by</w> <w pos="VBG">using</w> <w pos="DT">the</w> <att><w pos="VBN">given</w></att>
+<w pos="NN">attribute</w> <w pos="TO">to</w> <w pos="VB">list</w> <w pos="DT">the</w> <w pos="NNS">identifiers</w> <w pos="IN">of</w> <gi><w pos="NN">certainty</w></gi> <w pos="NNS">elements</w><w pos=".">.</w>
+<egXML xmlns="http://www.tei-c.org/ns/Examples">Elizabeth went to <placeName xml:id="CE-PL1">Essex</placeName>.
+She had always liked <placeName xml:id="CE-PL2">Essex</placeName>.
+<!-- ... -->
+<!-- 60% chance that P1 is a placename,
+     40% chance a personal name. -->
+<certainty xml:id="cert-1" target="#CE-PL1" locus="name" degree="0.6">
+  <desc>probably a placename, but possibly not"</desc></certainty>
+<certainty xml:id="cert-2" target="#CE-PL1" locus="name" assertedValue="persName" degree="0.4">
+   <desc>may refer to the Earl of Essex"</desc></certainty>
+<!-- 60% chance that P2 is a placename,
+     40% chance a personal name.
+    100% chance that it agrees with P1. -->
+<certainty target="#CE-PL2" locus="name" given="#cert-1" degree="1.0">
+   <desc>if CE-PL1 is a placename, CE-PL2 certainly is"</desc></certainty>
+<certainty target="#CE-PL2" locus="name" assertedValue="persName" degree="1.0" given="#cert-2">
+   <desc>if CE-PL1 is a personal name, then so is CE-PL2</desc></certainty></egXML>
+<w pos="WRB">When</w> <att><w pos="VBN">given</w></att> <w pos="NNS">conditions</w> <w pos="VBP">are</w> <w pos="VBN">listed</w><w pos=",">,</w> <w pos="DT">the</w> <gi><w pos="NN">certainty</w></gi>
+<w pos="NN">element</w> <w pos="VBZ">is</w> <w pos="VBN">interpreted</w> <w pos="IN">as</w> <w pos="VBG">claiming</w> <w pos="DT">a</w> <w pos="VBN">given</w> <w pos="NN">degree</w> <w pos="IN">of</w> <w pos="NN">confidence</w> <w pos="IN">in</w> <w pos="DT">a</w>
+<w pos="JJ">particular</w> <w pos="NN">markup</w> <w pos="VBN">given</w> <w pos="DT">the</w> <w pos="JJ">assertional</w> <w pos="NN">content</w> <w pos="IN">of</w> <w pos="DT">the</w>
+<gi><w pos="NN">certainty</w></gi> <w pos="NNS">elements</w> <w pos="VBD">indicated</w><w pos=".">.</w> <w pos="DT">That</w> <w pos="VBZ">is</w><w pos=",">,</w> <w pos="DT">a</w> <w pos="JJ">conjectural</w>
+<w pos="NN">assertion</w> <w pos="VBZ">is</w> <w pos="VBG">being</w> <w pos="VBN">made</w> <w pos="RB">solely</w> <w pos="IN">on</w> <w pos="DT">the</w> <w pos="NN">assumption</w> <w pos="IN">that</w> <w pos="DT">the</w>
+<w pos="NN">interpretation</w> <w pos="VBN">indicated</w> <w pos="IN">by</w> <w pos="DT">the</w> <w pos="NN">element</w> <w pos="VBN">named</w> <w pos="IN">by</w> <w pos="DT">the</w> <att><w pos="VBN">given</w></att>
+<w pos="NN">attribute</w> <w pos="VBZ">is</w> <w pos="RB">actually</w> <w pos="JJ">correct</w><w pos=".">.</w></p>
+
+
+
+<p><w pos="JJ">Conditional</w> <w pos="NN">confidence</w> <w pos="MD">may</w> <w pos="VB">be</w> <w pos="JJR">less</w> <w pos="IN">than</w> <w pos="CD">100</w> <w pos="NN">percent</w><w pos=":">:</w>  <w pos="VBN">given</w> <w pos="DT">the</w> <w pos="NN">sentence</w>
+<q><w pos="NNP">Ernest</w> <w pos="VBD">went</w> <w pos="TO">to</w> <w pos="JJ">old</w> <w pos="NNP">Saybrook</w></q><w pos=",">,</w> <w pos="PRP">we</w> <w pos="MD">may</w> <w pos="VB">interpret</w> <q><w pos="NNP">Saybrook</w></q> <w pos="IN">as</w>
+<w pos="DT">a</w> <w pos="JJ">personal</w> <w pos="NN">name</w> <w pos="CC">or</w> <w pos="DT">a</w> <w pos="NN">place</w> <w pos="NN">name</w><w pos=",">,</w> <w pos="VBG">assigning</w> <w pos="DT">a</w> <w pos="CD">60</w> <w pos="NN">percent</w> <w pos="NN">probability</w> <w pos="TO">to</w> <w pos="DT">the</w>
+<w pos="JJ">former</w><w pos=".">.</w> <w pos="IN">If</w> <w pos="PRP">it</w> <w pos="VBZ">is</w> <w pos="DT">a</w> <w pos="NN">place</w> <w pos="NN">name</w><w pos=",">,</w> <w pos="EX">there</w> <w pos="MD">may</w> <w pos="VB">be</w> <w pos="DT">a</w> <w pos="CD">50</w> <w pos="NN">percent</w> <w pos="NN">chance</w> <w pos="IN">that</w> <w pos="DT">the</w>
+<w pos="NN">place</w> <w pos="NN">name</w> <w pos="RB">actually</w> <w pos="IN">in</w> <w pos="NN">question</w> <w pos="VBZ">is</w> <q><w pos="JJ">Old</w> <w pos="NN">Saybrook</w></q> <w pos="RB">rather</w> <w pos="IN">than</w>
+<q><w pos="NNP">Saybrook</w></q><w pos=",">,</w> <w pos="IN">while</w> <w pos="IN">if</w> <w pos="PRP">it</w> <w pos="VBZ">is</w> <w pos="RB">correctly</w> <w pos="VBN">tagged</w> <w pos="IN">as</w> <w pos="DT">a</w> <w pos="JJ">personal</w> <w pos="NN">name</w><w pos=",">,</w> <w pos="PRP">it</w>
+<w pos="VBZ">is</w> <w pos="RB">much</w> <w pos="RBR">more</w> <w pos="JJ">likely</w><w pb="t" pos="-LRB-"> (</w><w pos="VB">say</w><w pos=",">,</w> <w pos="CD">90</w> <w pos="NN">percent</w> <w pos="JJ">certain</w><w pb="t" pos="-RRB-">) </w><w pos="IN">that</w> <w pos="DT">the</w> <w pos="NN">name</w> <w pos="VBZ">is</w> <q><w pos="NNP">Saybrook</w></q><w pos=".">.</w>
+<w pos="RB">Hence</w> <w pos="EX">there</w> <w pos="VBZ">is</w> <w pos="NN">uncertainty</w> <w pos="IN">about</w> <w pos="DT">the</w> <w pos="JJ">correct</w> <w pos="NN">location</w> <w pos="IN">for</w> <w pos="DT">the</w> <w pos="NN">markup</w>
+<w pos="RB">as</w> <w pos="RB">well</w> <w pos="IN">as</w> <w pos="IN">about</w> <w pos="WDT">which</w> <w pos="NN">markup</w> <w pos="TO">to</w> <w pos="VB">use</w><w pos=".">.</w>  <w pos="DT">This</w> <w pos="NN">state</w> <w pos="IN">of</w> <w pos="NNS">affairs</w> <w pos="MD">can</w> <w pos="VB">be</w> <w pos="VBN">expressed</w> <w pos="VBG">using</w> <w pos="DT">the</w> <gi><w pos="NN">certainty</w></gi> <w pos="NN">element</w> <w pos="RB">thus</w><w pos=":">:</w>
+<egXML xmlns="http://www.tei-c.org/ns/Examples">Ernest went to <anchor xml:id="CE-a1"/> old <persName xml:id="CE-p2">Saybrook</persName>.
+<certainty xml:id="cert1" target="#CE-p2" locus="name" degree="0.6"/>
+<certainty target="#CE-p2" locus="start" given="#cert1" degree="0.9"/>
+<certainty xml:id="cert2" target="#CE-p2" locus="name" assertedValue="placeName" degree="0.4"/>
+<certainty target="#CE-p2" locus="start" given="#cert2" degree="0.5"/>
+<certainty xml:id="cert3" target="#CE-p2" locus="start" assertedValue="#CE-a1" given="#cert1" degree="0.1"/>
+<certainty xml:id="cert4" target="#CE-p2" locus="start" assertedValue="#CE-a1" given="#cert2" degree="0.5"/></egXML>
+
+<w pos="VB">Note</w> <w pos="DT">the</w> <w pos="NN">use</w> <w pos="IN">of</w> <w pos="DT">the</w> <att><w pos="NN">assertedValue</w></att> <w pos="IN">on</w> <gi><w pos="NN">certainty</w></gi>
+<w pos="NNS">elements</w> <val><w pos="NN">cert3</w></val> <w pos="CC">and</w> <val><w pos="NN">cert4</w></val> <w pos="TO">to</w> <w pos="VB">reference</w>
+<w pos="DT">the</w> <gi><w pos="NN">anchor</w></gi> <w pos="NN">element</w> <w pos="VBN">placed</w> <w pos="IN">at</w> <w pos="DT">the</w> <w pos="JJ">alternative</w> <w pos="VBG">starting</w>
+<w pos="NN">point</w> <w pos="IN">for</w> <w pos="DT">the</w> <w pos="NN">element</w><w pos=".">.</w></p>
+
+
+
+<p><w pos="VBG">Multiplying</w> <w pos="DT">the</w> <w pos="JJ">numeric</w> <w pos="NNS">values</w> <w pos="RB">out</w><w pos=",">,</w> <w pos="DT">this</w> <w pos="NN">markup</w> <w pos="MD">may</w> <w pos="VB">be</w> <w pos="VBN">interpreted</w> <w pos="IN">as</w>
+<w pos="VBG">assigning</w> <w pos="JJ">specific</w> <w pos="NNS">probabilities</w> <w pos="TO">to</w> <w pos="CD">three</w> <w pos="JJ">different</w> <w pos="NNS">ways</w> <w pos="IN">of</w>
+<w pos="VBG">marking</w> <w pos="RP">up</w> <w pos="DT">the</w> <w pos="NN">sentence</w><w pos=":">:</w>
+<egXML xmlns="http://www.tei-c.org/ns/Examples">Ernest went to old <persName>Saybrook</persName>.    (0.6 * 0.9, or 0.54)
+Ernest went to old <placeName>Saybrook</placeName>.  (0.4 * 0.5, or 0.20)
+Ernest went to <placeName>old Saybrook</placeName>.  (0.4 * 0.5, or 0.20)</egXML>
+<w pos="DT">The</w> <w pos="NNS">probabilities</w> <w pos="VBP">do</w> <w pos="RB">not</w> <w pos="VB">add</w> <w pos="RP">up</w> <w pos="TO">to</w> <w pos="CD">1.00</w> <w pos="IN">because</w> <w pos="DT">the</w> <w pos="NN">markup</w> <w pos="VBZ">indicates</w>
+<w pos="IN">that</w> <w pos="IN">if</w> <q><w pos="NNP">Saybrook</w></q> <w pos="VBZ">is</w><w pb="t" pos="-LRB-"> (</w><w pos="NN">part</w> <w pos="IN">of</w><w pb="t" pos="-RRB-">) a</w><w pos="DT"> </w><w pos="JJ">personal</w> <w pos="NN">name</w><w pos=",">,</w> <w pos="EX">there</w> <w pos="VBZ">is</w> <w pos="DT">a</w>
+<w pos="CD">10</w> <w pos="NN">percent</w> <w pos="NN">likelihood</w> <w pos="IN">that</w> <w pos="DT">the</w> <w pos="NN">element</w> <w pos="MD">should</w> <w pos="VB">start</w> <w pos="RB">somewhere</w> <w pos="JJ">other</w> <w pos="IN">than</w> <w pos="DT">the</w>
+<w pos="NN">place</w> <w pos="VBD">indicated</w><w pos=",">,</w> <w pos="IN">without</w> <w pos="RB">however</w> <w pos="VBG">giving</w> <w pos="DT">an</w> <w pos="JJ">alternative</w> <w pos="NN">location</w><w pos=":">;</w> <w pos="EX">there</w>
+<w pos="VBZ">is</w> <w pos="RB">thus</w> <w pos="DT">a</w> <w pos="CD">6</w> <w pos="NN">percent</w> <w pos="NN">chance</w><w pb="t" pos="-LRB-"> (</w><w pos="CD">0.1</w> <w pos="NN">×</w> <w pos="CD">0.6</w><w pb="t" pos="-RRB-">) </w><w pos="WDT">that</w> <w pos="NN">none</w> <w pos="IN">of</w> <w pos="DT">the</w> <w pos="NNS">alternatives</w> <w pos="VBN">given</w> <w pos="VBZ">is</w>
+<w pos="JJ">correct</w><w pos=".">.</w></p>
+
+</div>
+<div>
+<head><w pos="JJ">Pervasive</w> <w pos="NNS">Conditions</w></head>
+
+
+<p><w pos="PRP">We</w> <w pos="MD">may</w> <w pos="RB">also</w> <w pos="VB">wish</w> <w pos="TO">to</w> <w pos="VB">indicate</w> <w pos="NN">confidence</w> <w pos="IN">in</w> <w pos="DT">some</w> <w pos="NN">aspect</w>
+<w pos="IN">of</w> <w pos="DT">the</w> <w pos="VBG">tagging</w> <w pos="IN">throughout</w> <w pos="DT">a</w> <w pos="NN">document</w><w pos=",">,</w> <w pos="RB">rather</w> <w pos="IN">than</w><w pb="t" pos="-LRB-"> (</w><w pos="IN">as</w> <w pos="VBN">discussed</w> <w pos="RB">so</w> <w pos="RB">far</w><w pb="t" pos="-RRB-">) </w><w pos="IN">in</w> <w pos="CD">one</w>
+<w pos="JJ">particular</w> <w pos="NN">instance</w><w pos=".">.</w> <w pos="DT">The</w> <att><w pos="NN">match</w></att> <w pos="NN">attribute</w> <w pos="MD">may</w> <w pos="VB">be</w> <w pos="VBN">used</w> <w pos="TO">to</w>
+<w pos="VB">supply</w> <w pos="DT">a</w> <w pos="NN">pattern</w> <w pos="VBG">identifying</w> <w pos="DT">the</w> <w pos="NN">portion</w> <w pos="IN">of</w> <w pos="DT">a</w> <w pos="NN">document</w>
+<w pos="VBG">concerning</w> <w pos="WDT">which</w> <w pos="NN">certainty</w> <w pos="VBZ">is</w> <w pos="VBG">being</w> <w pos="VBN">expressed</w><w pos=".">.</w> <w pos="DT">The</w> <w pos="NN">value</w> <w pos="IN">of</w> <w pos="DT">the</w>
+<att><w pos="NN">match</w></att> <w pos="NN">attribute</w> <w pos="VBZ">is</w> <w pos="DT">an</w> <w pos="NN">XPath</w> <w pos="NN">expression</w> <!--XSLT2 pattern,-->
+<w pos="VBG">using</w> <w pos="DT">the</w> <w pos="NN">syntax</w> <w pos="VBN">defined</w> <w pos="IN">in</w> <w pos="."><ptr target="#XSLT2"/>.</w> <w pos="IN">In</w> <w pos="DT">the</w> <w pos="VBG">following</w>
+<w pos="NN">example</w><w pos=",">,</w> <w pos="PRP">we</w> <w pos="VBP">wish</w> <w pos="TO">to</w> <w pos="VB">indicate</w> <w pos="DT">a</w> <w pos="JJ">low</w> <w pos="NN">degree</w> <w pos="IN">of</w> <w pos="NN">confidence</w>
+<w pos="IN">that</w> <w pos="DT">the</w> <gi><w pos="JJ">persName</w></gi> <w pos="NNS">elements</w> <w pos="VBN">used</w> <w pos="IN">throughout</w> <w pos="DT">the</w> <w pos="JJ">whole</w> <w pos="NN">document</w>
+<w pos="VBP">have</w> <w pos="VBN">been</w> <w pos="RB">correctly</w> <w pos="VBN">applied</w><w pos=":">:</w>
+
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<certainty locus="name" degree="0.3" match="//persName"/>
+</egXML>
+
+<w pos="DT">No</w> <att><w pos="NN">target</w></att> <w pos="VBZ">has</w> <w pos="VBN">been</w> <w pos="VBN">supplied</w> <w pos="RB">here</w><w pos=",">,</w> <w pos="CC">and</w> <w pos="RB">so</w> <w pos="IN">by</w> <w pos="NN">default</w> <w pos="DT">the</w>
+<gi><w pos="NN">certainty</w></gi> <w pos="VBN">expressed</w> <w pos="MD">would</w> <w pos="RB">therefore</w> <w pos="VB">apply</w> <w pos="TO">to</w> <w pos="DT">the</w> <w pos="NN">parent</w>
+<w pos="NN">element</w><w pos=".">.</w> <w pos="RB">However</w><w pos=",">,</w> <w pos="IN">in</w> <w pos="DT">this</w> <w pos="NN">case</w> <w pos="DT">the</w> <w pos="NN">XPath</w> <w pos="VBD">supplied</w> <w pos="IN">as</w> <w pos="DT">the</w> <w pos="NN">value</w> <w pos="IN">for</w>
+<att><w pos="NN">match</w></att> <w pos="VBZ">returns</w> <w pos="DT">a</w> <w pos="NN">set</w> <w pos="IN">of</w> <w pos="PDT">all</w> <w pos="DT">the</w> <gi><w pos="JJ">persName</w></gi> <w pos="NNS">elements</w>
+<w pos="IN">in</w> <w pos="DT">the</w> <w pos="NN">document</w><w pos=",">,</w> <w pos="JJ">independent</w> <w pos="IN">of</w> <w pos="DT">the</w> <w pos="JJ">current</w> <w pos="NN">context</w><w pos=".">.</w> <w pos="IN">By</w> <w pos="NN">contrast</w><w pos=",">,</w> <w pos="IN">in</w>
+<w pos="DT">the</w> <w pos="VBG">following</w> <w pos="NN">example</w>
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<div><p>[...]</p></div>
+<div>
+<certainty locus="name" degree="0.3" match=".//persName"/>
+</div>
+</egXML>
+<w pos="RB">only</w> <w pos="DT">the</w> <gi><w pos="JJ">persName</w></gi> <w pos="NNS">elements</w> <w pos="IN">within</w> <w pos="DT">the</w> <w pos="JJ">second</w> <gi><w pos="NN">div</w></gi>
+<w pos="NN">element</w> <w pos="VBP">are</w> <w pos="IN">in</w> <w pos="NN">question</w><w pos=".">.</w>
+<w pos="RB">Similarly</w><w pos=",">,</w> <w pos="PRP">we</w> <w pos="MD">may</w> <w pos="VB">indicate</w> <w pos="IN">that</w> <w pos="PRP">we</w> <w pos="VBP">have</w> <w pos="RBR">more</w>
+<w pos="NN">confidence</w> <w pos="IN">in</w> <w pos="DT">the</w> <gi><w pos="NNP">persName</w></gi> <w pos="NN">tagging</w> <w pos="IN">within</w> <w pos="DT">those</w> <gi><w pos="JJ">div</w></gi>
+<w pos="NNS">elements</w> <w pos="WDT">which</w> <w pos="VBP">have</w> <w pos="DT">a</w> <att><w pos="NN">type</w></att> <w pos="NN">value</w> <w pos="IN">of</w> <code><w pos="VBN">checked</w></code><w pos=":">:</w>
+
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<certainty locus="name" degree="0.7" match="//div[@type='checked']//persName"/>
+</egXML>
+
+<w pos="IN">If</w> <w pos="DT">an</w> <w pos="NN">element</w> <w pos="IN">in</w> <w pos="DT">a</w> <w pos="NN">document</w> <w pos="VBZ">is</w> <w pos="VBN">matched</w> <w pos="IN">by</w> <w pos="JJR">more</w> <w pos="IN">than</w> <w pos="CD">one</w> <w pos="NN">match</w>
+<w pos="NN">expression</w><w pos=",">,</w> <w pos="RB">then</w> <w pos="DT">the</w> <w pos="RBS">most</w> <w pos="JJ">specific</w> <w pos="NN">pattern</w> <w pos="VBZ">applies</w><w pos=".">.</w> <note place="bottom">Specificity of
+pattern matching is defined further in the XSLT2 reference cited above
+(see <ptr target="http://www.w3.org/TR/xslt20/#conflict"/>)</note> <w pos="IN">As</w> <w pos="DT">a</w>
+<w pos="JJ">simple</w> <w pos="NN">case</w><w pos=",">,</w> <w pos="IN">if</w> <w pos="DT">both</w> <w pos="DT">the</w> <w pos="VBG">preceding</w> <gi><w pos="NN">certainty</w></gi> <w pos="NNS">elements</w> <w pos="VBD">were</w>
+<w pos="JJ">present</w> <w pos="IN">in</w> <w pos="DT">the</w> <w pos="JJ">same</w> <w pos="NN">document</w><w pos=",">,</w> <w pos="DT">a</w> <gi><w pos="NN">persName</w></gi> <w pos="VBG">occurring</w> <w pos="IN">within</w> <w pos="DT">a</w>
+<tag><w pos="NN">div</w> <w pos="NN">type</w><w pos="JJ">=</w><w pb="t" pos="``">"</w><w pos="VBN">checked</w><w next="#Repair_new10" pos="''">"</w></tag><w xml:id="Repair_new10"> </w><w pos="NN">element</w> <w pos="MD">would</w> <w pos="RB">potentially</w> <w pos="VB">match</w> <w pos="DT">both</w>
+<w pos="NN">pattern</w> <w pos="NNS">expressions</w><w pos=".">.</w> <w pos="RB">However</w> <w pos="IN">because</w> <w pos="DT">the</w> <w pos="JJ">second</w> <w pos="NN">pattern</w> <w pos="VBZ">is</w> <w pos="RBR">more</w>
+<w pos="JJ">specific</w> <w pos="IN">than</w> <w pos="DT">the</w> <w pos="JJ">former</w><w pos=",">,</w> <w pos="IN">in</w> <w pos="NN">fact</w> <w pos="DT">this</w> <w pos="VBZ">is</w> <w pos="DT">the</w> <w pos="RB">only</w> <w pos="CD">one</w> <w pos="WDT">that</w> <w pos="MD">would</w>
+<w pos="VB">apply</w><w pos=".">.</w> <w pos="IN">If</w> <w pos="JJ">multiple</w> <w pos="NNS">patterns</w> <w pos="VBP">match</w> <w pos="CC">and</w> <w pos="VBP">have</w> <w pos="DT">the</w> <w pos="JJ">same</w> <w pos="NN">priority</w><w pos=",">,</w> <w pos="RB">then</w> <w pos="DT">the</w>
+<w pos="JJ">first</w> <w pos="CD">one</w><w pb="t" pos="-LRB-"> (</w><w pos="IN">in</w> <w pos="NN">document</w> <w pos="NN">order</w><w pb="t" pos="-RRB-">) </w><w pos="VBZ">is</w> <w pos="VBN">applied</w><w pos=".">.</w> <w pos="RB">Only</w> <w pos="DT">those</w> <w pos="NNS">statements</w> <w pos="IN">of</w> <w pos="NN">certainty</w>
+<w pos="WDT">which</w> <w pos="VBP">have</w> <w pos="VBN">matched</w> <w pos="IN">in</w> <w pos="DT">this</w> <w pos="NN">sense</w> <w pos="VBP">are</w> <w pos="JJ">available</w> <w pos="IN">for</w> <w pos="JJ">conditional</w>
+<w pos="NN">application</w> <w pos="VBG">using</w> <w pos="DT">the</w> <att><w pos="VBN">given</w></att> <w pos="NN">attribute</w> <w pos="VBN">mentioned</w> <w pos="IN">above</w><w pos=".">.</w>
+</p>
+
+
+<p><w pos="WRB">When</w> <w pos="DT">the</w> <att><w pos="NN">match</w></att> <w pos="NN">attribute</w> <w pos="VBZ">is</w> <w pos="VBN">processed</w><w pos=",">,</w> <w pos="DT">the</w> <w pos="NN">namespace</w> <w pos="NNS">bindings</w> <w pos="IN">in</w>
+<w pos="NN">force</w> <w pos="VBP">are</w> <w pos="DT">those</w> <w pos="IN">in</w> <w pos="NN">effect</w> <w pos="IN">at</w> <w pos="DT">that</w> <w pos="NN">point</w> <w pos="IN">in</w> <w pos="DT">the</w> <w pos="NN">document</w><w pos=".">.</w> 
+<w pos="IN">For</w> <w pos="NN">example</w><w pos=",">,</w> 
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<div>
+<!-- ... -->
+<certainty match=".//my:*" locus="value" degree="0.9"/>
+</div>
+</egXML>
+<w pos="MD">might</w> <w pos="VB">be</w> <w pos="VBN">used</w> <w pos="TO">to</w> <w pos="VB">indicate</w> <w pos="DT">a</w> <w pos="JJ">high</w> <w pos="NN">degree</w> <w pos="IN">of</w> <w pos="NN">certainty</w> <w pos="IN">about</w> <w pos="DT">the</w> <w pos="NN">content</w>
+<w pos="IN">of</w> <w pos="DT">any</w> <w pos="NNS">elements</w> <w pos="VBN">taken</w> <w pos="DT">the</w> <w pos="NN">namespace</w> <w pos="VBN">associated</w> <w pos="IN">with</w> <w pos="DT">the</w> <w pos="NN">prefix</w>
+<code><w pos="PRP$">my</w></code><w pos=".">.</w> <w pos="DT">This</w> <w pos="NN">namespace</w> <w pos="NN">prefix</w> <w pos="MD">must</w> <w pos="VB">be</w> <w pos="VBN">associated</w> <w pos="IN">with</w> <w pos="DT">an</w>
+<w pos="JJ">appropriate</w> <w pos="NN">namespace</w> <w pos="NN">definition</w><w pos=",">,</w> <w pos="DT">either</w> <w pos="IN">on</w> <w pos="DT">the</w> <gi><w pos="NN">certainty</w></gi>
+<w pos="NN">element</w> <w pos="PRP">itself</w><w pos=",">,</w> <w pos="CC">or</w> <w pos="IN">on</w> <w pos="CD">one</w> <w pos="IN">of</w> <w pos="PRP$">its</w> <w pos="NN">ancestor</w> <w pos="NNS">elements</w><w pos=".">.</w></p>
+
+</div>
+
+<div>
+<head><w pos="NN">Content</w> <w pos="NN">Uncertainty</w></head>
+
+
+
+<p><w pos="NNS">Doubts</w> <w pos="IN">about</w> <w pos="IN">whether</w> <w pos="DT">the</w> <w pos="NN">content</w> <w pos="IN">of</w> <w pos="DT">an</w> <w pos="NN">element</w> <w pos="VBZ">is</w> <w pos="JJ">correct</w> <w pos="MD">may</w> <w pos="RB">also</w> <w pos="VB">be</w> <w pos="VBN">expressed</w>
+<w pos="IN">by</w> <w pos="VBG">assigning</w> <w pos="TO">to</w> <att><w pos="NN">locus</w></att> <w pos="DT">the</w> <w pos="NN">value</w>
+<mentioned><w pos="NN">value</w></mentioned><w pos=".">.</w>  <w pos="IN">For</w> <w pos="NN">example</w><w pos=",">,</w> <w pos="IN">if</w> <w pos="DT">the</w> <w pos="NN">source</w> <w pos="VBZ">is</w>
+<w pos="JJ">hard</w> <w pos="TO">to</w> <w pos="VB">read</w> <w pos="CC">and</w> <w pos="IN">so</w> <w pos="DT">the</w> <w pos="NN">transcription</w> <w pos="VBZ">is</w> <w pos="JJ">uncertain</w><w pos=":">:</w>
+<egXML xmlns="http://www.tei-c.org/ns/Examples">I have a <emph xml:id="CE-p3">bun</emph>.
+<certainty target="#CE-p3" locus="value" degree="0.5"/></egXML></p>
+
+
+<p><w pos="NNS">Degrees</w> <w pos="IN">of</w> <w pos="NN">confidence</w> <w pos="IN">in</w> <w pos="DT">the</w> <w pos="JJ">proper</w> <w pos="NN">expansion</w> <w pos="IN">of</w> <w pos="NNS">abbreviations</w> <w pos="MD">may</w>
+<w pos="RB">also</w> <w pos="VB">be</w> <w pos="VBN">expressed</w><w pos=",">,</w> <w pos="IN">as</w> <w pos="IN">in</w> <w pos="DT">the</w> <w pos="VBG">following</w> <w pos="NN">example</w><w pos=":">:</w><egXML xmlns="http://www.tei-c.org/ns/Examples">You will want to use
+<choice><expan xml:id="CE-e1">Standard
+Generalized Markup Language</expan>
+<expan xml:id="CE-e40">Some Grandiose Methodology for Losers</expan>
+<abbr>SGML</abbr></choice> ...
+<!-- ... -->
+<certainty target="#CE-e1" locus="value" degree="0.9"/>
+<certainty target="#CE-e40" locus="value" degree="0.5"/></egXML></p>
+
+
+<p><w pos="DT">The</w> <att><w pos="NN">assertedValue</w></att> <w pos="NN">attribute</w> <w pos="MD">should</w> <w pos="VB">be</w> <w pos="VBN">used</w> <w pos="TO">to</w> <w pos="VB">provide</w> <w pos="DT">an</w>
+<w pos="JJ">alternative</w> <w pos="NN">value</w> <w pos="IN">for</w> <w pos="WDT">whatever</w> <w pos="NN">aspect</w> <w pos="IN">of</w> <w pos="DT">the</w> <w pos="NN">markup</w> <w pos="VBZ">is</w> <w pos="IN">in</w> <w pos="NN">doubt</w><w pos=":">:</w>  <w pos="DT">an</w>
+<w pos="JJ">alternative</w> <w pos="NN">name</w><w pos=",">,</w> <w pos="CC">or</w> <w pos="DT">the</w> <w pos="NN">identifier</w> <w pos="IN">of</w> <w pos="DT">an</w> <w pos="JJ">alternative</w> <w pos="VBG">starting</w> <w pos="CC">or</w>
+<w pos="VBG">ending</w> <w pos="NN">point</w><w pos=",">,</w> <w pos="IN">as</w> <w pos="RB">already</w> <w pos="VBN">shown</w><w pos=",">,</w> <w pos="DT">an</w> <w pos="JJ">alternative</w> <w pos="NN">attribute</w> <w pos="NN">value</w><w pos=",">,</w> <w pos="CC">or</w>
+<w pos="JJ">alternative</w> <w pos="NN">element</w> <w pos="NN">content</w><w pos=",">,</w> <w pos="IN">as</w> <w pos="IN">in</w> <w pos="DT">this</w> <w pos="NN">example</w><w pos=":">:</w>
+<egXML xmlns="http://www.tei-c.org/ns/Examples">I have a <emph xml:id="CE-P3">bun</emph>.
+<certainty target="#CE-P3" locus="value" assertedValue="gun" degree="0.8"> 
+  <desc>a gun makes more sense in a holdup</desc></certainty></egXML>
+  <w pos="IN">Since</w> <w pos="NN">attribute</w> <w pos="NNS">values</w> <w pos="VBP">have</w> <w pos="DT">no</w> <w pos="JJ">internal</w> <w pos="NN">substructure</w><w pos=",">,</w> <w pos="DT">the</w>
+  <att><w pos="NN">assertedValue</w></att> <w pos="NN">attribute</w> <w pos="VBZ">is</w> <w pos="RB">not</w> <w pos="RB">generally</w> <w pos="JJ">useful</w> <w pos="IN">for</w>
+  <w pos="VBG">specifying</w> <w pos="JJ">alternative</w> <w pos="NNS">transcriptions</w><w pos=":">;</w> <w pos="PRP">it</w> <w pos="MD">can</w><w pos="RB">not</w> <w pos="IN">for</w> <w pos="NN">example</w> <w pos="VB">be</w> <w pos="VBN">used</w>
+  <w pos="IN">if</w> <w pos="DT">the</w> <w pos="JJ">alternative</w> <w pos="NN">reading</w> <w pos="VBZ">contains</w> <w pos="NN">markup</w> <w pos="IN">of</w> <w pos="DT">any</w> <w pos="NN">kind</w><w pos=".">.</w>  <w pos="RBR">More</w> <w pos="JJ">robust</w>
+  <w pos="NNS">methods</w> <w pos="IN">of</w> <w pos="VBG">handling</w> <w pos="NNS">uncertainties</w> <w pos="IN">of</w> <w pos="NN">transcription</w> <w pos="VBP">are</w> <w pos="DT">the</w>
+  <gi><w pos="JJ">unclear</w></gi> <w pos="NN">element</w> <w pos="CC">and</w> <w pos="DT">the</w> <gi><w pos="NN">app</w></gi> <w pos="CC">and</w> <gi><w pos="NN">rdg</w></gi>
+  <w pos="NNS">elements</w> <w pos="VBN">described</w> <w pos="IN">in</w> <w pos="NN">chapter</w> <w pos="."><ptr target="#TC"/>.</w>  <w pos="DT">The</w>
+  <gi><w pos="NN">certainty</w></gi> <w pos="NN">element</w> <w pos="VBZ">allows</w> <w pos="IN">for</w> <w pos="NNS">indications</w> <w pos="IN">of</w> <w pos="NN">uncertainty</w> <w pos="TO">to</w>
+  <w pos="VB">be</w> <w pos="VBN">structured</w> <w pos="IN">with</w> <w pos="IN">at</w> <w pos="JJS">least</w> <w pos="RB">as</w> <w pos="JJ">much</w> <w pos="NN">detail</w> <w pos="CC">and</w> <w pos="NN">clarity</w> <w pos="IN">as</w> <w pos="VBZ">appears</w> <w pos="TO">to</w>
+  <w pos="VB">be</w> <w pos="RB">currently</w> <w pos="VBN">required</w> <w pos="IN">in</w> <w pos="JJS">most</w> <w pos="JJ">ongoing</w> <w pos="NN">text</w> <w pos="NNS">projects</w><w pos=".">.</w></p>
+
+</div>
+
+
+<div>
+<head><w pos="NN">Target</w> <w pos="CC">or</w> <w pos="NNP">Match</w><w pos=".">?</w></head>
+
+
+
+<p><w pos="IN">As</w> <w pos="VBN">noted</w> <w pos="IN">in</w> <w pos=","><ptr target="#SA"/>,</w> <w pos="DT">the</w> <att><w pos="NN">target</w></att> <w pos="NN">attribute</w>
+<w pos="MD">may</w> <w pos="VB">take</w> <w pos="DT">any</w> <w pos="JJ">general</w> <val><w pos="NN">data.pointer</w></val> <w pos="IN">as</w> <w pos="NNS">values</w> <w pos="CC">and</w> <w pos="MD">may</w> <w pos="RB">thus</w>
+<w pos="RB">also</w> <w pos="VBP">contain</w> <w pos="DT">an</w> <w pos="NN">XPath</w> <w pos="NN">expression</w> <w pos="IN">of</w> <w pos="JJ">arbitrary</w> <w pos="NN">complexity</w><w pos=".">.</w> <w pos="IN">Because</w> <w pos="JJ">full</w>
+<w pos="NN">support</w> <w pos="IN">for</w> <w pos="NN">XPath</w> <w pos="VBZ">is</w> <w pos="RB">not</w> <w pos="VBN">provided</w> <w pos="IN">by</w> <w pos="JJ">current</w> <w pos="NNS">processors</w><w pos=",">,</w> <w pos="PRP">it</w> <w pos="VBZ">is</w> <w pos="RB">not</w>
+<w pos="RB">generally</w> <w pos="VBN">recommended</w> <w pos="NN">TEI</w> <w pos="NN">practice</w><w pos=".">.</w> <w pos="EX">There</w> <w pos="VBP">are</w> <w pos="RB">however</w> <w pos="DT">some</w> <w pos="JJ">simple</w>
+<w pos="NNS">cases</w> <w pos="IN">in</w> <w pos="WDT">which</w> <w pos="NN">XPath</w> <w pos="NN">syntax</w> <w pos="VBZ">is</w> <w pos="TO">to</w> <w pos="VB">be</w> <w pos="VBN">preferred</w><w pos=",">,</w> <w pos="RB">notably</w> <w pos="DT">those</w> <w pos="IN">in</w> <w pos="WDT">which</w>
+<w pos="DT">the</w> <att><w pos="NN">xml</w><w pos=":">:</w><w pos="NN">id</w></att> <w pos="NN">attribute</w> <w pos="VBZ">is</w> <w pos="VBN">used</w> <w pos="TO">to</w> <w pos="VB">identify</w> <w pos="DT">a</w> <w pos="JJ">single</w> <w pos="NN">element</w>
+<w pos="NN">occurrence</w><w pos=".">.</w> <w pos="DT">The</w> <w pos="NN">usage</w> <val><w pos="#">#</w><w pos="DT">A</w></val><w pb="t" pos="-LRB-"> (</w><w pos="TO">to</w> <w pos="VB">indicate</w> <w pos="DT">the</w> <w pos="NN">element</w> <w pos="WP$">whose</w>
+<att><w pos="NN">xml</w><w pos=":">:</w><w pos="NN">id</w></att> <w pos="NN">attribute</w> <w pos="VBZ">has</w> <w pos="DT">the</w> <w pos="NN">value</w><w pb="t" pos="-RRB-"><w pb="t" pos="NN"/> <val>A</val>) </w><w pos="VBZ">is</w>
+<w pos="RB">syntactically</w> <w pos="JJ">much</w> <w pos="JJR">simpler</w> <w pos="IN">than</w> <w pos="DT">the</w> <w pos="JJ">equivalent</w> <w pos="NN">xpath2</w> <w pos="NN">expression</w>
+<val><w pos=":">/</w><w pos=":">/</w><w pos="SYM">*</w><w pb="t" pos="-LRB-">[</w><w pos="NN">@xml</w><w pos=":">:</w><w pos="NN">id</w><w pos="JJ">=</w><w pos="``">'</w><w pos="DT">A</w><w pos="''">'</w><w next="#Repair_new11" pb="t" pos="-RRB-">]</w></val><w xml:id="Repair_new11"> </w><w pos="CC">and</w> <w pos="VBZ">is</w> <w pos="RB">hence</w> <w pos="VBN">preferred</w> <w pos="IN">throughout</w> <w pos="DT">these</w>
+<w pos="NNS">guidelines</w><w pos=".">.</w>
+</p>
+
+
+<p><w pos="IN">For</w> <w pos="JJ">similar</w> <w pos="NNS">reasons</w><w pos=",">,</w> <w pos="DT">the</w> <gi><w pos="NN">certainty</w></gi> <w pos="NN">element</w> <w pos="MD">may</w> <w pos="VB">specify</w>
+<w pos="CC">both</w> <w pos="DT">a</w> <att><w pos="NN">target</w></att> <w pos="NN">value</w><w pb="t" pos="-LRB-"> (</w><w pos="VBN">expressed</w> <w pos="IN">as</w> <w pos="DT">an</w> <w pos="NNP">URI</w><w pb="t" pos="-RRB-">) </w><w pos="CC">and</w> <w pos="DT">a</w>
+<att><w pos="NN">match</w></att> <w pos="NN">value</w><w pb="t" pos="-LRB-">  (</w><w pos="VBN">expressed</w> <w pos="IN">as</w> <w pos="DT">an</w> <w pos="NN">XPath</w><w pb="t" pos="-RRB-">).</w><w pos="."> </w><w pos="DT">The</w> <w pos="JJ">former</w> <w pos="VBZ">defines</w>
+<w pos="DT">the</w> <w pos="NN">context</w> <w pos="IN">within</w> <w pos="WDT">which</w> <w pos="DT">the</w> <w pos="JJ">latter</w> <w pos="VBZ">is</w> <w pos="TO">to</w> <w pos="VB">be</w> <w pos="VBN">evaluated</w><w pos=".">.</w> <w pos="IN">As</w> <w pos="RB">previously</w>
+<w pos="VBN">noted</w><w pos=",">,</w> <w pos="IN">if</w> <w pos="DT">no</w> <w pos="NN">value</w> <w pos="VBZ">is</w> <w pos="VBN">supplied</w> <w pos="IN">for</w> <att><w pos="NN">target</w></att><w pos=",">,</w> <w pos="DT">the</w> <w pos="NN">context</w>
+<w pos="IN">within</w> <w pos="WDT">which</w> <w pos="DT">the</w> <w pos="NN">value</w> <w pos="IN">of</w> <att><w pos="NN">match</w></att> <w pos="MD">should</w> <w pos="VB">be</w> <w pos="VBN">evaluated</w> <w pos="VBZ">is</w> <w pos="DT">the</w>
+<w pos="NN">parent</w> <w pos="NN">element</w> <w pos="IN">of</w> <w pos="DT">the</w> <gi><w pos="NN">certainty</w></gi> <w pos="NN">element</w> <w pos="PRP">itself</w><w pos=".">.</w> </p>
+
+
+
+<p><w pos="DT">A</w> <w pos="JJ">typical</w> <w pos="NN">case</w> <w pos="WRB">where</w> <w pos="PRP">it</w> <w pos="MD">may</w> <w pos="VB">be</w> <w pos="JJ">convenient</w> <w pos="TO">to</w> <w pos="VB">specify</w> <w pos="DT">both</w>
+<att><w pos="NN">target</w></att> <w pos="CC">and</w> <att><w pos="NN">match</w></att> <w pos="VBZ">is</w> <w pos="IN">that</w> <w pos="WRB">where</w> <w pos="PRP">we</w> <w pos="VBP">wish</w> <w pos="TO">to</w>
+<w pos="VB">indicate</w> <w pos="IN">that</w> <w pos="DT">the</w> <w pos="NN">value</w> <w pos="IN">of</w>  <w pos="DT">an</w> <w pos="NN">attribute</w> <w pos="IN">on</w> <w pos="DT">some</w> <w pos="JJ">specific</w> <w pos="NN">element</w>  <w pos="VBZ">is</w>
+<w pos="JJ">uncertain</w><w pos=".">.</w> <w pos="IN">In</w> <w pos="DT">this</w> <w pos="NN">case</w><w pos=",">,</w> <w pos="DT">the</w> <att><w pos="NN">locus</w></att> <w pos="NN">attribute</w>
+<w pos="VBZ">takes</w> <w pos="DT">the</w> <w pos="NN">value</w> <val><w pos="NN">value</w></val><w pos=".">.</w> <w pos="IN">For</w> <w pos="NN">example</w><w pos=",">,</w> <w pos="VBG">supposing</w> <w pos="EX">there</w> <w pos="VBZ">is</w> <w pos="RB">only</w> <w pos="DT">a</w> <w pos="CD">50</w> <w pos="NN">percent</w> <w pos="NN">chance</w> <w pos="IN">that</w> <w pos="DT">the</w> <w pos="NN">question</w> <w pos="VBD">was</w> <w pos="VBN">spoken</w> <w pos="IN">by</w>
+<w pos="NN">participant</w> <w pos="NN">A</w><w pos=":">:</w>
+<egXML xmlns="http://www.tei-c.org/ns/Examples"><u xml:id="CE-u1" who="#A">Have you heard the election results?</u>
+<certainty target="#CE-u1" match="@who" locus="value" degree="0.5"/></egXML> <w pos="CC">or</w><w pos=",">,</w> <w pos="RB">equivalently</w> <w pos="CC">and</w> <w pos="IN">without</w> <w pos="DT">the</w>
+<w pos="NN">need</w> <w pos="TO">to</w> <w pos="VB">define</w> <w pos="DT">a</w> <w pos="NN">target</w><w pos=",">,</w>
+<egXML xmlns="http://www.tei-c.org/ns/Examples"><u who="#A">Have you heard the election results?<certainty match="@who" locus="value" degree="0.5"/></u>
+</egXML> 
+
+</p>
+
+
+
+<p><w pos="DT">The</w> <att><w pos="NN">match</w></att> <w pos="CC">and</w> <att><w pos="NN">target</w></att> <w pos="NNS">attributes</w> <w pos="RB">together</w>
+<w pos="VBP">provide</w> <w pos="DT">a</w> <w pos="JJ">powerful</w> <w pos="NN">mechanism</w> <w pos="WDT">which</w> <w pos="MD">can</w> <w pos="VB">be</w> <w pos="VBN">used</w> <w pos="TO">to</w> <w pos="VB">indicate</w> <w pos="NN">precision</w> <w pos="IN">for</w> <w pos="DT">a</w>
+<w pos="JJ">large</w> <w pos="NN">number</w> <w pos="IN">of</w> <w pos="NNS">assertions</w> <w pos="IN">throughout</w> <w pos="DT">an</w> <w pos="VBN">encoded</w> <w pos="NN">document</w> <w pos="IN">in</w> <w pos="DT">an</w>
+<w pos="JJ">economical</w> <w pos="NN">way</w><w pos=".">.</w> <w pos="DT">Some</w> <w pos="JJ">further</w>
+<w pos="NNS">examples</w> <w pos="VBP">follow</w><w pos=":">:</w>
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<certainty match="//p" locus="location" degree="0.2"/>
+</egXML>
+<w pos="DT">This</w> <w pos="VBG">encoding</w> <w pos="VBZ">indicates</w> <w pos="IN">that</w> <w pos="EX">there</w> <w pos="VBZ">is</w> <w pos="RB">only</w> <w pos="DT">a</w> <w pos="CD">0.2</w> <w pos="NN">certainty</w> <w pos="IN">that</w> <w pos="DT">the</w>
+<w pos="NNS">boundaries</w> <w pos="IN">of</w> <w pos="DT">all</w> <gi><w pos="NN">p</w></gi> <w pos="NNS">elements</w> <w pos="IN">in</w> <w pos="DT">the</w> <w pos="NN">document</w> <w pos="VBP">have</w> <w pos="VBN">been</w> <w pos="RB">correctly</w>
+<w pos="VBN">identified</w><w pos=".">.</w></p>
+
+
+<p>
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<certainty target="#a101" match="p" locus="location" degree="0.2"/>
+</egXML>
+<w pos="DT">This</w> <w pos="VBG">encoding</w> <w pos="VBZ">indicates</w> <w pos="IN">that</w> <w pos="EX">there</w> <w pos="VBZ">is</w> <w pos="RB">only</w> <w pos="DT">a</w> <w pos="CD">0.2</w> <w pos="NN">certainty</w> <w pos="IN">that</w> <w pos="DT">the</w>
+<w pos="NNS">boundaries</w> <w pos="IN">of</w> <w pos="DT">the</w> <gi><w pos="NN">p</w></gi> <w pos="NNS">elements</w> <w pos="VBN">contained</w> <w pos="IN">by</w> <w pos="DT">the</w> <w pos="NN">element</w> <w pos="IN">with</w>
+<att><w pos="NN">xml</w><w pos=":">:</w><w pos="NN">id</w></att> <w pos="NN">value</w> <val><w pos="NN">a101</w></val> <w pos="VBP">have</w> <w pos="VBN">been</w> <w pos="RB">correctly</w>
+<w pos="VBN">identified</w><w pos=".">.</w></p>
+
+
+<p>
+
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<persName resp="#LB">Essex
+<certainty match="@resp" locus="value" degree="0.2"/>
+</persName></egXML>
+<w pos="DT">This</w> <w pos="VBG">encoding</w> <w pos="VBZ">indicates</w> <w pos="IN">that</w> <w pos="EX">there</w> <w pos="VBZ">is</w> <w pos="RB">only</w> <w pos="DT">a</w> <w pos="CD">0.2</w> <w pos="NN">certainty</w> <w pos="IN">that</w> <w pos="DT">the</w>
+<w pos="NN">value</w> <w pos="IN">for</w> <w pos="DT">the</w> <att><w pos="NN">resp</w></att> <w pos="NN">attribute</w> <w pos="IN">on</w> <w pos="DT">the</w> <w pos="VBN">given</w> <gi><w pos="NN">persName</w></gi>
+<w pos="NN">element</w>
+<w pos="VBZ">is</w> <w pos="JJ">correct</w><w pos=".">.</w></p>
+
+
+<p>
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<certainty match="//*/@resp" locus="value" degree="0.2"/>
+</egXML>
+<w pos="DT">This</w> <w pos="VBG">encoding</w> <w pos="VBZ">indicates</w> <w pos="IN">that</w> <w pos="EX">there</w> <w pos="VBZ">is</w> <w pos="RB">only</w> <w pos="DT">a</w> <w pos="CD">0.2</w> <w pos="NN">certainty</w> <w pos="WDT">that</w> <w pos="DT">any</w>
+<w pos="NN">value</w> <w pos="IN">for</w> <w pos="DT">the</w> <att><w pos="NN">resp</w></att> <w pos="NN">attribute</w> <w pos="VBZ">is</w> <w pos="JJ">correct</w><w pos=",">,</w> <w pos="WRB">wherever</w> <w pos="PRP">it</w>
+<w pos="VBZ">appears</w> <w pos="IN">in</w> <w pos="DT">the</w> <w pos="NN">document</w><w pos=".">.</w></p>
+
+
+
+<p><egXML xmlns="http://www.tei-c.org/ns/Examples">
+<certainty target="#dd001" match="@resp" locus="value" degree="0.2"/>
+</egXML>
+<w pos="DT">This</w> <w pos="VBG">encoding</w> <w pos="VBZ">indicates</w> <w pos="IN">that</w> <w pos="EX">there</w> <w pos="VBZ">is</w> <w pos="RB">only</w> <w pos="DT">a</w> <w pos="CD">0.2</w> <w pos="NN">certainty</w> <w pos="IN">that</w> <w pos="DT">the</w>
+<w pos="NN">value</w> <w pos="IN">for</w> <w pos="DT">the</w> <att><w pos="NN">resp</w></att> <w pos="NN">attribute</w> <w pos="IN">of</w> <w pos="DT">the</w> <w pos="NN">element</w> <w pos="VBN">indicated</w> <w pos="IN">by</w>
+<w pos="DT">the</w> <w pos="NN">pointer</w> <val><w pos="NN">#dd001</w></val> <w pos="VBZ">is</w> <w pos="JJ">correct</w></p>
+
+
+
+<p><egXML xmlns="http://www.tei-c.org/ns/Examples">
+<certainty match="//*[@resp='#LB']" locus="value" degree="0.2"/>
+</egXML>
+<w pos="DT">This</w> <w pos="VBG">encoding</w> <w pos="VBZ">indicates</w> <w pos="IN">that</w> <w pos="EX">there</w> <w pos="VBZ">is</w> <w pos="RB">only</w> <w pos="DT">a</w> <w pos="CD">0.2</w> <w pos="NN">certainty</w> <w pos="IN">that</w> <w pos="DT">the</w>
+<w pos="NN">content</w> <w pos="IN">of</w> <w pos="DT">any</w> <w pos="NN">element</w> <w pos="DT">the</w> <att><w pos="NN">resp</w></att> <w pos="NN">attribute</w> <w pos="IN">of</w> <w pos="WDT">which</w> <w pos="VBZ">has</w> <w pos="DT">the</w>
+<w pos="NN">value</w> <val><w pos="NN">#LB</w></val> <w pos="VBZ">is</w> <w pos="JJ">correct</w><w pos=",">,</w> <w pos="WRB">wherever</w> <w pos="PRP">it</w>
+<w pos="VBZ">appears</w> <w pos="IN">in</w> <w pos="DT">the</w> <w pos="NN">document</w><w pos=".">.</w></p>
+
+
+
+<p><w pos="DT">The</w> <gi><w pos="NN">certainty</w></gi> <w pos="NN">element</w> <w pos="CC">and</w> <w pos="DT">the</w> <w pos="JJ">other</w> <w pos="NN">TEI</w> <w pos="NNS">mechanisms</w> <w pos="IN">for</w>
+<w pos="VBG">indicating</w> <w pos="NN">uncertainty</w> <w pos="VBP">provide</w> <w pos="DT">a</w> <w pos="NN">range</w> <w pos="IN">of</w> <w pos="NNS">methods</w> <w pos="IN">of</w> <w pos="VBN">graduated</w>
+<w pos="NN">complexity</w><w pos=".">.</w>  <w pos="JJ">Simple</w> <w pos="NNS">expressions</w> <w pos="IN">of</w> <w pos="NN">uncertainty</w> <w pos="MD">may</w> <w pos="VB">be</w> <w pos="VBN">made</w> <w pos="IN">by</w> <w pos="VBG">using</w>
+<w pos="DT">the</w> <gi><w pos="NN">note</w></gi> <w pos="NN">element</w><w pos=".">.</w>  <w pos="DT">This</w> <w pos="VBZ">is</w> <w pos="JJ">simple</w> <w pos="CC">and</w> <w pos="JJ">convenient</w><w pos=",">,</w> <w pos="CC">and</w> <w pos="MD">can</w>
+<w pos="VB">accommodate</w> <w pos="CC">either</w> <w pos="DT">a</w> <w pos="JJ">discursive</w> <w pos="CC">and</w> <w pos="JJ">unstructured</w> <w pos="NN">indication</w> <w pos="IN">of</w>
+<w pos="NN">uncertainty</w><w pos=",">,</w> <w pos="CC">or</w> <w pos="DT">a</w> <w pos="NN">complex</w> <w pos="CC">and</w> <w pos="JJ">structured</w> <w pos="CC">but</w> <w pos="RB">probably</w> <w pos="JJ">project-specific</w>
+<w pos="NN">expression</w> <w pos="IN">of</w> <w pos="NN">uncertainty</w><w pos=".">.</w>  <w pos="IN">In</w> <w pos="JJ">general</w><w pos=",">,</w> <w pos="RB">however</w><w pos=",">,</w> <w pos="IN">unless</w> <w pos="JJ">special</w> <w pos="NNS">steps</w>
+<w pos="VBP">are</w> <w pos="VBN">taken</w><w pos=",">,</w> <w pos="DT">the</w> <gi><w pos="NN">note</w></gi> <w pos="NN">element</w> <w pos="VBZ">does</w> <w pos="RB">not</w> <w pos="VB">provide</w> <w pos="RB">as</w> <w pos="JJ">much</w>
+<w pos="JJ">expressive</w> <w pos="NN">power</w> <w pos="IN">as</w> <w pos="DT">the</w> <gi><w pos="NN">certainty</w></gi> <w pos="NN">element</w><w pos=",">,</w> <w pos="CC">and</w> <w pos="IN">in</w> <w pos="NNS">cases</w> <w pos="WRB">where</w>
+<w pos="RB">highly</w> <w pos="VBN">structured</w> <w pos="NN">certainty</w> <w pos="NN">information</w> <w pos="MD">must</w> <w pos="VB">be</w> <w pos="VBN">given</w><w pos=",">,</w> <w pos="PRP">it</w> <w pos="VBZ">is</w>
+<w pos="VBN">recommended</w> <w pos="IN">that</w> <w pos="DT">the</w> <gi><w pos="NN">certainty</w></gi> <w pos="NN">element</w> <w pos="VB">be</w> <w pos="VBN">preferred</w><w pos=".">.</w></p>
+
+<!--<p>The <gi>certainty</gi> element may be used for simple unqualified
+indications of uncertainty, in which case only the <att>locus</att>,
+<att>match</att> and
+<att>target</att> attributes might be specified.  
+In more complex cases, the
+other attributes may be used to provide fuller information.  While
+these attributes may take any string of characters as value, the recommended
+values should be used wherever possible; if they are not appropriate
+in a given situation, encoders should provide their own controlled
+vocabulary and document it in the <gi>encodingDesc</gi> or
+<gi>tagUsage</gi> elements of the TEI header.</p>-->
+<specGrp>
+<include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/precision.xml"/>
+<include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/certainty.xml"/>
+</specGrp>
+<specGrpRef target="#DCERESP"/></div>
+</div>
+
+</div>
+
+<div type="div2" xml:id="CEPREC">
+<head><w pos="NNS">Indications</w> <w pos="IN">of</w> <w pos="NNP">Precision</w></head>
+
+
+<p><w pos="IN">As</w> <w pos="VBN">noted</w> <w pos="IN">above</w><w pos=",">,</w> <w pos="NN">certainty</w> <w pos="IN">about</w> <w pos="DT">the</w> <w pos="NN">accuracy</w> <w pos="IN">of</w> <w pos="DT">an</w> <w pos="NN">encoding</w> <w pos="CC">or</w> <w pos="PRP$">its</w>
+<w pos="NN">content</w> <w pos="VBZ">is</w> <w pos="RB">not</w> <w pos="DT">the</w> <w pos="JJ">same</w> <w pos="NN">thing</w> <w pos="IN">as</w> <w pos="DT">the</w> <term><w pos="NN">precision</w></term> <w pos="IN">with</w> <w pos="WDT">which</w>
+<w pos="DT">a</w> <w pos="NN">value</w> <w pos="VBZ">is</w> <w pos="VBN">specified</w><w pos=".">.</w> <w pos="IN">In</w> <w pos="DT">the</w> <w pos="NN">case</w> <w pos="IN">of</w> <w pos="DT">a</w> <w pos="NN">date</w> <w pos="CC">or</w> <w pos="DT">a</w> <w pos="NN">quantity</w><w pos=",">,</w> <w pos="IN">for</w> <w pos="NN">example</w><w pos=",">,</w> <w pos="PRP">we</w> <w pos="MD">might</w> <w pos="VB">be</w>
+<w pos="JJ">certain</w> <w pos="IN">that</w> <w pos="DT">the</w> <w pos="NN">value</w> <w pos="VBN">given</w> <w pos="VBZ">is</w> <w pos="JJ">imprecise</w><w pos=",">,</w> <w pos="CC">or</w>  <w pos="JJ">uncertain</w>
+<w pos="IN">about</w> <w pos="IN">whether</w> <w pos="CC">or</w> <w pos="RB">not</w> <w pos="DT">the</w> <w pos="NN">value</w> <w pos="VBN">given</w> <w pos="VBZ">is</w> <w pos="JJ">correct</w><w pos=".">.</w> <w pos="DT">The</w> <w pos="JJ">latter</w>
+<w pos="NN">possibility</w> <w pos="MD">would</w> <w pos="VB">be</w> <w pos="VBN">represented</w> <w pos="IN">by</w> <w pos="DT">the</w> <gi><w pos="NN">certainty</w></gi> <w pos="NN">element</w>
+<w pos="VBN">discussed</w> <w pos="IN">in</w> <w pos="DT">the</w> <w pos="JJ">previous</w> <w pos="NN">section</w><w pos=":">;</w> <w pos="DT">the</w> <w pos="JJ">former</w> <w pos="IN">by</w> <w pos="DT">the</w>
+<gi><w pos="NN">precision</w></gi> <w pos="NN">element</w> <w pos="VBN">discussed</w> <w pos="IN">in</w> <w pos="DT">this</w> <w pos="NN">section</w><w pos=".">.</w></p>
+
+
+<p><w pos="DT">The</w> <w pos="NNS">elements</w> <w pos="VBG">concerning</w> <w pos="WDT">which</w> <w pos="NNS">statements</w> <w pos="IN">of</w> <w pos="NN">precision</w> <w pos="VBP">are</w> <w pos="TO">to</w> <w pos="VB">be</w>
+<w pos="VBN">made</w> <w pos="VBP">are</w> <w pos="VBN">identified</w> <w pos="VBG">using</w> <w pos="DT">the</w> <w pos="JJ">same</w> <att><w pos="NN">target</w></att> <w pos="CC">and</w>
+<att><w pos="NN">match</w></att> <w pos="VBZ">attributes</w> <w pos="VBN">inherited</w> <w pos="IN">from</w> <w pos="DT">the</w>
+<ident type="class"><w pos="VBG">att.scoping</w></ident> <w pos="NN">class</w> <w pos="VBN">discussed</w> <w pos="IN">in</w> <w pos="DT">the</w>
+<w pos="JJ">previous</w> <w pos="NN">section</w> <w pos="CC">and</w> <w pos="IN">in</w> <w pos="DT">the</w> <w pos="JJ">same</w> <w pos="NN">way</w><w pos=".">.</w> <w pos="JJ">Other</w> <w pos="NNS">aspects</w> <w pos="VBP">are</w> <w pos="VBN">provided</w> <w pos="IN">by</w>
+<w pos="JJ">other</w> <w pos="NNS">attributes</w> <w pos="IN">as</w> <w pos="JJ">further</w> <w pos="VBN">discussed</w> <w pos="IN">below</w><w pos=".">.</w>
+<specList>
+<specDesc atts="precision stdDeviation" key="precision"/>
+</specList>
+</p>
+
+
+<p><w pos="IN">In</w> <ptr target="#CONANU"/> <w pos="JJ">several</w> <w pos="NNS">ways</w> <w pos="IN">of</w> <w pos="VBG">indicating</w> <w pos="NNS">ranges</w> <w pos="IN">of</w>
+<w pos="NNS">values</w> <w pos="VBD">were</w> <w pos="VBN">introduced</w><w pos=".">.</w> <w pos="IN">For</w> <w pos="NN">example</w><w pos=",">,</w> <w pos="IN">if</w> <w pos="PRP">we</w> <w pos="VBP">know</w> <w pos="IN">that</w> <w pos="DT">a</w> <w pos="NN">date</w> <w pos="VBZ">falls</w> <w pos="IN">between</w>
+<w pos="CD">1930</w> <w pos="CC">and</w> <w pos="CD">1935</w><w pos=",">,</w> <w pos="IN">without</w> <w pos="VBG">being</w> <w pos="JJ">certain</w> <w pos="RB">exactly</w> <w pos="WRB">where</w><w pos=",">,</w> <w pos="DT">this</w> <w pos="NN">fact</w> <w pos="MD">may</w> <w pos="VB">be</w>
+<w pos="VBN">encoded</w> <w pos="VBG">using</w> <w pos="NNS">attributes</w> <att><w pos="NN">notBefore</w></att> <w pos="CC">and</w>
+<att><w pos="NN">notAfter</w></att><w pos=",">,</w> <w pos="IN">as</w> <w pos="IN">in</w> <w pos="DT">the</w> <w pos="VBG">following</w> <w pos="NN">example</w><w pos=":">:</w>
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<date notBefore="1930" notAfter="1935">Early in the 1930s</date>...</egXML>
+<w pos="RB">Equally</w><w pos=",">,</w> <w pos="IN">if</w> <w pos="PRP">we</w> <w pos="VBP">know</w> <w pos="IN">that</w> <w pos="DT">every</w> <w pos="NN">page</w> <w pos="IN">of</w> <w pos="DT">a</w>
+<w pos="NN">manuscript</w> <w pos="VBZ">has</w> <w pos="DT">a</w> <w pos="NN">width</w> <w pos="IN">of</w> <w pos="IN">at</w> <w pos="JJS">least</w> <w pos="CD">10</w> <w pos="NN">cm</w> <w pos="CC">but</w> <w pos="DT">no</w> <w pos="JJR">more</w> <w pos="IN">than</w> <w pos="CD">30</w><w pos=",">,</w> <w pos="PRP">we</w> <w pos="MD">can</w>
+<w pos="VB">use</w> <w pos="DT">the</w> <w pos="NNS">attributes</w> <att><w pos="NN">atLeast</w></att> <w pos="CC">and</w> <att><w pos="NN">atMost</w></att><w pos=",">,</w> <w pos="IN">as</w> <w pos="IN">in</w> <w pos="DT">the</w>
+<w pos="VBG">following</w> <w pos="NNS">examples</w><w pos=":">:</w>
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<width atLeast="10" atMost="30" unit="cm" scope="all"/></egXML>
+</p>
+
+
+<p><w pos="VB">Suppose</w> <w pos="RB">however</w> <w pos="IN">that</w> <w pos="DT">the</w> <w pos="NN">precision</w> <w pos="IN">with</w> <w pos="WDT">which</w> <w pos="DT">the</w> <w pos="NN">value</w>
+<w pos="IN">of</w> <w pos="PDT">such</w> <w pos="DT">an</w> <w pos="NN">attribute</w> <w pos="MD">can</w> <w pos="VB">be</w> <w pos="VBN">specified</w> <w pos="VBZ">is</w> <w pos="JJ">variable</w><w pos=".">.</w> <w pos="IN">For</w> <w pos="NN">example</w><w pos=",">,</w>
+<w pos="VB">suppose</w> <w pos="DT">an</w> <w pos="NN">event</w> <w pos="VBZ">is</w> <w pos="VBN">dated</w> <q><w pos="IN">about</w> <w pos="CD">fifty</w> <w pos="NNS">years</w> <w pos="IN">after</w> <w pos="DT">the</w> <w pos="NN">death</w> <w pos="IN">of</w>
+<w pos="NNP">Augustus</w></q><w pos=".">.</w> <w pos="IN">In</w> <w pos="DT">this</w> <w pos="NN">case</w><w pos=",">,</w> <w pos="DT">the</w> <w pos="NN">precision</w> <w pos="IN">of</w> <w pos="CD">one</w> <w pos="NN">end</w> <w pos="IN">of</w> <w pos="DT">the</w> <w pos="NN">range</w><w pb="t" pos="-LRB-"> (</w><w pos="DT">the</w>
+<w pos="NN">death</w> <w pos="IN">of</w> <w pos="NNP">Augustus</w><w pb="t" pos="-RRB-">) </w><w pos="VBZ">is</w> <w pos="JJR">higher</w> <w pos="IN">than</w> <w pos="DT">the</w> <w pos="JJ">other</w><w pos=",">,</w> <w pos="VBG">assuming</w> <w pos="PRP">we</w> <w pos="VBP">know</w> <w pos="WRB">when</w>
+<w pos="NNP">Augustus</w> <w pos="VBD">died</w><w pos=".">.</w> <w pos="PRP">We</w> <w pos="MD">can</w> <w pos="VB">say</w> <w pos="IN">that</w> <w pos="DT">the</w> <w pos="JJS">latest</w> <w pos="JJ">possible</w> <w pos="NN">date</w> <w pos="VBZ">is</w> <w pos="RB">probably</w> <w pos="CD">50</w>
+<w pos="NNS">years</w> <w pos="IN">after</w> <w pos="DT">that</w><w pos=",">,</w> <w pos="CC">but</w> <w pos="IN">with</w> <w pos="JJR">less</w> <w pos="NN">confidence</w> <w pos="IN">than</w> <w pos="PRP">we</w> <w pos="MD">can</w> <w pos="VB">attach</w> <w pos="TO">to</w> <w pos="DT">the</w>
+<w pos="JJS">earliest</w> <w pos="JJ">possible</w> <w pos="NN">date</w><w pos=".">.</w></p>
+
+
+<p><w pos="DT">The</w> <gi><w pos="NN">precision</w></gi> <w pos="NN">element</w> <w pos="VBZ">allows</w> <w pos="PRP">us</w> <w pos="TO">to</w> <w pos="VB">indicate</w> <w pos="DT">the</w> <w pos="CD">two</w>
+<w pos="NNS">attributes</w> <w pos="JJ">concerned</w> <w pos="CC">and</w> <w pos="VBP">attach</w> <w pos="JJ">different</w> <w pos="NNS">levels</w> <w pos="IN">of</w> <w pos="NN">precision</w> <w pos="TO">to</w> <w pos="PRP">them</w><w pos=",">,</w>
+<w pos="VBG">using</w> <w pos="DT">a</w> <w pos="JJ">similar</w> <w pos="NN">mechanism</w> <w pos="IN">as</w> <w pos="DT">that</w> <w pos="VBN">provided</w> <w pos="IN">for</w> <w pos="DT">the</w> <gi><w pos="NN">certainty</w></gi>
+<w pos="NN">element</w><w pos=":">:</w>
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<date xml:id="d001" notBefore="0014" notAfter="0064">About 50
+years after the death of Augustus</date>
+<precision target="#d001" match="@notAfter" precision="low"/>
+<precision target="#d001" match="@notBefore" precision="high"/>
+</egXML></p>
+
+
+<p><w pos="IN">In</w> <w pos="RB">much</w> <w pos="DT">the</w> <w pos="JJ">same</w> <w pos="NN">way</w><w pos=",">,</w> <w pos="PRP">we</w> <w pos="MD">may</w> <w pos="VB">wish</w> <w pos="TO">to</w> <w pos="VB">indicate</w> <w pos="JJ">different</w> <w pos="NNS">levels</w> <w pos="IN">of</w>
+<w pos="NN">precision</w> <w pos="IN">about</w> <w pos="DT">the</w> <w pos="VBG">dating</w> <w pos="IN">of</w> <w pos="CC">either</w> <w pos="NN">end</w> <w pos="IN">of</w> <w pos="DT">a</w> <w pos="JJ">historical</w> <w pos="NN">period</w><w pos=".">.</w> <w pos="IN">For</w> <w pos="NN">example</w><w pos=",">,</w>
+ <w pos="DT">the</w> <w pos="NNS">elements</w> <w pos="VBN">defined</w> <w pos="IN">for</w> <w pos="VBG">encoding</w> <w pos="JJ">personal</w> <w pos="NNS">data</w> <w pos="DT">all</w> <w pos="VBP">bear</w> <w pos="DT">a</w> <w pos="JJ">similar</w>
+ <w pos="NN">set</w> <w pos="IN">of</w> <w pos="NNS">attributes</w> <w pos="TO">to</w> <w pos="VB">indicate</w> <w pos="VBN">normalized</w> <w pos="NNS">values</w> <w pos="IN">for</w> <w pos="JJS">earliest</w> <w pos="CC">or</w>
+ <w pos="JJS">latest</w> <w pos="NNS">dates</w><w pos=",">,</w> <w pos="FW">etc.</w><w pb="t" pos="-LRB-"> (</w><w pos="VB">see</w> <w pos="NN">section</w><w pb="t" pos="-RRB-">
+ <ptr target="#NDATTSda"/>);</w><w pos=":"> </w><w pos="DT">the</w> <w pos="NN">precision</w> <w pos="IN">of</w> <w pos="DT">these</w> <w pos="NN">attribute</w> <w pos="NNS">values</w>
+ <w pos="MD">may</w> <w pos="VB">be</w> <w pos="VBN">indicated</w> <w pos="IN">in</w> <w pos="RB">exactly</w> <w pos="DT">the</w> <w pos="JJ">same</w> <w pos="NN">way</w><w pos=".">.</w> <w pos="IN">For</w> <w pos="NN">example</w><w pos=",">,</w> 
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<residence from="1857-03-01" notAfter="1857-04-30">From the 1st of March to
+some time in April of 1857.
+<precision match="@notAfter" precision="medium"/></residence>
+</egXML>
+</p>
+
+
+<p><w pos="PRP">It</w> <w pos="MD">may</w> <w pos="RB">also</w> <w pos="VB">be</w> <w pos="JJ">useful</w> <w pos="TO">to</w> <w pos="VB">indicate</w> <w pos="IN">that</w> <w pos="DT">the</w> <w pos="NNS">precisions</w> <w pos="VBN">given</w> <w pos="IN">for</w> 
+<w pos="NN">minimum</w> <w pos="CC">and</w> <w pos="NN">maximum</w> <w pos="NNS">quanta</w> <w pos="VBP">differ</w><w pos=".">.</w> <w pos="IN">For</w> <w pos="NN">example</w><w pos=",">,</w> <w pos="TO">to</w> <w pos="VB">indicate</w> <w pos="IN">that</w> <w pos="DT">all</w>
+<w pos="NNS">pages</w> <w pos="NN">measure</w> <w pos="IN">at</w> <w pos="JJS">least</w> <w pos="CD">10</w> <w pos="NN">cm</w> <w pos="JJ">wide</w><w pos=",">,</w> <w pos="CC">and</w> <w pos="IN">at</w> <w pos="JJS">most</w> <emph><w pos="RB">about</w></emph> <w pos="CD">30</w><w pos=":">:</w>
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<width xml:id="w00t" atLeast="10" atMost="30" unit="cm" scope="all"/>
+<precision target="#w00t" match="@atMost" precision="low"/>
+</egXML>
+</p>
+
+
+<p><w pos="DT">The</w> 
+<att><w pos="NN">stdDeviation</w></att> <w pos="NN">attribute</w> <w pos="MD">may</w> <w pos="VB">be</w> <w pos="VBN">used</w> <w pos="TO">to</w> <w pos="VB">indicate</w> <w pos="DT">the</w>
+<w pos="JJ">standard</w> <w pos="NN">deviation</w> <w pos="IN">for</w> <w pos="DT">a</w> <w pos="NN">range</w> <w pos="IN">of</w> <w pos="NNS">values</w><w pos=".">.</w> <w pos="DT">The</w> <w pos="JJ">generic</w> <gi><w pos="JJ">dim</w></gi>
+<w pos="NN">element</w> <w pos="VBN">introduced</w> <w pos="IN">in</w> <ptr target="#msdim"/> <w pos="MD">might</w> <w pos="VB">be</w> <w pos="VBN">used</w> <w pos="TO">to</w> <w pos="VB">record</w> <w pos="DT">the</w> <w pos="JJ">average</w>
+<w pos="NN">number</w> <w pos="IN">of</w> <w pos="NNS">characters</w> <w pos="IN">per</w> <w pos="NN">line</w> <w pos="IN">in</w> <w pos="DT">a</w> <w pos="NN">typescript</w><w pos=".">.</w> <w pos="IN">If</w> <w pos="IN">in</w> <w pos="NN">addition</w> <w pos="PRP">we</w> <w pos="VBP">wish</w>
+<w pos="TO">to</w> <w pos="VB">record</w> <w pos="DT">the</w> <w pos="JJ">standard</w> <w pos="NN">deviation</w> <w pos="IN">for</w> <w pos="DT">the</w> <w pos="NNS">values</w> <w pos="VBN">summarized</w> <w pos="IN">by</w> <w pos="DT">that</w>
+<w pos="NN">average</w><w pos=",">,</w> <w pos="DT">this</w> <w pos="MD">would</w> <w pos="VB">require</w> <w pos="DT">an</w> <w pos="JJ">additional</w> <gi><w pos="NN">precision</w></gi> <w pos="NN">element</w><w pos=",">,</w>
+<w pos="IN">as</w> <w pos="IN">in</w> <w pos="DT">the</w> <w pos="VBG">following</w> <w pos="NN">example</w><w pos=":">:</w>
+<egXML xmlns="http://www.tei-c.org/ns/Examples">
+<dim xml:id="dim1" type="avgLineLength" unit="chars" quantity="62.4"/>
+<precision target="#dim1" stdDeviation="4"/>
+</egXML>
+</p>
+
+</div>
+
+<div type="div2" xml:id="CERESP">
+<head><w pos="NN">Attribution</w> <w pos="IN">of</w> <w pos="NN">Responsibility</w></head>
+
+
+<p><w pos="IN">In</w> <w pos="JJ">general</w><w pos=",">,</w> <w pos="NN">attribution</w> <w pos="IN">of</w> <w pos="NN">responsibility</w> <w pos="IN">for</w> <w pos="DT">the</w> <w pos="NN">transcription</w> <w pos="CC">and</w>
+<w pos="NN">markup</w> <w pos="IN">of</w> <w pos="DT">an</w> <w pos="JJ">electronic</w> <w pos="NN">text</w> <w pos="VBZ">is</w> <w pos="VBN">made</w> <w pos="IN">by</w> <gi><w pos="NN">respStmt</w></gi> <w pos="NNS">elements</w>
+<w pos="IN">within</w> <w pos="DT">the</w> <w pos="NN">header</w><w pos=":">:</w> <w pos="RB">specifically</w><w pos=",">,</w> <w pos="IN">within</w> <w pos="DT">the</w> <w pos="NN">title</w> <w pos="NN">statement</w><w pos=",">,</w> <w pos="DT">the</w>
+<w pos="NN">edition</w> <w pos="NN">statement</w><w pb="t" pos="-LRB-">(</w><w pos="NNS">s</w><w pb="t" pos="-RRB-">),</w><w pos=","> </w><w pos="CC">and</w> <w pos="DT">the</w> <w pos="NN">revision</w> <w pos="NN">history</w><w pos=".">.</w></p>
+
+
+<p><w pos="IN">In</w> <w pos="DT">some</w> <w pos="NNS">cases</w><w pos=",">,</w> <w pos="RB">however</w><w pos=",">,</w> <w pos="JJR">more</w> <w pos="JJ">detailed</w> <w pos="NN">element-by-element</w> <w pos="NN">information</w>
+<w pos="MD">may</w> <w pos="VB">be</w> <w pos="VBN">desired</w><w pos=".">.</w> <w pos="IN">For</w> <w pos="NN">example</w><w pos=",">,</w> <w pos="DT">an</w> <w pos="NN">encoder</w> <w pos="MD">may</w> <w pos="VB">wish</w> <w pos="TO">to</w> <w pos="VB">distinguish</w> <w pos="IN">between</w> <w pos="DT">the</w>
+<w pos="NNS">individuals</w> <w pos="JJ">responsible</w> <w pos="IN">for</w> <w pos="VBG">transcribing</w> <w pos="DT">the</w> <w pos="NN">content</w> <w pos="CC">and</w> <w pos="DT">those</w>
+<w pos="JJ">responsible</w> <w pos="IN">for</w> <w pos="VBG">determining</w> <w pos="IN">that</w> <w pos="DT">a</w> <w pos="VBN">given</w> <w pos="NN">word</w> <w pos="CC">or</w> <w pos="NN">phrase</w> <w pos="VBZ">constitutes</w> <w pos="DT">a</w>
+<w pos="JJ">proper</w> <w pos="NN">noun</w><w pos=".">.</w>  <w pos="WRB">Where</w> <w pos="JJ">such</w> <w pos="JJ">fine-grained</w> <w pos="NN">attribution</w> <w pos="IN">of</w> <w pos="NN">responsibility</w> <w pos="VBZ">is</w>
+<w pos="VBN">required</w><w pos=",">,</w> <w pos="DT">the</w> <gi><w pos="NNS">respons</w></gi> <w pos="NN">element</w> <w pos="MD">can</w> <w pos="VB">be</w> <w pos="VBN">used</w><w pos=".">.</w> 
+<specList><specDesc atts="locus" key="respons"/></specList></p>
+
+
+<p><w pos="DT">This</w> <w pos="NN">element</w> <w pos="VBZ">allows</w> <w pos="CD">one</w> <w pos="CC">or</w> <w pos="JJR">more</w> <w pos="NNS">aspects</w> <w pos="IN">of</w> <w pos="DT">the</w> <w pos="NN">markup</w> <w pos="TO">to</w> <w pos="VB">be</w>
+<w pos="VBN">attributed</w> <w pos="TO">to</w> <w pos="DT">a</w> <w pos="VBN">given</w> <w pos="NN">individual</w><w pos=".">.</w>  <w pos="DT">This</w> <w pos="NN">element</w> <w pos="VBZ">inherits</w> <w pos="DT">the</w>
+<att><w pos="NN">target</w></att> <w pos="CC">and</w> <att><w pos="NN">match</w></att> <w pos="NNS">attributes</w> <w pos="IN">from</w> <w pos="DT">the</w>
+<ident type="class"><w pos="VBG">att.scoping</w></ident> <w pos="NN">class</w><w pos=",">,</w> <w pos="IN">in</w> <w pos="DT">the</w> <w pos="JJ">same</w> <w pos="NN">way</w> <w pos="IN">as</w> <w pos="DT">the</w>
+<gi><w pos="NN">certainty</w></gi> <w pos="CC">and</w> <gi><w pos="NN">precision</w></gi> <w pos="NNS">elements</w><w pos=".">.</w> <w pos="PRP$">Its</w> 
+<att><w pos="NN">locus</w></att> <w pos="NN">attribute</w> <w pos="NNS">functions</w> <w pos="IN">in</w> <w pos="DT">the</w> <w pos="JJ">same</w> <w pos="NN">way</w> <w pos="IN">as</w> <w pos="DT">that</w> <w pos="IN">on</w> <w pos="DT">the</w>
+<gi><w pos="NN">certainty</w></gi> <w pos="NN">element</w><w pb="t" pos="-LRB-"> (</w><w pos="VB">see</w><w pb="t" pos="-RRB-"> <ptr target="#CECERT"/>).</w><w pos="."> </w><w pos="PRP">It</w> <w pos="VBZ">inherits</w> <w pos="DT">the</w> <att><w pos="NN">resp</w></att> <w pos="CC">and</w> <att><w pos="NN">cert</w></att>
+<w pos="NNS">attributes</w> <w pos="IN">from</w> <w pos="DT">the</w> <ident type="class"><w pos="NN">att.global.responsibility</w></ident> <w pos="NN">class</w><w pos=".">.</w>
+</p>
+
+
+<p><w pos="IN">For</w> <w pos="NN">example</w><w pos=",">,</w>  <w pos="DT">the</w> <w pos="VBG">following</w> <w pos="NN">encoding</w>
+<w pos="VBZ">indicates</w> <w pos="IN">that</w> <w pos="NN">RC</w> <w pos="VBZ">is</w> <w pos="JJ">responsible</w> <w pos="IN">for</w> <w pos="VBG">transcribing</w> <w pos="DT">an</w>
+<w pos="JJ">illegible</w> <w pos="NN">word</w><w pos=",">,</w> <w pos="CC">and</w> <w pos="IN">that</w> <w pos="NN">PMWR</w> <w pos="VBZ">is</w> <w pos="JJ">responsible</w> <w pos="IN">for</w> <w pos="VBG">identifying</w> <w pos="IN">that</w> <w pos="NN">word</w>
+<w pos="IN">as</w> <w pos="DT">a</w> <w pos="JJ">proper</w> <w pos="NN">noun</w><w pos=",">,</w> <w pos="FW">i.e.</w> <w pos="VBG">deciding</w> <w pos="TO">to</w> <w pos="VB">mark</w> <w pos="PRP">it</w> <w pos="IN">with</w> <w pos="DT">the</w> <gi><w pos="NNP">persName</w></gi>
+<w pos="NN">element</w> <w pos="IN">at</w> <w pos="DT">the</w> <w pos="NN">location</w> <w pos="VBD">indicated</w><w pos=":">:</w>
+<egXML xmlns="http://www.tei-c.org/ns/Examples">Ernest went to old
+<persName xml:id="CE-p5" rend="it">Saybrook</persName>.
+<!-- ... -->
+<respons target="#CE-p5" locus="value" resp="#RC"/>
+<respons target="#CE-p5" locus="name location" resp="#PMWR"/>
+<list type="encoders">
+<item xml:id="PMWR"/>
+<item xml:id="RC"/>
+</list></egXML></p>
+
+
+<p><w pos="RB">Similarly</w><w pos=",">,</w> <w pos="IN">in</w> <w pos="DT">the</w> <w pos="VBG">following</w> <w pos="NN">example</w><w pos=",">,</w> <w pos="PRP">we</w> <w pos="VBP">indicate</w> <w pos="IN">that</w> <w pos="NN">RC</w> <w pos="VBZ">is</w>
+<w pos="JJ">responsible</w> <w pos="IN">for</w> <w pos="VBG">proposing</w> <w pos="DT">the</w> <w pos="NN">value</w> <w pos="IN">of</w> <w pos="DT">the</w> <att><w pos="NN">rend</w></att> <w pos="NN">attribute</w><w pos=":">:</w>  
+    <egXML xmlns="http://www.tei-c.org/ns/Examples">
+      <respons target="#CE-p5" match="@rend" locus="value" resp="#RC"/>
+    </egXML>
+</p>
+
+<specGrp n="Responsibility for markup" xml:id="DCERESP">
+<include xmlns="http://www.w3.org/2001/XInclude" href="../../Specs/respons.xml"/>
+</specGrp></div>
+
+<div>
+<head><w pos="DT">The</w> <w pos="NNP">Certainty</w> <w pos="NNP">Module</w></head>
+
+
+<p><w pos="NNP">The</w> <w pos="NN">module</w> <w pos="VBN">described</w> <w pos="IN">in</w> <w pos="DT">this</w> <w pos="NN">chapter</w> <w pos="VBZ">makes</w> <w pos="JJ">available</w> <w pos="DT">the</w> <w pos="VBG">following</w>
+<w pos="JJ">additional</w> <w pos="NNS">elements</w><w pos=":">:</w>
+
+<moduleSpec ident="certainty" xml:id="DCE"><altIdent type="FPI">Certainty
+and Uncertainty</altIdent><desc>Certainty and uncertainty</desc>
+<desc xml:lang="fr">Degré de certitude et responsabilité</desc>
+<desc xml:lang="zh-TW">確定程度與不確定程度</desc>
+<desc xml:lang="it">Certezza e incertezza</desc><desc xml:lang="pt">Certeza e incerteza</desc><desc xml:lang="ja">確信度モジュール</desc></moduleSpec><!--publicID:  -//TEI P5//ELEMENTS Additional Element Set for Certainty and Responsibility//EN-->
+
+<w pos="DT">The</w> <w pos="NN">selection</w> <w pos="CC">and</w> <w pos="NN">combination</w> <w pos="IN">of</w> <w pos="NNS">modules</w> <w pos="TO">to</w> <w pos="VB">form</w> <w pos="DT">a</w> <w pos="NNP">TEI</w> <w pos="NN">schema</w> <w pos="VBZ">is</w> <w pos="VBN">described</w> <w pos="IN">in</w>
+<w pos="."><ptr target="#STIN"/>.</w>
+
+</p>
+
+</div></div>
