@@ -1,4 +1,0 @@
-#!/bin/bash
-
-
-ant -f buildAnn.xml -DfileName=$1 
