@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://github.com/COST-ELTEC/Schemas/raw/master/eltec-1.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="LIT00025" xml:lang="lt">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Viktutė : ELTeC edition</title>
+        <author>Šatrijos Ragana (1877-1930)</author>
+        <respStmt>
+          <resp>editor</resp>
+          <name>Arūnas Gudinavičius</name>
+        </respStmt>
+      </titleStmt>
+
+      <extent>
+        <measure unit="words">26397</measure>
+        <measure unit="pages">90</measure>
+      </extent>
+
+      <publicationStmt>
+        <p></p>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl type="digitalSource">
+          <ref target="https://www.epaveldas.lt/object/recordDescription/LNB/C1B0002985449">Viktutė</ref>
+          <publisher>Martynas Mažvydas National Library of Lithuania</publisher>
+        </bibl>
+        <bibl type="firstEdition">
+          <title>Viktutė</title>
+          <publisher>V. Šliakio (Stagaro) spaustuvė</publisher>
+          <pubPlace>Shenandoah, PA.</pubPlace>
+          <date>1903</date>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <encodingDesc n="eltec-1">
+      <p></p>
+    </encodingDesc>
+
+    <profileDesc xmlns:e="http://distantreading.net/eltec/ns">
+      <langUsage>
+        <language ident="lt" usage="100"/>
+      </langUsage>
+      <textDesc>
+        <e:authorGender key="F"/>
+        <e:size key="short"/>
+        <e:canonicity key="low"/>
+        <e:timeSlot key="T4"/>
+      </textDesc>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-02-10">Arūnas Gudinavičius added header
+      </change>
+    </revisionDesc>
+  </teiHeader>
+
+  <text>
+    <front>
+      <div type="titlepage">
+        <p>Šatrijos Ragana</p>
+        <p>Viktutė</p>
+        <p>Shenandoah, PA.</p>
+        <p>1903 m.</p>
+        <p>V. Šliakio (Stagaro) spaustuvė</p>
+      </div>
+    </front>
+
+    <body>
+      <div type="chapter">
+        <head>10 lapkričio 189*.</head>
+
+      <p>Atējo man noras rašyti dieninį. Dvi yra prieżastį, įkvēpusi man tą użmanymą: I-0, ne visados tegalima išpasakyti visus savo jausmus ir mislis; o kadangi slēpti jie savyje yra man sunku, išliesiu juos nors ant popērio. 2-0, jei sulauksiu senatvēs,
+        kadą jau atsitikimai ir jaunystės jausmai išblykš atmintyje, malonu man bus, paēmus tą dieninį, atminti „gerus, senus laikus” ir lyg antrą sykį pergyventi.</p>
+
+      <p>Ketinau pradēti savo użrašus pavasarį, pagrįżus namon iš pensijos. Bet reikējo pirmu atsilsēti po egzamenų, paskui atsirado tiek darbo, apimant gaspadorystę, juog neprisirengiau. Ir praējo vasara, ir ruduo jau baigiasi, o aš šiandieną tesiimu
+        plunksnos.</p>
+
+      <p>Štai atējo laikas, kadą svarbiausias siekis — nebesimokini-mas; kadą reikia pradēti veiklų gyvenimą, teip pasakius abelnai, żmonišką. Lygšiol vis tik skolinaus, dabar atėjo laikas išsimokēti. O išmokēti turiu daug, labai daug, nes paskolinta man
+        gausiai ir nesigailint. Skolino tēvai, visupirmu, mylēdami mane iš visos širdies ir nesigailēdami ne pinigų, nē triuso išlavinimui manęs.... Ak! baimē mane ima, pamislijus apie tas skolas! Kaip aš jąs išmokēsiu?! Ką-gi veiksiu?! Noro ir spēkų
+        nepritruks, żinau; bet ar mokēsiu? Tas mane uż vis daugiau ir baugina.</p>
+
+      <p>Šiandien buvau su tētušiu banke, Pagirēnuose; tētušis yra tę direktorium ir turi darbo perdaug; dēlto išmokino mane vesti knygas ir ima su savimi. Esu jo sekretorius. Kaip tuo džiaugiuos, sunku apsakyti. Teip malonu palengvinti tētušiui darbą!
+        Malonu prisidēti nors krisleliu prie gero darbo. Tētušis aiškino ir aš pati matau, kad ta „kits kitam paskolinimo draugystē” daug naudos atneša musų żmonēms: uż mażą, sulyginant, procentą, gauna jie iš tę pasiskolinti ir, użmokējus procentus,
+        nereikia jiems bijoti savo skolintojų. Prie to dar galima banke pamatyti visokių żmonių ir fizijonomijų, tankiai labai įstabių.</p>
+
+      <p>Bet ir kliuna man kartais! Reikia rašyti spēriai, turēti akis ir ausis ištemptas, nes tētušis neatydos nepraleidżia, bet tuojau išbara. Aš to, żinoma, nebijau; żinau jo budą šaukti dażnai.... juokiuos sau ir gana! Vażiuosiu dabar kas subatą kartu
+        su tetušiu.</p>
+      <p>Juokingą atsitikimą turējome šiandieną. Po pietų išējova su Alenute pavaikščioti; veizava vieškeliu nuo Berżų kana kas važiuoja. Ne żinau, dēlko puolē mums į galvą, juog tai tur buti naujas daktaras, seniai jau laukiamas musų miestelyje. Gan’
+        platus laukas skyrē mus nuo vieškelio, ir kol jį butuva perējusi, veżimas butų jau nuridējęs į pakalnę.</p>
+      <p>Nelaukdamos toliaus, ēmēva bēgti tekini ant vieškelio. Bet ar keleiviai pamatė mus ir norējo pabēgti, ar teip sau, veżējas sudavē arkliams ir pralēkē, kaip vējas, kol mudvi lyg vieškelio pri-bēgova. Gavova tik pamatyti, juog veżime sēdējo jaunas
+        vyras su juoda jērine kepure. Teip tai musų vargas išējo ant nieko. Vienok nujautimas mus neapgavo: buvo tai tikrai daktaras; bobos, visados viską ēinančios, jau apskelbē tą naujieną.</p>
+      <p>Gerai, kad atvażiavo. Nekalbu jau apie żmonių naudą, dżiaugiuos pati dēl savęs. Mażai pas mus inteligentiškų żmonių, o teip malonu nors retkarčiais pasikalbēti su tokiuo. Norēčiau, kad butų jis geras, išlavintas, kad knygų daug turētų ir man jąs
+        davinētų skaityti. O gal duos Dievas, turēs ir lietuviškų knygų? Gal bus iš lietuvių patrijotas, su kuriais teip trokštu susiartinti?.... To paskutiniojo, rodos, užvis norēčiau. Pamatysime — „qui vivra — verra.”</p>
+
+    </div>
+    <div type="chapter">
+      <head>11 lapkričio.</head>
+
+      <p>Šiandieną pas musų atlaidai. Iš bażnyčios użējome į kleboniją. Sutikome tę daktarą; gērē arbatą, bet pabaigęs, tuo-jaus pażiurējo į laikrodį ir išbēgo, sakydamas, juog pacijentai jo laukia. Turiu šiandieną, kaipo nedēlioj’, daugiaus laisvų
+        valandų. Kitos dienos teip yra użimtos, juog lekia lyg ant sparnų. Gaspadoraujame su sesele, persimainydamos kas sąvaitę. Kad mano sąvaitē - keliuos vēliausiai 7-toj, einu prie karvių, saikiju pieną paktininkui ir t. t.; pagrįżus iš tę, einu
+        pataisyti arbatą; paskui reikia nubēgti prie kiaulių, prie veršių, paveizēti, kaip palesintos vištos, żąsįs, kalakutai; paskui išduoti pietus virējai.... vienu żodżiu, bēgioju iš spiżarnēs į virtuvę, iš virtuvēs į staldus ir paukštininką. Devintoj
+        einu į savo kambarį ir pradedu lekcijas su broliuku, kurios tęsiasi lyg 12-tos. Tadą pietųs. Po pietų ateina dar gaspadoriaus duktē, kurią mokinu; paskui graiju valandēlę, o paskui vēl reikia eiti apie gaspadorystę: vēl melżimas karvių, vēl rupesnis
+        apie vakarienę šeimynai, apie arbatą mums, apie lesinimą paukščių ir gyvulių. Vakarais reikia kartais padēti broliukui išmokti lekcijas rytojui; reikia pasiuti šis tas, paskaityti, pasikalbēti, — štai ir visa diena. Negalima tikrai apsakyti užsiēmimų
+        prie gaspadorystēs; kartais reikia iš svirno išduoti grudai ar miltai; kartais šę, kartais tę ilgiaus użtrukti, — żodżiu, darbo yra visados, ir nē pajuste nepajusi, kaip išlįs jis iš tę, iš kur jo ir laukte nelaukei. Bet atējus Alenutēs sąvaitei, aš
+        jau liuosesnē. Daugiau tadą graiju, ilgiaus skaitau. Kaziuką noriu priruošti per žiemą į pirmąją kliasą, po vakacijų reikia jis butinai atiduoti į gimnaziją. Turēsiu tadą liuosą laiką, reikēs kiteip jį pripildyti. Aš negaliu gyventi, rankas sudējus;
+        nesuprantu, koks tai ir gyvenimas butų! Esu neturtinga, dēlto reikia man butinai darbuotis ir veltui duonos nevalgyti. Bet jei bučiau ir labai turtinga, nesēdēčiau nieko nedirbdama. Man rodos, juog vietoje „misliju — ergo esmu”, galēčiau pasakyti:
+        „dirbu - ergo esmu.” Prasidarbavus per visą dieną, pavargus, prisibēgiojus, teip malonu atsisēsti vakare su knyga, juog nemainyčiau tuo nē su didżiausiu ponu.</p>
+      <p>Nuo Kalēdų reikia butinai atstatyti kambarinę mergaitę; atrandu, juog ji visai nereikalinga, jos dalį darbo galime atlikti męs pačios su Alenute; dalį-gi virēja. Vis-gi mažiaus teišleisi-me, o prie to reikia mums susivarżyti, nes ukē šioj gadinēj
+        neduoda daug pelno, o bankas su procentais nelaukia. Turēsiu dar vargo, kol tą savo užmanymą įvesiu! Tetušis teip šaukē, man pasakius, juog gaspadinēs nebreikia, juog męs użimsime jos vietą! Sakē, nieko nebusią iš to; męs buk dar per jaunos,
+        neišmanančios, neišpildysią jos darbų ir t. t. Bet padariau savo, ir lyg šiol, rodos, viskas gerai eina ir visoko išeina mażiau.</p>
+      <p>Gana rašyti šiai dienai.... Tētušis šaukia mane padēti jam perrašyti banko skaitlius; po to dar noriu paskaityti.</p>
+
+    </div>
+    <div type="chapter">
+      <head>12 lapkričio, panedēlis.</head>
+
+      <p>Prasidējo Alenutēs sąvaitē; man paliko daugiau laisvo laiko. Naudojuos, grajydama mażiausiai po dvi valandi. Nekenčiu ir negaliu grajyti, kad mane nuolat pertraukia, reikalaudami ko nors gaspadorystēje; dēlto tikrai tegerējuos muzika, budama
+        visiškai liuosa nuo tų reikalų. Šiandien galējau gērētis lyg soties, grajydama per tas dvi valandi Šopeną ir Beethoveną. Tai mano mieliausi kompozitoriai, ir nors żinau, juog toli man lyg išpildymo jų kompozicijų teip, kaip reikia, vienok suprantu
+        juos ir per-jaučiu visiškai, ir įsiklausiusi į tuos stebētinus balsus, paskęstu juose ir użsimirštu Ir galima tuojau numanyti, koks didis atskiris terp muzikos tokių Šopenų ir Beethovenų ir šeip-jau salio-ninių šmotelių: kliasiška muzika niekados
+        neatsibosta, o salioninē — labai greit. Aš esu labai permaininga muzikos dalykuose, kiekvienas daiktas, nors butų ir labai meliodiškas ir patiktų iš pradżios, neilgam laikui praējus, tankiai grajytas, atsibosta. O sonatas ir valcus girdżiu nuo pat
+        mażens; graiju, kaip tik geriaus grajyti pradējau, ir vis man jie grażus, vis rodos daugiau atrandu juose grażumo ir turinio. Ak, ta muzika, kaip ji man širdį pagauna! Nuo pat mażumo, kaip tik atminti galiu, darē ji ant manęs tokį įspudį, kaip niekas
+        kitas. Atmenu, mamai užgraijus maršą Šopeno, aš negalėdavau niekados išklausyti lyg galo: pradēdavau verkti ir išbēgdavau iš kambario. Paskui pati pradējau mokintis muzikos ir mokinaus lengviai ir su didżiu noru. Iš visų šalių girdējau nuolat, juog
+        turiu neabejotiną muzikališką talentą, juog butinai reikia man pasišvęsti artistiškai ka-rijerai. Aš ir pati jutau savyje šiokį - tokį gabumą ir vis mąsčiau palikti artiste. Norējau, pabaigus pensiją, važiuoti, į konservatoriją. Bet pasidarē kiteip.
+        Paskutiniuose metuose mano buvimo pensijoje mąstys mano persikreipē staigiai visiškai į antrą šalį, ir artistiška karjera išgaravo iš galvos. Atsitiko tai, pagal mano nuomonę, del dviejų priežasčių. Visu pirmu persitikrinau, juog materijališkas
+        padējimais mano tēvų yra gana blogas; dvaras, nors locnas, bet użstatytas banke, reikalauja daug darbo ir pasišventimo, idant nekliutų į maskolių rankas. Mano edukacija pensijoj kaštavo gerus pinigus, o aš, żinodama, kaip jie sunkiai prisieina
+        tēveliams, argi galējau reikalauti dar daugiau? O juog konservatorijai reikētų dar paskirti mažiausiai 4 metai, o prileidżius, kad galēčiau użsidirbti truputį lekcijomis, vis-gi didesniąją dalį reikētų imti iš namų. To padaryti negalējau.</p>
+      <p>Antra prieżastis teipogi svarbi. Štai, neveizint jau į pinigų dalykus, pradējau abejoti, ar verta apskritai paskirti savo amżių artistiškai karijerai. Ir ant galo abejojimai persimainē į persitikrinimą. Ne, neverta! O neverta dēlto, kad yra daug
+        naudingesnių użsiēmimų uż muziką. Neatmetu aš naudos ir reikalingumo muzikos, saugok Dieve! Negalēčiau to padaryti, pati teip ją mēgdama. Numanau gerai, kiek naudos, kiek laimēs atnešē żmonēms tokie genijai, kaip antai Šopen, Beethoven ir daug kitų.
+        Bet aš ne genijas — tai viena; o antra — nors ir mēgstu svajoti, vienok veliju reališkas savo triuso pasekmes.</p>
+      <p>Neżinau, ar gerai išaiškinau mano nuomones... Trumpai: nekaip budama artiste, dżiuginti żmones savo muzika dabar ir dar ateityje savo kompozicijomis, veliju sēdēdama namie, darbuotis ir mażinti iškaščius, kad żemēs šmoto neišleisti į neprietelių
+        nagus; veliju išmokinti nors keletą żmonių rašyti ir skaityti, nors keliems palengvinti sunkų gyvenimą. Ir dēlto tai atsisveikinau su savo artistiška karijera, dēlto stengiuos darbuotis, mażinti tarnaites, stengiuos iš visos dušios atnešti naudą
+        tiems żmonēms, kurie neturi pinigų nē išlavinimo, idant galētų naudotis artistų darbu. Ar atnešu daugiaus už tuos artistus? — tai jau kitas klausimas. Ak, Dieve, ar atnešu?!......... Šaukia mane ant arbatos — einu!</p>
+      <p>Vēliaus.</p>
+      <p>Ką tik pagērus mums arbatą, atējo daktaras su vizita. Buvo kelias valandas. Sēdējome visi salone uż stalo; daktaras kalbējo su tēvais, mażai su mumis. Aš visados esu nedrąsi su svetimu żmogumi, ir mažai jį tešnekinau. Atējo man noras użgrajyti,
+        bet nepradrįsau. Gal jis pripratęs prie geros muzikos ir nesmagu jam butų išgirsti tokią, kaip manoji. Pasirodē jis man labai linksmas ir guvus; sēdējo visą laiką ant vietos, bet matyti buvo, juog sunkiai jam tas prisieina. O grażus! grażesnis dar
+        kaip aną sykį klebonijoj. Mażą svarbumą turi dēl manęs żmogaus grażumas, bet vis-gi malonu pażiurēti į grażų veidą. Aš tai labai mēgstu, kaip</p>
+      <p>mēgstu grażumą visur ir visame. Gal linijos jo veido ne visai kliasiškai teisingos, bet visas jis grażus ir harmoniškai nuaugęs. Tinka man jo augštas stuomuo, juodi, ilgi, papurusi plaukai, tamsus veidas ir akįs mēlinos; stebētinai išrodo tos
+        šviesios akįs prie juodų, lyg anglįs, plaukų ir veido tikrai pietinio.</p>
+      <p>Man rodos, juog jis turi buti geras; vis-gi geistina butų arčiaus susipažinti. Żadējo ateiti dar kadą nors.</p>
+
+    </div>
+<div type="chapter">
+<head>13 lapkričio.</head>
+
+      <p>Apturējau laišką nuo vienos savo draugēs. Laiškas linksmas: tēvai jos turtingi, ji nieko nedirba, vażinējas į svečius ir bovijasi; iš vieno pokilio į antrą; per Užgavēnes į Varšuvą važiuoja... Ak Dieve! man net skaityti nuobodu, ne tik pačiai jos
+        vietoje buti! Kaip ji gali teip nieko nedirbti?! Jug ir aš mēgstu labai šokti, reikia prisipažinti, bet tik retkarčiais kelis sykius per metus; mēgstu šokius, kaipo atilsį po darbo, bet ne kaipo užsiēmimą. O ji pasidarē iš tų pokilių tikrai
+        užsiėmimą. Dēku už tokį gyvenimą!</p>
+      <p>Turiu dar vieną mokintinį: vežējas Stanislovas sakęs tarnaitēms, juog nedrįsęs manęs prašyti, bet labai norįs išmokti rašyti. Pavadinau jį ir paklausiau, ar tai tiesa. Nabagas Stanislovēlis paraudo, lyg mergele, ir pabučiavęs į ranką man, pasakē,
+        kad labai norįs. „Gal kur išvažiuosiu, sako, tai mokēsiu gromatą parašyti pas savųjų”. Gerai, mokįsimēs! Viena tik bēda: kaip aš jį mokysiu lietuviškai, kad pati nemoku?! Kalbēti moku šeip-teip; bet rašyti, kaip reikia, gramatiškai — nē trupučio...
+        Na, raidēs jug tokios pat, o rašys teip, kaip ištaria.</p>
+
+    </div>
+<div type="chapter">
+<head>14 lapkr. sereda.</head>
+
+      <p>Tankiai atsimenu laiką, praleistą pensijoj! Abelnai imant, geras buvo laikas, bet dēl manęs ne teip, kaip kitoms. Visu pirmu ilgējaus namų ir savųjų; prie to niekados nesijaučiau tenai teip gerai, kaip namie, ir negalėjau širdingai susibendrauti
+        su savo draugēmis. Su visomis gyvenau geruoju, bet visados buvo terp musų atskiris, Dievas żino, dēlko! Aš negalējau, duokime, niekados kartu su jomis įsimylēti į savo mokytojus. Juokingai man visados išrodē tie visi jų idealai: juodakiai ir
+        juodplaukiai... Aš savojo niekados neturējau ir neżinojau, kaip jis turi išveizēti. Kaip tik atmenu save, apie kokį tenai „idealą”, pagal nuomones daugumo mano draugių. Visados mēgau ir mēgstu svajoti apie ateitį, bet ne sykio toje ateityje nebuvo
+        vietos mano vyrui... Vis tik mąsčiau darbuotis daug ir naudingai perleisti gyvenimą... Bet mis-lis, juog galiu ištekēti, niekados man neatējo į galvą. Ar dar apie tokius niekus svajoti?! Gailu laiko!</p>
+
+
+    </div>
+    <div type="chapter">
+      <head>15 lapkr. četvergas.</head>
+
+      <p>Yra pas musų grażus paprotis: vakarais susirenka mergelēs tarnaites į valgomąjį kambarį su račiukais; kartais dirba kitą darbą, vilnas pešioja, ar plunksnas plēšo. Atvażiavus vieną sykį per Kalēdas, paprašiau mergaičių, kad użdainuotų. Iš pradżios
+        nedrįso, paskui użdainavo ir nuo to sykio dainuoja labai tankiai. Męs visi sēdime už sienos ir klausomēs. Tēveliai nesipriešina tam dainavimui, o aš tų dainų klausyčiaus ir klausyčiaus be galo. Neišpasakytai patinka man jos! Meliodija jų perdaug gal
+        monotoniška ir liudna, bet man teip suprantama ir teip gerai išreiškianti musų żmonių dvasią. Tarsi — matai rusvus, lygius laukus, nurukusias żemas triobeles; tarsi girdi tamsių miškų użimą.... Pamēgo man tos dainos nuo pat kudikystēs ir daug, daug
+        jų išsimokinau. Ir dabar tankiai įeinu pas mergaičių ir vedu vis naujas ir naujas daineles. Pradējau jas užrašinēti; tokiu budu surinksiu jų daugybę nuo tankiai persimainančių tarnaičių.</p>
+      <p>Kaip aš użrašinēju, Dievas żino! Negalima aiškiai suprasti galinių raidżių... Mislijau pirmu, juog lietuviška kalba jokios gramatikos, nē rašybos neturi; dabar jau żinau, juog ne teip yra. Mačiau net lietuviškus laikraščius pas p. Jono. Paēmiau į
+        rankas — nesupratau nē żodżio. Gailu! O teip norēčiau išmokti lietuviškai, teip man ta kalba reikalinga! Galēčiau paskaityti vakarais mergaitēms, galēčiau gerai išmokyti rašyti Stanislovą ir kitus... O juk mokyti juos lenkiškai perdaug sunku.</p>
+      <p>O jei ir lengviausiai butų, argi turētų kas tiesą ištautinti kokią nors tautą, liepti jai išsiżadēti savo praeities, kalbos, budo? Mokinti lietuvius lenkiškai, versti juos į lenkus, užmesti jiems lenkystę — ar tai ne ta pati idēja, kuria apimti
+        rusai, užmeta mums savo kalbą, naikindami kas yra lietuviška, tvirtindami, buk čia nuo amžių „ruskaja ziemlia”..?!</p>
+      <p>Lietuviai — tauta teip labai skiriantisi nuo lenkų, teip kitonišką turinti charakterį ir budą, — mokink juos dabar, juog Lenkija — jų tēvyne; lenkiška kalba turi buti jiems visubrangiausia!.. Tai reiškia — mokink, idant savo prigimtą, lietuviškąją
+        — pamestų, idant savo senovēs dainas permainytų į lenkiškasias............. Dieve! ar tai ne judošystē butų, ar ne didžiausia niekšystē?! O prie tokių konsekvencijų reikia prieiti liogiškai, nes negalima buti kartu lenku ir lietuviu....</p>
+      <p>Dabar ir aš štai: ant lenkiškos kalbos išlavinta, girdinti nuolat, juog esu lenkē, kas esu ištikrųjų?! Ar-gi galiu pasakyti, su ranka ant širdies, kad esu lenkē, aš, kurios tēvai ir bočiai Lietuvoje gimę, gyvenę ir mirę, kuri teip myliu Lietuvos
+        żmones, Lietuvos dainas, kalbą, girias ir laukus? Pripażinus save uż lenkę, svajodama apie tēvynę — Lenkiją, kokį sąryšį turēčiau su Lietuvos żmonēmis? Vezdama lenkišką propagandą, naikindama lietuvystę, ar gi galēčiau susiartinti su prastais
+        żmonēmis, ar mokēčiau juos apšviesti, pamokinti? Aš — lenkē, o jie lietuviai, stovētume toli-toli kits nuo kito.</p>
+      <p>Ne! gana jau to atsitolinimo, to skirtumo! O idant jis išnyktų, kad įtekmę turētume ant żmonių — reikia teippat jausti, kaip jie, teippat kalbēti, tą patį mylēti. Żmonēs apšvietimo reikalauja, duoti jį — priedermē kiekvieno inteligentiško żmogaus.
+        Bet apšviesti tegalima prigimtoje kalboje — ergo — reikia ją išdirbti, rašyti lietuviškai, išleidinēti laikraščius, reikia triusti apie išdirbimą savo literaturos.</p>
+      <p>Tai viena prieżastis sugrįżimo prie lietuvystēs. Bet yra antra — labai svarbi. Tai — priedermē żmogaus mylēti savo tēvynę. Lietuviška kalba użmiršta, neišlavinta, nēra jokios lietuviškos literaturos, vis tai tiesa, bet ar dēlto turime tiesą jos
+        visiškai išsiżadēti?! Sunus, apleidżiantis sergančią ir nuvargintą motiną - daro didesnę niekšystę, nē kaip apleizdamas ją laimēje. Musų tēvai paklydo, pametē savo kalbą - musų priedermē atiteisti jų kalčias.</p>
+      <p>Użima mane neišsakomai pakilimas slaviškų šalių; ir jos ilgai miegojusios susiprato ir atsibudo. Mums sunkiaus, żinoma, daug sunkiaus: gelżinē ranka „šiaurēs erelio” slēgia mus teip, kad atsidusti sunku... Neturime spaudos, neturime nē krislelio
+        laisvēs.... Bet tikiu tvirtai, juog tur buti geriau. Żinau, juog pradeda atsibusti Lietuva, pradeda kilti, darbuotis. Neperstodama dēkavoju Dievui uż pażinimą p. Jono, vieno iš tų pabudusių patrijotų. Dabar troškimas mano yra teipogi prisidēti prie
+        to żadinimo ir darbo.</p>
+      <p>Visu pirmu išmoksiu lietuviškai. Sunku tai bus, nes musų użkampyje nēra na nuo ko pasimokyti, nē lietuviškų knygų gauti. Mażai dar teżino pas musų apie tą visą judējimą, vienok tas nekliudo apšaukti visus lietuvius „Litvomanais” ir šnekēti apie
+        juos nebutus daiktus. Iš kalno żinau, juog meluoja, tauzija niekus iš apmaudos, ar iš kvailybēs. Bet jei kurs iš tų patrijotų ir elgtųsi ne teip, kaip man išrodo geriaus — tai koks tai sąryšis su pačia idēja pasikēlimo — nesuprantu!</p>
+      <p>Jug net anabaptistai pripażindavo evangeliją ir buk ant jos pasirēmę, darē visokias paleistuvystes, ar-gi iš to išeina, juog evangelija neteisinga ir reikia jąją atmesti?!</p>
+      <p>Tegul sau klysta nekurie, tegul turi įvairias pažiuras — idēja ta šventa ir augšta ir visomis spėkomis stengsiuos jai tarnauti.</p>
+
+    </div>
+<div type="chapter">
+<head>16 lapkr. pētnyčia.</head>
+
+      <p>Buvo vēl daktaras. Gana linksmai perējo vakaras (kaip retai). Šiandien jau truputį arčiaus susipażinova ir ne tokia buvau nedrąsi. Mēgstąs labai muziką, prašo użgrajyti. Grajijova ant keturių rankų su Alenute ir paskui aš viena. Jis teipogi
+        grajijąs ant smuiko, sako negerai temokąs, bet man rodos, juog perdaug nusiżemindamas teip šneka. Pradżiugau ir prašiau ateiti kadą nors su smuiku, pamēgįsiu akompaniuoti. Priżadējo. Daug turįs knygų, jei norēsime, galēsime naudotis iš jų. Tētušis
+        nelabai teużganēdintas juo, nes kortų nelošia, nebus dabar partne- rio prie visto; o aš użganēdinta visiškai: toks linksmas, meilus, o labiaus juog muzikantas... tai jau grajysime!</p>
+
+    </div>
+<div type="chapter">
+<head>17 lapkr. subata.</head>
+
+      <p>Skaičiau šiandien apie perlų gaudymą. Sunkus darbas! Naras įsileidżiąs į jures, negali buti vandenyje ilgiaus per 50-70 sekundų ir tai kartais pradeda jam bēgti kraujas per nosį, burną ir akis; nē vienas iš jų negyvena ilgiau, kaip 50-40 metų.
+        Prie to atsitinka tankiai, juog prażuva jie vandenyje tai visokių jurių gyvulių praryti, tai dēl stokos oro. Baisu pamislijus, kaip tie żmones vargsta ir żuva dēl tokių niekniekių! Nes kas iš tų perlų? kokią naudą jie atneša żmonijai? Visa nauda —
+        juog blizga ant baltų kaklų ir rankų... labai maża nauda, sulyginus su vargu, kurio reikalauja. O jug daugumas iš tų baltakaklių ir baltarankių żino gerai, kokiu budu yra gaudomi perlai, vienok juos nešioja ir perka. Juk jeigu niekas jų nepirktų,
+        turētų perstoti gaudę juos, o anie żmonēs užsiimtų kitu, mażiau pavojingu darbu. Gerai, kad neturiu nē vieno perlo: rodytųsi man, juog tai żmonių ašaros........</p>
+
+          </div>
+<div type="chapter">
+<head>18 lapkr. nedēlia.</head>
+
+      <p>Musų mergaitēs meldē manęs, kad išprašyčiau nuo tētušio leidimą pašokti šį vakarą. Pačios bijo eiti prie tetušio. Aš kitiems galiu prašyti nors ka-żin-kiek, tik sau kol pradrįstu — mi-sliju ir taisausi kelias dienas. Prašyti sau — man mirtis!</p>
+      <p>Tetušis šokti leido, tik su sąlyga šokti neilgai. Tuojau atvedē muzikantus ir ēmē drożti suktinį. Ir aš użējusi į šeimyninę prašokau kelius sykius. Labai mēgstu šokti ir mēgstu, kad kiti šoka. Dēlto visados prašau tetušio ir stengiuos, idant
+        šoktų, kadą tik nori. Visą sąvaitę dirbęs, reikalauja żmogus nedēlioj pasilinksminti. Ir teip jau musų žmonēs tiek mažai teturi pasilinksminimų; neleisti šokti, tai tiesiok stumti į karčemēlę: kas-gi kits bepalieka?</p>
+      <p>Iš pradžios nedrįso musų vaikynai šokti su mumis: įējus mums į šeimyninę net patys perstodavo šokę. Bet pamażi priprato ir dabar jau prieina prie musų ir veda šokti; pabučiuoja į ranką prašydami, pabučiuoja pabaigę; tarsi, Dievas żino, uż kokią
+        mylistą dēkavoja. Dieve mano! kokia tai mylista! Tokie jie żmonēs, tokia aš, gal jie dar daug uż mane geresni; o kad esu dau-giau išlavinta, kad grażiaus kalbu ir apsieinu — ar tai mano nuopelnas? Kad juos teip kas mokintų, kaip mane, gal butų jie
+        daug išmintingesni ir mandagesni uż mane. Nemēgstu tik, kad šoka jie „poniškai”: išmislijo kažin-kokius kadrilius, valcus — nē šis, nē tas, negalima suprasti, koks tai per šokis yra. gražesni yra tikrai tautiški šokiai, nes tuos atlieka jie gerai ir
+        atsakomai. Moku daug tų musų żemaitiškų šokių ir vis pradedu juos, įējus. Koks tai linksmas šokis „piršlys”! Paimtas gyvai iš gyvenimo, tikrai tautiškas: panelē sēdi ir laukia jaunikaičio; piršlys jį atveda, ir pagal budo, giria, kaip įmanydamas, o
+        jis, jei nenori tapti išrinktu, pasirodo aklu, raišu, kuprotu; o jei ant suolelio sēdi tinkanti jam mergele, eina lieknas, linksmas, narsus... Mergele jį išrenka ir pradeda abudu suktinį.</p>
+
+    </div>
+<div type="chapter">
+<head>19 lapkr. panedēlis.</head>
+
+      <p>Vartydama spintą su knygomis, radau vieną lietuvišką knygelę „Apie żemę,” parašytą Vileišio. Dżiaugiuos iš tų radybų, nes turēsiu ką paskaityti vakarais savo mergelēms. Visados, lyg akmuo, guli man ant širdies mislis, juog tie musų żmonēs gyvena
+        be jokio dvasiško peno. Nekalbu apie tą, kurį turi iš tikējimo. Bet apart maldaknygių retai kas temato kitas knygas. Pati mēgstu labai skaityti ir dēlto baisu man pamislijus, juog tiek żmonių turi apsieiti be skaitymo. O skaitymas juos labai użima:
+        perskaičius man vieną knygą, mergaitēs prašē, idant skaityčiau dar. Aš ir be jų prašymo skaityčiau, bet nelaimē — knygų man truksta. Gerai, štai dabar radau vēl vieną, bet perskaičius ir tą, vēl neturēsiu. Sunku man labai skaityti lietuviškai:
+        daugybēs żodżių nesuprantu visiškai, daugybēs nemoku ištarti. Kad bent greičiau galēčiau pramokti! Tankiai misliju sau, kokia tai nelaimē, kad teip pas musų persiskyrē ponai su sodiečiais, o svarbiausia ta prieżastis - pagal mane — yra įvairumas
+        kalbų. Prastas żmogelis, girdēdamas ponus kalbančius visiškai kiteip, kaip jis, mislija sau ištikrųjų esąs iš kito molio padirbtas — iš daug prastesnio. Mokysiuos, kaip galēdama. Dabar dar nieko nemoku. Uż tą truputį żodżių, kuriuos galiu suprasti iš
+        knygų, turiu buti dēkinga p. Jonui. Atvażiavo jis pas mus ant visų va-kacijų mokyti mano broliuką. Tēvai jo - sodēčiai, jis yra studentu. Susidraugavau su juo ir daug valandų praleidova kartu per vakacijas. Patiko jis man tuo, juog yra išlavintas,
+        daug skaito, daug mislija, geidżia ir jieško ko kito, ne kaip pašokti, gerą vietą gauti ir pilvą sau sotinti. Pas mus čę tokių nedaug, labiausiai terp dvarponių sunų. Jis teipogi, neżinau dēlko, nebēgo nuo mano draugijos, ir tokiu budu daug skaitēva
+        kartu, kalbējova, vaikščiojova. Priguli jis prie teip vadinamų „Litvo-manų” t. y. myli savo tēvynę ir kalbą. Turējo kelias lietuviškas knygas. Paēmiau vieną skaityti, buvo tai, rodos vertimas „Vallenrodo.” Veizējau, veizējau — nieko nesupratau.
+        Paēmiau „Aušros” knygelę; tę radau lengvesnius šmočiukus; pamażi pradējau suprasti żodżius ir sakinius; p. Jonas padējo ir teip perskaičiau kelias knygeles. Gramatikos jis neturējo tadą, bet priżadējo atveżti iš Maskvos, parvażiuodamas ant Kalēdų.
+        Dżiaugiuos labai iš to: apsakys jis apie lekcijas, profesorius, apie visą tą studentų gyvenimą, jų mislis ir veikalus. Męs čia sodżiuje sēdime lyg straigēs savo kaušiukuose; malonu nors retkarčiais išgirsti żinias ir turēti bent kokį nors susirišimą
+        su svietu, gyvenančiu daugiau proto gyvenimu. Ir dabar girdżiu apie tą visą nors per raštus, nes p. Jonas toks geras, juog rašinēja pas mane. Neprašiau to, apsaugok Dieve! Turiu tokią puikybę, kad prašyti nieko negaliu; tik pasiguodżius man vieną
+        sykį, juog jam išvażiavus, neżinosiu nieko, ką jie tę veikia, ką girdi — pats jis pasakē, juog su mielu noru pranešiąs man apie tai, jei leisiu. Ir tokiu budu susirašova: jis lietuviškai, ir aš teipogi surinkus spēkas, rašau laiškus ant pavyzdžio
+        Babelio bokšto: pusiau lenkiškus, pusiau lietuviškus. Neżinau, su kokiu jausmu skaito juos p. Jonas ir kiek supranta...</p>
+      <p>Labai geros buvo man pereitos vakacijos... Susipażinau pirmą sykį su lietuvišku judējimu, išgirdau, kas pas musų yra daroma. Patrijotiški dalykai teip użēmē mane, juog nuolat klausinējau p. Jono apie juos, prašydama vis daugiau apsakinēti. Širdis
+        augo man iš dżiaugsmo ir laimēs, juog Lietuva štai jau atgijo, atbudo iš ilgo, sunkaus miego... Bet nevisados buvo-va teip geruoju. Išgirdus apie partiją lietuvių, norinčių platinti apšvietimą be Dievo, liudna man buvo ir tankiai išreikšdavau
+        gailestį dēl tos prieżasties. O jis, żinoma, kaipo jaunikaitis pabaigos XIX amżiaus, uż niekus laiko viską, ko negali savo pirštais pačiupinėti. Mane-gi, tarsi, kas durte duria, girdint tokias nuomones apie tai, ką laikau uż šventą; apmauda ima, juog
+        żmogus nesupranta tokios aiškios, rodos, teisybes.</p>
+      <p>Vienas tai yra punktas; atstumiąs mane nuo p. Jono...</p>
+      <p>Liudna, kad yra tarp musų tokie šviesos platintojai, t. y. šviesos be Dievo... bet, kaip aš išmanau, yra tai „malum necessa-rium”. Dar tur but’, neużgimē tokia idēja, kurią visi vienodai priimtų. Tik, żinoma, reikia tam, kiek galint, priešveikti.
+        O kadą aš galēsiu tą padaryti? Kadą liuosai mokēsiu išreikšti savo mintis żodżiais ir raštais?!</p>
+
+    </div>
+<div type="chapter">
+<head>17 lapkr. utarnikas.</head>
+
+      <p>Mażne kas dieną rašau laiškus boboms pas vyrų. Parašiau kanakados vienai, ta tur buti, pasakē kitoms, ir palikau garsi laiškų rašytoja. Kur aš jau neprirašiau! bet daugiausiai į Ameriką. Juokingai kartais atsitinka su tuo rašymu: vieną sykį,
+        parašius man laišką, boba pabučiavo man į ranką ir išējo. Veiziu, ant stalo prie manęs guli auksiniukas. Nusistebējau iš kur jis čę atsirado; klausiu mamos, neżino; tadą puolē man į galvą mislis, ar nepaliko jo boba man uż parašymą... Begu į
+        verdamąją — dar ji tebsēdi — ir atiduodu jai, sakydama, juog, tur buti, użmiršo. Atspējau... Bobelē paraudo ir sako:</p>
+      <p>— O jug tai panelei uż parašymą... Jug negali vargti veltui. Vargamistrai visados tiek mokame, o panele daug grażiau rašai....</p>
+      <p>Juokai mane ēmē. Vos išaiškinau jai, juog aš ne vargamis-tra ir rašyti man ne vargas. Antra vēl moteriškē, žinodama kad pinigų neimu, atnešē man škaplerius grażiai jos pačios išsiutus, ir teip širdingai prašē priimti juos ant atminties, juog
+        atsakyti negalējau. Kiek tai vargų pażįstu aš iš tų laiškų. Dieve mano! Vyras išvażiuoja, visa ukē palieka ant pačios galvos; kiekvienas skriaudżia vargšę moteriškę! Uriadnikas ir raštininkas iš savo pusēs, o vyro giminēs iš savo. Gerai dar, kad
+        vyras atsiunčia pinigų — tadą dar puse bēdos; bet tankiai atsitinka; juog ta vyro giminē użpykus, įskundżia pačią vyrui ir tas, jei yra silpno charakterio, tiki ir apleidżia savo pačią, nesiųzdamas jai nieko.</p>
+      <p>Vyrų laiškai tankiai rašyti rusiškomis raidēmis, palikusiomis atmintyje dar iš mokyklos. Nemalonu ir sunku juos skaityti... Geda apima... gēda uż tiek inteligentų, kurie neatrado laiko ar noro, parodyti savo mażesniemsiems broliams, kaip reikia
+        rašyti lotiniškas raides... Kad bent iš lenkiško patrijotizmo pamokintų mesti rusiškas raides šalyn iš lietuviškos rašybos... Et! toks jų ir patrijotizmas! visas paremtas tik ant żodżių, ant svajonių apie lenkišką karalystę ir ant atminimų „senų,
+        gerų laikų”!...</p>
+
+    </div>
+<div type="chapter">
+<head>18 lapkr. sereda.</head>
+
+      <p>Labai prozaišką użsiēmimą turējau šiandieną, neżinau da-gi, kaip jį švelniaus aprašyti... Visą priešpietį stovējau prie mesi-nējimo — paršų! Pabaigus tą poetišką darbą, išējau su broliuku pasivaikščioti. Diena buvo aiški, saulēta, vējo jokio; žeme
+        visur pašalusi, galima pereiti visur, kur nori. Nuējova į mišką. Neišsakomai mēgstu mišką, vasarą, atsigulus ant kiminų ir įsmeigus akis į medžių viršunes, galēčiau teip buti be galo. Inkvepia jis ramybę, tylą... Niekur teip lengviai negalima
+        svajoti, teip aiškiai jausti gamtos grażumo. Bet dabar miškas išrodo bjauriausiai, tarsi, dvasios jame nēra. Paskui, nukritus sniegams ir użklojus żalias pušių ir eglių šakas, vēl bus jis, lyg kokia stebuklų karalystē.</p>
+      <p>Bobos milždamos karves, pasakojo daug šį vakarą apie daktarą. Giria jį kiek įmanydamos. Buk dabar veża jį ir veża, nes żmonēs serga labai, o jo gydymas gelbstąs. Neplēšiąs nuo żmonių, kiek kas duoda, tiek gana, o nuo neturtēlių neimąs nieko; net
+        patsai davęs keliems vaistus veltui ir dar pinigų palikęs reikalingiems daiktams. O koks švelnus! su kiekvienu pašneka grażiai, kiekvieno išklauso... Gyrē teip jį bobos ir gyrē be galo. Ir man jis iš karto pasirodē geras. Gailu, kad nebeateina!
+        Žadējo atnešti smuiką— ir nēra... Tur but, ligoniai visą laiką užima.</p>
+
+    </div>
+<div type="chapter">
+<head>19 lapkr. četvergas.</head>
+
+      <p>Inbēgo brolytis sakydamas, juog ledas geras ant Ventos. Tuojau pasiēmēme čiużyklas ir nuvējome. Ištikro, ledas dailus, slidus, kaip stiklas. Važinējomēs, kol sutemo, ir tai dar nenorēdama grįžau namo. Kokia maloni pramogē tas čiužinējimas! Mēgstu
+        šokti ir jodinēti, bet šokiai ant paskutinos vietos stovi. Gal dēlto, juog turi jie savyje daugiausiai nenaturališko: padirbta šviesa, suspaustas oras, ir t. t. O čę leki, lyg paukštis liuosas, daug erdvēs, daug oro, aplinkui tik gamta...</p>
+
+    </div>
+<div type="chapter">
+<head>20 lapkr. pētnyčia.</head>
+
+      <p>Ateina kartais man sunkios valandos... Apima abejonē, ar atnešu aš kokią naudą savo gyvenimu. Ką aš čę gero darau? Išnykus man iš svieto, ar kas bent pajustų?!.. Gyvenimas vis eina ir eina savo keliu, żmogus vis arčiaus ir arčiaus mirties, o
+        pa-mislijus, kaip sunaudojai tas praeitas dienas, baimē apima! Rodos, nieko nedirbu, niekam iš manęs naudos nēra, niekas nepajus, ar buvau ant svieto, ar ne... Ir toks apima mane nusiminimas, teip man sunku, juog vietos sau negaliu rasti. Rodos,
+        eičiau ant svieto galo, kad tik tę gerą darbą dēl savęs matyčiau. Kartais rodēsi man, kad palikus mielaširdystēs seserimi, użganēdinčiau savo troškimą: tada jau tikrai visas spēkas atiduočiau ant laimes artimų ir matyčiau kas dieną naudą iš savo
+        darbo...</p>
+
+    </div>
+<div type="chapter">
+<head>21 lapkr. subata.</head>
+
+      <p>Mažai turime čę kaimynų; dvarų yra, bet vis išduoti aren-don. Vieni tik pp. Butautai gyvena arti ir tankiai su jais susieiname. Bet pas mus svečių netruksta: tankiai ateina kunigai, atvažiuoja gentys, kurių yra daugybe. Żinoma, pokilių nēra visai;
+        nebent per šventes ar vakacijas jaunumenei susirinkus, bovijasi ir musų kraštas. Mano pażįstamos panos gailisi manęs, kad teip sēdžiu tyliai. Bet man niekados neilgu, by tik turēčiau knygų ir fortepijoną. Ta musų draugija visiškai netraukia manęs
+        prie savęs, ir turēdama geras knygas ir naujas gaidas, šimtą sykių veliju pasilikti namie, kaip vażiuoti ant pokilio. Aš pustelninkēs budo neturiu ir pasilinksminti mēgstu, bet tiktai tokioje draugijoje je, kurioje man tikrai yra malonu. O čę,
+        nuvażiavus, reikia tik żiovauti ir gana. Panos kalba apie kavalierius ir parēdnes; ponios skaito nuodēmes savo kaimynų, o su ponais pašnekēti valandēlę, tai tikriausias vaistas użmigti tuojau. Bet ne visados ir użmigti tegalima, nes tankiai jų kalbos
+        teip įerzina, juog tverti negalima ant vietos.</p>
+      <p>Vienas, pavyzdżiui, sako:</p>
+      <p>— O tai, panie, żmonēs pas mus! Perstatykite sau: vakar einu per savo kiemą ir sutinku du veżimu bevażiuojant; żmonēs ēiuri į mane, mato, juog esu ponas, o kad bent ranką prie kepurēs prikištų! Apmauda mane apēmē. Sušukau, kad sustotų, klausiu: Iš
+        kur jus? „Męs iš fabrikos pono L.” sako, tarsi iš</p>
+      <p>kokios karalystēs. O dēlko, durniai, nenuimate kepurių, vażiuodami pro mano kiemą?! Aš jums duosiu kitą sykį! Vażiuokite aplinkui, jei nemokate apsieiti, kaip reikia! Ar tai ne gyvuliai?! Gyvuliai, tikri gyvuliai, panie!</p>
+      <p>Kitą sykį vēl kalbu su vienu ponu. Turi jis arti musų dvarą, bet gyvena antrame, netol’ nuo Gardino. Klausiau jo, kokie tenai żmonēs, kuo użsiima. Jis atsakē, juog labai neturtingi, nes żemē prasta, nemoka jie vesti ukēs ir t. t. Pasigailējau jų,
+        bet jis tarē:</p>
+      <p>— Tai ir gerai! Geriausiai gyventi tę, kur żmonēs neturtēliai: neturi puikybēs, bijo pono, klauso, nuolat į rankas bučiuoja, jauti bent ponu esąs!</p>
+      <p>Żinoma, ne visi tokie: yra ir gerų żmonių augščiau ir plačiau żiurinčių, bet nedaug, nedaug!</p>
+
+    </div>
+<div type="chapter">
+<head>22 lapkr. nedēlia.</head>
+
+      <p>Po pietų šiandieną nuvażiavova su Alenute pas Butautų. Yra tai šeimyna, su kuria tankiai matomēs. Susideda ji iš motinos, dukters ir sunaus. Pana Ona ne pirmos jau jaunystēs, mażai jai tur but’ truksta lyg 30; svarbiausiu jos noru yra ištekēti.
+        Dēlko lyg šiol neįgijo tos laimēs — Dievas žino! Iš pradżių pati atmetusi porą konkurentų, kaip sako, paskui neatsiradę amatorių; ne perdaug ji grażi ir svarbiausias dalykas —neturi pasogo. Protiškas horizontas siauras, vienok turi ji geras puses:
+        nesēdi sudējus rankas ir turi gerą širdį. Jų materijališkas padējimas yra gana blogas, tai gi pana Ona daug dirba; tarnaičių laiko mażai, pati atlieka darbą ir virējos, ir gaspadinēs. P. Juozapas dar jaunas kavalierius, pirmus metus tegaspadoriauja.
+        Kaip visi musų dvarponiai, negalēdamas ilgiaus buti gimnazijoj’, pagrįżo namo ir tapo gaspadorium. Bet nepriguli jis prie anų dvarponių, apie kuriuos augščiau minējau: yra geros širdies, ne puikus, gerai apsieina su żmonēmis. Parako neišmislys, bet
+        apskritai sakant, żmogelis geras. Sēdējome pas jų visą vakarą. P. Ona labai sujudinta parvażiavimu naujo daktaro. Matē jį bażnyčioje ir patiko jai. Klausinėjo po šimtą sykių, kadą pas musų buvo, ką kalbējo, kaip sēdējo; pavydi labai, kad pas mus
+        buvo, o pas jų dar ne.</p>
+      <p>— Tik veizēk tu, Viktute — tarē man — nesugauk jo! Rimta sau, tarsi nieko neišmananti, o sau patyliais ir pagaus man iš panosies tokį „cacą” vaikiną!</p>
+      <p>Juokai mane ēmē! kaip tai kiekvienas pagal savęs sprendżia!</p>
+      <p>P. Juozapas juokiasi, juog dabar umai atsirado daugybe reikalų į miesčiuką ir vis Onytē pati turi juos aprupinti. Visus arklius, sako, jau suvażinējus, bekeliaudama. Bet, ant nelaimēs, daktaro nē sykį nesutikus.</p>
+      <p>Nepasiseka man tą dieną: pagrįżusios namo, radome mamą dar neatgulusią.</p>
+      <p>— O męs teipogi svečius turējome — pasakē ji: — Buvo</p>
+      <p>daktaras, atnešē gaidas, ketindamas padainuoti; gailējosi labai, neradęs jųsų. Vienok sēdējo gana ilgai; teip linksniai praējo vakaras, toks jis simpatiškas. O savo gaidas paliko tę ant fortepijono.</p>
+      <p>Nubēgau perżiurēti gaidas. Buvo tę kelios dainos, grażios, liudnos — kokias mēgstu labiausiai. Gailējaus labai, kad nebuvau namie. Teip retai čę tegalima muziką išgirsti, šiandieną bučiau prisiklausiusi dainavimo, o dabar, štai tau! Kad Onytē
+        żinotų mano gailestį, dar daugiau użsitvirtintų savo nuomonēje apie gaudymą! Bet mane ne tiek pati ypata interesuoja, kiek muzika. Kad vietoj daktaro butų kokia daktare, vis tiek, gailēčiaus, negalēdama teip meiliai praleisti vakaro.</p>
+
+    </div>
+<div type="chapter">
+<head>27 lapkr. pētnyčia.</head>
+
+      <p>Kad dar nebuvo pas mus daktaro, mama davinējo kartais patarmes ligose; daug pacijentų ateidavo. Dabar siunčia visus juos pas daktarą, o pati gydo tiktai gyvulius. Šiandieną gavau prisijuokti. Ateina żmogus, senelis ir sako, norįs vaistų. Klausiu
+        jį, kas serga, ar žmogus, ar gyvulys. O jis verksmingu balsu sako: „Ne żmogus, panele, ne żmogus — boba!”</p>
+      <p>Maż neplyšau juokais! Jau pabaiga XIX šimtmečio, o vargšēs bobos vis dar nēra uż żmones laikomos!</p>
+      <p>Użkvietē mane į kumus pas pp. P. į Użkampius. Krikštynos nedēlioj, reiks vażiuoti tenai, nes krikštys namie. Nelabai tenorējau, bet nesmagu atsakyti.</p>
+
+    </div>
+<div type="chapter">
+<head>30 lapkr. panedēlis</head>
+
+      <p>Jau ir po krikštynų... Ak, gailu! Teip buvo linksma, teip gerai!</p>
+      <p>Bet reikia pradēti iš pradżios. Vakar atvażiavo iš bażnyčios p. P. ir prašē, idant paimtume daktarą ant savo arklių, nes ir jį użkvietęs, susipażinęs su juo pas save, kad atvażiavo gydyti. Tetušis priżadējo paimti. Pavalgę pietus, iškeliavome
+        trejuose šla-jukuose po vieną arklį: mama su veżēju, aš su Alenute, trečias arklys buvo dēl daktaro. Nuvażiavome pirmiau, paskui daktaras. Maloni tai buvo kelionē: oras tylus, minkštas, kelias, lyg sviestu pateptas, nes buvo mażas atlidys. Lēkēme
+        teip greitai, kaip tik arkliai galējo pabēgti. Neżinau, dēlko buvo man teip linksma, juog negalējau nusēdēti ant vietos: pasilenkdama iš šlajukų, grobiau sniegus ir lipdżiau gniaużtas, tik, gailu, neturējau ant ko mesti. Użkampiuose radome jau
+        kunigą, dar keletą svečių ir tuojau prasidējo krikštynos. Paskui išsiskirstē visi po kerčias ir ēmē šnekētis. Prie manęs priējo daktaras. Pradējo tuojau gailētis ir guostis, esąs toks nelaimingas:</p>
+      <p>— Tiek laiko rengiaus eiti, prisirengiau ir neradau tamstų namie — sako.</p>
+      <p>Aš teip-gi išreiškiau mano gailestį.</p>
+      <p>— Ne didi bēda! — pridurē jis — galima lengviai ją pataisyti!</p>
+      <p>— Prašau pataisyti kuogreičiausiai, ant visokių skyrių muzikos turiu galvą pramuštą.</p>
+      <p>Daug tą vakarą su daktaru kalbējova. Klausiau, kaip patinka vieta ir musų kraštas, apie praktiką. Pasakojo jis, turįs daug darbo; daug visokių atsitikimų pasakojo, vażinējant jam prie ligonių, kartais juokingų, kartais liudnų. Kalba jis użimančiai
+        ir samoningai, malonu klausyti. Użvis gal dēlto malonu, juog kiekviename jo pasakojime matytis tokia gyli żmonių meilē ir noras palengvinti jų vargus.</p>
+      <p>Turįs nemaż knygų, klausē manęs, ar nenorēčiau jomis naudotis.</p>
+      <p>— O gal tamsta norētumei arčiaus su Lietuvos istorija susipażinti? — paklausē: — Turiu gerų studijų apie tai: išleisti jie naujai, pagal geresnių šaltinių uż tuos, ant kurių pasirēmę lenkai rašydavo apie musų tautą.</p>
+      <p>Atsakiau, juog jei tik duotų, kur aš ne norēsiu! Viskas, turįs sąryšį su Lietuva, labai mane użima. Norējau jo paklausti, ar neturi kokių lietuviškų knygų, bet jam pačiam apie tai neminējus, nedrįsau. Patiko jis man dar didżiau: išlavintas,
+        protingas, linksmas. Mażai tesveria żmoguje paviršutiniai apsireiškimai, vienok mēgstu labai visur delikatiškumą ir aistetiką: delikatiškus jausmus, grażus judējimus —vienu żodżiu, aistetišką apsiejimą. Nereikia tik maišyti to su susivarżymu, kurs
+        apsireiškia apsiejime daugybēs panų ir ponų. Yra tai visiškai kas kita. Mačiau prastus żmones, negirdējusius, gal, nē sykio savo amżyje „kas išpuola, o kas ne”, vienok teip aistetiškus ir švelnius visuose savo judējimuose, apsiējime, kokiais neyra
+        visi aristokratai. Tur buti, yra tai prigimta żmogui ir paeina nuo jo individuališkumo. O daktaras prie tokių priguli. Man, teip mēgstančiai visur grażumą ir švelnumą, neišsakomai malonu žiurēti, kaip jis kiekvienam švelnus ir su kiekvienu meilus. Ir
+        matai aiškiai, juog nēra tai toks švelnumas paeinantis iš kodekso „neišpuola”, bet paeinąs tikrai iš priepratimo mislyti daugiau apie kitus, nekaip apie save. Malonu żiurēti ir į jį patį: juodai apsivilkęs teip grażiai išrodē, nors tepliok. Buvo tai
+        tikras muzikališkas vakaras; dainavo solo viena ponia labai daug grażių dainų, dainavome paskui choru. Daktaro balsas skyrēsi nuo kitų: minkštas toks, grynas tenoras. Laikas greitai bēgo; nepajutau kaip atējo antra valanda ir reikējo grįżti namo.</p>
+      <p>Naktis lyg iš pasakos išimta: šviesi, tyli... Visur tyla, tyla, ir balta... tik skamba varpelis prie arklio vażiuojančios pirmiau mamos ir retkarčiais purkščia žirgeliai... Man ir liudna pasidarē, ir linksma, ir gailu... Sunku buvo sēdēti
+        ramiai... Norējau dainuoti, svajoti, verkti... Girdētos meliodijos nedavē man ramumo, reikējo jas išdainuoti. Pradējau pirma pusbalsiu, paskui visa krutine, išdainavau visas girdētas šį vakarą dainas, paskui pradējau seniai pażįstamas, net gerklę ēmē
+        skaudēti, kol privażiavome prie miesčiuko. Tadą nutylau. Daktaras pamostē su kepure, sušuko „laba naktis” ir nulēkēme namo. Laikas buvo miegoti, vienok mačiau auštant... Neżinau pati, kas man buvo... Ausyse vis skambējo dainos, akyse vis stovējo....
+        daktaras!... Supykau ant savęs, su mielu noru išperčiau save! Mano bēda, kad esu tokia, kaip styga ištempta: tik prisilytēk — kaip użskambēs, skamba ir skamba. Pamačius ką grażų ar išgirdus — nēra ramumo ilgam laikui...</p>
+      <p>Šiandieną jau perējo ta „varijacija”. Nusiraminau, ištuštējo akys ir ausys, dēku Dievui. Gerai, laiko nēra svajonēms: pabaigus lekcijas su Kaziuku, turējau daug darbo svirne su grudais.</p>
+
+    </div>
+<div type="chapter">
+<head>1 gruodżio, utarnikas.</head>
+
+      <p>Buvau pas Kasperų. Vargingi tai żmonēs! Turi savo trio-belę ir šmočiuką darżo, bet sunku iš to pragyventi. Pats senas jau, negali sunkiai dirbti, vaikų buris, o pati guli dabar serganti. Tur but dżiovą turi, nes tankiai kraujai eina iš burnos ir
+        krutinę skauda. Per vasarą dar laikēsi, bet dabar atsigulē. Išdżiuvo, kaip lenta, kosējo teip, juog negalima tverti trioboje; bet apetitą turi, kad tik butų ką valgyti. Nunešiau jai geros duonos ir pyrago. Čę pat panosui turi daktarą, o neeina pas jį. Żinoma, żmonēs neturtingi, neturi iš ko użmokēti. Pasakiau, kad
+        daktaras neims, tur but, nieko ir liepiau jį atvesti pas ligones. Sumislijau siųsti jai pietus kas diena; nuo musų visados palieka valgių, nes sunku išskaityti tikrai; galima bus sutaisyti pietus ir Kasperienei. Prisakiau seniui, kad kas diena su
+        puodżiuku ateitų.</p>
+
+    </div>
+<div type="chapter">
+<head>2 gruodžio, sereda.</head>
+
+      <p>Vakaras šiandieną tikrai rudeninis; tamsu, nors durk į akis, vējas pučia, tarsi namus tuojau sugriaus, vaitoja, dejuoja, švilpauja, użia visokiais balsais. Yra sakoma, juog svetys tokiam laike visados labai mielas. Iš tikrųjų — musiškis buvo
+        labai, labai mielas.</p>
+      <p>Sēdējome prie arbatos, kadą kas żin kas įējo į salioną. Veiziame — daktaras su smuiku ir ryšeliu gaidų ir knygų. Nusistebējome, kaip pradrįso keliauti tokiame laike. O jis juokdamasis atsakē:</p>
+      <p>— Vējas atnešē! Toks baisus koncertas lauke, juog vienam sēdēti pasidarē nesmagu. Mēgstu labai sēdēdamas šiltame kambaryje, klausyti tokių pugų uż langų ir żinoti, juog jos man nieko negali padaryti, bet tik ne vienas budamas tarp keturių sienų. O
+        ir galētis teip su vēju — malonu, kaipjis nestumdo, kaip nepučia, vis nieko nepadaro: eini sau żmogus tolyn ir gana. Kuo nenustums mane nuo tilto į Ventą...</p>
+      <p>Tetušis pradējo kalbą apie naujienas iš laikraščių ir įvażiavęs į politiką, apšnekējo kartu su daktaru prietikius Bismarko su Vilhelmu ir visokias pasekmes, galinčias iš jų išeiti. Perstojus jiems kalbant, nudżiugau:</p>
+      <p>— Mačiau tamsta smuiką atsinešei, nors vieną sykį be negalēsime pagrajyti.</p>
+      <p>— Nedrįsau, matai tamsta. Bet kad jau tamsta darai tokią malonę ir nori man akompaniuoti, neišturējau ilgiau.</p>
+      <p>— Kaip tai gerai — atsiliepē mama. — Aš labai mēgstu smuiką su fortepijonu, o girdēti retai teatsitinka. Prisiklausysiu bent šį vakarą.</p>
+      <p>— Tai aš dabar bijau ir pradēti — pasakē daktaras. — Tamsta misliji, juog galēsi klausyti, o mane baimē ima, ar nebēgsi, kur nebus to koncerto girdētis.</p>
+      <p>Po arbatos nuējau su daktaru į salioną.</p>
+      <p>— Atnešiau porą duetų — tarē jis — be nepamēgįsime?</p>
+      <p>Nieko tamsta neminējai, juog dainuoji teip grażiai. Bet dabar jau żinau. Vos išsēdējau savo šlajukuose, grįżdamas iš krikštynų: norējau dangintis pas tamstas ir prašytis priimti mane nors uż veżēją: norējau pritarti tamstai ir arčiau išgirsti. Bet
+        ir teip buvo gerai... tik viena nelaimē, juog kelias tas toks trumpas!</p>
+      <p>— Ką tamsta šneki niekus! aš visiškai dainuoti nemoku ir dainuoju vien pati sau. Ir aš dainuočiau dabar duetą?! Ne! to nepadarysiu!</p>
+      <p>Smuikas prisitraukē drēgmēs ir tuojau grajyti nebuvo galima. Paprašiau iš pradżių padainuoti, ir išrinkau „dumką”. Kaip jis grażiai dainuoja, tas daktaras! Balsas grynas, minkštas, lyg aksomai, jausmingas... Iš antrojo kambario pradējo delnais,
+        ploti ir prašyti daugiau. Dainavo dar vieną ir dar vieną, o aš vis dar prisiklausyti negalējau. Paskui pradējova grajyti. Visi tie jo grajyti daiktai nelabai sunkųs; matyti, technika ne perdaug išdirbta, nes grajija neseniai, bet kiekvienas tonas iš
+        širdies liejasi, smuikas verkte verkia jo rankose.</p>
+      <p>— Garbē Dievui — juokēsi jis pabaigęs — juog jau pradżia padaryta; busiu dabar drąsesnis. Visai kitas daiktas grajyti su fortepijonu ir dar su tokia akompaniatore, kaip tamsta.</p>
+      <p>Begrajydamu šnekējovos. Atnešē kelias priżadētas knygas. Girdēdama jį teip żingeidżiai kalbantį apie Lietuvos istoriją, pra-drįsau użklausti, ar nēra pas jo ir lietuviško ko nors; pasakiau, juog trokštu išmokti tos kalbos, nes ir meili ji man ir
+        reikalinga.</p>
+      <p>Ir kad nieko nebutų atsakęs, bučiau żinojus, juog jis — vienas iš tų „atbudusių”; veidas jam lyg prašvito, akys ēmē żibēti klausant tų mano troškimų.</p>
+      <p>— Ne tik knygų pristatysiu, bet ir padēsiu išmokti — tarē. — Kaip gerai, kad tamsta išreiškei savo norus, ir kaip gerai, kad turi juos!</p>
+      <p>Pasakiau jam toliaus savo mislis ir nuomones apie lietuvystę, kurias jau, rodos, użrašiau pirmiau tame dieninyje. Prisipażinau</p>
+      <p>juokdamasi, juog vos tik išgirdus apie jo atvażiavimą, pradējau mąstyti, be nebus tas daktaras, „litvomanu”, be neduos Dievas... Musų użkampis giliai dar saldżiame miege paskendęs — labai jam reikalingas żadintojas; o antra nauda - aš pati
+        galēčiau išmokti lietuviškai ir prisiartinti prie kuopelės tēvynės mylētojų.</p>
+      <p>Daktaras prasijuokē:</p>
+      <p>— Matai tamsta, Dievas ir davē: esu „litvomanu”! O aš nē sapne nesapnavau atrasti čionai sandarbininkę ir mokinti-nę. Pagelbēsiu tamstai, kuo tik galēsiu.</p>
+      <p>Prižadējo atnešti gramatiką ir kitas knygas. Kokia tai laimē! Mano troškimas pradeda įvykti: išmoksiu lietuviškai, susi-pažįsiu arčiau su musų patrijotų veikalais — o paskui — paskui gal ir pati veikti pradēsiu!..</p>
+      <p>Rodos man, juog naujas horizontas atsidarē prieš mane: teip lengva ant širdies, gyvenimas pilnesnis, daugiau turinio turintis ....</p>
+      <p>Visą vakarą persēdējome prie fortepijono, net kojos nutirpo. Patiko visiems musų koncertas, prašē tankiau juos daryti. Ir aš priduriau nuo savęs prašymą, kad dar kadą nors ateitų su smuiku, bet labai nedrąsų prašymą. Apskritai — neprašiau labai
+        nieko, ypač neużsimetu su savo draugyste, vis bijodama buti użsimetanti. Nori eik, nenori — ne. Jau vēlai... Alenutē miega, o aš sēdžiu viena ir atsimenu girdētas dainas.</p>
+
+    </div>
+<div type="chapter">
+<head>4 gruodžio, pētnyčia.</head>
+
+      <p>Buvo daktaras ir atnešē man lietuviškas knygas. Neišsakomai laiminga esu: turēsiu ką paskaityti mergaitēms ir pati pradēsiu mokytis kaip reikia. Sako jis, juog iš pradżių geriausiai skaityti kartu, użrašinējant nesuprantamus żodżius, jis aiškįs
+        man tei-pogi nekuriuos sakinius ir gramatiškas formas. Paskui mokysiuos gramatikos, rašysiu po biskį. Šį vakar pradżjova skaityt vieną apysakēlę ir nieko sau, sekasi. Sako mano mokytojas, juog żiemai użstojus, ligonių susimażino, turįs viltį, kad
+        suras laisvų valandų lekcijoms. Sutemus, sako, tarsi kas traukte traukia pasikalbēti ir pagrajyti. — Galiu tikrai atsibosti tamstoms — pridurē.</p>
+      <p>Prasijuokē visi ir užkvietē ateiti kuotankiausiai.</p>
+      <p>Atējo šiandieną viena boba prašydama parašyti laišką pas jos brolį, kursai yra ant Sachalino. Użsiimdavo jis gabenimu knygų iš Prusų ir tapo sugautas ir išsiųstas į katorgą. Daktaras, žingeidus, ką kalbu su boba, įėjo į valgomąjį kambarį.
+        Paprašiau, kad parašytų uż mane, kaipo geriau mokąs lietuviškai. Jis rašē, o aš padējau sustatyti sakinius. Išējo ilgas laiškas ir teip širdingai ir poetiškai parašytas, juog boba klausydama verkti pradējo. Davē tris rublius įdēti į vidų ir prašē,
+        kad aš tą laišką iš-siųsčiau. Jai išējus daktaras išēmē iš kišeniaus antrus tris rublius ir įdējo su anaisiais, sakydamas:</p>
+      <p>— Neverta siųsti teip mažai — tokia kelionē! — Tebunie jau ir tie kartu!</p>
+      <p>Gerą jis turi širdį... Ak Dieve! Kad aš turēčiau daugiau pinigų, kiek gero galēčiau padaryti! Tiek yra bēdos pas musų! O teip malonu padēti kitiems, palengvinti vargus... nēra man didesnes laimēs...</p>
+
+    </div>
+<div type="chapter">
+<head>5 gruodżio, subata.</head>
+
+      <p>Po lekcijų su Kaziuku ir po pietų nubēgome su čiużyklomis ant prudo. Netrukus atlēkē iš antros šalies ir daktaras. Gerai jis vażinējasi: greit kaip vējas, sumaniai. Negalējau atsiveizēti, teip grażiai išrodē trumpuose kailiniukuose, apsiutuose
+        żilais ēriukais ir juodoj jērinēj kepurēj’. Vażinējomēs kartu pasiēmę uż rankų; pati viena nemoku bēgioti labai greitai, bet drauge su daktaru lekiu ir aš paukščiu; jis toks tvirtas, juog turēdamasi uż jo rankų, kaip uż kokio muro stoviu. Išējo kalba
+        apie sportus. Pasakiau, juog jis, tur buti, labai mēgsta šokti; bet kaip nusistebējau, kada jis man atsakē, nešokąs visiškai, da-gi nemokąs. Nusistebējau dēlto, nes yra jis toks guvus, sukrus, gracijoziškas, kad sunku prileisti, juog šokti nemoka ir
+        nemēgsta. Pasakiau tą savo nuomonę ir dar paklausiau, ar niekados nē sykio nešoko?</p>
+      <p>— Gal ir esu šokęs, budamas kudikiu, bet kad atmenu save, niekados. Gimnazijoj nešokome iš principo: viešpatavo tadą pas mus tokia nuomone, juog tuos mokintinius, kurie vaikštinējo po pokilius, mokēsi šokti, mēgdavo grażiai apsirengti, laikēme uż
+        niekšus, veizēdami į juos iš augšto ir su pasigailējimu. Ir tikrai, buvo tai vis vaikinai, kuriems daugiausiai rupējo asistuoti panoms ir kurie knygų, apart moksliškųjų, bijojo lyg żydas kryżiaus. An-tras-gi buris, prie kurio ir aš prigulējau, buvo
+        tai vis żmonēs rimti, daug misliją. Atmenu, aš retai savo lekcijų tesimokiau — nebuvo laiko: vis skaičiau ir skaičiau. Paskui, susirinkus mums, kilo ginčai, visokie augšti projektai; pervertinėjome svietą stačia galva, griovēme karalystes, statēme
+        naujas... Laimingas laikas! Tai-gi, tokiu budu, per visą gimnaziją apie šokius nemisli-jau. Universitete-gi, nors jau ant tiek išaugau, kad nesprendżiau apie żmogų iš to, ar jis šoka ar ne, vienok nejaučiau noro išmokti jau dēl kitų prieżasčių,
+        kurios ir dabar mane nuo šokių užlaiko.</p>
+      <p>— Akyva žinoti, kokios tai?</p>
+      <p>— Matai tamsta: pagal mano nuomonēs, pasigērējimas, kurį duoda šokiai, išeina ne iš jų pačių, ne iš paties to proceso šokimo, bet iš to, juog yra jie atliekami tarp ypatų įvairios lyties. Tas pasigērējimas visiškai neideališkas, bet išeina iš żemų
+        żmogaus instinktų.</p>
+      <p>— Ar-gi tai tiesa?!</p>
+      <p>— Pamislyk tik tamsta gerai, ar nesutiksi su manim. Jeigu butų kitaip, tai dēlko nešoka panos su panomis, o vyrai su vyrais? Dēlko tokių šokių nemēgsta? Jug tankiai išgirsi nuo visokių ypatų: „koks čę pasigērējimas šokti tarp savęs!” Iš to išeina,
+        kad meilųs ne tie šokiai, bet tas susiartinimas su antrąja lytimi, kas be šokio nēra priimtas.</p>
+      <p>— Ar-gi ir aš dēl tos prieżasties mēgčiau šokti! Ką tamsta kalbi?!</p>
+      <p>— Neużdavei sau tamsta niekados klausimo, kas tai yra šokiai, nemislijai apie tai. Aš nesakau, juog nėra išimčių — yra, żinoma. Iš atżvilgio aistetikos malonu yra pażiurēti ant grażių šokių, pasistebēti iš gracijoziškų judējimų. Bet, tiesą sakant,
+        šokiuose pas musų sunku atrasti aistetiką; tikrai aistetišką pasigērējimą duoda tik šokiai teatruose. Bet pačiam įsimaišyti į burį, pradēti apkabinēti tai vieną, tai antrą paną — dēku!</p>
+      <p>Pradējau juoktis. Neišsakomai keistu man pasirodē girdēti tokias nuomones nuo tokio jauno ir grażaus vaikino. Jis juokēsi teipogi, pridurdamas:</p>
+      <p>— Toks jau esu, ką padarysi! Man rodos, jei kadą ką mylēčiau, labai sunku man butų matyti tą mylimą ypatą šokant. Neduok Dieve, koks tai turi buti jausmas matyti, kaip kiekvienas ima sau ją, apkabina ir glaudżia prie širdies! Galima uż šimtą kalnų
+        pabēgti, tai pamačius!</p>
+      <p>Pirmą sykį girdējau tokią nuomonę apie šokius. Negalējo ji man iš galvos išeiti ir turiu pripażinti jai daug, daug teisybēs. Aš iš savo pusēs, niekados tokio jausmo neesu turējusi, bet apie kitus to pasakyti negaliu. Neilgai tebuvome ant ledo:
+        atējo żmogus ir išveżē daktarą prie ligonio, o ir man laikas buvo eiti į banką. Daug buvo żmonių, pagrįżome gana vēlai. Veiziu, uż stalo sēdi Stanislovēlis ir renka żirnius. Żingeidus jis labai, dēlko skaitau vakarais mergaitēms, prašē Alenutēs, ar
+        negalētų ir jis ateiti į kambarį rinkti żirnius. Alenutē leido, ir jis atējo. Perskaičiau vieną apysakēlę, labai atydżiai klausēsi ir likosi użganēdintas.</p>
+      <p>Lekcijos su juo gerai eina: prasimokino jau biskį traukti plunksną per popierą. Juokai ima żiurint, su kokia atyda ir atsargumu laiko jis plunksną savo sustyrusioje rankoje.</p>
+
+    </div>
+<div type="chapter">
+<head>6 gruodżio, nedēlia.</head>
+
+      <p>Iš bażnyčios atvażiavo Onytē su p. Juozu. Onytē labai pasirēdžiusi, ką tik turējo grażiausio, ištraukē. Juokēmēs iš jos lyg soties; p. Juozas paklausē manęs, ar nesusiprantu, dēl kokios prieżasties Onytē teip pasipuošē. Atsakiau, kad suprasti
+        nesunku. Nuo antros jau valandos pradējo ji laukti, o męs erzinome, buk išvażiavęs toli ir nebeateisiąs. Bet likimas nebuvo jai teip nemie-laširdingas: daktaras atējo.</p>
+      <p>Gerą širdį turi ta Onytē, bet kvaili vargšē, o pażiuros jos — neduok Dieve! Matē šiandieną mano kambaryje lietuviškas knygas, ir sako mamai:</p>
+      <p>— Tamsta neleisk Viktutei użsiimti su toms lietuviškomis knygomis! Prisirinko kruvą ir dżiaugiasi! Pamatysi tamsta, juog iš to gal buti negerai: pasodįs į kalējimą — ir gana! Aš budama tamstos vietoje, tuojau sudeginčiau visas tąs knygas. Ne tik
+        sau, bet ir savo šeimynai gal bēdą suteikti.</p>
+      <p>— Aš neturiu tokių baisių norų — atsakē mama šypsodamasi. — Priešingai, dżiaugiuos, kad mano duktē mokinasi savo tēviškos kalbos.</p>
+      <p>— Ką čę pagelbēs prieš vēją pusti?! — tęsē Onytē toliau. — Jug vis tiek, lietuviškos karalystēs nebus, spēkų neturime, iš amžių lenkiškai kalbame ir kalbēsime. Kam čę dēl tokių niekų galvą sau laużyti! Ir kas pasidarē tai Viktutei! Vis tai to p.
+        Jono darbas: pats litvomanas ir jai galvą apsuko... Ir ką čę gelbēs prieš vēją pusti, ar ne tiesa?</p>
+      <p>— Teip, teip! — atsakė daktaras, bet użtēmijau, juog jo akys użżibo.</p>
+      <p>— Neduok Dieve, kokie nuobodus żmonēs, tie litvomanai! Kas żin’, kas jiems galvoje; vaikščioja kaip baidyklēs: apdriskę, apżēlę, fe! Ne, jau daktare, tankiai čę buvodamas, atpratink Viktutę nuo tos manijos, susimildamas!</p>
+      <p>— Negalēsiu išpildyti to tamstos paliepimo — atsakē daktaras — nes pats priguliu prie tų teip tamstos pavadintų „litvoma-nų”. Ir turiu dar pridēti, juog manija yra tai liga perstatymo sau nebutų daiktų, o kadangi tamstos użgimę čę, paeinate nuo
+        prabočių grynų lietuvių, perstatote sau, juog esate lenkais, tai, rodos, tamstos sergate ta manija, o ne męs, mylēdami savo tēvynę ir kalbą.</p>
+      <p>— Teip?! Neišrodai tamsta ant litvomano, ne! Nebent iš plaukų biskį esi panašus.</p>
+      <p>Prasijuokēme visi iš to panašumo, o ji toliau malē:</p>
+      <p>— Rašo knygas, duoda skaityti, o kas iš to? Kokie čę dar pas musų żmonēs? Skaityti ant savo knygos nemoka, o jie jiems knygas rašo!</p>
+      <p>— Neżinau, ar kas użgimē išlavintas; ir tamsta, buvo laikas, kad nepażinai raidżių. Sēdēdama sodżiuje galētumei nors vieną vaiką per metus išmokinti skaityti — štai ir butų jau mażiau nemokančių.</p>
+      <p>Sunku su ją disputuoti, nes liogikos neturi nē uż skatiką. Atsibodo jai greitai ta kalba, ilgai negali ji apie vieną daiktą kalbēti; ir tiesą pasakius, visas tas klausimas rupi jai tiek, kiek man klausimas Kynų, jei ne mażiau dar.</p>
+      <p>Daktaru nelabai likosi užganēdinta.</p>
+      <p>— Litvomanas, gana jau to vieno żodżio, — sako. — Neturēsi żmogus iš jo dżiaugsmo, nēra ko laukti. Dievas żino, kokiais dalykais użimti, kas jiems galvoje... galima numirti iš nuobodumo jų draugystēje! Ir toks pienburnis!</p>
+      <p>Mat’, per jaunas jai vyras.</p>
+
+    </div>
+<div type="chapter">
+<head>7 gruodżio, panedēlis.</head>
+
+      <p>Neperstoju dēkavoti Dievui, kad davē man tokius tēvus.</p>
+      <p>Didesnē dalis musų dvarponių nekenčia „litvomanų” ir yra labai priešingi lietuviškam judējimui. O mano tēveliai kad nors żodį pasakytų prieš tą. Mama supranta gerai visą naudą ir svarbumą to jauno kilimo, pripażįsta jam tiesą ir visur išreiškia
+        savo prielankumą; tetušis neutrališkas: ne tik nekalba teip kaip kiti blogai apie lietuviškus patrijotus, bet żiuri į juos simpatiškai. Ir man neużgina skaityti balsiai, nē laikyti knygų, nē mokytis lietuviškai, tik bijosi labai, kad nepapulčiau į
+        maskolių nagus. Dēlto radęs kur knygelę, neša tuojau pas savęs ir paslepia teip, juog niekados nerasi. Żinau jau tą budą ir laikau visus savo turtus atsargiai savo kambaryje. Nedēlioj sakē daktaras, buvęs pas Kasperienies. Turi ji dżiovą, bet jau
+        nebejauna; gali dar gyventi, tik reikia spēkas użlaikyti kaip nors. Tur but jie pasakē, kad siunčiu pietus, nes sakē daktaras, kad gerai, juog pamislijau apie tai, tie pietųs esąs visas jos pasigavimas. Nusiunčiau jam ir antrą pacijentę: vasarą įkišo
+        viena boba, šukuodama vilnas, ranką į mašiną. Daktaro nebuvo, mama gydē ją ir ranka išgijo, bet boba negalējo pirštų pajudinti. Pagal mamos nuomonēs, reikējo butinai ranką elektrizuoti, bet moteriškē neturējo iš ko eiti kur toliau pas daktaro.
+        Atvażiavus musų daktarui, nedrįso be pinigų. Ant galo aš, matydama, juog nieko iš to nebus, pavadinau ją, parašiau raštelį pas daktarą, prašydama apžiurēti vargingą bobelę ir nusiunčiau ją. Buvo ji šiandieną pas manęs. Kas dieną vaikščioja pas
+        daktarą, o jis jai elektrizuoja ranką; pirštai pradeda jau judēti. Boba laiminga, neranda żodżių išgirti daktarą.</p>
+
+    </div>
+<div type="chapter">
+<head>8 gruodżio, utarnikas.</head>
+
+      <p>Stebētinas daiktas, kaip tai aš, tokia visados lyg miškinis</p>
+      <p>paukštis, teip greit pripratau prie daktaro. Rodos, juog jau jį kasżin kaip ilgai pażįstu. Atējus jam šį vakarą, buvau użsiēmusi darymu tvarkos bufete. Tuojau padējo jis man sustatyti visus indus ir indelius atgal į bufetą, paskui arbatą
+        pritaisyti, idant, kaip sakē, greičiau pabaigčiau darbą ir galētuva pradēti savo lekcijas. Po arbatos pasakiau eiles, kuriąs jis liepē išmokti, paskui skaitēva gerą valandēlę. Kaskart man lengviau skaityti, kaskart daugiau suprantu, net dżiaugsmas
+        ima mane ir mano mokytoją. Pabaigę lekciją lošēva kortas — ,,66”; prieš pradedant pastatē jis sąlygą, jei išloš, turēs tiesą prašyti manęs, ko norēs, o aš turiu tą prašymą išpildyti. Sutikau ir pralošiau. Paprašė padainuoti su juo duetą. Vos-vos
+        pradrįsau, bet reikējo išpildyti priżadējimą. Pa-ēmēva lietuvišką dainelę „Sunku gyventi żmogui ant svieto”... Iš pradżių pusbalsiai, paskui kaskart balsiau ir ant galo dainavau jau drąsiai. Neblogai išējo, daina labai grażi, o daktaras teip puikiai
+        dainuoja, juog ir mano balsas maloniau skamba. Labai mēgstu dainuoti, ypač lietuviškai, apima mane tadą entuzijazmas. Daktaras buvo labai użganēdintas; juog dabar, kad pradżia padaryta, eis toliau gerai. Żadame turēdami laiką, pramokti daugiau
+        lietuviškų dainų, kurių gaidas jis turi, ir dainuoti paskui visiems.</p>
+
+    </div>
+<div type="chapter">
+<head>10 gruodžio, četvergas</head>
+
+      <p>Gavau laišką nuo p. Jono; neužilgo jau atvażiuos į musų kraštą, labai pas’ilgęs visų ir dżiaugias, juog Kalēdos arti. Ir aš dżiaugiuos: parveš daug naujienų, knygų... linksma bus per šventes pas mus! Taisome jau su Alenute dovanas, kuriąs pagal
+        papročio duodame kits kitam kučių vakare; o reikia jų nemażai, nes visados yra kelios svetimos ypatos, apart musų šeimynos. Mama sakē, juog ir daktarą użkvies, jei neišvażiuos pas savo tēvų. Aš teip norēčiau, kad neišvażiuotų! vis gi linksmiau butų.
+        Buvau šiandieną svečiuose pas Emilkos. Yra tai mano mokinti-nē, duktē musų gaspadoriaus, kurs nuo pat mażens tarnauja pas tetušio. Jo pati mirē neseniai ir Emilka, 15 metų mergelē, pasiliko vienatine gaspadinē ir globēja mażesniųjų dviejų brolių.
+        Labai juos visus myliu ir tankiai użeinu paviešēti; padedu kartais Emilkai bulbes skusti ar pietus virti, nors ji man neduoda sakydama, buk jai gēda, kad „panele, lyg mužikē dirbtų ir jai, kaip sau lygiai, padētų”... Neżinau, kodēl teip man visados
+        yra tę malonu, kad kartais koks dalykas suspaudżia širdį — einu pas jų ir lengviau pasidaro tuojau. Neturējau lygšiol jokių didżių skausmų, jokių nelaimių: turiu tēvus, seserį, brolį, niekas man mylimas nenumirē, esu sveika — galiu save laikyti uż
+        laimingą. Żinau tai, ir nuodēmē butų nejausti tos laimēs... Bet ant žemēs nēra absoliutiškos laimēs, man rodos; pati sau nenoriu daugiau nieko, gerai man; bet sunku nuolat, kaip visokie materijališki rupesčiai użgula širdį tēveliams, kaip żmonēs
+        kenčia visokias nelaimes, kaip kits kitą spaudżia, plēšia, skriaudžia... Ak! negalima jokiu bu-du buti čę laimingu! O dar man tankiai užeina melancholija dėl tos prieżasties, juog rodosi, kad nieko nedirbu gero, naudingo... Sunku tada, o sunku! Tai
+        ir gydaus, eidama pas Emilkos, šnekēdamasi su vaikais, gaspadoriaudama su ją. Didesnysis vaikas yra labai gabus ir trokšta mokytis; nuo Emilkos išmoko truputį skaityti ir mēgina dagi rašyti; po Kalēdų paimsiu abudu mokyti.</p>
+      <p>Dvi dieni nemačiau jau daktaro... Dabar tepajutau, juog ilgu nematant jo kelias dienas: ateina vakaras ir nenoroms laukiu jo, ir, rodos, netenka każinko jei neateina. Alenutē juokiasi iš manęs, buk naktį vis dainuoju daktaro dainas. Ką aš
+        padarysiu, kad viską, ką tik sakau ir girdżiu dieną, atkartoju per sapną! Dar su didesniu noru grajiju kas dieną gamas ir etiudus żinodama, juog savo grajimu suteiksiu dżiaugsmą; labai malonu grajyti żinant, juog klausytojas mēgsta muziką, supranta
+        ją ir atjaučia. O nežinau, ar kas geriau galētų suprasti ir jausti muziką, kaip mano kantrus klausytojas — daktaras.</p>
+
+    </div>
+<div type="chapter">
+<head>11 gruodžio, pētnyčia.</head>
+
+      <p>Ak Tu Dieve, koksai tas daktaras! Tarsi, sudētas jis iš dviejų dalių: iš vyro ir vaiko. Jo charakteris tvirtas, drąsus jis, stiprus, niekados nepavargęs, neištyżęs — żodżiu, tikras vyras, ir kartu turi visiškai vaikiškus gabalēlius. Šį vakarą
+        atsisēdau gra-jyti Šopeno valcus. Išpradżių jis vaikščiojo po salioną, paskui atsisēdo kerčioje ir pasirēmęs galvą ant rankų klausē. Ant galo paēmiau „Laidotuvių maršą“, pabaigus, atsikēliau, o matydama, juog jis vis tebesēdi, priējau ir šypsodamasi
+        paklausiau, apie ką teip svajoja. Pašoko nuo kresēs, ir pamačiau, juog iš akių jam riedējo ašaros. Tur but’, nenorēdamas, kad jąs pamatyčiau, nubēgo użdaryti fortepijoną. Aš, żinoma, nieko nedrįsau sakyti ir klausinēti. Nusistebējau neišsakomai:
+        lygšiol man retai teprisiē-jo matyti ašaras vyrų akyse. Bet patiko man jos ak, kaip! Augštai statau jautrumą pas żmonių: żmogus kol giliai jaučia, yra ga- bus prie augštų minčių ir didżių darbų, prie pasišventimo. Juo mażiau żmogus jaučia, tuo mażiau
+        yra żmogumi.</p>
+      <p>Ilgai skaitēva lietuviškai, o ant galo, daktaras perskaitē vieną iš novelių Sienkevičiaus, kuriąs buvo atnešęs mums skaityti. Nēra man nieko malonesnio, kaip jei dirbdama kokį darbelį, klausausi skaitymo. O daktaras skaito teip gerai!</p>
+
+    </div>
+<div type="chapter">
+<head>12 gruodżio, subata.</head>
+
+      <p>Kaziukas buvo šiandieną pas daktaro, użkviestas jau seniai.</p>
+      <p>Parējo apsunkintas saldumynais, atnešē porą knygų sau pasiskaityti. Visą dieną pasakojo, kaip jam lenai patiko, koks daktaras geras ir linksmas.</p>
+      <p>Negaliu daugiau rašyti: teip buvau użimta visą dieną, juog dabar plunksna iš rankų krinta, teip pavargau.</p>
+
+    </div>
+<div type="chapter">
+<head>13 gruodżio, nedēlia.</head>
+
+      <p>Bażnyčioj’ susitikome su Butautais, kurie butinai użkvietē</p>
+      <p>pas save, żinoma su daktaru. Mama priżadējo atvażiuoti su visa draugyste. Išvażiavome vēlai, laukdami daktaro, kurį ligoniai teip ilgai šiandieną użturējo. Pakinkē į trejus šlajukus po vieną arklį; daktaras prašē manęs priimti jį uż veżēją —
+        sutikau. Liepynuose laikas praējo, kaip ir visados: grajijome, dainavome, šnekējome - - nieko ypatingo. Bet pagrįżimas buvo, tikrai, stebētinai grażus ir malonus. Naktis buvo šviesi, jokio vējelio, tik šalna nedidelē; dangus tamsiai mēlynas, grynas,
+        kaip iššluotas, żvaigżdēs nē vienos nematyti, tik mēnuo didis, apskritas, keliavo sau vienas-vienintēlis, lyg koks karalius. Ant żemēs sniegas baltas, nesuteptas ir toks żibantis, tarsi saujomis briliantų apibarstytas. Jauni medeliai pašaliais kelio
+        metē tamsius šešēlius ant balto sniego ir ant tų briliantų; tie šešēliai teip buvo aiškųs ir delikatiški, juog išveizējo visai kaip nupiešti. Stebējausi aš, stebējosi ir mano vežējas... ir abudu tylējova. Daktaras pirmas prašneko:</p>
+      <p>— Ar tamsta matai? Kaip iš pasakos išimta... Dieve, kaip grażu!</p>
+      <p>— Tikrai... svajoti tik dabar ir svajoti....</p>
+      <p>— O tamsta mēgsti labai? Yra tai viena iš didżiausių żmo-</p>
+      <p>gaus pasigerējimų... Nelaimingas aš žmogus esu, ar żinai tamsta — poetą dušioje, bet ant nelaimės, ne ant liežuvio! Dušia teip jautri ant visų grożybių, tiek prisirenka joje poezijos jausmų, juog net sunku pasidaro... Ir nemokant išlieti jų iš
+        savęs — sopa ir spaudżia. Teip giliai jauti żmogus, teip giliai, kad net baugu... rodos, išliejus tuos jausmus kokioj nors formoje, tuojau butų lengviau...</p>
+      <p>— Żinau tai... Ir man teippat atsitinka....</p>
+      <p>Vēl važiavova valandēlę tylēdamu. Varpeliai skambējo, šu-nes lojo iš po triobų durių, tingēdami bēgti ant kelio šaltoje naktyje. Nebuvo noro šnekēti... gerai buvo važiuoti, teip gerai, juog su liudnumu mislijau, kad netoli namai.</p>
+      <p>— Norējau su tamsta pasišnekēti apie vieną daiktą, — tarē vēl daktaras. — Sakei tamsta, norinti apdovanoti ordinarčikų vaikus per šventes, mēgstanti padżiuginti kitus. Man atējo į galvą, ar negeriau butų sutaisyti jiems „eglelę”? Koks tai butų
+        dżiaugsmas, niekados jie nieko panašaus nematē.</p>
+      <p>— Tai butų gerai! Żinoma! Aš esu mislijusi apie tai, bet vis-gi kaštuoja...</p>
+      <p>— Ne teip daug. Brangių daiktų nereikia; nupirkti biskį saldumynų, medauninkų, ypač obuolių, baronkų... Bet apart to reikētų kiekvienam duoti dovanas: ar drabużius, ar batus, ar ką kitą... Kaip tamsta misliji? Pinigų rastume; aš pirkčiau viso-ko,
+        o tamsta jau turētumei pasiuti, padirbti, sutaisyti.</p>
+      <p>— Gerai, gerai! Koks tamsta geras, kad tokia mislis į galvą atējo! Tai bus balius!</p>
+      <p>Negalējau jau apie nieką kitą mislyti; pradėjau svarstyti, ką kam duoti, kaip viską sutaisyti. Nepasijutau, kaip buvome namie. Daktaras nepasiliko miestelyje, bet nuveżē mane lyg pat namų, o paskui pagrįżo pēsčias.</p>
+      <p>Yra dabar biskį darbo su ta eglele: tiek reikia pasiuti viso-ko.</p>
+
+    </div>
+<div type="chapter">
+<head>14 gruodżio.</head>
+
+      <p>Musų użmanymas labai patiko mamai ir Alenutei; tetušis tei-pogi nieko prieš tai neturi, priżadējo liepti nukirsti grażią, didżią eglę. Mażai tekaštuos viskas, nes ir obuolių turime, ir medauninkų pačios iškepsime. Parašē pas manęs daktaras
+        laiškelį ir atsiuntē pinigus, prašydamas nupirkti, ko reikia. Pats ateiti negalįs, nes labai esąs użimtas su ligoniais. Nuējova su Alenute į miestelį, nupirkova viso-ko ir pradējova jau siuti.</p>
+
+    </div>
+<div type="chapter">
+<head>15 gruodžio.</head>
+
+
+      <p>Padariau naują atidengimą: daktaras eiles rašo! Aš ir pirmu mislijau, kad teip yra: jautrus toks, muzikališkas, mēgstąs svajoti — visiškai poetas! Dabar-gi jau żinau tikrai. Bet pasakysiu iš pradżių, kaip buvo. Atnešē jis šiandieną man dar vieną
+        lietuvišką knygelę. Paēmiau ją perżiurēti, veiziu į vidų, įdētas lakštas popieros, o ant jo parašytos eilēs. Negalējau nieko perskaityti, nes daktaras, pamatęs, išrovē jį man iš rankų ir įsikišo į kišenių; pamačiau tik, juog buvo lietuviškai
+        parašytos ir keliose vietose perbrauktos.</p>
+      <p>— Keno tai eilēs? — paklausiau. — Dēlko tamsta neduodi perskaityti?</p>
+      <p>— Et, niekai... Nieko gero, skaityti neverta...</p>
+      <p>Susipratau tuojau, kad tai yra jo kompozicija. Bet nieko</p>
+      <p>nepasakiau, użpykau net širdies gilume, kad nenorējo man parodyti. Na, mislijau sau, nenori — nerodyk! Palukēk! tu man padarei ,,štuką”, padarysiu ir aš tau! Per visą vakarą siuvome, o daktaras skaitē; ant galo, pavargus besiudama, padariau
+        propoziciją daktarui lošti ,,66”, su sąlyga padaryti viską, ką išlošęs lieps. Išlošiau ir liepiau jam parašyti eiles; vistiek kokioje formoje, kokio ilgumo — by tik iš savo galvos. Sukēsi, sukēsi daktarēlis, tvirtino, neesąs visai poetas, neżinąs, iš
+        kur man ta idēja į galvą atējo... Bet aš nenusileidau.</p>
+      <p>— Aš teipogi ne dainininkē, dainuoti nemoku, o tamsta liepei — padainavau; dabar tamsta turi savo praloštą daiktą išpildyti!</p>
+      <p>— Na, nedidį dżiaugsmą tamsta iš mano eilių turēsi — pasakē. — Pamatysi, koksai aš poetas.</p>
+      <p>— Pamatysiu... labai noriu kuogreičiausiai pamatyti...</p>
+
+    </div>
+<div type="chapter">
+<head>16 gruodżio.</head>
+
+      <p>Jau pamačiau ir dar ką! Po pietų sēdżiu savo kambaryje ant augšto, girdżiu, barškina każinkas į duris. Paprašiau įeiti — ir įējo daktaras. Nusistebējau, o jis ēmē teisintis ir perprašinēt sakydamas, juog mama nusiuntusi jį jieškoti manęs čionai.
+        Żinoma, pasakiau, juog labai man malonu priimti tokį svetį — nes malonu buvo ištikro. O jis sako:</p>
+      <p>— Atnešiau praloštas eiles... Kad jau teip tamsta norējai skaityti, skaityk dabar... Yra čę ir tos, kuriąs matei knygoje ir uż kuriąs ant manęs biskį buvai użpykusi, ir dar vienos.</p>
+      <p>Ir padavē man kelis lakštelius popieros. Nebeatmenu, ar padēkavojau, teip użsipuoliau skaityti. Pażmiau pirmiausiai mano eiles, su parašu ant viršaus: „Panai Viktorijai V.”. Buvo</p>
+      <p>tai sonetas; kaip grażiai parašytas! Paskui skaičiau dainelę, buvusią knygoje... Ak, tai lyg meliodiška muzika, o liudna lyg ašaros... Ta patiko man labiausiai. Man beskaitant, daktaras vaikščiojo po kambarį; nesupratus kelių żodžių, prašiau
+        išaiškinti ir perskaitēva kartu.</p>
+      <p>— Ką besakyti — tariau: — tamsta esi tikras poetas, negaliu atsigērēti tomis eilēmis!</p>
+      <p>— Komplimentų nemēgstu, neużmiršk tamsta — tarē juokdamasis. — Poetu neesu, o rašau teip sau, kad man labai skaudu ar linksma, vienu żodżiu — kad jausmai teip perpildo krutinę, juog nēra jau jiems vietos... Ir rašau tadą, kad palengvįčiau sau. Bet
+        tankiausiai tas negelbsti, tik dar didżiau apsunkina, nes niekados negaliu parašyti teip, kaip jaučiu... tai mano nelaimē! Matant, juog mano poezijos stovi teip toli nuo mano jausmų, apmaudas ima ir negaliu nē perrašyti jų niekados; nepaskiriu jų,
+        żinoma, spaudinimui, nes per mażą turi vertę, kišu į kerčią ir gana! O parodyti — parodżiau tik vienam draugui ir dabar tamstai... Iš to gali tamsta spręsti, kokios garbēs sulaukei... Be juokų, kaip tai aš tamstai parodżiau?? teip trumpai jug
+        pasiżįstame. Dievas żino! man kartais rodosi, juog nebuvo laiko, kadą aš tamstos nepażinojau....</p>
+      <p>— Dēku tamstai, dēku! Tokios grażios eilēs! Neżinau, kaip dēkavoti uż jąs! Sonetas grażus, bet ta dainelē — mirdama klausyčiau! Dēlko ji tokia liudna, kadą tai tokie liudni jausmai pripildē tamstai krutinę?</p>
+      <p>— Liudna labai buvo... Atmeni tamsta krikštynas Użkampiuose? Parašiau tą pačią naktį, pagrįżęs namo... Buvau labai prisisvajojęs: grażi naktis, o dar tamstos dainavimas visu keliu... Namie atsibudau iš tų svajonių vienas terp keturių sienų. Ir
+        pasidarē man teip liudna, juog pradējau dainuoti sau ant meliodijos valco, kurį tamsta daugiausiai tada dainavai ir kuris man ausyse skambējo, tą dainelę. Paskui użrašiau ją...</p>
+      <p>Norējau pasakyti, juog dabar jau neturi tiesos teip dainuoti, negali sakyti:</p>
+      <p>Kur tik pażvelgsi — svetimi żmonēs,</p>
+      <p>Šaltos jų širdys, kaip ledas........</p>
+      <p>nes musų visų širdys yra labai šiltos dēl jo, mylime jį, lyg seniai, seniai pażįstamą.... Bet kaip visados, daug jauzdama, użsimirštu lieżuvį burnoje, teip ir šį sykį negalējau nieko pasakyti. Tik akyse pajutau ašaras ir bijodama, kad nenukristų,
+        pašokusi sušukau:</p>
+      <p>— Tai toks tamsta! na, żinosiu! teip moki meluoti! Nemoku rašyti, nemoku! gerai nemoki! Negaliu dabar tamstai tikēti... Gal ir tame sonete pamelavai, gal visai nemalonu klausyti „kaip skamba stygos po mano pirštelių”... Tai tik komplimentas, żinau!</p>
+      <p>Nie koć do lasu szczypać bzu I nie wierz kłopcu, jako psu....” ir dainuodama nubēgau nuo augšto, o daktaras paskui.</p>
+      <p>Ketinome jau pradēti lietuviškai skaityti, štai suskambējo varpelis ir įējo p. Juozas. Geras jis żmogus, bet šiandie buvo reikalingas lyg penktas ratas veżime: pertraukē mums skaitymą, daugiau nieko. Eilių neatidaviau, prašiau, kad paliktų
+        persirašyti. Nedaug teskaičiau grażių lietuviškų eilių; kaip grażi ta kalba poezijoje! Ir daktaro eilēs, jei butų lenkiškos, rodos, nebutų teip grażios, teip meliodiškos.</p>
+
+    </div>
+<div type="chapter">
+<head>17 gruodżio.</head>
+
+      <p>Atvażiavo p. Jonas. Neużmiršo nieko, ką sakiausi norinti pamatyti: atvežē visokius preparatus iš żmonių kaulų, ir gaidų, ir kelias lietuviškas knygeles. Labai jam esu dēkinga uż tai. Akyvas mokslas, ta anatomija ir p. Jonas gerai pasakoja; bet
+        mano nelaimē, juog negaliu daug iš tų pamokinimų naudotis. Parodo jis kokį kaulą, ima aiškinti, iš ko jis susideda, kaip yra sujungtas su kitais kaulais ir t.t., o aš tuo tarpu, žiurēdama į tą kaulą, vis misliju sau: koks tas żmogus buvo, kaip perējo
+        jo gyvenimas, ką veikē, iš ko dżiaugēsi... Ir teip paskęstų tose mislyse, juog nebegirdżiu, ką tę p. Jonas kalba. Ateina tos mislys nenoroms, ne mano tai kaltē: ką padarysiu, kad żmogaus dušia daugiau mane użima nei jo kunas. Iš gaidų dżiaugiuos: yra
+        kelios lietuviškos dainos ant dviejų balsų, galēsime padainuoti su daktaru. P. Jonas visiškai ne muzikališkas. Vieną sykį grajiju Šopeno maršą, o jis sau, vargšas, mislijo, juog tai polka. Grażiai jis išrodo dabar: plaukai išaugo ir puikiai banguoja,
+        linksmas toks, kas nevisados pas jo buna. Pasidżiaugiau iš to, o jis sako, kam jam nebuti linksmu, parvażiavus pas mus. Dekavojo uż laiškus; sako, żinojęs visados, kadą gausiąs, nes prieš tai visados sapnuodavo, kad gauna laišką nuo manęs.
+        Prasijuokiau stebēdamasi, kaip galējo tie mano laiškai pusiau lenkiški, pusiau lietuviški, dżiaugsmą suteikti. Tuojau pasigiriau, kiek jau išmokau lietuviškai, ką skaičiau, ką żinau. Jis, żinoma, nudżiugo sakydamas, juog jei teip toliau eis man
+        mokslas, tai netrukus ir jį pralenksiu. Visados turējova daug temato pasikalbējimui, dabar juo daugiau; pasakojo jis apie profesorius, apie lekcijas, draugus, apie visą tą studentų gyvenimą, kurs man yra teip żingeidus. Jis labai użimtas visados, nes
+        medicinos mokslas reikalauja daug darbo. Vieną sykį šokęs da-gi ant lietuviško vakaro. Prasijuokiau išgirdus tai, sakydama, juog nepavydżiu panoms, kurioms kliuvo uż kavalerių. Ištikro, šoko prastai. Żinoma, norēdamas galētų išmokti, bet jis į šokius
+        ir apskritai į gražumą judējimų ir kitų paviršutinių formų żiuri iš augšto, su ironija ir jų nepripażįsta. Apie vieną musų pażįstamą pasakē kadaisiai: „Geras butų żmogus, kad nebutų elagantas”. O visa jo elegancija buvo, kad buvo visados apsirengęs
+        švariai, su tvarka.</p>
+
+    </div>
+<div type="chapter">
+<head>18 gruodżio.</head>
+
+      <p>Pasirodē, juog p. Jonas pażįsta daktarą; kartu porą metų buvę gimnazijoje, tik daktaras augštesnėse kliasose. Šį vakarą pradējo minēti juodu gimnazijos laikus, senus draugus, atsitikimus. P. Jonas papasakojo tokią istoriją: turējo jis vieną
+        draugą, kurio tēvai norējo, kad butinai pasiliktų kunigu. Buvo jie neturtingi sodiečiai, bet pasakē, jei sunus eis į seminariją, galēsią gauti biskį pinigų ir duosią jam, o jei ne — nematys ne skatiko. Sunus neturējo jokio noro eiti į kunigus, vienok
+        neatradęs kito išējimo, tarē vażiuosiąs į seminariją. Nuvażiavo, paēmē porą šimtų nuo tēvų, pabuvo tenai porą mēnesių, o paskui išbēgo ir pēsčias, kad neišleistų pinigų, nukeliavo į Maskvą ir įstojo į universitetą. P. Jonas pasakojo tą atsitikimą su
+        pasigērējimu, su didżiu dżiaugsmu, juog atsiranda dar tokie narsųs ir teip tvirtai żengiantiejie prie siekio żmones. Juokēsi iš jo gudrybēs, dżiaugdamasis, juog teip gerai pasisekē jam apgauti tēvus ir seminariją. Aš tylējau, bet jaučiau, juog jis
+        nevisiškai teisingai pasielgē; mislijau, kaip aiškiau išreikšti savo nuomonę apie tai. Bet štai daktaras, lyg atspēdamas ją, tarē:</p>
+      <p>— Negerai jis padarē... ir dżiaugtis nēra čę iš ko.</p>
+      <p>P. Jonas pašoko iš</p>
+      <p>— Ką tamsta sakai? negerai? Tai reikējo jam palikti kunigu, neturint jokio noro?! Negerai padarē, kad neużkasē seminarijoj’ savo gabumo, neużtemdē proto seminariškais mokslais?!</p>
+      <p>— Negerai padarē, apgavęs tēvus — atsake daktaras, o jo akys użżibo, kaip visados, kad ji kas suerzina. — Apgavimas — negeras darbas ir nors butų dēl geriausio siekio padarytas, pasilieka negeru visados. Gerai jis padare neējęs į kunigus, jei
+        neturējo tam noro, bet reikējo eiti prie savo siekio tiesesniu keliu. Aš nepripażįstu teorijos, buk siekis pašvenčia įrankius. Pagal manęs, dēl jokio daikto, nors jis butų augščiausiu ir geriausiu, nieko blogo daryti negalima.</p>
+      <p>— Na, netoli tamsta nueisi su tokia nuomone!</p>
+      <p>— O man rodos, juog ir tamstai tas pasielgimas patinka vien dēlto, juog čę likosi apgauti kunigai, seminarija, ar ne? Jeigu jis varu nuvarytas į universitetą su pašaukimu į dvasišką luomą, teip apgautų tēvus ir bēgtų į seminariją, kas żin’, kaip
+        veizē-tumei tadą į tokį jo darbą?</p>
+      <p>Teip. Daktaras lyg iš burnos man tuos żodżius išēmē. Mislijau teip pat. Negeras darbas visados pasilieka negeru. Galējo jis kitonišku budu prieiti prie siekio, galējo darbu surinkti pinigus; daug yra tokių neturtingų studentų, kurie vienok
+        neapgaudinēja nieko. Kaip tas daktaras teisingai apie viską kalbą! Kokios jo nuomonēs grynos ir tiesios!</p>
+
+    </div>
+<div type="chapter">
+<head>19 gruodżio.</head>
+
+      <p>Teip suerzino mane p. Jonas, juog lygšiol dar negaliu susiraminti.</p>
+      <p>Paprašiau jo, kad duotų man dar kokią lietuvišką knygą paskaityti. Atnešē; aš tuojau paēmiau skaityti, bet perżiurējus porą puslapių, mečiau knygą. Buvo tai baisiausias paškvilis ant Dievo Motinos; aprašymas jos gyvenimo teip biaurus ir
+        melagingas, juog negaliu apie tai atsiminti ramiai. Rankos man ēmē drebēti, pajutau ąkyse ašaras. Neilgai mislydama, pagrobiau knygutę ir įmečiau į degantį pečių, paskui vos neverkdama, pasakiau p. Jonui:</p>
+      <p>— Dēlko tamsta laikai tokias knygpalaikes? Gailu laiko tokias biaurybes skaityti! Kokią tiesą turite rašyti ir platinti tokius raštus?! Iš istorijos atżvilgio yra čę tiktai vienos melagystēs, o iš atżvilgio morališkumo, prie kokio siekio norite
+        prieiti? Kokį idealą pastatysite żmonēms vietoje Dievo Motinos? Gerai pradedate darbą, nēr ko sakyti! išdygti nepaspējo musų literatura, o jau joje pasirodo tokie „choeuf-d’oeuvre’ai”! Lietuviai dar skaityti nemoka, o jųs duodate jau jiems tokius
+        mokslus... Tikrai ateitis grażi ir plati prieš musų... Dieve susimylēk!</p>
+      <p>P. Jonas šypsodamasis veizējo į degančią knygą.</p>
+      <p>— Ir dēlko tamsta man davei tą skaityti, nesuprantu! Rodos, żinai mano nuomones; żinojai, juog tokie raštai nepagimdys manyje tokių pasekmių, kurioms jie yra rašomi, tik sużadįs pasibjaurējimą ir apmaudą. Aš perskaitysiu ir mesiu šalyn, bet jug
+        skaitys ją ir tokie, kurie kiekviename spauzdintame żodyje mato teisybę!</p>
+      <p>— Nemislijau, kad tamsta tokia davatka. Galima nesutik-ti su tokia nuomone, vienok reikia jos išklausyti.</p>
+      <p>— Išklausyti tegalima tokių nuomonių, kurios ant faktų yra paremtos; kitų sunku klausyti... O čę, paskaitē sau żmogelis kokį pseudo mokytą vyrą ir vien ant jo żodžių pasirėmęs, skelbia aplinkui atidengtą šviesą... Ir duoda prastiems żmonēms,
+        laukiantiems teisybės nuo apšviestųjų, kaipo tikriausią teisybę! Drąsus, nēra ką sakyti!!</p>
+      <p>Negalējau nieko daugiau šnekēti; gera valanda praējo, kol nusiraminau šiek-tiek. Tadą atējo man į galvą mislis, juog vis-gi neturējau tiesos mesti knygą į ugnį. Buvo ji ne mano, galējau neskaityti, bet daryti su ją, kaip su savaja, negalējau.
+        Sążinē pradējo graużti, juog pasielgiau lyg mażas vaikas. Tai-gi tariau p. Jonui:</p>
+      <p>— Prašau dovanoti už sudeginimą knygos. Neturėjau tiesos. Buvau suerzinta ir neżinojau pati, ką dariau.</p>
+      <p>Gēda man buvo. Bet p. Jonas nepyko; pasakē, juog tai nedidelē nelaimē ir knyga nebrangi. O gal ir gerai padariau: kitą sykį bent nedavinēs man tokių knygpalaikių. O aš jokiu budu negaliu suvaldyti savęs matydama, juog patys lietuviai nuodus duoda
+        savo broliams; użgavus kam mano giliausius jausmus — negaliu buti rami ir gana.</p>
+      <p>Suprantamas daiktas, juog kiekvienas platina savo persitikrinimus. Bet jei kas mato aiškiai, kad tie persitikrinimai klaidingi, kad teisybe ne tę, kur jie rodo, tas turi priedermę tam platinimui priešveikti, platindamas šviesą, paremtą ant
+        krikščioniškų principų. O kas nori teip veikti dēl liaudēs, tas tur liaudę pamylēti, pasijusti esąs dalele tos pačios cielybēs, išmokti jos kalbos, mokinti, rašyti...</p>
+      <p>Štai kelias, kuriuo turiu eiti... Štai mano priedermē...</p>
+      <p>P. Jonas yra żmogus, turįs daug gerų pusių; matau tai ir pripażįstu, ir mēgstu jo draugystę, tik erzina jis mane, pradējęs kalbą apie tikybą ir viską, kas su ją rišasi. Žinoma, jam rodos, juog jo nuomonē teisinga. Tegul sau. Bet nekenčiu
+        veidmainystēs: kodēl jis, netikēdamas, eina į bażnyčią? Atsimenu vasarą, vieną sykį, nuējome į bażnyčią, ir jis vietoj maldaknygēs, skaitē sau per mišias Daukanto Istoriją. Kam ta komedija nesuprantu. Netiki — n’eik į bażnyčią. Man rodos, perstojus
+        tikēti, aš nē kojos nekelčiau tenai. Paklausiau tadą jo, kam tas farize-izmas. Atsakē:</p>
+      <p>— Perdaug butų pasipiktinimo visiems, kad manęs niekados bażnyčioj nematytų. Tēvai ir gentys apšauktų bedieviu.</p>
+      <p>Atējo man tada mislis apie vilką avies kailyje...</p>
+      <p>Liudna man... Iš galvos neišeina ana knyga apie Motiną Šv. Skaudu, juog musų tēvynės mylētojai tokius nuodus duoda jos vaikams!...</p>
+
+    </div>
+<div type="chapter">
+<head>20 gruodżio.</head>
+
+      <p>P. Jonas išvażiavo pas savo tēvų. Ilgu biskį, nes mēgstu pasikalbēti su juo; tiek yra dalykų, apie kuriuos vienodai mislija-me. Mama użkvietē jį ant kučių; atsakē nē šeip, nē teip. Paskui paklausiau: — dēlko tamsta nepriżadējai atvażiuoti? Ar żadi
+        nebuti tikrai?</p>
+      <p>— Misliju, kad tikrai neverta. Ponia V. kviečia, o tamsta gal misliji, juog gerai butų, kad nepaklausyčiau to użkvietimo.</p>
+      <p>— Teip?! Na, jei tik nuo manęs priguli, tai ir aš labai kviečiu. Żinai tamsta, juog nesakau to, ko nemisliju.</p>
+      <p>— Gerai, atvażiuosiu.</p>
+      <p>Juokingas żmogus! Mat, reikējo jam dar mano użkvietimo!. ...</p>
+
+    </div>
+<div type="chapter">
+<head>21 gruodżio.</head>
+
+      <p>Pasirodē, juog daktaras nevażiuoja pas tēvų ant švenčių. Mama użkvietē jį pas musų, o jis priżadējo buti. Pradżiugau, juog bus jis su mumis ir padēs eglelę rēdyti. Bet tuojau atsiminiau, juog mano dżiaugsmas egoistiškas ir tariau:</p>
+      <p>— Aš dżiaugiuos, o tamstai gal ir labai liudna, kad nebusi su tēvais... Esu didelē egoistē.</p>
+      <p>— Żinoma, nesmagu, kad negaliu buti su jais, bet apie liudnumą nēra ko kalbēti. Gali tamsta, manding, numanyti, ar liudna man pas tamstų, ar ne. Niekas nevaikščioja mażne kas dieną tenai, kur liudna ir nemalonu. Bet man nesmagu, juog użsimetu
+        perdaug tamstoms: ir prastomis dienomis, ir dar ant kučių ... Ar ne perdaug naudojuos iš tamstų?</p>
+      <p>Apmaudas mane apēmē.</p>
+      <p>
+        — Żinoma, żinoma! Tamsta jau labai mums atsibodai... Mażne kas dieną ateini! Neišpuola teip użsimesti, żinoma!</p>
+      <p>Jis pażiurējo į mane ilgai, lyg klausdamas; o aš juokdamasi, kalbējau toliau.</p>
+      <p>— Ne, jei tamsa nori komplimentų, tai nesulauksi; aš jų nemoku sakyti. Ar gal norētumei, kad nuolat sakytumei: Ak, kaip su tamsta malonu! Kaip linksma, kada esi pas musų! Kaip laukiame tamstos! Ne, nesakysiu teip, nors — gal ir misliju... Bet
+        nemēgstu išlieti savo jausmų be reikalo, verčiau pasakysiu priešingai... Użgavai tamsta mus: kaip galējai daleisti, juog mislijame vieną, o sakome kitą?!</p>
+      <p>— Neteisingai apkaltini tamsta mane, pana Viktorija; da-leizdamas tai, ar susiartinčiau teip su tamstoms ir ar buvočiau teip tankiai? Nemislijau, kad tamstos nesakote to, ką mislijate, bet</p>
+      <p>nesmagu man, juog perdaug naudojuosi tamstų gerumu. Ir matai tamsta, juog teip sako protas, bet jis negal pergalēti širdies...</p>
+      <p>— Duok Dieve, kad nepergalētų!...</p>
+      <p>Pasakojau daktarui apie sudeginimą knygos. Jis juokēsi sakydamas, joug mażą naudą padariau, nes viena — nedaro jokio skyriaus, o vis gi tiesos neturėjau teip pasielgti, nes knyga buvo ne mano. Pasakē toliau, juog ne tokiu budu galima ir reikia
+        veikti dēl savo idējos, bet darbuojantis, kiek tik galima.</p>
+      <p>Teip dżiaugiuos, kad daktaras bus pas musų ant Švenčių. Jam esant, rodos, man linksmiau ir geriau... toks jis simpatiškas, toks geras, juog lyg šilumą atneša su savimi. Nē su kuo nepasikalbēsi teip użimančiai, teip širdingai; nieks tokios
+        teisingos nuomonēs apie viską nepasakys, nieks teip nepagrajys, nepasiklausys muzikos teip, kaip jis...</p>
+      <p>Dievas żino, iš kur atējo man į galvą mislis, juog niekados negalētų man patikti żmogus, turįs priešingus maniemsiems pa-żvilgius, t. y. niekados negalēčiau tokio pamylēti. Jokiu budu suprasti negaliu, kaip tai daug panų išrenka sau uż vyrus
+        żmones, kurie yra visiškai kitoniškų pażiurų daugybēje dalykų. Nebent tų panų pażiuros yra tik paviršutinēs ir, pagal tikros teisybēs, rupi joms tiek, kiek pernykštis sniegas. Nebent... Pażįstu jug vieną ponią, kuri eidama pati į bażnyčią, o vyrui
+        paliekant namie, sako: „Vyrams nereikia į bażnyčią, tai darbas bobų”. Ne, aš jau tokio vyro neperstatau sau, kurs su manimi kartu nesimelstų, nejaustų, nesidarbuotų; budama lietuvē, niekados nepamylēčiau jokio „lenkomano”... Sergēk Dieve!</p>
+      <p>Kas tai yra pamylēti? Ar-gi aš abelnai tai mokēčiau? Pensijoj mano draugēs nuolat įsimylēdavo į savo mokytojus, bet aš nē sykio negalējau, juokai tik mane imdavo, daugiau nieko. Tokia tai buvo ir meilē — tik jos parodija; ta meilē panaši į
+        tikrąją, kaip żolynas żmonių padirbtas, į gyvąjį żolynēlį.</p>
+      <p>O vienok żmonēs jau buvo užtēmiję, juog pradējau įsimyli-nēti. Dar rudenį Onytē sakē, buk man p. Jonas labai patikęs ir įsimylējau net į jį. Kuo neplyšau iš juokų išgirdus. Mat, matydavo mus tankiai kalbant, ir tuojau — įsimylējo! Tur but’, tokie
+        žmonēs patys nereikalauja pasikalbēti protingai, nesiintere-suoja nieku, kad tuojau visur mato meilę. Tikrai, p. Jonas man patinka, to neginu: inteligentiškas jis, patrijotas, żmogus — vienu żodżiu. Mēgdavau jo draugystę ir mēgstu. Teipogi ir
+        daktaras. Tik tas dar labiau, o, daug labiau. Tas neatmeta to, ką aš priimu, neišjuokia to, kas man šventa; su juo lyg arčiaus susieinu, nēra nieko, kas mudu skirtų ir stumtų. Dēlto jo draugystē man meilesnē ir p. Jonui su juo nesilyginti... Na,
+        pamatysiu: tuojau sakys Onytē, juog użmiršus p. Joną, įsimylējau į daktarą...</p>
+
+      </div>
+  <div type="chapter">
+  <head>22 gruodżio.</head>
+
+      <p>Kalēdos — prastos šventēs gaspadoriams: reikia mainyti, samdyti tarnus. Sunku kartais gauti atsakančius ir sunku iš pradżių, kol nepriprasi prie naujų żmonių. Šįmet mums pusē bēdos: daug tų pačių pasiliko. Virēja išeina; į jos vietą pasamdēme
+        kitą. Porą dienų praleidus, rašo pas mamos p. Butautienē, buk ana mergaitē vagilka, ir pataria jos neimti. Tetušis perskaitęs laišką, norējo tuojau atsakyti jai bet man pasidarē labai gailu tos mergaitēs ir pasakiau tetušiui:</p>
+      <p>— Tetušel’, tegul sau ateina. Jug męs pačios turime visus raktus, viską išduodame ir prižiurime, ką ji čę galēs teip pavogti? O gal ji vieną sykį pavogus, daugiau to nebedarys, gal nori pasitaisyti... ką-gi ji dirbs, negavus niekur vietos?!</p>
+      <p>Tetušis pažiurējo į mane ir tarė:</p>
+      <p>— Misliji, kad teip lengva yra pataisyti żmogų? Nuo naminio vagies neapsisaugosi</p>
+      <p>— Galima pamēginti, tetušėl’. Jei vogs, atstatysime. Pats pamislyk: jei ji turi norą pasitaisyti, tai kokiu budu, jei nieks jos nebeima? Ar kalējime, ištikro?</p>
+      <p>Buvo tadą ir daktaras. Ir jis prisidējo prie mano prašymo, tardamas, juog mano noras labai grażus ir tokiu tiktai budu galima tikētis pasitaisymo żmogaus, o ne atstumiant jį nuo savęs. Tētušis ant galų pagalios, kaip visados, sutiko su manimi.</p>
+      <p>— Na, na, mēgink! — tarē. — Gal ir pataisysi. Bet laikyk gerai raktus vis-gi!</p>
+      <p>Gal Dievas ir duos, gal ji ir nevogs daugiau. Ištikro, kaip galima atstumti żmogų! Żmogus paklydęs sykį, gali paskui pats gailētis to. Negaliu pasmerkti galutinai żmonių apskritai, ypač tų prastųjų. Żmonēs mokyti, turtingi, sotųs, apšviestuoliai,
+        żibantiejei lyg żiburiai — o nuolat klysta, nuolat vagia, tik biskį delikatiškesniu budu. Tai ko-gi norēti nuo vargingo, išalkusio, neapšviesto żmogaus?! Jokiu budu negaliu ne ant vieno iš tų paskutiniųjų, nors jis butų nedoriausias, mesti akmenimi.</p>
+
+      </div>
+  <div type="chapter">
+  <head>23 gruodżio.</head>
+
+      <p>Ak, kaip linksmai perējo šian dieną! Rēdēme eglelę vaikams. Rytoj turēsime daug darbo, tai gi susitarēme atlikti jį šiandieną ir užkvietēme daktarą į talką. Atvażiavo stačiai nuo ligonio, išalkęs, be pietų, o buvo jau antra valanda, rodos.
+        Pavalgydinus jį, nuvedżiau prie darbo. Augšta, grażi eglē stovėjo jau viduje didžio svečių kambario. Alenutē, Kaziukas, daktaras ir aš, rišome žvakeles, kabinējome medauninkus ir obuolius. Linksma buvo visiems: juokēmēs ir džiaugēmēs, lyg mażi
+        vaikai. Norēdama aprēdyti eglēs viršunę, atsistojau ant augšto suolelio, o daktaras nešiojo man daiktus kabinēti. Nešiodamas po vieną obuolį, ar medauninką, nuolat bēgiojo po kambarį, o man tuotarpu reikējo laukti be darbo. Juokdamosi pasakiau:</p>
+      <p>— Štai tikras jaunikaitis XIX amžiaus! Kelių obuolių negali pakelti! po vieną nešioja!</p>
+      <p>Toje pačioje sekundoje nutverē jis suolelį, ant kurio stovējau, ir pakēlē augštyn, kartu su manimi. Sušukau, turējau nusitverti uż jo galvos, kad nenukrisčiau.</p>
+      <p>— Ką tamsta darai! Ar pabludai, tikrai! Leisk, nes šauksiu!</p>
+      <p>— Turēkis tamsta man uż galvos, nes nukrisi! Ar neturiu spēkų, ką? Sakyk, kitaip nepaleisiu!</p>
+      <p>— Turi, turi! Samsonas esi tamsta, Galijotas... ką tik nori! Tik leisk!</p>
+      <p>Pastatē atgal, tur but, jau ir pavargo, nors, tikrai, stiprus lyg Samsonas. O aš pasirodżiau użpykusi ir nepriēmiau nuo jo paduotų daiktų; liepiau Kaziukui nešioti parēdnes, o į daktarą nē żiurēte nežiurējau. Jis, pastatęs Kaziuką pagal manęs,
+        nešiojo daiktus ir davinējo jam, o tas man. Leidżiau akis żemyn, kad ne-neprasijuokčiau, ant galo negalēdama ilgiau išturēti, teip ēmiau juoktis, juog ašaros pradējo bēgti iš akių. O daktaras sako:</p>
+      <p>— Verčiau susitaikykiva; priimk tamsta mane atgal į tarnystę! Ką tenai senas kaičias minēti!</p>
+      <p>Ir vēl darbavomēs santaikoje ir dainavome lietuviškas dainas, šnekējomēsi ir juokēmēsi. Šnekējome apie tai, kaip malonu daryti gerą kitiems.</p>
+      <p>— Man teip gerai tadą, juog laimingesne niekados nesijaučiu — sakau. — Norēčiau buti turtinga, kad galēčiau daug, daug daryti gero. Dabar gi, nors trokštu — nieko negaliu, arba labai, labai mażai.</p>
+      <p>— Ne vienais pinigais tegalima gerą daryti — pasakē daktaras. — Kaip kas gali, teip teprisideda prie abelno labo. Tamsta turi išlavinimą — duok jį kitiems; myli tēvynę — įkvēpk tą meilę savo tautiečiams; galima tai daryti ir be pinigų.</p>
+      <p>Parēdę eglę, sudējome visas dovanas, kurių buvo gera kruva. Daktaras atveżē dar šiandieną maldaknygių, grażiai aptaisytų, kiekvienam didesniam vaikui. Tarp dovanų buvo skepetaitē, grażi, šviesiai-geltona. Użsidējau ją ant galvos, użraičius galus
+        augštyn, kaip daro kartais moteriškes vasaros laike. Daktaras įsižiurējęs į mane sušuko:</p>
+      <p>— Kaip tamstai pritinka ta skepečiuke! Ak kaip pritinka! Grażu! stebētina!</p>
+      <p>Plačiai išpučiau akis, nusistebējusi.</p>
+      <p>— Tai jau per dideli juokai, pone daktare! Galiu użpykti. Neżinau, ar yra pasaulēje toks apdaras, kuriame man butų „gražu ir stebētina”.</p>
+      <p>Nekantriai pertraukē jis man.</p>
+      <p>— Pana Viktorija, dabar aš tamstai pasakysiu: komplimentų nemēgstu sakyti. Tamsta tiesiai reikalauji jų. Kuklumas — grażus daiktas, bet jei per didis, išrodo lyg butų jieškojimu pagyrimo. Jei netiki, prašau paveizēti į veidrodį, tuojau galiu atnešti.</p>
+      <p>— Labai dēku uż tokį pasigērējimą! Żiuriu tik tadą, kad jau butinai reikia...</p>
+      <p>Stebētinas skonis to daktaro! Kaip aš pati sau nepatinku, tai neduok Dieve! Tikrai, iš bēdos żiuriu į veidrodį... o jis dar sako: „gražu, stebētina”!</p>
+      <p>Buvau labai użimta tame laike, vienok kas dieną atradau valandą pasimokyti lietuviškai. Norēčiau praryti visas lietuviškas knygas ir gramatikas, kad tik kuogreičiausiai nejausčiau gēdos, nē sążinēs graużimo, juog budama lietuve, lietuviškai nemoku.</p>
+
+    </div>
+<div type="chapter">
+<head>26 gruodżio.</head>
+
+      <p>Per tas kelias dienas neatradau nē valandēlēs laiko parašyti savo dieninyje. Tik šiandieną esu liuosesnē ir sēdu surašyti savo įspudżius.</p>
+      <p>Ant kučių visados atvażiuoja pas mus kalēdnikai. Musų svečiai susirinko gana anksti: p. Jonas atvažiavo tuojau po pietų, klebonas ir kamendorius — vēliau. Pasisveikinęs klebonas, tarē:</p>
+      <p>— Tai jau ir esame, tik dar musų altaristos nēra; kas žin’ kur dingo, nē ant pietų nebuvo atējęs. Tur but’ po ligonius vażinējasi.</p>
+      <p>— Pagrįżęs nuo ligonio, išvażiavo su p. Butautu ant medżioklēs. Kučių dienoje kiekvienas tikras medżiotojas turi medżioti.</p>
+      <p>Reikia żinoti, juog „altarista” klebonas vadina daktarą, nes jis gyvena buvusioje altarijoje ir ant pietų vaikščioja į kleboniją. Buvo jis man minējęs apie tai, juog norįs pamedżioti šiandieną, bet priżadėjo pagrįżti ant penktos valandos. Vienok
+        nedaug jau truko lyg to laiko, o jo dar nebuvo. Baimē mane ēmē: gal pasivēluos, norējau labai kartu pavalgyti kučią. O čę, kaip ant nelaimēs, klebonas vis ragino greičiau duoti vakarienę, sakydamas, juog rytoj reikia atlaikyti trejas mišias ir anksti
+        atsikelti, tai-gi šį vakarą anksčiau atsigulti.</p>
+      <p>Baigiame dengti stalą. Aš vis, lyg nenoroms, żvilgterēdavau pro langą. Ant galo suskambėjo varpelis, pavażiavo po gon-kų šlajukai, ir į kambarį įbēgo daktaras.</p>
+      <p>— O, yra ir altarista! — prasijuokē klebonas.</p>
+      <p>— Esu, esu! ir nevienas, kunige klebone: atvežiau zuikį, didį, lyg aviną. Medżioklē pasisekē! użmušiau du; vieną pamečiau klebonijoje, o antrasis teeini į verdamąją p. Viktorijos.</p>
+      <p>Nuējo į prieškambarį ir paēmęs zuikį, įnešē į valgomąjį kambarį, kur mudvi su Alenute sukinējovos apie stalą.</p>
+      <p>— Vienok nepasivēlavai tamsta, — tariau pażiurējus į laikrodį. Pačiame laike. O mislijome, juog zuikiai nuves tamstą per toli ir nebesuspēsi.</p>
+      <p>— Aš pasivēluočiau?! Aš iš Kynų atlēkčiau laikan netik iš Liepynų girios! Vienok pasivēlavau truputį ir nepadējau tamstoms stalo rēdyti. Ar jau galima dēti dovanas?</p>
+      <p>— Aš savasias einu atnešti. .. Dēlko tamsta klausi?</p>
+      <p>— Ir aš turiu šį-tą padēti...</p>
+      <p>— Ką tamsta sakai! męs čę tik dedame, ne tamsta!</p>
+      <p>— Reikia kiekvienam pripażinti tas pačias tiesas, p. Viktorija! Jei tamstai malonu jomis naudotis, tai atmink, juog ir aš żmogus...</p>
+      <p>Atnešēme savo dovanas ir padējome kiekvienam po to-rielkos. Daktaras teipogi atnešē visą kruvą daiktų ir paklausęs, kur keno vieta, padējo juos. Netrukus, atsisēdome uż stalo. Tētušis paēmē plotas, pasidalijo su matušēle, su mumis, su svečiais;
+        prasidējo linkējimai viso labo, bučiavimasis, rankų spaudimas.</p>
+      <p>Man visados griaudu pasidaro tokiose valandose: stipriau jaučiu meilę savųjų, baimē apima, ką atneš ateinantiejie metai. Paskui pradējome traukti savo dovanas. Daktaras padējo Alenutei knygas, o man visas Šopeno kompozicijas. Lyg šiol turējau tik
+        ne-kuriąs ir geidżiau turēti pilną surinkimą. Todēl pradżiugau neišsakomai, tik nesmagu man buvo priimti dovanas ne nuo savųjų. Padēkavojau jam, palenkus galvą, o paskui, vēliaus, tariau:</p>
+      <p>— Dēkinga esu tamstai uż atmintį, bet perdaug apdovanojai mane. Man, apskritai, nemalonu imti dovanas nuo svetimų żmonių... Nē šeip, nē teip... jausmas, vienu żodżiu, nesmagus...</p>
+      <p>Jis paraudęs, atsakē:</p>
+      <p>— O aš, matai tamsta, buvau teip kvailas, juog laikiau save ne uż svetimą... Teip jau, rodos, seniai pasiżįstame ir teip tankiai matomēs, juog użmiršau, kad esu tik „svetimas žmogus”... Dovanok tamsta!</p>
+      <p>Dabar aš paraudau jauzdama, juog użgavau jį nenorēdama.</p>
+      <p>— Neaiškiai išsireiškiau, — tariau. — Żodį „svetimas” supratau toje prasmēje, juog tai ne tēvai, ne sesuo, ne brolis. O kad tamsta tokių niekų nekalbētumei, priimu gaidas ir labai dēka-voju uż jąs.</p>
+      <p>Ilgai tęsēsi vakarienē; valgis ējo po valgio, o buvo jų be skaitliaus. Bevalgydami, lēmēme sau: traukēme šieną iš po użdangos, o keno šmočiukas buvo ilgesnis, tas gyvęs ilgiau ant svieto, arba linus turės augštesnius. Valgydami żirnius su medaus
+        vandeniu, skaitēme ar į porą buvo żirniukų; kas turējo poromis, tas ateinančiuose metuose ištekēs ar ves. Po to atējo visa šeimyna dekavoti uż vakarienę. Pasidalijome su visais plotkomis, kiekvienam pasakēme linkējimą, o jie išbučiavę rankas, išējo.
+        Tuo-tarpu tarnaitē pasakē, juog bobos su vaikais susirinko šeimyninēje. Nubēgome ir użdegēme żvakes ant eglēs; użdegę, atidarēme duris į prieangį ir paprašēme įeiti. Ak, tadą tai buvo į ką żiurēti! Gailējaus, juog neesu tepliorium, tokį
+        charakteristišką paveikslą perstatē tie vaikai ir jų motinos. Vaikų buris, mażų, vos pradējusių vaikščioti, ir paaugusių; visi turisi uż savo motinų rankų ir sijonų; grudasi apie duris, bijodami prieiti arčiau; akys įsmeigtos į eglę, burnos
+        atidarytos plačiai. O motinos pačios neżino, ką daryti: stebisi į eglę, żiuri į mus, mislydamos, juog reiktų pesisveikinti ir dekavoti.</p>
+      <p>Valandēlę teip pastovējusios ir ataušusios, ēmē stumdyti vaikus ir traukti juos pasisveikinti.</p>
+      <p>— Juozuk! Mortyte! eikš, poniai, panelēms į rankeles pabučiuokite!</p>
+      <p>— Stasiuk, duok ranką! nebijok, durniau!</p>
+      <p>Vedē vaikus, stumē, kita dar nosį nušluostē saviemsiems pakelyje. Vaikai išsigandę, nusistebēję, neįmanē, kur suktis ir lyg sapne, grudosi viens ant kito. Priējus prie jų, išbučiavau visus nuo krašto ir vedžiau arčiaus prie eglēs. Daktaras ir
+        Alenutē man padējo.</p>
+      <p>— Arčiaus, vaikai! — šaukē daktaras. Reikia paveizēti, kaip čę kas padaryta. Ar baronkos tikros, žiurēkite! Ar matēte tokią eglę, ant kurios obuoliai auga? a? Nematēte jug? Tai veizēkite, skinkite!</p>
+      <p>Pamažu vaikai pradrįso prieiti arčiau. Skynēme jiems obuolius, medauninkus, ir dējome į kepures ir żiurščiukus. Drąses-niejie pradėjo čiupinēti eglę ir pakabintus daiktus. Umai viens vaikiukas sušuko:</p>
+      <p>— Mama, obuoliai pakabinti ant siulų. Matai, raudoni siulai! Neišaugę jie čę, tyčiomis prikabino!</p>
+      <p>Motina sušuko, kad tylētų; męs visi prasijuokēme. Priējus prie to galvočiaus, tariau:</p>
+      <p>— O dabar nuskink vieną ir pamēgink valgyti; gal tie obuo-liai netikri, gal iš molio, ar iš medēio...</p>
+      <p>Nuskynē vieną ir perkando.</p>
+      <p>— Tikri! skanųs tokie!</p>
+      <p>O bobos stebējosi ir šnekējosi tarp savęs.</p>
+      <p>— O Jēzau, kaip grażu, kaip danguje!</p>
+      <p>— Ak Tu, Dievuliau! Ir reikējo išmislyti teip!</p>
+      <p>Prasidējo dovanų dalijimas. Jų dżiaugsmas buvo didelis;</p>
+      <p>veizējo, akis išplētę, bet rodēsi, juog nesupranta gerai, ar tai jie sapnuoja, ar tikrai gauna viską. Motinos neżinojo, kur pulti: bučiavo rankas visiems, šaukē:</p>
+      <p>— A je tu mano! Ir kam reikējo tiek kašto padēti! Tai gerumas tų panelių! Mat, ir skepečiukē, ir kepurē, ir marškiniai. .. Ak Tu, Dievuliau mano!</p>
+      <p>Padalijus viską ir pasikalbējus, išējome. Pasakiau, kad viską nuo eglēs nuskintų, nepalikdami nē vienos baronkos. Vis-gi jiems buvo nedrąsu su mumis, pasilikus vieniems, bus tikras balius.</p>
+      <p>Juokinga ta Onytē. Daktaras sakē, juog pagrįżęs iš medżioklēs, użvażiavo tenai su p. Juozu. Daktaras skubējo labai namo, kad nepasivēluotų pas mus, o Onytē prašē jį butinai pas jų ant kučių pasilikti. Ant galo, matydama jo nekantrybę, tarē:</p>
+      <p>— Nebeużturinēsiu daugiau, ne! Matau, juog širdis kuo ne šoka į Kalnēnus. Važiuok tamsta greičiau, važiuok, gal ir tę kokia širdis teipogi nerimastauja.</p>
+      <p>Neduok Dieve, kokia ta Onytē! Tai jau į mane šauta... Ar negerai sakiau, juog ji tuojaus pradēs tēmyti, kad įsimylējau į daktarą! Tikrai, reikētų plačią širdį turēti, pagal jos: neseniai buvau įsimylējusi į p. Joną, dabar jau prie antrojo širdis
+        šoka. Pagal savęs ji sprendžia, vargšē!</p>
+      <p>Vakar buvo pas mus svečių. Butautai ir dar kelios panos ir ponai; buvo, żinoma, ir daktaras. Šoko, grajijo, dainavo... gana linksma buvo. Prasidējo mano sąvaitē gaspadorystēje, turējau daug užsiēmimo ir mažai tesēdējau salione. Nepykau dēlto:
+        sēdēdama tenai, turēčiau šokti nuolat, o teip tik iš reto pasi-sukiau. Šokius mēgstu, bet šokdama daug, negalēčiau pasikalbēti su daktaru, kuris nešoka. Dabar-gi galējome prisikalbēti lyg soties, nes jis man padēdavo gaspadoriauti, stalą pritaisyti,
+        pripilti, sudēti viską —żodżiu, buvo tikru tarnu. Kalbos mums niekados netruksta, kaip iš maišo išlenda vis nauji klausimai ir dalykai. O su kitais kavalieriais nemoku šnekēti visiškai: pakalbēsi apie orą, apie ukę, apie panas — ir stop! Nemoku
+        użimti svečių — żinau gerai. Daktaras, matyti, patinka visoms panoms; sako, kad grażus, simpatiškas, tik nelaimē — nešoka. Vargšēs panos, labai nuliudo išgirdusios apie tai. Pasakiau jam:</p>
+      <p>— Kaip gailu, kad tamsta nešoki! Gailēkis ir pats: visos panos tamstą vieną rinktų į figuras. Plaukytumei tamsta, lyg suris svieste. Ar-gi ištikro nesigaili, juog šokti nemoki? Prašau prisipażinti! ar-gi ir nenori visiškai?</p>
+      <p>— Nori tamsta teisybēs? Gerai. Norēčiau šokti ir šokčiau tik su tamsta. Bet kadangi su viena tiktai ypata šokti negalima ir reikētų teipogi su kitoms, nesigailiu.</p>
+      <p>Ką man reikējo ant to atsakyti?! Apsisukusi, nubēgau į salioną šokti. P. Jonas, Dievas żino dēlko, buvo liudnas; man gi buvo linksma, gerai, tik nesmagu darēsi pażiurējus į p. Jono rustų veidą. Norēdama jį sujudinti ir palinksminti, nuolat jį
+        skyriau į visas šokių figuras. Klausiant man, kas jam yra, atsakydavo, juog nieko ypatingo, kaip ir visados. Każinko nubēgova, aš ir Onytē, į musų kambarį, tenai tariau:</p>
+      <p>— Dievas žino, kas yra tam p. Jonui! toks apsiblausęs šį vakar....</p>
+      <p>— Ir dar klausi! Kokia tu naiviška, ar żinai, Viktute! Ko jam dżiaugtis? Ar ne iš to, juog rivalį gavo?!</p>
+      <p>— Kokį rivalį? Sakyk aiškiau!</p>
+      <p>— Tarsi neżinai! O gi daktarą, żinoma! kokio dar kito bereikia! Mato, juog jis vis aplink tave sukasi, o kas tavo širdyje, kas gali żinoti. Daktaras šimtą sykių daugiau turi šansų, kaip p. Jonas: savystovis żmogus, partija gera. Kvaila butumei,
+        išrinkus ne jį, bet p. Joną. Jis tai nujaučia, tur but, ir sēdi, lyg debesys.</p>
+      <p>— Ar iš galvos išējai?! Eikit sau su savo nujautimais! Aš nenoriu nē tų partijų, ne kavalierių, pasilik sau, jei nori!</p>
+      <p>Išnyko nuo tos valandos mano linksmybē, kilo nesmagus jausmas. Apmaudas ēmē ant tų żmonių, jieškančių visur partijų, įsimylējimo, Dievas žin’ ko! Tarsi, prisiliečiau kokios strai-gēs — teip man ant širdies buvo šlykštu. Kad bent sykį bučiau
+        pamislijus, katras iš jų dviejų geresnē partija! ar kad vieną iš jų dviejų galēčiau uż vyrą pasiimti!.. Nē per galvą man tai neperējo. Ir vienas ir antras — żmonēs išlavinti, geri, galima su jais pasikalbēti protingai, jų draugystē suteikia tikrą
+        użganēdinimą mano protui ir dvasiai. Ar jau ta Onytē viso to negali suprasti?! Su daktaru maloniau man, nes daugiau sutinkame, bet mēgstu ir p. Jono draugystę. Klausant Onytēs, reikētų prileisti, juog kartu į du įsimylējau... Cha! cha! Juokai,
+        ištikro, iš tokių pri-leidimų!</p>
+
+      </div>
+  <div type="chapter">
+  <head>27 gruodżio.</head>
+
+      <p>Vakar visi nukeliavome pas Butautų. Vażiavome mażais šlajukais, aš su p. Jonu.</p>
+      <p>— Šiandieną nieko sau — tariau pakelyje — bet vakar įerzinai tamsta mane: tiek panų buvo linksmų, grażių, o tamsta, vietoje su jomis pasilinksminti, sēdējai, kaip juodas debesys.</p>
+      <p>— Nevisados galima żibēti lyg saulē, ką padarysi! Panoms, manding, iš to buvo maża nelaimē: visos jos żiurējo vien į daktarą, kaip į saulę. Tikrai, turi jis laimę pas grażiosios lyties!</p>
+      <p>— Dēlko tamsta kalbi teip ironiškai? Jis pats nejieško visiškai tos laimēs ir galvos sau dēlto nelaużo.</p>
+      <p>— Aš nesakau jug... sergēk Dieve! Neżinojau, juog jis toks dievobaimingas żmogus, tas daktaras: šiandien veiziu, bażnyčioje stovi, iš knygos meldżiasi... pavyzdis visiems!</p>
+      <p>— Ar tai teip stebētina?! Teip ir reikia. Bażnyčioje jis kuone kas nedēlia ir, żinoma, ne dēlto, kad skaityti istoriją...</p>
+      <p>— Aha, tai į mano pusę šauta! Ką padarysi? aš negaliu buti avinu, kurs bēga paskui kitų avinų burio; negaliu teip sau proto użtemdinti, idant tikēčiau, ką tas piemuo sako.</p>
+      <p>— Tai dar klausimas, kas didesnis avinas. O tamsta ar nebēgi paskui burio? Ir dar priešiniesi pats sau, nes atmezdamas tikėjimą, tiki vienok tokiems, kaip ans „Dievo Motinos gyvenimo” autorius et consortes; tiki teipogi, juog Dievo nēra, nes ar
+        galima tai išrodyti?! Ar żinai tamsta, meskime verčiau tą temą! Jau żinau viską, ką tamsta pasakysi tame dalyke ir tamsta daug nuo manęs esi girdėjęs... neverta koserēs sau aušinti! Prašau kalbēti apie ką kitą, kaip apie daktaro dievobaimingumą ir
+        Dievą.</p>
+      <p>— Gerai, neerzįsiu daugiau; kalbēsiva apie kitą. Dabar jau tamsta tikra lietuvē: susipażinai su musų judējimu, skaitai daug lietuviškai, pramokai musų kalbos, tuojau mane pragįsi.</p>
+      <p>— O, dar daug reikia! Bet vis-gi jau eina lengviau. Po Kalēdų rašysiu tamstai biskį geresnius laiškus, ne tokį šiupinį, kaip lyg šiol.</p>
+      <p>— Tai tamsta żadi rašinēti vis-gi? Tikrai?!</p>
+      <p>— Kodēl ne? Nesuprantu, iš kur tamsta prileidi, juog perstosiu? Rodos, atsakydavau akuratiškai.</p>
+      <p>— Teip sau pamislijau... Dėku uż priżadējimą. Tamstos laiškai labai malonus, daugiau juose pasakai, nekaip lupomis, teip tamsta retai teatveri savo dušią.</p>
+      <p>— Per laiškus drąsiau kalbēti. Dabar atversiu dušią, jei tamsta nori. Štai esu laiminga neišsakomai išmokus lietuviškai. Tamsta esi jau nuo manęs girdējęs, juog vis geidżiu daugiau veikti ant svieto; dabar turiu tam tikslui daugiau įrankių.
+        Rinksiu dainas, pasakas, użrašinēsiu gaidas ir siųsiu tiems, kurie jąs sunaudos; galēsiu dabar gerai mokinti skaityti ir rašyti; stengsiuos rinkti kokiu nors budu pinigus lietuviškiems reikalams... Ak! kad nors krislelį naudos atnešti tēvynei! nors
+        krislelį! Bet teip sunku padaryti tą, ko dušia trokšta! Żmogus esi suverżtas, atsidusti negalima; bijok kiekvieno żmogaus, saugokis nuolat, kad żodžio nereikalingo neišsitarti... Dieve mano!</p>
+      <p>Reikia darbuotis atsargiai, bet darbuotis butinai! Tēvynei šimtą sykių didesnē nauda iš tokio sunaus, kurs nors per metus tiktai, bet iš visų spēkų dirbęs, visą savo amžių paskui butų priverstas gyventi svetur, ne kaip iš tokio, kurs lyg mirties
+        sēdētų tēvynēje, lyg straigē kaušiuke. Prażus vienas darbininkas, atsikels jo vietoje trįs, jo darbais įkvēpti... Lietuva neprażus, nors ir żudo jos żadintojus...</p>
+      <p>— Neprażus!</p>
+
+    </div>
+<div type="chapter">
+<head>28 gruodżio.</head>
+
+      <p>Kur šiandieną Jinai?....</p>
+      <p>Vien kapus tematai;</p>
+      <p>Ir liudna, ir skauda krutinę!....</p>
+      <p>Lyg po audrų didżių.</p>
+      <p>Kad ant marių plačių Użmiega vilnis paskutinē.....</p>
+      <p>Vēlu jau, o aš nē pamislyti apie miegą nenoriu: grażiausios poemos vietos skamba ir skamba man ausyse, lyg muzika, lyg dainavimas... Šį vakarą skaitē mums daktaras tą poemą; aš klausiau, klausiau lyg użżavēta. Pirmą sykį girdējau teip gražią lietuvišką kalbą, išreikštą tokioje gražioje formoje, ir pasirodē
+        ji man šimtą sykių gražesnē uż lenkiškąją ir visas kitas. Yra teip poetiškų vietų, juog galima jąs atkartoti be galo. Poemos turinis pasirodē man menkas: ypatos neaiškiai nupieštos, bet forma, kalba — negaliu apsakyti, kaip patiko. Rodos man, juog
+        yra tai pirmas tikras Lietuvos poeta, tas Garnys; duok Dieve, kad jo muza butų kuovaisingiausia.</p>
+      <p>Dieve, kaip malonu skaityti grażius veikalus savo kalboje! Dēlko męs turime jų teip mażai! dēlko musų tēvai paniekino prigimtą kalbą!</p>
+      <p>Kas buvo, tas buvo, nepermainysi. Tuo didżiau mums reikia darbuotis, kad kuogreičiausiai pataisyti praeities klaidas.</p>
+      <p>Poemos straipsneliai sukasi man po galvą, niekaip negaliu jų užmiršti.</p>
+      <p>Numetus ledus, nusidżiugus Venta Banguoja, bučiuoja krantus;</p>
+      <p>Ją sveikina paukščių linksminga byla Ir arti išējęs żmogus...</p>
+      <p>Ir vēl:</p>
+      <p>Gražu uż tēvynę pavargti, kentēti!</p>
+      <p>Palaimintas darbas jaunos Lietuvos!</p>
+      <p>Laimingas, kurs pradedant aušrai tekēti,</p>
+      <p>Su broliais į darbą, kaip milżinas stos!...</p>
+
+    </div>
+<div type="chapter">
+<head>29 gruodżio.</head>
+
+      <p>Pradedu manyti, juog Onytē teisybę sakē apie p. Joną: pasidarē jis labai nemalonus. Nuolat primena man daktarą, lyg iš-metinēdamas, kad su anuoju man linksmiau, kad jo draugystē man malonesnē. Negalēdama iškentēti ilgiau, pasakiau:</p>
+      <p>— Teip, matai tamsta, juog daktaras geras ir simpatiškas, gerai man jo draugystēje, bet kas tamstai darbo?</p>
+      <p>Tikrai, perdaug jau sau mislija. Prileidżius, juog aš jame sużadinau kokį jausmą (stebėtinas daiktas, ištikro!), reikētų pripażinti, juog budas išreiškimo to jausmo yra gana keistas: nuolatinis persekiojimas daktaru. Daktaras man patinka, atsako
+        mano nuomonei apie tai, kokiu turi buti żmogus; p. Jonas teisybę sako ir aš nieko prieš tai neturēčiau. Kodēl ne? Man da-gi malonukalbēti apie ypatas, kurios man mielos. Bet p. Jonas kalba ironiškai, lyg norēdamas nużeminti daktarą, perstatyti jį iš
+        blogiausios puses... Aš ironijos labai nemēgstu ir... kam p. Jonui rupi mano simpatijos?!</p>
+      <p>Et, kvailiai sudaryta ant svieto! Mislijau, juog p. Jonas išmintingesnis uż kitus ir neprasidēs su tokioms kvailybėmis, kaip meilē ir pavydas... O ir jis, mat, toks pat, kaip ir visi!.........</p>
+
+    </div>
+<div type="chapter">
+<head>1 sausio.</head>
+
+      <p>Vażiuojam šiandien ant pokilio. Užkvietē mus tenai dar prieš švenčių; yra tai sudētinis piknikas. Męs nelabai tenorējome važiuoti, nes nors rubus turējome iš vasaros, vienok reikējo dar šį-tą pripirkti, o prie to użmokēti uż įējimą pusantro rublio
+        — ir susidēs jau keliolika rublių. Išleisti ant savęs pinigus labai nemēgstu, rodos man, juog yra jie visiškai pamesti. Daug yra svarbesnių reikalų, kuriuos reikia aprupinti. Bet tētušis butinai liepē vażiuoti, ir mama norējo: trokšta jie, idant męs
+        pasilinksmintume ir nieko mums nesigaili. Tētušis pats nupirko Šiauliuose reikalingus daigtus, ir šiandien štai važiuojame. Juokingą kalbą turējau su mama. Buvo daktaras; kalbėjome apie tą pokilį; aš ir pasakiau savo nuomonę apie važiavimą į jį, juog
+        gailiuos pinigų ant tokių niekų, ir velyčiau juos sunaudoti geriau. Mama juokdamasi pasakē:</p>
+      <p>— Nesuprantu, kokios jųs esate! Jaunos tokios panos, o ne į pokilius nori vażiuoti, ne apsitaisyti grażiau... Nereikia ir nereikia! Jug ir aš, jauna budama, neturējau galvos pramuštos ant šokių ir parēdalų, vienok mēgau pašokti, pasipuošti; tam
+        jug ir jaunyste. Bent pajutau, kad buvau jauna. O jųs ištikro neżinosite, ar buvote kada jaunos, ar ne... Et, Viktute, į kliošto-rių tau eiti, daugiau nieko! — pridurē ji juokdamosi ir glostydama man galvą.</p>
+      <p>— Ne, matušele, fui! In klioštorių nenoriu! Daug mēgstu daigtų, netinkančių klioštoriuje. Ir šokius jug mēgstu ir dar kaip! Bet tik tadą, kad jie nekaštuoja apie 20 rublių!</p>
+      <p>Visi prasijuokē.</p>
+      <p>— Nēra ko juoktis — tariau. Uż tuos 20 rublių, pamislyk tik, matušēl’, kiek galima butų padaryti: Kaziukui butų uż-</p>
+      <p>mokēti uż pusę metų į gimnaziją... o jei jau paskyrēte juos dēl manęs, tai galēčiau uż juos davinēti pieną Kasparienei per visus metus, ar nusiųsti lietuviškoms knygoms... oje! daug butų kur padēit! O dabar -- pašoksiu, gal bus ir linksma, bet kas
+        iš to?! Pereis naktis lyg nebuvusi, ir gana!....</p>
+      <p>P. Jonas nevażiuoja kartu: nemėgstąs šokti ir turįs buti pas savo tēvų. Daktaras teipgi atsisakē.</p>
+      <p>— Ar miegoti vażiuosiu — tarē man. — Visi šoks, o aš ką dirbsiu?</p>
+      <p>— O tamsta żiurēsi. Ar nemalonu pasiżvalgyti?</p>
+      <p>— Żiurēti, kaip tamsta šoksi? Dēku už tokią malonę! bet nesijaučiu turįs teip drutus nervus...</p>
+      <p>Et, ir tas niekus tauzija!</p>
+      <p>Mama nevażiuoja, o kadangi panoms vienoms neišpuola vażinėtis po pokilius, tai nuvażiuosime pirma pas dēdēs, o iš tę kartu su dēdiene ir seserimis keliausime toliau.</p>
+
+    </div>
+<div type="chapter">
+<head>2 sausio.</head>
+
+      <p>Nēra nesmagesnio jausmo, kaip jausmas ant rytojaus po po-kilio; o man juo labiau, nes niekados negaliu użmigti, pagrįżus namo. Ir šiandieną: parvažiavome 9-tą, Alenutē tuojau puolē į lovą ir tebemiegti, o aš gulējau, gulējau, bet nē ant sekundos
+        neużmigau. Ausyse skamba tonai valcų ir mazurų, akyse lakioja šokančios poros... Kišu galvą į priegalvį, użkloju ausis, użmerkiu akis — vis tiek: matau ir girdżiu. Apmaudas apēmē, nusibodo gulēti ir atsikēliau. Galva sunki, akys lyg smilčių pripiltos
+        — tai ir visa tų balių nauda! Negaliu apsakyti, kaip nesmagu man grįżtant namo rytą, po tokios nemiegotos nakties. Vażiuoji per sodżius, vyrai girdo karves ir arklius, bobos vandenį semia iš šulinių, skalbia ant prudų, visi juda, kruta aplinkui...</p>
+      <p>O tu sēdi sau ant minkštos vežimo sēdynēs, mieguista, pavargusi, tarsi kas-żin kokį darbą dirbusi... Ir tokia gēda ima tadą, juog nedrįsti żmonēms į akis pażvelgti.</p>
+      <p>Jaučiu tai visados, grįżdama teip rytą; gerai, kad atsitinka tai retai.</p>
+      <p>Reikia vienok aprašyti visą tą balių, iš pradżių.</p>
+      <p>Vakar atvažiavo pas mus Butautai, nes buvo sutarta vażiuoti kartu. P. Juozas atveżē dar tris jaunikaičius, savo pażįstamus, tai gi galējome buti ramios, juog savo pasirodymu nesugadįsime kraujo panoms, susirinkusioms ant baliaus. Nes kavalierius
+        pas musų — brangus daiktas; musų kraštas labai jais neturtingas. Visi pabaigusiejei mokslus išvažiuoja į Rusiją, į miestus, retai tik kur ne kur, lyg kibirkštis pelenuose, blizga čę koks daktaras, tę vēl dvarponis. Atsitinka, juog ant tokio baliaus
+        ant 20 panų susirenka 2—3 kavalieriai.</p>
+      <p>Tētušis mēgsta pasirodyti prieš kitus ir by-kaip neišleis: liepē pakinkyti 3 arklius į grażiausias šlajas su mēlyna użdanga; Stanislovas apsivilko naują liberiją su blizgančiomis sagutēmis — ir nuvażiavome.</p>
+      <p>Pas dēdēs reikējo apsitaisyti, nes iš namų buvo per toli ir parēdai butų susiglemżę. Prasidējo toaleta. Musų seserys, kaip ir męs, neatboja nieko ant parēdų, bet dēdienē, didi elegantē, prisakē apsitaisyti švariai, grażiai ir pati atējo daboti,
+        kad jos prisakymas butų išpildytas. Viena seserų, meistras dirbti frizuras, tai-gi jai išpuolė visas mus sušukuoti. Visu pirmu paēmē mane ir pasodinus prieš veidrodį, ēmē sukti, svilinti... vos išturējau, teip nusibodo. Mano plaukai ilgi ir tankųs,
+        sunku sudēti iš jų frizurą pagal dabartinēs mados; suvyniojus juos, pasidarē lyg antra galva... Persigandau, żvilgterējus į veidrodį; sugrioviau visą tą bokštą, iššukavau dailiai ir supynus į vieną kasą, paleidau pagal savo budo. Tesiżino su joms, su
+        toms frizuroms! Ar išveiziu teip, ar šeip, ar ne vis tiek. Prie to jug „kaip varnos neplauk, vis ji bus juoda”...</p>
+      <p>Daug prierzinome dēdienę, kol pabaigēme savo toaleta. Musų rubai buvo iškirpti, bet atskiriai buvo prie jų użdangos iš tiulio. Dēdienē pamačius, juog aš su Marele jas użsidējova, użpuolē:</p>
+      <p>— Dēlko dar tą tiulį użdējote? Jug tai balius, o kur eisite decoltē, jei ne į balių.</p>
+      <p>— Niekur, dēdienēl’, — atsakiau. — Kam męs turime savo mēsą ant parodos statyti? Leisk jau teip!</p>
+      <p>Balius pasisekē: šoko lyg 30 porų. Kavalierių buvo użtektinai. Tiesa, didesnē dalis — pelenai: mokintiniai, studentai, apskritai, żmones nedarantiejie jokios partijos; bet šę ir tę blizgējo ir kibirkštys — dvarponiai, daktarai, advokatai ir da-gi
+        vienas inżinierius! Tą tai jau reikia prilyginti prie meteoro, kurio spindē- jimas veda į drebējimą panelių širdis, o mamoms gimdo šypsojimą ant lupų. Šokau daug ir apskritai buvo gan linksma. Meilus tas judējimas pagal muzikos, kuri labai gerai
+        grajijo, vienok paskęsti šokiuose, užmiršus apie viską kitą, aš niekados negaliu. Daugiau dar uż šokius użima mane observacijos żmonių: żingeidu labai prisiżiurinēti į jų poras, išreiškimus, apsiējimus. Neżiuriu į juos su ironija ar su piktumu, ne;
+        gali ir jie sau observuoti mane, nieko prieš tai neturiu; żinau, juog ir aš daug turiu juokingų pusių, kaip kuone kiekviena ypata. Ar neįstabu yra veizēti, kaip panos akimis ir šypsojimais vilioja ir linksmina savo šokējus; kaip mamos kreipiasi prie
+        „gerų partijų”; kaip jaunikaičiai, surinkę visą savo iškalbą, stengiasi šnekēti apie orą, barstyti komplimentus, kaip iš maišo...</p>
+      <p>Grįżdami użvażiavome vēl pas dēdżių. Prisijuokēva su Marele iš dēdienēs, kiek galēdami. Išgirdus mus kalbant apie panas ant baliaus, apie jų viliojimus ir parēdalus, ji tarē:</p>
+      <p>— Jos bent kitus linksmina ir pačios linksminasi; o jųs ką? Sēdi lyg kokios ledinēs statuos; kavalierius šnekina jąs, o jos gerai jei prasijuoks kada, tarsi iš mylistos. Kas su jomis gali pasilinksminti ir kam gali but malonu tokioje draugystēje?!
+        Teisingai, šaldote żmogų!</p>
+      <p>Nesitverdama juokais, tariau:</p>
+      <p>— Dēdienēl’, reikējo mums pasakyti tę ant baliaus „šilčiau”, gal butume pasitaisiusios!</p>
+      <p>Daug yra ant svieto pripażintų daiktų, kuriuos visi mato ir nelaiko uż blogą, tuotarpu, pagal mano išmanymo, yra jie didi niēkšystē. Vienas jų yra tas vyliojimas, ta koketerija. Aš savo menku protu galvodama, skaitau tai už nuodemę. Negaliu
+        aiškiai išreikšti savo mislių apie tą dalyką, bet man rodos, juog visu pirmu yra tai apgavimas, nes kiekvienas gal mislyti tinkąs panai, kiekvienam ji rodo savo simpatiją, o jug išrinkti gali tiktai vieną. Paskui, yra tai didżiausia negacija dušios
+        ir paskendimas kune... ir vienu żodżiu, jaučiu didį pasibiaurējimą prie tokių pasielgimų.</p>
+
+      </div>
+      <div type="chapter">
+      <head>3 sausio.</head>
+
+      <p>Ant daktaro perskaityta poema tokį padarē įspudį, juog ēmē vartyti savo popierius ir atradęs seniai parašytą poemēlę, atnešē man, kaip jis sako, į kritiką. Trumpa tai poema iš senovēs Lietuvos laikų, bet grażiai ir dailiai parašyta. Jis kaip ir į
+        visas savo eiles żiuri sakydamas, juog nieko neverta, vienok man kitaip pasirodē. Gaila butų, kad tokie grażųs daiktai supelytų daktaro archyve; Lietuvoje dar teip mažai rašytojų, juog tikra nuodēmē laikyti savo darbus tik dēl savęs. Pasakiau tai
+        jam, pridurdama, juog butinai siųsiu jo poezijas atspaudinti. Żinau, juog jis prisideda prie Lietuviškos rašliavos, rašydamas mediciniškus straipsnius, korespondencijas; bet tuos gali daug żmonių parašyti, o tokias eiles sudēti — ne kiekvienam
+        galimas daiktas. Turiu pastatyti ant savo ir leisti jąs į svietą. Jau jis dabar nelabai tesipriešina, o pamatęs, juog jo eilēs tinka skaitytojams, įgys norą rašyti daugiau.</p>
+      <p>Prajuokdinau mamą ir daktarą, apsakinēdama išmetinējimus dēdienes, buk nemokame kavalierių linksminti. Mama tarē:</p>
+      <p>— Teisybę ir sako. Paliksite senmergēs, pamatysite. Kam gali but malonu prisiartinti prie tokios panos, sēdinčios lyg ledo kalnas? Kiekvienas kavalierius bēgs nuo jusų kuogreičiausiai.</p>
+      <p>— Laimingos kelionēs! Ar tai nelaimē buti senmerge? Priešingai: żmogus sau esi liuosas. Tegul sau bēga, aš dar dżiaugiuos, nereikalaudama jų linksminti!</p>
+      <p>— Ar-gi ir neatsiras toks, kurs sutirpįs tuos ledus? — atsiliepē daktaras.</p>
+      <p>— Kodēl ne? Yra jug dauggalinčių żmonių. Bet reikia, kad jis sutirpytų, nes pats ledas nepersimainys į ugnį dēl nieko.</p>
+      <p>Daktaras išvażiuoja ant pusantros sąvaitēs: pas tēvų, o paskui į Petrapilę nusipirkti reikalingus sau instrumentus.</p>
+
+    </div>
+    <div type="chapter">
+    <head>4 sausio.</head>
+
+      <p>Dievas żino, ką pamislijo tas daktaras! Atbēgo šiandieną atsisveikinti; trumpai użtrukęs išējo. Tuotarpu mama atminē ka-żinkokį reikalą ir nusiuntē mane pasakyti jam. Radau dar jį prieškambaryje; buvo jau apsirengęs ir toks grażus savo juodoje
+        jērinēje kepurēje. Pasakius, ką mama liepē, ištiesiau ranką, norēdama dar atsisveikinti, o jis paēmęs tą ranką, pabučiavo ir išspruko pro duris. Palikau ant vietos, pati neżinodama, kaip tai atsitiko.</p>
+      <p>Nemēgstu mano rankų bučiavimo. Prastiems żmonēms neduodu bučiuoti, jei tik galiu atsiginti; nesmagu man, gēda neišsakoma, juog żmonēs, tokie pat kaip ir aš, tankiai vyresni uż mane, kuriems greičiau aš turēčiau į ranką pabučiuoti, bučiuoja man,
+        lyg kokiai garbingai ypatai. Skauda man tas żmonių nusiżeminimas. O pabučiavimas „man lygių”, ar tai uż šokius dēkavojant, ar kokių „kuzinų”, pażadino visados manyje norą tuojau ranką nuplauti. Bet šios dienos pabučiavimas, nepakēlē tokio
+        pasibiaurējimo, ne... Tik vis gi nesmagu... Ir iš kur jam tai į galvą atējo?!</p>
+
+      </div>
+  <div type="chapter">
+  <head>6 sausio.</head>
+
+      <p>Buvome pas ponios Ż. Susirinko tę keletas svečių; tarp jų buvo viena ponia B. garsi savo protu ir išlavinimu. Pradējome šnekēti apie visokias kalbas. Ponia B. tarē, juog mokyti żmonēs, tyrinējantiejie lietuvišką kalbą, atranda ją labai turtinga.
+        Pavyzdżiui galima paimti nors żodį „myč”; kiek tai yra lietuviškoje kalboje żodżių išreiškimui to veiksmo: mazgoti, plauti, valyti, prausti...</p>
+      <p>Viena iš panų atsiliepē:</p>
+      <p>— Kas tai per kalba! Ir „miód” — medis, ir ,,drzewo”</p>
+      <p>— medis, ir „koł w płocie” — medis... viskas teippat vadinasi.</p>
+      <p>Negalējau tverti juokais ir kartu apmaudu.</p>
+      <p>— Gal tamsta esi girdējusi kartais apie aną vokietį, kurs tvirtino: kas tai per kalba, ta lenkiška kalba! Ir tas, ką vaikščioja — „šlovik”, ir tas ką gieda — „šlovik”, ir konfituroms laikyti — teipogi „šlovik”!</p>
+      <p>Pana paraudo, gal ir użpyko uż tokį prilyginimą jos prie vokiečio.</p>
+      <p>O tuotarpu ponia B. atsikreipdama prie manęs, tarē:</p>
+      <p>— Girdējau, kad tamsta mokaisi lietuviškai; ar tai tiesa?</p>
+      <p>— Teip.</p>
+      <p>— Negaliu to pagirti. Lingvistui, tyrinējančiam kalbas, kiekviena jų yra naudinga. Bet tamsta jug tokiais mokslais ne-użsiimsi, dēlto daug naudingiau praleistumei laiką, išmokdama angliškai ar itališkai, tos literaturos turtingos, grażios.</p>
+      <p>— Aš statau prieš naudą — priedermę. O uż priedermę laikau išmokti savo prigimtos kalbos.</p>
+      <p>— Ak, teip?! Pagal manęs, tamstos prigimta kalba yra lenkiška: pirmus žodžius ištarei lenkiškai; tamstos tēvai — kalbējo ir kalba vien lenkiškai.</p>
+      <p>— O pagal manęs — ne. Lenkiška kalba yra musų priimta, bet neprigimta. Jug pradžioje šio šimtmečio kuone visa lenkiška inteligencija francuziškai tekalbējo, savo kalbą buvo jau teip užmetusi, juog kelių sakinių nemokējo lenkiškai sudēti. Tai,
+        pagal tamstos, jų prigimta kalba buvo francuziška?</p>
+      <p>— Keistus prilyginimus tamsta statai.</p>
+      <p>— Visškai tinkančius. Nesmagu buvo tadą veizēti į lenkus, kiekvienas protingas lenkas stengēsi kuogreičiausiai grįżti prie savo kalbos. Ir tamsta pripażįsti, juog buvo tai jų priedermė. Teip pat ir manoji — grįżti prie lietuviškosios.</p>
+      <p>Tuo pasibaigē musų šneka.</p>
+
+    </div>
+<div type="chapter">
+<head>8 sausio.</head>
+
+      <p>P. Jonas atsisveikino šiandieną su mumis: buk turįs važiuoti dar każinkur, buk reikią jam pas tēvų pabuti. Aš tam netikiu, nes buvo żadējęs paviešēti pas musų ilgiau. Neprašiau jo labai pasilikti, nors ir gailu man buvo jo draugystēs: ir skaitēva
+        kartu, ir pasikalbēti galima su juo apie tiek użimančių dalykų; neprašiau dēlto, kad jam to mano jausmo neużtenka, matyti, o jokio gilesnio jausmo duoti negaliu. Ir reikējo tai meilei įsipainioti tarp musų. Teip butų malonu gyventi su juo geruoju,
+        disputuoti, klausytis jo pasakojimų... Dabar-gi, Dievas żino, ko jis nori, nuolat piktas, pavydįs, tikra nelaimē!</p>
+      <p>Atsisveikindama tariau:</p>
+      <p>— Gailu, kad tamsia teip greit išvażiuoji!</p>
+      <p>— Et, kas tę! Pagrįš daktaras ir palinksmįs tamstą; kam čę dar manęs!</p>
+      <p>— Vienas nesipriešina kitam: malonu su daktaru, malonu ir su tamsta.</p>
+      <p>— Bet vis-gi su daktaru maloniau, ar ne teip?</p>
+      <p>Apmauda mane apēmē. — Gal buti — atsakiau. Jis paraudo ir atsisveikinęs skubinai, išvażiavo.</p>
+
+    </div>
+    <div type="chapter">
+    <head>11 sausio.</head>
+
+      <p>Ilgu truputį be daktaro... Ateina vakaras, atsisėdu su kokiu darbeliu ar su knyga ir lyg laukiu, lyg klausaus, ar nesubrazdēs prieškambario durys. Teip jau pripratau prie jo draugystēs, juog, rodos, każinko netenka.</p>
+      <p>Per šventes vażinējaus, linksminaus, dabar vēl prasidējo paprasti użsiēmimai. Jų atsirado dar daugiau, nes turiu 6 naujus mokintinius: gaspadoriaus ir ordinarčikų vaikus. Be to, kas vakarą išeina mażiausiai valanda pasikalbējimams su tarnaitēmis.
+        Kanakados daktaras padarē użmanymą pramokinti jąs šventosios istorijos, Lietuvos istorijos ir geografijos. Siekis — kad jos įgytų nors šiokį tokį supratimą apie tuos dalykus; kad šventa istorija padētų joms suprasti geriau tą, į ką tiki, o Lietuvos
+        istorija sużadintų jose patrijotišką jausmą, parodydama kuo lietuviai buvo, kuo yra ir kuo turi buti. Pirm kelių dienų pradējau tąs lekcijas tokiu budu, juog kas vakarą apsakinēju apie kitą dalyką, paeiliui. Knygų, atsakančių tam tikslui, nēra,
+        reikia pasakoti iš savo gal-vos, prie to, gyvas żodis daugiau suprantamas. Pabaigus pasakojimą, liepiu kiekvienai po truputį atkartoti; antrai lekcijai atėjus vēl klausiu to, apie ką sakiau pirmiau.</p>
+      <p>Żinoma, nelengva man prisieina tos prelekcijos: nuolat truksta lietuviškų żodżių ir reikia lopyti savo kalbą lenkiškaisiais. Vienok turiu pripażinti su dżiaugsmu, juog kaskart mażiau tų lopų reikalauju: skaitydama kas diena lietuviškai, vis
+        daugiau pażįstu tą kalbą.</p>
+
+      </div>
+  <div type="chapter">
+  <head>13 sausio.</head>
+
+      <p>Mēgstu labai ukininkystę: niekur kitur negali żmogus buti teip arti gamtos ir liaudies, niekur negali buti liuosesnis; ukininkas nereikalauja lenkti galvą ir drebēti prieš visokius savo prin-cipalus; ant savo żemēs kąsnelio jis — ponas. Su mielu
+        noru gaspadorauju dabar ir darbuojuos, tik skauda tankiai širdį, juog negaliu padaryti viso to, ką norēčiau ir kas, pagal manęs, yra butinai reikalingas. Norēčiau palengvinti truputį buvį darbininkų: ordinarčikams duoti daugiau patogumų, šeimynai
+        geresnį valgį. Tēvai nesigailētų ir įvykdintų mano użmanymus, bet ant nelaimēs visokios materijališkos sąlygos suriša rankas. Apmaudas mane ima atminus nekuriuos musų dvarponius; kiek tai sykių atsitiko girdēti ponių kalbą apie porcijas tarnams.</p>
+      <p>— Kiek tu dirbi iš svaro mēsos? — klausia viena.</p>
+      <p>— Tris.</p>
+      <p>— Teip mażai? Kas teip gali duoti! Aš visados keturias.</p>
+      <p>Galvoja, kaip šmotelį mēsos nutraukti nuo darbininko, peninčio juos savo prakaitu, o ant parēdalų išleidżia šimtais. Ponai vēl iš savo puses nesnaudżia: pardavinēja javus, o ordinarčikams duoda antrininkus. Baisu pamislyti! Ir visados, atminus
+        tai, dēkavoju Dievui, juog mano tēvai nepriguti prie kategorijos tų dvarponių-galvočių, nes koks gyvenimas man tadą butų?!</p>
+      <p>Grażios użstojo dabar naktys: šviesios, tylios, ramios. — Ant tamsaus dangaus blizga apskritas mēnuo, auksines żvaigżdēs żiba mirgsēdamos, o żemai viskas balta ir balta... Sodo medżiai miega, użkloti sniegų pukais, toliau matyti użšalusią Ventos
+        vagą, panašią į platų vieškelį, — dar toliau — kruva susikupri-nusių triobelių... Tokis didis ramumas visur, tokia didi tyla...</p>
+      <p>Kaip man viskas tas brangu! Kaip lengvai dusauja krutinē tokiose naktyse, turēdama prieš savęs tą mylimą Ventą, tąs senas, surukusias triobeles!</p>
+
+    </div>
+<div type="chapter">
+<head>16 sausio.</head>
+
+      <p>Nuvażiavau šiandieną su reikalu pas Butautų. Radau tę svečių: Onytēs ištekējusią seserį ir dar porą panų ir ponių. Neilgai teviešējau, vienok suspėjau susibarti ir, tur but, sużadinti gailestį savęs širdyse tų ponių. Kalbējo jos apie kažin kokią
+        paną, turinčią konkurentą ir išreiškē nuomonę, juog butų ji kvaili nepriēmus jo, nes jis esąs żmogus doras, turtingas ir t. t. Klausiaus, klausiaus, ant galo atsiliepiau:</p>
+      <p>— Vis tai privalumai lobai grażųs, bet, man ding, svarbiausiu dalyku čę yra, ar ji myli jį. Jei ne, tai kaip gali tekēti?</p>
+      <p>— Cha, cha, cha! — prasijuokē viena. — Meilē — grażus daiktas poezijoje, bet gyvenime neapsimoka.</p>
+      <p>— Misliji tamsta —: tarē antra — juog meilē reikalinga ištekējimui? Per jauna dar esi. Meilē netvirta: nē pajusti nepajusi, kaip išnyks, nē pēdų nepalikus. Netoli su meile nueisi!</p>
+      <p>— Juokinga esi ištikro, — pasakē vēl kita. — Jei partija gera, żmogus doras, turįs gerą vietą, ar ne kvailybē butų jį atmesti, laukiant tos meilēs? Pagyvęsi — priprasi — ir bus visa meilē.</p>
+      <p>Gyniau savo nuomones kaip galēdama, bet nieko negalējau įveikti. Ant galo, pasakius man, juog neeičiau uż paties karaliaus, nemylēdama, visos panos net išsigando. Tur but’, pamis-lijo, juog truksta man biskį proto galvoje. Neduok Dieve, kaip mane
+        erzina tokios nuomonės apie dalykus, kurie lyg saulē yra aiškųs; yra tai nuomonēs nevien tų ponių, bet abelnos, esu jąs girdējusi ne pirmą sykį ir ne nuo kelių ypatų. Gal but, toki tekējimai laimingi, gal but, aš dar per jauna, mażai pażįstu gyvenimą
+        ir żmones... Bet żinau gerai, kaip aš pati jaučiu ir żinau, juog niekados teip neištekēčiau. Pagal manęs, tekējimas be meilēs yra nemorališkas ir labai priartintas prie gyvuliškumo: ar tas, ar kits koks „doras žmogus” vis tiek, bytik ištekēti. Dēl
+        manęs, ištekēti be meilēs yra fiziškai negalimas daiktas, neżiurint jau į morališkus atžvilgius: jei kiekvienas rankos pabučiavimas kokio pono pakelia manyje tokį pasibiaurējimą, juog noriu tuojau nuplauti ranką, tai kaip-gi galēčiau pirmą tokį „dorą
+        poną” imti sau uż vyrą?! Nemylējau niekados ir nepażįstu to jausmo, bet man rodosi, juog meilē gali viską permainyti. Daug yra ant svieto dorų żmonių ir gerų partijų, ar-gi uż kiekvieno ir galima eiti!? Dabar paimkime nors p. Joną. Yra jis geras,
+        doras, išlavintas, gana grażus; neperstato geros partijos lyg šiol, bet jei turėtų milijonus ir norētų mane imti, żinoma, neeičiau! Nē sekundos ne-mislydama..........</p>
+      <p>Apskritai sakant, biaurios man visos tos piršlystēs, partijos ir t. t. Kiekviena pana turi butinai ištekēti, nuo pat mażens kalba apie tai visi ir paskui ji pati. Tarsi neištekējus, nēra ji żmogum. O juk palikus senmerge ji teip pat gali buti
+        naudinga żmonijai, gali darbuotis ir buti żmogum —jokios nelaimēs tame nēra. Biau-ru man žiurēti į visas tas panas, butinai jieškančias vyrų! Aš-gi niekados nemislijau, juog galēsiu kadą nors turēti vyrą. Żinoma, gali tai atsitikti, bet tik tada, kad
+        pażinus kokį żmogų vertą mano meilēs ir pamylējus jį, pamatyčiau, juog liudna ir ilgu man bējo; tada, nenorēdama buti nelaiminga — ištekēčiau. Kitaip — jokiu budu ir niekados!</p>
+      <p>Rytoj żadėjo grįżti daktaras; kas żino, ar pagrįš? Dżiaugiuos, nes ilgu be jo, kur tik neinu, ką nedirbu, vis turiu jį minėti, teip įsipynē jis į mano mislis ir užsiēmimus.</p>
+
+    </div>
+<div type="chapter">
+<head>18 sausio.</head>
+
+      <p>Nuo pietų jau pradējau laukti daktaro, bet veltu: vażinējosi po ligonius ir tik pavakaryje atbēgo pas musų. Dariau tvarką sudedamame kambaryje; tik veiziu — durys atsidaro, ir įbēga daktaras. Kol suspējau ištarti żodį, jau pagavo mano rankas ir
+        pabučiavo... ne į vieną ir nesykį, bet į abi po kelis kartus. Paraudusi, išroviau rankas; o jis juokdamasis, tarē:</p>
+      <p>— Nepyk, p. Viktorija! Teip išsiilgau, juog negalējau išturēti!</p>
+      <p>Gēda man truputį buvo nuo tokio pasisveikinimo; nekalbēdama nieko, variau jį į kambarius sakydama, juog pabaigus šluoti sudedamąjį kambarį ateisiu tenai ir klausysiu jo pasakojimų apie kelionę. Bet jis, tarsi neišgirdęs mano żodżių, atēmē nuo
+        manęs šluotą ir ēmē šluoti lyg tikras tarnas; tuotarpu kalbējo be paliovos, lyg malte-malē; kaip pasiilgęs musų, kaip dżiaugiasi pamatęs, kokias knygas atveżęs ir t. t. Pabaigus jam šluoti, nuējo-va kartu į kambarius, kur jau gulējo visa kruva knygų
+        ir gaidų. Negalējau išreikšti savo dēkingumo ir dżiaugsmo uż viską, tiek atveżē gerų daiktų! Elementorius, laikraščius, šeip jau knygeles, Daukanto istoriją — żodżių, kaip iš gausumo rago išpylē. Nebeżinojau pati, uż ko griebtis: mēginau gaidas,
+        skaičiau laikraščius, żiurējau į knygas. Paskui prasidējo pasakojimai visokių naujienų, surinktų kelionēje; buvo Peterburge, tai ir apie politiką šį-tą naujo galējo pasakyti. Tētušis eina gulti 9-toj, vienok šiandieną ir jis prasēdējo lyg I0-tos, kol
+        išsiklausinējo apie viską.</p>
+      <p>Tur but daktaras użkrētē ir mus savo linksmybe. Atējome gulti į savo kambarį, bet nē pamislyti apie miegą nenoriu; pradējome juoktis, dainuoti, paskui man į galvą atējo rašyti eiles. Juokaudamos sudēstėme satirą apie daktarą; kaip jis grajijo,
+        kaip velka knygas, kaip zuikius vienu żvilgterējimu użmuša ir t. t.</p>
+
+      </div>
+  <div type="chapter">
+  <head>22 sausio.</head>
+
+      <p>Pradējau jau mokytis gramatikos. Idant greičiau išmokčiau lietuviškai, daktaras patarė man versti trumpas pasakēles iš kitų kalbų, kuriąs żadējo paskui pataisyti, išaiškindamas klaidas. Tvirtina jis, juog daug geriau butų rašyti ką nors iš savo
+        galvos, nes vertimui reikia pażinti kalbą geriau. Pamēgįsiu... gal kas nors ir išeis iš „mano galvos”! Saldžios svajonēs apsupa man galvą: pramokus kalbos, gal ką gero parašysiu, gal tas mano rašymas patiks, taps atspauzdintas... Kokia aš tadą bučiau laiminga!</p>
+      <p>Galēčiau truputį daugiau naudos atnešti savo tēvynei!... Pikta esu pati ant savęs: elgiuos kartais lyg mażas vaikas. Nuējome visi, t. y. Alenutē, daktaras, Kaziukas ir aš, ant ledo pasičiużinē-ti. In mane tarsi koks velniukas įlindo, użējo noras
+        pasipriešinti daktarui, apēmē lyg koks apmaudas ant jo. Atnešē jis cukierkų, kuriąs pralošē man kanakados, o aš paēmiau jąs ir įmečiau į pusnynus, sakydama, juog nieko nuo jo nenoriu ir visiškai nemēgstu. Kaziukas su Alenutē nubēgo jieškoti
+        nelaimingų cukierkų, o jis nē żodżio nepasakē, tarsi nepamatęs. Atējus ant ledo, atsisēdau prisirišti čiużyklas, bet jis atēmē jąs ir neżiurēdamas, juog nenoriu duoti, pririšo man; o aš tuotarpu rugojau, juog jis man ramumo neduoda, juog pati mēgstu
+        sau viską dirbti ir nenoriu jokių tarnų. Jis visiškai neklausydamas manęs, pririšo sau čiu-żyklas ir padavē man ranką, kad kartu bēgiotų. Bet aš nepriēmiau rankos, sakydama, juog nesijudįsiu iš vietos, kol jis čę stovēs, tegul sau važiuoja į antrą
+        Ventos kraštą; tadą jis, padėjęs pririšti čiużyklas Alenutei, nubēgo su ją toli, lyg tilto, o aš tuotarpu ēmiau bēgioti su Kaziuku. Kas man buvo, Dievas żino! Norējau juk bēgioti su daktaru, malonu man visados su juo, vienok bēgau vis jam iš kelio
+        stengdamasi buti antrame upēs krašte... Gerai, kad greitai perējo tas mano upas; Alenutē pradējo juoktis iš manęs, padavē vieną ranką daktarui, kitą man ir tokiu budu ēmēme kartu bēgioti.</p>
+
+    </div>
+<div type="chapter">
+<head>25 sausio, sereda.</head>
+
+      <p>Vakar bobos, atējusios karvių milżti, gyrē labai daktarą, ste-bēdamosis iš jo gerumo. Nuvażiavęs jisai pas vieną ligonę; pamatęs, juog negerai tę jai buti: żmonēs svetimi, nēra vietos trio-boje, liepęs atveżti į miestelį, kur pasamdęs kambarį ir
+        żadąs ją maitinti ir gydyti. Ta ligonē neturtinga mergaitē, nieks jam uż tai nieko neużmokēs. O kiek tai jam kaštuos! Tai geros širdies żmogus! kalbējo bobos.</p>
+      <p>Nemačiau daktaro per kelias dienas ir nieko apie tai neżinojau. Šį vakar jam atbēgus, tuojau paklausiau, ar tiesą šneka bobos. Jis prasijuokē.</p>
+      <p>Na, tos bobos — tikri laikraščiai! Vienok šį sykį bent nepamelavo. Tikrai, nuvażiavau į Šekščius, veiziu, jauna mergi-</p>
+      <p>na serga dżiova Tēvų neturinti, tarnavo kol galējo, paliegus visiškai, atējo pas savo giminę ir atsigulē. Trioba maża, aprukusi, vaikų kruva, vietos nēra; guli ji, vargšē, ant suolo po lango, pro kurį sniegai krinta į vidų Kokius čę vaistus duosi?
+        Reikia jai geresnio oro, stiprinančio valgio ir priżiurējimo. Liepiau atveżti ją pas mane, o tuotarpu pasamdżiau jai kambarēlį pas vienos davatkos, kuri ligonę priżiurēs. Turi ji dżiovą, bet, budama geresnēse sąlygose, išturēs żiemą ir patrauks
+        keletą mēnesių; tenai jos egzistencija buvo tiesiog negalima.</p>
+      <p>Mama išgirdus tai pasakē, juog tur but ligonei reikia skalbinių ir patalinēs, ir priżadējo pajieškoti ko nors tarp savo daiktų. Paskui daktaras pasakojo, kaip reikalingas esąs jam ligonbutis. Turēti savo ligonbutį, yra jo svajonē. Teip tankiai
+        sutinkąs ligonius, kuriems ne tiek pagelbētų vaistai, kiek grynas oras ir geras użlaikymas; butinai norįs jis įkurti ligonbutį čę miestelyje, lyg rudens tikįsis surinkti reikalingus pinigus ir atdaryti jį. Jau ir vietą jam aprinko prigulinčiuose
+        tetušiui namuose, ant pat Ventos kranto; tetušis priżadējo per vasarą juos pertaisyti, kaip reikia. Kad Dievas duotų išsipildyti tam jo norui! Kokia tau nauda ir geradējystē butų aplinkiniams żmonēms!</p>
+      <p>Pasakiau jam, juog pavydżiu, kad jis tiek naudos gali atnešti żmonijai, tiek gero padaryti. Prisipażinau, mąsčiusi palikti seserimi mielaširdystēs Varšavoje, nes tokiu budu bučiau galējus buti naudinga ant svieto; jausčiau tadą, juog neveltui
+        gyvenu. O dabar, čę tankiai nusiminimas apima, juog nieko nedirbu dēl kitų. Ant to jis atsakē:</p>
+      <p>— Ką tamsta pasakytumei ant żmogaus, kurs turēdamas sergančią motiną, apleistų ją ir eitų priżiurėti kitą, svetimą ligonį? Reikētų pripażinti, juog pasielgē jis beprotiškai, nes pirma prider-mē kiekvieno żmogaus — yra pridermēs dēl savo tēvų.
+        Lygiai kaip tas žmogus pasielgtumei tamsta, pamēčius savo tēvynę, savo tautiečius, ir paaukavus savo spēkas svetimiems. Neatmetu naudos milaširdystēs seserų ir żinau, juog jų niekur nēra perdaug, bet vis-gi jų yra tenai nors maż-daug użtektinai; o
+        musų tautiečių, trokštančių darbuotis dēl labo tēvynes — labai, labai mażai. Tamsta pasijutai lietuve, myli tēvynę ir jos vaikus, tai tamstai vieta ne tenai, bet čę. Musų padējimo sąlygos yra teip baisios, reikalavimas inteligencijos pagelbos teip
+        didis, juog mirštamai nusideda tas, kurs galēdamas šiokią tokią naudą atnešti savo krašte, pameta jį ir eina sau tarnauti tolesniems artimiems. Pamesk tamsta tą użmanymą, p. Viktorija! ir su juo drauge desperatiškas mislis. Ar-gi gali pasakyti, juog
+        nedarai nieko gero? Darai ir dabar jau, o ilgainiui darysi kaskart daugiau. Iš sykio viso ko padaryti negalima, prie viso ko reikia priprasti, prasimokti... O darbo nepritruks ir čę, nesibijok tamsta; tik reikia noro ir daug meilēs... O tamsta to
+        turi użtektinai.</p>
+      <p>Sakē paskui, juog jis pats pasilikęs daktaru labiausiai dēlto, kad, gyvendamas tēvynēje, darbuotųsi dēl jos.</p>
+      <p>— Ar tik dēlto? paklausiau. — Ar neējai tamsta į daktarus dēl paties to mokslo?</p>
+      <p>— Ne. Żinoma, ir mokslas man tinka, kitaip negalēčiau jo tyrinēti; bet niekados nesutikdavau su teorija: mokslas dēl paties mokslo, teip pat kaip ir daila dēl dailos. Aš żiuriu į juos, kaipo į įrankius, bet ne kaipo į siekį; o paskutiniu siekiu
+        dēl manęs yra visados — żmonių nauda, jų morališkas ir protiškas pakēlimas.</p>
+      <p>Stebētinai patinka man tas daktaras... Kiekvienas jo żodis tarsi traukte traukia prie jo; tarsi, vis tai seniai aš mislijau ir turējau dvasioje, teip man tie jo żodžiai artimi ir pażįstami. Żinoma, beprotystē butų vażiuoti uż šimto mylių gelbēti
+        ligonius ir mokinti nemokančius, turint čę pat, aplinkui savęs, tiek tamsių galvų, tiek nepagelbētų vargų. Aš tą supratau, bet mislijau, juog vis tiek nieko gero aš čę nepadarysiu. Norējau labai, bet gerai sako daktaras, juog vieno noro neużtenka,
+        reikia dar mokēti; reikia żinoti, iš kur ir kokiu budu pradēti veikti. Dabar, dēku jam, pradedu suprasti ir mokēti: jis man nuolat rodo takus, kuriais żengdama, galiu nors retkarčiais pasijusti, neesanti jau galutinē żmonijos veltēdē. Mażai man to...
+        Vienok atminus daktaro żodżius, juog iš sykio visko negalima padaryti, susiraminu, turēdama tvirtą viltį ir norą, veikti kasdieną daugiau.</p>
+
+    </div>
+<div type="chapter">
+<head>28 sausio, subata.</head>
+
+      <p>Nunešēme su Alenute ryšį visokių apdarų tai daktaro ligonei. Net persigandau ją pamačius: jauna dar tokia, o sudżiuvusi</p>
+      <p>— kaulai vieni; išbalusi lyg drobē, lupos dreba iš didżio silpnumo. Sēdi lovoje atsilošusi į priegalvį. Pradżiugo vargšē, gavus tiek dovanų, net šypsoti pradējo:</p>
+      <p>— Dievas, — sako, — tur but milaširdingas našlaičiams, atsiuntē tokius geradējus. Kaip aš galēsiu atsimokēti dabar?</p>
+      <p>Yra ji persitikrinusi, juog išgis, nuolat kalba, kaip visą savo amżių tarnaus daktarui uż jo milaširdystę.</p>
+      <p>Iš savo „prelekcijų” mergaitēms esu lyg šiol użganēdinta; mażne visados atmena gerai, ką pirmiau buvau sakiusi. Mano pasakojimai użima jąs teip, juog susirinkusios vakare tuojau klausia, ar ateisiu šį vakar pas jų. Stanislovas, jei tik turi laiką,
+        sēdi visados kartu klausydamas atydżiai. Tapo jis labai mokytu vyru: pramoko rašyti, o skaito — lyg ropę griaużo; ima nuo manęs knygutes ir laikraščius ir skaito pats sau ir kitiems nedeliomis.</p>
+      <p>Ant lekcijų ateina kartais tetušis; klausosi, veizi, paglosto man galvą, pagal savo budą ir eina sau. O paskui sako:</p>
+      <p>— Tik susimildama, dirbk viską atsargiai! Kad kas nepatirtų ... Knygų tų nemētyk.</p>
+      <p>Alenutē juokiasi iš manęs, juog ateinant vakarui, vis bēgioju ant augšto į savo kambarį ir żiuriu pro langą... Negaliu nieko prieš tai pasakyti... teisybē. Iš musų langų plačiai matomas visas kelias lyg pat miestelio, tai ir żiuriu, ar nepasirodys
+        tenai augštas, juodas stumuo... Nepamačius nieko, darau liudną veidą ir dainuoju Alenutei gabalēlį iš daktaro dumkos:</p>
+      <p>Pusta droga na Podole, ani wieści niema!. ..</p>
+      <p>Ką padarysi?! Ilgu, kad jo nēra ir gana!</p>
+
+    </div>
+<div type="chapter">
+<head>30 sausio, panedēlis.</head>
+
+      <p>Gavau malonią dovaną — daktaro fotografiją. Panašus, bet nevisiškai. Pagal manęs, fotografija yra tadą gera, jei ant jos sugautas svarbiausias veido išreiškimas. Żmogus turi visokius išreiškimus; bet kiekvienas veidas turi vieną, viešpataujantį
+        ant kitų. To tai nēra toje fotografijoje. Daktaras išrodo čę perdaug linksmas, o jo svarbiausias išreiškimas yra melancholiškas ir użsimąstęs. Vienok ir teip grażu jam. Mēgstu labai żiurēti į jį, kad jis kuo nors użimtas, kad, duokime, skaito: jo
+        profilis toks dailus ir grażus, plaukai su tamsiai-mēlynu atmušalu teip puikiai garbiniuojasi ant jo augštos kaktos... O tokių akių dar nemačiau lyg šiol, tokių gerų, mąstančių ir teip aiškiai atmušančių dvasios judējimus.</p>
+      <p>Prašiau anąsyk jo atnešti man perskaityti visas savo poezijas. Šiandieną atnešē didį juodą notesą pilną popiergalių. Neturējau laiko lyg šiol perveizēti juos, tik dabar, atējus į savo kambarį ant nakties, galiu ramiai skaityti.</p>
+
+    </div>
+<div type="chapter">
+<head>2 vasario, četvergas.</head>
+
+      <p>Pati neżinau, kas man yra... ar laiminga esu, ar pikta, ar liudna... Tarp daktaro eilių radau vienas, parašytas paskutiniame laike, be jokio antgalvio; matyti, sudētos jos ex-promtu, neżiurint labai į formą, bet einančios teip iš širdies, teip
+        pilnos poezijos, juog man labai patiko.</p>
+      <p>Norēčiau buti mažutē muselē, idant lakiočiau po tavo grytelę....</p>
+      <p>bet musē greitai gali išgaišti, tai verčiau buti paukšteliu, paskui žiedu, augančiu po „jos” langu; ant galo nori palikti żvaigżdele ir veizēti iš augšto per langą; gal ji pażiurējus į dangų, pamatytų żvaigżdelę, tadą</p>
+      <p>... Nors akies mirksnį spindēčiau gilybēj</p>
+      <p>Tavo akelių... Mano visai laimei ir to użtektų....</p>
+      <p>Ant dainos nebuvo jokio parašo, kam ji, pas ką rašyta; bet man stebētinos mislįs į galvą atējo, kad żinau, kam. Laimēs jausmą pajutau širdyje... Bet tęsēsi tai labai trumpai, tuojau apmaudas apēmē, użpykau ant savęs, ir atmetus šalin tąs kvailias
+        mislis, tariau sau: Ko aš pabludau?! Grażios eilēs ir tiek. Tegul sau rašo kam nori, kas man galvoje!</p>
+      <p>Atējo daktaras pavakariais. Atsisēdau prie fortepijono, o jis atsirēmē iš šalies.</p>
+      <p>— Noriu tamstos prašyti, — tariau, — palikti man ilgiau juodą notesą, idant galēčiau persirašyti nekuriąs eiles.</p>
+      <p>— Tai tamsta jau perskaitei? Niekai vis — ar netiesa? O laikyti gali tamsta, kiek tik nori.</p>
+      <p>— Yra daug gerų.</p>
+      <p>Grajijau sonatą, bet jutau ant savęs jo akis, żiurinčias į mane be pertrukio. Erzino tai mane, neżinojau, kur pasidēti. Staigu išgirdau patylomis ištartą: „Viktutē!” Kraujas puolē man į veidą, paēmiau kelis klaidingus akordus ir pasikēliau nuo
+        fortepijono.</p>
+      <p>Mano „velniukas” vēl įlindo į mane apmaudas ēmē, juog jis, vietoj’ klausyti muzikos, kas żin apie ką mislija ir šneka.</p>
+      <p>— Dēlko teip trumpai? — paklausē jis.</p>
+      <p>— Gana bus....</p>
+      <p>Pradējau dēstyti gaidas ant etażerkos, jis priējęs arti, paēmē mano ranką. Susipratau, juog nori ją pabučiuoti, išroviau ją staigu ir išbēgau iš kambario prie gaspadorystēs. Per visą vakarą neištarēva tarp savęs nē żodżio, laikiaus vis ištolo.
+        Użtēmijau, juog buvo jis rustus, neilgai sēdējęs, išējo.</p>
+      <p>Nesigailiu ne trupučio... Kam man tos jo eilēs, rankų bučiavimas! Nenoriu! Baugu man ir neramu... Be to viso buvo gerai man ir turi buti gerai...</p>
+
+    </div>
+<div type="chapter">
+<head>6 vasario, panedēlis.</head>
+
+      <p>Nuo to nelaimingo četvergo nebuvo dar daktaras. Tur but użgavau jį tadą... Tegul sau bučiuotų rankas, tegul mano vardą vartotų ir eiles man rašytų, kad tik ateitų! Ilgu teip, juog apsakyti negaliu... Atsisēdau grajyti — širdis skaudēti pradeda,
+        kad jis neklauso, imu savo rašymus — nēra noro tęsti toliau, tiek jau prisirinko nepataisyto.</p>
+      <p>Vakar buvo įbēgęs ant minutos, vażiuodamas su p. Butautu ant medżioklēs, paimti šaudyklę nuo tetušio. Nuējus su reikalu į tetušio kambarį, sutikau jį; pasilenkē ir išbēgo atgal į šlajukus. Raminausi dar mislydama, juog neateina jis dēlto, kad
+        labai użimtas; dabar pamačiau, juog klystu: medžioti turējo laiką, o pas musų — ne... Pavydējau p. Juozui, kad su juo vażinējasi; pradējau neapkęsti medżioklēs, kad atima jį nuo manęs....</p>
+      <p>Turiu labai daug didybēs savyje; niekados, man ding, negalēčiau pamylēti to, kurs manęs nemylētų.... Jei jis nesiilgi manęs, tai kam aš jo turiu ilgētis?! Nenori — te neeina; aš neprašysiu jo, kad ateitų, tą żinau tikrai...</p>
+      <p>Visi pas musų teip jau priprato priējo, juog rodos dabar lyg netenka każinko. Stebisi ir tetušis, kas jam pasidarē, kad teip neb’ateina...</p>
+      <p>Pati nejuzdama kaip, atsiduriu prie lango savo kambario ir żiuriu į kelią... atsiminus, bēgu šalin ir noriu save išmušti. Yra tiek visokių użsiēmimų, juog kiekvieną valandą turiu użimtą; pasiduoti labai ilgējimui nēra laiko: vienok neapleidżia jis manęs ir prie darbo, niekur neduoda ramumo.</p>
+      <p>Nauja virēja lyg šiol gerai elgiasi; be neišeis ant mano żodżių.</p>
+      <p>Jei daktaras kadą ateis, laikysiuosi teip toli, kaip tik galima. Velyčiau numirti, nekaip parodyti, juog ilgu man be jo... Nori buti svetimu — tegul bųva! Mokēsiu ir aš!</p>
+
+          </div>
+<div type="chapter">
+<head>9 vasario, četvergas.</head>
+
+      <p>Vēl jau man gerai ir linksma!</p>
+      <p>Šiandien tēveliai buvo išvažiavę, Alenutē vaikščiojo apie ga-spadorystę, aš viena sēdējau kambariuose ir grajijau. Durys subrazdējo; apsisukau, veiziu — daktaras... Padavęs man ranką, tarē:</p>
+      <p>— Ar varysi mane tamsta, ar pyksi — negaliu ilgiau, atējau vēl!</p>
+      <p>O man iš dżiaugsmo, juog matau jį vēl ir girdżiu, visas apmaudas išnyko; juokdamasi atsakiau:</p>
+      <p>— Ką tamsta sakai?! Uż ką pyksiu ir varysiu! Dżiaugiuos pamačius, po tokio ilgo nesimatymo.</p>
+      <p>— Neējau, nors širdis traukte trauke: tamsta buvai tokia rusti anąsyk, lyg użpykusi... Nenorējau użsimesti... Bet neiškenčiau ilgiau... Dabar ar nepyksti? tikrai dżiaugiesi tamsta, kad atējau?</p>
+      <p>Żiurējo man į akis, klausdamas.</p>
+      <p>— Žinoma, ne! Ką tamsta prasimanai!</p>
+      <p>— Tai ant sutarimų duok savo rankelę pabučiuoti! Bent pajusiu, juog neesu pakyręs...</p>
+      <p>Daviau abidvi ir nusistebējau, żvilgterējus į jį; ką tik išveizējo jis teip liudnai, akyse tarsi ašaros virpējo; dabar lyg kas debesį nuo jo veido butų nutraukęs: akys żibējo iš dżiaugsmo, lupos juokēsi.</p>
+      <p>— Amżių nemačiau tamstų, negirdējau muzikos... pagra-jyk dar. p. Viktorija!</p>
+      <p>Grajijau jo numylētus daiktus, o jis klausėsi ir vis żiurējo į mane, tarsi šimtą metų nematęs. Atnešiau paskui jo eiles, idant išaiškintų nekuriąs vietas; parodżius dainą apie żvaigżdelę, tariau:</p>
+      <p>— Ta man uż vis patiko.</p>
+      <p>— Teip? Nieko čę gero; eliukubracija, be turinio. Parašiau, kad ištuštinčiau persipildżiusią širdį.</p>
+      <p>Atējo man noras jį paerzinti.</p>
+      <p>— A, tai tamstos širdis tokiais daiktais pripildyta! Nesitikėjau! Żingeidu żinoti, kas tai teip ją pripildē ir tąs eiles įkvēpē?</p>
+      <p>— O! daug tamsta nori żinoti!</p>
+      <p>— Ar tai paslaptis? Kokia tai ypata ir kaip išrodo?</p>
+      <p>— Kaip išrodo? Turi storas tamsias kasas, juodas, lyg naktis ir grażias lyg żvaigżdēs, akis... vienu żodżiu — yra grażiausia! O dušią turi dar grażesnę.</p>
+      <p>Ir żiurējo į mane šypsodamasis; aš juokiaus šelmiškai, tarsi, nieko nesuprazdama. O supratau gerai: nors aprašymas buvo neteisingas, vienok mačiau, juog ta ypata buvau — aš. Jis buvo linksmas visą vakarą lyg vaikas: bēgiojo su Kaziuku, juokēsi su
+        Alenute, padēdamas jai gaspadoriauti. Ir man buvo teip gerai, kaip retai...</p>
+      <p>Tai gi tai yra meilē!.. Ilgu man be jo, jis man grażiausias ir geriausias... Su juo šviesiau ir šilčiau pasidaro dušioje...</p>
+      <p>Nieko... malonu mylėti... tik be tų debesių ir ilgėjimo...</p>
+
+    </div>
+<div type="chapter">
+<head>15 vasario, sereda.</head>
+
+      <p>Jau ir po Użgavēnių. Pabarstē šiandien kunigēlis mums galvas pelenais: „Pelenas esi ir į peleną pavirsi.” Nelabai noriu atsiminti dabar apie tai ir sunku man apie tai mislyti.</p>
+      <p>Linksma buvo per tąs paskutines dienas. Nedēlioj’ nuvažiavome pas Butautų. Nelaimingam daktarui nedavē jie ramumo, nuolat erzindami jį juodomis akimis, grajijimu ir t. t. Atsišneki-nējo kaip galēdamas, bet mażai telaimējo, nes su Butautais sunku
+        riestis lieżuviais. Ta Onytē — juokinga ypata, ištikro: — żiurējo, żiurējo į daktarą ir sako:</p>
+      <p>— Ak, gailu! toks grażus jaunikaitis pasirodē ant musų horizonto ir tas jau „įsmukęs”.</p>
+      <p>— Nereikia nustoti vilties, — atsiliepē p. Juozas — kas żin, gal dar paimsi viršų.</p>
+      <p>— Et, ką gelbēs! Jau mostelējau ant jo ranka! Prapuolęs żmogus! Tas vienas tebuvo ir tas pats išslydo, ar neapmau-das! Dabar lauk, kol kits koks išplauks iš kur!</p>
+      <p>Prisijuokti galima iš jos lyg ašarų. O daktaras dar ją erzindamas, pats pradeda:</p>
+      <p>— Tai kokios man akys visų grażesnēs, pana Ona, ką?</p>
+      <p>— Dar klausia! Żinoma juodos!</p>
+      <p>Jis ima girti tų juodųjų akių grażumą ir gailētis, dēlko p. Onai Dievas juodų akių nedavē.</p>
+      <p>Susitarēme su Butautais panedēlį vażiuoti visi pas pp. P. į Użkampius: Atvażiavo jie pas mus su savo svečiais, o nuo musų visi kartu nukeliavome toliaus mażuose šlajukuose po vieną arklį; kiekviena pana gavo sau kavalierių uż veżēją. Liepiau
+        pakinkyti man mano „Perkuną”, ir norējau vażiuoti su daktaru, ir nors żinojau, juog jis su kitu kuo nesēs, vienok bēgdama pro šalį, tariau:</p>
+      <p>— Pone Antanai! tamsta vażiuosi su manim?</p>
+      <p>— Kad ir ant galo svieto! — atsake.</p>
+      <p>Prasijuokiau.</p>
+      <p>— Tuotarpu tik lyg Użkampių.</p>
+      <p>Pakelyje sugriuvo każikas vienuose šlajukuose ir sustojome ant valandēles. Eina pro šalį moteriške, żiuri ir sako:</p>
+      <p>— Tur but veselija vażiuoja; bet kur čę jauniejie?</p>
+      <p>— Aš jaunasis, o štai mano jaunoji! — atsiliepē balsas iš vienų šlajukų. Kits, toliau, peršaukē.</p>
+      <p>— Ne, męs jauniejie!</p>
+      <p>Moteriškē veizējo stebēdamosi, vienoje veselijoje tiek jaunųjų pamačiusi, palingavo galvą ir nuējo. Aš pati vadeles laikiau, nes labai tai mēgstu. Kelias buvo lygus, dailus, šlajukai bēgo patys; Perkunas, blizgēdamas kinkymais, iš reto
+        prunkščiojo. Kalbējome apie visados daugiausiai rupinčius mums dalykus, apie lietuvišką judējimą.</p>
+      <p>— Svarbiausias musų siekis — tarē daktaras, — yra iška-riavimas sau laisvēs tikybai ir tautai. Norime palikti tuo, kuo esame iš prigimimo, norime użlaikyti savo kalbą, norime buti Lietuvoje ponais, o ne vergais, ne tarnais. Dēlto kovojame už
+        spaudą, reikalaujame savo kalbai priderančios vietos bażnyčioje ir mokykloje.</p>
+      <p>Stengiamēs visiems lietuviams įkvēpti meilę savųjų dalykų, visus pritraukti prie išpażinimo musų idējos.</p>
+      <p>Kovojame męs su lenkais ir maskoliais ne dēlto, kad jie yra lenkais ar maskoliais, bet dēlto, juog plēšia mums musų turtus. Kiekvienam juk privalu apginti savastį. Tegul lenkai ir maskoliai liksis sau lenkais ir maskoliais ir Lietuvoje budami, —
+        prieš, tai niekas iš musų nieko neturi; bet tegul neužmeta mums savo tautos, tegul negaspadorauja Lietuvoje, kaip ant savo savasties.</p>
+      <p>Su tokiais tai kovojome ir kovosime lyg paskutinio kraujo lašo, nes nenorime buti nē lenkais, nē maskoliais, bet liuosa, ne-prigulminga, lietuviška tauta.</p>
+      <p>— Amen! Ne męs to sulauksime — tai sulauks vaikai. Laimingesni jie bus už mus: mums teko baisiuose laikuose gyventi, daktare!</p>
+      <p>— Ką padarysi?! Toks jau likimas buvo mums paskirtas. Sunkus likimas, sunkus darbas — bet už tai ir nuopelnas dides-nis: esame pirmais darbininkais, pijonieriais, żadiname użmigusią tēvynę — ar tai jokios vertēs neturi?! Bepigu sēti ant išdirbtos
+        dirvos — lengvas tai darbas ir daug norinčių juo użsiimti; bet kiek reikējo darbo kol ta dirva tapo tinkančia sējimui ir pradējo vaisius išdavinēti! Kiek reikējo tiems darbininkams spēkų, energijos, pasišventimo!</p>
+      <p>— Żinoma! amžina garbē tiems, kurie neżiurēdami į paojų, użmiršę savo ypatišką naudą, aukauja visas savo spēkas tēvynei. Kad tik nebutų tų partijų, tos neapykantos tarp jų; kad nepiltų į žmonių širdis nuodų bedievystēs ir socijalizmo, ardančio visas krikščioniškas tiesas......</p>
+      <p>— Tai yra „malum necessarium” dabartinēs żmonijos gyvenimo; partijos visur buvo, yra ir ilgai, tur but’, dar neišnyks. Żmonēs nepasiekē dar tos ideališkos egzistencijos, kad visi pildys Dievo valią; neatējo dar ant žemēs Dievo karalystē. Liudna
+        tai, żinoma, bet nieko nepadarysi; żmonija labai išlengvo żengia tolyn, su syk nepastumsi jos prie idealo. Kiekvienas żmogus turi stumti, kiek galēdamas ir įmanydamas, atmindamas, juog iš mażų smiltelių susideda kalnas.</p>
+      <p>Męs-gi, budami pertikrinti, juog teisybē ir šviesa — krikščionystēje, męs katalikai, turime visas spēkas paaukauti platinimui savo persitikrinimų, darbavimuisi ir kariavimui uż jąs — tik be neapykantos, żinoma, bet su krikščioniška meile..........</p>
+      <p>Grįżome vēlai: buvo jau naktis. Mēnesio nebuvo matyti, tik żvaigżdēs, lyg aniuolų akįs, mirgčiojo ant tolimo dangaus. Oras buvo nešaltas, jokio vējo, jokio balso... Visose triobelēse buvo tamsu, viename tik lange żibējo żiburys. Użtēmijau, juog,
+        tur buti, serga tę kas nors ir rytoj atvażiuos pas daktaro. Atidaviau vadżias savo kompanijonui, o pati żiurējau į žvaigżdes ir, gērēdamosi nakties grażumu, svajojau apie ateitį; apie tuos laimingus laikus, kad lietuviai bus Lietuvoje ponais, o ne
+        tarnais, kaip sakē daktaras; kad nieks iš jų nesigēdys to vardo, nē lietuviškos kalbos; kadą viešpataus Lietuvoje laisvē, šviesa, krikščioniška teisybē...</p>
+      <p>Gerai buvo... norējau, kad ta kelionē niekados nepasibaigtų... Ant galo pradējova su daktaru dainuoti, iš kitų šlajukų mums pritarē, ir daina lēkē toli, toli, atsimušdama nuo baltų sniegų ir tamsių pušynų...</p>
+      <p>Malonu buvo važiuoti. Viskas malonu su juo....</p>
+
+    </div>
+<div type="chapter">
+<head>19 vasario, nedēlia.</head>
+
+      <p>Rytoj vażiuojame į svečius ant keleto dienų. Daktaras jau šiandien dejavo, juog teip ilgai nesimatysime. Ir man nesmagu, ir velyčiau pasilikti namie. Vienok važiuoti reikia, o pamislijus giliau, juokinga butų nuliusti dēlto, juok kokią sąvaitę jo
+        nematysiu. Bet dar juokingiau, juog neatējus jam vieną - dvi dieni, vietos sau nerandu ir nuliustu... Juokinga... bet ką su tą širdimi padarysi?!</p>
+      <p>Użtēmijau, juog jis yra mano kriterium morališkos żmogaus vertēs: kiekvienas man netinkantis pasielgimas pakelia manyje mintį: jis teip nepadarytų, teip nepasakytų, nepasielgtų. O išgirdus, ar pażinus żmogų, visų pagirtą, tuojau sulyginu jį su p.
+        Antanu — ir atrandu, juog toli tam pagirtamjam lyg to — manojo. Kokia laimē pażinti ir mylēti tokį żmogų, apie kurį żinai, juog lyg dangus augštai stovi nuo kitų! Kitokio aš ir nepamylēčiau. ... Tankiai esu skaičiusi ir girdējusi, buk meilē yra
+        akla... Ne tiesa! Aklai pamylēti negalima: kol pamylēsi, reikia juk pirmiau pażinti żmogų, pirmo sutikto nepamylēsi, neżiurēdamas, koks jisai. Tiesa, atsitinka juk, kad įsimyli iš syk... bet aš to ne-suprantu ir visados juokai mane ima iš tokios
+        meilēs. Nebent į nosį, ar į akis įsimyli, nes ką kitą sunku pażinti pirmą sykį matant.</p>
+      <p>Stebētina tarp mudviejų: aš juk żinau, juog jis mane myli, jis teipogi — manding, o lyg šiol ne żodžio neištarēva apie meilę... Ir gerai teip... malonu ir laiminga. Sakiau visados, juog tada teištekēčiau, jei kada pajusčiau, juog be kokio żmogaus
+        sunku man gyventi, juog su juo — laimē, o be jo — tuštybē. Da bar tai jaučiu... ergo... Ar-gi ir ištekēčiau?!</p>
+      <p>Pradējova jau gana seniai kalbėti tarp savęs lietuviškai. Jis teip mēgsta, man teipogi malonu, nes noriu, kad teorija iš vien eitų su praktika. Dabar jau teip prie to pripratau, juog palikus viena su juo, kitaip negaliu kalbėti; lietuviška kalba
+        ir jis lyg susivienijo mano širdyje.</p>
+
+    </div>
+<div type="chapter">
+<head>25 vasario, subata.</head>
+
+      <p>Ir vēl esu namie... Šešias dienas viešējome ir teip pasiilgau namų, tarsi metus nebuvau juose. Żinoma, labiausiai pasiilgau ne pačių namų, be to, kurį juose tegaliu matyti. Vienok, ir neesant tam „kam nors”, vis tiek, nemēgstu ilgai vażinētis;
+        gerai paviešēti vieną - antrą dieną, paskui nusibosta buti be użsiēmimo ir traukte-traukia į savo kerčią. Laikas praējo įvairiai ir użimančiai; buvome keliose vietose, daug żmonių teko pamatyti. Visaip su manim buvo: kartais perkunijas ant savo
+        galvos użtraukdavau, kartais pasigailējimą, retai prijautimą ir pagelbą.</p>
+      <p>Nuvażiavome nuo dēdēs pas vienų ponų M. Użējo kalba apie „litvomaniją”; viena iš panų sako man:</p>
+      <p>— Negaliu suprasti, kaip galima teip palikti lietuvišku pa-trijotu: lenkiškai išsilavinus, lenkiškai nuo pat mażens kalbējus, sunku paskui grįżti prie tokios neišdirbtos, miškinēs kalbos, kaip lietuviška. Lenkiškoji visados paliks meilesnē, ar
+        neteisybē?</p>
+      <p>— Man priešingai: lietuviškoji daug uż visas meilesnē, — atsakiau.</p>
+      <p>Tarsi, perkunijai trenkus, nutilo mano pana ir nieko jau daugiau nepasakē, tur but’ mislydama, juog su kalbančia tokias „bliuznierstvas” nēra ko rokuotis. O ponas M. pajutęs manyje „litvomanę”, kaip iš maišo pylē visokius użmētinējimus prieš
+        „lit-vomanus”.</p>
+      <p>— Gerai — sako,—juog pradējo darbuotis dēl sodiečių, juog nori pakelti seną kalbą; bet dēlko skiriasi nuo lenkų? Kaip galima atmesti tuos, nuo kurių gavome kulturą, ant kurių literaturos išsilavinome? Dēlko „litvomanai” nekenčia dvarponių,
+        vadindami juos ironiškai lenkais? Dvarponiai yra tautos stulpai, nuo jų ima pavyzdżius liaudis, jie auklena idealus.</p>
+      <p>— Lietuviai jokios neapykantos prieš dvarponius, kaip tokius, neturi, — tariau. — Laiko tik jiems uż blogą jų išsitautini-mą, išmetinēja jų atsitolinimą nuo prastų żmonių, paskendimą ypatiškoje naudoje. Pasijutus dvarponiams esant, kartu su
+        liaudim, tos pačios tēvynēs sunumi, panorējus jiems prisidēti prie abel-no darbo Lietuvos labui, pradējus jiems ištikro auklenti idealus — niekas nieko prieš juos neturēs; tik dżiaugsis lietuviai, juog tēvynē atrado savo paklydusius sunus. Bet, ant
+        nelaimēs, dabartiniuose laikuose, jei yra kur idealai, tai tik ne pas musų dvarpo-nijos, ir imdama iš jų pavyzdżius, netoli tenużengtų tolyn musų tauta. Dabar idealus auklena żmones iš sodiečių išēję: jie darbuojasi dēl tēvynēs labo, aukauja viską
+        dēl idējos, išsiżada karije-ros ir garbēs, o dvarponių sunųs, jei dešimtas iš jų pabaigs augš-tesnius mokslus — vażiuoja sau į svietą ir prapuola dēl savųjų; kiti-gi, priēję prie „dvarponių kliasos” gimnazijose, baigia edukaciją ir sēdi dvaruose,
+        medżiodami pasogų. Maża nauda iš jų ir menkas pavyzdis. Żinoma, yra išimčiai, bet daugumas - tokie.</p>
+      <p>Neżinau, uż ką tapau palaikyta; uż kokią socijalistę, tur but; pasipiktinimas buvo didis — vienu żodżiu.</p>
+      <p>Pas dēdēs vēla suvażiavo kelios mano dēdienēs ir tetulēs, vis jaunamartēs, ir pradējo kalbēti apie vyrus: kaip juos reikia daboti, kaip vesti, kaip elgtis su jais... Buvau ir aš su jomis ir teip nusibodo manta kalba, juog negalējau tverti; tarsi,
+        apie vaikų auginimą kalbėjosi, ištikro, ne apie gyvenimą su suaugusiu żmogum. Ant galo viena tarē man:</p>
+      <p>— Viktute, klausykis ir įsidēk į atmintį, kaip reikia elgtis su vyru. Pasinaudosi kadą nors iš tų żinių, gavus savąjį.</p>
+      <p>— Dēku labai uż vyrą, kurį reikia ant virvēs vedżioti! Aš sau pasijieškosiu tokio, kurs pats mokēs eiti šalyj manęs!</p>
+      <p>Vēl kyla juokas ir pasistebējimas iš mano naiviškumo: tai,</p>
+      <p>sako, negalimas daiktas; reikia, buk, butinai vedżioti vyrą; jei jo nevedżiosi, jis tave vedżios.</p>
+      <p>Neżinau, kas yra, bet netinku aš prie jų visų! Jų nuomones erzina mane, o jie vēl juokiasi iš mano naiviškumo ir idealizmo. Atmenu, vienas kavalierius pasakęs apie mane tokią nuomonę: „Nieko butų, bet perdaug ideališka”. Prisijuokiau išgirdus tuos
+        żodżius ir dabar juokiuos, atminus.</p>
+      <p>Rytoj pamatysiu daktarą, garbe Dievui! tiek dienų nemačiau... Kol dabar apipasakosiu jam savo įspudżius iš keliones, — tiek jų prisirinko. O nepasidalijus su juo savo jausmais, rodosi man, juog nepilnai juos jaučiu.</p>
+
+    </div>
+<div type="chapter">
+<head>27 vasario, panedēlis.</head>
+
+      <p>Atējo šiandien fortepijonų taisytojas. Pažįstu jį seniai, nes tankiai apsilanko pas musų. Yra tai nelaimingas żmogus: gabus, gerai išmanąs savo darbą, bet didis girtuoklis: visą savo użdarbį prageria, ateina kartais pusiauplikis. Pataisęs
+        šiandieną fortepijoną ir gavęs keletą stiklinių degtinės, pasilinksmino ir ēmē dainuoti visokias dainas, nekuriąs labai juokingas. Buvo pas mus ir Onytē su broliu; visi klausēsi, prašydami daugiau ir juokdamiesi. Aš sēdējau kartu ir teipgi klausiaus.
+        Tik umai toks skausmas suspaudē širdį, toks gailestis apēmē to żmogaus; pasirodē jis man teip nelaimingas ir vertas pasigailējimo, kad uż porą stiklinių degtinēs juokina ir linksminasi — juog nepajutau, kaip ašaros iš akių pradējo riedēti...</p>
+      <p>Ir juk neesu visiškai verksnē... bet teip kartais staigu suspaus kas širdį ir, pagal żodžių Kondratavičiaus: ,,Nē nepajusi,</p>
+      <p>kaip ašaros iš akių pasilies, lyg vanduo”....</p>
+      <p>Musų ordinarčikų, Stonių, dukteryte susirgo karštlige. Pasirodē, juog ji jau gera valanda nesveika; nieko mums nesakydami, jie patys gydē savo vaistais. Bet matydama, juog vis blogyn eina, motina atējo pas musų. Tuojau nusiuntēme pas daktaro ir
+        jis atrado pas mergelēs tifusą. Prisakė labai ją daboti ir priveizēti. Żinodama, kaip żmonēs pas mus nenoriai ir netikēdami pildo daktarų paliepimus, einu pati kas dieną, padedu trinti ligonę visokiais spiritais ir uksusais, daboju, kaip duoda jai
+        vaistus, nešu gēralus. Vargšas vaikas guli, lyg lenta, net żiurēti baisu.</p>
+      <p>Tētušis visados labai rupinąsis apie mus ir bijąsis uż mus, prisakē, sergēk Dieve, nē kojos nekelti tenai, kad neużsikrēstume. Turiu eiti teip, kad jis nematytų. O matušēlē żino ir pati dar siunčia apżiurēti ir pridaboti ligonę.</p>
+
+    </div>
+<div type="chapter">
+<head>19 kovo, nedēlia.</head>
+
+      <p>Ankstybą pavasarį turime šįmet; sniegas jau ištirpo, tik kur ne-kur, po griovius ir karklynus tebaltuoja biaurus, pajuodavęs; Venta nusimetē jau ledus, plaukia użdama ir griaudama tiltus pakelyje. Kartais, turēdama laiką, bēgu prie maluno ir,
+        atsistojus ant tilto, żiuriu, kaip vanduo puola žemyn. Żiuriu, żiuriu, atsitraukti negalēdama, teip grażiai išrodo; nuo użimo ir judējimo vandens galva apsisuka ir, rodos, tuojau, tuojau nukrisi į tą bedugnę. Ak, gailu butų! gyvenimas dabar toks
+        geras ir grażus! Nemēgstu pavasario pradżios, žemē nešvari, nepasipuošusi, nēra ant ko užturēti akių; keliai baisus, purvynai bedugniai; eidama pas Stonių tankiai prisemiu kaliošus. Maża Pranytē jau geresnē; tebeguli dar ir negreitai galēs atsikelti,
+        bet karštis susimażino, apetitas pradeda grįżti. Nors liudnu man buvo visados, matant ją tokią blogą, vienok turējau kartais prasijuokti klausydamosi, kaip ji, karščiui użējus, vis apie żąsis šnekējo: rodēsi jai, kad jąs gano, skaitē żąsiukus, varē
+        juos iš rugių, o żąsiukai neējo, ir t. t. Dabar jau nebeklajoja, bet baisu żiurēti, kas pasidarē iš tos raudonskruostēs mergelēs. Nunešu jai kartais visokių paveikslēlių ir kitų żaislų, norēdama ją palinksminti; ji su dżiaugsmu żiuri, tylēdama, nes
+        sunku jai kalbēti, ir išlengvo šypsosi; pavargus, użmerkia akis. Kartais prašo manęs padēti mano ranką jai ant lupų ir bučiuoja ją, tur but’, motinos pamokinta dēkavoti. Daktaras liepē jai davinēti pieną gerti, o kadangi jų karvē nieko neduoda,
+        paliko man pinigų tam tikslui. Imu kasdieną nuo paktinin-ko ir liepiu gerti Pranytei.</p>
+      <p>Ant svieto tiek nelaimių, vargų ir ašarų, tiek blogumo ir neteisingumo, juog nesuprantu, kaip galima buti čę absoliutiškai laimingu. Gali juo buti tiktai egoistas. Štai kad ir aš dabar, ar nepasiekiau laimēs? Radau dušią tokią gerą, visi maniejei
+        sveiki ir gyvi, o vienok tankiai skauda širdį ir ašasos spaudżia gerklę, atminus, juog nevisi tegali apie save tai pasakyti.</p>
+      <p>Bet kaip man gerai dabar, Dieve mano! Norēčiau, idant niekados nepasibaigtų ir nepersimainytų niekas, idant visados teip laukčiau jo pavakariais, idant paskui, visi kartu sēdēdami už stalo, skaitytume ir kalbėtume apie viską, kas ant širdies guli.</p>
+      <p>Rečiau terašau savo dieninyje, laiko nėra, użsiēmimų lyg ausų.</p>
+
+    </div>
+<div type="chapter">
+<head>27 kovo, didysis panedēlis.</head>
+
+      <p>Daktaras ir p. Juozas šaudē żuvis Ventoje, musų sodo gale. Alenutē ir aš nubēgova pasiveizēti. Diena buvo grażi, šilta, kaip vasarą; vieversiai giedojo bē paliovos sidabrines daineles. Atsisēdusi ant seno pasilenkusio lyg żemēs gluosnio, prie pat
+        upēs, żiurėjau tai į Ventos bangas, tai prieš save, kur tarp karklynų juodavo silvetkos pono Juozo ir daktaro su šaudyklēmis. Retkarčiais dundējo šuviai ir plačiai lēkdami, birējo ant bangų.</p>
+      <p>Po valandēlēs atējo pas mane daktaras, sakydamas norįs biskį atilsēti; pastatē šaudyklę prie medżio, o pats atsisēdo prieš manęs. Turējau rankoje lazdelę ir pradējau su ją rašyti ant vandens, liepdama jam skaityti. Paskui jis użsinorējo rašyti ir
+        paēmęs lazdelę parašē: Myliu.</p>
+      <p>Supratau aiškiai ir parašiau vēl: Ką?</p>
+      <p>O jis jau żodżiais pasakē: Ar neżinai?</p>
+      <p>Atējo man noras išgirsti aiškiai ir pasakiau:</p>
+      <p>— Iš kur man żinoti! Neżinau!</p>
+      <p>Tada jis pasilenkęs ir į akis man żiurēdamas tarē:</p>
+      <p>— Tave!</p>
+      <p>Żinojau, juog tą żodį išgirsiu, vienok pajutau, kad paraudau. O jis klausē toliau:</p>
+      <p>— O tamsta, Viktute?</p>
+      <p>Stebētina baimē apēmē mane... norējau bēgti šalin, kad tik nieko atsakyti. Bet jis paēmē mane uż rankos ir vis klausē:</p>
+      <p>— Ar myli, Viktute? pasakyk bent sykį, nekankink!</p>
+      <p>— Kas żino! Gal.. — prašnabżdējau, akis į bangas įsmeigus.</p>
+      <p>— Neżinai?! Viktute! Ak tu, Dieve mano!</p>
+      <p>Żvilgterējau į jį: galvą nuleido ant rankų... Pašokau nuo gluosnio ir nuējau namų linkon; eidama, mačiau, kaip jis, valandēlę pasēdējęs, paēmē šaudyklę ir nuējo vēl šaudyti lydekų. Użējo paskui atsisveikinti — rustus ir nuliudęs — ir tuojau išējo
+        namo, skubēdamas prie lygonių, ir nemačiau jo daugiau šį vakar’............</p>
+      <p>O dabar nerimstu... Sążinē graużia, juog użgavau jį vēl, ir neturējau tiesos teip padaryti: juk żinau gerai, kad jis man už visus brangesnis, tai kodēl-gi neatsakiau teip, kaip jaučiu?! Pati neżinau... teip sau, drovu man pasidarē ir gana.</p>
+      <p>Myliu jį ir teip kankinu — gera mano meilē! Ne! teip negalima! Kaip galint greičiau reikia pataisyti savo klaidą ir padżiuginti tą mano geriausiąjį...</p>
+
+    </div>
+<div type="chapter">
+<head>28 kovo, didysis utarnikas.</head>
+
+      <p>Żodis ištartas... Susipratova ir galas bus kankinimui.</p>
+      <p>Bēgu šiandieną į gabinetą su każinkokiu reikalu, veiziu — daktaras besēdįs ir bedirbąs patronus. Buvau visą laiką użimta virtuvēje ir sudedamame kambaryje, dēlto neżinojau, juog jis yra pas musų. Inējus man, pašoko ir, pasisveikinęs toliau tęsē
+        savo darbą; o aš priējau arčiau prisiżiurēti. Staigu, pati neżinau kaip, pasilenkiau ir greitai, lengvai pabučiavau jam į plaukus... Ir tuojau persigandus: ką padariau, norējau išbēgti iš kambario, bet jis pagrobē mane pusiau ir nepaleido.</p>
+      <p>— Viktute, mylimiausia tu mano! — šnabżdējo, bučiuodamas man rankas ir į akis żiurēdamas, o aš raudau, lyg vēżys. — Ar tai atsakymas ant mano vakarykščio klausimo?! Turi dabar atsakyti... dēl meiles Dievo, Viktute!</p>
+      <p>— Ar tamsta neżinai? — Atsakiau jau dabar ganētinai...</p>
+      <p>— Ne, noriu išgirsti iš tavo lupų! Negaliu įtikēti į savo laimę, neišgirdęs savo ausimis. Ar tau teip sunku pasakyti?! Tur but’, nejauti giliai, Viktute!</p>
+      <p>Ką su tokiu daryti?! Pasilenkiau ir pridējus lupas prie pat jo ausies, tyliai—tyliai prašnabżdējau:</p>
+      <p>— Myliu tave.........</p>
+      <p>O paskui ištraukus iš jo rankų manąsias, skubinai išbēgau iš kambario.</p>
+      <p>Kaip sunku buvo ištarti, juog jį myliu! tarsi kas bumą użrišo... Bet pačiai klausyti malonu, ak Dieve, kaip malonu!</p>
+
+    </div>
+<div type="chapter">
+<head>30 kovo, didysis četvergas.</head>
+
+      <p>Pavargau per dieną teip, juog dabar rankos man dreba ir vos tegaliu suvaldyti plunksną, o kojų nejaučiu visai: per kiauras dienas bēgiojame, kepdamos, virdamos ir t. t. Reikia prikepti šeimynai visoko, o sau nors ir nedidį taisome stalą, vis-gi,
+        mażai turint tarnaičių, prisieina pačioms visur ranką pridēti. Ir p. Antaną pristatēme šiandien prie darbo: piaustē migdolus, rinko ra-zinkus... Juokų prie to ir linksmumo yra be galo. Użsimanē, kad sakyčiau jam „tu”, ir pasakius man „tamsta”, tarsi
+        negirdi; tol prašē, kol nenusibodo man klausytis ir pasakiau, kaip norējo, tyčioms atkartodama po kiekvieno žodžio „tu”. „Nepiaustyk tu, teip stambiai tu“, — ir teip vis. Jis juokēsi sakydamas, juog galiu ir po dešimtį sykių tą žodį atkartoti, jis
+        prieš tai nieko neturi, nenusibos jam klausyti.</p>
+      <p>Instabus jis dēlto, visiškai kitoks, kaip aš: man sunku teip pamesti „tamstą” ir sakyti „tu”, nuolat użmirštu, negalēdama priprasti. O jis — tarsi niekados kitaip manęs ir nevadinęs — kaip ant svieto gyvena!</p>
+      <p>Velykos — mano numylētos šventės; mēgstu jąs daugiau uż Kalēdas. Kartu ateina pavasaris, didesnēs apeigos bażnyčioje, didesni prisitaisymai namie — vis tai daro gilesnį įspudį ir linksmina żmogų. O šįmet, ką ir besakyti! Kiekviena diena man
+        linksma, bytik jis butų kartu, by tik girdēčiau jo balsą, matyčiau jo mąstančias akis...</p>
+
+    </div>
+<div type="chapter">
+<head>4 balandżio, utarnikas.</head>
+
+      <p>Stebētinai greitai pereina viskas ant svieto! Lauki, lauki kokios dienos — ateina ir nē neapsižiurēsi — jau ji nutekējus į amżinybę. Dēlto aš dżiaugiuos didżiau, laukdama kokios nors linksmybēs; atējus jai, neišeina iš galvos mislis, juog ji
+        tuojau pasibaigs ir sugadina dżiaugsmą. Ir Velykos perējo... nors, żinoma, nēra man ko liusti dēl tos prieżasties, p. Antaną matau ir be jų, laiminga esu teip pat, kaip ir pirma. Ne! galiu pasakyti, juog kiekviena diena priduoda laimēs, nes kas dieną
+        daugiau gero jame matau ir arčiau jo jaučiu save.</p>
+      <p>Per šventes buvo šis-tas pas musų ir vażinējom šę-tę. Ta Onytē, ištikro yra juokinga ypata, negali išturēti, neerzindama.</p>
+      <p>Stoviu vieną sykį su p. Antanu prie fortepijono, rinkdama gaidas grajijimui ir girdżiu kaip ji, stovēdama netoli manęs, sako Alenu-tei:</p>
+      <p>— Ar matai kokia iš jų butų grażi pora! Abudu aukšti, grakštus... labai nieko sau!</p>
+      <p>Prasijuokiau, ir peržiurēdama gaidas, tariau:</p>
+      <p>— O tau širdį skauda żiurint, ką? Prisipażink!</p>
+      <p>— Ne biskio! Perdaug veršiena kvepia!.</p>
+      <p>— Aha! rugštos vynuogēs! Żinoma!</p>
+      <p>Kokias jis turi akis, tas p. Antanas! Teip jose atsimuša kiekvienas dvasios judējimas, juog mainosi jos nuolat, lyg vanduo. Nematydama jo veido, o żiurēdama tik į akis, galēčiau įspēti, ką jis jaučia. Tikras dżiaugsmas buvo man vakar pas Butautų
+        jį observuoti: kalbant jam su kitais, akįs buva, kaip paprastai, rimtos, bet atsikreipus prie manęs, pażvelgus į mane — vienoje sekundoje mainēsi jos visiškai; tarsi, saulēs spindulys puolē staigu ant jų — tokios darēsi linksmos, jautrios, geros...
+        Buvo teip visą vakarą, o išrodē teip grażiai, juog żiurēčiau be galo.</p>
+      <p>P. Juozas użmanē, kad daktaras pasiliktų pas jų nakvoti ir ant rytojaus eitų kartu ant tetervinų. Jis labai mēgsta medżioti ir, żinoma sutiko, o man staigu pasidarē liudna ir nesmagu: dēl manęs kiekviena valanda, perleista su juo, yra brangi, teip
+        dżiaugiausi, juog grįšime kartu namo tokią grażią naktį. Tuotarpu jis sau visuramiausiai pasilieka čionai, medżioklē meilesnē jam uż vażiavimą su manim...</p>
+      <p>Żinoma, nepasakiau nē żodžio, da-gi stengiaus iš visų spēkų neparodyti savo jausmų; bet tur but’, ar nuliudau biskį, ar ką, nes jis, pażiurējęs į mane atydżiai kelis sykius, jau apie tetervinus nebekalbējo. Prieš išvażiuojant, p. Juozas tarē:</p>
+      <p>— Kaip gailu, kad nepasilieki, daktarai! Buvai jau priżadējęs ir kasżinkas teip staigu użējo!</p>
+      <p>— Ar tamsta nepasilieki? — paklausiau nusistebējusi. — Dēlko tai! Ar nemalonu pamedżioti ant tetervinų?</p>
+      <p>Baimē mane apēmē, ar neużtēmijo jis mano jausmų, dēlto kaip galēdama įkalbinējau jam pasilikti. Bet veltui: nepasiliko, sakydamas, juog kitą dieną ateisiąs ant medżioklēs, o dabar velija grįżti namo.</p>
+      <p>Żinau, juog nepasiliko dēl mano prieżasties, nors ne żodżio apie tai nebuvo pasakyta. Ir vēl dabar esu pikta ant savęs, juog buvau, lyg mażas vaikas, gēda man buvo pačios savęs ir paskui jau labai norējau, kad jis pasiliktų. Ar man galima
+        susilyginti su jo gerumu ir delikatiškumu?!</p>
+
+    </div>
+<div type="chapter">
+<head>1 balandżio, utarnikas.</head>
+
+      <p>Kartu su pavasariu užvirto ant musų tiek darbo, juog negali żmogus įmanyti, uż kokio nusitverti: reikia taisyti ir sēti darżus, dirbti darżelius, daboti perančias żąsis ir kalakutes, dalyti pavakarius ir t. t. O prie to viso dar użsiiminēti ilgiau
+        su Kaziuku, nes egzamenai panosyje. Pasidalijome darbais su Alenute: ji paēmē po savo prieżiura daržus, o aš darżelius ir sodą. Sodaunin-ko neturime, darbininkai visi użimti laukuose, tik vienas veżējas kartais dirba sode: reikia viską pačiai netik
+        priżiurēti, bet ir padirbti daug. Mano pasikalbējimai su tarnaitēmis persitraukē, jos visos użimtos laukuose per dieną, nebesusirenka jau vakarais, nes ir vakarų jau mażne nēra. Tik nedēliomis tęsiu savo pasakojimus, jų pačių prašyta. Iš to su
+        dżiaugsmu sprendżiu, juog tie pasakojimai użima jąs ir joms patinka.</p>
+
+    </div>
+<div type="chapter">
+<head>14 balandżio, četvergas.</head>
+
+      <p>Neišsakomas pasigerējimas yra żinoti, juog yra pasaulēje żmogus, atsidavęs tau visiškai, pasirengęs dēl tavęs ant didżiausių aukų; kurs uż visą svietą paimtų tave vieną, dēl kurio tu geriausioji, brangiausioji, dušia jo dušios.... Šį vakar jam
+        išeinant, stovējau ant gonkų; oras kvepējo pavasariu, ant dangaus plauke żibantis mēnuo. Atējo man į atmintį mażrusiška dainelē ir atsisveikindama, uždainavau jam pusbalsiu:</p>
+      <p>Oj, tu mēnes’, mēnesēli, Tik begrįżtant į namelius,</p>
+      <p>Neżibēk tu niekam, Mano numylētam!...</p>
+      <p>Ką ir besakyti, kaip jam patiko!</p>
+
+    </div>
+<div type="chapter">
+<head>16 balandżio, nedēlia.</head>
+
+      <p>Klausēmēs šį vakar lakštingalos, vaikščiodami po sodą; paskui Alenutē ir Kaziukas nubēgo namo, palikova tik mudu su p. Antanu. Atsistojau gale alējos ant Ventos kranto, ir atsirēmusi į medį, gērējaus lakštingalos daina. Umiai pajutau, juog p.
+        Antano ranka apkabina mane išlengvo, jis pats pasilenkęs ir żiurēdamas man į akis, paklausē:</p>
+      <p>— Viktute, pasakyk dar, ar myli mane?</p>
+      <p>Ir kaip visados, pirmoje valandoje nepatiko man tas klausimas; nekantriai atsakiau:</p>
+      <p>— Kam klausi, nesuprantu! Ar-gi dar nežinai??</p>
+      <p>— Żinau, mieliausia, bet teip malonu klausytis tų żodżių, ar-gi tau ne? Ir rodosi man kartais, juog tai sapnas vis ta tokia mano laimē... Pasakyk, vienintēle!</p>
+      <p>— Myliu, myliu, myliu.... atkartojau gal apie šimtą sykių, kad nors kartą prisotinti jį tuo żodžiu.</p>
+      <p>— Tai eikiva pas tavo tevelių pasakyti apie musų meilę... Juk jei myli mane, tai ir eisi uż manę, ką?!</p>
+      <p>— Ar eisiu? Ką veiksi, n’ējus? Teip įsispraudei į mano širdį, juog nēra man gyvenimo be tavęs....</p>
+      <p>Laimingas, bučiavo jis man rankas; o mane tuotarpu apēmē stebētinas jausmas: lyg gailestis, lyg baimē ateities, lyg laimē... pati nežinojau, kas, ir nepajutau, kaip akyse ašaros sużibējo, o jis jąs pamatē.</p>
+      <p>Persigandęs, nuliudęs, żiurējo į mane, klausdamas:</p>
+      <p>— Viktute, mieliausia, kas tau?! Kuo tave użgavau? Gal tu manęs nemyli ir pati apsirinki?! sakyk! Jei nenori, neisiva pas tēvelių, Viktute!</p>
+      <p>Gēda man pasidarē ir apmaudas, juog vēl jį użgavau savo kvailumu. Prasijuokiau ir użdējus ranką jam ant lupų, liepiau tylēti, paskui įkišau ranką jam po pażaste ir nuējova.</p>
+      <p>Tēveliai sēdējo ant gonkų. Apkabinau matušēlę, tardama:</p>
+      <p>— Matušēl’ p. Antanas klausia, ar eisiu už jo...</p>
+      <p>Nusišypsojo mama, tarsi seniai laukiamą naujieną išgirdus.</p>
+      <p>— O tu, żinoma, atsakei nenorinti... ar teip?</p>
+      <p>Turējau prasijuokti. Išbučiavova tēveliams rankas, pasijuokēme, prasiverkēme biskį.</p>
+      <p>Tai-gi turiu sużiedotinį... Galvoje man netelpa, kaip lyg to priējo: żmogų visiškai svetimą išrinkti sau ir eiti su juo... Kaip tai keista ir baugu!</p>
+      <p>Baugu, apskritai imant, bet man visiškai ne...</p>
+
+    </div>
+<div type="chapter">
+<head>25 balandżio, utarnikas.</head>
+
+      <p>Gavau pagelbininką sodo darbuose: p. Antanas atradęs liuo-są valandą ir atbēgęs pas mus, padeda man šluoti alējas. Bedirbant, laikas mums bēga labai linksmai ir meiliai: kalbava ir kalba-va be pertrukio ir vis dar yra apie ką.</p>
+      <p>Paklausiau vieną sykį jo, kas labiausiai jam patinka żmoguje. Atsakē, juog patinka jam, jei żmogus nesistengia jieškoti kituose blogų pusių. Żinoma, negalima jų neużtemyti ir reikia kartais apie jąs kalbēti, bet tai kas kita; biaurus man tas noras
+        jieškoti żmonēse vien tik ydų, ir tai su pasigerējimu, su dżiaugsmu. Nekenčiu, sako, żmonių, kurie su żiburių jieško nuodēmes savo artimų ir atradę ką nors, šaukia didżiu balsu, iškeikdami ir vadindami tą savo artimą prapuolusiu.</p>
+      <p>Visiškai sutikau su juo; ir man toks jausmas priešingas ir biaurus.</p>
+      <p>Kitą sykį vēlei kalbējova apie meilę. Aš pasakiau, juog nesuprantu, kaip galima mylēti kelis kartus, mainant tos meilēs darinius, lyg pirštines; meilē, pagal manęs, tada tēra tikra, gryna ir verta to vardo, jei pasilieka lyg mirties. Jeigu meilē
+        neamžina — nēra joje senso. Meilē, pareinanti kelis kartus gyvenime, ar dagi ant metų, nustumia żmogų į eilę gyvulių; nemēgstu klausyti ir skaityti apie tokius jausmus; nesmagu man ir koktu pasidaro.</p>
+      <p>Jis sutiko su manim. Bet sako, juog tarp żmonių, retai teatsitinka tas idealas ištikimumo.</p>
+      <p>Żinau tai, ir liudna man, juog teip yra...</p>
+
+    </div>
+<div type="chapter">
+<head>28 balandżio, pētnyčia.</head>
+
+      <p>Ir koks vakaras! Ir kaip laimingas gali buti żmogus ant żemēs!</p>
+      <p>Ką tik nusileido saulē uż tamsaus miško; żmonēs ir gyvuliai nutilo, pasislēpę po namus ir staldus. Tamsu ir slaptinga buvo alejoje... Liepos, apibarstytos jaunais lapeliais snaudē... Toliau truputį, ant pat Ventos, giedojo ir švilpavo lakštingala,
+        o jos daina plaukē kartu su kvapu jaunų berżelių ir żydinčių jievų, vienydamasi į vieną kruvą.</p>
+      <p>Sēdējau alējoj, savo numylētoje vietoje, ant upēs kranto, o šaly manęs stovējo Antanas, atsirēmęs į pilką liepos kamēną. Bu-</p>
+      <p>vau laiminga... laiminga teip, kaip tik galima čę buti laimingu, jaučiau rożes širdyje ir sparnus ant pečių... Lyg į vaiką pavirtusi, neatsiminiau praeities, nebijojau ateities, żinojau tik, juog gerai man, linksma, lengva... Ir kaip vaikas
+        użsinorējau pasilinksminti ir tariau:</p>
+      <p>— Antanēl’! pasakyk man kokią nors pasaką! Toks noras użējo pasiklausyti.</p>
+      <p>Jis prasijuokē.</p>
+      <p>— Nežinau, ar beatsimenu kokią! seniai visos išvēso iš galvos ... Nebent kokią trumpą.</p>
+      <p>— By kokią, vis tiek.</p>
+      <p>Atsirēmiau galva į jo petį ir użmerkiau akis, o jis pradējo patylomis, tarsi bijodamas pertraukti lakštingalą:</p>
+      <p>„Gyveno diedelis ir bobutē, turējo vištą ir gaidelį. Išējo vištelē ir gaidelis į girią riešutauti, atrado lazdynēlį. ,,Tu lipk, gaideli.” — Mano kelinaitēs plyš; lipk tu, vištele.” — Mano andaro-kaitis plyš.” Inlipo gaidelis į lazdynēlį, o vištelē
+        iš apačios: „Kar -kar-kar — mesk nors vieną kekelę; kar-kar-kar — nors vieną kekelę. Metē gaidelis kekelę ir išmušē vištelei akį. Gaidel, gaidel, kam akį išmušei? — Kad lazdynēlis palużo. Lazdinēl, laz-dinēl, kam tu palużai? — Kad ożkelē nugriaużē.
+        Ożkel, ożkel,kam tu nugriaużei? — kad piemenēlis neganē. Piemenēl, piemenēl, kam tu neganei? — Kad bobutē bandelēs nepakepē. Bobut, bobut, kam tu bandelēs nepakepei? — Kad kiaulē tešlą suēdē. — Kiaulel, kiaulel, kam tešlą suēdei? — Kad vilkas
+        paršelius nunešē. — Vilke, vilke, kam paršelius nunešei? — Mano gerklē neużrakinama....”</p>
+      <p>O laimē, kokia tu visogalinti! Kaip grożini ir permainai viską! Per tave tai ta trumpa naiviška pasakēle pasirodē man grażesnē uż grażiausias poemas. Prašiau jo atkartoti dar sykį ir dar sykį... Jis pasakojo ir juokēsi sakydamas, juog aš tikrai
+        esu lyg vaikas, nereikalauju grażių daiktų, ir lyg vaiką galima mane użimti by kuo. O laimē, kokia tu visogalinti!</p>
+
+    </div>
+<div type="chapter">
+<head>1 gegużio.</head>
+
+      <p>Musų vestuvēs atidētos ant metų pagal tēvų ir mano noro. Tēveliai tvirtina, buk aš dar esanti labai jauna ir nieko nekenksią palaukti; o man teip gerai dabar: esu pas tēvų, Antaną matau kas dieną — ko gi daugiau benorēti?! Żinau, juog tas laikas
+        nebesugrįš niekados, juog niekados jau nebegyvęsiu pas tevelių — ir teip gailu atsisveikinti su dabartiniu gyvenimu, juog noriu jį kuo-ilgiausiai pratęsti. Be to, turiu użsiēmimus, kuriuos noriu pabaigti: Kaziuką atiduosime į gimnaziją nuo vakacijų —
+        tas darbas bus atliktas; bet palieka dar mano mergaites; negaliu mesti jąs mokinus, noriu butinai išvaryti lyg galo pilną kursą savo „prelekcijų”, kurs prasitęs lyg ateinančių Kalēdų.</p>
+      <p>Vienas tik Antanas nelabai tesidżiaugē iš tokio musų użmanymo, bet niekam jo dejavimų neklausant, susitaikē su abelnu noru.</p>
+      <p>Vaikščiodamu paskui po sodą, svajojova apie ateitį, daryda-mu plianą musų gyvenimo.</p>
+      <p>— Rudenį turiu viltį įtaisyti savo ligonbutį, — sake mano mieliausias — atējus pas mane, rasi viską gatavą. Matai, mieliausia, kaip išsipildo tavo svajonēs: svajojai, nuvażiavus każinkur toli, gelbēti ligonius, o dabar gali buti seserimi
+        mielaširdystēs čę pat, tēvynēje. Turēsi po savo prieżiura visą ligonbutį, padēsi man gydyti... nepritruks darbo; pamatysi, kiek atrasi użsiēmimo. Gal bent tuokart nedejuosi, juog niekam jokios naudos iš tavęs nēra, ką?</p>
+      <p>— Tur but’, nebedejuosiu. Kad žinotumei, kokia aš laiminga pamislijus, juog gal tikrai, nevisiškai veltu gyvęsiu ant svieto! Dabar jau, ištikro, vien noro tereikēs, nes ir dirvą turēsiu platesnę naudai atnešti ir, jei nemokēsiu, tu visados mane
+        pamo-kįsi. Żinai, juog myliu tave iš visos širdies, vienok man rodos, juog dar per mażai už viską, ką man padarei ir padarysi...</p>
+      <p>— Niekus kalbi, Viktute!... Daug galēsi darbuotis: ir ant kuno gelbēsi żmones, ir dvasiškai galēsi juos aprupinti, nes kas tau neleis sakyti gyjantiems ligoniams tokių „prelekcijų”, kaip kad sakai savo mergaitēms?</p>
+      <p>— Żinoma! Mokįsiu butinai, kaip ir kur galint; tai juk svarbiausias budas pasēkimo siekio. Ir kaip aš laiminga, Antanēl, musų namai bus grynai lietuviški, nes lietuviškai mudu tarp savęs kalbava ir kalbēsiva visados.</p>
+      <p>— Teip, Viktute. Sergēk mus Dieve, buti tik vardu lietuviais! Jokiam żmogui nevalia buti tik vardu savo tēvynēs su-numi, mums, lietuviams, ypač. Męs esame pijoneriai, o pijone-ris tu imtis uż kiekvieno darbo ir neprivalo pailsti ne ant valandos.
+        Augšta, stora siena prieš musų, turime naudotis iš kiekvienos skylelēs, įleizdami pro ją nors po mażutį spindulēlį. Kas kiek gali, kas kaip išmano — teleidžia... Kad tik greičiau su -griauti tą amžiną sieną, kad tik greičiau atsidusti liuosai,
+        plačiai!...</p>
+      <p>Griausiva ir mudu, Viktute, suvienytomis spekomis, griausi-va kiek galedamu ir išmanydamu. O pavojingas tai darbas, mano mieliausia! ne pajuste, nepasijusiva, kaip reikēs gal dangintis kur nors už devynių kalnų ir miškų... Niekis tai! Vis gi skylę
+        gerą lyg to laiko išgriausiva. Reikės - vażiuosiva ir lauksiva sugrįżimo — vēl griauti... Ar teip, Viktute?</p>
+      <p>— Vażiuosiva, Antanēl, ir lauksiva!..............</p>
+      <p>Użstojo tylus, šiltas vakaras ir użmanēva vedu vażiuoti ant luoto prie to gluosnio, ant kurio giedojo lakštingala.</p>
+      <p>Ramiai, ramiai liuliavo Venta... jos sidabriniose bangose didis mēnuo lingavo savo veidą, klodamas mums po kojų platų vieškelį, auksu iškaltą. Pamażu, išlengvo nerdamu irklus tame aukse, plaukēva vis arčiau prie balso tos burtininkēs dainos...
+        Tyla, niekuo nepertraukiama, gili tyla... Tarsi, tos dainos klausosi seni gluosniai, pasilenkę ir merkiantiejei Ventos bangose savo sużēlusias šakas, ir kelmai, juodas galvas tarp bangų iškēlę, ir żvaigżdēs, mirgančios ir mainančiosis upes gilmēje...
+        Nutilę, klausēva ir mudu jos burtų, sustoję po gluosnio; o daina vis plau-kē, griaudi ir galinga, lingavosi, kaip bangos, lēkē tolybēn, toly-bēn, ir rodēsi, dangus vien buvo jai riba...</p>
+      <p>Ir rodēsi mums, juog lakštingala mudviem tik giedojo, juog su ta daina lekiame sau augštyn, augštyn, tarp żvaigżdelių, juog aplinkui nēra jau nieko — tik mudu ir ta daina...</p>
+      <p>Grįżome teippat pamażi, patylomis— Ramiai liuliavo Venta; naktis nusileido šilta, mąstanti, sidabrinē...</p>
+      <p>Koks grażus tas svietas ir kaip aš jį myliu! Veiziu tai į snaudżiančius upēs vandenis, apipintus żalių gluosnių vainiku, tai į żvaigżdes, żibančias ant musų ir po musų, tai į jį, į tą mano iš viso svieto išrinktąjį... Sutinku jo akis, žiurinčias į
+        mane — ir jaučiu tiek noro ir spēkų prie darbo, prie naudingo gyvenimo, ir tiek laimēs, tiek laimēs, juog nēra żmogaus visoje plačioje pasau-lēje, kurs laimingesnis butų uż mane. Aiškus ir lygus guli prieš manęs gyvenimas. Gal ir daug ašarų jis man rengia,
+        gal nesy-kį nelaimē, lyg juoda baidyklē, użstos man kelią — niekis tai! tam gyvenimas... Bet żinau, juog jis, tas mano išrinktasis, neużvils manęs niekados, juog su jo pagelba ir prie jo šalies neper-sapnuosiu amżiaus ir nepaklysiu iš kelio, vedančio
+        prie idealo...</p>
+      <p>1901 m.</p>
+    </div>
+
+  </body>
+</text>
+</TEI>
